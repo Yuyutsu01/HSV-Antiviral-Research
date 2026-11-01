@@ -1,0 +1,52 @@
+{
+  "baseline_carriage": {
+    "HSV1:UL5": {
+      "n_carrying_catalogued_substitution": 0,
+      "n_isolates": 256,
+      "proportion": 0.0
+    },
+    "HSV1:UL52": {
+      "n_carrying_catalogued_substitution": 0,
+      "n_isolates": 253,
+      "proportion": 0.0
+    },
+    "HSV2:UL5": {
+      "n_carrying_catalogued_substitution": 2,
+      "n_isolates": 173,
+      "proportion": 0.01156
+    },
+    "HSV2:UL52": {
+      "n_carrying_catalogued_substitution": 0,
+      "n_isolates": 156,
+      "proportion": 0.0
+    }
+  },
+  "constraint_test": {
+    "HSV1:UL5": {
+      "n_catalogued_positions": 8,
+      "n_isolates": 256,
+      "p_more_conserved_than_random": 0.5363,
+      "ratio": 0.0,
+      "variation_at_catalogued": 0.0,
+      "variation_gene_wide": 0.005752
+    },
+    "HSV1:UL52": {
+      "n_catalogued_positions": 6,
+      "n_isolates": 253,
+      "p_more_conserved_than_random": 0.3175,
+      "ratio": 0.162,
+      "variation_at_catalogued": 0.000659,
+      "variation_gene_wide": 0.004056
+    },
+    "HSV2:UL5": {
+      "n_catalogued_positions": 4,
+      "n_isolates": 173,
+      "p_more_conserved_than_random": 0.0391,
+      "ratio": 3.394,
+      "variation_at_catalogued": 0.00289,
+      "variation_gene_wide": 0.000852
+    }
+  },
+  "n_permutations": 10000,
+  "seed": 20261102
+}

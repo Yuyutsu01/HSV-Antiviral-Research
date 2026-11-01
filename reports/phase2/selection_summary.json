@@ -1,0 +1,117 @@
+{
+  "aim2_contrast": {
+    "HSV1": {
+      "UL23_pN_pS": 0.3823586435598123,
+      "UL30_pN_pS": 0.1748474814526312,
+      "ci_high": 0.2487560101690908,
+      "ci_low": 0.17093940372439326,
+      "difference": 0.2075111621071811,
+      "fraction_of_resamples_UL23_higher": 1.0
+    },
+    "HSV2": {
+      "UL23_reliable": false,
+      "UL30_reliable": true,
+      "skipped": "one or both genes unreliable"
+    }
+  },
+  "n_bootstrap": 1000,
+  "per_gene": {
+    "HSV1:UL23": {
+      "Sd": 609.0,
+      "ci": [
+        0.352250192272526,
+        0.4217371656083353
+      ],
+      "n_isolates": 251,
+      "pN_pS": 0.3823586435598123,
+      "reference_minority_positions": 4,
+      "reliable": true,
+      "top5_site_share_of_nonsyn": 0.481
+    },
+    "HSV1:UL30": {
+      "Sd": 1305.5,
+      "ci": [
+        0.16071713282626574,
+        0.19031511673732263
+      ],
+      "n_isolates": 253,
+      "pN_pS": 0.1748474814526312,
+      "reference_minority_positions": 3,
+      "reliable": true,
+      "top5_site_share_of_nonsyn": 0.472
+    },
+    "HSV1:UL5": {
+      "Sd": 983.0,
+      "ci": [
+        0.15781580041597615,
+        0.2006735989730851
+      ],
+      "n_isolates": 256,
+      "pN_pS": 0.1766919445062976,
+      "reference_minority_positions": 4,
+      "reliable": true,
+      "top5_site_share_of_nonsyn": 0.572
+    },
+    "HSV1:UL52": {
+      "Sd": 1764.0,
+      "ci": [
+        0.12347355308638266,
+        0.14707292290048818
+      ],
+      "n_isolates": 253,
+      "pN_pS": 0.13420733206604127,
+      "reference_minority_positions": 2,
+      "reliable": true,
+      "top5_site_share_of_nonsyn": 0.507
+    },
+    "HSV2:UL23": {
+      "Sd": 31.0,
+      "ci": [
+        1.767852903253615,
+        3.917751992002758
+      ],
+      "n_isolates": 159,
+      "pN_pS": 2.4879268929195297,
+      "reference_minority_positions": 1,
+      "reliable": false,
+      "top5_site_share_of_nonsyn": 0.795
+    },
+    "HSV2:UL30": {
+      "Sd": 177.0,
+      "ci": [
+        0.4203904032927896,
+        0.6316590604389288
+      ],
+      "n_isolates": 183,
+      "pN_pS": 0.5067610256361607,
+      "reference_minority_positions": 3,
+      "reliable": true,
+      "top5_site_share_of_nonsyn": 0.571
+    },
+    "HSV2:UL5": {
+      "Sd": 270.0,
+      "ci": [
+        0.12276016251225358,
+        0.19267301210742377
+      ],
+      "n_isolates": 173,
+      "pN_pS": 0.15561042585159146,
+      "reference_minority_positions": 0,
+      "reliable": false,
+      "top5_site_share_of_nonsyn": 0.724
+    },
+    "HSV2:UL52": {
+      "Sd": 215.5,
+      "ci": [
+        0.4661850119706667,
+        0.646947702268485
+      ],
+      "n_isolates": 156,
+      "pN_pS": 0.549240798817385,
+      "reference_minority_positions": 2,
+      "reliable": false,
+      "top5_site_share_of_nonsyn": 0.635
+    }
+  },
+  "seed": 20261102
+}

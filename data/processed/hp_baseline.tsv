@@ -1,0 +1,26 @@
+virus	gene	aa_change	position	evidence_tier	drugs_tested	max_fold_change	observed	count	coverage	frequency	ci_high
+HSV1	UL5	E34K	34	A_engineered	Aciclovir;Amenamevir;Foscarnet	1.5	0	0	0	0	0
+HSV1	UL5	A199T	199	B_lab_selected	Pritelivir	50	0	0	0	0	0
+HSV1	UL5	I341S	341	A_engineered	Aciclovir;Amenamevir;Foscarnet	1.5	0	0	0	0	0
+HSV1	UL5	N342K	342	B_lab_selected	Pritelivir	40	0	0	0	0	0
+HSV1	UL5	G352C	352	A_engineered	Aciclovir;Amenamevir;Foscarnet	25	0	0	0	0	0
+HSV1	UL5	G352R	352	B_lab_selected	Pritelivir	4e+03	0	0	0	0	0
+HSV1	UL5	G352V	352	A_engineered	Aciclovir;Amenamevir;Foscarnet;Pritelivir	400	0	0	0	0	0
+HSV1	UL5	M355I	355	B_lab_selected	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	7	0	0	0	0	0
+HSV1	UL5	M355T	355	A_engineered	Aciclovir;Amenamevir;Foscarnet;Pritelivir	15	0	0	0	0	0
+HSV1	UL5	K356N	356	A_engineered	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	5e+03	0	0	0	0	0
+HSV1	UL5	K356Q	356	B_lab_selected	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	150	0	0	0	0	0
+HSV1	UL5	K356T	356	B_lab_selected	Pritelivir	2e+03	0	0	0	0	0
+HSV1	UL5	C477D	477	A_engineered	Aciclovir;Amenamevir;Foscarnet	1.5	0	0	0	0	0
+HSV1	UL52	Y222C	222	A_engineered	Aciclovir;Amenamevir;Foscarnet	1.5	0	0	0	0	0
+HSV1	UL52	F294L	294	A_engineered	Aciclovir;Amenamevir;Foscarnet	1.5	0	0	0	0	0
+HSV1	UL52	F360C	360	A_engineered	Aciclovir;Amenamevir;Foscarnet	25	0	0	0	0	0
+HSV1	UL52	F360V	360	A_engineered	Aciclovir;Amenamevir;Foscarnet	158	0	0	0	0	0
+HSV1	UL52	S364G	364	A_engineered	Aciclovir;Amenamevir;Foscarnet	1	0	0	0	0	0
+HSV1	UL52	A899T	899	B_lab_selected	Pritelivir	2.5e+03	0	0	0	0	0
+HSV1	UL52	N902T	902	A_engineered	Aciclovir;Amenamevir;Foscarnet	6	0	0	0	0	0
+HSV2	UL5	H334R	334	C_clinical_isolate	Pritelivir		1	2	173	0.011561	0.041166
+HSV2	UL5	I340V	340	B_lab_selected	Amenamevir	2.1	0	0	0	0	0
+HSV2	UL5	G351R	351	B_lab_selected	Amenamevir	2.2e+03	0	0	0	0	0
+HSV2	UL5	K355E	355	B_lab_selected	Amenamevir	8	0	0	0	0	0
+HSV2	UL5	K355N	355	B_lab_selected	Amenamevir	2.8e+03	0	0	0	0	0

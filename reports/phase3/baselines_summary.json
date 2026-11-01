@@ -1,0 +1,3428 @@
+{
+  "seed": 20261102,
+  "label_sets": {
+    "primary_tier_A": {
+      "n": 119,
+      "n_observed_in_population": 13,
+      "gate_4": {
+        "leave_one_gene_out": {
+          "frequency_only_spearman": -0.1534,
+          "best_other": "baseline:esm_only/forest",
+          "best_other_spearman": 0.3352,
+          "difference": 0.4886,
+          "difference_ci": [
+            0.258,
+            0.7099
+          ],
+          "beats_frequency_baseline": true
+        },
+        "position_blocks": {
+          "frequency_only_spearman": -0.0772,
+          "best_other": "baseline:structure_only/ridge",
+          "best_other_spearman": 0.4812,
+          "difference": 0.5584,
+          "difference_ci": [
+            0.3274,
+            0.7709
+          ],
+          "beats_frequency_baseline": true
+        }
+      },
+      "results": {
+        "leave_one_gene_out": {
+          "baseline:frequency_only": {
+            "ridge": {
+              "n": 119,
+              "spearman": -0.1534,
+              "rmse": 0.8023,
+              "auc": 0.4835,
+              "ap": 0.7167,
+              "spearman_ci": [
+                -0.3329,
+                0.0299
+              ],
+              "auc_ci": [
+                0.3528,
+                0.6078
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 10.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": -0.188,
+              "rmse": 0.796,
+              "auc": 0.47,
+              "ap": 0.7126,
+              "spearman_ci": [
+                -0.372,
+                -0.0093
+              ],
+              "auc_ci": [
+                0.3394,
+                0.5944
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "baseline:conservation_only": {
+            "ridge": {
+              "n": 119,
+              "spearman": -0.2097,
+              "rmse": 0.834,
+              "auc": 0.3552,
+              "ap": 0.6851,
+              "spearman_ci": [
+                -0.3621,
+                -0.0477
+              ],
+              "auc_ci": [
+                0.2572,
+                0.4602
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": -0.1005,
+              "rmse": 0.8022,
+              "auc": 0.5524,
+              "ap": 0.7514,
+              "spearman_ci": [
+                -0.2922,
+                0.0997
+              ],
+              "auc_ci": [
+                0.4293,
+                0.6715
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "baseline:blosum_only": {
+            "ridge": {
+              "n": 119,
+              "spearman": -0.2539,
+              "rmse": 0.8064,
+              "auc": 0.3903,
+              "ap": 0.6868,
+              "spearman_ci": [
+                -0.4249,
+                -0.0739
+              ],
+              "auc_ci": [
+                0.2767,
+                0.5093
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": -0.0896,
+              "rmse": 0.8108,
+              "auc": 0.4957,
+              "ap": 0.7397,
+              "spearman_ci": [
+                -0.2696,
+                0.0931
+              ],
+              "auc_ci": [
+                0.3716,
+                0.6146
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "baseline:properties_only": {
+            "ridge": {
+              "n": 119,
+              "spearman": -0.0265,
+              "rmse": 0.8081,
+              "auc": 0.4591,
+              "ap": 0.7225,
+              "spearman_ci": [
+                -0.22,
+                0.1666
+              ],
+              "auc_ci": [
+                0.3366,
+                0.576
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 1.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": -0.0525,
+              "rmse": 0.855,
+              "auc": 0.4659,
+              "ap": 0.7361,
+              "spearman_ci": [
+                -0.2485,
+                0.1282
+              ],
+              "auc_ci": [
+                0.3498,
+                0.5832
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                }
+              ]
+            }
+          },
+          "baseline:structure_only": {
+            "ridge": {
+              "n": 119,
+              "spearman": 0.2861,
+              "rmse": 0.7483,
+              "auc": 0.7552,
+              "ap": 0.8742,
+              "spearman_ci": [
+                0.1112,
+                0.4485
+              ],
+              "auc_ci": [
+                0.6507,
+                0.8501
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": 0.3089,
+              "rmse": 0.7743,
+              "auc": 0.7606,
+              "ap": 0.8677,
+              "spearman_ci": [
+                0.1367,
+                0.4688
+              ],
+              "auc_ci": [
+                0.6458,
+                0.8584
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "baseline:esm_only": {
+            "ridge": {
+              "n": 119,
+              "spearman": 0.1378,
+              "rmse": 0.7749,
+              "auc": 0.5955,
+              "ap": 0.7964,
+              "spearman_ci": [
+                -0.0469,
+                0.3202
+              ],
+              "auc_ci": [
+                0.4787,
+                0.7092
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": 0.3352,
+              "rmse": 0.7076,
+              "auc": 0.6433,
+              "ap": 0.8479,
+              "spearman_ci": [
+                0.1563,
+                0.5014
+              ],
+              "auc_ci": [
+                0.5373,
+                0.7468
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "staged:stage1_freq": {
+            "ridge": {
+              "n": 119,
+              "spearman": -0.1534,
+              "rmse": 0.8023,
+              "auc": 0.4835,
+              "ap": 0.7167,
+              "spearman_ci": [
+                -0.3449,
+                0.0322
+              ],
+              "auc_ci": [
+                0.3471,
+                0.6091
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 10.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": -0.188,
+              "rmse": 0.796,
+              "auc": 0.47,
+              "ap": 0.7126,
+              "spearman_ci": [
+                -0.371,
+                -0.0024
+              ],
+              "auc_ci": [
+                0.3439,
+                0.5976
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "staged:stage2_freq_cons": {
+            "ridge": {
+              "n": 119,
+              "spearman": -0.1359,
+              "rmse": 0.8384,
+              "auc": 0.4551,
+              "ap": 0.7159,
+              "spearman_ci": [
+                -0.3108,
+                0.043
+              ],
+              "auc_ci": [
+                0.3311,
+                0.5819
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 1.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 1.0
+                },
+                {
+                  "m__alpha": 1.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": -0.1328,
+              "rmse": 0.8155,
+              "auc": 0.525,
+              "ap": 0.7365,
+              "spearman_ci": [
+                -0.318,
+                0.0568
+              ],
+              "auc_ci": [
+                0.3977,
+                0.6529
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "staged:stage3_freq_cons_prop": {
+            "ridge": {
+              "n": 119,
+              "spearman": -0.0156,
+              "rmse": 0.8252,
+              "auc": 0.4612,
+              "ap": 0.7308,
+              "spearman_ci": [
+                -0.2029,
+                0.175
+              ],
+              "auc_ci": [
+                0.3556,
+                0.5787
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 1.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": -0.0583,
+              "rmse": 0.8412,
+              "auc": 0.4856,
+              "ap": 0.7405,
+              "spearman_ci": [
+                -0.2432,
+                0.1204
+              ],
+              "auc_ci": [
+                0.373,
+                0.606
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "staged:stage4_plus_structure": {
+            "ridge": {
+              "n": 119,
+              "spearman": 0.2386,
+              "rmse": 0.7596,
+              "auc": 0.68,
+              "ap": 0.8319,
+              "spearman_ci": [
+                0.0531,
+                0.4177
+              ],
+              "auc_ci": [
+                0.567,
+                0.7841
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": 0.0504,
+              "rmse": 0.8188,
+              "auc": 0.6487,
+              "ap": 0.8199,
+              "spearman_ci": [
+                -0.1513,
+                0.2465
+              ],
+              "auc_ci": [
+                0.5276,
+                0.7553
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "staged:stage5_plus_esm": {
+            "ridge": {
+              "n": 119,
+              "spearman": 0.2663,
+              "rmse": 0.7497,
+              "auc": 0.6857,
+              "ap": 0.8382,
+              "spearman_ci": [
+                0.0709,
+                0.4486
+              ],
+              "auc_ci": [
+                0.5781,
+                0.7896
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": 0.2987,
+              "rmse": 0.7355,
+              "auc": 0.6904,
+              "ap": 0.8643,
+              "spearman_ci": [
+                0.1149,
+                0.4747
+              ],
+              "auc_ci": [
+                0.5891,
+                0.787
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                }
+              ]
+            }
+          }
+        },
+        "position_blocks": {
+          "baseline:frequency_only": {
+            "ridge": {
+              "n": 119,
+              "spearman": -0.0785,
+              "rmse": 0.7762,
+              "auc": 0.5038,
+              "ap": 0.7489,
+              "spearman_ci": [
+                -0.2612,
+                0.0988
+              ],
+              "auc_ci": [
+                0.3779,
+                0.6191
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 10.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": -0.0772,
+              "rmse": 0.7622,
+              "auc": 0.5041,
+              "ap": 0.7489,
+              "spearman_ci": [
+                -0.2517,
+                0.1087
+              ],
+              "auc_ci": [
+                0.3886,
+                0.6242
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "baseline:conservation_only": {
+            "ridge": {
+              "n": 119,
+              "spearman": -0.2758,
+              "rmse": 0.7802,
+              "auc": 0.3093,
+              "ap": 0.6314,
+              "spearman_ci": [
+                -0.4554,
+                -0.0777
+              ],
+              "auc_ci": [
+                0.1991,
+                0.4272
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": 0.1054,
+              "rmse": 0.8323,
+              "auc": 0.6085,
+              "ap": 0.7687,
+              "spearman_ci": [
+                -0.0814,
+                0.2931
+              ],
+              "auc_ci": [
+                0.4831,
+                0.7272
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "baseline:blosum_only": {
+            "ridge": {
+              "n": 119,
+              "spearman": -0.1575,
+              "rmse": 0.7851,
+              "auc": 0.4533,
+              "ap": 0.7171,
+              "spearman_ci": [
+                -0.3308,
+                0.0251
+              ],
+              "auc_ci": [
+                0.3285,
+                0.5774
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": 0.1327,
+              "rmse": 0.7683,
+              "auc": 0.5954,
+              "ap": 0.7981,
+              "spearman_ci": [
+                -0.045,
+                0.2975
+              ],
+              "auc_ci": [
+                0.4777,
+                0.7129
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "baseline:properties_only": {
+            "ridge": {
+              "n": 119,
+              "spearman": -0.0686,
+              "rmse": 0.8091,
+              "auc": 0.477,
+              "ap": 0.7508,
+              "spearman_ci": [
+                -0.2473,
+                0.1123
+              ],
+              "auc_ci": [
+                0.3585,
+                0.5905
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 1.0
+                },
+                {
+                  "m__alpha": 1.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": -0.1328,
+              "rmse": 0.8182,
+              "auc": 0.4655,
+              "ap": 0.7468,
+              "spearman_ci": [
+                -0.3087,
+                0.0522
+              ],
+              "auc_ci": [
+                0.3551,
+                0.5753
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "baseline:structure_only": {
+            "ridge": {
+              "n": 119,
+              "spearman": 0.4812,
+              "rmse": 0.7204,
+              "auc": 0.7947,
+              "ap": 0.9047,
+              "spearman_ci": [
+                0.3044,
+                0.6228
+              ],
+              "auc_ci": [
+                0.691,
+                0.886
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": 0.4114,
+              "rmse": 0.7223,
+              "auc": 0.8069,
+              "ap": 0.916,
+              "spearman_ci": [
+                0.2404,
+                0.5681
+              ],
+              "auc_ci": [
+                0.7085,
+                0.8897
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "baseline:esm_only": {
+            "ridge": {
+              "n": 119,
+              "spearman": 0.3053,
+              "rmse": 0.742,
+              "auc": 0.6602,
+              "ap": 0.8475,
+              "spearman_ci": [
+                0.1266,
+                0.486
+              ],
+              "auc_ci": [
+                0.5585,
+                0.7584
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": 0.3635,
+              "rmse": 0.6931,
+              "auc": 0.6356,
+              "ap": 0.8358,
+              "spearman_ci": [
+                0.1901,
+                0.5343
+              ],
+              "auc_ci": [
+                0.5301,
+                0.7443
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "staged:stage1_freq": {
+            "ridge": {
+              "n": 119,
+              "spearman": -0.0785,
+              "rmse": 0.7762,
+              "auc": 0.5038,
+              "ap": 0.7489,
+              "spearman_ci": [
+                -0.2438,
+                0.0941
+              ],
+              "auc_ci": [
+                0.3879,
+                0.6226
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 10.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": -0.0772,
+              "rmse": 0.7622,
+              "auc": 0.5041,
+              "ap": 0.7489,
+              "spearman_ci": [
+                -0.2516,
+                0.0995
+              ],
+              "auc_ci": [
+                0.3855,
+                0.6211
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "staged:stage2_freq_cons": {
+            "ridge": {
+              "n": 119,
+              "spearman": -0.1888,
+              "rmse": 0.8194,
+              "auc": 0.4158,
+              "ap": 0.6823,
+              "spearman_ci": [
+                -0.3794,
+                0.0056
+              ],
+              "auc_ci": [
+                0.2875,
+                0.5507
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 1.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": 0.1422,
+              "rmse": 0.796,
+              "auc": 0.5885,
+              "ap": 0.778,
+              "spearman_ci": [
+                -0.038,
+                0.32
+              ],
+              "auc_ci": [
+                0.4701,
+                0.7072
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "staged:stage3_freq_cons_prop": {
+            "ridge": {
+              "n": 119,
+              "spearman": 0.0114,
+              "rmse": 0.7784,
+              "auc": 0.5007,
+              "ap": 0.752,
+              "spearman_ci": [
+                -0.1701,
+                0.2016
+              ],
+              "auc_ci": [
+                0.3812,
+                0.621
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": -0.099,
+              "rmse": 0.8022,
+              "auc": 0.5169,
+              "ap": 0.7685,
+              "spearman_ci": [
+                -0.2733,
+                0.0772
+              ],
+              "auc_ci": [
+                0.405,
+                0.6239
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "staged:stage4_plus_structure": {
+            "ridge": {
+              "n": 119,
+              "spearman": 0.2972,
+              "rmse": 0.7583,
+              "auc": 0.7288,
+              "ap": 0.8541,
+              "spearman_ci": [
+                0.1163,
+                0.4746
+              ],
+              "auc_ci": [
+                0.6174,
+                0.8339
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 10.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": 0.3144,
+              "rmse": 0.7435,
+              "auc": 0.7486,
+              "ap": 0.8868,
+              "spearman_ci": [
+                0.1327,
+                0.4886
+              ],
+              "auc_ci": [
+                0.6494,
+                0.8444
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                }
+              ]
+            }
+          },
+          "staged:stage5_plus_esm": {
+            "ridge": {
+              "n": 119,
+              "spearman": 0.3794,
+              "rmse": 0.7174,
+              "auc": 0.7328,
+              "ap": 0.8732,
+              "spearman_ci": [
+                0.2023,
+                0.541
+              ],
+              "auc_ci": [
+                0.6276,
+                0.828
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 119,
+              "spearman": 0.4393,
+              "rmse": 0.6892,
+              "auc": 0.7493,
+              "ap": 0.8865,
+              "spearman_ci": [
+                0.2472,
+                0.596
+              ],
+              "auc_ci": [
+                0.6481,
+                0.8386
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "secondary_all_tiers": {
+      "n": 235,
+      "n_observed_in_population": 28,
+      "gate_4": {
+        "leave_one_gene_out": {
+          "frequency_only_spearman": -0.0179,
+          "best_other": "baseline:structure_only/forest",
+          "best_other_spearman": 0.5497,
+          "difference": 0.5676,
+          "difference_ci": [
+            0.417,
+            0.7134
+          ],
+          "beats_frequency_baseline": true
+        },
+        "position_blocks": {
+          "frequency_only_spearman": -0.0611,
+          "best_other": "staged:stage5_plus_esm/forest",
+          "best_other_spearman": 0.5237,
+          "difference": 0.5848,
+          "difference_ci": [
+            0.4333,
+            0.7301
+          ],
+          "beats_frequency_baseline": true
+        }
+      },
+      "results": {
+        "leave_one_gene_out": {
+          "baseline:frequency_only": {
+            "ridge": {
+              "n": 235,
+              "spearman": -0.0179,
+              "rmse": 0.8606,
+              "auc": 0.5752,
+              "ap": 0.6885,
+              "spearman_ci": [
+                -0.1532,
+                0.1171
+              ],
+              "auc_ci": [
+                0.4921,
+                0.6556
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": -0.0513,
+              "rmse": 0.8659,
+              "auc": 0.5672,
+              "ap": 0.6858,
+              "spearman_ci": [
+                -0.1894,
+                0.0785
+              ],
+              "auc_ci": [
+                0.4853,
+                0.6462
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                }
+              ]
+            }
+          },
+          "baseline:conservation_only": {
+            "ridge": {
+              "n": 235,
+              "spearman": -0.0345,
+              "rmse": 0.8835,
+              "auc": 0.5545,
+              "ap": 0.7053,
+              "spearman_ci": [
+                -0.1676,
+                0.0949
+              ],
+              "auc_ci": [
+                0.4771,
+                0.6298
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.0915,
+              "rmse": 0.8777,
+              "auc": 0.6602,
+              "ap": 0.777,
+              "spearman_ci": [
+                -0.0445,
+                0.2168
+              ],
+              "auc_ci": [
+                0.5877,
+                0.7273
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                }
+              ]
+            }
+          },
+          "baseline:blosum_only": {
+            "ridge": {
+              "n": 235,
+              "spearman": 0.0699,
+              "rmse": 0.8589,
+              "auc": 0.5236,
+              "ap": 0.6817,
+              "spearman_ci": [
+                -0.0536,
+                0.1972
+              ],
+              "auc_ci": [
+                0.4396,
+                0.6064
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": -0.0127,
+              "rmse": 0.8575,
+              "auc": 0.5169,
+              "ap": 0.6917,
+              "spearman_ci": [
+                -0.1444,
+                0.1176
+              ],
+              "auc_ci": [
+                0.4364,
+                0.6002
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "baseline:properties_only": {
+            "ridge": {
+              "n": 235,
+              "spearman": 0.0801,
+              "rmse": 0.8421,
+              "auc": 0.5129,
+              "ap": 0.7179,
+              "spearman_ci": [
+                -0.0563,
+                0.2168
+              ],
+              "auc_ci": [
+                0.4341,
+                0.593
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.1599,
+              "rmse": 0.8424,
+              "auc": 0.5709,
+              "ap": 0.7211,
+              "spearman_ci": [
+                0.0288,
+                0.2952
+              ],
+              "auc_ci": [
+                0.4909,
+                0.6522
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                }
+              ]
+            }
+          },
+          "baseline:structure_only": {
+            "ridge": {
+              "n": 235,
+              "spearman": 0.2357,
+              "rmse": 0.8414,
+              "auc": 0.7223,
+              "ap": 0.8154,
+              "spearman_ci": [
+                0.106,
+                0.355
+              ],
+              "auc_ci": [
+                0.6508,
+                0.7932
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.5497,
+              "rmse": 0.7398,
+              "auc": 0.8047,
+              "ap": 0.8742,
+              "spearman_ci": [
+                0.4494,
+                0.6335
+              ],
+              "auc_ci": [
+                0.7406,
+                0.8605
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "baseline:esm_only": {
+            "ridge": {
+              "n": 235,
+              "spearman": 0.2151,
+              "rmse": 0.8457,
+              "auc": 0.6337,
+              "ap": 0.7919,
+              "spearman_ci": [
+                0.0778,
+                0.3521
+              ],
+              "auc_ci": [
+                0.5615,
+                0.707
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.2007,
+              "rmse": 0.8707,
+              "auc": 0.6031,
+              "ap": 0.7603,
+              "spearman_ci": [
+                0.0817,
+                0.3204
+              ],
+              "auc_ci": [
+                0.5307,
+                0.6778
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "staged:stage1_freq": {
+            "ridge": {
+              "n": 235,
+              "spearman": -0.0179,
+              "rmse": 0.8606,
+              "auc": 0.5752,
+              "ap": 0.6885,
+              "spearman_ci": [
+                -0.1513,
+                0.1176
+              ],
+              "auc_ci": [
+                0.4915,
+                0.6564
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": -0.0513,
+              "rmse": 0.8659,
+              "auc": 0.5672,
+              "ap": 0.6858,
+              "spearman_ci": [
+                -0.1914,
+                0.0792
+              ],
+              "auc_ci": [
+                0.481,
+                0.6446
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                }
+              ]
+            }
+          },
+          "staged:stage2_freq_cons": {
+            "ridge": {
+              "n": 235,
+              "spearman": -0.0157,
+              "rmse": 0.8697,
+              "auc": 0.5737,
+              "ap": 0.6934,
+              "spearman_ci": [
+                -0.1561,
+                0.1159
+              ],
+              "auc_ci": [
+                0.488,
+                0.6522
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.0627,
+              "rmse": 0.8866,
+              "auc": 0.6497,
+              "ap": 0.7687,
+              "spearman_ci": [
+                -0.0669,
+                0.1985
+              ],
+              "auc_ci": [
+                0.58,
+                0.7206
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "staged:stage3_freq_cons_prop": {
+            "ridge": {
+              "n": 235,
+              "spearman": 0.0888,
+              "rmse": 1.3246,
+              "auc": 0.5488,
+              "ap": 0.69,
+              "spearman_ci": [
+                -0.0497,
+                0.2295
+              ],
+              "auc_ci": [
+                0.4683,
+                0.6312
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.0764,
+              "rmse": 0.9075,
+              "auc": 0.5853,
+              "ap": 0.717,
+              "spearman_ci": [
+                -0.0568,
+                0.2017
+              ],
+              "auc_ci": [
+                0.5044,
+                0.664
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "staged:stage4_plus_structure": {
+            "ridge": {
+              "n": 235,
+              "spearman": 0.3841,
+              "rmse": 0.8035,
+              "auc": 0.7668,
+              "ap": 0.8417,
+              "spearman_ci": [
+                0.2585,
+                0.4974
+              ],
+              "auc_ci": [
+                0.6967,
+                0.8321
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.4121,
+              "rmse": 0.8122,
+              "auc": 0.7874,
+              "ap": 0.8582,
+              "spearman_ci": [
+                0.2988,
+                0.5193
+              ],
+              "auc_ci": [
+                0.7217,
+                0.8455
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                }
+              ]
+            }
+          },
+          "staged:stage5_plus_esm": {
+            "ridge": {
+              "n": 235,
+              "spearman": 0.3862,
+              "rmse": 0.8047,
+              "auc": 0.7628,
+              "ap": 0.8577,
+              "spearman_ci": [
+                0.2652,
+                0.4985
+              ],
+              "auc_ci": [
+                0.699,
+                0.825
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.3002,
+              "rmse": 0.858,
+              "auc": 0.7101,
+              "ap": 0.8083,
+              "spearman_ci": [
+                0.169,
+                0.42
+              ],
+              "auc_ci": [
+                0.6345,
+                0.7769
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                }
+              ]
+            }
+          }
+        },
+        "position_blocks": {
+          "baseline:frequency_only": {
+            "ridge": {
+              "n": 235,
+              "spearman": -0.0611,
+              "rmse": 0.8437,
+              "auc": 0.4878,
+              "ap": 0.6464,
+              "spearman_ci": [
+                -0.2042,
+                0.0746
+              ],
+              "auc_ci": [
+                0.398,
+                0.573
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": -0.0668,
+              "rmse": 0.8474,
+              "auc": 0.4866,
+              "ap": 0.6461,
+              "spearman_ci": [
+                -0.1977,
+                0.0733
+              ],
+              "auc_ci": [
+                0.4014,
+                0.5756
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "baseline:conservation_only": {
+            "ridge": {
+              "n": 235,
+              "spearman": -0.1227,
+              "rmse": 0.8551,
+              "auc": 0.4949,
+              "ap": 0.6949,
+              "spearman_ci": [
+                -0.264,
+                0.0188
+              ],
+              "auc_ci": [
+                0.4128,
+                0.5788
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 0.1
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.0356,
+              "rmse": 0.8981,
+              "auc": 0.523,
+              "ap": 0.6643,
+              "spearman_ci": [
+                -0.0892,
+                0.165
+              ],
+              "auc_ci": [
+                0.4445,
+                0.6043
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                }
+              ]
+            }
+          },
+          "baseline:blosum_only": {
+            "ridge": {
+              "n": 235,
+              "spearman": 0.1178,
+              "rmse": 0.838,
+              "auc": 0.5315,
+              "ap": 0.6976,
+              "spearman_ci": [
+                -0.009,
+                0.2361
+              ],
+              "auc_ci": [
+                0.4528,
+                0.6055
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.0142,
+              "rmse": 0.8425,
+              "auc": 0.4917,
+              "ap": 0.6905,
+              "spearman_ci": [
+                -0.1128,
+                0.1356
+              ],
+              "auc_ci": [
+                0.4119,
+                0.5685
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "baseline:properties_only": {
+            "ridge": {
+              "n": 235,
+              "spearman": 0.1855,
+              "rmse": 0.8318,
+              "auc": 0.5538,
+              "ap": 0.7273,
+              "spearman_ci": [
+                0.057,
+                0.3067
+              ],
+              "auc_ci": [
+                0.4719,
+                0.6278
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.1761,
+              "rmse": 0.8767,
+              "auc": 0.5938,
+              "ap": 0.7195,
+              "spearman_ci": [
+                0.0382,
+                0.3013
+              ],
+              "auc_ci": [
+                0.5136,
+                0.6726
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "baseline:structure_only": {
+            "ridge": {
+              "n": 235,
+              "spearman": 0.3855,
+              "rmse": 0.8122,
+              "auc": 0.7718,
+              "ap": 0.8593,
+              "spearman_ci": [
+                0.2663,
+                0.4916
+              ],
+              "auc_ci": [
+                0.7086,
+                0.8343
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.4879,
+              "rmse": 0.7949,
+              "auc": 0.7969,
+              "ap": 0.8888,
+              "spearman_ci": [
+                0.3837,
+                0.5807
+              ],
+              "auc_ci": [
+                0.7339,
+                0.8527
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "baseline:esm_only": {
+            "ridge": {
+              "n": 235,
+              "spearman": 0.2656,
+              "rmse": 0.8419,
+              "auc": 0.6559,
+              "ap": 0.8305,
+              "spearman_ci": [
+                0.1235,
+                0.4008
+              ],
+              "auc_ci": [
+                0.5825,
+                0.7248
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 1.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.2129,
+              "rmse": 0.8809,
+              "auc": 0.6019,
+              "ap": 0.7584,
+              "spearman_ci": [
+                0.079,
+                0.3491
+              ],
+              "auc_ci": [
+                0.5261,
+                0.6768
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                }
+              ]
+            }
+          },
+          "staged:stage1_freq": {
+            "ridge": {
+              "n": 235,
+              "spearman": -0.0611,
+              "rmse": 0.8437,
+              "auc": 0.4878,
+              "ap": 0.6464,
+              "spearman_ci": [
+                -0.1982,
+                0.0643
+              ],
+              "auc_ci": [
+                0.4059,
+                0.5726
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 0.1
+                },
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": -0.0668,
+              "rmse": 0.8474,
+              "auc": 0.4866,
+              "ap": 0.6461,
+              "spearman_ci": [
+                -0.1999,
+                0.0792
+              ],
+              "auc_ci": [
+                0.403,
+                0.5736
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "staged:stage2_freq_cons": {
+            "ridge": {
+              "n": 235,
+              "spearman": -0.0257,
+              "rmse": 0.8467,
+              "auc": 0.5634,
+              "ap": 0.7327,
+              "spearman_ci": [
+                -0.1628,
+                0.1059
+              ],
+              "auc_ci": [
+                0.4795,
+                0.6426
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 10.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.1164,
+              "rmse": 0.8733,
+              "auc": 0.5727,
+              "ap": 0.6881,
+              "spearman_ci": [
+                -0.0119,
+                0.2456
+              ],
+              "auc_ci": [
+                0.4893,
+                0.6599
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "staged:stage3_freq_cons_prop": {
+            "ridge": {
+              "n": 235,
+              "spearman": 0.2657,
+              "rmse": 0.8291,
+              "auc": 0.626,
+              "ap": 0.7615,
+              "spearman_ci": [
+                0.1367,
+                0.3881
+              ],
+              "auc_ci": [
+                0.5507,
+                0.7034
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 1.0
+                },
+                {
+                  "m__alpha": 1.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 10.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.1807,
+              "rmse": 0.8643,
+              "auc": 0.605,
+              "ap": 0.725,
+              "spearman_ci": [
+                0.0579,
+                0.2999
+              ],
+              "auc_ci": [
+                0.5276,
+                0.6801
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "staged:stage4_plus_structure": {
+            "ridge": {
+              "n": 235,
+              "spearman": 0.4864,
+              "rmse": 0.7811,
+              "auc": 0.812,
+              "ap": 0.8766,
+              "spearman_ci": [
+                0.3797,
+                0.5857
+              ],
+              "auc_ci": [
+                0.7491,
+                0.8668
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 0.1
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.47,
+              "rmse": 0.7948,
+              "auc": 0.7945,
+              "ap": 0.8469,
+              "spearman_ci": [
+                0.352,
+                0.5792
+              ],
+              "auc_ci": [
+                0.7287,
+                0.8536
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          },
+          "staged:stage5_plus_esm": {
+            "ridge": {
+              "n": 235,
+              "spearman": 0.4513,
+              "rmse": 0.7892,
+              "auc": 0.7995,
+              "ap": 0.8845,
+              "spearman_ci": [
+                0.3227,
+                0.5702
+              ],
+              "auc_ci": [
+                0.7374,
+                0.8563
+              ],
+              "hyperparams": [
+                {
+                  "m__alpha": 10.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                },
+                {
+                  "m__alpha": 100.0
+                }
+              ]
+            },
+            "forest": {
+              "n": 235,
+              "spearman": 0.5237,
+              "rmse": 0.7745,
+              "auc": 0.7823,
+              "ap": 0.8457,
+              "spearman_ci": [
+                0.413,
+                0.6226
+              ],
+              "auc_ci": [
+                0.712,
+                0.8411
+              ],
+              "hyperparams": [
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 5,
+                  "m__max_features": 1.0
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                },
+                {
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

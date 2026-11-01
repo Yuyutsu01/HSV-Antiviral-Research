@@ -1,0 +1,645 @@
+virus	gene	aa_change	position	ref_aa	alt_aa	evidence_tier	n_refs	drugs_tested	max_fold_change	observed	count	coverage	frequency	ci_low	ci_high	n_studies_carrying	loso_min_freq	loso_max_freq	robust_to_study_dropout	frequency_band	flag
+HSV1	UL23	A265T	265	A	T	C_clinical_isolate	3	Aciclovir;Foscarnet		1	246	251	0.98008	0.954223	0.991462	19	0.976852	0.98	1	majority_allele	reference_artifact
+HSV2	UL30	L60P	60	L	P	C_clinical_isolate	2	Aciclovir;Foscarnet		1	170	183	0.928962	0.882265	0.958018	6	0.922078	0.9375	1	majority_allele	reference_artifact
+HSV2	UL30	P15S	15	P	S	C_clinical_isolate	1	Aciclovir;Foscarnet		1	169	183	0.923497	0.875695	0.953885	6	0.922078	0.931677	1	majority_allele	reference_artifact
+HSV1	UL23	N23S	23	N	S	C_clinical_isolate	4	Aciclovir	1	1	230	251	0.916335	0.875489	0.944629	17	0.90583	0.925926	1	majority_allele	reference_artifact
+HSV1	UL23	K36E	36	K	E	C_clinical_isolate	3	Aciclovir	1	1	230	251	0.916335	0.875489	0.944629	17	0.90583	0.921296	1	majority_allele	reference_artifact
+HSV1	UL30	S33G	33	S	G	C_clinical_isolate	1	Aciclovir;Foscarnet		1	218	253	0.86166	0.813681	0.89882	19	0.844444	0.865854	1	majority_allele	reference_artifact
+HSV2	UL30	A9T	9	A	T	C_clinical_isolate	2	Aciclovir;Foscarnet		1	157	183	0.857923	0.799965	0.901164	6	0.857143	0.87013	1	majority_allele	reference_artifact
+HSV1	UL30	V905M	905	V	M	C_clinical_isolate	2	Aciclovir;Foscarnet		1	205	253	0.810277	0.75746	0.853811	17	0.786667	0.83945	1	majority_allele	reference_artifact
+HSV1	UL30	T1208A	1208	T	A	C_clinical_isolate	2	Aciclovir;Foscarnet		1	202	253	0.798419	0.744689	0.843222	18	0.777293	0.848889	1	majority_allele	reference_artifact
+HSV2	UL23	G39E	39	G	E	A_engineered	2	Aciclovir;Penciclovir	2.4	1	126	159	0.792453	0.722883	0.848225	4	0.783133	0.814815	1	majority_allele	majority_allele_with_measured_resistance
+HSV1	UL23	R89Q	89	R	Q	C_clinical_isolate	5	Aciclovir;Foscarnet;Ganciclovir		1	148	251	0.589641	0.527881	0.6487	14	0.538117	0.606481	1	majority_allele	reference_artifact
+HSV2	UL23	N78D	78	N	D	C_clinical_isolate	2	Aciclovir;Foscarnet		1	76	158	0.481013	0.404484	0.558443	3	0.433735	0.503704	1	common_polymorphism	unphenotyped_but_common
+HSV1	UL30	P1124H	1124	P	H	C_clinical_isolate	3	Aciclovir;Foscarnet		1	101	253	0.399209	0.340804	0.46063	11	0.384279	0.448889	1	common_polymorphism	unphenotyped_but_common
+HSV2	UL30	E139K	139	E	K	C_clinical_isolate	1	Aciclovir;Foscarnet		1	58	182	0.318681	0.25533	0.389529	3	0.298611	0.335404	1	common_polymorphism	unphenotyped_but_common
+HSV1	UL23	C6G	6	C	G	C_clinical_isolate	2	Aciclovir;Foscarnet		1	73	251	0.290837	0.238141	0.349838	9	0.268908	0.327354	1	common_polymorphism	unphenotyped_but_common
+HSV1	UL30	P920S	920	P	S	A_engineered	1	Aciclovir;Cidofovir;Foscarnet	1.05	1	65	253	0.256917	0.206993	0.314113	10	0.204444	0.275109	1	common_polymorphism	reclassify_as_polymorphism
+HSV1	UL30	D672N	672	D	N	C_clinical_isolate	3	Aciclovir;Brivudine;Cidofovir;Foscarnet;Ganciclovir;Penciclovir	1.3	1	58	253	0.229249	0.181731	0.284866	10	0.173333	0.253275	1	common_polymorphism	reclassify_as_polymorphism
+HSV1	UL23	L42P	42	L	P	C_clinical_isolate	3	Aciclovir;Foscarnet		1	56	251	0.223108	0.175995	0.278568	9	0.197479	0.251121	1	common_polymorphism	unphenotyped_but_common
+HSV2	UL23	L140F	140	L	F	C_clinical_isolate	2	Aciclovir;Foscarnet		1	34	158	0.21519	0.158276	0.285625	3	0.208333	0.237037	1	common_polymorphism	unphenotyped_but_common
+HSV2	UL30	E678G	678	E	G	C_clinical_isolate	1	Aciclovir;Foscarnet;Penciclovir		1	36	180	0.2	0.148108	0.26443	3	0.194444	0.21118	1	common_polymorphism	unphenotyped_but_common
+HSV1	UL23	G240E	240	G	E	C_clinical_isolate	4	Aciclovir;Foscarnet		1	46	251	0.183267	0.140301	0.235782	7	0.166667	0.206278	1	common_polymorphism	unphenotyped_but_common
+HSV1	UL23	G251C	251	G	C	C_clinical_isolate	3	Aciclovir;Foscarnet		1	43	251	0.171315	0.129744	0.222795	6	0.145374	0.192825	1	common_polymorphism	unphenotyped_but_common
+HSV1	UL23	P268T	268	P	T	C_clinical_isolate	4	Aciclovir;Foscarnet		1	39	251	0.155378	0.115793	0.205354	6	0.127753	0.174888	1	common_polymorphism	unphenotyped_but_common
+HSV1	UL23	V267L	267	V	L	C_clinical_isolate	4	Aciclovir;Foscarnet		1	32	251	0.12749	0.091773	0.174438	6	0.105727	0.143498	1	common_polymorphism	unphenotyped_but_common
+HSV1	UL23	D286E	286	D	E	C_clinical_isolate	4	Aciclovir;Foscarnet		1	29	251	0.115538	0.081659	0.161007	4	0.092511	0.130045	1	common_polymorphism	unphenotyped_but_common
+HSV1	UL30	A1203T	1203	A	T	C_clinical_isolate	3	Aciclovir;Foscarnet		1	26	253	0.102767	0.071099	0.146317	7	0.087156	0.115556	1	common_polymorphism	unphenotyped_but_common
+HSV2	UL30	T801P	801	T	P	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		1	17	183	0.092896	0.058809	0.143724	2	0.051948	0.10559	1	uncommon_polymorphism	unphenotyped_but_common
+HSV1	UL23	V348I	348	V	I	C_clinical_isolate	3	Aciclovir;Foscarnet	0.8	1	21	251	0.083665	0.055371	0.124511	6	0.074689	0.09417	1	uncommon_polymorphism	reclassify_as_polymorphism
+HSV1	UL23	R222C	222	R	C	B_lab_selected	4	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	98	1	19	251	0.075697	0.048993	0.115194	2	0.017937	0.087963	1	uncommon_polymorphism	circulating_resistance_allele
+HSV1	UL23	N376H	376	N	H	C_clinical_isolate	4	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		1	19	251	0.075697	0.048993	0.115194	4	0.061674	0.085202	1	uncommon_polymorphism	unphenotyped_but_common
+HSV2	UL23	A27T	27	A	T	C_clinical_isolate	1	Aciclovir		1	12	159	0.075472	0.043697	0.127276	3	0.048193	0.091667	1	uncommon_polymorphism	unphenotyped_but_common
+HSV2	UL23	S29A	29	S	A	C_clinical_isolate	1	Aciclovir		1	12	159	0.075472	0.043697	0.127276	3	0.048193	0.091667	1	uncommon_polymorphism	unphenotyped_but_common
+HSV1	UL23	A192V	192	A	V	C_clinical_isolate	2	Aciclovir;Foscarnet		1	17	251	0.067729	0.042713	0.105778	4	0.057269	0.076233	1	uncommon_polymorphism	unphenotyped_but_common
+HSV1	UL23	R281Q	281	R	Q	C_clinical_isolate	1	Aciclovir		1	15	251	0.059761	0.036547	0.096248	3	0.050926	0.067265	1	uncommon_polymorphism	unphenotyped_but_common
+HSV1	UL30	A646T	646	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		1	15	253	0.059289	0.036255	0.095506	4	0.050459	0.066667	1	uncommon_polymorphism	unphenotyped_but_common
+HSV1	UL30	N425T	425	N	T	C_clinical_isolate	1	Aciclovir;Foscarnet		1	14	253	0.055336	0.033245	0.090729	4	0.034934	0.062222	1	uncommon_polymorphism	unphenotyped_but_common
+HSV1	UL30	P1199Q	1199	P	Q	C_clinical_isolate	1	Aciclovir;Foscarnet		1	13	253	0.051383	0.030271	0.085916	5	0.032258	0.059633	1	uncommon_polymorphism	unphenotyped_but_common
+HSV2	UL30	P37L	37	P	L	C_clinical_isolate	1	Aciclovir;Foscarnet		1	9	183	0.04918	0.026086	0.090813	3	0.041667	0.064935	1	uncommon_polymorphism	unphenotyped_but_common
+HSV1	UL23	R41H	41	R	H	A_engineered	3	Aciclovir;Brivudine;Foscarnet;Penciclovir	2.3	1	12	251	0.047809	0.027557	0.081694	2	0.039648	0.053812	1	uncommon_polymorphism	circulating_resistance_allele
+HSV2	UL30	D676G	676	D	G	C_clinical_isolate	1	Aciclovir;Foscarnet		1	8	180	0.044444	0.02269	0.085238	3	0.025974	0.048611	1	uncommon_polymorphism	unphenotyped_but_common
+HSV1	UL30	S1123L	1123	S	L	C_clinical_isolate	1	Aciclovir;Foscarnet		1	11	253	0.043478	0.024448	0.076165	2	0.039301	0.048889	1	uncommon_polymorphism	unphenotyped_but_common
+HSV1	UL30	S1113C	1113	S	C	C_clinical_isolate	1	Aciclovir;Foscarnet		1	7	253	0.027668	0.013466	0.056	5	0.018349	0.028807	1	uncommon_polymorphism	unphenotyped_but_common
+HSV1	UL30	A1204T	1204	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		1	7	253	0.027668	0.013466	0.056	1	0.016667	0.03211	1	uncommon_polymorphism	unphenotyped_but_common
+HSV2	UL23	A215T	215	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		1	4	159	0.025157	0.009826	0.062893	1	0.012048	0.033333	1	uncommon_polymorphism	unphenotyped_but_common
+HSV2	UL23	R220K	220	R	K	C_clinical_isolate	1	Aciclovir;Foscarnet		1	4	159	0.025157	0.009826	0.062893	1	0.0	0.033333	0	uncommon_polymorphism	unphenotyped_but_common
+HSV1	UL23	E43A	43	E	A	B_lab_selected	2	Aciclovir	1.3	1	6	251	0.023904	0.011	0.051162	2	0.008403	0.026906	0	uncommon_polymorphism	reclassify_as_polymorphism
+HSV1	UL30	A1099T	1099	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		1	6	253	0.023715	0.010913	0.050765	4	0.013761	0.026667	1	uncommon_polymorphism	unphenotyped_but_common
+HSV1	UL30	A562T	562	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		1	5	253	0.019763	0.00847	0.045421	3	0.013761	0.022222	1	uncommon_polymorphism	unphenotyped_but_common
+HSV2	UL23	R26H	26	R	H	C_clinical_isolate	1	Aciclovir;Foscarnet		1	3	159	0.018868	0.006437	0.054	1	0.0	0.025	0	uncommon_polymorphism	unphenotyped_but_common
+HSV2	UL30	T903M	903	T	M	C_clinical_isolate	1	Aciclovir;Foscarnet		1	3	183	0.016393	0.005591	0.047083	2	0.013889	0.025974	1	uncommon_polymorphism	unphenotyped_but_common
+HSV2	UL30	T1200A	1200	T	A	C_clinical_isolate	1	Aciclovir	1	1	3	183	0.016393	0.005591	0.047083	1	0.0	0.020833	0	uncommon_polymorphism	reclassify_as_polymorphism
+HSV1	UL23	R176Q	176	R	Q	C_clinical_isolate	4	Aciclovir;Foscarnet	200	1	4	251	0.015936	0.006214	0.040252	1	0.0	0.018519	0	uncommon_polymorphism	circulating_resistance_allele
+HSV1	UL23	I326V	326	I	V	B_lab_selected	2	Aciclovir	1.3	1	4	251	0.015936	0.006214	0.040252	2	0.012605	0.017937	1	uncommon_polymorphism	reclassify_as_polymorphism
+HSV1	UL30	P875S	875	P	S	C_clinical_isolate	1	Aciclovir;Foscarnet		1	4	253	0.01581	0.006165	0.03994	2	0.0131	0.017778	1	uncommon_polymorphism	unphenotyped_but_common
+HSV1	UL30	E1104D	1104	E	D	C_clinical_isolate	1	Aciclovir;Foscarnet		1	4	253	0.01581	0.006165	0.03994	1	0.012346	0.018349	1	uncommon_polymorphism	unphenotyped_but_common
+HSV2	UL23	G150D	150	G	D	A_engineered	2	Aciclovir;Foscarnet;Penciclovir	2	1	2	159	0.012579	0.003456	0.044699	2	0.008333	0.014815	0	uncommon_polymorphism	reclassify_as_polymorphism
+HSV1	UL23	N376P	376	N	P	C_clinical_isolate	2	Aciclovir;Foscarnet		1	3	251	0.011952	0.004073	0.034546	2	0.00463	0.013453	0	uncommon_polymorphism	unphenotyped_but_common
+HSV1	UL30	A25V	25	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		1	3	253	0.011858	0.004041	0.034277	1	0.004587	0.013333	0	uncommon_polymorphism	unphenotyped_but_common
+HSV1	UL30	M1226I	1226	M	I	A_engineered	2	Aciclovir;Foscarnet	1.5	1	3	253	0.011858	0.004041	0.034277	1	0.009174	0.013333	0	uncommon_polymorphism	reclassify_as_polymorphism
+HSV2	UL5	H334R	334	H	R	C_clinical_isolate	1	Pritelivir		1	2	173	0.011561	0.003176	0.041166	0	0.011628	0.024096	1	uncommon_polymorphism	unphenotyped_but_common
+HSV2	UL30	G12R	12	G	R	C_clinical_isolate	1	Aciclovir		1	2	181	0.01105	0.003035	0.039388	1	0.010989	0.013889	1	uncommon_polymorphism	unphenotyped_but_common
+HSV2	UL30	G324E	324	G	E	C_clinical_isolate	1	Aciclovir;Foscarnet		1	2	183	0.010929	0.003002	0.038967	1	0.0	0.013889	0	uncommon_polymorphism	unphenotyped_but_common
+HSV1	UL23	R32C	32	R	C	C_clinical_isolate	1	Aciclovir;Foscarnet		1	2	251	0.007968	0.002188	0.028583	1	0.0	0.008969		rare	consistent_rare
+HSV1	UL23	D77N	77	D	N	A_engineered	2	Aciclovir		1	2	251	0.007968	0.002188	0.028583	2	0.004202	0.009259		rare	consistent_rare
+HSV1	UL30	A138V	138	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		1	2	253	0.007905	0.002171	0.02836	0	0.007937	0.009174		rare	consistent_rare
+HSV1	UL30	M356I	356	M	I	C_clinical_isolate	1	Aciclovir;Foscarnet		1	2	253	0.007905	0.002171	0.02836	2	0.003984	0.009174		rare	consistent_rare
+HSV1	UL30	A429T	429	A	T	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		1	2	253	0.007905	0.002171	0.02836	1	0.004115	0.009174		rare	consistent_rare
+HSV1	UL30	A566T	566	A	T	C_clinical_isolate	3	Aciclovir;Foscarnet	1	1	2	253	0.007905	0.002171	0.02836	1	0.003968	0.009174		rare	consistent_rare
+HSV1	UL30	E662D	662	E	D	C_clinical_isolate	1	Aciclovir;Foscarnet		1	2	253	0.007905	0.002171	0.02836	1	0.004367	0.009174		rare	consistent_rare
+HSV1	UL30	L802F	802	L	F	A_engineered	2	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	7.4	1	2	253	0.007905	0.002171	0.02836	1	0.003968	0.009174		rare	consistent_with_resistance
+HSV1	UL30	R1019G	1019	R	G	C_clinical_isolate	1	Aciclovir;Foscarnet		1	2	253	0.007905	0.002171	0.02836	1	0.004115	0.009174		rare	consistent_rare
+HSV1	UL30	T1121M	1121	T	M	A_engineered	2	Aciclovir;Cidofovir;Foscarnet	1.6	1	2	253	0.007905	0.002171	0.02836	0	0.007937	0.009174		rare	consistent_rare
+HSV1	UL30	R1229I	1229	R	I	C_clinical_isolate	1	Aciclovir;Foscarnet		1	2	253	0.007905	0.002171	0.02836	1	0.004367	0.009174		rare	consistent_rare
+HSV2	UL23	T131M	131	T	M	A_engineered	2	Aciclovir;Foscarnet;Penciclovir	1.5	1	1	159	0.006289	0.001111	0.034762	1	0.0	0.008333		singleton	consistent_rare
+HSV2	UL30	T202M	202	T	M	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	183	0.005464	0.000965	0.0303	1	0.0	0.012987		singleton	consistent_rare
+HSV2	UL30	D708N	708	D	N	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	183	0.005464	0.000965	0.0303	1	0.0	0.012987		singleton	consistent_rare
+HSV2	UL30	A879V	879	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	183	0.005464	0.000965	0.0303	1	0.0	0.006944		singleton	consistent_rare
+HSV1	UL23	G21V	21	G	V	C_clinical_isolate	1	Aciclovir		1	1	251	0.003984	0.000704	0.022219	1	0.0	0.00463		singleton	consistent_rare
+HSV1	UL23	A118V	118	A	V	A_engineered	2	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	4.8	1	1	251	0.003984	0.000704	0.022219	1	0.0	0.004484		singleton	consistent_with_resistance
+HSV1	UL23	L139V	139	L	V	A_engineered	1	Aciclovir;Brivudine;Foscarnet;Penciclovir	1.2	1	1	251	0.003984	0.000704	0.022219	1	0.0	0.00463		singleton	consistent_rare
+HSV1	UL23	A140V	140	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	251	0.003984	0.000704	0.022219	1	0.0	0.00463		singleton	consistent_rare
+HSV1	UL23	H151Y	151	H	Y	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	251	0.003984	0.000704	0.022219	0	0.004	0.00463		singleton	consistent_rare
+HSV1	UL23	R212K	212	R	K	A_engineered	1	Aciclovir		1	1	251	0.003984	0.000704	0.022219	0	0.004	0.00463		singleton	consistent_rare
+HSV1	UL23	A233S	233	A	S	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	251	0.003984	0.000704	0.022219	0	0.004	0.00463		singleton	consistent_rare
+HSV1	UL23	A243S	243	A	S	C_clinical_isolate	2	Aciclovir;Foscarnet		1	1	251	0.003984	0.000704	0.022219	1	0.0	0.00463		singleton	consistent_rare
+HSV1	UL23	P268L	268	P	L	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	251	0.003984	0.000704	0.022219	0	0.004	0.00463		singleton	consistent_rare
+HSV1	UL23	G271D	271	G	D	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	251	0.003984	0.000704	0.022219	0	0.004	0.00463		singleton	consistent_rare
+HSV1	UL23	R293W	293	R	W	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		1	1	251	0.003984	0.000704	0.022219	0	0.004	0.00463		singleton	consistent_rare
+HSV1	UL23	A309V	309	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	251	0.003984	0.000704	0.022219	1	0.0	0.00463		singleton	consistent_rare
+HSV1	UL23	L327R	327	L	R	C_clinical_isolate	1	Aciclovir;Foscarnet;Ganciclovir	10	1	1	251	0.003984	0.000704	0.022219	1	0.0	0.00463		singleton	consistent_with_resistance
+HSV1	UL23	A334T	334	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	251	0.003984	0.000704	0.022219	1	0.0	0.004484		singleton	consistent_rare
+HSV1	UL23	V352L	352	V	L	C_clinical_isolate	1	Aciclovir	1.9	1	1	251	0.003984	0.000704	0.022219	1	0.0	0.00463		singleton	consistent_rare
+HSV1	UL30	R30C	30	R	C	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004444		singleton	consistent_rare
+HSV1	UL30	E70D	70	E	D	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004587		singleton	consistent_rare
+HSV1	UL30	E70K	70	E	K	A_engineered	1	Aciclovir;Foscarnet	1.9	1	1	253	0.003953	0.000698	0.022046	0	0.003968	0.004587		singleton	consistent_rare
+HSV1	UL30	A102T	102	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004587		singleton	consistent_rare
+HSV1	UL30	S127L	127	S	L	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004444		singleton	consistent_rare
+HSV1	UL30	V146I	146	V	I	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	0	0.003968	0.004587		singleton	consistent_rare
+HSV1	UL30	V212A	212	V	A	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004587		singleton	consistent_rare
+HSV1	UL30	L267M	267	L	M	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004587		singleton	consistent_rare
+HSV1	UL30	C287Y	287	C	Y	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	0	0.003968	0.004587		singleton	consistent_rare
+HSV1	UL30	E421D	421	E	D	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004587		singleton	consistent_rare
+HSV1	UL30	A428V	428	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004587		singleton	consistent_rare
+HSV1	UL30	L479M	479	L	M	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004444		singleton	consistent_rare
+HSV1	UL30	G505D	505	G	D	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004587		singleton	consistent_rare
+HSV1	UL30	N522S	522	N	S	C_clinical_isolate	2	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004587		singleton	consistent_rare
+HSV1	UL30	T639I	639	T	I	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004444		singleton	consistent_rare
+HSV1	UL30	R674H	674	R	H	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004587		singleton	consistent_rare
+HSV1	UL30	E675K	675	E	K	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004587		singleton	consistent_rare
+HSV1	UL30	R681L	681	R	L	C_clinical_isolate	1	Aciclovir;Foscarnet	1	1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004587		singleton	consistent_rare
+HSV1	UL30	S724N	724	S	N	A_engineered	11	Aciclovir;Brivudine;Cidofovir;Foscarnet;Ganciclovir;Penciclovir	72	1	1	253	0.003953	0.000698	0.022046	0	0.003968	0.004587		singleton	consistent_with_resistance
+HSV1	UL30	T821M	821	T	M	A_engineered	4	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	6.25	1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004587		singleton	consistent_with_resistance
+HSV1	UL30	D871N	871	D	N	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		1	1	253	0.003953	0.000698	0.022046	0	0.003968	0.004587		singleton	consistent_rare
+HSV1	UL30	K908Q	908	K	Q	C_clinical_isolate	1	Aciclovir;Foscarnet;Ganciclovir	1.2	1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004444		singleton	consistent_rare
+HSV1	UL30	E1005K	1005	E	K	C_clinical_isolate	1	Aciclovir;Foscarnet	0.7	1	1	253	0.003953	0.000698	0.022046	0	0.003968	0.004587		singleton	consistent_rare
+HSV1	UL30	A1100T	1100	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	0	0.003968	0.004587		singleton	consistent_rare
+HSV1	UL30	P1128L	1128	P	L	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004444		singleton	consistent_rare
+HSV1	UL30	G1129V	1129	G	V	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	0	0.003968	0.004587		singleton	consistent_rare
+HSV1	UL30	A1209T	1209	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004587		singleton	consistent_rare
+HSV1	UL30	A1218S	1218	A	S	C_clinical_isolate	1	Aciclovir;Foscarnet		1	1	253	0.003953	0.000698	0.022046	1	0.0	0.004587		singleton	consistent_rare
+HSV1	UL23	H7P	7	H	P	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A12P	12	A	P	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A12T	12	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	D14V	14	D	V	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	D14Y	14	D	Y	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	Q15K	15	Q	K	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	Q15L	15	Q	L	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R18C	18	R	C	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	S19P	19	S	P	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R20C	20	R	C	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R20H	20	R	H	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R20S	20	R	S	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R26H	26	R	H	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A28V	28	A	V	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	L29V	29	L	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R30C	30	R	C	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R32H	32	R	H	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	K36D	36	K	D	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A37V	37	A	V	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	E43D	43	E	D	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	Q44H	44	Q	H	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	L50M	50	L	M	C_clinical_isolate	1	Aciclovir	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R51W	51	R	W	A_engineered	3	Aciclovir;Cidofovir;Foscarnet;Penciclovir	10	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	Y53C	53	Y	C	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	Y53D	53	Y	D	A_engineered	2	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	D55N	55	D	N	B_lab_selected	1	Aciclovir;Cidofovir	110	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G56D	56	G	D	C_clinical_isolate	1	Aciclovir;Foscarnet;Ganciclovir	10	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G56S	56	G	S	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G56V	56	G	V	A_engineered	1	Aciclovir	100	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	P57H	57	P	H	C_clinical_isolate	1	Aciclovir	42	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	H58N	58	H	N	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	H58R	58	H	R	C_clinical_isolate	1	Aciclovir;Foscarnet	45	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G59V	59	G	V	A_engineered	1	Aciclovir	100	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G61A	61	G	A	A_engineered	3	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	60	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G61E	61	G	E	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G61V	61	G	V	A_engineered	1	Aciclovir	100	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	K62I	62	K	I	A_engineered	1	Aciclovir	100	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	K62N	62	K	N	A_engineered	2	Aciclovir	42	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	T63A	63	T	A	A_engineered	2	Aciclovir;Ganciclovir	100	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	T63I	63	T	I	C_clinical_isolate	1	Aciclovir	11	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	T63S	63	T	S	A_engineered	2	Aciclovir;Ganciclovir	5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	T65N	65	T	N	A_engineered	1	Aciclovir	4.7	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	T65P	65	T	P	B_lab_selected	1	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	230	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	Q67R	67	Q	R	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	L68R	68	L	R	C_clinical_isolate	1	Aciclovir	1.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	L72V	72	L	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R75C	75	R	C	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	D76N	76	D	N	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	I78F	78	I	F	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	E83K	83	E	K	A_engineered	2	Aciclovir;Penciclovir	71	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	E83N	83	E	N	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	P84L	84	P	L	A_engineered	1	Aciclovir;Brivudine;Foscarnet;Penciclovir	225	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	P84S	84	P	S	A_engineered	1	Aciclovir	10	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	M85I	85	M	I	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R89H	89	R	H	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A93V	93	A	V	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	T96I	96	T	I	B_lab_selected	1	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	12	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	T96K	96	T	K	B_lab_selected	1	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	129	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A98T	98	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	I100T	100	I	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	T103P	103	T	P	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	H105P	105	H	P	C_clinical_isolate	1	Aciclovir;Foscarnet	131	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R106H	106	R	H	A_engineered	1	Aciclovir;Brivudine;Foscarnet;Penciclovir	3.1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	Q109K	109	Q	K	C_clinical_isolate	1	Aciclovir;Foscarnet	1.6	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	E111K	111	E	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	M121K	121	M	K	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	M121R	121	M	R	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	Q125H	125	Q	H	A_engineered	2	Aciclovir;Brivudine;Penciclovir	13.3	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G129D	129	G	D	C_clinical_isolate	1	Aciclovir;Foscarnet	102	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	M130I	130	M	I	C_clinical_isolate	1	Aciclovir	5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	P131S	131	P	S	A_engineered	1	Aciclovir	20	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A133V	133	A	V	C_clinical_isolate	1	Aciclovir	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A137T	137	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	V138F	138	V	F	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	V138I	138	V	I	C_clinical_isolate	2	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	H142Y	142	H	Y	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	E146G	146	E	G	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	S150L	150	S	L	C_clinical_isolate	1	Aciclovir	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A156P	156	A	P	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A156T	156	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A156V	156	A	V	A_engineered	4	Aciclovir;Foscarnet	0.9	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	F161L	161	F	L	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	D162H	162	D	H	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	D162N	162	D	N	C_clinical_isolate	3	Aciclovir;Foscarnet	64	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R163G	163	R	G	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R163H	163	R	H	A_engineered	3	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Penciclovir;Pritelivir	324	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A167T	167	A	T	B_lab_selected	1	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	2.4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	L170P	170	L	P	A_engineered	3	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	Y172C	172	Y	C	C_clinical_isolate	2	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	80	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A174P	174	A	P	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A175V	175	A	V	A_engineered	1	Aciclovir	10	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R176W	176	R	W	A_engineered	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	L178R	178	L	R	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	S181N	181	S	N	B_lab_selected	2	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	T183P	183	T	P	C_clinical_isolate	1	Aciclovir;Brivudine;Foscarnet;Ganciclovir;Penciclovir;Pritelivir	3.6	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	V187M	187	V	M	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A189V	189	A	V	A_engineered	2	Aciclovir;Brivudine;Cidofovir;Foscarnet;Ganciclovir;Penciclovir;Pritelivir	89	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	V191A	191	V	A	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G200C	200	G	C	B_lab_selected	2	Aciclovir;Cidofovir	15	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G200D	200	G	D	C_clinical_isolate	2	Aciclovir;Foscarnet;Ganciclovir	49	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G200S	200	G	S	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	T201P	201	T	P	C_clinical_isolate	1	Aciclovir	22	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	V204G	204	V	G	C_clinical_isolate	1	Aciclovir;Foscarnet	12	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	L205S	205	L	S	B_lab_selected	1	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	32	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G206R	206	G	R	B_lab_selected	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A207P	207	A	P	A_engineered	2	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	L208H	208	L	H	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	I214T	214	I	T	C_clinical_isolate	1	Aciclovir;Foscarnet	0.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	D215A	215	D	A	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	D215H	215	D	H	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	D215N	215	D	N	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R216C	216	R	C	A_engineered	2	Aciclovir;Penciclovir	37	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R216H	216	R	H	B_lab_selected	3	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	K219T	219	K	T	A_engineered	2	Aciclovir;Brivudine;Foscarnet;Penciclovir	1.6	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R220H	220	R	H	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R222H	222	R	H	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	E225K	225	E	K	A_engineered	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	M231I	231	M	I	B_lab_selected	1	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	3.1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	V238F	238	V	F	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	V238I	238	V	I	A_engineered	1	Aciclovir;Brivudine;Foscarnet;Penciclovir	1.6	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	L242P	242	L	P	C_clinical_isolate	1	Aciclovir;Foscarnet	18	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	N244H	244	N	H	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	T245M	245	T	M	A_engineered	3	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	120	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	Y248D	248	Y	D	C_clinical_isolate	1	Aciclovir	4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	L249P	249	L	P	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	E257K	257	E	K	C_clinical_isolate	2	Aciclovir;Foscarnet	59	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	D258N	258	D	N	C_clinical_isolate	1	Aciclovir	1.3	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	W259R	259	W	R	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	S263L	263	S	L	C_clinical_isolate	1	Aciclovir	1.6	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G264V	264	G	V	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	P268M	268	P	M	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	P269S	269	P	S	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G271V	271	G	V	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A272T	272	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	E273K	273	E	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	E273Q	273	E	Q	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	P274T	274	P	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	Q275P	275	Q	P	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	S276G	276	S	G	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	S276N	276	S	N	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	S276R	276	S	R	A_engineered	2	Aciclovir;Brivudine;Foscarnet;Penciclovir	3.8	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	N277K	277	N	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	N277S	277	N	S	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G279D	279	G	D	C_clinical_isolate	1	Aciclovir	0.8	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	P280S	280	P	S	C_clinical_isolate	1	Aciclovir	1.3	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	H283N	283	H	N	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	T287M	287	T	M	B_lab_selected	3	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	1.67e+03	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	L291R	291	L	R	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A294V	294	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	P295T	295	P	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	L298R	298	L	R	A_engineered	1	Aciclovir;Brivudine;Foscarnet;Penciclovir	2.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A299S	299	A	S	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	N301S	301	N	S	C_clinical_isolate	1	Aciclovir	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G302S	302	G	S	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	D303N	303	D	N	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	L315S	315	L	S	C_clinical_isolate	3	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A316S	316	A	S	C_clinical_isolate	1	Aciclovir	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A316V	316	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	M322K	322	M	K	A_engineered	1	Aciclovir;Penciclovir	71	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	M322L	322	M	L	C_clinical_isolate	1	Aciclovir	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	H323Y	323	H	Y	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	L327M	327	L	M	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	D328E	328	D	E	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	S332L	332	S	L	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	S332P	332	S	P	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G335D	335	G	D	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	C336Y	336	C	Y	A_engineered	5	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	190	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	D338H	338	D	H	C_clinical_isolate	1	Aciclovir	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	L340R	340	L	R	A_engineered	1	Aciclovir	34	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	L341R	341	L	R	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	Q342H	342	Q	H	C_clinical_isolate	1	Aciclovir	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	T344I	344	T	I	C_clinical_isolate	1	Aciclovir	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	S345P	345	S	P	A_engineered	2	Aciclovir;Brivudine;Foscarnet;Penciclovir	1.7	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G346W	346	G	W	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	Q349R	349	Q	R	C_clinical_isolate	1	Aciclovir	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	T350I	350	T	I	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	T350S	350	T	S	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	V352I	352	V	I	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	P355Q	355	P	Q	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	S357C	357	S	C	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	I358V	358	I	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	D363N	363	D	N	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A365T	365	A	T	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	R370W	370	R	W	C_clinical_isolate	1	Aciclovir	1.9	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	E371D	371	E	D	C_clinical_isolate	1	Aciclovir	1.9	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	G373E	373	G	E	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL23	A375P	375	A	P	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL29	P597L	597	P	L	A_engineered	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	1.9	0	0	0	0.0	0.0	0.0	0				not_observed	not_observed
+HSV1	UL30	S3A	3	S	A	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G12E	12	G	E	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	S15A	15	S	A	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A17T	17	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A17V	17	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	F23I	23	F	I	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	P29H	29	P	H	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A32I	32	A	I	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	S33R	33	S	R	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	Q42K	42	Q	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	L49I	49	L	I	A_engineered	1	Aciclovir;Cidofovir;Foscarnet	1.6	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	K57N	57	K	N	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	P61S	61	P	S	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A78V	78	A	V	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R80L	80	R	L	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	K90R	90	K	R	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	H98N	98	H	N	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G108R	108	G	R	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E111K	111	E	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R116H	116	R	H	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G132C	132	G	C	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A136T	136	A	T	B_lab_selected	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	P137G	137	P	G	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	P137Q	137	P	Q	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V144I	144	V	I	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	T145A	145	T	A	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	N155T	155	N	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A159V	159	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A164T	164	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	F167L	167	F	L	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	F171S	171	F	S	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	M207I	207	M	I	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	K209T	209	K	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	L216I	216	L	I	C_clinical_isolate	1	Aciclovir;Foscarnet;Ganciclovir	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R219S	219	R	S	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A220T	220	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E226D	226	E	D	C_clinical_isolate	1	Aciclovir	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R227H	227	R	H	C_clinical_isolate	1	Aciclovir	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A230V	230	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	I243T	243	I	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	F248L	248	F	L	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R264H	264	R	H	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V278A	278	V	A	C_clinical_isolate	1	Aciclovir;Foscarnet;Ganciclovir	0.3	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	S280A	280	S	A	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A289D	289	A	D	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V297A	297	V	A	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	F303L	303	F	L	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	P320S	320	P	S	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R322Q	322	R	Q	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R330A	330	R	A	C_clinical_isolate	2	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A351D	351	A	D	C_clinical_isolate	1	Aciclovir	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	I352V	352	I	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G354V	354	G	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	L359I	359	L	I	A_engineered	1	Aciclovir;Cidofovir;Foscarnet	1.4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	D368A	368	D	A	B_lab_selected	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E376D	376	E	D	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E376G	376	E	G	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V383L	383	V	L	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E421V	421	E	V	A_engineered	1	Aciclovir;Cidofovir;Foscarnet	1.4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R430K	430	R	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	T434M	434	T	M	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G458S	458	G	S	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	T480M	480	T	M	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	N494S	494	N	S	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G495V	495	G	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V498G	498	V	G	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V498M	498	V	M	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	S507R	507	S	R	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V521M	521	V	M	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	Y557S	557	Y	S	A_engineered	1	Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	P561S	561	P	S	A_engineered	1	Aciclovir;Cidofovir;Foscarnet	1.48	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	Q570R	570	Q	R	C_clinical_isolate	1	Aciclovir;Foscarnet	3.7	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V573M	573	V	M	A_engineered	2	Aciclovir;Cidofovir;Foscarnet	1.9	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	D581A	581	D	A	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	K591R	591	K	R	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E597D	597	E	D	B_lab_selected	1	Aciclovir;Foscarnet	10	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A605V	605	A	V	A_engineered	4	Aciclovir;Brivudine;Cidofovir;Foscarnet;Ganciclovir;Penciclovir	10	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	Q618H	618	Q	H	A_engineered	2	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	9	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	Q618I	618	Q	I	A_engineered	1	Aciclovir;Foscarnet	1.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	I619K	619	I	K	A_engineered	1	Aciclovir;Foscarnet	2.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	T623A	623	T	A	A_engineered	1	Aciclovir;Foscarnet	1.4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	L625I	625	L	I	A_engineered	1	Aciclovir;Foscarnet	2.4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	D630A	630	D	A	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G633D	633	G	D	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G641R	641	G	R	C_clinical_isolate	1	Aciclovir;Foscarnet	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G645D	645	G	D	C_clinical_isolate	1	Aciclovir;Foscarnet	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E649D	649	E	D	C_clinical_isolate	1	Aciclovir;Foscarnet	0.8	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E649G	649	E	G	C_clinical_isolate	1	Aciclovir;Foscarnet	1.3	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A657T	657	A	T	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E659D	659	E	D	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	D660E	660	D	E	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E661K	661	E	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	P664T	664	P	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G668E	668	G	E	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E669D	669	E	D	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E669G	669	E	G	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E671K	671	E	K	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E673K	673	E	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E675A	675	E	A	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E676D	676	E	D	C_clinical_isolate	1	Aciclovir	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G679D	679	G	D	C_clinical_isolate	1	Aciclovir;Foscarnet	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E684A	684	E	A	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E684D	684	E	D	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E688K	688	E	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V694Q	694	V	Q	A_engineered	1	Aciclovir;Foscarnet	1.7	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	Q697P	697	Q	P	A_engineered	1	Aciclovir;Foscarnet	1.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R700G	700	R	G	B_lab_selected	2	Aciclovir;Foscarnet;Ganciclovir;Penciclovir	6	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R700M	700	R	M	A_engineered	2	Aciclovir;Brivudine;Cidofovir;Foscarnet	3.67	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	L702H	702	L	H	B_lab_selected	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	56	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	L702I	702	L	I	B_lab_selected	2	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Penciclovir;Pritelivir	4.6	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	D703N	703	D	N	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	N711K	711	N	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	P712Y	712	P	Y	A_engineered	1	Aciclovir;Foscarnet	3.7	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V714M	714	V	M	B_lab_selected	1	Aciclovir;Brivudine;Cidofovir;Foscarnet	3.8	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V715G	715	V	G	A_engineered	2	Aciclovir;Cidofovir;Foscarnet;Penciclovir	4.6	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V715M	715	V	M	A_engineered	2	Aciclovir;Cidofovir;Foscarnet	3.4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V715S	715	V	S	A_engineered	1	Aciclovir;Foscarnet	9.2	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	F716L	716	F	L	B_lab_selected	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir	10	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A719T	719	A	T	A_engineered	3	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	5.94	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A719V	719	A	V	A_engineered	6	Aciclovir;Brivudine;Cidofovir;Foscarnet;Ganciclovir;Penciclovir	19	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	Q727R	727	Q	R	A_engineered	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R739S	739	R	S	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A740S	740	A	S	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E747K	747	E	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A748V	748	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet;Ganciclovir	1.2	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G749D	749	G	D	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	L753M	753	L	M	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E771Q	771	E	Q	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	L774F	774	L	F	A_engineered	1	Aciclovir;Foscarnet	3.7	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	S775N	775	S	N	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	L778M	778	L	M	A_engineered	2	Aciclovir;Cidofovir;Foscarnet;Penciclovir	5.53	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	D780N	780	D	N	A_engineered	1	Aciclovir;Cidofovir;Foscarnet	6.1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	W781V	781	W	V	A_engineered	1	Aciclovir;Foscarnet;Ganciclovir	14	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	L782I	782	L	I	A_engineered	1	Aciclovir;Cidofovir;Foscarnet	6.43	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	Q794H	794	Q	H	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E798K	798	E	K	B_lab_selected	1	Aciclovir	3	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	K805Q	805	K	Q	A_engineered	1	Aciclovir;Cidofovir;Foscarnet	1.82	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V812F	812	V	F	B_lab_selected	1	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	6.2	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V813M	813	V	M	B_lab_selected	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir	5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	N815S	815	N	S	A_engineered	2	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	600	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V817M	817	V	M	B_lab_selected	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	36	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	Y818C	818	Y	C	B_lab_selected	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	50	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	P829S	829	P	S	A_engineered	1	Aciclovir;Cidofovir;Foscarnet	1.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A834S	834	A	S	B_lab_selected	1	Aciclovir	2	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	T839I	839	T	I	B_lab_selected	1	Aciclovir	2.3	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G841C	841	G	C	B_lab_selected	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	24	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G841S	841	G	S	B_lab_selected	1	Aciclovir;Foscarnet	29	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R842S	842	R	S	B_lab_selected	1	Aciclovir;Penciclovir	150	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	L846I	846	L	I	A_engineered	1	Aciclovir;Cidofovir;Foscarnet	1.52	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A857V	857	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E860K	860	E	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	Q861R	861	Q	R	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	L862F	862	L	F	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E868G	868	E	G	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A870G	870	A	G	C_clinical_isolate	1	Aciclovir;Cidofovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A870V	870	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R873C	873	R	C	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A874T	874	A	T	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R881G	881	R	G	A_engineered	1	Aciclovir;Foscarnet	1.3	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	S889A	889	S	A	A_engineered	1	Aciclovir;Foscarnet	225	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	I890M	890	I	M	C_clinical_isolate	1	Aciclovir;Foscarnet;Ganciclovir	5.7	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	F891C	891	F	C	A_engineered	2	Aciclovir;Cidofovir;Foscarnet	35	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	F891Y	891	F	Y	A_engineered	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V892M	892	V	M	A_engineered	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G901V	901	G	V	C_clinical_isolate	1	Aciclovir;Foscarnet	25	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	D907V	907	D	V	A_engineered	1	Aciclovir;Cidofovir;Foscarnet	3.78	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	K908R	908	K	R	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A910V	910	A	V	B_lab_selected	1	Aciclovir;Cidofovir;Foscarnet	4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A916T	916	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	P920F	920	P	F	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E927D	927	E	D	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	T931A	931	T	A	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	T931I	931	T	I	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	Y941H	941	Y	H	A_engineered	2	Aciclovir;Cidofovir;Foscarnet	10	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	I942L	942	I	L	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	Y946F	946	Y	F	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G948C	948	G	C	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V958L	958	V	L	B_lab_selected	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir	12	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R959H	959	R	H	A_engineered	3	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	4.6	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	K960R	960	K	R	B_lab_selected	1	Aciclovir;Brivudine;Cidofovir;Foscarnet	2.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	N961K	961	N	K	A_engineered	2	Aciclovir;Cidofovir;Foscarnet	5.34	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	I966M	966	I	M	C_clinical_isolate	1	Aciclovir;Foscarnet	2.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R993L	993	R	L	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A995T	995	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	W998L	998	W	L	B_lab_selected	1	Aciclovir;Brivudine;Cidofovir;Foscarnet	1.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	L1007M	1007	L	M	A_engineered	3	Aciclovir;Cidofovir;Foscarnet	3.2	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A1012V	1012	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R1020C	1020	R	C	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R1020H	1020	R	H	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	T1022A	1022	T	A	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	I1028T	1028	I	T	A_engineered	3	Aciclovir;Cidofovir;Foscarnet	2.28	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	S1067F	1067	S	F	B_lab_selected	1	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	4.4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V1077L	1077	V	L	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E1082K	1082	E	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E1085D	1085	E	D	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E1085K	1085	E	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	T1086M	1086	T	M	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E1104K	1104	E	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A1109T	1109	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	P1112L	1112	P	L	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	P1114A	1114	P	A	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	P1114L	1114	P	L	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R1117I	1117	R	I	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R1117L	1117	R	L	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	R1117S	1117	R	S	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	S1123A	1123	S	A	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	G1129R	1129	G	R	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A1131T	1131	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet;Ganciclovir	0.3	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A1147T	1147	A	T	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A1147V	1147	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	H1152N	1152	H	N	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	D1159A	1159	D	A	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	L1166W	1166	L	W	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A1181T	1181	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	E1194D	1194	E	D	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	V1202M	1202	V	M	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	T1219M	1219	T	M	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A1220V	1220	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	H1228D	1228	H	D	C_clinical_isolate	1	Aciclovir	3	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	L1234I	1234	L	I	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL30	A1235T	1235	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL5	E34K	34	E	K	A_engineered	1	Aciclovir;Amenamevir;Foscarnet	1.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL5	A199T	199	A	T	B_lab_selected	1	Pritelivir	50	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL5	I341S	341	I	S	A_engineered	1	Aciclovir;Amenamevir;Foscarnet	1.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL5	N342K	342	N	K	B_lab_selected	1	Pritelivir	40	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL5	G352C	352	G	C	A_engineered	1	Aciclovir;Amenamevir;Foscarnet	25	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL5	G352R	352	G	R	B_lab_selected	3	Pritelivir	4e+03	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL5	G352V	352	G	V	A_engineered	2	Aciclovir;Amenamevir;Foscarnet;Pritelivir	400	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL5	M355I	355	M	I	B_lab_selected	1	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	7	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL5	M355T	355	M	T	A_engineered	3	Aciclovir;Amenamevir;Foscarnet;Pritelivir	15	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL5	K356N	356	K	N	A_engineered	4	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	5e+03	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL5	K356Q	356	K	Q	B_lab_selected	3	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	150	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL5	K356T	356	K	T	B_lab_selected	2	Pritelivir	2e+03	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL5	C477D	477	C	D	A_engineered	1	Aciclovir;Amenamevir;Foscarnet	1.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL52	Y222C	222	Y	C	A_engineered	1	Aciclovir;Amenamevir;Foscarnet	1.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL52	F294L	294	F	L	A_engineered	1	Aciclovir;Amenamevir;Foscarnet	1.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL52	F360C	360	F	C	A_engineered	1	Aciclovir;Amenamevir;Foscarnet	25	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL52	F360V	360	F	V	A_engineered	1	Aciclovir;Amenamevir;Foscarnet	158	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL52	S364G	364	S	G	A_engineered	1	Aciclovir;Amenamevir;Foscarnet	1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL52	A899T	899	A	T	B_lab_selected	1	Pritelivir	2.5e+03	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV1	UL52	N902T	902	N	T	A_engineered	1	Aciclovir;Amenamevir;Foscarnet	6	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	G25A	25	G	A	A_engineered	1	Aciclovir;Penciclovir	2.4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	R51W	51	R	W	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	Y53N	53	Y	N	A_engineered	2	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	24.1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	G56E	56	G	E	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	G59P	59	G	P	C_clinical_isolate	1	Aciclovir	61	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	A94V	94	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	E96D	96	E	D	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	I101S	101	I	S	A_engineered	1	Aciclovir	4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	A119T	119	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	T131P	131	T	P	C_clinical_isolate	2	Aciclovir	25	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	Y133F	133	Y	F	A_engineered	2	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	2.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	A135P	135	A	P	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	D137E	137	D	E	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	A157T	157	A	T	A_engineered	2	Aciclovir;Foscarnet;Penciclovir	1.7	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	L158P	158	L	P	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	R177W	177	R	W	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	S182N	182	S	N	B_lab_selected	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	M183I	183	M	I	A_engineered	1	Aciclovir	5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	A190V	190	A	V	C_clinical_isolate	1	Aciclovir	8	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	G201D	201	G	D	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	T202A	202	T	A	C_clinical_isolate	1	Aciclovir;Foscarnet	70	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	R220T	220	R	T	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	R221C	221	R	C	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	R221H	221	R	H	A_engineered	3	Aciclovir;Brivudine;Cidofovir;Foscarnet;Ganciclovir;Penciclovir	51.4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	R223H	223	R	H	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	D229H	229	D	H	C_clinical_isolate	1	Aciclovir	181	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	R248W	248	R	W	A_engineered	2	Aciclovir;Foscarnet;Penciclovir	2.3	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	Q251R	251	Q	R	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	T288M	288	T	M	C_clinical_isolate	2	Aciclovir	30	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL23	L342W	342	L	W	A_engineered	2	Aciclovir;Foscarnet;Penciclovir	2	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	P15R	15	P	R	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	Q34H	34	Q	H	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	A36G	36	A	G	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	C40W	40	C	W	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	Q43R	43	Q	R	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	H49Y	49	H	Y	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	R203Q	203	R	Q	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	N286Y	286	N	Y	C_clinical_isolate	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	A300T	300	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	D307N	307	D	N	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	Q507H	507	Q	H	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	K533E	533	K	E	A_engineered	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir	4.2	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	A547V	547	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	A606V	606	A	V	A_engineered	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir	6.2	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	C625R	625	C	R	A_engineered	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir	4.4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	R628C	628	R	C	A_engineered	2	Aciclovir;Cidofovir;Foscarnet;Penciclovir	2.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	D671N	671	D	N	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	D676N	676	D	N	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	G680R	680	G	R	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	E682G	682	E	G	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	E682K	682	E	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	D716N	716	D	N	C_clinical_isolate	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	A724T	724	A	T	C_clinical_isolate	2	Aciclovir;Cidofovir;Foscarnet	3.4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	A724V	724	A	V	A_engineered	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir	3.6	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	S725G	725	S	G	A_engineered	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir	4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	S729N	729	S	N	A_engineered	4	Aciclovir;Cidofovir;Foscarnet;Penciclovir	6.9	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	I731F	731	I	F	A_engineered	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir	6	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	Q732R	732	Q	R	A_engineered	2	Aciclovir;Cidofovir;Foscarnet;Ganciclovir;Penciclovir	1.12e+03	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	E746K	746	E	K	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	L783M	783	L	M	C_clinical_isolate	2	Aciclovir;Cidofovir;Foscarnet	8	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	D785N	785	D	N	C_clinical_isolate	2	Aciclovir;Cidofovir;Foscarnet	3.9	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	M789K	789	M	K	A_engineered	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir	3.4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	M789T	789	M	T	A_engineered	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir	3.3	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	Q799R	799	Q	R	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	V818A	818	V	A	A_engineered	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir	5.1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	N820S	820	N	S	A_engineered	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir	68	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	Y823C	823	Y	C	A_engineered	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir	3.4	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	Q829R	829	Q	R	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	R847C	847	R	C	A_engineered	2	Aciclovir;Cidofovir;Foscarnet;Ganciclovir;Penciclovir	827	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	L850I	850	L	I	C_clinical_isolate	2	Aciclovir;Cidofovir;Foscarnet	9.2	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	A869D	869	A	D	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	P880H	880	P	H	C_clinical_isolate	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	A904G	904	A	G	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	A905E	905	A	E	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	G906A	906	G	A	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	M910I	910	M	I	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	M910T	910	M	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	D912V	912	D	V	C_clinical_isolate	1	Aciclovir;Cidofovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	K913M	913	K	M	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	F923L	923	F	L	A_engineered	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir	7.5	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	T934A	934	T	A	A_engineered	2	Aciclovir;Cidofovir;Foscarnet;Penciclovir	20	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	R964H	964	R	H	A_engineered	1	Aciclovir;Cidofovir;Foscarnet;Penciclovir	4.9	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	T987S	987	T	S	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	A1000T	1000	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	R1025H	1025	R	H	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	A1083T	1083	A	T	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	A1114V	1114	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	A1209V	1209	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	A1213T	1213	A	T	C_clinical_isolate	1	Aciclovir		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	A1223V	1223	A	V	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL30	R1230Q	1230	R	Q	C_clinical_isolate	1	Aciclovir;Foscarnet		0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL5	I340V	340	I	V	B_lab_selected	1	Amenamevir	2.1	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL5	G351R	351	G	R	B_lab_selected	1	Amenamevir	2.2e+03	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL5	K355E	355	K	E	B_lab_selected	1	Amenamevir	8	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed
+HSV2	UL5	K355N	355	K	N	B_lab_selected	1	Amenamevir	2.8e+03	0	0	0	0.0	0.0	0.0	0	0.0	0.0		not_observed	not_observed

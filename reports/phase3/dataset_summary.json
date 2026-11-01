@@ -1,0 +1,65 @@
+{
+  "fc_threshold": 2.0,
+  "dropped": {
+    "no_numeric_fold_change": 403,
+    "co_mutation": 5,
+    "not_substitution": 56,
+    "no_reference_protein": 1
+  },
+  "primary_tier_A": {
+    "n": 119,
+    "n_resistant": 87,
+    "n_negative": 32,
+    "fc_min": 0.9,
+    "fc_median": 4.6,
+    "fc_max": 5000.0,
+    "by_gene": {
+      "HSV1:UL23": 31,
+      "HSV1:UL30": 45,
+      "HSV1:UL5": 7,
+      "HSV1:UL52": 6,
+      "HSV2:UL23": 12,
+      "HSV2:UL30": 18
+    },
+    "struct_covered": 113,
+    "freq_observed": 13
+  },
+  "sensitivity_tier_AB": {
+    "n": 161,
+    "n_resistant": 125,
+    "n_negative": 36,
+    "fc_min": 0.9,
+    "fc_median": 5.1,
+    "fc_max": 5000.0,
+    "by_gene": {
+      "HSV1:UL23": 42,
+      "HSV1:UL30": 66,
+      "HSV1:UL5": 13,
+      "HSV1:UL52": 6,
+      "HSV2:UL23": 12,
+      "HSV2:UL30": 18,
+      "HSV2:UL5": 4
+    },
+    "struct_covered": 154,
+    "freq_observed": 16
+  },
+  "sensitivity_all_tiers": {
+    "n": 235,
+    "n_resistant": 157,
+    "n_negative": 78,
+    "fc_min": 0.3,
+    "fc_median": 4.4,
+    "fc_max": 5000.0,
+    "by_gene": {
+      "HSV1:UL23": 82,
+      "HSV1:UL30": 89,
+      "HSV1:UL5": 13,
+      "HSV1:UL52": 6,
+      "HSV2:UL23": 18,
+      "HSV2:UL30": 23,
+      "HSV2:UL5": 4
+    },
+    "struct_covered": 219,
+    "freq_observed": 28
+  }
+}

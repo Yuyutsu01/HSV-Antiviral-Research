@@ -1,0 +1,2049 @@
+{
+  "primary_tier_A": {
+    "leave_one_gene_out": {
+      "frequency_baseline": "baseline:frequency_only/ridge",
+      "frequency_baseline_spearman": -0.1534,
+      "n_models_evaluated": 22,
+      "n_with_skill_above_chance": 6,
+      "n_passing_gate_4": 6,
+      "models_passing_gate_4": [
+        "baseline:esm_only/forest",
+        "baseline:structure_only/forest",
+        "baseline:structure_only/ridge",
+        "staged:stage4_plus_structure/ridge",
+        "staged:stage5_plus_esm/forest",
+        "staged:stage5_plus_esm/ridge"
+      ],
+      "best_by_spearman": "baseline:esm_only/forest",
+      "best_spearman": 0.3352,
+      "best_spearman_ci": [
+        0.1537,
+        0.4986
+      ],
+      "gate_4_passed": true,
+      "models": {
+        "baseline:blosum_only/forest": {
+          "n": 119,
+          "spearman": -0.0896,
+          "spearman_ci": [
+            -0.27,
+            0.0879
+          ],
+          "auc": 0.4957,
+          "auc_ci": [
+            0.3728,
+            0.6127
+          ],
+          "rmse": 0.8108,
+          "diff_vs_frequency": 0.0638,
+          "diff_ci": [
+            -0.1645,
+            0.2827
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:blosum_only/ridge": {
+          "n": 119,
+          "spearman": -0.2539,
+          "spearman_ci": [
+            -0.4194,
+            -0.0708
+          ],
+          "auc": 0.3903,
+          "auc_ci": [
+            0.2772,
+            0.512
+          ],
+          "rmse": 0.8064,
+          "diff_vs_frequency": -0.1006,
+          "diff_ci": [
+            -0.3206,
+            0.1256
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:conservation_only/forest": {
+          "n": 119,
+          "spearman": -0.1005,
+          "spearman_ci": [
+            -0.2938,
+            0.0951
+          ],
+          "auc": 0.5524,
+          "auc_ci": [
+            0.4279,
+            0.6765
+          ],
+          "rmse": 0.8022,
+          "diff_vs_frequency": 0.0529,
+          "diff_ci": [
+            -0.0727,
+            0.1901
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:conservation_only/ridge": {
+          "n": 119,
+          "spearman": -0.2097,
+          "spearman_ci": [
+            -0.3691,
+            -0.0446
+          ],
+          "auc": 0.3552,
+          "auc_ci": [
+            0.2548,
+            0.4607
+          ],
+          "rmse": 0.834,
+          "diff_vs_frequency": -0.0563,
+          "diff_ci": [
+            -0.1859,
+            0.0779
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:esm_only/forest": {
+          "n": 119,
+          "spearman": 0.3352,
+          "spearman_ci": [
+            0.1537,
+            0.4986
+          ],
+          "auc": 0.6433,
+          "auc_ci": [
+            0.5372,
+            0.7457
+          ],
+          "rmse": 0.7076,
+          "diff_vs_frequency": 0.4886,
+          "diff_ci": [
+            0.2657,
+            0.7097
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "baseline:esm_only/ridge": {
+          "n": 119,
+          "spearman": 0.1378,
+          "spearman_ci": [
+            -0.0486,
+            0.3259
+          ],
+          "auc": 0.5955,
+          "auc_ci": [
+            0.4824,
+            0.7069
+          ],
+          "rmse": 0.7749,
+          "diff_vs_frequency": 0.2912,
+          "diff_ci": [
+            0.0911,
+            0.488
+          ],
+          "has_skill": false,
+          "beats_frequency": true,
+          "passes_gate_4": false
+        },
+        "baseline:frequency_only/forest": {
+          "n": 119,
+          "spearman": -0.188,
+          "spearman_ci": [
+            -0.3683,
+            0.0026
+          ],
+          "auc": 0.47,
+          "auc_ci": [
+            0.3458,
+            0.5981
+          ],
+          "rmse": 0.796,
+          "diff_vs_frequency": -0.0346,
+          "diff_ci": [
+            -0.1029,
+            0.0005
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:frequency_only/ridge": {
+          "n": 119,
+          "spearman": -0.1534,
+          "spearman_ci": [
+            -0.3411,
+            0.0307
+          ],
+          "auc": 0.4835,
+          "auc_ci": [
+            0.3552,
+            0.6113
+          ],
+          "rmse": 0.8023,
+          "diff_vs_frequency": 0.0,
+          "diff_ci": [
+            0.0,
+            0.0
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:properties_only/forest": {
+          "n": 119,
+          "spearman": -0.0525,
+          "spearman_ci": [
+            -0.2404,
+            0.1298
+          ],
+          "auc": 0.4659,
+          "auc_ci": [
+            0.3552,
+            0.5792
+          ],
+          "rmse": 0.855,
+          "diff_vs_frequency": 0.1009,
+          "diff_ci": [
+            -0.1304,
+            0.3392
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:properties_only/ridge": {
+          "n": 119,
+          "spearman": -0.0265,
+          "spearman_ci": [
+            -0.2274,
+            0.1643
+          ],
+          "auc": 0.4591,
+          "auc_ci": [
+            0.3448,
+            0.576
+          ],
+          "rmse": 0.8081,
+          "diff_vs_frequency": 0.1269,
+          "diff_ci": [
+            -0.123,
+            0.3779
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:structure_only/forest": {
+          "n": 119,
+          "spearman": 0.3089,
+          "spearman_ci": [
+            0.1273,
+            0.4692
+          ],
+          "auc": 0.7606,
+          "auc_ci": [
+            0.6459,
+            0.8615
+          ],
+          "rmse": 0.7743,
+          "diff_vs_frequency": 0.4623,
+          "diff_ci": [
+            0.244,
+            0.6701
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "baseline:structure_only/ridge": {
+          "n": 119,
+          "spearman": 0.2861,
+          "spearman_ci": [
+            0.1023,
+            0.4498
+          ],
+          "auc": 0.7552,
+          "auc_ci": [
+            0.6431,
+            0.8536
+          ],
+          "rmse": 0.7483,
+          "diff_vs_frequency": 0.4395,
+          "diff_ci": [
+            0.2325,
+            0.6453
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage1_freq/forest": {
+          "n": 119,
+          "spearman": -0.188,
+          "spearman_ci": [
+            -0.3678,
+            -0.0043
+          ],
+          "auc": 0.47,
+          "auc_ci": [
+            0.346,
+            0.5923
+          ],
+          "rmse": 0.796,
+          "diff_vs_frequency": -0.0346,
+          "diff_ci": [
+            -0.1045,
+            0.0006
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage1_freq/ridge": {
+          "n": 119,
+          "spearman": -0.1534,
+          "spearman_ci": [
+            -0.3354,
+            0.0367
+          ],
+          "auc": 0.4835,
+          "auc_ci": [
+            0.3615,
+            0.6121
+          ],
+          "rmse": 0.8023,
+          "diff_vs_frequency": 0.0,
+          "diff_ci": [
+            0.0,
+            0.0
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage2_freq_cons/forest": {
+          "n": 119,
+          "spearman": -0.1328,
+          "spearman_ci": [
+            -0.3226,
+            0.0541
+          ],
+          "auc": 0.525,
+          "auc_ci": [
+            0.399,
+            0.6494
+          ],
+          "rmse": 0.8155,
+          "diff_vs_frequency": 0.0206,
+          "diff_ci": [
+            -0.1244,
+            0.1631
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage2_freq_cons/ridge": {
+          "n": 119,
+          "spearman": -0.1359,
+          "spearman_ci": [
+            -0.3108,
+            0.0465
+          ],
+          "auc": 0.4551,
+          "auc_ci": [
+            0.3317,
+            0.578
+          ],
+          "rmse": 0.8384,
+          "diff_vs_frequency": 0.0175,
+          "diff_ci": [
+            -0.0701,
+            0.1104
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage3_freq_cons_prop/forest": {
+          "n": 119,
+          "spearman": -0.0583,
+          "spearman_ci": [
+            -0.24,
+            0.1178
+          ],
+          "auc": 0.4856,
+          "auc_ci": [
+            0.3689,
+            0.5996
+          ],
+          "rmse": 0.8412,
+          "diff_vs_frequency": 0.0951,
+          "diff_ci": [
+            -0.1142,
+            0.2991
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage3_freq_cons_prop/ridge": {
+          "n": 119,
+          "spearman": -0.0156,
+          "spearman_ci": [
+            -0.2043,
+            0.1723
+          ],
+          "auc": 0.4612,
+          "auc_ci": [
+            0.3488,
+            0.5757
+          ],
+          "rmse": 0.8252,
+          "diff_vs_frequency": 0.1377,
+          "diff_ci": [
+            -0.0519,
+            0.3382
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage4_plus_structure/forest": {
+          "n": 119,
+          "spearman": 0.0504,
+          "spearman_ci": [
+            -0.1448,
+            0.2392
+          ],
+          "auc": 0.6487,
+          "auc_ci": [
+            0.5334,
+            0.7621
+          ],
+          "rmse": 0.8188,
+          "diff_vs_frequency": 0.2038,
+          "diff_ci": [
+            -0.03,
+            0.4242
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage4_plus_structure/ridge": {
+          "n": 119,
+          "spearman": 0.2386,
+          "spearman_ci": [
+            0.0487,
+            0.4163
+          ],
+          "auc": 0.68,
+          "auc_ci": [
+            0.5684,
+            0.7872
+          ],
+          "rmse": 0.7596,
+          "diff_vs_frequency": 0.392,
+          "diff_ci": [
+            0.1793,
+            0.5957
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage5_plus_esm/forest": {
+          "n": 119,
+          "spearman": 0.2987,
+          "spearman_ci": [
+            0.1084,
+            0.481
+          ],
+          "auc": 0.6904,
+          "auc_ci": [
+            0.5863,
+            0.7888
+          ],
+          "rmse": 0.7355,
+          "diff_vs_frequency": 0.4521,
+          "diff_ci": [
+            0.2196,
+            0.6671
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage5_plus_esm/ridge": {
+          "n": 119,
+          "spearman": 0.2663,
+          "spearman_ci": [
+            0.0734,
+            0.4449
+          ],
+          "auc": 0.6857,
+          "auc_ci": [
+            0.5758,
+            0.7907
+          ],
+          "rmse": 0.7497,
+          "diff_vs_frequency": 0.4197,
+          "diff_ci": [
+            0.2288,
+            0.6145
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        }
+      }
+    },
+    "position_blocks": {
+      "frequency_baseline": "baseline:frequency_only/forest",
+      "frequency_baseline_spearman": -0.0772,
+      "n_models_evaluated": 22,
+      "n_with_skill_above_chance": 8,
+      "n_passing_gate_4": 8,
+      "models_passing_gate_4": [
+        "baseline:esm_only/forest",
+        "baseline:esm_only/ridge",
+        "baseline:structure_only/forest",
+        "baseline:structure_only/ridge",
+        "staged:stage4_plus_structure/forest",
+        "staged:stage4_plus_structure/ridge",
+        "staged:stage5_plus_esm/forest",
+        "staged:stage5_plus_esm/ridge"
+      ],
+      "best_by_spearman": "baseline:structure_only/ridge",
+      "best_spearman": 0.4812,
+      "best_spearman_ci": [
+        0.3126,
+        0.6353
+      ],
+      "gate_4_passed": true,
+      "models": {
+        "baseline:blosum_only/forest": {
+          "n": 119,
+          "spearman": 0.1327,
+          "spearman_ci": [
+            -0.0405,
+            0.3006
+          ],
+          "auc": 0.5954,
+          "auc_ci": [
+            0.4772,
+            0.7078
+          ],
+          "rmse": 0.7683,
+          "diff_vs_frequency": 0.21,
+          "diff_ci": [
+            -0.0334,
+            0.4488
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:blosum_only/ridge": {
+          "n": 119,
+          "spearman": -0.1575,
+          "spearman_ci": [
+            -0.3279,
+            0.0265
+          ],
+          "auc": 0.4533,
+          "auc_ci": [
+            0.3326,
+            0.5792
+          ],
+          "rmse": 0.7851,
+          "diff_vs_frequency": -0.0802,
+          "diff_ci": [
+            -0.2827,
+            0.1243
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:conservation_only/forest": {
+          "n": 119,
+          "spearman": 0.1054,
+          "spearman_ci": [
+            -0.0928,
+            0.3004
+          ],
+          "auc": 0.6085,
+          "auc_ci": [
+            0.481,
+            0.7303
+          ],
+          "rmse": 0.8323,
+          "diff_vs_frequency": 0.1827,
+          "diff_ci": [
+            -0.0422,
+            0.4147
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:conservation_only/ridge": {
+          "n": 119,
+          "spearman": -0.2758,
+          "spearman_ci": [
+            -0.4586,
+            -0.0808
+          ],
+          "auc": 0.3093,
+          "auc_ci": [
+            0.1954,
+            0.4319
+          ],
+          "rmse": 0.7802,
+          "diff_vs_frequency": -0.1986,
+          "diff_ci": [
+            -0.3612,
+            -0.0308
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:esm_only/forest": {
+          "n": 119,
+          "spearman": 0.3635,
+          "spearman_ci": [
+            0.1841,
+            0.5244
+          ],
+          "auc": 0.6356,
+          "auc_ci": [
+            0.5219,
+            0.7433
+          ],
+          "rmse": 0.6931,
+          "diff_vs_frequency": 0.4407,
+          "diff_ci": [
+            0.1867,
+            0.681
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "baseline:esm_only/ridge": {
+          "n": 119,
+          "spearman": 0.3053,
+          "spearman_ci": [
+            0.1165,
+            0.4831
+          ],
+          "auc": 0.6602,
+          "auc_ci": [
+            0.5532,
+            0.7607
+          ],
+          "rmse": 0.742,
+          "diff_vs_frequency": 0.3825,
+          "diff_ci": [
+            0.1556,
+            0.6072
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "baseline:frequency_only/forest": {
+          "n": 119,
+          "spearman": -0.0772,
+          "spearman_ci": [
+            -0.2566,
+            0.1062
+          ],
+          "auc": 0.5041,
+          "auc_ci": [
+            0.3795,
+            0.6228
+          ],
+          "rmse": 0.7622,
+          "diff_vs_frequency": 0.0,
+          "diff_ci": [
+            0.0,
+            0.0
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:frequency_only/ridge": {
+          "n": 119,
+          "spearman": -0.0785,
+          "spearman_ci": [
+            -0.2576,
+            0.0996
+          ],
+          "auc": 0.5038,
+          "auc_ci": [
+            0.3818,
+            0.6218
+          ],
+          "rmse": 0.7762,
+          "diff_vs_frequency": -0.0012,
+          "diff_ci": [
+            -0.0088,
+            0.0039
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:properties_only/forest": {
+          "n": 119,
+          "spearman": -0.1329,
+          "spearman_ci": [
+            -0.313,
+            0.0492
+          ],
+          "auc": 0.4655,
+          "auc_ci": [
+            0.3521,
+            0.5793
+          ],
+          "rmse": 0.8182,
+          "diff_vs_frequency": -0.0556,
+          "diff_ci": [
+            -0.2792,
+            0.1617
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:properties_only/ridge": {
+          "n": 119,
+          "spearman": -0.0686,
+          "spearman_ci": [
+            -0.2463,
+            0.1164
+          ],
+          "auc": 0.477,
+          "auc_ci": [
+            0.354,
+            0.5962
+          ],
+          "rmse": 0.8091,
+          "diff_vs_frequency": 0.0086,
+          "diff_ci": [
+            -0.2443,
+            0.2587
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:structure_only/forest": {
+          "n": 119,
+          "spearman": 0.4114,
+          "spearman_ci": [
+            0.2341,
+            0.5705
+          ],
+          "auc": 0.8069,
+          "auc_ci": [
+            0.7102,
+            0.8932
+          ],
+          "rmse": 0.7223,
+          "diff_vs_frequency": 0.4887,
+          "diff_ci": [
+            0.2523,
+            0.7193
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "baseline:structure_only/ridge": {
+          "n": 119,
+          "spearman": 0.4812,
+          "spearman_ci": [
+            0.3126,
+            0.6353
+          ],
+          "auc": 0.7947,
+          "auc_ci": [
+            0.6923,
+            0.8853
+          ],
+          "rmse": 0.7204,
+          "diff_vs_frequency": 0.5585,
+          "diff_ci": [
+            0.3346,
+            0.773
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage1_freq/forest": {
+          "n": 119,
+          "spearman": -0.0772,
+          "spearman_ci": [
+            -0.2537,
+            0.0986
+          ],
+          "auc": 0.5041,
+          "auc_ci": [
+            0.3811,
+            0.6223
+          ],
+          "rmse": 0.7622,
+          "diff_vs_frequency": 0.0,
+          "diff_ci": [
+            0.0,
+            0.0
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage1_freq/ridge": {
+          "n": 119,
+          "spearman": -0.0785,
+          "spearman_ci": [
+            -0.2537,
+            0.0945
+          ],
+          "auc": 0.5038,
+          "auc_ci": [
+            0.3874,
+            0.6214
+          ],
+          "rmse": 0.7762,
+          "diff_vs_frequency": -0.0012,
+          "diff_ci": [
+            -0.0087,
+            0.0037
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage2_freq_cons/forest": {
+          "n": 119,
+          "spearman": 0.1422,
+          "spearman_ci": [
+            -0.0521,
+            0.322
+          ],
+          "auc": 0.5885,
+          "auc_ci": [
+            0.4672,
+            0.7042
+          ],
+          "rmse": 0.796,
+          "diff_vs_frequency": 0.2194,
+          "diff_ci": [
+            0.0236,
+            0.406
+          ],
+          "has_skill": false,
+          "beats_frequency": true,
+          "passes_gate_4": false
+        },
+        "staged:stage2_freq_cons/ridge": {
+          "n": 119,
+          "spearman": -0.1888,
+          "spearman_ci": [
+            -0.3731,
+            0.0074
+          ],
+          "auc": 0.4158,
+          "auc_ci": [
+            0.2872,
+            0.5534
+          ],
+          "rmse": 0.8194,
+          "diff_vs_frequency": -0.1116,
+          "diff_ci": [
+            -0.2186,
+            -0.0032
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage3_freq_cons_prop/forest": {
+          "n": 119,
+          "spearman": -0.099,
+          "spearman_ci": [
+            -0.2721,
+            0.0807
+          ],
+          "auc": 0.5169,
+          "auc_ci": [
+            0.3996,
+            0.6325
+          ],
+          "rmse": 0.8022,
+          "diff_vs_frequency": -0.0218,
+          "diff_ci": [
+            -0.2253,
+            0.1991
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage3_freq_cons_prop/ridge": {
+          "n": 119,
+          "spearman": 0.0113,
+          "spearman_ci": [
+            -0.1719,
+            0.1979
+          ],
+          "auc": 0.5005,
+          "auc_ci": [
+            0.3843,
+            0.6173
+          ],
+          "rmse": 0.7784,
+          "diff_vs_frequency": 0.0885,
+          "diff_ci": [
+            -0.1153,
+            0.2912
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage4_plus_structure/forest": {
+          "n": 119,
+          "spearman": 0.3144,
+          "spearman_ci": [
+            0.1272,
+            0.4901
+          ],
+          "auc": 0.7486,
+          "auc_ci": [
+            0.6457,
+            0.8456
+          ],
+          "rmse": 0.7435,
+          "diff_vs_frequency": 0.3916,
+          "diff_ci": [
+            0.1381,
+            0.6337
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage4_plus_structure/ridge": {
+          "n": 119,
+          "spearman": 0.2972,
+          "spearman_ci": [
+            0.1111,
+            0.4732
+          ],
+          "auc": 0.7288,
+          "auc_ci": [
+            0.6183,
+            0.8315
+          ],
+          "rmse": 0.7583,
+          "diff_vs_frequency": 0.3744,
+          "diff_ci": [
+            0.1481,
+            0.5925
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage5_plus_esm/forest": {
+          "n": 119,
+          "spearman": 0.4393,
+          "spearman_ci": [
+            0.2632,
+            0.5932
+          ],
+          "auc": 0.7493,
+          "auc_ci": [
+            0.6421,
+            0.8422
+          ],
+          "rmse": 0.6892,
+          "diff_vs_frequency": 0.5165,
+          "diff_ci": [
+            0.2872,
+            0.7314
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage5_plus_esm/ridge": {
+          "n": 119,
+          "spearman": 0.3794,
+          "spearman_ci": [
+            0.2025,
+            0.5368
+          ],
+          "auc": 0.7328,
+          "auc_ci": [
+            0.6334,
+            0.8289
+          ],
+          "rmse": 0.7174,
+          "diff_vs_frequency": 0.4566,
+          "diff_ci": [
+            0.24,
+            0.6678
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        }
+      }
+    }
+  },
+  "secondary_all_tiers": {
+    "leave_one_gene_out": {
+      "frequency_baseline": "baseline:frequency_only/ridge",
+      "frequency_baseline_spearman": -0.0179,
+      "n_models_evaluated": 22,
+      "n_with_skill_above_chance": 9,
+      "n_passing_gate_4": 9,
+      "models_passing_gate_4": [
+        "baseline:esm_only/forest",
+        "baseline:esm_only/ridge",
+        "baseline:properties_only/forest",
+        "baseline:structure_only/forest",
+        "baseline:structure_only/ridge",
+        "staged:stage4_plus_structure/forest",
+        "staged:stage4_plus_structure/ridge",
+        "staged:stage5_plus_esm/forest",
+        "staged:stage5_plus_esm/ridge"
+      ],
+      "best_by_spearman": "baseline:structure_only/forest",
+      "best_spearman": 0.5498,
+      "best_spearman_ci": [
+        0.4501,
+        0.6337
+      ],
+      "gate_4_passed": true,
+      "models": {
+        "baseline:blosum_only/forest": {
+          "n": 235,
+          "spearman": -0.0127,
+          "spearman_ci": [
+            -0.1358,
+            0.1167
+          ],
+          "auc": 0.5169,
+          "auc_ci": [
+            0.4376,
+            0.5957
+          ],
+          "rmse": 0.8575,
+          "diff_vs_frequency": 0.0052,
+          "diff_ci": [
+            -0.1536,
+            0.1694
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:blosum_only/ridge": {
+          "n": 235,
+          "spearman": 0.0699,
+          "spearman_ci": [
+            -0.0593,
+            0.1991
+          ],
+          "auc": 0.5236,
+          "auc_ci": [
+            0.442,
+            0.6058
+          ],
+          "rmse": 0.8589,
+          "diff_vs_frequency": 0.0878,
+          "diff_ci": [
+            -0.0701,
+            0.2459
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:conservation_only/forest": {
+          "n": 235,
+          "spearman": 0.0915,
+          "spearman_ci": [
+            -0.0454,
+            0.2232
+          ],
+          "auc": 0.6602,
+          "auc_ci": [
+            0.5912,
+            0.7318
+          ],
+          "rmse": 0.8777,
+          "diff_vs_frequency": 0.1094,
+          "diff_ci": [
+            -0.0077,
+            0.2262
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:conservation_only/ridge": {
+          "n": 235,
+          "spearman": -0.0345,
+          "spearman_ci": [
+            -0.1658,
+            0.0991
+          ],
+          "auc": 0.5545,
+          "auc_ci": [
+            0.478,
+            0.6329
+          ],
+          "rmse": 0.8835,
+          "diff_vs_frequency": -0.0166,
+          "diff_ci": [
+            -0.1069,
+            0.0686
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:esm_only/forest": {
+          "n": 235,
+          "spearman": 0.2007,
+          "spearman_ci": [
+            0.0701,
+            0.3229
+          ],
+          "auc": 0.6031,
+          "auc_ci": [
+            0.5289,
+            0.6779
+          ],
+          "rmse": 0.8707,
+          "diff_vs_frequency": 0.2187,
+          "diff_ci": [
+            0.04,
+            0.3963
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "baseline:esm_only/ridge": {
+          "n": 235,
+          "spearman": 0.2151,
+          "spearman_ci": [
+            0.0747,
+            0.3479
+          ],
+          "auc": 0.6337,
+          "auc_ci": [
+            0.5597,
+            0.7039
+          ],
+          "rmse": 0.8457,
+          "diff_vs_frequency": 0.233,
+          "diff_ci": [
+            0.0491,
+            0.4083
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "baseline:frequency_only/forest": {
+          "n": 235,
+          "spearman": -0.0513,
+          "spearman_ci": [
+            -0.188,
+            0.0825
+          ],
+          "auc": 0.5672,
+          "auc_ci": [
+            0.4836,
+            0.6467
+          ],
+          "rmse": 0.8659,
+          "diff_vs_frequency": -0.0334,
+          "diff_ci": [
+            -0.0751,
+            0.0027
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:frequency_only/ridge": {
+          "n": 235,
+          "spearman": -0.0179,
+          "spearman_ci": [
+            -0.1536,
+            0.1142
+          ],
+          "auc": 0.5752,
+          "auc_ci": [
+            0.4935,
+            0.6533
+          ],
+          "rmse": 0.8606,
+          "diff_vs_frequency": 0.0,
+          "diff_ci": [
+            0.0,
+            0.0
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:properties_only/forest": {
+          "n": 235,
+          "spearman": 0.1599,
+          "spearman_ci": [
+            0.0267,
+            0.2918
+          ],
+          "auc": 0.5709,
+          "auc_ci": [
+            0.4894,
+            0.6508
+          ],
+          "rmse": 0.8424,
+          "diff_vs_frequency": 0.1778,
+          "diff_ci": [
+            0.0229,
+            0.3299
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "baseline:properties_only/ridge": {
+          "n": 235,
+          "spearman": 0.0801,
+          "spearman_ci": [
+            -0.0511,
+            0.2089
+          ],
+          "auc": 0.5129,
+          "auc_ci": [
+            0.4351,
+            0.59
+          ],
+          "rmse": 0.8421,
+          "diff_vs_frequency": 0.0981,
+          "diff_ci": [
+            -0.0635,
+            0.2658
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:structure_only/forest": {
+          "n": 235,
+          "spearman": 0.5498,
+          "spearman_ci": [
+            0.4501,
+            0.6337
+          ],
+          "auc": 0.8047,
+          "auc_ci": [
+            0.7398,
+            0.8631
+          ],
+          "rmse": 0.7398,
+          "diff_vs_frequency": 0.5677,
+          "diff_ci": [
+            0.416,
+            0.7107
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "baseline:structure_only/ridge": {
+          "n": 235,
+          "spearman": 0.2357,
+          "spearman_ci": [
+            0.1052,
+            0.3568
+          ],
+          "auc": 0.7223,
+          "auc_ci": [
+            0.6471,
+            0.7923
+          ],
+          "rmse": 0.8414,
+          "diff_vs_frequency": 0.2536,
+          "diff_ci": [
+            0.1085,
+            0.3925
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage1_freq/forest": {
+          "n": 235,
+          "spearman": -0.0513,
+          "spearman_ci": [
+            -0.1926,
+            0.0809
+          ],
+          "auc": 0.5672,
+          "auc_ci": [
+            0.4839,
+            0.6473
+          ],
+          "rmse": 0.8659,
+          "diff_vs_frequency": -0.0334,
+          "diff_ci": [
+            -0.0738,
+            0.0041
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage1_freq/ridge": {
+          "n": 235,
+          "spearman": -0.0179,
+          "spearman_ci": [
+            -0.1567,
+            0.1146
+          ],
+          "auc": 0.5752,
+          "auc_ci": [
+            0.4903,
+            0.656
+          ],
+          "rmse": 0.8606,
+          "diff_vs_frequency": 0.0,
+          "diff_ci": [
+            0.0,
+            0.0
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage2_freq_cons/forest": {
+          "n": 235,
+          "spearman": 0.0627,
+          "spearman_ci": [
+            -0.0681,
+            0.1898
+          ],
+          "auc": 0.6497,
+          "auc_ci": [
+            0.5776,
+            0.7187
+          ],
+          "rmse": 0.8866,
+          "diff_vs_frequency": 0.0806,
+          "diff_ci": [
+            -0.0089,
+            0.1726
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage2_freq_cons/ridge": {
+          "n": 235,
+          "spearman": -0.0157,
+          "spearman_ci": [
+            -0.1554,
+            0.1192
+          ],
+          "auc": 0.5737,
+          "auc_ci": [
+            0.4912,
+            0.654
+          ],
+          "rmse": 0.8697,
+          "diff_vs_frequency": 0.0023,
+          "diff_ci": [
+            -0.0277,
+            0.0326
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage3_freq_cons_prop/forest": {
+          "n": 235,
+          "spearman": 0.0764,
+          "spearman_ci": [
+            -0.0523,
+            0.2054
+          ],
+          "auc": 0.5853,
+          "auc_ci": [
+            0.5066,
+            0.6647
+          ],
+          "rmse": 0.9075,
+          "diff_vs_frequency": 0.0943,
+          "diff_ci": [
+            -0.0421,
+            0.2343
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage3_freq_cons_prop/ridge": {
+          "n": 235,
+          "spearman": 0.0888,
+          "spearman_ci": [
+            -0.0466,
+            0.2248
+          ],
+          "auc": 0.5488,
+          "auc_ci": [
+            0.4677,
+            0.6319
+          ],
+          "rmse": 1.3246,
+          "diff_vs_frequency": 0.1068,
+          "diff_ci": [
+            -0.0322,
+            0.2474
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage4_plus_structure/forest": {
+          "n": 235,
+          "spearman": 0.4121,
+          "spearman_ci": [
+            0.2932,
+            0.5179
+          ],
+          "auc": 0.7874,
+          "auc_ci": [
+            0.7203,
+            0.8466
+          ],
+          "rmse": 0.8122,
+          "diff_vs_frequency": 0.43,
+          "diff_ci": [
+            0.2787,
+            0.5805
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage4_plus_structure/ridge": {
+          "n": 235,
+          "spearman": 0.384,
+          "spearman_ci": [
+            0.2622,
+            0.4949
+          ],
+          "auc": 0.7668,
+          "auc_ci": [
+            0.6977,
+            0.8313
+          ],
+          "rmse": 0.8035,
+          "diff_vs_frequency": 0.402,
+          "diff_ci": [
+            0.2777,
+            0.5232
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage5_plus_esm/forest": {
+          "n": 235,
+          "spearman": 0.3002,
+          "spearman_ci": [
+            0.1701,
+            0.4252
+          ],
+          "auc": 0.7101,
+          "auc_ci": [
+            0.6377,
+            0.7786
+          ],
+          "rmse": 0.858,
+          "diff_vs_frequency": 0.3181,
+          "diff_ci": [
+            0.1614,
+            0.4712
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage5_plus_esm/ridge": {
+          "n": 235,
+          "spearman": 0.3862,
+          "spearman_ci": [
+            0.2612,
+            0.4985
+          ],
+          "auc": 0.7628,
+          "auc_ci": [
+            0.6958,
+            0.8234
+          ],
+          "rmse": 0.8047,
+          "diff_vs_frequency": 0.4041,
+          "diff_ci": [
+            0.2751,
+            0.5339
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        }
+      }
+    },
+    "position_blocks": {
+      "frequency_baseline": "baseline:frequency_only/ridge",
+      "frequency_baseline_spearman": -0.061,
+      "n_models_evaluated": 22,
+      "n_with_skill_above_chance": 12,
+      "n_passing_gate_4": 12,
+      "models_passing_gate_4": [
+        "baseline:esm_only/forest",
+        "baseline:esm_only/ridge",
+        "baseline:properties_only/forest",
+        "baseline:properties_only/ridge",
+        "baseline:structure_only/forest",
+        "baseline:structure_only/ridge",
+        "staged:stage3_freq_cons_prop/forest",
+        "staged:stage3_freq_cons_prop/ridge",
+        "staged:stage4_plus_structure/forest",
+        "staged:stage4_plus_structure/ridge",
+        "staged:stage5_plus_esm/forest",
+        "staged:stage5_plus_esm/ridge"
+      ],
+      "best_by_spearman": "staged:stage5_plus_esm/forest",
+      "best_spearman": 0.5237,
+      "best_spearman_ci": [
+        0.4108,
+        0.6233
+      ],
+      "gate_4_passed": true,
+      "models": {
+        "baseline:blosum_only/forest": {
+          "n": 235,
+          "spearman": 0.0142,
+          "spearman_ci": [
+            -0.1141,
+            0.1416
+          ],
+          "auc": 0.4917,
+          "auc_ci": [
+            0.4115,
+            0.5673
+          ],
+          "rmse": 0.8425,
+          "diff_vs_frequency": 0.0752,
+          "diff_ci": [
+            -0.0879,
+            0.2337
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:blosum_only/ridge": {
+          "n": 235,
+          "spearman": 0.1178,
+          "spearman_ci": [
+            -0.0093,
+            0.2368
+          ],
+          "auc": 0.5315,
+          "auc_ci": [
+            0.4527,
+            0.6083
+          ],
+          "rmse": 0.838,
+          "diff_vs_frequency": 0.1787,
+          "diff_ci": [
+            0.0197,
+            0.3357
+          ],
+          "has_skill": false,
+          "beats_frequency": true,
+          "passes_gate_4": false
+        },
+        "baseline:conservation_only/forest": {
+          "n": 235,
+          "spearman": 0.0356,
+          "spearman_ci": [
+            -0.0914,
+            0.1597
+          ],
+          "auc": 0.523,
+          "auc_ci": [
+            0.4389,
+            0.6064
+          ],
+          "rmse": 0.8981,
+          "diff_vs_frequency": 0.0965,
+          "diff_ci": [
+            -0.0788,
+            0.2667
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:conservation_only/ridge": {
+          "n": 235,
+          "spearman": -0.1227,
+          "spearman_ci": [
+            -0.2597,
+            0.0167
+          ],
+          "auc": 0.4949,
+          "auc_ci": [
+            0.4145,
+            0.5733
+          ],
+          "rmse": 0.8551,
+          "diff_vs_frequency": -0.0618,
+          "diff_ci": [
+            -0.1782,
+            0.0478
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:esm_only/forest": {
+          "n": 235,
+          "spearman": 0.2129,
+          "spearman_ci": [
+            0.0768,
+            0.3399
+          ],
+          "auc": 0.6019,
+          "auc_ci": [
+            0.526,
+            0.6764
+          ],
+          "rmse": 0.8809,
+          "diff_vs_frequency": 0.2739,
+          "diff_ci": [
+            0.1029,
+            0.4481
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "baseline:esm_only/ridge": {
+          "n": 235,
+          "spearman": 0.2656,
+          "spearman_ci": [
+            0.1274,
+            0.3972
+          ],
+          "auc": 0.6559,
+          "auc_ci": [
+            0.584,
+            0.7234
+          ],
+          "rmse": 0.8419,
+          "diff_vs_frequency": 0.3265,
+          "diff_ci": [
+            0.1593,
+            0.4913
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "baseline:frequency_only/forest": {
+          "n": 235,
+          "spearman": -0.0668,
+          "spearman_ci": [
+            -0.2046,
+            0.0692
+          ],
+          "auc": 0.4866,
+          "auc_ci": [
+            0.4008,
+            0.5736
+          ],
+          "rmse": 0.8474,
+          "diff_vs_frequency": -0.0058,
+          "diff_ci": [
+            -0.0139,
+            -0.0002
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:frequency_only/ridge": {
+          "n": 235,
+          "spearman": -0.061,
+          "spearman_ci": [
+            -0.197,
+            0.0768
+          ],
+          "auc": 0.4879,
+          "auc_ci": [
+            0.4022,
+            0.5719
+          ],
+          "rmse": 0.8437,
+          "diff_vs_frequency": 0.0,
+          "diff_ci": [
+            0.0,
+            0.0
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "baseline:properties_only/forest": {
+          "n": 235,
+          "spearman": 0.1761,
+          "spearman_ci": [
+            0.038,
+            0.3067
+          ],
+          "auc": 0.5938,
+          "auc_ci": [
+            0.5103,
+            0.6722
+          ],
+          "rmse": 0.8767,
+          "diff_vs_frequency": 0.2371,
+          "diff_ci": [
+            0.0531,
+            0.4185
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "baseline:properties_only/ridge": {
+          "n": 235,
+          "spearman": 0.1855,
+          "spearman_ci": [
+            0.0616,
+            0.3038
+          ],
+          "auc": 0.5538,
+          "auc_ci": [
+            0.477,
+            0.6303
+          ],
+          "rmse": 0.8318,
+          "diff_vs_frequency": 0.2465,
+          "diff_ci": [
+            0.0623,
+            0.4214
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "baseline:structure_only/forest": {
+          "n": 235,
+          "spearman": 0.4879,
+          "spearman_ci": [
+            0.3827,
+            0.5792
+          ],
+          "auc": 0.7969,
+          "auc_ci": [
+            0.7351,
+            0.8537
+          ],
+          "rmse": 0.7949,
+          "diff_vs_frequency": 0.5489,
+          "diff_ci": [
+            0.4031,
+            0.6898
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "baseline:structure_only/ridge": {
+          "n": 235,
+          "spearman": 0.3855,
+          "spearman_ci": [
+            0.2719,
+            0.488
+          ],
+          "auc": 0.7718,
+          "auc_ci": [
+            0.7076,
+            0.8325
+          ],
+          "rmse": 0.8122,
+          "diff_vs_frequency": 0.4465,
+          "diff_ci": [
+            0.2827,
+            0.6015
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage1_freq/forest": {
+          "n": 235,
+          "spearman": -0.0668,
+          "spearman_ci": [
+            -0.2008,
+            0.0677
+          ],
+          "auc": 0.4866,
+          "auc_ci": [
+            0.4012,
+            0.572
+          ],
+          "rmse": 0.8474,
+          "diff_vs_frequency": -0.0058,
+          "diff_ci": [
+            -0.014,
+            -0.0002
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage1_freq/ridge": {
+          "n": 235,
+          "spearman": -0.061,
+          "spearman_ci": [
+            -0.1974,
+            0.076
+          ],
+          "auc": 0.4879,
+          "auc_ci": [
+            0.4004,
+            0.5752
+          ],
+          "rmse": 0.8437,
+          "diff_vs_frequency": 0.0,
+          "diff_ci": [
+            0.0,
+            0.0
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage2_freq_cons/forest": {
+          "n": 235,
+          "spearman": 0.1164,
+          "spearman_ci": [
+            -0.0115,
+            0.243
+          ],
+          "auc": 0.5727,
+          "auc_ci": [
+            0.4877,
+            0.6553
+          ],
+          "rmse": 0.8733,
+          "diff_vs_frequency": 0.1774,
+          "diff_ci": [
+            0.0406,
+            0.3162
+          ],
+          "has_skill": false,
+          "beats_frequency": true,
+          "passes_gate_4": false
+        },
+        "staged:stage2_freq_cons/ridge": {
+          "n": 235,
+          "spearman": -0.0257,
+          "spearman_ci": [
+            -0.1598,
+            0.1155
+          ],
+          "auc": 0.5634,
+          "auc_ci": [
+            0.4816,
+            0.6468
+          ],
+          "rmse": 0.8467,
+          "diff_vs_frequency": 0.0352,
+          "diff_ci": [
+            -0.0425,
+            0.1136
+          ],
+          "has_skill": false,
+          "beats_frequency": false,
+          "passes_gate_4": false
+        },
+        "staged:stage3_freq_cons_prop/forest": {
+          "n": 235,
+          "spearman": 0.1808,
+          "spearman_ci": [
+            0.0522,
+            0.3071
+          ],
+          "auc": 0.605,
+          "auc_ci": [
+            0.526,
+            0.6824
+          ],
+          "rmse": 0.8643,
+          "diff_vs_frequency": 0.2417,
+          "diff_ci": [
+            0.0701,
+            0.4114
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage3_freq_cons_prop/ridge": {
+          "n": 235,
+          "spearman": 0.2657,
+          "spearman_ci": [
+            0.1378,
+            0.3882
+          ],
+          "auc": 0.626,
+          "auc_ci": [
+            0.5467,
+            0.7021
+          ],
+          "rmse": 0.8291,
+          "diff_vs_frequency": 0.3267,
+          "diff_ci": [
+            0.167,
+            0.4906
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage4_plus_structure/forest": {
+          "n": 235,
+          "spearman": 0.47,
+          "spearman_ci": [
+            0.3491,
+            0.5748
+          ],
+          "auc": 0.7945,
+          "auc_ci": [
+            0.7305,
+            0.8559
+          ],
+          "rmse": 0.7948,
+          "diff_vs_frequency": 0.531,
+          "diff_ci": [
+            0.3808,
+            0.6825
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage4_plus_structure/ridge": {
+          "n": 235,
+          "spearman": 0.4864,
+          "spearman_ci": [
+            0.3756,
+            0.5853
+          ],
+          "auc": 0.812,
+          "auc_ci": [
+            0.7489,
+            0.8709
+          ],
+          "rmse": 0.7811,
+          "diff_vs_frequency": 0.5474,
+          "diff_ci": [
+            0.3869,
+            0.7042
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage5_plus_esm/forest": {
+          "n": 235,
+          "spearman": 0.5237,
+          "spearman_ci": [
+            0.4108,
+            0.6233
+          ],
+          "auc": 0.7823,
+          "auc_ci": [
+            0.7135,
+            0.8423
+          ],
+          "rmse": 0.7745,
+          "diff_vs_frequency": 0.5846,
+          "diff_ci": [
+            0.4233,
+            0.7338
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        },
+        "staged:stage5_plus_esm/ridge": {
+          "n": 235,
+          "spearman": 0.4513,
+          "spearman_ci": [
+            0.3283,
+            0.5629
+          ],
+          "auc": 0.7995,
+          "auc_ci": [
+            0.7386,
+            0.8563
+          ],
+          "rmse": 0.7892,
+          "diff_vs_frequency": 0.5122,
+          "diff_ci": [
+            0.3574,
+            0.6605
+          ],
+          "has_skill": true,
+          "beats_frequency": true,
+          "passes_gate_4": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "band:common_polymorphism": 15,
+    "band:majority_allele": 11,
+    "band:not_observed": 524,
+    "band:rare": 11,
+    "band:singleton": 47,
+    "band:uncommon_polymorphism": 36,
+    "flag:circulating_resistance_allele": 3,
+    "flag:consistent_rare": 53,
+    "flag:consistent_with_resistance": 5,
+    "flag:majority_allele_with_measured_resistance": 1,
+    "flag:not_observed": 524,
+    "flag:reclassify_as_polymorphism": 8,
+    "flag:reference_artifact": 10,
+    "flag:unphenotyped_but_common": 40,
+    "tier:A_engineered": 133,
+    "tier:B_lab_selected": 66,
+    "tier:C_clinical_isolate": 445
+  },
+  "n_labels": 644,
+  "thresholds": {
+    "fc_resistant": 2.0,
+    "freq_common": 0.1,
+    "freq_notable": 0.01,
+    "min_count": 2
+  }
+}

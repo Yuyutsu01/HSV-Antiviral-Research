@@ -1,0 +1,68 @@
+{
+  "agreement": 1.0,
+  "by_gene": {
+    "HSV1:UL23": {
+      "match": 225,
+      "mismatch": 0,
+      "no_reference": 0,
+      "out_of_range": 0
+    },
+    "HSV1:UL29": {
+      "match": 0,
+      "mismatch": 0,
+      "no_reference": 1,
+      "out_of_range": 0
+    },
+    "HSV1:UL30": {
+      "match": 277,
+      "mismatch": 0,
+      "no_reference": 0,
+      "out_of_range": 0
+    },
+    "HSV1:UL5": {
+      "match": 13,
+      "mismatch": 0,
+      "no_reference": 0,
+      "out_of_range": 0
+    },
+    "HSV1:UL52": {
+      "match": 7,
+      "mismatch": 0,
+      "no_reference": 0,
+      "out_of_range": 0
+    },
+    "HSV2:UL23": {
+      "match": 40,
+      "mismatch": 0,
+      "no_reference": 0,
+      "out_of_range": 0
+    },
+    "HSV2:UL30": {
+      "match": 76,
+      "mismatch": 0,
+      "no_reference": 0,
+      "out_of_range": 0
+    },
+    "HSV2:UL5": {
+      "match": 5,
+      "mismatch": 0,
+      "no_reference": 0,
+      "out_of_range": 0
+    }
+  },
+  "n_checkable": 643,
+  "n_match": 643,
+  "n_substitution_labels": 644,
+  "passed": true,
+  "reference_lengths": {
+    "HSV1:UL23": 376,
+    "HSV1:UL30": 1235,
+    "HSV1:UL5": 882,
+    "HSV1:UL52": 1058,
+    "HSV2:UL23": 376,
+    "HSV2:UL30": 1240,
+    "HSV2:UL5": 881,
+    "HSV2:UL52": 1066
+  },
+  "threshold": 0.95
+}

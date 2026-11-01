@@ -1,0 +1,58 @@
+{
+  "HSV1:UL23": {
+    "chain": "A",
+    "coverage": 0.827,
+    "n_contacts": 33,
+    "n_ligand_atoms": 48,
+    "pdb_id": "1vtk",
+    "positions_with_features": 311,
+    "site_resolved": 1
+  },
+  "HSV1:UL30": {
+    "chain": "A",
+    "coverage": 0.879,
+    "n_contacts": 92,
+    "n_ligand_atoms": 1174,
+    "pdb_id": "8exx",
+    "positions_with_features": 1085,
+    "site_resolved": 1
+  },
+  "HSV1:UL5": {
+    "chain": "A",
+    "coverage": 0.861,
+    "n_contacts": 40,
+    "n_ligand_atoms": 127,
+    "pdb_id": "9vlq",
+    "positions_with_features": 759,
+    "site_resolved": 1
+  },
+  "HSV1:UL52": {
+    "chain": "B",
+    "coverage": 0.91,
+    "n_contacts": 0,
+    "n_ligand_atoms": 143,
+    "pdb_id": "9nnp",
+    "positions_with_features": 963,
+    "site_resolved": 0
+  },
+  "HSV2:UL23": {
+    "inherited_from": "1vtk",
+    "positions_with_features": 310,
+    "site_resolved": 1
+  },
+  "HSV2:UL30": {
+    "inherited_from": "8exx",
+    "positions_with_features": 1085,
+    "site_resolved": 1
+  },
+  "HSV2:UL5": {
+    "inherited_from": "9vlq",
+    "positions_with_features": 759,
+    "site_resolved": 1
+  },
+  "HSV2:UL52": {
+    "inherited_from": "9nnp",
+    "positions_with_features": 963,
+    "site_resolved": 0
+  }
+}

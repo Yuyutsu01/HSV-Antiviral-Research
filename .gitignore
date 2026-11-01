@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+data/interim/
+data/raw/cds/
+data/raw/meta/
+# Re-fetched by p3_02_structure.py; the entries and chains actually used are
+# recorded in reports/phase3/structure_summary.json.
+data/raw/pdb/
+*.log

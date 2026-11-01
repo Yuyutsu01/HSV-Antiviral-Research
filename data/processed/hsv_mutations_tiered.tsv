@@ -1,0 +1,701 @@
+virus	gene	aa_change	variant_type	ref_aa	position	alt_aa	evidence_tier	n_rows	n_refs	co_mutation_flag	drugs_tested	max_fold_change
+HSV1	UL23	A118V	substitution	A	118	V	A_engineered	2	2	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	4.8
+HSV1	UL23	A12P	substitution	A	12	P	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	A12T	substitution	A	12	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	A133V	substitution	A	133	V	C_clinical_isolate	1	1	0	Aciclovir	1
+HSV1	UL23	A137T	substitution	A	137	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	A140V	substitution	A	140	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	A156P	substitution	A	156	P	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	A156T	substitution	A	156	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	A156V	substitution	A	156	V	A_engineered	4	4	0	Aciclovir;Foscarnet	0.9
+HSV1	UL23	A167T	substitution	A	167	T	B_lab_selected	1	1	0	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	2.4
+HSV1	UL23	A174P	substitution	A	174	P	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	A175V	substitution	A	175	V	A_engineered	1	1	0	Aciclovir	10
+HSV1	UL23	A189V	substitution	A	189	V	A_engineered	4	2	1	Aciclovir;Brivudine;Cidofovir;Foscarnet;Ganciclovir;Penciclovir;Pritelivir	89
+HSV1	UL23	A192V	substitution	A	192	V	C_clinical_isolate	2	2	0	Aciclovir;Foscarnet	
+HSV1	UL23	A207P	substitution	A	207	P	A_engineered	2	2	0	Aciclovir;Foscarnet	
+HSV1	UL23	A233S	substitution	A	233	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	A243S	substitution	A	243	S	C_clinical_isolate	2	2	0	Aciclovir;Foscarnet	
+HSV1	UL23	A265T	substitution	A	265	T	C_clinical_isolate	3	3	0	Aciclovir;Foscarnet	
+HSV1	UL23	A272T	substitution	A	272	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	A28V	substitution	A	28	V	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	A294V	substitution	A	294	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	A299S	substitution	A	299	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	A309V	substitution	A	309	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	A316S	substitution	A	316	S	C_clinical_isolate	1	1	0	Aciclovir	1
+HSV1	UL23	A316V	substitution	A	316	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	A334T	substitution	A	334	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	A365T	substitution	A	365	T	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	A375P	substitution	A	375	P	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	A37V	substitution	A	37	V	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	A93V	substitution	A	93	V	B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL23	A98T	substitution	A	98	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	C336Y	substitution	C	336	Y	A_engineered	6	5	1	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	190
+HSV1	UL23	C6G	substitution	C	6	G	C_clinical_isolate	2	2	0	Aciclovir;Foscarnet	
+HSV1	UL23	D14V	substitution	D	14	V	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	D14Y	substitution	D	14	Y	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	D162H	substitution	D	162	H	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	D162N	substitution	D	162	N	C_clinical_isolate	3	3	0	Aciclovir;Foscarnet	64
+HSV1	UL23	D215A	substitution	D	215	A	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	D215H	substitution	D	215	H	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	D215N	substitution	D	215	N	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	D228*	nonsense				B_lab_selected	6	4	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	36
+HSV1	UL23	D258N	substitution	D	258	N	C_clinical_isolate	1	1	0	Aciclovir	1.3
+HSV1	UL23	D286E	substitution	D	286	E	C_clinical_isolate	4	4	0	Aciclovir;Foscarnet	
+HSV1	UL23	D286frameshift	indel_or_frameshift				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	D303N	substitution	D	303	N	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	D328E	substitution	D	328	E	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	D338H	substitution	D	338	H	C_clinical_isolate	1	1	0	Aciclovir	1
+HSV1	UL23	D363N	substitution	D	363	N	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	D55N	substitution	D	55	N	B_lab_selected	1	1	0	Aciclovir;Cidofovir	110
+HSV1	UL23	D76N	substitution	D	76	N	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	D77N	substitution	D	77	N	A_engineered	2	2	0	Aciclovir	
+HSV1	UL23	E111K	substitution	E	111	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	E146G	substitution	E	146	G	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	E225K	substitution	E	225	K	A_engineered	1	1	0	Aciclovir	
+HSV1	UL23	E257K	substitution	E	257	K	C_clinical_isolate	2	2	0	Aciclovir;Foscarnet	59
+HSV1	UL23	E273K	substitution	E	273	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	E273Q	substitution	E	273	Q	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	E371D	substitution	E	371	D	C_clinical_isolate	1	1	0	Aciclovir	1.9
+HSV1	UL23	E374frameshift	indel_or_frameshift				C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	E43A	substitution	E	43	A	B_lab_selected	2	2	0	Aciclovir	1.3
+HSV1	UL23	E43D	substitution	E	43	D	B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL23	E83K	substitution	E	83	K	A_engineered	2	2	0	Aciclovir;Penciclovir	71
+HSV1	UL23	E83N	substitution	E	83	N	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	F161L	substitution	F	161	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	G129D	substitution	G	129	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	102
+HSV1	UL23	G200C	substitution	G	200	C	B_lab_selected	2	2	0	Aciclovir;Cidofovir	15
+HSV1	UL23	G200D	substitution	G	200	D	C_clinical_isolate	2	2	0	Aciclovir;Foscarnet;Ganciclovir	49
+HSV1	UL23	G200S	substitution	G	200	S	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	G206R	substitution	G	206	R	B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	G21V	substitution	G	21	V	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	G224frameshift	indel_or_frameshift				C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	G240E	substitution	G	240	E	C_clinical_isolate	4	4	0	Aciclovir;Foscarnet	
+HSV1	UL23	G251C	substitution	G	251	C	C_clinical_isolate	3	3	0	Aciclovir;Foscarnet	
+HSV1	UL23	G264V	substitution	G	264	V	B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL23	G271D	substitution	G	271	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	G271V	substitution	G	271	V	B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL23	G279D	substitution	G	279	D	C_clinical_isolate	1	1	0	Aciclovir	0.8
+HSV1	UL23	G302S	substitution	G	302	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	G335D	substitution	G	335	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	G346W	substitution	G	346	W	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	G356frameshift	indel_or_frameshift				C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	G373E	substitution	G	373	E	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	G56D	substitution	G	56	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet;Ganciclovir	10
+HSV1	UL23	G56S	substitution	G	56	S	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	G56V	substitution	G	56	V	A_engineered	1	1	0	Aciclovir	100
+HSV1	UL23	G59V	substitution	G	59	V	A_engineered	1	1	0	Aciclovir	100
+HSV1	UL23	G59W*	other				B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	G61A	substitution	G	61	A	A_engineered	3	3	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	60
+HSV1	UL23	G61E	substitution	G	61	E	B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL23	G61V	substitution	G	61	V	A_engineered	1	1	0	Aciclovir	100
+HSV1	UL23	H105P	substitution	H	105	P	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	131
+HSV1	UL23	H142Y	substitution	H	142	Y	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	H151Y	substitution	H	151	Y	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	H283N	substitution	H	283	N	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	H323Y	substitution	H	323	Y	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	H58N	substitution	H	58	N	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	H58R	substitution	H	58	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	45
+HSV1	UL23	H7P	substitution	H	7	P	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	I100T	substitution	I	100	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	I214T	substitution	I	214	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	0.5
+HSV1	UL23	I326V	substitution	I	326	V	B_lab_selected	2	2	0	Aciclovir	1.3
+HSV1	UL23	I358V	substitution	I	358	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	I78F	substitution	I	78	F	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	K219T	substitution	K	219	T	A_engineered	2	2	0	Aciclovir;Brivudine;Foscarnet;Penciclovir	1.6
+HSV1	UL23	K36D	substitution	K	36	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	K36E	substitution	K	36	E	C_clinical_isolate	3	3	0	Aciclovir	1
+HSV1	UL23	K62I	substitution	K	62	I	A_engineered	1	1	0	Aciclovir	100
+HSV1	UL23	K62N	substitution	K	62	N	A_engineered	4	2	0	Aciclovir	42
+HSV1	UL23	L139V	substitution	L	139	V	A_engineered	1	1	0	Aciclovir;Brivudine;Foscarnet;Penciclovir	1.2
+HSV1	UL23	L170P	substitution	L	170	P	A_engineered	3	3	0	Aciclovir	
+HSV1	UL23	L178R	substitution	L	178	R	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	L205S	substitution	L	205	S	B_lab_selected	1	1	0	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	32
+HSV1	UL23	L208H	substitution	L	208	H	C_clinical_isolate	2	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	L242P	substitution	L	242	P	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	18
+HSV1	UL23	L249P	substitution	L	249	P	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	L291R	substitution	L	291	R	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	L298R	substitution	L	298	R	A_engineered	1	1	0	Aciclovir;Brivudine;Foscarnet;Penciclovir	2.5
+HSV1	UL23	L29V	substitution	L	29	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	L315S	substitution	L	315	S	C_clinical_isolate	3	3	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	L327M	substitution	L	327	M	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	L327R	substitution	L	327	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet;Ganciclovir	10
+HSV1	UL23	L340R	substitution	L	340	R	A_engineered	2	1	0	Aciclovir	34
+HSV1	UL23	L341R	substitution	L	341	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	L42P	substitution	L	42	P	C_clinical_isolate	3	3	0	Aciclovir;Foscarnet	
+HSV1	UL23	L50M	substitution	L	50	M	C_clinical_isolate	1	1	0	Aciclovir	1
+HSV1	UL23	L68R	substitution	L	68	R	C_clinical_isolate	1	1	0	Aciclovir	1.5
+HSV1	UL23	L72V	substitution	L	72	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	M121K	substitution	M	121	K	B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL23	M121R	substitution	M	121	R	C_clinical_isolate	2	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	M130I	substitution	M	130	I	C_clinical_isolate	1	1	0	Aciclovir	5
+HSV1	UL23	M182*	nonsense				C_clinical_isolate	2	2	0	Aciclovir;Foscarnet	
+HSV1	UL23	M231I	substitution	M	231	I	B_lab_selected	1	1	0	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	3.1
+HSV1	UL23	M322K	substitution	M	322	K	A_engineered	1	1	0	Aciclovir;Penciclovir	71
+HSV1	UL23	M322L	substitution	M	322	L	C_clinical_isolate	1	1	0	Aciclovir	1
+HSV1	UL23	M85*	nonsense				C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	M85I	substitution	M	85	I	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	N23S	substitution	N	23	S	C_clinical_isolate	4	4	0	Aciclovir	1
+HSV1	UL23	N244H	substitution	N	244	H	B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL23	N277K	substitution	N	277	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	N277S	substitution	N	277	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	N301*	nonsense				B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	N301S	substitution	N	301	S	C_clinical_isolate	1	1	0	Aciclovir	1
+HSV1	UL23	N306*	nonsense				B_lab_selected	4	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	N376*	nonsense				B_lab_selected	4	3	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	N376H	substitution	N	376	H	C_clinical_isolate	6	4	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	N376P	substitution	N	376	P	C_clinical_isolate	2	2	0	Aciclovir;Foscarnet	
+HSV1	UL23	P131S	substitution	P	131	S	A_engineered	1	1	0	Aciclovir	20
+HSV1	UL23	P268L	substitution	P	268	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	P268M	substitution	P	268	M	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	P268T	substitution	P	268	T	C_clinical_isolate	4	4	0	Aciclovir;Foscarnet	
+HSV1	UL23	P269S	substitution	P	269	S	B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL23	P274T	substitution	P	274	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	P280S	substitution	P	280	S	C_clinical_isolate	1	1	0	Aciclovir	1.3
+HSV1	UL23	P295T	substitution	P	295	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	P355Q	substitution	P	355	Q	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	P355frameshift	indel_or_frameshift				B_lab_selected	1	1	0	Aciclovir;Cidofovir	
+HSV1	UL23	P57H	substitution	P	57	H	C_clinical_isolate	2	1	0	Aciclovir	42
+HSV1	UL23	P84L	substitution	P	84	L	A_engineered	1	1	0	Aciclovir;Brivudine;Foscarnet;Penciclovir	225
+HSV1	UL23	P84S	substitution	P	84	S	A_engineered	1	1	0	Aciclovir	10
+HSV1	UL23	Q104*	nonsense				C_clinical_isolate	2	2	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	Q109K	substitution	Q	109	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	1.6
+HSV1	UL23	Q125H	substitution	Q	125	H	A_engineered	2	2	0	Aciclovir;Brivudine;Penciclovir	13.3
+HSV1	UL23	Q15K	substitution	Q	15	K	B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL23	Q15L	substitution	Q	15	L	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	Q250*	nonsense				C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	Q261*	nonsense				B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	Q275P	substitution	Q	275	P	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	Q342H	substitution	Q	342	H	C_clinical_isolate	1	1	0	Aciclovir	1
+HSV1	UL23	Q349R	substitution	Q	349	R	C_clinical_isolate	1	1	0	Aciclovir	1
+HSV1	UL23	Q44H	substitution	Q	44	H	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	Q67R	substitution	Q	67	R	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	R106H	substitution	R	106	H	A_engineered	1	1	0	Aciclovir;Brivudine;Foscarnet;Penciclovir	3.1
+HSV1	UL23	R163G	substitution	R	163	G	B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL23	R163H	substitution	R	163	H	A_engineered	3	3	0	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Penciclovir;Pritelivir	324
+HSV1	UL23	R176*	nonsense				C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	R176Q	substitution	R	176	Q	C_clinical_isolate	4	4	0	Aciclovir;Foscarnet	200
+HSV1	UL23	R176W	substitution	R	176	W	A_engineered	1	1	0	Aciclovir	
+HSV1	UL23	R18C	substitution	R	18	C	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	R20C	substitution	R	20	C	B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL23	R20H	substitution	R	20	H	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	R20S	substitution	R	20	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	R212K	substitution	R	212	K	A_engineered	1	1	0	Aciclovir	
+HSV1	UL23	R216C	substitution	R	216	C	A_engineered	3	2	0	Aciclovir;Penciclovir	37
+HSV1	UL23	R216H	substitution	R	216	H	B_lab_selected	3	3	0	Aciclovir;Foscarnet	
+HSV1	UL23	R220H	substitution	R	220	H	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	R222C	substitution	R	222	C	B_lab_selected	5	4	0	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	98
+HSV1	UL23	R222H	substitution	R	222	H	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	R26H	substitution	R	26	H	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	R281*	nonsense				B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	R281Q	substitution	R	281	Q	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	R293W	substitution	R	293	W	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	R30C	substitution	R	30	C	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	R32C	substitution	R	32	C	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	R32H	substitution	R	32	H	B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL23	R370W	substitution	R	370	W	C_clinical_isolate	1	1	0	Aciclovir	1.9
+HSV1	UL23	R41H	substitution	R	41	H	A_engineered	3	3	0	Aciclovir;Brivudine;Foscarnet;Penciclovir	2.3
+HSV1	UL23	R51W	substitution	R	51	W	A_engineered	3	3	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	10
+HSV1	UL23	R75C	substitution	R	75	C	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	R89H	substitution	R	89	H	B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL23	R89Q	substitution	R	89	Q	C_clinical_isolate	5	5	0	Aciclovir;Foscarnet;Ganciclovir	
+HSV1	UL23	S150L	substitution	S	150	L	C_clinical_isolate	1	1	0	Aciclovir	1
+HSV1	UL23	S181N	substitution	S	181	N	B_lab_selected	2	2	0	Aciclovir;Foscarnet	
+HSV1	UL23	S19P	substitution	S	19	P	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	S263*	nonsense				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	S263L	substitution	S	263	L	C_clinical_isolate	1	1	0	Aciclovir	1.6
+HSV1	UL23	S276G	substitution	S	276	G	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	S276N	substitution	S	276	N	B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL23	S276R	substitution	S	276	R	A_engineered	2	2	0	Aciclovir;Brivudine;Foscarnet;Penciclovir	3.8
+HSV1	UL23	S332L	substitution	S	332	L	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	S332P	substitution	S	332	P	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	S345P	substitution	S	345	P	A_engineered	2	2	0	Aciclovir;Brivudine;Foscarnet;Penciclovir	1.7
+HSV1	UL23	S357C	substitution	S	357	C	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	S74*	nonsense				C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	T103*	nonsense				B_lab_selected	1	1	0	Aciclovir;Cidofovir;Foscarnet	
+HSV1	UL23	T103P	substitution	T	103	P	C_clinical_isolate	2	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	T183*	nonsense				C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	T183P	substitution	T	183	P	C_clinical_isolate	2	1	1	Aciclovir;Brivudine;Foscarnet;Ganciclovir;Penciclovir;Pritelivir	3.6
+HSV1	UL23	T201P	substitution	T	201	P	C_clinical_isolate	2	1	0	Aciclovir	22
+HSV1	UL23	T245M	substitution	T	245	M	A_engineered	3	3	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	120
+HSV1	UL23	T287M	substitution	T	287	M	B_lab_selected	3	3	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	1.67e+03
+HSV1	UL23	T344I	substitution	T	344	I	C_clinical_isolate	1	1	0	Aciclovir	1
+HSV1	UL23	T350I	substitution	T	350	I	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	T350S	substitution	T	350	S	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	T63A	substitution	T	63	A	A_engineered	2	2	0	Aciclovir;Ganciclovir	100
+HSV1	UL23	T63I	substitution	T	63	I	C_clinical_isolate	1	1	0	Aciclovir	11
+HSV1	UL23	T63S	substitution	T	63	S	A_engineered	2	2	0	Aciclovir;Ganciclovir	5
+HSV1	UL23	T65N	substitution	T	65	N	A_engineered	1	1	0	Aciclovir	4.7
+HSV1	UL23	T65P	substitution	T	65	P	B_lab_selected	1	1	0	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	230
+HSV1	UL23	T96I	substitution	T	96	I	B_lab_selected	1	1	1	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	12
+HSV1	UL23	T96K	substitution	T	96	K	B_lab_selected	1	1	0	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	129
+HSV1	UL23	V120*	nonsense				C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	V138F	substitution	V	138	F	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	V138I	substitution	V	138	I	C_clinical_isolate	2	2	0	Aciclovir	
+HSV1	UL23	V187M	substitution	V	187	M	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	V191A	substitution	V	191	A	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	V204G	substitution	V	204	G	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	12
+HSV1	UL23	V238F	substitution	V	238	F	B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL23	V238I	substitution	V	238	I	A_engineered	1	1	0	Aciclovir;Brivudine;Foscarnet;Penciclovir	1.6
+HSV1	UL23	V267L	substitution	V	267	L	C_clinical_isolate	4	4	0	Aciclovir;Foscarnet	
+HSV1	UL23	V267frameshift	indel_or_frameshift				B_lab_selected	1	1	0	Aciclovir;Cidofovir	
+HSV1	UL23	V307frameshift	indel_or_frameshift				B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	V348I	substitution	V	348	I	C_clinical_isolate	3	3	0	Aciclovir;Foscarnet	0.8
+HSV1	UL23	V352I	substitution	V	352	I	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	V352L	substitution	V	352	L	C_clinical_isolate	1	1	0	Aciclovir	1.9
+HSV1	UL23	W259R	substitution	W	259	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	Y172C	substitution	Y	172	C	C_clinical_isolate	3	2	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	80
+HSV1	UL23	Y239S*	other				B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	Y248D	substitution	Y	248	D	C_clinical_isolate	1	1	0	Aciclovir	4
+HSV1	UL23	Y53*	nonsense				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	Y53C	substitution	Y	53	C	C_clinical_isolate	2	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL23	Y53D	substitution	Y	53	D	A_engineered	2	2	0	Aciclovir;Foscarnet	
+HSV1	UL23	del173	indel_or_frameshift				B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL23	delI194	indel_or_frameshift				C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL23	delK36	indel_or_frameshift				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL23	delQ35	indel_or_frameshift				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL29	P597L	substitution	P	597	L	A_engineered	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	1.9
+HSV1	UL30	A1012V	substitution	A	1012	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A102T	substitution	A	102	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A1099T	substitution	A	1099	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A1100T	substitution	A	1100	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A1109T	substitution	A	1109	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A1131T	substitution	A	1131	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet;Ganciclovir	0.3
+HSV1	UL30	A1147T	substitution	A	1147	T	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL30	A1147V	substitution	A	1147	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A1181T	substitution	A	1181	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A1203T	substitution	A	1203	T	C_clinical_isolate	3	3	0	Aciclovir;Foscarnet	
+HSV1	UL30	A1204T	substitution	A	1204	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A1209T	substitution	A	1209	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A1218S	substitution	A	1218	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A1220V	substitution	A	1220	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A1235T	substitution	A	1235	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A136T	substitution	A	136	T	B_lab_selected	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A138V	substitution	A	138	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A159V	substitution	A	159	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A164T	substitution	A	164	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A17T	substitution	A	17	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A17V	substitution	A	17	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A220T	substitution	A	220	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A230V	substitution	A	230	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A25V	substitution	A	25	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A289D	substitution	A	289	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A32I	substitution	A	32	I	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A351D	substitution	A	351	D	C_clinical_isolate	1	1	0	Aciclovir	1
+HSV1	UL30	A428V	substitution	A	428	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A429T	substitution	A	429	T	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL30	A562T	substitution	A	562	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A566T	substitution	A	566	T	C_clinical_isolate	3	3	0	Aciclovir;Foscarnet	1
+HSV1	UL30	A605V	substitution	A	605	V	A_engineered	4	4	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Ganciclovir;Penciclovir	10
+HSV1	UL30	A646T	substitution	A	646	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A657T	substitution	A	657	T	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL30	A719T	substitution	A	719	T	A_engineered	3	3	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	5.94
+HSV1	UL30	A719V	substitution	A	719	V	A_engineered	6	6	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Ganciclovir;Penciclovir	19
+HSV1	UL30	A740S	substitution	A	740	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A748V	substitution	A	748	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet;Ganciclovir	1.2
+HSV1	UL30	A78V	substitution	A	78	V	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL30	A834S	substitution	A	834	S	B_lab_selected	1	1	0	Aciclovir	2
+HSV1	UL30	A857V	substitution	A	857	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A870G	substitution	A	870	G	C_clinical_isolate	1	1	0	Aciclovir;Cidofovir;Foscarnet	
+HSV1	UL30	A870V	substitution	A	870	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A874T	substitution	A	874	T	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL30	A910V	substitution	A	910	V	B_lab_selected	2	1	0	Aciclovir;Cidofovir;Foscarnet	4
+HSV1	UL30	A916T	substitution	A	916	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	A995T	substitution	A	995	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	C287Y	substitution	C	287	Y	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	D1159A	substitution	D	1159	A	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	D368A	substitution	D	368	A	B_lab_selected	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	D581A	substitution	D	581	A	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL30	D630A	substitution	D	630	A	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	D660E	substitution	D	660	E	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	D672N	substitution	D	672	N	C_clinical_isolate	3	3	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Ganciclovir;Penciclovir	1.3
+HSV1	UL30	D703N	substitution	D	703	N	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	D780N	substitution	D	780	N	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet	6.1
+HSV1	UL30	D871N	substitution	D	871	N	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL30	D907V	substitution	D	907	V	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet	3.78
+HSV1	UL30	E1005K	substitution	E	1005	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	0.7
+HSV1	UL30	E1082K	substitution	E	1082	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E1085D	substitution	E	1085	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E1085K	substitution	E	1085	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E1104D	substitution	E	1104	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E1104K	substitution	E	1104	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E111K	substitution	E	111	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E1194D	substitution	E	1194	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E226D	substitution	E	226	D	C_clinical_isolate	1	1	0	Aciclovir	1
+HSV1	UL30	E376D	substitution	E	376	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E376G	substitution	E	376	G	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E421D	substitution	E	421	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E421V	substitution	E	421	V	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet	1.4
+HSV1	UL30	E597D	substitution	E	597	D	B_lab_selected	1	1	0	Aciclovir;Foscarnet	10
+HSV1	UL30	E649D	substitution	E	649	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	0.8
+HSV1	UL30	E649G	substitution	E	649	G	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	1.3
+HSV1	UL30	E659D	substitution	E	659	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E661K	substitution	E	661	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E662D	substitution	E	662	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E669D	substitution	E	669	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E669G	substitution	E	669	G	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E671K	substitution	E	671	K	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL30	E673K	substitution	E	673	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E675A	substitution	E	675	A	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E675K	substitution	E	675	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E676D	substitution	E	676	D	C_clinical_isolate	1	1	0	Aciclovir	1
+HSV1	UL30	E684A	substitution	E	684	A	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E684D	substitution	E	684	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E688K	substitution	E	688	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E70D	substitution	E	70	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E70K	substitution	E	70	K	A_engineered	1	1	0	Aciclovir;Foscarnet	1.9
+HSV1	UL30	E747K	substitution	E	747	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E771Q	substitution	E	771	Q	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E798K	substitution	E	798	K	B_lab_selected	1	1	0	Aciclovir	3
+HSV1	UL30	E860K	substitution	E	860	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E868G	substitution	E	868	G	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	E927D	substitution	E	927	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	F167L	substitution	F	167	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	F171S	substitution	F	171	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	F23I	substitution	F	23	I	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	F248L	substitution	F	248	L	C_clinical_isolate	2	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL30	F303L	substitution	F	303	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	F716L	substitution	F	716	L	B_lab_selected	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	10
+HSV1	UL30	F891C	substitution	F	891	C	A_engineered	2	2	0	Aciclovir;Cidofovir;Foscarnet	35
+HSV1	UL30	F891Y	substitution	F	891	Y	A_engineered	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	G108R	substitution	G	108	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	G1129R	substitution	G	1129	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	G1129V	substitution	G	1129	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	G12E	substitution	G	12	E	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	G132C	substitution	G	132	C	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	G354V	substitution	G	354	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	G458S	substitution	G	458	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	G495V	substitution	G	495	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	G505D	substitution	G	505	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	G633D	substitution	G	633	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	G641R	substitution	G	641	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	1
+HSV1	UL30	G645D	substitution	G	645	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	1
+HSV1	UL30	G668E	substitution	G	668	E	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	G679D	substitution	G	679	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	1
+HSV1	UL30	G749D	substitution	G	749	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	G841C	substitution	G	841	C	B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	24
+HSV1	UL30	G841S	substitution	G	841	S	B_lab_selected	1	1	0	Aciclovir;Foscarnet	29
+HSV1	UL30	G901V	substitution	G	901	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	25
+HSV1	UL30	G948C	substitution	G	948	C	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL30	H1152N	substitution	H	1152	N	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	H1228D	substitution	H	1228	D	C_clinical_isolate	1	1	0	Aciclovir	3
+HSV1	UL30	H98N	substitution	H	98	N	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	I1028T	substitution	I	1028	T	A_engineered	3	3	0	Aciclovir;Cidofovir;Foscarnet	2.28
+HSV1	UL30	I243T	substitution	I	243	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	I352V	substitution	I	352	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	I619K	substitution	I	619	K	A_engineered	1	1	0	Aciclovir;Foscarnet	2.5
+HSV1	UL30	I890M	substitution	I	890	M	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet;Ganciclovir	5.7
+HSV1	UL30	I942L	substitution	I	942	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	I966M	substitution	I	966	M	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	2.5
+HSV1	UL30	K209T	substitution	K	209	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	K57N	substitution	K	57	N	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	K591R	substitution	K	591	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	K805Q	substitution	K	805	Q	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet	1.82
+HSV1	UL30	K908Q	substitution	K	908	Q	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet;Ganciclovir	1.2
+HSV1	UL30	K908R	substitution	K	908	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	K90R	substitution	K	90	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	K960R	substitution	K	960	R	B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet	2.5
+HSV1	UL30	L1007M	substitution	L	1007	M	A_engineered	3	3	0	Aciclovir;Cidofovir;Foscarnet	3.2
+HSV1	UL30	L1166W	substitution	L	1166	W	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL30	L1234I	substitution	L	1234	I	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	L216I	substitution	L	216	I	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet;Ganciclovir	1
+HSV1	UL30	L267M	substitution	L	267	M	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	L359I	substitution	L	359	I	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet	1.4
+HSV1	UL30	L479M	substitution	L	479	M	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	L49I	substitution	L	49	I	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet	1.6
+HSV1	UL30	L625I	substitution	L	625	I	A_engineered	1	1	0	Aciclovir;Foscarnet	2.4
+HSV1	UL30	L702H	substitution	L	702	H	B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	56
+HSV1	UL30	L702I	substitution	L	702	I	B_lab_selected	2	2	0	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Penciclovir;Pritelivir	4.6
+HSV1	UL30	L753M	substitution	L	753	M	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	L774F	substitution	L	774	F	A_engineered	1	1	0	Aciclovir;Foscarnet	3.7
+HSV1	UL30	L778M	substitution	L	778	M	A_engineered	2	2	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	5.53
+HSV1	UL30	L782I	substitution	L	782	I	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet	6.43
+HSV1	UL30	L802F	substitution	L	802	F	A_engineered	2	2	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	7.4
+HSV1	UL30	L846I	substitution	L	846	I	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet	1.52
+HSV1	UL30	L862F	substitution	L	862	F	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	M1226I	substitution	M	1226	I	A_engineered	2	2	0	Aciclovir;Foscarnet	1.5
+HSV1	UL30	M207I	substitution	M	207	I	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	M356I	substitution	M	356	I	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	N155T	substitution	N	155	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	N425T	substitution	N	425	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	N494S	substitution	N	494	S	B_lab_selected	1	1	0	Aciclovir	
+HSV1	UL30	N522S	substitution	N	522	S	C_clinical_isolate	2	2	0	Aciclovir;Foscarnet	
+HSV1	UL30	N711K	substitution	N	711	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	N815S	substitution	N	815	S	A_engineered	2	2	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	600
+HSV1	UL30	N961K	substitution	N	961	K	A_engineered	2	2	0	Aciclovir;Cidofovir;Foscarnet	5.34
+HSV1	UL30	P1112L	substitution	P	1112	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	P1114A	substitution	P	1114	A	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	P1114L	substitution	P	1114	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	P1124H	substitution	P	1124	H	C_clinical_isolate	3	3	0	Aciclovir;Foscarnet	
+HSV1	UL30	P1128L	substitution	P	1128	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	P1199Q	substitution	P	1199	Q	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	P137G	substitution	P	137	G	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	P137Q	substitution	P	137	Q	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	P29H	substitution	P	29	H	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	P320S	substitution	P	320	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	P561S	substitution	P	561	S	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet	1.48
+HSV1	UL30	P61S	substitution	P	61	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	P664T	substitution	P	664	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	P712Y	substitution	P	712	Y	A_engineered	1	1	0	Aciclovir;Foscarnet	3.7
+HSV1	UL30	P829S	substitution	P	829	S	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet	1.5
+HSV1	UL30	P875S	substitution	P	875	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	P920F	substitution	P	920	F	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	P920S	substitution	P	920	S	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet	1.05
+HSV1	UL30	Q42K	substitution	Q	42	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	Q570R	substitution	Q	570	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	3.7
+HSV1	UL30	Q618H	substitution	Q	618	H	A_engineered	2	2	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	9
+HSV1	UL30	Q618I	substitution	Q	618	I	A_engineered	1	1	0	Aciclovir;Foscarnet	1.5
+HSV1	UL30	Q697P	substitution	Q	697	P	A_engineered	1	1	0	Aciclovir;Foscarnet	1.5
+HSV1	UL30	Q727R	substitution	Q	727	R	A_engineered	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	Q794H	substitution	Q	794	H	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	Q861R	substitution	Q	861	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R1019G	substitution	R	1019	G	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R1020C	substitution	R	1020	C	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL30	R1020H	substitution	R	1020	H	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R1117I	substitution	R	1117	I	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R1117L	substitution	R	1117	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R1117S	substitution	R	1117	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R116H	substitution	R	116	H	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R1229I	substitution	R	1229	I	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R219S	substitution	R	219	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R227H	substitution	R	227	H	C_clinical_isolate	1	1	0	Aciclovir	1
+HSV1	UL30	R264H	substitution	R	264	H	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R30C	substitution	R	30	C	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R322Q	substitution	R	322	Q	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R330A	substitution	R	330	A	C_clinical_isolate	2	2	0	Aciclovir;Foscarnet	
+HSV1	UL30	R430K	substitution	R	430	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R674H	substitution	R	674	H	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R681L	substitution	R	681	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	1
+HSV1	UL30	R700G	substitution	R	700	G	B_lab_selected	2	2	0	Aciclovir;Foscarnet;Ganciclovir;Penciclovir	6
+HSV1	UL30	R700M	substitution	R	700	M	A_engineered	2	2	0	Aciclovir;Brivudine;Cidofovir;Foscarnet	3.67
+HSV1	UL30	R739S	substitution	R	739	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R80L	substitution	R	80	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R842S	substitution	R	842	S	B_lab_selected	1	1	0	Aciclovir;Penciclovir	150
+HSV1	UL30	R873C	substitution	R	873	C	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	R881G	substitution	R	881	G	A_engineered	1	1	0	Aciclovir;Foscarnet	1.3
+HSV1	UL30	R959H	substitution	R	959	H	A_engineered	3	3	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	4.6
+HSV1	UL30	R993L	substitution	R	993	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	S1067F	substitution	S	1067	F	B_lab_selected	1	1	0	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	4.4
+HSV1	UL30	S1113C	substitution	S	1113	C	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	S1123A	substitution	S	1123	A	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	S1123L	substitution	S	1123	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	S127L	substitution	S	127	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	S15A	substitution	S	15	A	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	S280A	substitution	S	280	A	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	S33G	substitution	S	33	G	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	S33R	substitution	S	33	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	S3A	substitution	S	3	A	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	S507R	substitution	S	507	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	S724N	substitution	S	724	N	A_engineered	13	11	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Ganciclovir;Penciclovir	72
+HSV1	UL30	S775N	substitution	S	775	N	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	S889A	substitution	S	889	A	A_engineered	1	1	0	Aciclovir;Foscarnet	225
+HSV1	UL30	T1022A	substitution	T	1022	A	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	T1086M	substitution	T	1086	M	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	T1121M	substitution	T	1121	M	A_engineered	2	2	0	Aciclovir;Cidofovir;Foscarnet	1.6
+HSV1	UL30	T1208A	substitution	T	1208	A	C_clinical_isolate	2	2	0	Aciclovir;Foscarnet	
+HSV1	UL30	T1219M	substitution	T	1219	M	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	T145A	substitution	T	145	A	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	T434M	substitution	T	434	M	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	T480M	substitution	T	480	M	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	T623A	substitution	T	623	A	A_engineered	1	1	0	Aciclovir;Foscarnet	1.4
+HSV1	UL30	T639I	substitution	T	639	I	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	T821M	substitution	T	821	M	A_engineered	4	4	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	6.25
+HSV1	UL30	T839I	substitution	T	839	I	B_lab_selected	1	1	0	Aciclovir	2.3
+HSV1	UL30	T931A	substitution	T	931	A	C_clinical_isolate	1	1	0	Aciclovir	
+HSV1	UL30	T931I	substitution	T	931	I	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	V1077L	substitution	V	1077	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	V1202M	substitution	V	1202	M	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	V144I	substitution	V	144	I	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	V146I	substitution	V	146	I	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	V212A	substitution	V	212	A	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL30	V278A	substitution	V	278	A	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet;Ganciclovir	0.3
+HSV1	UL30	V297A	substitution	V	297	A	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	V383L	substitution	V	383	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	V498G	substitution	V	498	G	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL30	V498M	substitution	V	498	M	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	V521M	substitution	V	521	M	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV1	UL30	V573M	substitution	V	573	M	A_engineered	2	2	0	Aciclovir;Cidofovir;Foscarnet	1.9
+HSV1	UL30	V694Q	substitution	V	694	Q	A_engineered	1	1	0	Aciclovir;Foscarnet	1.7
+HSV1	UL30	V714M	substitution	V	714	M	B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet	3.8
+HSV1	UL30	V715G	substitution	V	715	G	A_engineered	2	2	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	4.6
+HSV1	UL30	V715M	substitution	V	715	M	A_engineered	2	2	0	Aciclovir;Cidofovir;Foscarnet	3.4
+HSV1	UL30	V715S	substitution	V	715	S	A_engineered	1	1	0	Aciclovir;Foscarnet	9.2
+HSV1	UL30	V812F	substitution	V	812	F	B_lab_selected	1	1	0	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	6.2
+HSV1	UL30	V813M	substitution	V	813	M	B_lab_selected	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	5
+HSV1	UL30	V817M	substitution	V	817	M	B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	36
+HSV1	UL30	V892M	substitution	V	892	M	A_engineered	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	V905M	substitution	V	905	M	C_clinical_isolate	2	2	0	Aciclovir;Foscarnet	
+HSV1	UL30	V958L	substitution	V	958	L	B_lab_selected	2	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	12
+HSV1	UL30	W781V	substitution	W	781	V	A_engineered	1	1	0	Aciclovir;Foscarnet;Ganciclovir	14
+HSV1	UL30	W998L	substitution	W	998	L	B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet	1.5
+HSV1	UL30	Y557S	substitution	Y	557	S	A_engineered	1	1	0	Foscarnet	
+HSV1	UL30	Y818C	substitution	Y	818	C	B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	50
+HSV1	UL30	Y941H	substitution	Y	941	H	A_engineered	2	2	0	Aciclovir;Cidofovir;Foscarnet	10
+HSV1	UL30	Y946F	substitution	Y	946	F	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	del667	indel_or_frameshift				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	del668	indel_or_frameshift				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV1	UL30	del962	indel_or_frameshift				B_lab_selected	1	1	0	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	3.7
+HSV1	UL5	A199T	substitution	A	199	T	B_lab_selected	1	1	0	Pritelivir	50
+HSV1	UL5	C477D	substitution	C	477	D	A_engineered	1	1	0	Aciclovir;Amenamevir;Foscarnet	1.5
+HSV1	UL5	E34K	substitution	E	34	K	A_engineered	1	1	0	Aciclovir;Amenamevir;Foscarnet	1.5
+HSV1	UL5	G352C	substitution	G	352	C	A_engineered	1	1	0	Aciclovir;Amenamevir;Foscarnet	25
+HSV1	UL5	G352R	substitution	G	352	R	B_lab_selected	3	3	0	Pritelivir	4e+03
+HSV1	UL5	G352V	substitution	G	352	V	A_engineered	2	2	0	Aciclovir;Amenamevir;Foscarnet;Pritelivir	400
+HSV1	UL5	I341S	substitution	I	341	S	A_engineered	1	1	0	Aciclovir;Amenamevir;Foscarnet	1.5
+HSV1	UL5	K356N	substitution	K	356	N	A_engineered	4	4	0	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	5e+03
+HSV1	UL5	K356Q	substitution	K	356	Q	B_lab_selected	3	3	0	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	150
+HSV1	UL5	K356T	substitution	K	356	T	B_lab_selected	4	2	0	Pritelivir	2e+03
+HSV1	UL5	M355I	substitution	M	355	I	B_lab_selected	1	1	0	Aciclovir;Amenamevir;Cidofovir;Foscarnet;Ganciclovir;Pritelivir	7
+HSV1	UL5	M355T	substitution	M	355	T	A_engineered	3	3	0	Aciclovir;Amenamevir;Foscarnet;Pritelivir	15
+HSV1	UL5	N342K	substitution	N	342	K	B_lab_selected	1	1	0	Pritelivir	40
+HSV1	UL52	A899T	substitution	A	899	T	B_lab_selected	3	1	1	Pritelivir	2.5e+03
+HSV1	UL52	F294L	substitution	F	294	L	A_engineered	1	1	0	Aciclovir;Amenamevir;Foscarnet	1.5
+HSV1	UL52	F360C	substitution	F	360	C	A_engineered	1	1	0	Aciclovir;Amenamevir;Foscarnet	25
+HSV1	UL52	F360V	substitution	F	360	V	A_engineered	1	1	0	Aciclovir;Amenamevir;Foscarnet	158
+HSV1	UL52	N902T	substitution	N	902	T	A_engineered	1	1	0	Aciclovir;Amenamevir;Foscarnet	6
+HSV1	UL52	S364G	substitution	S	364	G	A_engineered	1	1	0	Aciclovir;Amenamevir;Foscarnet	1
+HSV1	UL52	Y222C	substitution	Y	222	C	A_engineered	1	1	0	Aciclovir;Amenamevir;Foscarnet	1.5
+HSV2	UL23	A119T	substitution	A	119	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL23	A135P	substitution	A	135	P	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL23	A157T	substitution	A	157	T	A_engineered	3	2	0	Aciclovir;Foscarnet;Penciclovir	1.7
+HSV2	UL23	A190V	substitution	A	190	V	C_clinical_isolate	1	1	0	Aciclovir	8
+HSV2	UL23	A215T	substitution	A	215	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL23	A27T	substitution	A	27	T	C_clinical_isolate	1	1	0	Aciclovir	
+HSV2	UL23	A94V	substitution	A	94	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL23	D137*	nonsense				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL23	D137E	substitution	D	137	E	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL23	D229*	nonsense				B_lab_selected	6	3	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	500
+HSV2	UL23	D229H	substitution	D	229	H	C_clinical_isolate	1	1	0	Aciclovir	181
+HSV2	UL23	D259frameshift	indel_or_frameshift				B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	200
+HSV2	UL23	E96D	substitution	E	96	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL23	G150D	substitution	G	150	D	A_engineered	3	2	0	Aciclovir;Foscarnet;Penciclovir	2
+HSV2	UL23	G201D	substitution	G	201	D	C_clinical_isolate	1	1	0	Aciclovir	
+HSV2	UL23	G25A	substitution	G	25	A	A_engineered	2	1	0	Aciclovir;Penciclovir	2.4
+HSV2	UL23	G39E	substitution	G	39	E	A_engineered	3	2	0	Aciclovir;Penciclovir	2.4
+HSV2	UL23	G56E	substitution	G	56	E	C_clinical_isolate	1	1	0	Aciclovir	
+HSV2	UL23	G59P	substitution	G	59	P	C_clinical_isolate	1	1	0	Aciclovir	61
+HSV2	UL23	I101S	substitution	I	101	S	A_engineered	1	1	0	Aciclovir	4
+HSV2	UL23	I308frameshift	indel_or_frameshift				B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	133
+HSV2	UL23	I54*	nonsense				B_lab_selected	2	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	200
+HSV2	UL23	L140F	substitution	L	140	F	C_clinical_isolate	2	2	0	Aciclovir;Foscarnet	
+HSV2	UL23	L158P	substitution	L	158	P	C_clinical_isolate	1	1	0	Aciclovir	
+HSV2	UL23	L342W	substitution	L	342	W	A_engineered	3	2	0	Aciclovir;Foscarnet;Penciclovir	2
+HSV2	UL23	M183*	nonsense				B_lab_selected	5	2	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	500
+HSV2	UL23	M183I	substitution	M	183	I	A_engineered	1	1	0	Aciclovir	5
+HSV2	UL23	M348*	nonsense				B_lab_selected	4	4	0	Aciclovir;Brivudine;Penciclovir	
+HSV2	UL23	M86*	nonsense				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL23	N78D	substitution	N	78	D	C_clinical_isolate	2	2	0	Aciclovir;Foscarnet	
+HSV2	UL23	Q222*	nonsense				C_clinical_isolate	1	1	0	Aciclovir	
+HSV2	UL23	Q251R	substitution	Q	251	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL23	R177W	substitution	R	177	W	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL23	R220K	substitution	R	220	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL23	R220T	substitution	R	220	T	C_clinical_isolate	1	1	0	Aciclovir	
+HSV2	UL23	R221C	substitution	R	221	C	C_clinical_isolate	1	1	0	Aciclovir	
+HSV2	UL23	R221H	substitution	R	221	H	A_engineered	4	3	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Ganciclovir;Penciclovir	51.4
+HSV2	UL23	R223H	substitution	R	223	H	C_clinical_isolate	1	1	0	Aciclovir	
+HSV2	UL23	R248W	substitution	R	248	W	A_engineered	3	2	0	Aciclovir;Foscarnet;Penciclovir	2.3
+HSV2	UL23	R262*	nonsense				C_clinical_isolate	1	1	0	Aciclovir	
+HSV2	UL23	R26H	substitution	R	26	H	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL23	R51W	substitution	R	51	W	C_clinical_isolate	2	1	0	Aciclovir	
+HSV2	UL23	S182N	substitution	S	182	N	B_lab_selected	1	1	0	Aciclovir	
+HSV2	UL23	S29A	substitution	S	29	A	C_clinical_isolate	1	1	0	Aciclovir	
+HSV2	UL23	S32*	nonsense				B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	161
+HSV2	UL23	T131M	substitution	T	131	M	A_engineered	3	2	0	Aciclovir;Foscarnet;Penciclovir	1.5
+HSV2	UL23	T131P	substitution	T	131	P	C_clinical_isolate	3	2	0	Aciclovir	25
+HSV2	UL23	T184*	nonsense				C_clinical_isolate	1	1	0	Aciclovir	
+HSV2	UL23	T202A	substitution	T	202	A	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	70
+HSV2	UL23	T288M	substitution	T	288	M	C_clinical_isolate	2	2	0	Aciclovir	30
+HSV2	UL23	T288frameshift*	indel_or_frameshift				B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	200
+HSV2	UL23	V335frameshift	indel_or_frameshift				B_lab_selected	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	200
+HSV2	UL23	Y133F	substitution	Y	133	F	A_engineered	3	2	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	2.5
+HSV2	UL23	Y53N	substitution	Y	53	N	A_engineered	3	2	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	24.1
+HSV2	UL30	A1000T	substitution	A	1000	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	A1083T	substitution	A	1083	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	A1114V	substitution	A	1114	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	A1209V	substitution	A	1209	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	A1213T	substitution	A	1213	T	C_clinical_isolate	1	1	0	Aciclovir	
+HSV2	UL30	A1223V	substitution	A	1223	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	A300T	substitution	A	300	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	A36G	substitution	A	36	G	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	A547V	substitution	A	547	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	A606V	substitution	A	606	V	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	6.2
+HSV2	UL30	A724T	substitution	A	724	T	C_clinical_isolate	2	2	0	Aciclovir;Cidofovir;Foscarnet	3.4
+HSV2	UL30	A724V	substitution	A	724	V	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	3.6
+HSV2	UL30	A869D	substitution	A	869	D	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	A879V	substitution	A	879	V	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	A904G	substitution	A	904	G	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	A905E	substitution	A	905	E	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	A9T	substitution	A	9	T	C_clinical_isolate	2	2	0	Aciclovir;Foscarnet	
+HSV2	UL30	C40W	substitution	C	40	W	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	C625R	substitution	C	625	R	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	4.4
+HSV2	UL30	D307N	substitution	D	307	N	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	D671N	substitution	D	671	N	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	D676G	substitution	D	676	G	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	D676N	substitution	D	676	N	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	D708N	substitution	D	708	N	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	D716N	substitution	D	716	N	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV2	UL30	D785N	substitution	D	785	N	C_clinical_isolate	2	2	0	Aciclovir;Cidofovir;Foscarnet	3.9
+HSV2	UL30	D912V	substitution	D	912	V	C_clinical_isolate	1	1	1	Aciclovir;Cidofovir;Foscarnet	
+HSV2	UL30	E139K	substitution	E	139	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	E678G	substitution	E	678	G	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet;Penciclovir	
+HSV2	UL30	E682G	substitution	E	682	G	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	E682K	substitution	E	682	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	E686*	nonsense				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	E746K	substitution	E	746	K	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	F923L	substitution	F	923	L	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	7.5
+HSV2	UL30	G12R	substitution	G	12	R	C_clinical_isolate	1	1	0	Aciclovir	
+HSV2	UL30	G324E	substitution	G	324	E	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	G680R	substitution	G	680	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	G684*	nonsense				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	G906A	substitution	G	906	A	C_clinical_isolate	1	1	0	Aciclovir	
+HSV2	UL30	H49Y	substitution	H	49	Y	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	I731F	substitution	I	731	F	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	6
+HSV2	UL30	K533E	substitution	K	533	E	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	4.2
+HSV2	UL30	K913M	substitution	K	913	M	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	L60P	substitution	L	60	P	C_clinical_isolate	2	2	0	Aciclovir;Foscarnet	
+HSV2	UL30	L783M	substitution	L	783	M	C_clinical_isolate	2	2	0	Aciclovir;Cidofovir;Foscarnet	8
+HSV2	UL30	L850I	substitution	L	850	I	C_clinical_isolate	2	2	0	Aciclovir;Cidofovir;Foscarnet	9.2
+HSV2	UL30	M789K	substitution	M	789	K	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	3.4
+HSV2	UL30	M789T	substitution	M	789	T	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	3.3
+HSV2	UL30	M910I	substitution	M	910	I	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	M910T	substitution	M	910	T	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	N286Y	substitution	N	286	Y	C_clinical_isolate	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	
+HSV2	UL30	N820S	substitution	N	820	S	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	68
+HSV2	UL30	P1112*	nonsense				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	P15R	substitution	P	15	R	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV2	UL30	P15S	substitution	P	15	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	P37L	substitution	P	37	L	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	P880H	substitution	P	880	H	C_clinical_isolate	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	
+HSV2	UL30	Q34H	substitution	Q	34	H	C_clinical_isolate	1	1	0	Aciclovir	
+HSV2	UL30	Q43R	substitution	Q	43	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	Q507H	substitution	Q	507	H	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	Q732R	substitution	Q	732	R	A_engineered	2	2	0	Aciclovir;Cidofovir;Foscarnet;Ganciclovir;Penciclovir	1.12e+03
+HSV2	UL30	Q799R	substitution	Q	799	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	Q829R	substitution	Q	829	R	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	R1025H	substitution	R	1025	H	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	R1230Q	substitution	R	1230	Q	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	R203Q	substitution	R	203	Q	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	R628C	substitution	R	628	C	A_engineered	3	2	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	2.5
+HSV2	UL30	R847C	substitution	R	847	C	A_engineered	2	2	0	Aciclovir;Cidofovir;Foscarnet;Ganciclovir;Penciclovir	827
+HSV2	UL30	R964H	substitution	R	964	H	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	4.9
+HSV2	UL30	S725G	substitution	S	725	G	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	4
+HSV2	UL30	S729N	substitution	S	729	N	A_engineered	4	4	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	6.9
+HSV2	UL30	T1200A	substitution	T	1200	A	C_clinical_isolate	1	1	0	Aciclovir	1
+HSV2	UL30	T202M	substitution	T	202	M	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	T801P	substitution	T	801	P	C_clinical_isolate	1	1	0	Aciclovir;Brivudine;Cidofovir;Foscarnet;Penciclovir	
+HSV2	UL30	T903M	substitution	T	903	M	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	T934A	substitution	T	934	A	A_engineered	2	2	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	20
+HSV2	UL30	T987S	substitution	T	987	S	C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	V818A	substitution	V	818	A	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	5.1
+HSV2	UL30	Y823C	substitution	Y	823	C	A_engineered	1	1	0	Aciclovir;Cidofovir;Foscarnet;Penciclovir	3.4
+HSV2	UL30	del1106-1111	indel_or_frameshift				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	del676-677	indel_or_frameshift				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	del677-679	indel_or_frameshift				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	del681-682	indel_or_frameshift				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	del682-683	indel_or_frameshift				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL30	del683-686	indel_or_frameshift				C_clinical_isolate	1	1	0	Aciclovir;Foscarnet	
+HSV2	UL5	G351R	substitution	G	351	R	B_lab_selected	1	1	0	Amenamevir	2.2e+03
+HSV2	UL5	H334R	substitution	H	334	R	C_clinical_isolate	1	1	0	Pritelivir	
+HSV2	UL5	I340V	substitution	I	340	V	B_lab_selected	1	1	0	Amenamevir	2.1
+HSV2	UL5	K355E	substitution	K	355	E	B_lab_selected	1	1	0	Amenamevir	8
+HSV2	UL5	K355N	substitution	K	355	N	B_lab_selected	1	1	0	Amenamevir	2.8e+03

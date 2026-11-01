@@ -1,0 +1,95 @@
+{
+  "gate_1": {
+    "hsv1_hsv2_tier_a": 133,
+    "hsv1_tier_a": 103,
+    "passed": true,
+    "threshold": 50
+  },
+  "gate_1_substitutions_only": {
+    "hsv1_tier_a_substitutions": 103,
+    "passed": true
+  },
+  "n_independent_refs": {
+    "A_engineered": 61,
+    "B_lab_selected": 31,
+    "C_clinical_isolate": 42,
+    "Z_unknown": 0
+  },
+  "rows_active": 1696,
+  "rows_hsv_active": 951,
+  "rows_total": 2035,
+  "status_counts": {
+    "A": 1696,
+    "E": 16,
+    "O": 322,
+    "P": 1
+  },
+  "tier_by_gene": {
+    "HSV1:UL23": {
+      "A_engineered": 40,
+      "B_lab_selected": 43,
+      "C_clinical_isolate": 172
+    },
+    "HSV1:UL29": {
+      "A_engineered": 1
+    },
+    "HSV1:UL30": {
+      "A_engineered": 49,
+      "B_lab_selected": 25,
+      "C_clinical_isolate": 206
+    },
+    "HSV1:UL5": {
+      "A_engineered": 7,
+      "B_lab_selected": 6
+    },
+    "HSV1:UL52": {
+      "A_engineered": 6,
+      "B_lab_selected": 1
+    },
+    "HSV2:UL23": {
+      "A_engineered": 12,
+      "B_lab_selected": 10,
+      "C_clinical_isolate": 32
+    },
+    "HSV2:UL30": {
+      "A_engineered": 18,
+      "C_clinical_isolate": 67
+    },
+    "HSV2:UL5": {
+      "B_lab_selected": 4,
+      "C_clinical_isolate": 1
+    }
+  },
+  "tier_by_virus": {
+    "HSV1": {
+      "A_engineered": 103,
+      "B_lab_selected": 75,
+      "C_clinical_isolate": 378
+    },
+    "HSV2": {
+      "A_engineered": 30,
+      "B_lab_selected": 14,
+      "C_clinical_isolate": 100
+    }
+  },
+  "tier_counts": {
+    "A_engineered": 133,
+    "B_lab_selected": 89,
+    "C_clinical_isolate": 478
+  },
+  "unique_hsv_mutations": 700,
+  "variant_types": {
+    "indel_or_frameshift": 24,
+    "nonsense": 30,
+    "other": 2,
+    "substitution": 644
+  },
+  "virus_counts": {
+    "Adeno": 2,
+    "HCMV": 644,
+    "HHV6b": 23,
+    "HSV1": 754,
+    "HSV2": 197,
+    "VZV": 76
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "n": 119,
+  "seed": 20261102,
+  "n_permutations": 100,
+  "leave_one_gene_out": {
+    "permutation_tests": {
+      "frequency_only": {
+        "model": "ridge{'m__alpha': 1.0}",
+        "observed_spearman": -0.1582,
+        "n_replicates": 100,
+        "null_mean": -0.2729,
+        "null_sd": 0.054,
+        "null_ci95": [
+          -0.3529,
+          -0.1516
+        ],
+        "null_p95": -0.1695,
+        "permutation_p": 0.0396,
+        "significant_vs_null": true,
+        "excess_over_null_mean": 0.1147,
+        "usable": false
+      },
+      "conservation_only": {
+        "model": "ridge{'m__alpha': 1.0}",
+        "observed_spearman": -0.2097,
+        "n_replicates": 100,
+        "null_mean": -0.2775,
+        "null_sd": 0.0288,
+        "null_ci95": [
+          -0.3279,
+          -0.2252
+        ],
+        "null_p95": -0.2283,
+        "permutation_p": 0.0099,
+        "significant_vs_null": true,
+        "excess_over_null_mean": 0.0678,
+        "usable": false
+      },
+      "structure_only": {
+        "model": "ridge{'m__alpha': 1.0}",
+        "observed_spearman": 0.3164,
+        "n_replicates": 100,
+        "null_mean": -0.2228,
+        "null_sd": 0.1047,
+        "null_ci95": [
+          -0.3925,
+          0.0291
+        ],
+        "null_p95": -0.047,
+        "permutation_p": 0.0099,
+        "significant_vs_null": true,
+        "excess_over_null_mean": 0.5392,
+        "usable": true
+      },
+      "structure_only_forest": {
+        "model": "forest{'m__min_samples_leaf': 5, 'm__max_features': 0.5, 'm__n_estimators': 100}",
+        "observed_spearman": 0.2946,
+        "n_replicates": 100,
+        "null_mean": -0.1599,
+        "null_sd": 0.1229,
+        "null_ci95": [
+          -0.3628,
+          0.1256
+        ],
+        "null_p95": 0.0462,
+        "permutation_p": 0.0099,
+        "significant_vs_null": true,
+        "excess_over_null_mean": 0.4545,
+        "usable": true
+      },
+      "esm_only": {
+        "model": "ridge{'m__alpha': 1.0}",
+        "observed_spearman": 0.2358,
+        "n_replicates": 100,
+        "null_mean": -0.2401,
+        "null_sd": 0.0818,
+        "null_ci95": [
+          -0.3538,
+          -0.0711
+        ],
+        "null_p95": -0.0888,
+        "permutation_p": 0.0099,
+        "significant_vs_null": true,
+        "excess_over_null_mean": 0.476,
+        "usable": true
+      },
+      "esm_only_forest": {
+        "model": "forest{'m__min_samples_leaf': 5, 'm__max_features': 0.5, 'm__n_estimators': 100}",
+        "observed_spearman": 0.3531,
+        "n_replicates": 100,
+        "null_mean": -0.1418,
+        "null_sd": 0.1076,
+        "null_ci95": [
+          -0.3031,
+          0.0591
+        ],
+        "null_p95": 0.0502,
+        "permutation_p": 0.0099,
+        "significant_vs_null": true,
+        "excess_over_null_mean": 0.4949,
+        "usable": true
+      },
+      "full_model": {
+        "model": "ridge{'m__alpha': 1.0}",
+        "observed_spearman": 0.246,
+        "n_replicates": 100,
+        "null_mean": -0.175,
+        "null_sd": 0.0959,
+        "null_ci95": [
+          -0.3704,
+          0.0164
+        ],
+        "null_p95": -0.0037,
+        "permutation_p": 0.0099,
+        "significant_vs_null": true,
+        "excess_over_null_mean": 0.421,
+        "usable": true
+      },
+      "full_model_forest": {
+        "model": "forest{'m__min_samples_leaf': 5, 'm__max_features': 0.5, 'm__n_estimators': 100}",
+        "observed_spearman": 0.3129,
+        "n_replicates": 100,
+        "null_mean": -0.2018,
+        "null_sd": 0.1051,
+        "null_ci95": [
+          -0.3953,
+          0.0193
+        ],
+        "null_p95": -0.0015,
+        "permutation_p": 0.0099,
+        "significant_vs_null": true,
+        "excess_over_null_mean": 0.5147,
+        "usable": true
+      }
+    },
+    "conservation_matched": {
+      "n_draws": 100,
+      "median_subset_size": 64,
+      "spearman_mean": 0.2297,
+      "spearman_ci": [
+        0.0054,
+        0.5186
+      ],
+      "auc_mean": 0.6461,
+      "auc_ci": [
+        0.5281,
+        0.7815
+      ]
+    },
+    "esm_residualised": {
+      "esm_variance_explained_by_confounds_r2": {
+        "esm_masked_marginal": 0.3216,
+        "esm_ref_logprob": 0.3099
+      },
+      "full_model": {
+        "spearman": 0.2663,
+        "auc": 0.6857,
+        "rmse": 0.7497
+      },
+      "full_model_esm_residualised": {
+        "spearman": 0.2403,
+        "auc": 0.6494,
+        "rmse": 0.7419
+      },
+      "esm_alone": {
+        "spearman": 0.1378,
+        "auc": 0.5955
+      },
+      "esm_alone_residualised": {
+        "spearman": -0.1241,
+        "auc": 0.4131
+      }
+    }
+  },
+  "position_blocks": {
+    "permutation_tests": {
+      "frequency_only": {
+        "model": "ridge{'m__alpha': 1.0}",
+        "observed_spearman": -0.1063,
+        "n_replicates": 100,
+        "null_mean": -0.1807,
+        "null_sd": 0.0753,
+        "null_ci95": [
+          -0.3853,
+          -0.0673
+        ],
+        "null_p95": -0.0772,
+        "permutation_p": 0.14851,
+        "significant_vs_null": false,
+        "excess_over_null_mean": 0.0744,
+        "usable": false
+      },
+      "conservation_only": {
+        "model": "ridge{'m__alpha': 1.0}",
+        "observed_spearman": -0.2692,
+        "n_replicates": 100,
+        "null_mean": -0.3143,
+        "null_sd": 0.0293,
+        "null_ci95": [
+          -0.3534,
+          -0.2492
+        ],
+        "null_p95": -0.2546,
+        "permutation_p": 0.12871,
+        "significant_vs_null": false,
+        "excess_over_null_mean": 0.0451,
+        "usable": false
+      },
+      "structure_only": {
+        "model": "ridge{'m__alpha': 1.0}",
+        "observed_spearman": 0.4308,
+        "n_replicates": 100,
+        "null_mean": 0.0215,
+        "null_sd": 0.1189,
+        "null_ci95": [
+          -0.197,
+          0.2701
+        ],
+        "null_p95": 0.2419,
+        "permutation_p": 0.0099,
+        "significant_vs_null": true,
+        "excess_over_null_mean": 0.4093,
+        "usable": true
+      },
+      "structure_only_forest": {
+        "model": "forest{'m__min_samples_leaf': 5, 'm__max_features': 0.5, 'm__n_estimators': 100}",
+        "observed_spearman": 0.4124,
+        "n_replicates": 100,
+        "null_mean": 0.0649,
+        "null_sd": 0.1177,
+        "null_ci95": [
+          -0.1601,
+          0.2612
+        ],
+        "null_p95": 0.2465,
+        "permutation_p": 0.0099,
+        "significant_vs_null": true,
+        "excess_over_null_mean": 0.3475,
+        "usable": true
+      },
+      "esm_only": {
+        "model": "ridge{'m__alpha': 1.0}",
+        "observed_spearman": 0.3033,
+        "n_replicates": 100,
+        "null_mean": 0.0055,
+        "null_sd": 0.1426,
+        "null_ci95": [
+          -0.3352,
+          0.2091
+        ],
+        "null_p95": 0.1826,
+        "permutation_p": 0.0099,
+        "significant_vs_null": true,
+        "excess_over_null_mean": 0.2977,
+        "usable": true
+      },
+      "esm_only_forest": {
+        "model": "forest{'m__min_samples_leaf': 5, 'm__max_features': 0.5, 'm__n_estimators': 100}",
+        "observed_spearman": 0.3804,
+        "n_replicates": 100,
+        "null_mean": 0.0785,
+        "null_sd": 0.1089,
+        "null_ci95": [
+          -0.1259,
+          0.2751
+        ],
+        "null_p95": 0.2386,
+        "permutation_p": 0.0099,
+        "significant_vs_null": true,
+        "excess_over_null_mean": 0.3019,
+        "usable": true
+      },
+      "full_model": {
+        "model": "ridge{'m__alpha': 1.0}",
+        "observed_spearman": 0.3191,
+        "n_replicates": 100,
+        "null_mean": -0.0188,
+        "null_sd": 0.1122,
+        "null_ci95": [
+          -0.2458,
+          0.1793
+        ],
+        "null_p95": 0.1622,
+        "permutation_p": 0.0099,
+        "significant_vs_null": true,
+        "excess_over_null_mean": 0.3379,
+        "usable": true
+      },
+      "full_model_forest": {
+        "model": "forest{'m__min_samples_leaf': 5, 'm__max_features': 0.5, 'm__n_estimators': 100}",
+        "observed_spearman": 0.4297,
+        "n_replicates": 100,
+        "null_mean": 0.0013,
+        "null_sd": 0.1518,
+        "null_ci95": [
+          -0.2666,
+          0.272
+        ],
+        "null_p95": 0.2319,
+        "permutation_p": 0.0099,
+        "significant_vs_null": true,
+        "excess_over_null_mean": 0.4284,
+        "usable": true
+      }
+    },
+    "conservation_matched": {
+      "n_draws": 100,
+      "median_subset_size": 64,
+      "spearman_mean": 0.3879,
+      "spearman_ci": [
+        0.103,
+        0.5966
+      ],
+      "auc_mean": 0.7334,
+      "auc_ci": [
+        0.5955,
+        0.8405
+      ]
+    },
+    "esm_residualised": {
+      "esm_variance_explained_by_confounds_r2": {
+        "esm_masked_marginal": 0.3216,
+        "esm_ref_logprob": 0.3099
+      },
+      "full_model": {
+        "spearman": 0.3794,
+        "auc": 0.7328,
+        "rmse": 0.7174
+      },
+      "full_model_esm_residualised": {
+        "spearman": 0.2784,
+        "auc": 0.6699,
+        "rmse": 0.742
+      },
+      "esm_alone": {
+        "spearman": 0.3053,
+        "auc": 0.6602
+      },
+      "esm_alone_residualised": {
+        "spearman": 0.0229,
+        "auc": 0.412
+      }
+    }
+  },
+  "leakage_check": {
+    "leave_one_gene_out": {
+      "max_null_mean": -0.1418,
+      "min_null_mean": -0.2775,
+      "leakage_suspected": false,
+      "scheme_biased_negative": true
+    },
+    "position_blocks": {
+      "max_null_mean": 0.0785,
+      "min_null_mean": -0.3143,
+      "leakage_suspected": false,
+      "scheme_biased_negative": true
+    }
+  },
+  "significant_feature_sets": {
+    "leave_one_gene_out": [
+      "conservation_only",
+      "esm_only",
+      "esm_only_forest",
+      "frequency_only",
+      "full_model",
+      "full_model_forest",
+      "structure_only",
+      "structure_only_forest"
+    ],
+    "position_blocks": [
+      "esm_only",
+      "esm_only_forest",
+      "full_model",
+      "full_model_forest",
+      "structure_only",
+      "structure_only_forest"
+    ]
+  },
+  "usable_feature_sets": {
+    "leave_one_gene_out": [
+      "esm_only",
+      "esm_only_forest",
+      "full_model",
+      "full_model_forest",
+      "structure_only",
+      "structure_only_forest"
+    ],
+    "position_blocks": [
+      "esm_only",
+      "esm_only_forest",
+      "full_model",
+      "full_model_forest",
+      "structure_only",
+      "structure_only_forest"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "n_rows": 645,
+  "per_gene": {
+    "HSV1:UL23": {
+      "mean_coverage": 251.0,
+      "n_by_stratum": {
+        "naive_proxy": 251
+      },
+      "n_sequences": 251,
+      "positions_covered": 376,
+      "positions_with_variation": 60,
+      "reference_length": 376
+    },
+    "HSV1:UL30": {
+      "mean_coverage": 253.0,
+      "n_by_stratum": {
+        "naive_proxy": 253
+      },
+      "n_sequences": 253,
+      "positions_covered": 1235,
+      "positions_with_variation": 146,
+      "reference_length": 1235
+    },
+    "HSV1:UL5": {
+      "mean_coverage": 256.0,
+      "n_by_stratum": {
+        "naive_proxy": 256
+      },
+      "n_sequences": 256,
+      "positions_covered": 882,
+      "positions_with_variation": 78,
+      "reference_length": 882
+    },
+    "HSV1:UL52": {
+      "mean_coverage": 253.0,
+      "n_by_stratum": {
+        "naive_proxy": 253
+      },
+      "n_sequences": 253,
+      "positions_covered": 1058,
+      "positions_with_variation": 127,
+      "reference_length": 1058
+    },
+    "HSV2:UL23": {
+      "mean_coverage": 158.7,
+      "n_by_stratum": {
+        "naive_proxy": 159
+      },
+      "n_sequences": 159,
+      "positions_covered": 376,
+      "positions_with_variation": 29,
+      "reference_length": 376
+    },
+    "HSV2:UL30": {
+      "mean_coverage": 182.7,
+      "n_by_stratum": {
+        "naive_proxy": 183
+      },
+      "n_sequences": 183,
+      "positions_covered": 1240,
+      "positions_with_variation": 64,
+      "reference_length": 1240
+    },
+    "HSV2:UL5": {
+      "mean_coverage": 172.9,
+      "n_by_stratum": {
+        "naive_proxy": 173
+      },
+      "n_sequences": 173,
+      "positions_covered": 881,
+      "positions_with_variation": 29,
+      "reference_length": 881
+    },
+    "HSV2:UL52": {
+      "mean_coverage": 155.5,
+      "n_by_stratum": {
+        "naive_proxy": 156
+      },
+      "n_sequences": 156,
+      "positions_covered": 1066,
+      "positions_with_variation": 64,
+      "reference_length": 1066
+    }
+  }
+}
