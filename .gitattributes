@@ -1,0 +1,16 @@
+# Byte-exact checkout, everywhere, deliberately.
+#
+# This repository records checksums of its own data: MD5 of the pinned source
+# database in data/raw/PROVENANCE.md, and SHA-256 of the three release tables
+# in reports/phase4/release_summary.json. scripts/p4_05_verify.py recomputes
+# the SHA-256 values and fails if they disagree.
+#
+# Git's line-ending conversion is per-platform, so with conversion enabled a
+# reviewer cloning on Linux and a reviewer cloning on Windows get different
+# bytes for the same commit, and at most one of them can match a recorded
+# checksum. Disabling it means every clone is byte-identical and the repository
+# verifies against itself anywhere.
+#
+# The cost is that text files keep whatever line endings they were committed
+# with. For a published analysis that is the right trade.
+* -text

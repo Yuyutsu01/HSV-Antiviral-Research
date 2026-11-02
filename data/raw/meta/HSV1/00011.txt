@@ -1,0 +1,1923 @@
+LOCUS       PZ169681                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain A_d7_eye_culture, complete genome.
+ACCESSION   PZ169681 REGION: 1
+VERSION     PZ169681.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="A_d7_eye_culture"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169682                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain A_d7_eye, partial genome.
+ACCESSION   PZ169682 REGION: 1
+VERSION     PZ169682.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="A_d7_eye"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169683                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain A_d7_plasma, complete genome.
+ACCESSION   PZ169683 REGION: 1
+VERSION     PZ169683.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="A_d7_plasma"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169684                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain A_d8_CSF, partial genome.
+ACCESSION   PZ169684 REGION: 1
+VERSION     PZ169684.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="A_d8_CSF"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169685                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain X_d8_plasma, partial genome.
+ACCESSION   PZ169685 REGION: 1
+VERSION     PZ169685.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="X_d8_plasma"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169686                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain X_d8_skin_culture, partial genome.
+ACCESSION   PZ169686 REGION: 1
+VERSION     PZ169686.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="X_d8_skin_culture"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169687                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain X_d8_skin, complete genome.
+ACCESSION   PZ169687 REGION: 1
+VERSION     PZ169687.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="X_d8_skin"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169688                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain Y_d8_eye, complete genome.
+ACCESSION   PZ169688 REGION: 1
+VERSION     PZ169688.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Y_d8_eye"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169689                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain Y_d8_skin_culture, complete genome.
+ACCESSION   PZ169689 REGION: 1
+VERSION     PZ169689.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Y_d8_skin_culture"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169690                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain Y_d8_skin, complete genome.
+ACCESSION   PZ169690 REGION: 1
+VERSION     PZ169690.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Y_d8_skin"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169691                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain Y_d9_plasma, partial genome.
+ACCESSION   PZ169691 REGION: 1
+VERSION     PZ169691.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Y_d9_plasma"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169692                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain W_d15_plasma, partial genome.
+ACCESSION   PZ169692 REGION: 1
+VERSION     PZ169692.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="W_d15_plasma"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169693                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain W_d15_skin_culture, complete
+            genome.
+ACCESSION   PZ169693 REGION: 1
+VERSION     PZ169693.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="W_d15_skin_culture"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169694                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain W_d15_skin, complete genome.
+ACCESSION   PZ169694 REGION: 1
+VERSION     PZ169694.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="W_d15_skin"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169695                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain B_d8_plasma_culture, complete
+            genome.
+ACCESSION   PZ169695 REGION: 1
+VERSION     PZ169695.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="B_d8_plasma_culture"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       PZ169696                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain B_d8_plasma, complete genome.
+ACCESSION   PZ169696 REGION: 1
+VERSION     PZ169696.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="B_d8_plasma"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       PZ169697                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain B_d9_eye, partial genome.
+ACCESSION   PZ169697 REGION: 1
+VERSION     PZ169697.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="B_d9_eye"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       PZ169698                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain B_d9_pharynx, complete genome.
+ACCESSION   PZ169698 REGION: 1
+VERSION     PZ169698.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="B_d9_pharynx"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       PZ169699                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain B_d9_rectum, partial genome.
+ACCESSION   PZ169699 REGION: 1
+VERSION     PZ169699.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="B_d9_rectum"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 c
+//
+
+LOCUS       PZ169700                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain E_d12_plasma, partial genome.
+ACCESSION   PZ169700 REGION: 1
+VERSION     PZ169700.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E_d12_plasma"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169701                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain E_d25_skin, partial genome.
+ACCESSION   PZ169701 REGION: 1
+VERSION     PZ169701.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E_d25_skin"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169702                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain C_d10_eye, partial genome.
+ACCESSION   PZ169702 REGION: 1
+VERSION     PZ169702.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="C_d10_eye"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169703                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain C_d10_liver_culture, partial
+            genome.
+ACCESSION   PZ169703 REGION: 1
+VERSION     PZ169703.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="C_d10_liver_culture"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 t
+//
+
+LOCUS       PZ169704                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain C_d10_liver, partial genome.
+ACCESSION   PZ169704 REGION: 1
+VERSION     PZ169704.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="C_d10_liver"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169705                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain C_d10_plasma_culture, partial
+            genome.
+ACCESSION   PZ169705 REGION: 1
+VERSION     PZ169705.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="C_d10_plasma_culture"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169706                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain C_d10_plasma, partial genome.
+ACCESSION   PZ169706 REGION: 1
+VERSION     PZ169706.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="C_d10_plasma"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169707                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain D_d12_eye, partial genome.
+ACCESSION   PZ169707 REGION: 1
+VERSION     PZ169707.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="D_d12_eye"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169708                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain D_d12_rectum, partial genome.
+ACCESSION   PZ169708 REGION: 1
+VERSION     PZ169708.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="D_d12_rectum"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169709                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain D_d12_skin_culture, complete
+            genome.
+ACCESSION   PZ169709 REGION: 1
+VERSION     PZ169709.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="D_d12_skin_culture"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169710                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain D_d12_skin, complete genome.
+ACCESSION   PZ169710 REGION: 1
+VERSION     PZ169710.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="D_d12_skin"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169711                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain F_d10_plasma_culture, complete
+            genome.
+ACCESSION   PZ169711 REGION: 1
+VERSION     PZ169711.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="F_d10_plasma_culture"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169712                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain F_d10_plasma, partial genome.
+ACCESSION   PZ169712 REGION: 1
+VERSION     PZ169712.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="F_d10_plasma"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169713                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain Z_d9_eye_culture, complete genome.
+ACCESSION   PZ169713 REGION: 1
+VERSION     PZ169713.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Z_d9_eye_culture"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169714                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain Z_d9_eye, partial genome.
+ACCESSION   PZ169714 REGION: 1
+VERSION     PZ169714.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Z_d9_eye"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PZ169715                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain Z_d10_plasma, partial genome.
+ACCESSION   PZ169715 REGION: 1
+VERSION     PZ169715.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Z_d10_plasma"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       PZ169716                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain Z_d10_culture, complete genome.
+ACCESSION   PZ169716 REGION: 1
+VERSION     PZ169716.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Z_d10_culture"
+                     /db_xref="taxon:10298"
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169717                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain Z_d10_skin, complete genome.
+ACCESSION   PZ169717 REGION: 1
+VERSION     PZ169717.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Z_d10_skin"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169718                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain Z_d39_plasma, partial genome.
+ACCESSION   PZ169718 REGION: 1
+VERSION     PZ169718.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Z_d39_plasma"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169719                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain Z_d40_skin_culture, complete
+            genome.
+ACCESSION   PZ169719 REGION: 1
+VERSION     PZ169719.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Z_d40_skin_culture"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       PZ169720                   1 bp    DNA     linear   VRL 17-JUN-2026
+DEFINITION  Human alphaherpesvirus 1 strain Z_d40_skin, partial genome.
+ACCESSION   PZ169720 REGION: 1
+VERSION     PZ169720.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Herpes simplex virus type 1 isolated from newborns reveals viral
+            diversity between and within patients
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Passetti,H.A., Johnstone,J.P., Miller,B.J., Renner,D.W., Rass,R.A.,
+            Bowen,C.D., Li,Y., Hayes,C.K., Akhtar,L.N. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2026) Department of Biology and Biochemistry and
+            Molecular Biology, Penn State, 491 Pollock Road, State College, PA
+            16801, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Z_d40_skin"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2009/2016"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       PZ347688                   1 bp    DNA     linear   VRL 21-JUL-2026
+DEFINITION  Human alphaherpesvirus 1 isolate HSV1-1981-H186, partial genome.
+ACCESSION   PZ347688 REGION: 1
+VERSION     PZ347688.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Kehlbeck,D., Ortigas-Vasquez,A., Dweikat,S.N., Bowen,C.D.,
+            Renner,D.W. and Szpara,M.L.
+  TITLE     Genome sequence of herpes simplex virus 1 (HSV1) from recurrent
+            encephalitis patient with Ara-a treatment
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Kehlbeck,D., Ortigas-Vasquez,A., Dweikat,S.N., Bowen,C.D.,
+            Renner,D.W. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-APR-2026) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV1-1981-H186"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: San Francisco, CA"
+                     /collection_date="Aug-1981"
+ORIGIN      
+        1 a
+//
+
+LOCUS       QP771543                   1 bp    DNA     linear   PAT 16-MAY-2026
+DEFINITION  JP 2025515283-A/1: COMPOSITIONS AND METHODS FOR VIRAL VECTORS.
+ACCESSION   QP771543 REGION: 1
+VERSION     QP771543.1
+KEYWORDS    JP 2025515283-A/1.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   .
+  TITLE     COMPOSITIONS AND METHODS FOR VIRAL VECTORS
+  JOURNAL   Patent: JP 2025515283-A 1 14-MAY-2025;
+            CANDEL THERAPEUTICS, INC
+COMMENT     OS   Human alphaherpesvirus 1
+            PN   JP 2025515283-A/1
+            PD   14-MAY-2025
+            PF   18-APR-2023 JP 2024-561755
+            PR   18-APR-2022 US 63/331,903
+            PA   CANDEL THERAPEUTICS, INC.
+            PT   COMPOSITIONS AND METHODS FOR VIRAL VECTORS
+            PS   1
+            FH   Key             Location/Qualifiers.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:10298"
+ORIGIN      
+        1 g
+//
+
+LOCUS       QP771544                   1 bp    DNA     linear   PAT 16-MAY-2026
+DEFINITION  JP 2025515283-A/2: COMPOSITIONS AND METHODS FOR VIRAL VECTORS.
+ACCESSION   QP771544 REGION: 1
+VERSION     QP771544.1
+KEYWORDS    JP 2025515283-A/2.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   .
+  TITLE     COMPOSITIONS AND METHODS FOR VIRAL VECTORS
+  JOURNAL   Patent: JP 2025515283-A 2 14-MAY-2025;
+            CANDEL THERAPEUTICS, INC
+COMMENT     OS   Human alphaherpesvirus 1
+            PN   JP 2025515283-A/2
+            PD   14-MAY-2025
+            PF   18-APR-2023 JP 2024-561755
+            PR   18-APR-2022 US 63/331,903
+            PA   CANDEL THERAPEUTICS, INC.
+            PT   COMPOSITIONS AND METHODS FOR VIRAL VECTORS
+            PS   2
+            FH   Key             Location/Qualifiers.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:10298"
+ORIGIN      
+        1 a
+//
+
+LOCUS       QQ274048                   1 bp    DNA     linear   PAT 16-MAY-2026
+DEFINITION  JP 2024532622-A/857: ENGINEERED ONCOLYTIC HERPESVIRUSES.
+ACCESSION   QQ274048 REGION: 1
+VERSION     QQ274048.1
+KEYWORDS    JP 2024532622-A/857.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   .
+  TITLE     ENGINEERED ONCOLYTIC HERPESVIRUSES
+  JOURNAL   Patent: JP 2024532622-A 857 05-SEP-2024;
+            VIROGIN BIOTECH CANADA LTD
+COMMENT     OS   Human alphaherpesvirus 1
+            PN   JP 2024532622-A/857
+            PD   05-SEP-2024
+            PF   31-AUG-2022 JP 2024-537310
+            PR   31-AUG-2021 US 63/238,997
+            PA   VIROGIN BIOTECH CANADA LTD.
+            PT   ENGINEERED ONCOLYTIC HERPESVIRUSES
+            PS   857
+            FH   Key             Location/Qualifiers.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:10298"
+ORIGIN      
+        1 a
+//
+
+LOCUS       QS368914                   1 bp    DNA     linear   PAT 16-MAY-2026
+DEFINITION  WO 2024071397-A/29: Herpes simplex virus targeted to IL13RA2, and
+            anti-IL13RA2 antibody or antigen-binding fragment thereof.
+ACCESSION   QS368914 REGION: 1
+VERSION     QS368914.1
+KEYWORDS    WO 2024071397-A/29.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   .
+  TITLE     Herpes simplex virus targeted to IL13RA2, and anti-IL13RA2 antibody
+            or antigen-binding fragment thereof
+  JOURNAL   Patent: WO 2024071397-A 29 04-APR-2024;
+            The University of Tokyo
+COMMENT     OS   Human alphaherpesvirus 1
+            PN   WO 2024071397-A/29
+            PD   04-APR-2024
+            PF   29-SEP-2023 JP 2023/035689
+            PR   30-SEP-2022 JP 2022-159009
+            PA   The University of Tokyo
+            PT   Herpes simplex virus targeted to IL13RA2, and anti-IL13RA2
+            PT   antibody or antigen-binding fragment thereof
+            PS   29
+            FH   Key             Location/Qualifiers.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:10298"
+ORIGIN      
+        1 g
+//
+
+LOCUS       QS392184                   1 bp    DNA     linear   PAT 16-MAY-2026
+DEFINITION  WO 2025187175-A/17: CELL FOR PRODUCING RECOMBINANT HERPES SIMPLEX
+            VIRUS VECTOR, AND METHOD FOR PRODUCING RECOMBINANT HERPES SIMPLEX
+            VIRUS VECTOR.
+ACCESSION   QS392184 REGION: 1
+VERSION     QS392184.1
+KEYWORDS    WO 2025187175-A/17.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   .
+  TITLE     CELL FOR PRODUCING RECOMBINANT HERPES SIMPLEX VIRUS VECTOR, AND
+            METHOD FOR PRODUCING RECOMBINANT HERPES SIMPLEX VIRUS VECTOR
+  JOURNAL   Patent: WO 2025187175-A 17 11-SEP-2025;
+            NATIONAL INSTITUTE OF ADVANCED INDUSTRIAL SCIENC E AND TECHNOLOGY
+COMMENT     OS   herpes simplex virus type 1
+            PN   WO 2025187175-A/17
+            PD   11-SEP-2025
+            PF   19-DEC-2024 JP 2024/045057
+            PR   07-MAR-2024 JP 2024-035152
+            PA   NATIONAL INSTITUTE OF ADVANCED INDUSTRIAL SCIENC E AND
+            PA   TECHNOLOGY
+            PT   CELL FOR PRODUCING RECOMBINANT HERPES SIMPLEX VIRUS VECTOR,
+            PT   AND METHOD FOR PRODUCING RECOMBINANT HERPES SIMPLEX VIRUS
+            PT   VECTOR
+            PS   17
+            FH   Key             Location/Qualifiers.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:10298"
+ORIGIN      
+        1 a
+//
+
+LOCUS       X14112                     1 bp    DNA     linear   VRL 23-OCT-2008
+DEFINITION  Human herpesvirus 1 complete genome.
+ACCESSION   X14112 REGION: 1
+VERSION     X14112.1
+KEYWORDS    capsid associated tegument protein; capsid protein; complete
+            genome; deoxyribonuclease; deoxyuridine triphosphatase; DNA
+            polymerase; envelope protein; herpes simplex virus; host shut-off
+            factor; immediate early protein; integral membrane protein; IRS;
+            LAT; latency associated transcript; major capsid protein; membrane
+            associated phosphoprotein; minor capsid protein; myristilated
+            tegument protein; neurovirulence factor; neurovirulence factor
+            (ICP34.5); protease; protein kinase; ribonucleotide reductase large
+            subunit; ribonucleotide reductase small subunit; RL1 gene; RL2
+            gene; RS1 gene; subunit of replicative DNA polymerase; tegument
+            protein; tegument/envelope protein; thymidine kinase; TRL; TRS; UL;
+            UL1 gene; UL10 gene; UL11 gene; UL12 gene; UL13 gene; UL14 gene;
+            UL15 gene; UL16 gene; UL17 gene; UL18 gene; UL19 gene; UL2 gene;
+            UL20 gene; UL21 gene; UL22 gene; UL23 gene; UL24 gene; UL25 gene;
+            UL26 gene; UL26.5 gene; UL27 gene; UL28 gene; UL29 gene; UL3 gene;
+            UL30 gene; UL31 gene; UL32 gene; UL33 gene; UL34 gene; UL35 gene;
+            UL36 gene; UL37 gene; UL38 gene; UL39 gene; UL4 gene; UL40 gene;
+            UL41 gene; UL42 gene; UL43 gene; UL44 gene; UL45 gene; UL46 gene;
+            UL47 gene; UL48 gene; UL49 gene; UL49A gene; UL5 gene; UL50 gene;
+            UL51 gene; UL52 gene; UL53 gene; UL54 gene; UL55 gene; UL56 gene;
+            UL6 gene; UL7 gene; UL8 gene; UL9 gene; uracil-DNA glycosylase; US;
+            US1 gene; US10 gene; US11 gene; US12 gene; US2 gene; US3 gene; US4
+            gene; US5 gene; US6 gene; US7 gene; US8 gene; US8A gene; US9 gene;
+            very large tegument protein; virion glycoprotein B; virion
+            glycoprotein C; virion glycoprotein D; virion glycoprotein E;
+            virion glycoprotein G; virion glycoprotein H; virion glycoprotein
+            I; virion glycoprotein J; virion glycoprotein K; virion
+            glycoprotein L; virion glycoprotein M; virion protein; virion
+            protein UL47.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   McGeoch,D.J., Dolan,A., Donald,S. and Brauer,D.H.
+  TITLE     Complete DNA sequence of the short repeat region in the genome of
+            herpes simplex virus type 1
+  JOURNAL   Nucleic Acids Res. 14 (4), 1727-1745 (1986)
+   PUBMED   3005980
+REFERENCE   2
+  AUTHORS   Dolan,A., McKie,E., MacLean,A.R. and McGeoch,D.J.
+  TITLE     Status of the ICP34.5 gene in herpes simplex virus type 1 strain 17
+  JOURNAL   J. Gen. Virol. 73 (PT 4), 971-973 (1992)
+   PUBMED   1321882
+REFERENCE   3
+  AUTHORS   McGeoch,D.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JAN-1989) McGeoch D.J., MRC Virology Institute,
+            Institute of Virology, Church Street, Glasgow G11 5JR, GB
+  REMARK    Revised by [7]
+REFERENCE   4  (bases 1 to 1)
+  AUTHORS   Dolan,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-1997) Dolan A., MRC Virology Institute, Institute
+            of Virology, Church Street, Glasgow G11 5JR, GB
+COMMENT     On or before Apr 24, 2003 this sequence version replaced D10879.1,
+            D00374.1, S40593.1, gi:59499.
+            See also x06461 and x02138.
+            Residues 1 - 8661 and 148674 - 152260 of TR-L and TR-S, resp. have
+            not been sequenced but are derived from IR-L and IR-S sequences.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="17"
+                     /db_xref="taxon:10298"
+     LTR             >1
+                     /note="TRL (Terminal Repeat, Long)"
+     misc_feature    >1
+                     /note="a sequence (terminal redundancy)"
+ORIGIN      
+        1 a
+//
+

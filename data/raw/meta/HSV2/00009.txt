@@ -1,0 +1,2150 @@
+LOCUS       PP100065                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 63, partial genome.
+ACCESSION   PP100065 REGION: 1
+VERSION     PP100065.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="63"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100066                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 73, partial genome.
+ACCESSION   PP100066 REGION: 1
+VERSION     PP100066.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="73"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 t
+//
+
+LOCUS       PP100067                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 72, partial genome.
+ACCESSION   PP100067 REGION: 1
+VERSION     PP100067.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="72"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100068                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 56, partial genome.
+ACCESSION   PP100068 REGION: 1
+VERSION     PP100068.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="56"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 t
+//
+
+LOCUS       PP100069                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 1, partial genome.
+ACCESSION   PP100069 REGION: 1
+VERSION     PP100069.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="1"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100070                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 18, partial genome.
+ACCESSION   PP100070 REGION: 1
+VERSION     PP100070.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="18"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100071                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 42, partial genome.
+ACCESSION   PP100071 REGION: 1
+VERSION     PP100071.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="42"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100072                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 25, partial genome.
+ACCESSION   PP100072 REGION: 1
+VERSION     PP100072.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="25"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100073                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 33, partial genome.
+ACCESSION   PP100073 REGION: 1
+VERSION     PP100073.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="33"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100074                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 49, partial genome.
+ACCESSION   PP100074 REGION: 1
+VERSION     PP100074.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="49"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100075                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 29, partial genome.
+ACCESSION   PP100075 REGION: 1
+VERSION     PP100075.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="29"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100076                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 20, partial genome.
+ACCESSION   PP100076 REGION: 1
+VERSION     PP100076.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="20"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100077                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 21, partial genome.
+ACCESSION   PP100077 REGION: 1
+VERSION     PP100077.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="21"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100078                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 36, partial genome.
+ACCESSION   PP100078 REGION: 1
+VERSION     PP100078.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="36"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 v
+//
+
+LOCUS       PP100079                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 30, partial genome.
+ACCESSION   PP100079 REGION: 1
+VERSION     PP100079.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="30"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100080                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 35, partial genome.
+ACCESSION   PP100080 REGION: 1
+VERSION     PP100080.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="35"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100081                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 22, partial genome.
+ACCESSION   PP100081 REGION: 1
+VERSION     PP100081.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="22"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100082                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 44, partial genome.
+ACCESSION   PP100082 REGION: 1
+VERSION     PP100082.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="44"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100083                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 47, partial genome.
+ACCESSION   PP100083 REGION: 1
+VERSION     PP100083.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="47"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100084                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 11, partial genome.
+ACCESSION   PP100084 REGION: 1
+VERSION     PP100084.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="11"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100085                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 6, partial genome.
+ACCESSION   PP100085 REGION: 1
+VERSION     PP100085.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="6"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100086                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 48, partial genome.
+ACCESSION   PP100086 REGION: 1
+VERSION     PP100086.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="48"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100087                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 7, partial genome.
+ACCESSION   PP100087 REGION: 1
+VERSION     PP100087.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="7"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100088                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 32, partial genome.
+ACCESSION   PP100088 REGION: 1
+VERSION     PP100088.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="32"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100089                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 14, partial genome.
+ACCESSION   PP100089 REGION: 1
+VERSION     PP100089.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="14"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100090                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 10, partial genome.
+ACCESSION   PP100090 REGION: 1
+VERSION     PP100090.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="10"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 a
+//
+
+LOCUS       PP100091                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 12, partial genome.
+ACCESSION   PP100091 REGION: 1
+VERSION     PP100091.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="12"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100092                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 15, partial genome.
+ACCESSION   PP100092 REGION: 1
+VERSION     PP100092.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="15"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100093                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 3, partial genome.
+ACCESSION   PP100093 REGION: 1
+VERSION     PP100093.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="3"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100094                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 41, partial genome.
+ACCESSION   PP100094 REGION: 1
+VERSION     PP100094.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="41"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100095                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2, partial genome.
+ACCESSION   PP100095 REGION: 1
+VERSION     PP100095.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100096                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 16, partial genome.
+ACCESSION   PP100096 REGION: 1
+VERSION     PP100096.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="16"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100097                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 19, partial genome.
+ACCESSION   PP100097 REGION: 1
+VERSION     PP100097.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="19"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100098                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 28, partial genome.
+ACCESSION   PP100098 REGION: 1
+VERSION     PP100098.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="28"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100099                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 46, partial genome.
+ACCESSION   PP100099 REGION: 1
+VERSION     PP100099.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="46"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100100                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 31, partial genome.
+ACCESSION   PP100100 REGION: 1
+VERSION     PP100100.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="31"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100101                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 45, partial genome.
+ACCESSION   PP100101 REGION: 1
+VERSION     PP100101.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="45"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100102                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 40, partial genome.
+ACCESSION   PP100102 REGION: 1
+VERSION     PP100102.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="40"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100103                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 8, partial genome.
+ACCESSION   PP100103 REGION: 1
+VERSION     PP100103.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="8"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 a
+//
+
+LOCUS       PP100104                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 38, partial genome.
+ACCESSION   PP100104 REGION: 1
+VERSION     PP100104.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="38"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100105                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 39, partial genome.
+ACCESSION   PP100105 REGION: 1
+VERSION     PP100105.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="39"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100106                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 9, partial genome.
+ACCESSION   PP100106 REGION: 1
+VERSION     PP100106.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="9"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100107                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 24, partial genome.
+ACCESSION   PP100107 REGION: 1
+VERSION     PP100107.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="24"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 t
+//
+
+LOCUS       PP100108                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 34, partial genome.
+ACCESSION   PP100108 REGION: 1
+VERSION     PP100108.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="34"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 t
+//
+
+LOCUS       PP100109                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 43, partial genome.
+ACCESSION   PP100109 REGION: 1
+VERSION     PP100109.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="43"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100110                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 37, partial genome.
+ACCESSION   PP100110 REGION: 1
+VERSION     PP100110.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="37"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100111                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 13, partial genome.
+ACCESSION   PP100111 REGION: 1
+VERSION     PP100111.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="13"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100112                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 5, partial genome.
+ACCESSION   PP100112 REGION: 1
+VERSION     PP100112.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="5"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+
+LOCUS       PP100113                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 4, partial genome.
+ACCESSION   PP100113 REGION: 1
+VERSION     PP100113.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="4"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       PP100114                   1 bp    DNA     linear   VRL 10-JUN-2024
+DEFINITION  Human alphaherpesvirus 2 isolate 26, partial genome.
+ACCESSION   PP100114 REGION: 1
+VERSION     PP100114.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Viral genomic variation and the severity of genital HSV-2 infection
+            as quantified by shedding rate: a viral genome-wide association
+            study
+  JOURNAL   J Infect Dis (2024) In press
+   PUBMED   38805234
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Song,H., Xie,H., Selke,S., Roychoudhury,P., Wu,M.C.,
+            Wald,A., Greninger,A.L. and Johnston,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2024) Division of Allergy and Infectious
+            Diseases, University of Washington, 1959 NE Pacific Street,
+            Seattle, WA 98195, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: https://github.com/proychou/HSV/ v.
+                                     2022-09-01
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="26"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+ORIGIN      
+        1 g
+//
+

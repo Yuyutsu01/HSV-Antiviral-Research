@@ -1,0 +1,2195 @@
+LOCUS       MF510358                   1 bp    DNA     linear   VRL 22-NOV-2017
+DEFINITION  Human alphaherpesvirus 2 strain 2012_20191, partial genome.
+ACCESSION   MF510358 REGION: 1
+VERSION     MF510358.1
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C.L., Koelle,D.M. and Wald,A.
+  TITLE     Prevalence of and risk factors for multiple strain genital herpes
+            simplex virus type 2 infection: a cross-sectional study
+  JOURNAL   PLoS Med. (2018) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2012_20191"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MF510359                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 1996-45513, partial genome.
+ACCESSION   MF510359 REGION: 1
+VERSION     MF510359.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330539
+            Sequence Read Archive: SRR8114540
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C.L., Koelle,D.M. and Wald,A.
+  TITLE     Prevalence of and risk factors for multiple strain genital herpes
+            simplex virus type 2 infection: a cross-sectional study
+  JOURNAL   PLoS Med. (2018) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="1996-45513"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="1996"
+ORIGIN      
+        1 a
+//
+
+LOCUS       MF510360                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2013-20710, partial genome.
+ACCESSION   MF510360 REGION: 1
+VERSION     MF510360.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330540
+            Sequence Read Archive: SRR8114708
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C.L., Koelle,D.M. and Wald,A.
+  TITLE     Prevalence of and risk factors for multiple strain genital herpes
+            simplex virus type 2 infection: a cross-sectional study
+  JOURNAL   PLoS Med. (2018) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2013-20710"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2013"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MF510361                   1 bp    DNA     linear   VRL 22-NOV-2017
+DEFINITION  Human alphaherpesvirus 2 strain 2009_2265, partial genome.
+ACCESSION   MF510361 REGION: 1
+VERSION     MF510361.1
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C.L., Koelle,D.M. and Wald,A.
+  TITLE     Prevalence of and risk factors for multiple strain genital herpes
+            simplex virus type 2 infection: a cross-sectional study
+  JOURNAL   PLoS Med. (2018) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2009_2265"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+ORIGIN      
+        1 c
+//
+
+LOCUS       MF510362                   1 bp    DNA     linear   VRL 22-NOV-2017
+DEFINITION  Human alphaherpesvirus 2 strain 2005_10915, partial genome.
+ACCESSION   MF510362 REGION: 1
+VERSION     MF510362.1
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C.L., Koelle,D.M. and Wald,A.
+  TITLE     Prevalence of and risk factors for multiple strain genital herpes
+            simplex virus type 2 infection: a cross-sectional study
+  JOURNAL   PLoS Med. (2018) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2005_10915"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MF510363                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2015-14086, partial genome.
+ACCESSION   MF510363 REGION: 1
+VERSION     MF510363.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330541
+            Sequence Read Archive: SRR8114707
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C.L., Koelle,D.M. and Wald,A.
+  TITLE     Prevalence of and risk factors for multiple strain genital herpes
+            simplex virus type 2 infection: a cross-sectional study
+  JOURNAL   PLoS Med. (2018) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2015-14086"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2015"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MF510364                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 1995-74779, partial genome.
+ACCESSION   MF510364 REGION: 1
+VERSION     MF510364.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330542
+            Sequence Read Archive: SRR8114667
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C.L., Koelle,D.M. and Wald,A.
+  TITLE     Prevalence of and risk factors for multiple strain genital herpes
+            simplex virus type 2 infection: a cross-sectional study
+  JOURNAL   PLoS Med. (2018) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="1995-74779"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="1995"
+ORIGIN      
+        1 c
+//
+
+LOCUS       MF510365                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2010-49, partial genome.
+ACCESSION   MF510365 REGION: 1
+VERSION     MF510365.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330543
+            Sequence Read Archive: SRR8114668
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C.L., Koelle,D.M. and Wald,A.
+  TITLE     Prevalence of and risk factors for multiple strain genital herpes
+            simplex virus type 2 infection: a cross-sectional study
+  JOURNAL   PLoS Med. (2018) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2010-49"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2010"
+ORIGIN      
+        1 c
+//
+
+LOCUS       MF510366                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2012-18588, partial genome.
+ACCESSION   MF510366 REGION: 1
+VERSION     MF510366.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330544
+            Sequence Read Archive: SRR8114666
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C.L., Koelle,D.M. and Wald,A.
+  TITLE     Prevalence of and risk factors for multiple strain genital herpes
+            simplex virus type 2 infection: a cross-sectional study
+  JOURNAL   PLoS Med. (2018) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2012-18588"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda"
+                     /collection_date="2012"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MF510367                   1 bp    DNA     linear   VRL 22-NOV-2017
+DEFINITION  Human alphaherpesvirus 2 strain 2001_6349, partial genome.
+ACCESSION   MF510367 REGION: 1
+VERSION     MF510367.1
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C.L., Koelle,D.M. and Wald,A.
+  TITLE     Prevalence of and risk factors for multiple strain genital herpes
+            simplex virus type 2 infection: a cross-sectional study
+  JOURNAL   PLoS Med. (2018) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2001_6349"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+ORIGIN      
+        1 c
+//
+
+LOCUS       MF510368                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2012-3154, partial genome.
+ACCESSION   MF510368 REGION: 1
+VERSION     MF510368.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330546
+            Sequence Read Archive: SRR8114665
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C.L., Koelle,D.M. and Wald,A.
+  TITLE     Prevalence of and risk factors for multiple strain genital herpes
+            simplex virus type 2 infection: a cross-sectional study
+  JOURNAL   PLoS Med. (2018) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2012-3154"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2012"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MF510369                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2002-9529, partial genome.
+ACCESSION   MF510369 REGION: 1
+VERSION     MF510369.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330547
+            Sequence Read Archive: SRR8114664
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C.L., Koelle,D.M. and Wald,A.
+  TITLE     Prevalence of and risk factors for multiple strain genital herpes
+            simplex virus type 2 infection: a cross-sectional study
+  JOURNAL   PLoS Med. (2018) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2002-9529"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2002"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MF510370                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2009-143, partial genome.
+ACCESSION   MF510370 REGION: 1
+VERSION     MF510370.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330548
+            Sequence Read Archive: SRR8114663
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C.L., Koelle,D.M. and Wald,A.
+  TITLE     Prevalence of and risk factors for multiple strain genital herpes
+            simplex virus type 2 infection: a cross-sectional study
+  JOURNAL   PLoS Med. (2018) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2009-143"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2009"
+ORIGIN      
+        1 a
+//
+
+LOCUS       MF510371                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2008-83, partial genome.
+ACCESSION   MF510371 REGION: 1
+VERSION     MF510371.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330549
+            Sequence Read Archive: SRR8114662
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C.L., Koelle,D.M. and Wald,A.
+  TITLE     Prevalence of and risk factors for multiple strain genital herpes
+            simplex virus type 2 infection: a cross-sectional study
+  JOURNAL   PLoS Med. (2018) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2008-83"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2008"
+ORIGIN      
+        1 c
+//
+
+LOCUS       MF564034                   1 bp    DNA     linear   VRL 19-SEP-2017
+DEFINITION  Human alphaherpesvirus 2 sample 08, complete genome.
+ACCESSION   MF564034 REGION: 1
+VERSION     MF564034.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Minaya,M.A., Jensen,T., Goll,J., Korom,M., Datla,S.H., Belshe,R.B.
+            and Morrison,L.A.
+  TITLE     Molecular evolution of herpes simplex virus 2 complete genomes:
+            Comparison between primary and recurrent infections
+  JOURNAL   J. Virol. (2017) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Minaya,M.A., Goll,J., Jensen,T. and Morrison,L.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2017) Molecular Microbiology and Immunology,
+            Saint Louis University, 1100 S. Grand Blvd., Saint Louis, MO 63104,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: MEGA v. 7.0.14; Velvet software suite v.
+                                     1.2.08
+            Sequencing Technology :: Illumina; Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="sample 08"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2004"
+     gene            >1
+                     /gene="RL1"
+     CDS             >1
+                     /gene="RL1"
+                     /codon_start=1
+                     /product="ICP34.5 regulation protein"
+                     /protein_id="ATB17314.1"
+                     /translation="MSRRRPRRRGPRRRPRPGAPAVPRPGALPTADSQMVPAYDSGTA
+                     VESAPAASSLLRRWLLVPQADDSDDADYAGNDDAEWANSPPSEGGGKAPEAPHAAPAA
+                     ACPPPPPRKERGPQRPLPPHLALRLRTTTEYLARLSLRRRRPPASPPADAPRGKVQVR
+                     HLVAWETAARLARRGSWARERADRDRFRRRVAAAEAVIGPCLEPEARARARARARAHE
+                     DGGPAEEEAAAAAARGSSAAAGPGRRAV"
+ORIGIN      
+        1 a
+//
+
+LOCUS       MF564035                   1 bp    DNA     linear   VRL 19-SEP-2017
+DEFINITION  Human alphaherpesvirus 2 sample 14, complete genome.
+ACCESSION   MF564035 REGION: 1
+VERSION     MF564035.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Minaya,M.A., Jensen,T., Goll,J., Korom,M., Datla,S.H., Belshe,R.B.
+            and Morrison,L.A.
+  TITLE     Molecular evolution of herpes simplex virus 2 complete genomes:
+            Comparison between primary and recurrent infections
+  JOURNAL   J. Virol. (2017) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Minaya,M.A., Goll,J., Jensen,T. and Morrison,L.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2017) Molecular Microbiology and Immunology,
+            Saint Louis University, 1100 S. Grand Blvd., Saint Louis, MO 63104,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: MEGA v. 7.0.14; Velvet software suite v.
+                                     1.2.08
+            Sequencing Technology :: Illumina; Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="sample 14"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2004"
+     gene            >1
+                     /gene="RL1"
+     CDS             >1
+                     /gene="RL1"
+                     /codon_start=1
+                     /product="ICP34.5 regulation protein"
+                     /protein_id="ATB17390.1"
+                     /translation="MSRRRPRRRGPRRRPRPGAPAVPRPGALPTADSQMVPAYDSGTA
+                     VESAPAASSLLRRWLLVPQADDSDDADYAGNDDAEWANSPPSEGGGKAPEAPHAAPAA
+                     ACPPPPPRKERGPQRPLPPHLALRLRTTTEYLARLSLRRRRPPASPPADAPRGKVQVR
+                     HLVAWETAARLARRGSWARERADRDRFRRRVAAAEAVIGPCLEPEARARARARARAHE
+                     DGGPAEEEAAAAAARGSSAAAGPGRRAV"
+ORIGIN      
+        1 a
+//
+
+LOCUS       MF564036                   1 bp    DNA     linear   VRL 19-SEP-2017
+DEFINITION  Human alphaherpesvirus 2 sample 16, complete genome.
+ACCESSION   MF564036 REGION: 1
+VERSION     MF564036.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Minaya,M.A., Jensen,T., Goll,J., Korom,M., Datla,S.H., Belshe,R.B.
+            and Morrison,L.A.
+  TITLE     Molecular evolution of herpes simplex virus 2 complete genomes:
+            Comparison between primary and recurrent infections
+  JOURNAL   J. Virol. (2017) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Minaya,M.A., Goll,J., Jensen,T. and Morrison,L.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2017) Molecular Microbiology and Immunology,
+            Saint Louis University, 1100 S. Grand Blvd., Saint Louis, MO 63104,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: MEGA v. 7.0.14; Velvet software suite v.
+                                     1.2.08
+            Sequencing Technology :: Illumina; Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="sample 16"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2007"
+     gene            >1
+                     /gene="RL1"
+     CDS             >1
+                     /gene="RL1"
+                     /codon_start=1
+                     /product="ICP34.5 regulation protein"
+                     /protein_id="ATB17466.1"
+                     /translation="MSRRRPRRRGPRRRPRPGAPAVPRPGALPTADSQMVPAYDSGTA
+                     VESAPAASSLLRRWLLVPQADDSDDADYAGNDDAEWANSPPSEGGGKAPEAPHAAPAA
+                     ACPPPPPRKERGPQRPLPPHLALRLRTTTEYLARLSLRRRRPPASPPADAPRGKVQVR
+                     HLVAWETAARLARRGSWARERADRDRFRRRVAAAEAVIGPCLEPEARARARARARAHE
+                     DGGPAEEEEAAAAARGSSAAAGPGRRAV"
+ORIGIN      
+        1 a
+//
+
+LOCUS       MF564037                   1 bp    DNA     linear   VRL 19-SEP-2017
+DEFINITION  Human alphaherpesvirus 2 sample 19, complete genome.
+ACCESSION   MF564037 REGION: 1
+VERSION     MF564037.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Minaya,M.A., Jensen,T., Goll,J., Korom,M., Datla,S.H., Belshe,R.B.
+            and Morrison,L.A.
+  TITLE     Molecular evolution of herpes simplex virus 2 complete genomes:
+            Comparison between primary and recurrent infections
+  JOURNAL   J. Virol. (2017) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Minaya,M.A., Goll,J., Jensen,T. and Morrison,L.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2017) Molecular Microbiology and Immunology,
+            Saint Louis University, 1100 S. Grand Blvd., Saint Louis, MO 63104,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: MEGA v. 7.0.14; Velvet software suite v.
+                                     1.2.08
+            Sequencing Technology :: Illumina; Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="sample 19"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2008"
+     gene            >1
+                     /gene="RL1"
+     CDS             >1
+                     /gene="RL1"
+                     /codon_start=1
+                     /product="ICP34.5 regulation protein"
+                     /protein_id="ATB17542.1"
+                     /translation="MSRRRPRRRGPRRRPRPGAPAVPRPGALPTADSQMVPAYDSGTA
+                     VESAPAASSLLRRWLLVPQADDSDDADYAGNDDAEWANSPPSEGGGKAPEAPHAAPAA
+                     ACPPPPPRKERGPQRPLPPHLALRLRTTTEYLARLSLRRRRPPASPPADAPRGKVQVR
+                     HLVAWETAARLARRGSWARERADRDRFRRRVAAAEAVIGPCLEPEARARARARARAHE
+                     DGGPAEEEEAAAAARGSSAAAGPGRRAV"
+ORIGIN      
+        1 a
+//
+
+LOCUS       MF621254                   1 bp    DNA     linear   VRL 27-OCT-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2005-37403, partial genome.
+ACCESSION   MF621254 REGION: 1
+VERSION     MF621254.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN37999567
+            Sequence Read Archive: SRR26537740
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C., Koelle,D.M. and Wald,A.
+  TITLE     Dual-strain genital herpes simplex virus type 2 (HSV-2) infection
+            in the US, Peru, and 8 countries in sub-Saharan Africa: A nested
+            cross-sectional viral genotyping study
+  JOURNAL   PLoS Med. 14 (12), e1002475 (2017)
+   PUBMED   29281620
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2005-37403"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+ORIGIN      
+        1 a
+//
+
+LOCUS       MF621255                   1 bp    DNA     linear   VRL 27-OCT-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2006-46602, partial genome.
+ACCESSION   MF621255 REGION: 1
+VERSION     MF621255.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN37999566
+            Sequence Read Archive: SRR26537741
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C., Koelle,D.M. and Wald,A.
+  TITLE     Dual-strain genital herpes simplex virus type 2 (HSV-2) infection
+            in the US, Peru, and 8 countries in sub-Saharan Africa: A nested
+            cross-sectional viral genotyping study
+  JOURNAL   PLoS Med. 14 (12), e1002475 (2017)
+   PUBMED   29281620
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2006-46602"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+ORIGIN      
+        1 c
+//
+
+LOCUS       MF621256                   1 bp    DNA     linear   VRL 27-OCT-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2007-38113, partial genome.
+ACCESSION   MF621256 REGION: 1
+VERSION     MF621256.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN37999565
+            Sequence Read Archive: SRR26537742
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C., Koelle,D.M. and Wald,A.
+  TITLE     Dual-strain genital herpes simplex virus type 2 (HSV-2) infection
+            in the US, Peru, and 8 countries in sub-Saharan Africa: A nested
+            cross-sectional viral genotyping study
+  JOURNAL   PLoS Med. 14 (12), e1002475 (2017)
+   PUBMED   29281620
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2007-38113"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+ORIGIN      
+        1 c
+//
+
+LOCUS       MF621257                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2008-15116, partial genome.
+ACCESSION   MF621257 REGION: 1
+VERSION     MF621257.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330550
+            Sequence Read Archive: SRR8114661
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C., Koelle,D.M. and Wald,A.
+  TITLE     Dual-strain genital herpes simplex virus type 2 (HSV-2) infection
+            in the US, Peru, and 8 countries in sub-Saharan Africa: A nested
+            cross-sectional viral genotyping study
+  JOURNAL   PLoS Med. 14 (12), e1002475 (2017)
+   PUBMED   29281620
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2008-15116"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2008"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MF621258                   1 bp    DNA     linear   VRL 27-OCT-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2009-4463, partial genome.
+ACCESSION   MF621258 REGION: 1
+VERSION     MF621258.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN37999564
+            Sequence Read Archive: SRR26537743
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Roychoudhury,P., Greninger,A.L.,
+            Reeves,D., Schiffer,J., Jerome,K.R., Sather,C., Diem,K.,
+            Lingappa,J.R., Celum,C., Koelle,D.M. and Wald,A.
+  TITLE     Dual-strain genital herpes simplex virus type 2 (HSV-2) infection
+            in the US, Peru, and 8 countries in sub-Saharan Africa: A nested
+            cross-sectional viral genotyping study
+  JOURNAL   PLoS Med. 14 (12), e1002475 (2017)
+   PUBMED   29281620
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2017) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2009-4463"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MF783884                   1 bp    DNA     linear   VRL 19-SEP-2017
+DEFINITION  UNVERIFIED: Human alphaherpesvirus 2 isolate 08, partial genome.
+ACCESSION   MF783884 REGION: 1
+VERSION     MF783884.1
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Minaya,M.A., Jensen,T.L., Goll,J.B., Korom,M., Datla,S.H.,
+            Belshe,R.B. and Morrison,L.A.
+  TITLE     Molecular evolution of herpes simplex virus 2 complete genomes:
+            Comparison between primary and recurrent infections
+  JOURNAL   J. Virol. (2017) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Minaya,M.A., Jensen,T.L., Goll,J.B., Korom,M., Datla,S.H.,
+            Belshe,R.B. and Morrison,L.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-AUG-2017) Bioinformatics, The Emmes Corporation, 401
+            N Washington St, Rockville, MD 20850, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Velvet v. 1.2.08; Nucmer v. 1.3
+            Assembly Name         :: SAM01064308
+            Coverage              :: 858x
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="08"
+                     /isolation_source="genital"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /lab_host="African green monkey kidney epithelium Vero
+                     cells"
+                     /geo_loc_name="USA"
+                     /lat_lon="34.0689 N 118.445 W"
+                     /collection_date="2004"
+                     /note="initial infection HSV-2 subject A"
+ORIGIN      
+        1 c
+//
+
+LOCUS       MF783885                   1 bp    DNA     linear   VRL 19-SEP-2017
+DEFINITION  UNVERIFIED: Human alphaherpesvirus 2 isolate 14, partial genome.
+ACCESSION   MF783885 REGION: 1
+VERSION     MF783885.1
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Minaya,M.A., Jensen,T.L., Goll,J.B., Korom,M., Datla,S.H.,
+            Belshe,R.B. and Morrison,L.A.
+  TITLE     Molecular evolution of herpes simplex virus 2 complete genomes:
+            Comparison between primary and recurrent infections
+  JOURNAL   J. Virol. (2017) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Minaya,M.A., Jensen,T.L., Goll,J.B., Korom,M., Datla,S.H.,
+            Belshe,R.B. and Morrison,L.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-AUG-2017) Bioinformatics, The Emmes Corporation, 401
+            N Washington St, Rockville, MD 20850, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Velvet v. 1.2.08; Nucmer v. 1.3
+            Assembly Name         :: SAM01064314
+            Coverage              :: 2127x
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="14"
+                     /isolation_source="genital"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /lab_host="African green monkey kidney epithelium cells"
+                     /geo_loc_name="USA"
+                     /lat_lon="34.0689 N 118.4452 W"
+                     /collection_date="2004"
+                     /note="recurrent infection HSV-2 subject A"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MF783886                   1 bp    DNA     linear   VRL 19-SEP-2017
+DEFINITION  UNVERIFIED: Human alphaherpesvirus 2 isolate 16, partial genome.
+ACCESSION   MF783886 REGION: 1
+VERSION     MF783886.1
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Minaya,M.A., Jensen,T.L., Goll,J.B., Korom,M., Datla,S.H.,
+            Belshe,R.B. and Morrison,L.A.
+  TITLE     Molecular evolution of herpes simplex virus 2 complete genomes:
+            Comparison between primary and recurrent infections
+  JOURNAL   J. Virol. (2017) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Minaya,M.A., Jensen,T.L., Goll,J.B., Korom,M., Datla,S.H.,
+            Belshe,R.B. and Morrison,L.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-AUG-2017) Bioinformatics, The Emmes Corporation, 401
+            N Washington St, Rockville, MD 20850, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Velvet v. 1.2.08; Nucmer v. 1.3
+            Assembly Name         :: SAM01064316
+            Coverage              :: 9502x
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="16"
+                     /isolation_source="genital"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /lab_host="African green monkey kidney epithelium cells"
+                     /geo_loc_name="USA"
+                     /lat_lon="47.6553 N 122.3035 W"
+                     /collection_date="2007"
+                     /note="initial infection HSV-2 subject B"
+ORIGIN      
+        1 a
+//
+
+LOCUS       MF783887                   1 bp    DNA     linear   VRL 19-SEP-2017
+DEFINITION  UNVERIFIED: Human alphaherpesvirus 2 isolate 19, partial genome.
+ACCESSION   MF783887 REGION: 1
+VERSION     MF783887.1
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Minaya,M.A., Jensen,T.L., Goll,J.B., Korom,M., Datla,S.H.,
+            Belshe,R.B. and Morrison,L.A.
+  TITLE     Molecular evolution of herpes simplex virus 2 complete genomes:
+            Comparison between primary and recurrent infections
+  JOURNAL   J. Virol. (2017) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Minaya,M.A., Jensen,T.L., Goll,J.B., Korom,M., Datla,S.H.,
+            Belshe,R.B. and Morrison,L.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-AUG-2017) Bioinformatics, The Emmes Corporation, 401
+            N Washington St, Rockville, MD 20850, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Velvet v. 1.2.08; Nucmer v. 1.3
+            Assembly Name         :: SAM01064319
+            Coverage              :: 816x
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="19"
+                     /isolation_source="genital"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /lab_host="African green monkey kidney epithelium cells"
+                     /geo_loc_name="USA"
+                     /lat_lon="47.6553 N 122.3035 W"
+                     /collection_date="2008"
+                     /note="recurrent infection HSV-2 subject B"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MH790550                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2011-31810, partial genome.
+ACCESSION   MH790550 REGION: 1
+VERSION     MH790550.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330610
+            Sequence Read Archive: SRR8114561
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2011-31810"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2011"
+ORIGIN      
+        1 a
+//
+
+LOCUS       MH790551                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2018-3119, partial genome.
+ACCESSION   MH790551 REGION: 1
+VERSION     MH790551.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330611
+            Sequence Read Archive: SRR8114564
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2018-3119"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Senegal"
+                     /collection_date="2006"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MH790552                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2013-35042, partial genome.
+ACCESSION   MH790552 REGION: 1
+VERSION     MH790552.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330612
+            Sequence Read Archive: SRR8114563
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2013-35042"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2013"
+ORIGIN      
+        1 a
+//
+
+LOCUS       MH790553                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2005-14172, partial genome.
+ACCESSION   MH790553 REGION: 1
+VERSION     MH790553.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330613
+            Sequence Read Archive: SRR8114553
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2005-14172"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2005"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MH790554                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2001-6723, partial genome.
+ACCESSION   MH790554 REGION: 1
+VERSION     MH790554.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330614
+            Sequence Read Archive: SRR8114552
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2001-6723"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2001"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MH790555                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2004-41447, partial genome.
+ACCESSION   MH790555 REGION: 1
+VERSION     MH790555.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330615
+            Sequence Read Archive: SRR8114602
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2004-41447"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2004"
+ORIGIN      
+        1 c
+//
+
+LOCUS       MH790556                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2012-15948, partial genome.
+ACCESSION   MH790556 REGION: 1
+VERSION     MH790556.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330616
+            Sequence Read Archive: SRR8114603
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2012-15948"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2012"
+ORIGIN      
+        1 a
+//
+
+LOCUS       MH790557                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2011-28591, partial genome.
+ACCESSION   MH790557 REGION: 1
+VERSION     MH790557.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330617
+            Sequence Read Archive: SRR8114604
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2011-28591"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2011"
+ORIGIN      
+        1 a
+//
+
+LOCUS       MH790558                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2005-48390, partial genome.
+ACCESSION   MH790558 REGION: 1
+VERSION     MH790558.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330618
+            Sequence Read Archive: SRR8114605
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2005-48390"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2005"
+ORIGIN      
+        1 a
+//
+
+LOCUS       MH790559                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2012-5456, partial genome.
+ACCESSION   MH790559 REGION: 1
+VERSION     MH790559.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330619
+            Sequence Read Archive: SRR8114598
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2012-5456"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2012"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MH790560                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2008-7628, partial genome.
+ACCESSION   MH790560 REGION: 1
+VERSION     MH790560.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330620
+            Sequence Read Archive: SRR8114599
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2008-7628"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2008"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MH790561                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2003-27026, partial genome.
+ACCESSION   MH790561 REGION: 1
+VERSION     MH790561.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330621
+            Sequence Read Archive: SRR8114600
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2003-27026"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2003"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MH790562                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 1996-38251, partial genome.
+ACCESSION   MH790562 REGION: 1
+VERSION     MH790562.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330622
+            Sequence Read Archive: SRR8114601
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="1996-38251"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="1996"
+ORIGIN      
+        1 t
+//
+
+LOCUS       MH790563                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2007-32812, partial genome.
+ACCESSION   MH790563 REGION: 1
+VERSION     MH790563.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330623
+            Sequence Read Archive: SRR8114594
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2007-32812"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2007"
+ORIGIN      
+        1 c
+//
+
+LOCUS       MH790564                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2008-29150, partial genome.
+ACCESSION   MH790564 REGION: 1
+VERSION     MH790564.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330624
+            Sequence Read Archive: SRR8114595
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2008-29150"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2008"
+ORIGIN      
+        1 t
+//
+
+LOCUS       MH790565                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2009-25036, partial genome.
+ACCESSION   MH790565 REGION: 1
+VERSION     MH790565.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330625
+            Sequence Read Archive: SRR8114628
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2009-25036"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2009"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MH790566                   1 bp    DNA     linear   VRL 06-MAR-2019
+DEFINITION  Human alphaherpesvirus 2 strain 2013-34209, partial genome.
+ACCESSION   MH790566 REGION: 1
+VERSION     MH790566.1
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2013-34209"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MH790567                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2006-38237, partial genome.
+ACCESSION   MH790567 REGION: 1
+VERSION     MH790567.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330626
+            Sequence Read Archive: SRR8114627
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2006-38237"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2006"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MH790568                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2012-4759, partial genome.
+ACCESSION   MH790568 REGION: 1
+VERSION     MH790568.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330627
+            Sequence Read Archive: SRR8114626
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2012-4759"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2012"
+ORIGIN      
+        1 c
+//
+
+LOCUS       MH790569                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2010-1114, partial genome.
+ACCESSION   MH790569 REGION: 1
+VERSION     MH790569.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330628
+            Sequence Read Archive: SRR8114625
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2010-1114"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2010"
+ORIGIN      
+        1 c
+//
+
+LOCUS       MH790570                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2004-56880, partial genome.
+ACCESSION   MH790570 REGION: 1
+VERSION     MH790570.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330629
+            Sequence Read Archive: SRR8114632
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2004-56880"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2004"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MH790571                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 2004-46095, partial genome.
+ACCESSION   MH790571 REGION: 1
+VERSION     MH790571.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330630
+            Sequence Read Archive: SRR8114631
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="2004-46095"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2004"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MH790572                   1 bp    DNA     linear   VRL 07-SEP-2023
+DEFINITION  Human alphaherpesvirus 2 strain 1998-7832, partial genome.
+ACCESSION   MH790572 REGION: 1
+VERSION     MH790572.1
+DBLINK      BioProject: PRJNA338014
+            BioSample: SAMN10330631
+            Sequence Read Archive: SRR8114630
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     HSV2 whole genome sequences from clinical isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Roychoudhury,P., Greninger,A.L., Jerome,K.R., Johnston,C., Wald,A.
+            and Xie,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2018) Laboratory Medicine, University of
+            Washington, 1100 Fairview Ave N, E5-110, PO Box 19024, Seattle, WA
+            98109-1024, USA
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            
+            StructuredCommentPrefix###Assembly-Data-START## Assembly
+            Method#SPAdes 3.9 Sequencing Technology#Illumina.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="1998-7832"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="1998"
+ORIGIN      
+        1 t
+//
+

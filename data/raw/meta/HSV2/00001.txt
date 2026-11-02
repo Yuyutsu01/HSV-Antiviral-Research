@@ -1,0 +1,2617 @@
+LOCUS       KU310665                   1 bp    DNA     linear   VRL 26-AUG-2016
+DEFINITION  Human alphaherpesvirus 2 isolate B^3x2.4, partial genome.
+ACCESSION   KU310665 REGION: 1
+VERSION     KU310665.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Weinrick,B., Khajoueinejad,N., Burn,C., Sellers,R.,
+            Jacobs,W.R. Jr. and Herold,B.C.
+  TITLE     HSV-2 DeltagD elicits FcgammaR-effector antibodies that protect
+            against clinical isolates
+  JOURNAL   JCI Insight 1 (12) (2016) In press
+   PUBMED   27536733
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Gonzalez,P.A., Weiss,K., Khajoueinejad,N.,
+            Cheshenko,N., Weinrick,B.C., Sengupta,M., Jacobs,W.R. Jr. and
+            Herold,B.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-DEC-2015) Microbiology and Immunology, Albert
+            Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY
+            10461, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: VirAmp pipeline v. accessed 6/4-11/19/2015
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="B^3x2.4"
+                     /host="Chlorocebus sabaeus"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Jan-2015"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KU310666                   1 bp    DNA     linear   VRL 26-AUG-2016
+DEFINITION  Human alphaherpesvirus 2 isolate B^3x2.5, partial genome.
+ACCESSION   KU310666 REGION: 1
+VERSION     KU310666.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Weinrick,B., Khajoueinejad,N., Burn,C., Sellers,R.,
+            Jacobs,W.R. Jr. and Herold,B.C.
+  TITLE     HSV-2 DeltagD elicits FcgammaR-effector antibodies that protect
+            against clinical isolates
+  JOURNAL   JCI Insight 1 (12) (2016) In press
+   PUBMED   27536733
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Gonzalez,P.A., Weiss,K., Khajoueinejad,N.,
+            Cheshenko,N., Weinrick,B.C., Sengupta,M., Jacobs,W.R. Jr. and
+            Herold,B.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-DEC-2015) Microbiology and Immunology, Albert
+            Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY
+            10461, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: VirAmp pipeline v. accessed 6/4-11/19/2015
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="B^3x2.5"
+                     /host="Chlorocebus sabaeus"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Jan-2015"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KU310667                   1 bp    DNA     linear   VRL 26-AUG-2016
+DEFINITION  Human alphaherpesvirus 2 isolate 4674, partial genome.
+ACCESSION   KU310667 REGION: 1
+VERSION     KU310667.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Weinrick,B., Khajoueinejad,N., Burn,C., Sellers,R.,
+            Jacobs,W.R. Jr. and Herold,B.C.
+  TITLE     HSV-2 DeltagD elicits FcgammaR-effector antibodies that protect
+            against clinical isolates
+  JOURNAL   JCI Insight 1 (12) (2016) In press
+   PUBMED   27536733
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Gonzalez,P.A., Weiss,K., Khajoueinejad,N.,
+            Cheshenko,N., Weinrick,B.C., Sengupta,M., Jacobs,W.R. Jr. and
+            Herold,B.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-DEC-2015) Microbiology and Immunology, Albert
+            Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY
+            10461, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: VirAmp pipeline v. accessed 6/4-11/19/2015
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="4674"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Jan-2013"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KU310668                   1 bp    DNA     linear   VRL 26-AUG-2016
+DEFINITION  Human alphaherpesvirus 2 isolate G, partial genome.
+ACCESSION   KU310668 REGION: 1
+VERSION     KU310668.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Weinrick,B., Khajoueinejad,N., Burn,C., Sellers,R.,
+            Jacobs,W.R. Jr. and Herold,B.C.
+  TITLE     HSV-2 DeltagD elicits FcgammaR-effector antibodies that protect
+            against clinical isolates
+  JOURNAL   JCI Insight 1 (12) (2016) In press
+   PUBMED   27536733
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Gonzalez,P.A., Weiss,K., Khajoueinejad,N.,
+            Cheshenko,N., Weinrick,B.C., Sengupta,M., Jacobs,W.R. Jr. and
+            Herold,B.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-DEC-2015) Microbiology and Immunology, Albert
+            Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY
+            10461, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: VirAmp pipeline v. accessed 6/4-11/19/2015
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="G"
+                     /host="Chlorocebus sabaeus"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Jan-1967"
+     gene            <1..>1
+                     /gene="RL1"
+     CDS             <1..>1
+                     /gene="RL1"
+                     /note="similar to Human herpesvirus 2 strain HG52(NC_00179
+                     8)"
+                     /codon_start=2
+                     /product="neurovirulence protein ICP34.5"
+                     /protein_id="AMB66396.1"
+                     /translation="SVVVRSRRARWGGRGRCGPRSLRGGGGGQAAAGAACGASGAFPP
+                     PSLGGLFAHSASSLPA"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574860                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2007-38205, partial genome.
+ACCESSION   KX574860 REGION: 1
+VERSION     KX574860.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574860.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2007-38205"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Peru"
+                     /collection_date="2004"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574861                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2004-4373, partial genome.
+ACCESSION   KX574861 REGION: 1
+VERSION     KX574861.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574861.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2004-4373"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Peru"
+                     /collection_date="2003"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574862                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2006-19390, partial genome.
+ACCESSION   KX574862 REGION: 1
+VERSION     KX574862.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574862.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2006-19390"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Zambia"
+                     /collection_date="2005"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KX574863                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2006-21832, partial genome.
+ACCESSION   KX574863 REGION: 1
+VERSION     KX574863.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574863.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2006-21832"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Zimbabwe"
+                     /collection_date="2005"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574864                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2006-29060, partial genome.
+ACCESSION   KX574864 REGION: 1
+VERSION     KX574864.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574864.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2006-29060"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Zambia"
+                     /collection_date="2005"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574865                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2006-30839, partial genome.
+ACCESSION   KX574865 REGION: 1
+VERSION     KX574865.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574865.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2006-30839"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Peru"
+                     /collection_date="2005"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574866                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2006-30937, partial genome.
+ACCESSION   KX574866 REGION: 1
+VERSION     KX574866.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574866.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2006-30937"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Peru"
+                     /collection_date="2005"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574867                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2006-45028, partial genome.
+ACCESSION   KX574867 REGION: 1
+VERSION     KX574867.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574867.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2006-45028"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Peru"
+                     /collection_date="2005"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574868                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2006-49895, partial genome.
+ACCESSION   KX574868 REGION: 1
+VERSION     KX574868.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574868.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2006-49895"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="1994"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574869                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2006-50074, partial genome.
+ACCESSION   KX574869 REGION: 1
+VERSION     KX574869.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574869.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2006-50074"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="1995"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574870                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2007-22031, partial genome.
+ACCESSION   KX574870 REGION: 1
+VERSION     KX574870.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574870.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2007-22031"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2007"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574871                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2007-38120, partial genome.
+ACCESSION   KX574871 REGION: 1
+VERSION     KX574871.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574871.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2007-38120"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Zimbabwe"
+                     /collection_date="2004"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KX574872                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2007-38249, partial genome.
+ACCESSION   KX574872 REGION: 1
+VERSION     KX574872.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574872.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2007-38249"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Peru"
+                     /collection_date="2004"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574873                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2007-38606, partial genome.
+ACCESSION   KX574873 REGION: 1
+VERSION     KX574873.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574873.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2007-38606"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Peru"
+                     /collection_date="2004"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574874                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2007-38627, partial genome.
+ACCESSION   KX574874 REGION: 1
+VERSION     KX574874.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574874.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2007-38627"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Peru"
+                     /collection_date="2004"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574875                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2007-38807, partial genome.
+ACCESSION   KX574875 REGION: 1
+VERSION     KX574875.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574875.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2007-38807"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Peru"
+                     /collection_date="2005"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574876                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2007-38901, partial genome.
+ACCESSION   KX574876 REGION: 1
+VERSION     KX574876.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574876.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2007-38901"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Peru"
+                     /collection_date="2006"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574877                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2007-38910, partial genome.
+ACCESSION   KX574877 REGION: 1
+VERSION     KX574877.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574877.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2007-38910"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Peru"
+                     /collection_date="2006"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574878                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2007-39303, partial genome.
+ACCESSION   KX574878 REGION: 1
+VERSION     KX574878.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574878.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2007-39303"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Peru"
+                     /collection_date="2007"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574879                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2007-39521, partial genome.
+ACCESSION   KX574879 REGION: 1
+VERSION     KX574879.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574879.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2007-39521"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="South Africa"
+                     /collection_date="2005"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574880                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2007-39712, partial genome.
+ACCESSION   KX574880 REGION: 1
+VERSION     KX574880.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574880.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2007-39712"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="South Africa"
+                     /collection_date="2006"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574881                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2007-39729, partial genome.
+ACCESSION   KX574881 REGION: 1
+VERSION     KX574881.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574881.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2007-39729"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="South Africa"
+                     /collection_date="2007"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574882                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2007-40807, partial genome.
+ACCESSION   KX574882 REGION: 1
+VERSION     KX574882.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574882.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2007-40807"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2007"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574883                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2007-8222, partial genome.
+ACCESSION   KX574883 REGION: 1
+VERSION     KX574883.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574883.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2007-8222"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Zambia"
+                     /collection_date="2006"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574884                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2008-16404, partial genome.
+ACCESSION   KX574884 REGION: 1
+VERSION     KX574884.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574884.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2008-16404"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2008"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574885                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2008-37496, partial genome.
+ACCESSION   KX574885 REGION: 1
+VERSION     KX574885.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574885.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2008-37496"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2008"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574886                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2008-37744, partial genome.
+ACCESSION   KX574886 REGION: 1
+VERSION     KX574886.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574886.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2008-37744"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2008"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574887                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2008-7539, partial genome.
+ACCESSION   KX574887 REGION: 1
+VERSION     KX574887.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574887.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2008-7539"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2008"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574888                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2009-1245, partial genome.
+ACCESSION   KX574888 REGION: 1
+VERSION     KX574888.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574888.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2009-1245"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="1994"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574889                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2009-13458, partial genome.
+ACCESSION   KX574889 REGION: 1
+VERSION     KX574889.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574889.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2009-13458"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="1994"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574890                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2009-31735, partial genome.
+ACCESSION   KX574890 REGION: 1
+VERSION     KX574890.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574890.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2009-31735"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="1993"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574891                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2009-33778, partial genome.
+ACCESSION   KX574891 REGION: 1
+VERSION     KX574891.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574891.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2009-33778"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2009"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574892                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2009-3532, partial genome.
+ACCESSION   KX574892 REGION: 1
+VERSION     KX574892.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574892.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2009-3532"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="South Africa"
+                     /collection_date="2007"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574893                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2009-4550, partial genome.
+ACCESSION   KX574893 REGION: 1
+VERSION     KX574893.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574893.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2009-4550"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Kenya"
+                     /collection_date="2008"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574894                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2009-4556, partial genome.
+ACCESSION   KX574894 REGION: 1
+VERSION     KX574894.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574894.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2009-4556"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Kenya"
+                     /collection_date="2008"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574895                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2010-21, partial genome.
+ACCESSION   KX574895 REGION: 1
+VERSION     KX574895.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574895.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2010-21"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2009"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574896                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2010-6416, partial genome.
+ACCESSION   KX574896 REGION: 1
+VERSION     KX574896.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574896.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2010-6416"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2010"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574897                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2011-21761, partial genome.
+ACCESSION   KX574897 REGION: 1
+VERSION     KX574897.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574897.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2011-21761"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="1998"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574898                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2011-33490, partial genome.
+ACCESSION   KX574898 REGION: 1
+VERSION     KX574898.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574898.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2011-33490"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2011"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574899                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2011-34727, partial genome.
+ACCESSION   KX574899 REGION: 1
+VERSION     KX574899.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574899.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2011-34727"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda"
+                     /collection_date="2011"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574901                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2012-32825, partial genome.
+ACCESSION   KX574901 REGION: 1
+VERSION     KX574901.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574901.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2012-32825"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2012"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574902                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2009-409, partial genome.
+ACCESSION   KX574902 REGION: 1
+VERSION     KX574902.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574902.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2009-409"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Tanzania"
+                     /collection_date="2006"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574903                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2003-16029, partial genome.
+ACCESSION   KX574903 REGION: 1
+VERSION     KX574903.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574903.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2003-16029"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2003"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX574904                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2004-20601, partial genome.
+ACCESSION   KX574904 REGION: 1
+VERSION     KX574904.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574904.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2004-20601"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="2004"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574905                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2009-2198, partial genome.
+ACCESSION   KX574905 REGION: 1
+VERSION     KX574905.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574905.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2009-2198"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Zambia"
+                     /collection_date="2006"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX574906                   1 bp    DNA     linear   VRL 14-AUG-2017
+DEFINITION  Human alphaherpesvirus 2 isolate 2012-9333, partial genome.
+ACCESSION   KX574906 REGION: 1
+VERSION     KX574906.2
+DBLINK      BioProject: PRJNA338014
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Koelle,D.M., Norberg,P., Fitzgibbon,M.P., Russell,R.M.,
+            Greninger,A.L., Huang,M.L., Stensland,L., Jing,L., Magaret,A.S.,
+            Diem,K., Selke,S., Xie,H., Celum,C., Lingappa,J.R., Jerome,K.R.,
+            Wald,A. and Johnston,C.
+  TITLE     Worldwide circulation of HSV-2 x HSV-1 recombinant strains
+  JOURNAL   Sci Rep 7, 44084 (2017)
+   PUBMED   28287142
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2016) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Johnston,C., Magaret,A., Cheng,A., Diem,K., Fitzgibbon,M.,
+            Huang,M.-L., Selke,S., Lingappa,J.R., Celum,C., Jerome,K.,
+            Koelle,D.M. and Wald,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2017) Department of Washington, University of
+            Washington, 1959 NE Pacific St, Seattle, WA 98195, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 7, 2017 this sequence version replaced KX574906.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.5a-r405
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="2012-9333"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda"
+                     /collection_date="2011"
+ORIGIN      
+        1 c
+//
+

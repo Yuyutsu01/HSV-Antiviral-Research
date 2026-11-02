@@ -1,0 +1,2023 @@
+LOCUS       OQ724863                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-C9, complete genome.
+ACCESSION   OQ724863 REGION: 1
+VERSION     OQ724863.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-C9"
+                     /isolation_source="OD conjunctiva"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2005"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724864                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-C11, complete genome.
+ACCESSION   OQ724864 REGION: 1
+VERSION     OQ724864.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-C11"
+                     /isolation_source="OS conjunctiva"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2008"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724865                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-C12, complete genome.
+ACCESSION   OQ724865 REGION: 1
+VERSION     OQ724865.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-C12"
+                     /isolation_source="OD conjunctiva"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2010"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724866                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-C14, complete genome.
+ACCESSION   OQ724866 REGION: 1
+VERSION     OQ724866.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-C14"
+                     /isolation_source="OD conjunctiva"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2015"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724867                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-C15, complete genome.
+ACCESSION   OQ724867 REGION: 1
+VERSION     OQ724867.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-C15"
+                     /isolation_source="OD conjunctiva"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2015"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724868                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 isolate BP-K1, complete genome.
+ACCESSION   OQ724868 REGION: 1
+VERSION     OQ724868.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="BP-K1"
+                     /isolation_source="OS cornea"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2002"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724888                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 isolate BP-K2, complete genome.
+ACCESSION   OQ724888 REGION: 1
+VERSION     OQ724888.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="BP-K2"
+                     /isolation_source="OS cornea"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2009"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724889                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-K3, complete genome.
+ACCESSION   OQ724889 REGION: 1
+VERSION     OQ724889.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-K3"
+                     /isolation_source="OS cornea"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2009"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724890                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-K4, complete genome.
+ACCESSION   OQ724890 REGION: 1
+VERSION     OQ724890.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-K4"
+                     /isolation_source="OD cornea"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2009"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724891                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-K5, complete genome.
+ACCESSION   OQ724891 REGION: 1
+VERSION     OQ724891.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-K5"
+                     /isolation_source="cornea"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2010"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724892                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-K6, complete genome.
+ACCESSION   OQ724892 REGION: 1
+VERSION     OQ724892.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-K6"
+                     /isolation_source="OD cornea"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2010"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724893                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-K8, complete genome.
+ACCESSION   OQ724893 REGION: 1
+VERSION     OQ724893.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-K8"
+                     /isolation_source="OS cornea"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2011"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724894                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-K9, complete genome.
+ACCESSION   OQ724894 REGION: 1
+VERSION     OQ724894.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-K9"
+                     /isolation_source="OD cornea"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2011"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724895                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-K10, complete genome.
+ACCESSION   OQ724895 REGION: 1
+VERSION     OQ724895.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-K10"
+                     /isolation_source="OD cornea"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2011"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724910                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-K11, complete genome.
+ACCESSION   OQ724910 REGION: 1
+VERSION     OQ724910.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-K11"
+                     /isolation_source="OD cornea"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2011"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724911                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-K12, complete genome.
+ACCESSION   OQ724911 REGION: 1
+VERSION     OQ724911.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-K12"
+                     /isolation_source="OD cornea"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2012"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724912                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-K13, complete genome.
+ACCESSION   OQ724912 REGION: 1
+VERSION     OQ724912.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-K13"
+                     /isolation_source="OD cornea"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2014"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724913                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-K15, complete genome.
+ACCESSION   OQ724913 REGION: 1
+VERSION     OQ724913.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-K15"
+                     /isolation_source="OS cornea"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2015"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724914                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-K16, complete genome.
+ACCESSION   OQ724914 REGION: 1
+VERSION     OQ724914.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-K16"
+                     /isolation_source="OD cornea"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2015"
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724915                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 isolate BP-K14, complete genome.
+ACCESSION   OQ724915 REGION: 1
+VERSION     OQ724915.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="BP-K14"
+                     /isolation_source="OD cornea"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami, FL"
+                     /collection_date="2015"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724932                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-L1, complete genome.
+ACCESSION   OQ724932 REGION: 1
+VERSION     OQ724932.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular HSV-1 Isolates Identifies Possible Virulence Determinants
+            in Humans
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-L1"
+                     /isolation_source="OD Eyelid"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami FL"
+                     /collection_date="2002"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724933                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-L2, complete genome.
+ACCESSION   OQ724933 REGION: 1
+VERSION     OQ724933.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular HSV-1 Isolates Identifies Possible Virulence Determinants
+            in Humans
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-L2"
+                     /isolation_source="OS Eyelid"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami FL"
+                     /collection_date="2003"
+     repeat_region   >1
+                     /rpt_type=flanking
+     repeat_region   >1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724934                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-L4, complete genome.
+ACCESSION   OQ724934 REGION: 1
+VERSION     OQ724934.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular HSV-1 Isolates Identifies Possible Virulence Determinants
+            in Humans
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-L4"
+                     /isolation_source="OS Eyelid"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami FL"
+                     /collection_date="2003"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724935                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-L5, complete genome.
+ACCESSION   OQ724935 REGION: 1
+VERSION     OQ724935.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular HSV-1 Isolates Identifies Possible Virulence Determinants
+            in Humans
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-L5"
+                     /isolation_source="OD Eyelid"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami FL"
+                     /collection_date="2003"
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724936                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-L9, complete genome.
+ACCESSION   OQ724936 REGION: 1
+VERSION     OQ724936.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular HSV-1 Isolates Identifies Possible Virulence Determinants
+            in Humans
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-L9"
+                     /isolation_source="OS Eyelid"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami FL"
+                     /collection_date="2009"
+     repeat_region   >1
+                     /rpt_type=flanking
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724937                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-L10, partial genome.
+ACCESSION   OQ724937 REGION: 1
+VERSION     OQ724937.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular HSV-1 Isolates Identifies Possible Virulence Determinants
+            in Humans
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-L10"
+                     /isolation_source="OS Eyelid"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami FL"
+                     /collection_date="2009"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724938                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-L11, complete genome.
+ACCESSION   OQ724938 REGION: 1
+VERSION     OQ724938.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular HSV-1 Isolates Identifies Possible Virulence Determinants
+            in Humans
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-L11"
+                     /isolation_source="OS Eyelid"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami FL"
+                     /collection_date="2010"
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724939                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-L12, complete genome.
+ACCESSION   OQ724939 REGION: 1
+VERSION     OQ724939.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular HSV-1 Isolates Identifies Possible Virulence Determinants
+            in Humans
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-L12"
+                     /isolation_source="OD Eyelid"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami FL"
+                     /collection_date="2010"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724940                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-L13, complete genome.
+ACCESSION   OQ724940 REGION: 1
+VERSION     OQ724940.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular HSV-1 Isolates Identifies Possible Virulence Determinants
+            in Humans
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-L13"
+                     /isolation_source="OD Eyelid"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami FL"
+                     /collection_date="2011"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724941                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain BP-L14, complete genome.
+ACCESSION   OQ724941 REGION: 1
+VERSION     OQ724941.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular HSV-1 Isolates Identifies Possible Virulence Determinants
+            in Humans
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="BP-L14"
+                     /isolation_source="OD Eyelid"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Miami FL"
+                     /collection_date="2012"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 a
+//
+
+LOCUS       OQ724954                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain CJ455, partial genome.
+ACCESSION   OQ724954 REGION: 1
+VERSION     OQ724954.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular HSV-1 Isolates Identifies Possible Virulence Determinants
+            in Humans
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+COMMENT     ##Annotation created with VAPiDv1.6.7 and reference annotations
+            were pulled from KJ847330.1 ##.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Genome Coverage       :: 326x
+            Sequencing Technology :: Illumina MiSeq
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="CJ455"
+                     /isolation_source="ocular"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Seattle, Washington"
+                     /collection_date="1975/1985"
+     repeat_region   >1
+                     /rpt_type=flanking
+     repeat_region   >1
+                     /rpt_type=direct
+ORIGIN      
+        1 g
+//
+
+LOCUS       OQ724955                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain CJ462, partial genome.
+ACCESSION   OQ724955 REGION: 1
+VERSION     OQ724955.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular HSV-1 Isolates Identifies Possible Virulence Determinants
+            in Humans
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+COMMENT     ##Annotation created with VAPiDv1.6.7 and reference annotations
+            were pulled from KJ847330.1##.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Genome Coverage       :: 432x
+            Sequencing Technology :: Illumina MiSeq
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="CJ462"
+                     /isolation_source="ocular"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Seattle, Washington"
+                     /collection_date="1975/1985"
+     repeat_region   <1..>1
+                     /rpt_type=direct
+     repeat_region   >1
+                     /rpt_type=flanking
+ORIGIN      
+        1 g
+//
+
+LOCUS       OQ724956                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain CJ515, partial genome.
+ACCESSION   OQ724956 REGION: 1
+VERSION     OQ724956.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular HSV-1 Isolates Identifies Possible Virulence Determinants
+            in Humans
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+COMMENT     ##Annotation created with VAPiD v1.6.7 and reference annotations
+            were pulled from KJ847330.1##.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: CLC-Genomic Workbench v. 6.0
+            Genome Coverage       :: 860x
+            Sequencing Technology :: Illumina MiSeq
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="CJ515"
+                     /isolation_source="ocular"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Seattle, Washington"
+                     /collection_date="1975/1985"
+ORIGIN      
+        1 g
+//
+
+LOCUS       OQ724957                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain Ikey, partial genome.
+ACCESSION   OQ724957 REGION: 1
+VERSION     OQ724957.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular HSV-1 Isolates Identifies Possible Virulence Determinants
+            in Humans
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+COMMENT     ##Annotation created with VAPiD v1.6.7 and reference annotations
+            were pulled from KJ847330.1##.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Genome Coverage       :: 404x
+            Sequencing Technology :: Illumina MiSeq
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Ikey"
+                     /isolation_source="lip lesion swab"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Madison, Wisconsin"
+                     /collection_date="2012"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 g
+//
+
+LOCUS       OQ724962                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain CJ505, partial genome.
+ACCESSION   OQ724962 REGION: 1
+VERSION     OQ724962.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.A., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+COMMENT     ##Annotation created with VAPiD v1.6.7 and reference annotations
+            were pulled from KJ847330.1 ##.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Genome Coverage       :: 225x
+            Sequencing Technology :: Illumina MiSeq
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="CJ505"
+                     /isolation_source="ocular"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Seattle, Washington"
+                     /collection_date="1975/1985"
+     repeat_region   >1
+                     /rpt_type=flanking
+     repeat_region   >1
+                     /rpt_type=direct
+ORIGIN      
+        1 g
+//
+
+LOCUS       OQ724963                   1 bp    DNA     linear   VRL 25-JUL-2023
+DEFINITION  Human alphaherpesvirus 1 strain CJ858, partial genome.
+ACCESSION   OQ724963 REGION: 1
+VERSION     OQ724963.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Phylogenetic and Genomic Characterization of Whole Genome Sequences
+            of Ocular Herpes Simplex Virus Type 1 Isolates Identifies Possible
+            Virulence Determinants in Humans
+  JOURNAL   Invest Ophthalmol Vis Sci 64 (10), 16 (2023)
+   PUBMED   37450309
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chau,V.Q., Kolb,A.W., Miller,D.L., Yannuzzi,N.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2023) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 North Charter, Madison, WI
+            53706, USA
+COMMENT     ##Annotation created with VAPiD v1.6.7 and reference annotations
+            were pulled from KJ847330.1##.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Genome Coverage       :: 1130x
+            Sequencing Technology :: Illumina MiSeq
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="CJ858"
+                     /isolation_source="ocular"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Seattle, Washington"
+                     /collection_date="1975/1985"
+     repeat_region   <1..>1
+                     /rpt_type=flanking
+     repeat_region   <1..>1
+                     /rpt_type=direct
+ORIGIN      
+        1 c
+//
+
+LOCUS       OR405519                   1 bp    DNA     linear   SYN 30-SEP-2023
+DEFINITION  Mutant Human alphaherpesvirus 1 clone recombinant UL34(CL13) SUP7,
+            complete genome.
+ACCESSION   OR405519 REGION: 1
+VERSION     OR405519.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Twigg,C.A.I., Haugo-Crooks,A. and Roller,R.J.
+  TITLE     Extragenic Suppression of a HSV-1 UL34 Nuclear Egress Mutant
+            Reveals a Cell-Specific Role for pUS9 as an Inhibitor of Epithelial
+            Cell-To-Cell Spread
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Twigg,C.A.I. and Roller,R.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-AUG-2023) Microbiology and Immunology, University of
+            Iowa, 3-432 BSB, 51 Newton Road, Iowa City, IA 52242, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Unipro Gene/Bowtie v. 35
+            Assembly Name         :: human alphaherpesvirus 1 UL34(CL13) SUP7
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:10298"
+                     /clone="recombinant UL34(CL13) SUP7"
+                     /note="suppressor #7 generated by passage of a UL34-null,
+                     mRFP-UL35 fusion virus on cells that express a UL34
+                     (R158A/R161A) mutant protein; passaged virus contains
+                     multiple mutations, including rearrangement of sequences
+                     in the US region of the genome that suppresses the
+                     replication and spread defects associated with the UL34
+                     mutation; derived from pYeBAC102; Illumina reads were
+                     mapped onto the pYeBAC bacterial artificial chromosome
+                     sequence; short tandemly repeated sequences in the large
+                     inverted repeats that flank the long and short components
+                     of the genome may have different numbers of iterations
+                     than are indicated here"
+     repeat_region   >1
+                     /note="inverted repeat sequence flanking the unique short
+                     component of the genome"
+                     /rpt_family="IRS/TRS"
+                     /rpt_type=terminal
+                     /rpt_unit_range=132760..139304
+     repeat_region   >1
+                     /note="Terminal repeat flanking the long component of the
+                     genome"
+                     /rpt_family="TRL/IRL"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       OR723971                   1 bp    DNA     linear   SYN 13-NOV-2023
+DEFINITION  Mutant Human alphaherpesvirus 1 isolate dsncRNA12, complete genome.
+ACCESSION   OR723971 REGION: 1
+VERSION     OR723971.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Ghiasi,H., Tormanen,K., Oh,J. and Wang,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-OCT-2023) Surgery, Cedars Sinai Medical Center, 329
+            SSB, Cedars Sinai, 8700 Beverly Blvd, los angeles, CA 90048, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: BEDTools v. v.2.19.1
+            Coverage              :: 92.35
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="dsncRNA12"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2021"
+                     /note="contains sncRNA 1 and 2 deletion; derived from
+                     Human alphaherpesvirus 1 strain McKrae"
+ORIGIN      
+        1 a
+//
+
+LOCUS       OR771668                   1 bp    DNA     linear   VRL 18-NOV-2023
+DEFINITION  Human alphaherpesvirus 1 isolate HSV1/USA/WA-UW-1A6/2020, partial
+            genome.
+ACCESSION   OR771668 REGION: 1
+VERSION     OR771668.1
+DBLINK      BioProject: PRJNA1034094
+            BioSample: SAMN38051251
+            Sequence Read Archive: SRR26617834
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Furlong,J., Avendano,C., Sereewit,J., Hajian,P., Xie,H. and
+            Greninger,A.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2023) Laboratory Medicine, UW Virology, 1616
+            Eastlake Ave East Suite 320, Seattle, WA 98102, United States of
+            America
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV1/USA/WA-UW-1A6/2020"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="Mar-2020"
+     gene            complement(>1)
+                     /gene="LAT"
+ORIGIN      
+        1 a
+//
+
+LOCUS       OR771669                   1 bp    DNA     linear   VRL 18-NOV-2023
+DEFINITION  Human alphaherpesvirus 1 isolate HSV1/USA/WA-UW-1A7/2020, partial
+            genome.
+ACCESSION   OR771669 REGION: 1
+VERSION     OR771669.1
+DBLINK      BioProject: PRJNA1034094
+            BioSample: SAMN38051242
+            Sequence Read Archive: SRR26617807
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Furlong,J., Avendano,C., Sereewit,J., Hajian,P., Xie,H. and
+            Greninger,A.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2023) Laboratory Medicine, UW Virology, 1616
+            Eastlake Ave East Suite 320, Seattle, WA 98102, United States of
+            America
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV1/USA/WA-UW-1A7/2020"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="Mar-2020"
+     gene            complement(<1..>1)
+                     /gene="LAT"
+ORIGIN      
+        1 a
+//
+
+LOCUS       OR771670                   1 bp    DNA     linear   VRL 18-NOV-2023
+DEFINITION  Human alphaherpesvirus 1 isolate HSV1/USA/WA-UW-1B2/2020, partial
+            genome.
+ACCESSION   OR771670 REGION: 1
+VERSION     OR771670.1
+DBLINK      BioProject: PRJNA1034094
+            BioSample: SAMN38051267
+            Sequence Read Archive: SRR26617817
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Furlong,J., Avendano,C., Sereewit,J., Hajian,P., Xie,H. and
+            Greninger,A.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2023) Laboratory Medicine, UW Virology, 1616
+            Eastlake Ave East Suite 320, Seattle, WA 98102, United States of
+            America
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV1/USA/WA-UW-1B2/2020"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="Mar-2020"
+     gene            complement(>1)
+                     /gene="LAT"
+ORIGIN      
+        1 a
+//
+
+LOCUS       OR771671                   1 bp    DNA     linear   VRL 18-NOV-2023
+DEFINITION  Human alphaherpesvirus 1 isolate HSV1/USA/WA-UW-1B3/2020, partial
+            genome.
+ACCESSION   OR771671 REGION: 1
+VERSION     OR771671.1
+DBLINK      BioProject: PRJNA1034094
+            BioSample: SAMN38051266
+            Sequence Read Archive: SRR26617818
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Furlong,J., Avendano,C., Sereewit,J., Hajian,P., Xie,H. and
+            Greninger,A.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2023) Laboratory Medicine, UW Virology, 1616
+            Eastlake Ave East Suite 320, Seattle, WA 98102, United States of
+            America
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV1/USA/WA-UW-1B3/2020"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="Mar-2020"
+     gene            complement(<1..>1)
+                     /gene="LAT"
+ORIGIN      
+        1 g
+//
+
+LOCUS       OR771672                   1 bp    DNA     linear   VRL 18-NOV-2023
+DEFINITION  Human alphaherpesvirus 1 isolate HSV1/USA/WA-UW-1B4/2020, complete
+            genome.
+ACCESSION   OR771672 REGION: 1
+VERSION     OR771672.1
+DBLINK      BioProject: PRJNA1034094
+            BioSample: SAMN38051268
+            Sequence Read Archive: SRR26617815
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Furlong,J., Avendano,C., Sereewit,J., Hajian,P., Xie,H. and
+            Greninger,A.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2023) Laboratory Medicine, UW Virology, 1616
+            Eastlake Ave East Suite 320, Seattle, WA 98102, United States of
+            America
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV1/USA/WA-UW-1B4/2020"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="Mar-2020"
+     gene            complement(<1..>1)
+                     /gene="LAT"
+ORIGIN      
+        1 g
+//
+
+LOCUS       OR771673                   1 bp    DNA     linear   VRL 18-NOV-2023
+DEFINITION  Human alphaherpesvirus 1 isolate HSV1/USA/WA-UW-2C7/2019, partial
+            genome.
+ACCESSION   OR771673 REGION: 1
+VERSION     OR771673.1
+DBLINK      BioProject: PRJNA1034094
+            BioSample: SAMN38051249
+            Sequence Read Archive: SRR26617836
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Furlong,J., Avendano,C., Sereewit,J., Hajian,P., Xie,H. and
+            Greninger,A.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2023) Laboratory Medicine, UW Virology, 1616
+            Eastlake Ave East Suite 320, Seattle, WA 98102, United States of
+            America
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV1/USA/WA-UW-2C7/2019"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="Oct-2019"
+     gene            complement(>1)
+                     /gene="LAT"
+ORIGIN      
+        1 a
+//
+
+LOCUS       OR771674                   1 bp    DNA     linear   VRL 18-NOV-2023
+DEFINITION  Human alphaherpesvirus 1 isolate HSV1/USA/WA-UW-2E9/2019, partial
+            genome.
+ACCESSION   OR771674 REGION: 1
+VERSION     OR771674.1
+DBLINK      BioProject: PRJNA1034094
+            BioSample: SAMN38051271
+            Sequence Read Archive: SRR26617812
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Furlong,J., Avendano,C., Sereewit,J., Hajian,P., Xie,H. and
+            Greninger,A.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2023) Laboratory Medicine, UW Virology, 1616
+            Eastlake Ave East Suite 320, Seattle, WA 98102, United States of
+            America
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV1/USA/WA-UW-2E9/2019"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="Oct-2019"
+     gene            complement(<1..>1)
+                     /gene="LAT"
+ORIGIN      
+        1 a
+//
+
+LOCUS       OR771675                   1 bp    DNA     linear   VRL 18-NOV-2023
+DEFINITION  Human alphaherpesvirus 1 isolate HSV1/USA/WA-UW-2G3/2019, partial
+            genome.
+ACCESSION   OR771675 REGION: 1
+VERSION     OR771675.1
+DBLINK      BioProject: PRJNA1034094
+            BioSample: SAMN38051264
+            Sequence Read Archive: SRR26617820
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Furlong,J., Avendano,C., Sereewit,J., Hajian,P., Xie,H. and
+            Greninger,A.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2023) Laboratory Medicine, UW Virology, 1616
+            Eastlake Ave East Suite 320, Seattle, WA 98102, United States of
+            America
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV1/USA/WA-UW-2G3/2019"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="Nov-2019"
+     gene            complement(<1..>1)
+                     /gene="LAT"
+ORIGIN      
+        1 a
+//
+
+LOCUS       OR771676                   1 bp    DNA     linear   VRL 18-NOV-2023
+DEFINITION  Human alphaherpesvirus 1 isolate HSV1/USA/WA-UW-2I1/2019, partial
+            genome.
+ACCESSION   OR771676 REGION: 1
+VERSION     OR771676.1
+DBLINK      BioProject: PRJNA1034094
+            BioSample: SAMN38051248
+            Sequence Read Archive: SRR26617837
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Furlong,J., Avendano,C., Sereewit,J., Hajian,P., Xie,H. and
+            Greninger,A.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2023) Laboratory Medicine, UW Virology, 1616
+            Eastlake Ave East Suite 320, Seattle, WA 98102, United States of
+            America
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV1/USA/WA-UW-2I1/2019"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="Nov-2019"
+     gene            complement(<1..>1)
+                     /gene="LAT"
+ORIGIN      
+        1 c
+//
+
+LOCUS       OR771677                   1 bp    DNA     linear   VRL 18-NOV-2023
+DEFINITION  Human alphaherpesvirus 1 isolate HSV1/USA/WA-UW-2I2/2019, partial
+            genome.
+ACCESSION   OR771677 REGION: 1
+VERSION     OR771677.1
+DBLINK      BioProject: PRJNA1034094
+            BioSample: SAMN38051250
+            Sequence Read Archive: SRR26617835
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Furlong,J., Avendano,C., Sereewit,J., Hajian,P., Xie,H. and
+            Greninger,A.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2023) Laboratory Medicine, UW Virology, 1616
+            Eastlake Ave East Suite 320, Seattle, WA 98102, United States of
+            America
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV1/USA/WA-UW-2I2/2019"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="Nov-2019"
+     gene            complement(<1..>1)
+                     /gene="LAT"
+ORIGIN      
+        1 g
+//
+
+LOCUS       OR771678                   1 bp    DNA     linear   VRL 18-NOV-2023
+DEFINITION  Human alphaherpesvirus 1 isolate HSV1/USA/WA-UW-2J3/2019, partial
+            genome.
+ACCESSION   OR771678 REGION: 1
+VERSION     OR771678.1
+DBLINK      BioProject: PRJNA1034094
+            BioSample: SAMN38051263
+            Sequence Read Archive: SRR26617821
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Furlong,J., Avendano,C., Sereewit,J., Hajian,P., Xie,H. and
+            Greninger,A.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2023) Laboratory Medicine, UW Virology, 1616
+            Eastlake Ave East Suite 320, Seattle, WA 98102, United States of
+            America
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV1/USA/WA-UW-2J3/2019"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="Dec-2019"
+     gene            complement(>1)
+                     /gene="LAT"
+ORIGIN      
+        1 a
+//
+
+LOCUS       OR771679                   1 bp    DNA     linear   VRL 18-NOV-2023
+DEFINITION  Human alphaherpesvirus 1 isolate HSV1/USA/WA-UW-2K3/2019, partial
+            genome.
+ACCESSION   OR771679 REGION: 1
+VERSION     OR771679.1
+DBLINK      BioProject: PRJNA1034094
+            BioSample: SAMN38051243
+            Sequence Read Archive: SRR26617806
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Furlong,J., Avendano,C., Sereewit,J., Hajian,P., Xie,H. and
+            Greninger,A.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2023) Laboratory Medicine, UW Virology, 1616
+            Eastlake Ave East Suite 320, Seattle, WA 98102, United States of
+            America
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV1/USA/WA-UW-2K3/2019"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="Dec-2019"
+     gene            complement(>1)
+                     /gene="LAT"
+ORIGIN      
+        1 a
+//
+

@@ -1,10 +1,7 @@
+# Only build and environment artefacts are ignored. Every input, intermediate
+# and output the analysis depends on is committed, so a reviewer can reproduce
+# any number without a network connection. See README, "What is committed and
+# why", for the size this costs and for the lean alternative.
 __pycache__/
 *.pyc
 .venv/
-data/interim/
-data/raw/cds/
-data/raw/meta/
-# Re-fetched by p3_02_structure.py; the entries and chains actually used are
-# recorded in reports/phase3/structure_summary.json.
-data/raw/pdb/
-*.log

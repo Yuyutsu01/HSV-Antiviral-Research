@@ -1,0 +1,1968 @@
+LOCUS       KU310661                   1 bp    DNA     linear   VRL 26-AUG-2016
+DEFINITION  Human alphaherpesvirus 1 isolate B^3x1.5, partial genome.
+ACCESSION   KU310661 REGION: 1
+VERSION     KU310661.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Weinrick,B., Khajoueinejad,N., Burn,C., Sellers,R.,
+            Jacobs,W.R. Jr. and Herold,B.C.
+  TITLE     HSV-2 DeltagD elicits FcgammaR-effector antibodies that protect
+            against clinical isolates
+  JOURNAL   JCI Insight 1 (12) (2016) In press
+   PUBMED   27536733
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Gonzalez,P.A., Weiss,K., Khajoueinejad,N.,
+            Cheshenko,N., Weinrick,B.C., Sengupta,M., Jacobs,W.R. Jr. and
+            Herold,B.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-DEC-2015) Microbiology and Immunology, Albert
+            Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY
+            10461, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: VirAmp pipeline v. accessed 6/4-11/19/2015
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="B^3x1.5"
+                     /host="Chlorocebus sabaeus"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Jan-2015"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX265022                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 914-O2, partial genome.
+ACCESSION   KX265022 REGION: 1
+VERSION     KX265022.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="914-O2"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence;
+                     low-quality sequence region"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265023                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain IV-2, partial genome.
+ACCESSION   KX265023 REGION: 1
+VERSION     KX265023.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="IV-2"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265024                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 914-Q, partial genome.
+ACCESSION   KX265024 REGION: 1
+VERSION     KX265024.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="914-Q"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence;
+                     low-quality sequence region"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265025                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 914-B2, partial genome.
+ACCESSION   KX265025 REGION: 1
+VERSION     KX265025.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="914-B2"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265026                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 914-D2, partial genome.
+ACCESSION   KX265026 REGION: 1
+VERSION     KX265026.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="914-D2"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265027                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain IV-7, partial genome.
+ACCESSION   KX265027 REGION: 1
+VERSION     KX265027.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="IV-7"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265028                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 20-14-8, partial genome.
+ACCESSION   KX265028 REGION: 1
+VERSION     KX265028.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="20-14-8"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265029                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 914-N3, partial genome.
+ACCESSION   KX265029 REGION: 1
+VERSION     KX265029.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="914-N3"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence;
+                     low-quality sequence region"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265030                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 20-14-18, partial genome.
+ACCESSION   KX265030 REGION: 1
+VERSION     KX265030.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="20-14-18"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265031                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 914-H2, partial genome.
+ACCESSION   KX265031 REGION: 1
+VERSION     KX265031.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="914-H2"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence;
+                     low-quality sequence region"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265032                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain IV-6, partial genome.
+ACCESSION   KX265032 REGION: 1
+VERSION     KX265032.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="IV-6"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence;
+                     low-quality sequence region"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX265033                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 20-14-24, partial genome.
+ACCESSION   KX265033 REGION: 1
+VERSION     KX265033.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="20-14-24"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX265034                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain IV-1, partial genome.
+ACCESSION   KX265034 REGION: 1
+VERSION     KX265034.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="IV-1"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence;
+                     low-quality sequence region"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265035                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 914-Y2, partial genome.
+ACCESSION   KX265035 REGION: 1
+VERSION     KX265035.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="914-Y2"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence;
+                     low-quality sequence region"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265036                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 914-Z, partial genome.
+ACCESSION   KX265036 REGION: 1
+VERSION     KX265036.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="914-Z"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence;
+                     low-quality sequence region"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265037                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 914-E3, partial genome.
+ACCESSION   KX265037 REGION: 1
+VERSION     KX265037.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="914-E3"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265038                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 20-14-7, partial genome.
+ACCESSION   KX265038 REGION: 1
+VERSION     KX265038.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="20-14-7"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX265039                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 20-14-22, partial genome.
+ACCESSION   KX265039 REGION: 1
+VERSION     KX265039.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="20-14-22"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265040                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 914-A3, partial genome.
+ACCESSION   KX265040 REGION: 1
+VERSION     KX265040.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="914-A3"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence;
+                     low-quality sequence region"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265041                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 20-14-1, partial genome.
+ACCESSION   KX265041 REGION: 1
+VERSION     KX265041.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="20-14-1"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence;
+                     low-quality sequence region"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX265042                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 914-T2, partial genome.
+ACCESSION   KX265042 REGION: 1
+VERSION     KX265042.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="914-T2"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence;
+                     low-quality sequence region"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265043                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 914-B, partial genome.
+ACCESSION   KX265043 REGION: 1
+VERSION     KX265043.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="914-B"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence;
+                     low-quality sequence region"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265044                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 20-14-23, partial genome.
+ACCESSION   KX265044 REGION: 1
+VERSION     KX265044.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="20-14-23"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence;
+                     low-quality sequence region"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX265045                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 20-14-2, partial genome.
+ACCESSION   KX265045 REGION: 1
+VERSION     KX265045.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="20-14-2"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence;
+                     low-quality sequence region"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KX265046                   1 bp    DNA     linear   VRL 02-JUL-2016
+DEFINITION  Human alphaherpesvirus 1 strain 914-R2, partial genome.
+ACCESSION   KX265046 REGION: 1
+VERSION     KX265046.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Mapping Murine Corneal Neovascularization and Weight Loss Virulence
+            Determinants in the HSV-1 Genome and the Detection of an Epistatic
+            Interaction between the UL and IRS/US Regions
+  JOURNAL   J. Virol. (2016) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Larsen,I.V., Craven,M. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Opthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 470 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 8.0.3
+            Sequencing Technology :: Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="914-R2"
+                     /db_xref="taxon:10298"
+                     /note="recombinant derived from OD4 and CJ994 parental
+                     strains"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence;
+                     low-quality sequence region"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX424525                   1 bp    DNA     linear   VRL 29-MAR-2017
+DEFINITION  Human alphaherpesvirus 1 isolate ZW6, complete genome.
+ACCESSION   KX424525 REGION: 1
+VERSION     KX424525.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Chen,C., Zhihua,L., Yuzhong,L., Yadong,L., Yanwei,B. and Wei,C.
+  TITLE     Genomic sequence of a low passage herpes simplex type 1 clinical
+            strain ZW6
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Chen,C., Zhihua,L., Yuzhong,L., Yadong,L., Yanwei,B. and Wei,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JUN-2016) Institute of medical biology, Chinese
+            Academy of Medical Sciences, No935, Jiaoling Road, WuHua district,
+            Kunming, Yunnan 650118, China
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /serotype="1"
+                     /isolate="ZW6"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="China"
+                     /collection_date="2013"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+     repeat_region   >1
+                     /note="'a' sequence"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KX946970                   1 bp    DNA     linear   VRL 30-APR-2019
+DEFINITION  Human alphaherpesvirus 1 isolate SC16, partial genome.
+ACCESSION   KX946970 REGION: 1
+VERSION     KX946970.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rastrojo,A., Lopez-Munoz,A.D. and Alcami,A.
+  TITLE     Genome Sequence of Herpes Simplex Virus 1 Strain SC16
+  JOURNAL   Genome Announc 5 (4), e01392-16 (2017)
+   PUBMED   28126930
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rastrojo,A., Lopez-Munoz,A.D. and Alcami,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-OCT-2016) Virology and Microbiology, Centro de
+            Biologia Molecular Severo Ochoa, C/Nicolas Cabrera 1, Madrid 28049,
+            Spain
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.9.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="SC16"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     gene            complement(>1)
+                     /gene="LAT.1"
+     ncRNA           complement(>1)
+                     /ncRNA_class="other"
+                     /gene="LAT.1"
+                     /product="LAT"
+     repeat_region   <1..>1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 c
+//
+
+LOCUS       KY922718                   1 bp    DNA     linear   VRL 26-SEP-2017
+DEFINITION  Human alphaherpesvirus 1 isolate HSV-R-13, complete genome.
+ACCESSION   KY922718 REGION: 1
+VERSION     KY922718.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Pandey,U., Renner,D.W., Thompson,R., Szpara,M.L. and Sawtell,N.
+  TITLE     Father-to-son transmission of herpes simplex virus results in
+            near-perfect preservation of viral genome identity and in vitro
+            phenotypes
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Pandey,U., Renner,D.W., Thompson,R., Szpara,M.L. and Sawtell,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-APR-2017) Department of Biochemistry and Molecular
+            Biology, Pennsylvania State University, W-242 Millennium Science
+            Complex, University Park, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-R-13"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 t
+//
+
+LOCUS       KY922719                   1 bp    DNA     linear   VRL 26-SEP-2017
+DEFINITION  Human alphaherpesvirus 1 isolate HSV-N-7, complete genome.
+ACCESSION   KY922719 REGION: 1
+VERSION     KY922719.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Pandey,U., Renner,D.W., Thompson,R., Szpara,M.L. and Sawtell,N.
+  TITLE     Father-to-son transmission of herpes simplex virus results in
+            near-perfect preservation of viral genome identity and in vitro
+            phenotypes
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Pandey,U., Renner,D.W., Thompson,R., Szpara,M.L. and Sawtell,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-APR-2017) Department of Biochemistry and Molecular
+            Biology, Pennsylvania State University, W-242 Millennium Science
+            Complex, University Park, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-N-7"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 t
+//
+
+LOCUS       LP124485                   1 bp    DNA     linear   PAT 18-FEB-2016
+DEFINITION  Sequence 15 from Patent WO2015059490.
+ACCESSION   LP124485 REGION: 1
+VERSION     LP124485.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   CONNER,J.
+  TITLE     DETERMINING HSV REPLICATION ACTIVITY
+  JOURNAL   Patent: WO 2015059490-A1 15 30-APR-2015;
+            VIRTTU BIOLOG LTD [GB]
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:10298"
+ORIGIN      
+        1 a
+//
+
+LOCUS       LP124486                   1 bp    DNA     linear   PAT 18-FEB-2016
+DEFINITION  Sequence 16 from Patent WO2015059490.
+ACCESSION   LP124486 REGION: 1
+VERSION     LP124486.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   CONNER,J.
+  TITLE     DETERMINING HSV REPLICATION ACTIVITY
+  JOURNAL   Patent: WO 2015059490-A1 16 30-APR-2015;
+            VIRTTU BIOLOG LTD [GB]
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:10298"
+ORIGIN      
+        1 g
+//
+
+LOCUS       LP124487                   1 bp    DNA     linear   PAT 18-FEB-2016
+DEFINITION  Sequence 17 from Patent WO2015059490.
+ACCESSION   LP124487 REGION: 1
+VERSION     LP124487.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   CONNER,J.
+  TITLE     DETERMINING HSV REPLICATION ACTIVITY
+  JOURNAL   Patent: WO 2015059490-A1 17 30-APR-2015;
+            VIRTTU BIOLOG LTD [GB]
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:10298"
+ORIGIN      
+        1 a
+//
+
+LOCUS       LT576866                   1 bp    DNA     linear   VRL 26-MAY-2016
+DEFINITION  Herpes simplex virus (type 1 / strain 17) isolate p2A genome
+            assembly, chromosome: I.
+ACCESSION   LT576866 REGION: 1
+VERSION     LT576866.1
+DBLINK      BioProject: PRJEB11729
+            BioSample: SAMEA3649922
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 strain 17
+  ORGANISM  Human alphaherpesvirus 1 strain 17
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   Karamitros,Timokratis.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAY-2016) ZOOLOGY DEPARTMENT, UNIVERSITY OF OXFORD,
+            Applied Evolutionary Virology, SOUTH PARKS ROAD OX1 3PS, United
+            Kingdom
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1 strain 17"
+                     /mol_type="genomic DNA"
+                     /strain="17"
+                     /isolate="p2A"
+                     /db_xref="taxon:10299"
+                     /chromosome="I"
+ORIGIN      
+        1 a
+//
+
+LOCUS       LT576867                   1 bp    DNA     linear   VRL 26-MAY-2016
+DEFINITION  Herpes simplex virus (type 1 / strain 17) genome assembly,
+            chromosome: I.
+ACCESSION   LT576867 REGION: 1
+VERSION     LT576867.1
+DBLINK      BioProject: PRJEB11729
+            BioSample: SAMEA3649932
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 strain 17
+  ORGANISM  Human alphaherpesvirus 1 strain 17
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   Karamitros,Timokratis.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAY-2016) ZOOLOGY DEPARTMENT, UNIVERSITY OF OXFORD,
+            Applied Evolutionary Virology, SOUTH PARKS ROAD OX1 3PS, United
+            Kingdom
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1 strain 17"
+                     /mol_type="genomic DNA"
+                     /strain="17"
+                     /isolate="p17"
+                     /db_xref="taxon:10299"
+                     /chromosome="I"
+ORIGIN      
+        1 g
+//
+
+LOCUS       LT576869                   1 bp    DNA     linear   VRL 26-MAY-2016
+DEFINITION  Herpes simplex virus (type 1 / strain 17) genome assembly,
+            chromosome: I.
+ACCESSION   LT576869 REGION: 1
+VERSION     LT576869.1
+DBLINK      BioProject: PRJEB11729
+            BioSample: SAMEA3959533
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 strain 17
+  ORGANISM  Human alphaherpesvirus 1 strain 17
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   Karamitros,Timokratis.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAY-2016) ZOOLOGY DEPARTMENT, UNIVERSITY OF OXFORD,
+            Applied Evolutionary Virology, SOUTH PARKS ROAD OX1 3PS, United
+            Kingdom
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1 strain 17"
+                     /mol_type="genomic DNA"
+                     /strain="17"
+                     /isolate="2C"
+                     /db_xref="taxon:10299"
+                     /chromosome="I"
+ORIGIN      
+        1 g
+//
+
+LOCUS       LT576870                   1 bp    DNA     linear   VRL 26-MAY-2016
+DEFINITION  Herpes simplex virus (type 1 / strain 17) genome assembly,
+            chromosome: I.
+ACCESSION   LT576870 REGION: 1
+VERSION     LT576870.1
+DBLINK      BioProject: PRJEB11729
+            BioSample: SAMEA3959532
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 strain 17
+  ORGANISM  Human alphaherpesvirus 1 strain 17
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   Karamitros,Timokratis.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAY-2016) ZOOLOGY DEPARTMENT, UNIVERSITY OF OXFORD,
+            Applied Evolutionary Virology, SOUTH PARKS ROAD OX1 3PS, United
+            Kingdom
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1 strain 17"
+                     /mol_type="genomic DNA"
+                     /strain="17"
+                     /isolate="2B"
+                     /db_xref="taxon:10299"
+                     /chromosome="I"
+ORIGIN      
+        1 a
+//
+
+LOCUS       LT594105                   1 bp    DNA     linear   VRL 15-JUN-2018
+DEFINITION  Human herpesvirus 1 isolate 172_2010 genome assembly, complete
+            genome: monopartite.
+ACCESSION   LT594105 REGION: 1
+VERSION     LT594105.1
+DBLINK      BioProject: PRJEB14190
+            BioSample: SAMEA4017987
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   .
+  JOURNAL   Unpublished
+REFERENCE   2
+  AUTHORS   Pfaff,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2016) Friedrich-Loeffler-Institut, Institute of
+            Diagnostic Virology, Suedufer 10, 17493, 17493, Germany
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="172/2010"
+                     /db_xref="taxon:10298"
+                     /note="monopartite"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=INVERTED
+     gene            complement(<1..>1)
+                     /gene="LAT"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=DIRECT
+                     /rpt_type=TERMINAL
+ORIGIN      
+        1 a
+//
+
+LOCUS       LT594106                   1 bp    DNA     linear   VRL 15-JUN-2018
+DEFINITION  Human herpesvirus 1 isolate 2158_2007 genome assembly, complete
+            genome: monopartite.
+ACCESSION   LT594106 REGION: 1
+VERSION     LT594106.1
+DBLINK      BioProject: PRJEB14190
+            BioSample: SAMEA4017985
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   .
+  JOURNAL   Unpublished
+REFERENCE   2
+  AUTHORS   Pfaff,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2016) Friedrich-Loeffler-Institut, Institute of
+            Diagnostic Virology, Suedufer 10, 17493, 17493, Germany
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="2158/2007"
+                     /db_xref="taxon:10298"
+                     /note="monopartite"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=INVERTED
+     gene            complement(<1..>1)
+                     /gene="LAT"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=DIRECT
+                     /rpt_type=TERMINAL
+ORIGIN      
+        1 a
+//
+
+LOCUS       LT594107                   1 bp    DNA     linear   VRL 15-JUN-2018
+DEFINITION  Human herpesvirus 1 isolate 3083_2008 genome assembly, complete
+            genome: monopartite.
+ACCESSION   LT594107 REGION: 1
+VERSION     LT594107.1
+DBLINK      BioProject: PRJEB14190
+            BioSample: SAMEA4017986
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   .
+  JOURNAL   Unpublished
+REFERENCE   2
+  AUTHORS   Pfaff,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2016) Friedrich-Loeffler-Institut, Institute of
+            Diagnostic Virology, Suedufer 10, 17493, 17493, Germany
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="3083/2008"
+                     /db_xref="taxon:10298"
+                     /note="monopartite"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=INVERTED
+     gene            complement(<1..>1)
+                     /gene="LAT"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=DIRECT
+                     /rpt_type=TERMINAL
+ORIGIN      
+        1 a
+//
+
+LOCUS       LT594108                   1 bp    DNA     linear   VRL 15-JUN-2018
+DEFINITION  Human herpesvirus 1 isolate 1319_2005 genome assembly, complete
+            genome: monopartite.
+ACCESSION   LT594108 REGION: 1
+VERSION     LT594108.1
+DBLINK      BioProject: PRJEB14190
+            BioSample: SAMEA4017979
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   .
+  JOURNAL   Unpublished
+REFERENCE   2
+  AUTHORS   Pfaff,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2016) Friedrich-Loeffler-Institut, Institute of
+            Diagnostic Virology, Suedufer 10, 17493, 17493, Germany
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="1319/2005"
+                     /db_xref="taxon:10298"
+                     /note="monopartite"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=INVERTED
+     gene            complement(<1..>1)
+                     /gene="LAT"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=DIRECT
+                     /rpt_type=TERMINAL
+ORIGIN      
+        1 a
+//
+
+LOCUS       LT594109                   1 bp    DNA     linear   VRL 15-JUN-2018
+DEFINITION  Human herpesvirus 1 isolate 270_2007 genome assembly, complete
+            genome: monopartite.
+ACCESSION   LT594109 REGION: 1
+VERSION     LT594109.1
+DBLINK      BioProject: PRJEB14190
+            BioSample: SAMEA4017983
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   .
+  JOURNAL   Unpublished
+REFERENCE   2
+  AUTHORS   Pfaff,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2016) Friedrich-Loeffler-Institut, Institute of
+            Diagnostic Virology, Suedufer 10, 17493, 17493, Germany
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="270/2007"
+                     /db_xref="taxon:10298"
+                     /note="monopartite"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=INVERTED
+     gene            complement(<1..>1)
+                     /gene="LAT"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=DIRECT
+                     /rpt_type=INVERTED
+ORIGIN      
+        1 a
+//
+
+LOCUS       LT594110                   1 bp    DNA     linear   VRL 15-JUN-2018
+DEFINITION  Human herpesvirus 1 isolate 66_2007 genome assembly, complete
+            genome: monopartite.
+ACCESSION   LT594110 REGION: 1
+VERSION     LT594110.1
+DBLINK      BioProject: PRJEB14190
+            BioSample: SAMEA4017982
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   .
+  JOURNAL   Unpublished
+REFERENCE   2
+  AUTHORS   Pfaff,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2016) Friedrich-Loeffler-Institut, Institute of
+            Diagnostic Virology, Suedufer 10, 17493, 17493, Germany
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="66/2007"
+                     /db_xref="taxon:10298"
+                     /note="monopartite"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=INVERTED
+     gene            complement(<1..>1)
+                     /gene="LAT"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=DIRECT
+                     /rpt_type=TERMINAL
+ORIGIN      
+        1 a
+//
+
+LOCUS       LT594111                   1 bp    DNA     linear   VRL 15-JUN-2018
+DEFINITION  Human herpesvirus 1 isolate 1394_2005 genome assembly, complete
+            genome: monopartite.
+ACCESSION   LT594111 REGION: 1
+VERSION     LT594111.1
+DBLINK      BioProject: PRJEB14190
+            BioSample: SAMEA4017980
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   .
+  JOURNAL   Unpublished
+REFERENCE   2
+  AUTHORS   Pfaff,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2016) Friedrich-Loeffler-Institut, Institute of
+            Diagnostic Virology, Suedufer 10, 17493, 17493, Germany
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="1394/2005"
+                     /db_xref="taxon:10298"
+                     /note="monopartite"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=INVERTED
+     gene            complement(<1..>1)
+                     /gene="LAT"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=DIRECT
+                     /rpt_type=TERMINAL
+ORIGIN      
+        1 a
+//
+
+LOCUS       LT594112                   1 bp    DNA     linear   VRL 15-JUN-2018
+DEFINITION  Human herpesvirus 1 isolate 369_2007 genome assembly, complete
+            genome: monopartite.
+ACCESSION   LT594112 REGION: 1
+VERSION     LT594112.1
+DBLINK      BioProject: PRJEB14190
+            BioSample: SAMEA4017984
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   .
+  JOURNAL   Unpublished
+REFERENCE   2
+  AUTHORS   Pfaff,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2016) Friedrich-Loeffler-Institut, Institute of
+            Diagnostic Virology, Suedufer 10, 17493, 17493, Germany
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="369/2007"
+                     /db_xref="taxon:10298"
+                     /note="monopartite"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=INVERTED
+     gene            complement(<1..>1)
+                     /gene="LAT"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=DIRECT
+                     /rpt_type=TERMINAL
+ORIGIN      
+        1 a
+//
+
+LOCUS       LT594192                   1 bp    DNA     linear   VRL 15-JUN-2018
+DEFINITION  Human herpesvirus 1 isolate 160_1982 genome assembly, complete
+            genome: monopartite.
+ACCESSION   LT594192 REGION: 1
+VERSION     LT594192.1
+DBLINK      BioProject: PRJEB14190
+            BioSample: SAMEA4017977
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   Pfaff,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2016) Friedrich-Loeffler-Institut, Institute of
+            Diagnostic Virology, Suedufer 10, 17493, 17493, Germany
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="160/1982"
+                     /db_xref="taxon:10298"
+                     /note="monopartite"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=INVERTED
+     gene            complement(<1..>1)
+                     /gene="LAT"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=DIRECT
+                     /rpt_type=TERMINAL
+ORIGIN      
+        1 a
+//
+
+LOCUS       LT594457                   1 bp    DNA     linear   VRL 15-JUN-2018
+DEFINITION  Human herpesvirus 1 isolate 132_1998 genome assembly, complete
+            genome: monopartite.
+ACCESSION   LT594457 REGION: 1
+VERSION     LT594457.1
+DBLINK      BioProject: PRJEB14190
+            BioSample: SAMEA4017978
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   Pfaff,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUN-2016) Friedrich-Loeffler-Institut, Institute of
+            Diagnostic Virology, Suedufer 10, 17493, 17493, Germany
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="132/1998"
+                     /db_xref="taxon:10298"
+                     /note="monopartite"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=INVERTED
+     gene            complement(<1..>1)
+                     /gene="LAT"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=DIRECT
+                     /rpt_type=TERMINAL
+ORIGIN      
+        1 a
+//
+
+LOCUS       LT608134                   1 bp    DNA     linear   VRL 19-AUG-2016
+DEFINITION  Herpes simplex virus (type 1 / strain 17) genome assembly,
+            chromosome: I.
+ACCESSION   LT608134 REGION: 1
+VERSION     LT608134.1
+DBLINK      BioProject: PRJEB11729
+            BioSample: SAMEA3649924
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 strain 17
+  ORGANISM  Human alphaherpesvirus 1 strain 17
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   Karamitros,Timokratis.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAY-2016) ZOOLOGY DEPARTMENT, UNIVERSITY OF OXFORD,
+            Applied Evolutionary Virology, SOUTH PARKS ROAD OX1 3PS, United
+            Kingdom
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1 strain 17"
+                     /mol_type="genomic DNA"
+                     /strain="17"
+                     /isolate="p5A"
+                     /db_xref="taxon:10299"
+                     /chromosome="I"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MF156584                   1 bp    DNA     linear   VRL 21-SEP-2017
+DEFINITION  Human alphaherpesvirus 1 isolate K(delta)25/26, complete genome.
+ACCESSION   MF156584 REGION: 1
+VERSION     MF156584.1
+DBLINK      BioProject: PRJNA386147
+            BioSample: SAMN06927022
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Oldfield,L.M., Grzesik,P., Voorhies,A.A., Alperovich,N.,
+            MacMath,D., Najera,C.D., Chandra,D.S., Prasad,S., Noskov,V.N.,
+            Montague,M.G., Friedman,R.M., Desai,P.J. and Vashee,S.
+  TITLE     Genome-wide engineering of an infectious clone of herpes simplex
+            virus type 1 using synthetic genomics assembly methods
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. (2017) In press
+   PUBMED   28928148
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Voorhies,A., Oldfield,L. and Vashee,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-MAY-2017) Informatics, JCVI, 9714 Medical Center Dr,
+            Rockville, MD 20850, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="K(delta)25/26"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+ORIGIN      
+        1 g
+//
+
+LOCUS       MG646679                   1 bp    DNA     linear   VRL 30-NOV-2018
+DEFINITION  Human alphaherpesvirus 1 isolate NIV 1722974, partial genome.
+ACCESSION   MG646679 REGION: 1
+VERSION     MG646679.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Yadav,P.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-DEC-2017) Maximum Containment Laboratory, National
+            Institute of Virology, 130/1 Sus Road, Pashan, Pune, Maharashtra
+            411021, India
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. v.10
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="NIV 1722974"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="India"
+                     /collection_date="24-Jul-2017"
+ORIGIN      
+        1 g
+//
+

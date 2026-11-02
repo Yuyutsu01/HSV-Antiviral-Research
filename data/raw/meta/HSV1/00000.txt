@@ -1,0 +1,2417 @@
+LOCUS       AB618031                   1 bp    DNA     linear   VRL 22-DEC-2016
+DEFINITION  Herpes simplex virus (type 1 /strain RH2) DNA, nearly complete
+            genome.
+ACCESSION   AB618031 REGION: 1
+VERSION     AB618031.1
+DBLINK      BioProject: PRJDB2363
+            BioSample: SAMD00010721
+            Sequence Read Archive: DRR000853
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 strain RH2
+  ORGANISM  Human alphaherpesvirus 1 strain RH2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   Takahashi,G., Meshii,N., Hamada,M., Iwai,S. and Yura,Y.
+  TITLE     Sequence of a fusogenic herpes simplex virus, RH2, for oncolytic
+            virotherapy
+  JOURNAL   J. Gen. Virol. 94 (PT 4), 726-737 (2013)
+   PUBMED   23239570
+  REMARK    DOI:10.1099/vir.0.044834-0
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Takahashi,G. and Yura,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-FEB-2011) Contact:Gen Takahashi Department of Oral
+            and Maxillofacial Surgery, Osaka University Graduate School of
+            Dentistry, Osaka University; yamadaoka1-8, Suita, Osaka 565-0871,
+            Japan URL
+            :http://www.dent.osaka-u.ac.jp/english/g_school/facilities/
+            surgery2.html
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1 strain RH2"
+                     /mol_type="genomic DNA"
+                     /strain="RH2"
+                     /db_xref="taxon:946522"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL repeat region"
+ORIGIN      
+        1 g
+//
+
+LOCUS       BK012101                   1 bp    DNA     linear   VRL 07-NOV-2020
+DEFINITION  TPA_asm: Human alphaherpesvirus 1 strain 17, complete genome.
+ACCESSION   BK012101 REGION: 1
+VERSION     BK012101.1
+KEYWORDS    Third Party Data; TPA; TPA:assembly.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Whisnant,A.W., Jurges,C.S., Hennig,T., Wyler,E., Prusty,B.,
+            Rutkowski,A.J., L'hernault,A., Djakovic,L., Gobel,M., Doring,K.,
+            Menegatti,J., Antrobus,R., Matheson,N.J., Kunzig,F.W.H.,
+            Mastrobuoni,G., Bielow,C., Kempa,S., Liang,C., Dandekar,T.,
+            Zimmer,R., Landthaler,M., Grasser,F., Lehner,P.J., Friedel,C.C.,
+            Erhard,F. and Dolken,L.
+  TITLE     Integrative functional genomics decodes herpes simplex virus 1
+  JOURNAL   Nat Commun 11 (1), 2038 (2020)
+   PUBMED   32341360
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Whisnant,A.W., Juerges,C.S., Erhard,F. and Doelken,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-NOV-2019) Institute for Virology and Immunobiology,
+            University of Wuerzburg, Versbacher Strasse 7, Wuerzburg, Bavaria
+            97078, Germany
+COMMENT     THIRD PARTY DATABASE: This TPA record uses data from
+            DDBJ/EMBL/GenBank entry JN555585.1
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: STAR v. v. 2.5.3a
+            Sequencing Technology :: Illumina; MinION; PacBio
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="17"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+ORIGIN      
+        1 a
+//
+
+LOCUS       CS176883                   1 bp    DNA     linear   PAT 14-JUL-2006
+DEFINITION  Sequence 1 from Patent WO2005092374.
+ACCESSION   CS176883 REGION: 1
+VERSION     CS176883.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1
+  AUTHORS   Ensoli,B., Caputo,A. and Marconi,P.
+  TITLE     Recombinant herpes simplex virus and uses therefor
+  JOURNAL   Patent: WO 2005092374-A2 1 06-OCT-2005;
+            ISTITUTO SUPERIORE DI SANITA' (IT)
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:10298"
+ORIGIN      
+        1 a
+//
+
+LOCUS       FJ593289                   1 bp    DNA     linear   SYN 01-DEC-2016
+DEFINITION  Human herpesvirus 1 transgenic strain 17, complete genome.
+ACCESSION   FJ593289 REGION: 1
+VERSION     FJ593289.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Cunningham,C. and Davison,A.J.
+  TITLE     Herpes simplex virus type 1 bacterial artificial chromosome
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Cunningham,C. and Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-DEC-2008) MRC Virology Unit, Church Street, Glasgow
+            G11 5JR, UK
+COMMENT     DESCRIPTION: This BAC contains a self-excising, loxP-flanked vector
+            (see PMID:10781094) between genes US1 and US2 of HSV-1 strain 17
+            syn+ reconstructed from cosmids (see PMID:8212547). The entire
+            virus genome is present with the exception of 148 bp in oriL. The
+            BAC gives rise to infectious virus containing a single loxP
+            sequence at the original vector insertion site and with all
+            protein-coding regions intact. The sequence is circular and is
+            listed from the nucleotide equivalent to the left end of the virus
+            genome. The lengths of most reiterations sets were not determined,
+            and were set to those in the parental virus genome (see NC_001806).
+            CURATION: The original gene nomenclature has been retained. Genes
+            presumably inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. Initiation codons are assigned with as much confidence
+            as is possible for each protein-coding region. A standard protein
+            nomenclature has been applied so that orthologs have the same name
+            in all herpesviruses. Protein information may have been propagated
+            from other herpesvirus species.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="17"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /transgenic
+                     /note="acronym: HHV-1; acronym: HSV-1"
+     repeat_region   >1
+                     /note="TRS; inverted repeat flanking US"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=inverted
+ORIGIN      
+        1 g
+//
+
+LOCUS       FV537006                   1 bp    DNA     linear   PAT 18-MAR-2010
+DEFINITION  Modified Microbial Nucleic Acid.
+ACCESSION   FV537006 REGION: 1
+VERSION     FV537006.1
+KEYWORDS    JP 2009538603-A/985.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Millar,D.S. and Meruki,J.R.
+  TITLE     Modified Microbial Nucleic Acid
+  JOURNAL   Patent: JP 2009538603-A 985 12-NOV-2009;
+            Human Genetic Signatures Pty Ltd
+COMMENT     OS   human herpesvirus 1
+            PN   JP 2009538603-A/985
+            PD   12-NOV-2009
+            PF   02-JUN-2006 JP 2009512366
+            PI   douglas spencer millar,john r meruki
+            CC
+            FH   Key             Location/Qualifiers.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:10298"
+ORIGIN      
+        1 a
+//
+
+LOCUS       FV537007                   1 bp    DNA     linear   PAT 18-MAR-2010
+DEFINITION  Modified Microbial Nucleic Acid.
+ACCESSION   FV537007 REGION: 1
+VERSION     FV537007.1
+KEYWORDS    JP 2009538603-A/986.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Millar,D.S. and Meruki,J.R.
+  TITLE     Modified Microbial Nucleic Acid
+  JOURNAL   Patent: JP 2009538603-A 986 12-NOV-2009;
+            Human Genetic Signatures Pty Ltd
+COMMENT     OS   human herpesvirus 1
+            PN   JP 2009538603-A/986
+            PD   12-NOV-2009
+            PF   02-JUN-2006 JP 2009512366
+            PI   douglas spencer millar,john r meruki
+            CC
+            FH   Key             Location/Qualifiers.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:10298"
+ORIGIN      
+        1 a
+//
+
+LOCUS       FV537008                   1 bp    DNA     linear   PAT 18-MAR-2010
+DEFINITION  Modified Microbial Nucleic Acid.
+ACCESSION   FV537008 REGION: 1
+VERSION     FV537008.1
+KEYWORDS    JP 2009538603-A/987.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Millar,D.S. and Meruki,J.R.
+  TITLE     Modified Microbial Nucleic Acid
+  JOURNAL   Patent: JP 2009538603-A 987 12-NOV-2009;
+            Human Genetic Signatures Pty Ltd
+COMMENT     OS   human herpesvirus 1
+            PN   JP 2009538603-A/987
+            PD   12-NOV-2009
+            PF   02-JUN-2006 JP 2009512366
+            PI   douglas spencer millar,john r meruki
+            CC
+            FH   Key             Location/Qualifiers.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:10298"
+ORIGIN      
+        1 g
+//
+
+LOCUS       FV537009                   1 bp    DNA     linear   PAT 18-MAR-2010
+DEFINITION  Modified Microbial Nucleic Acid.
+ACCESSION   FV537009 REGION: 1
+VERSION     FV537009.1
+KEYWORDS    JP 2009538603-A/988.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Millar,D.S. and Meruki,J.R.
+  TITLE     Modified Microbial Nucleic Acid
+  JOURNAL   Patent: JP 2009538603-A 988 12-NOV-2009;
+            Human Genetic Signatures Pty Ltd
+COMMENT     OS   human herpesvirus 1
+            PN   JP 2009538603-A/988
+            PD   12-NOV-2009
+            PF   02-JUN-2006 JP 2009512366
+            PI   douglas spencer millar,john r meruki
+            CC
+            FH   Key             Location/Qualifiers.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:10298"
+ORIGIN      
+        1 g
+//
+
+LOCUS       GU734771                   1 bp    DNA     linear   VRL 27-APR-2010
+DEFINITION  Human herpesvirus 1 strain F, complete genome.
+ACCESSION   GU734771 REGION: 1
+VERSION     GU734771.1
+DBLINK      BioProject: PRJNA43419
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Szpara,M.L., Parsons,L. and Enquist,L.W.
+  TITLE     Sequence variability in clinical and laboratory isolates of herpes
+            simplex virus 1 reveals new mutations
+  JOURNAL   J. Virol. 84 (10), 5303-5313 (2010)
+   PUBMED   20219902
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Szpara,M.L., Parsons,L. and Enquist,L.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-FEB-2010) Dept. of Molecular Biology and Lewis-Sigler
+            Institute for Integrative Genomics, Princeton University, 301
+            Schultz Lab, Princeton, NJ 08544, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="F"
+                     /db_xref="taxon:10298"
+                     /note="parental virus stock;
+                     acronym: HHV-1; acronym: HSV-1"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=flanking
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     misc_feature    >1
+                     /note="de novo assembly contig;
+                     contig ID ssake5-blast4"
+ORIGIN      
+        1 a
+//
+
+LOCUS       GU734772                   1 bp    DNA     linear   VRL 27-APR-2010
+DEFINITION  Human herpesvirus 1 strain H129, complete genome.
+ACCESSION   GU734772 REGION: 1
+VERSION     GU734772.1
+DBLINK      BioProject: PRJNA43419
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Szpara,M.L., Parsons,L. and Enquist,L.W.
+  TITLE     Sequence variability in clinical and laboratory isolates of herpes
+            simplex virus 1 reveals new mutations
+  JOURNAL   J. Virol. 84 (10), 5303-5313 (2010)
+   PUBMED   20219902
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Szpara,M.L., Parsons,L. and Enquist,L.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-FEB-2010) Dept. of Molecular Biology and Lewis-Sigler
+            Institute for Integrative Genomics, Princeton University, 301
+            Schultz Lab, Princeton, NJ 08544, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="H129"
+                     /db_xref="taxon:10298"
+                     /note="acronym: HHV-1; acronym: HSV-1"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=flanking
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     misc_feature    >1
+                     /note="de novo assembly contig;
+                     contig ID minimus2-blast14"
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585496                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain E06, partial genome.
+ACCESSION   HM585496 REGION: 1
+VERSION     HM585496.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585496.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E06"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Kenya"
+                     /note="contains a frameshift mutation in gene UL13"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585497                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain E07, partial genome.
+ACCESSION   HM585497 REGION: 1
+VERSION     HM585497.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585497.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E07"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Kenya"
+                     /note="contains a frameshift mutation near the 3'-end of
+                     gene UL22"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585498                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain E08, partial genome.
+ACCESSION   HM585498 REGION: 1
+VERSION     HM585498.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585498.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E08"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Kenya"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585499                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain E10, partial genome.
+ACCESSION   HM585499 REGION: 1
+VERSION     HM585499.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585499.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E10"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Kenya"
+                     /note="a large proportion of genomes contains a 3.2 kbp
+                     deletion extending from near the right end of UL (in gene
+                     UL55) to within IRL"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585500                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain E11, partial genome.
+ACCESSION   HM585500 REGION: 1
+VERSION     HM585500.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585500.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E11"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Kenya"
+                     /note="contains a frameshift mutation in gene UL13"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585501                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain E12, partial genome.
+ACCESSION   HM585501 REGION: 1
+VERSION     HM585501.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585501.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E12"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Kenya"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585502                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain E13, partial genome.
+ACCESSION   HM585502 REGION: 1
+VERSION     HM585502.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585502.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E13"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Kenya"
+                     /note="a large proportion of genomes has a 4 kbp deletion
+                     extending from near the right end of UL (in UL55) to
+                     within RL; contains a frameshift mutation in gene UL55"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585503                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain E15, partial genome.
+ACCESSION   HM585503 REGION: 1
+VERSION     HM585503.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585503.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E15"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Kenya"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585504                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain E22, partial genome.
+ACCESSION   HM585504 REGION: 1
+VERSION     HM585504.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585504.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E22"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Kenya"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585505                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain E23, partial genome.
+ACCESSION   HM585505 REGION: 1
+VERSION     HM585505.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585505.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E23"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Kenya"
+                     /note="a large proportion of genomes contains a 1.5 kbp
+                     deletion extending from near the right end of UL (UL55) to
+                     RL that has been replaced by an inverted copy of 1.9 kbp
+                     from the left end of UL"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585506                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain E25, partial genome.
+ACCESSION   HM585506 REGION: 1
+VERSION     HM585506.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585506.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E25"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Kenya"
+                     /note="contains a frameshift mutation in gene UL13"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585507                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain E35, partial genome.
+ACCESSION   HM585507 REGION: 1
+VERSION     HM585507.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585507.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E35"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Kenya"
+                     /note="contains a 1.3 kbp deletion extending from near the
+                     right end of UL (UL55) to RL that has been replaced by an
+                     inverted copy of sequence at the left end of UL
+                     (8889-12417); deletion ablates genes UL55 and UL56"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585508                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain CR38, partial genome.
+ACCESSION   HM585508 REGION: 1
+VERSION     HM585508.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585508.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="CR38"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="China"
+                     /note="contains 2 unresolved gaps at the ends of UL"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585509                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain E03, partial genome.
+ACCESSION   HM585509 REGION: 1
+VERSION     HM585509.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585509.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E03"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Kenya"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585510                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain E14, partial genome.
+ACCESSION   HM585510 REGION: 1
+VERSION     HM585510.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585510.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E14"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Kenya"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585511                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain E19, partial genome.
+ACCESSION   HM585511 REGION: 1
+VERSION     HM585511.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585511.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="E19"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Kenya"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585512                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain S23, partial genome.
+ACCESSION   HM585512 REGION: 1
+VERSION     HM585512.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585512.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="S23"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Japan"
+                     /note="contains 2 unresolved gaps in RL and RS; contains a
+                     frameshift mutation in gene UL11"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585513                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain S25, partial genome.
+ACCESSION   HM585513 REGION: 1
+VERSION     HM585513.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585513.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="S25"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Japan"
+                     /note="contains a frameshift mutation in gene UL11"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585514                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain R11, partial genome.
+ACCESSION   HM585514 REGION: 1
+VERSION     HM585514.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585514.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="R11"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="South Korea"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       HM585515                   1 bp    DNA     linear   VRL 22-OCT-2013
+DEFINITION  Human herpesvirus 1 strain R62, partial genome.
+ACCESSION   HM585515 REGION: 1
+VERSION     HM585515.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230 (1), E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2010) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Oct 22, 2013 this sequence version replaced HM585515.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. A standard protein nomenclature has been applied so that
+            orthologs have the same name in all herpesviruses.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="R62"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="South Korea"
+                     /note="contains a frameshift mutation in gene UL11"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       JN400093                   1 bp    DNA     linear   VRL 02-NOV-2011
+DEFINITION  Human herpesvirus 1 strain 134, partial genome.
+ACCESSION   JN400093 REGION: 1
+VERSION     JN400093.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Adams,M., Cabot,E.L., Craven,M. and Brandt,C.R.
+  TITLE     Multiplex Sequencing of Seven Ocular Herpes Simplex Virus Type-1
+            Genomes: Phylogeny, Sequence Variability and SNP Distribution
+  JOURNAL   Invest. Ophthalmol. Vis. Sci. (2011) In press
+   PUBMED   22016062
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Brandt,C.R., Adams,M., Cabot,E.L. and Craven,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JUL-2011) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 1300 University Avenue, 3395 MSC,
+            Madison, WI 53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="134"
+                     /isolation_source="ocular isolate"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Seattle, Washington"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+ORIGIN      
+        1 c
+//
+
+LOCUS       JN420337                   1 bp    DNA     linear   VRL 02-NOV-2011
+DEFINITION  Human herpesvirus 1 strain TFT401, partial genome.
+ACCESSION   JN420337 REGION: 1
+VERSION     JN420337.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Adams,M., Cabot,E.L., Craven,M. and Brandt,C.R.
+  TITLE     Multiplex Sequencing of Seven Ocular Herpes Simplex Virus Type-1
+            Genomes: Phylogeny, Sequence Variability and SNP Distribution
+  JOURNAL   Invest. Ophthalmol. Vis. Sci. (2011) In press
+   PUBMED   22016062
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Brandt,C.R., Adams,M., Cabot,E.L. and Craven,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2011) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 1300 University Avenue, 3395 MSC,
+            Madison, WI 53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="TFT401"
+                     /isolation_source="ocular isolate"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Seattle, Washington"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking"
+                     /rpt_type=inverted
+ORIGIN      
+        1 c
+//
+
+LOCUS       JN420338                   1 bp    DNA     linear   VRL 02-NOV-2011
+DEFINITION  Human herpesvirus 1 strain CJ311, partial genome.
+ACCESSION   JN420338 REGION: 1
+VERSION     JN420338.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Adams,M., Cabot,E.L., Craven,M. and Brandt,C.R.
+  TITLE     Multiplex Sequencing of Seven Ocular Herpes Simplex Virus Type-1
+            Genomes: Phylogeny, Sequence Variability and SNP Distribution
+  JOURNAL   Invest. Ophthalmol. Vis. Sci. (2011) In press
+   PUBMED   22016062
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Brandt,C.R., Adams,M., Cabot,E.L. and Craven,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2011) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 1300 University Avenue, 3395 MSC,
+            Madison, WI 53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="CJ311"
+                     /isolation_source="ocular isolate"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Seattle, Washington"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+ORIGIN      
+        1 g
+//
+
+LOCUS       JN420339                   1 bp    DNA     linear   VRL 02-NOV-2011
+DEFINITION  Human herpesvirus 1 strain CJ360, partial genome.
+ACCESSION   JN420339 REGION: 1
+VERSION     JN420339.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Adams,M., Cabot,E.L., Craven,M. and Brandt,C.R.
+  TITLE     Multiplex Sequencing of Seven Ocular Herpes Simplex Virus Type-1
+            Genomes: Phylogeny, Sequence Variability and SNP Distribution
+  JOURNAL   Invest. Ophthalmol. Vis. Sci. (2011) In press
+   PUBMED   22016062
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Brandt,C.R., Adams,M., Cabot,E.L. and Craven,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2011) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 1300 University Avenue, 3395 MSC,
+            Madison, WI 53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="CJ360"
+                     /isolation_source="ocular isolate"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Seattle, Washington"
+     repeat_region   >1
+                     /note="TRL;inverted repeat flanking UL"
+                     /rpt_type=inverted
+ORIGIN      
+        1 g
+//
+
+LOCUS       JN420340                   1 bp    DNA     linear   VRL 02-NOV-2011
+DEFINITION  Human herpesvirus 1 strain CJ394, partial genome.
+ACCESSION   JN420340 REGION: 1
+VERSION     JN420340.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Adams,M., Cabot,E.L., Craven,M. and Brandt,C.R.
+  TITLE     Multiplex Sequencing of Seven Ocular Herpes Simplex Virus Type-1
+            Genomes: Phylogeny, Sequence Variability and SNP Distribution
+  JOURNAL   Invest. Ophthalmol. Vis. Sci. (2011) In press
+   PUBMED   22016062
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Brandt,C.R., Adams,M., Cabot,E.L. and Craven,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2011) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 1300 University Avenue, 3395 MSC,
+            Madison, WI 53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="CJ394"
+                     /isolation_source="ocular isolate"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Seattle, Washington"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+ORIGIN      
+        1 g
+//
+
+LOCUS       JN420341                   1 bp    DNA     linear   VRL 02-NOV-2011
+DEFINITION  Human herpesvirus 1 strain CJ970, partial genome.
+ACCESSION   JN420341 REGION: 1
+VERSION     JN420341.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Adams,M., Cabot,E.L., Craven,M. and Brandt,C.R.
+  TITLE     Multiplex Sequencing of Seven Ocular Herpes Simplex Virus Type-1
+            Genomes: Phylogeny, Sequence Variability and SNP Distribution
+  JOURNAL   Invest. Ophthalmol. Vis. Sci. (2011) In press
+   PUBMED   22016062
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Brandt,C.R., Adams,M., Cabot,E.L. and Craven,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2011) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 1300 University Avenue, 3395 MSC,
+            Madison, WI 53706, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="CJ970"
+                     /isolation_source="ocular isolate"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Seattle, Washington"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+ORIGIN      
+        1 a
+//
+
+LOCUS       JN420342                   1 bp    DNA     linear   VRL 02-MAR-2016
+DEFINITION  Human herpesvirus 1 strain OD4, partial genome.
+ACCESSION   JN420342 REGION: 1
+VERSION     JN420342.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Adams,M., Cabot,E.L., Craven,M. and Brandt,C.R.
+  TITLE     Multiplex Sequencing of Seven Ocular Herpes Simplex Virus Type-1
+            Genomes: Phylogeny, Sequence Variability and SNP Distribution
+  JOURNAL   Invest. Ophthalmol. Vis. Sci. (2011) In press
+   PUBMED   22016062
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Brandt,C.R., Adams,M., Cabot,E.L. and Craven,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2011) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 1300 University Avenue, 3395 MSC,
+            Madison, WI 53706, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Brandt,C.R., Adams,M., Cabot,E.L. and Craven,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-MAR-2016) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 1300 University Avenue, 3395 MSC,
+            Madison, WI 53706, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Mar 2, 2016 this sequence version replaced JN420342.1.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="OD4"
+                     /isolation_source="ocular isolate"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA: Seattle, Washington"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+ORIGIN      
+        1 g
+//
+
+LOCUS       JN555585                   1 bp    DNA     linear   VRL 09-MAY-2016
+DEFINITION  Human herpesvirus 1 strain 17, complete genome.
+ACCESSION   JN555585 REGION: 1
+VERSION     JN555585.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230, E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2011) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+COMMENT     The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. Initiation codons are assigned with as much confidence
+            as is possible for each protein-coding region. A standard protein
+            nomenclature has been applied so that orthologs have the same name
+            in all herpesviruses.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Maq v. 0.7.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="17"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="United Kingdom: Regional Virus Laboratory,
+                     Ruchill Hospital, Glasgow"
+                     /collected_by="C.A.C. Ross"
+                     /note="collected prior to 1972;
+                     collected prior to 1972; original sequence (INSD accession
+                     X14112) determined by Sanger sequencing of plasmids
+                     amended by Illumina sequencing of both viral DNA and polyA
+                     RNA harvested at 8 h after infection;
+                     acronym: HHV-1; acronym: HSV-1"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     gene            complement(<1..>1)
+                     /gene="LAT"
+     ncRNA           complement(<1..>1)
+                     /ncRNA_class="other"
+                     /gene="LAT"
+                     /product="LAT"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       JQ673480                   1 bp    DNA     linear   VRL 10-MAY-2012
+DEFINITION  Human herpesvirus 1 strain KOS, complete genome.
+ACCESSION   JQ673480 REGION: 1
+VERSION     JQ673480.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Macdonald,S.J., Mostafa,H.H., Morrison,L.A. and Davido,D.J.
+  TITLE     Genome Sequence of Herpes Simplex Virus 1 Strain KOS
+  JOURNAL   J. Virol. 86 (11), 6371-6372 (2012)
+   PUBMED   22570244
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Macdonald,S.J., Mostafa,H.H., Morrison,L.A. and Davido,D.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-FEB-2012) Department of Molecular Biosciences,
+            University of Kansas, 1200 Sunnyside Avenue, Lawrence, KS 66045,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Velvet v. 1.2.03; DNASTAR SeqMan Pro v. 9;
+                                     Bowtie v. 0.12.7
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="KOS"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="a sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     misc_feature    >1
+                     /note="velvet de novo assembly contig; ID node042"
+     misc_feature    >1
+                     /note="velvet de novo assembly contig; ID node008"
+ORIGIN      
+        1 g
+//
+
+LOCUS       JQ730035                   1 bp    DNA     linear   VRL 12-OCT-2012
+DEFINITION  Human herpesvirus 1 strain McKrae, partial genome.
+ACCESSION   JQ730035 REGION: 1
+VERSION     JQ730035.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Watson,G., Xu,W., Reed,A., Babra,B., Putman,T., Wick,E.,
+            Wechsler,S.L., Rohrmann,G.F. and Jin,L.
+  TITLE     Sequence and comparative analysis of the genome of HSV-1 strain
+            McKrae
+  JOURNAL   Virology 433 (2), 528-537 (2012)
+   PUBMED   23021301
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Watson,G., Wayne,X., Babra,B., Timothy,P., Elyse,W., Wechsler,S.L.,
+            Rohrmann,G.F. and Jin,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-MAR-2012) Biomedical Sciences, Oregon State
+            University, 105 Magruder Hall, Corvallis, OR 97331, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Watson,G., Wayne,X., Babra,B., Timothy,P., Elyse,W., Wechsler,S.L.,
+            Rohrmann,G.F. and Jin,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-SEP-2012) Biomedical Sciences, Oregon State
+            University, 105 Magruder Hall, Corvallis, OR 97331, USA
+  REMARK    Amino acid sequence updated by submitter
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="McKrae"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Mar-2012"
+                     /note="type: 1"
+     gene            complement(>1)
+                     /gene="LAT"
+     mRNA            complement(>1)
+                     /gene="LAT"
+                     /product="latency associated transcript"
+ORIGIN      
+        1 g
+//
+
+LOCUS       JQ780693                   1 bp    DNA     linear   VRL 24-APR-2012
+DEFINITION  Human herpesvirus 1 strain KOS, complete genome.
+ACCESSION   JQ780693 REGION: 1
+VERSION     JQ780693.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Payne,K.M., Russell,D.A. and Kinchington,P.R.
+  TITLE     Complete genome sequence of Herpes Simplex Virus Type-1 strain KOS
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Payne,K.M., Russell,D.A. and Kinchington,P.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-MAR-2012) Ophthalmology, University of Pittsburgh,
+            1020 Eye and Ear Institute, 203 Lothrop St, Pittsburgh, PA 15213,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: GS de novo Assembler (Newbler) v. 2.5.3;
+                                     phred/phrap/consed v. 20; CLCbio Main
+                                     Workbench v. 6.1; CLCbio Genomics
+                                     Workbench v. 4.7
+            Sequencing Technology :: 454
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="KOS"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=flanking
+                     /rpt_type=inverted
+     misc_feature    >1
+                     /note="Consed de novo assembly contig; ID contig875"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       JX142173                   1 bp    DNA     linear   VRL 23-AUG-2012
+DEFINITION  Human herpesvirus 1 strain Mckrae, partial genome.
+ACCESSION   JX142173 REGION: 1
+VERSION     JX142173.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Macdonald,S.J., Mostafa,H.H., Morrison,L.A. and Davido,D.J.
+  TITLE     Genome Sequence of Herpes Simplex Virus 1 Strain McKrae
+  JOURNAL   J. Virol. 86 (17), 9540-9541 (2012)
+   PUBMED   22879612
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Macdonald,S.J., Mostafa,H.H., Morrison,L.A. and Davido,D.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JUN-2012) Department of Molecular Biosciences,
+            University of Kansas, 1200 Sunnyside Avenue, Lawrence, KS 66045,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Velvet v. 1.2.03; Bowtie v. 0.12.7;
+                                     DNASTAR SeqMan Pro v. 9
+            Coverage              :: 1700
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Mckrae"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="1965"
+     misc_feature    >1
+                     /note="velvet de novo assembly contig; ID node054"
+     repeat_region   >1
+                     /note="a sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       KF498959                   1 bp    DNA     linear   VRL 07-AUG-2020
+DEFINITION  Human herpesvirus 1 isolate RE, complete genome.
+ACCESSION   KF498959 REGION: 1
+VERSION     KF498959.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Payne,K.M., Twaddle,A.C. Jr., Russell,D.A. and Kinchington,P.R.
+  TITLE     Genetic comparison of HSV-1 strains KOS and RE
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Payne,K.M., Twaddle,A.C. Jr., Russell,D.A. and Kinchington,P.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2013) Department of Ophthalmology, University of
+            Pittsburgh, 1020 Eye and Ear Institute, 203 Lothrop St, Pittsburgh,
+            PA 15213, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC Main Workbench v. 6.1; GS de novo
+                                     Assembler (Newbler) v. 2.5.3;
+                                     phred/phrap/consed v. 20
+            Sequencing Technology :: Sanger dideoxy sequencing; 454
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="RE"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="1967"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=flanking
+                     /rpt_type=inverted
+     misc_feature    complement(>1)
+                     /note="Consed de novo assembly contig; ID contig 77"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KJ847330                   1 bp    DNA     linear   VRL 03-MAY-2015
+DEFINITION  Human herpesvirus 1 isolate HSV-1/0116209/India/2011, complete
+            genome.
+ACCESSION   KJ847330 REGION: 1
+VERSION     KJ847330.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Bondre,V.P.
+  TITLE     Full-length genomic characterization of the clinical herpes simplex
+            virus type 1 by next-generation sequencing: Evidence for
+            association of an Amerindian strain with sporadic encephalitis in
+            India
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Bondre,V.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-MAY-2014) Encephalitis Group, National Institute of
+            Virology, Sus Road, Pashan, Pune, Maharashtra State 411021, India
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Torrent Suite v. 4.0; MIRA v. 4.0; IGV v.
+                                     2.3
+            Sequencing Technology :: IonTorrent
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-1/0116209/India/2011"
+                     /isolation_source="CSF from AES case"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="India"
+                     /collection_date="2011"
+     repeat_region   >1
+                     /note="TRL; inverted repeat; flanking UL"
+                     /rpt_type=flanking
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       KM222720                   1 bp    DNA     linear   VRL 02-DEC-2014
+DEFINITION  UNVERIFIED: Human herpesvirus 1 strain MacIntyre, partial genome.
+ACCESSION   KM222720 REGION: 1
+VERSION     KM222720.1
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Szpara,M.L., Tafuri,Y.R., Parsons,L., Shreve,J.T., Engel,E.A. and
+            Enquist,L.W.
+  TITLE     Genome Sequence of the Anterograde-Spread-Defective Herpes Simplex
+            Virus 1 Strain MacIntyre
+  JOURNAL   Genome Announc 2 (6) (2014)
+   PUBMED   25395637
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Szpara,M.L., Tafuri,Y., Parsons,L., Engel,E.A. and Enquist,L.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2014) Biochemistry and Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            University Park, PA 16802, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SSAKE v. 3.8; Celera v. 8.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="MacIntyre"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="1951"
+     repeat_region   >1
+                     /note="TRL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       KM222721                   1 bp    DNA     linear   VRL 06-MAR-2017
+DEFINITION  Human herpesvirus 1 strain KOS, partial genome.
+ACCESSION   KM222721 REGION: 1
+VERSION     KM222721.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Parsons,L.R., Tafuri,Y.R., Shreve,J.T., Bowen,C.D., Shipley,M.M.,
+            Enquist,L.W. and Szpara,M.L.
+  TITLE     Rapid genome assembly and comparison decode intrastrain variation
+            in human alphaherpesviruses
+  JOURNAL   MBio 6 (2), e02213-14 (2015)
+   PUBMED   25827418
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Szpara,M.L., Parsons,L., Tafuri,Y., Shreve,J.T., Bowen,C.,
+            Shipley,M.M. and Enquist,L.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2014) Biochemistry and Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            University Park, PA 16802, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SSAKE v. 3.8; Celera v. 8.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="KOS"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2010"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KM222722                   1 bp    DNA     linear   VRL 06-MAR-2017
+DEFINITION  Human herpesvirus 1 strain KOS, partial genome.
+ACCESSION   KM222722 REGION: 1
+VERSION     KM222722.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Parsons,L.R., Tafuri,Y.R., Shreve,J.T., Bowen,C.D., Shipley,M.M.,
+            Enquist,L.W. and Szpara,M.L.
+  TITLE     Rapid genome assembly and comparison decode intrastrain variation
+            in human alphaherpesviruses
+  JOURNAL   MBio 6 (2), e02213-14 (2015)
+   PUBMED   25827418
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Szpara,M.L., Parsons,L., Tafuri,Y., Shreve,J.T., Bowen,C.,
+            Shipley,M.M. and Enquist,L.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2014) Biochemistry and Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            University Park, PA 16802, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SSAKE v. 3.8; Celera v. 8.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="KOS"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2010"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KM222723                   1 bp    DNA     linear   VRL 06-MAR-2017
+DEFINITION  Human herpesvirus 1 strain KOS, partial genome.
+ACCESSION   KM222723 REGION: 1
+VERSION     KM222723.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Parsons,L.R., Tafuri,Y.R., Shreve,J.T., Bowen,C.D., Shipley,M.M.,
+            Enquist,L.W. and Szpara,M.L.
+  TITLE     Rapid genome assembly and comparison decode intrastrain variation
+            in human alphaherpesviruses
+  JOURNAL   MBio 6 (2), e02213-14 (2015)
+   PUBMED   25827418
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Szpara,M.L., Parsons,L., Tafuri,Y., Shreve,J.T., Bowen,C.,
+            Shipley,M.M. and Enquist,L.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2014) Biochemistry and Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            University Park, PA 16802, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SSAKE v. 3.8; Celera v. 8.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="KOS"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2010"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KM222724                   1 bp    DNA     linear   VRL 06-MAR-2017
+DEFINITION  Human herpesvirus 1 strain F, partial genome.
+ACCESSION   KM222724 REGION: 1
+VERSION     KM222724.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Parsons,L.R., Tafuri,Y.R., Shreve,J.T., Bowen,C.D., Shipley,M.M.,
+            Enquist,L.W. and Szpara,M.L.
+  TITLE     Rapid genome assembly and comparison decode intrastrain variation
+            in human alphaherpesviruses
+  JOURNAL   MBio 6 (2), e02213-14 (2015)
+   PUBMED   25827418
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Szpara,M.L., Parsons,L., Tafuri,Y., Shreve,J.T., Bowen,C.,
+            Shipley,M.M. and Enquist,L.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2014) Biochemistry and Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            University Park, PA 16802, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SSAKE v. 3.8; Celera v. 8.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="F"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2010"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KM222725                   1 bp    DNA     linear   VRL 06-MAR-2017
+DEFINITION  Human herpesvirus 1 strain F, partial genome.
+ACCESSION   KM222725 REGION: 1
+VERSION     KM222725.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Parsons,L.R., Tafuri,Y.R., Shreve,J.T., Bowen,C.D., Shipley,M.M.,
+            Enquist,L.W. and Szpara,M.L.
+  TITLE     Rapid genome assembly and comparison decode intrastrain variation
+            in human alphaherpesviruses
+  JOURNAL   MBio 6 (2), e02213-14 (2015)
+   PUBMED   25827418
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Szpara,M.L., Parsons,L., Tafuri,Y., Shreve,J.T., Bowen,C.,
+            Shipley,M.M. and Enquist,L.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2014) Biochemistry and Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            University Park, PA 16802, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SSAKE v. 3.8; Celera v. 8.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="F"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2010"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+

@@ -1,0 +1,2383 @@
+LOCUS       KM222726                   1 bp    DNA     linear   VRL 06-MAR-2017
+DEFINITION  Human herpesvirus 1 strain H166, partial genome.
+ACCESSION   KM222726 REGION: 1
+VERSION     KM222726.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Parsons,L.R., Tafuri,Y.R., Shreve,J.T., Bowen,C.D., Shipley,M.M.,
+            Enquist,L.W. and Szpara,M.L.
+  TITLE     Rapid genome assembly and comparison decode intrastrain variation
+            in human alphaherpesviruses
+  JOURNAL   MBio 6 (2), e02213-14 (2015)
+   PUBMED   25827418
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Szpara,M.L., Parsons,L., Tafuri,Y., Shreve,J.T., Bowen,C.,
+            Shipley,M.M. and Enquist,L.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2014) Biochemistry and Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            University Park, PA 16802, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SSAKE v. 3.8; Celera v. 8.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="H166"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="1980"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KM222727                   1 bp    DNA     linear   VRL 06-MAR-2017
+DEFINITION  Human herpesvirus 1 strain H166syn, partial genome.
+ACCESSION   KM222727 REGION: 1
+VERSION     KM222727.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Parsons,L.R., Tafuri,Y.R., Shreve,J.T., Bowen,C.D., Shipley,M.M.,
+            Enquist,L.W. and Szpara,M.L.
+  TITLE     Rapid genome assembly and comparison decode intrastrain variation
+            in human alphaherpesviruses
+  JOURNAL   MBio 6 (2), e02213-14 (2015)
+   PUBMED   25827418
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Szpara,M.L., Parsons,L., Tafuri,Y., Shreve,J.T., Bowen,C.,
+            Shipley,M.M. and Enquist,L.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2014) Biochemistry and Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            University Park, PA 16802, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SSAKE v. 3.8; Celera v. 8.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="H166syn"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="1980"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR011274                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 10-2-3, partial genome.
+ACCESSION   KR011274 REGION: 1
+VERSION     KR011274.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="10-2-3"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR011275                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 34L, partial genome.
+ACCESSION   KR011275 REGION: 1
+VERSION     KR011275.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="34L"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     repeat_region   >1
+                     /note="'a' sequence reiteration set"
+                     /rpt_type=direct
+                     /rpt_type=tandem
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011276                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 57M, partial genome.
+ACCESSION   KR011276 REGION: 1
+VERSION     KR011276.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="57M"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR011277                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 10-2-2, partial genome.
+ACCESSION   KR011277 REGION: 1
+VERSION     KR011277.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="10-2-2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     repeat_region   >1
+                     /note="'a' sequence reiteration set"
+                     /rpt_type=direct
+                     /rpt_type=tandem
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011278                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 4M, partial genome.
+ACCESSION   KR011278 REGION: 1
+VERSION     KR011278.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="4M"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR011279                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 36L, partial genome.
+ACCESSION   KR011279 REGION: 1
+VERSION     KR011279.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="36L"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011280                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 8S, partial genome.
+ACCESSION   KR011280 REGION: 1
+VERSION     KR011280.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="8S"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011281                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 66S, partial genome.
+ACCESSION   KR011281 REGION: 1
+VERSION     KR011281.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="66S"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR011282                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 3M, partial genome.
+ACCESSION   KR011282 REGION: 1
+VERSION     KR011282.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="3M"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     repeat_region   >1
+                     /note="'a' sequence reiteration set"
+                     /rpt_type=direct
+                     /rpt_type=tandem
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR011283                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain CJ994, partial genome.
+ACCESSION   KR011283 REGION: 1
+VERSION     KR011283.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="CJ994"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR011284                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 10-6-3, partial genome.
+ACCESSION   KR011284 REGION: 1
+VERSION     KR011284.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="10-6-3"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR011285                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 5-2-1, partial genome.
+ACCESSION   KR011285 REGION: 1
+VERSION     KR011285.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="5-2-1"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR011286                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 12-12-67, partial genome.
+ACCESSION   KR011286 REGION: 1
+VERSION     KR011286.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="12-12-67"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011287                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 10-11-2, partial genome.
+ACCESSION   KR011287 REGION: 1
+VERSION     KR011287.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="10-11-2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     repeat_region   >1
+                     /note="'a' sequence reiteration set"
+                     /rpt_type=direct
+                     /rpt_type=tandem
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011288                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 2-4-2, partial genome.
+ACCESSION   KR011288 REGION: 1
+VERSION     KR011288.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="2-4-2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     repeat_region   >1
+                     /note="'a' sequence reiteration set"
+                     /rpt_type=direct
+                     /rpt_type=tandem
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011289                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 20L, partial genome.
+ACCESSION   KR011289 REGION: 1
+VERSION     KR011289.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="20L"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 c
+//
+
+LOCUS       KR011290                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 10-7-1, partial genome.
+ACCESSION   KR011290 REGION: 1
+VERSION     KR011290.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="10-7-1"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     repeat_region   >1
+                     /note="'a' sequence reiteration set"
+                     /rpt_type=direct
+                     /rpt_type=tandem
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011291                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 10-14-1, partial genome.
+ACCESSION   KR011291 REGION: 1
+VERSION     KR011291.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="10-14-1"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     repeat_region   >1
+                     /note="'a' sequence reiteration set"
+                     /rpt_type=direct
+                     /rpt_type=tandem
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011292                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 2-5-3, partial genome.
+ACCESSION   KR011292 REGION: 1
+VERSION     KR011292.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="2-5-3"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     repeat_region   >1
+                     /note="'a' sequence reiteration set"
+                     /rpt_type=direct
+                     /rpt_type=tandem
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011293                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 19Lsyn, partial genome.
+ACCESSION   KR011293 REGION: 1
+VERSION     KR011293.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="19Lsyn"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     repeat_region   >1
+                     /note="'a' sequence reiteration set"
+                     /rpt_type=direct
+                     /rpt_type=tandem
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011294                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 11M, partial genome.
+ACCESSION   KR011294 REGION: 1
+VERSION     KR011294.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="11M"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     repeat_region   >1
+                     /note="'a' sequence reiteration set"
+                     /rpt_type=direct
+                     /rpt_type=tandem
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011295                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 5-5-2, partial genome.
+ACCESSION   KR011295 REGION: 1
+VERSION     KR011295.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="5-5-2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     repeat_region   >1
+                     /note="'a' sequence reiteration set"
+                     /rpt_type=direct
+                     /rpt_type=tandem
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011296                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 10-6-1, partial genome.
+ACCESSION   KR011296 REGION: 1
+VERSION     KR011296.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="10-6-1"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR011297                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 27S, partial genome.
+ACCESSION   KR011297 REGION: 1
+VERSION     KR011297.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="27S"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     repeat_region   >1
+                     /note="'a' sequence reiteration set"
+                     /rpt_type=direct
+                     /rpt_type=tandem
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011298                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 12-12-2, partial genome.
+ACCESSION   KR011298 REGION: 1
+VERSION     KR011298.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="12-12-2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011299                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 5-1-1, partial genome.
+ACCESSION   KR011299 REGION: 1
+VERSION     KR011299.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="5-1-1"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 c
+//
+
+LOCUS       KR011300                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 76M, partial genome.
+ACCESSION   KR011300 REGION: 1
+VERSION     KR011300.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="76M"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR011301                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 10-5-1, partial genome.
+ACCESSION   KR011301 REGION: 1
+VERSION     KR011301.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="10-5-1"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011302                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 10-1-2, partial genome.
+ACCESSION   KR011302 REGION: 1
+VERSION     KR011302.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="10-1-2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     repeat_region   >1
+                     /note="'a' sequence reiteration set"
+                     /rpt_type=direct
+                     /rpt_type=tandem
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011303                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 16S, partial genome.
+ACCESSION   KR011303 REGION: 1
+VERSION     KR011303.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="16S"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR011304                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 31XL, partial genome.
+ACCESSION   KR011304 REGION: 1
+VERSION     KR011304.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="31XL"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011305                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 47M, partial genome.
+ACCESSION   KR011305 REGION: 1
+VERSION     KR011305.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="47M"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 c
+//
+
+LOCUS       KR011306                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 10-6-2, partial genome.
+ACCESSION   KR011306 REGION: 1
+VERSION     KR011306.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="10-6-2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011307                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 82S, partial genome.
+ACCESSION   KR011307 REGION: 1
+VERSION     KR011307.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="82S"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR011308                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 26S, partial genome.
+ACCESSION   KR011308 REGION: 1
+VERSION     KR011308.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="26S"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR011309                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 10-11-3, partial genome.
+ACCESSION   KR011309 REGION: 1
+VERSION     KR011309.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="10-11-3"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+     repeat_region   >1
+                     /note="'a' sequence reiteration set"
+                     /rpt_type=direct
+                     /rpt_type=tandem
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011310                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 83M, partial genome.
+ACCESSION   KR011310 REGION: 1
+VERSION     KR011310.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="83M"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 c
+//
+
+LOCUS       KR011311                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 5-4-2, partial genome.
+ACCESSION   KR011311 REGION: 1
+VERSION     KR011311.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="5-4-2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       KR011312                   1 bp    DNA     linear   VRL 13-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 65M, partial genome.
+ACCESSION   KR011312 REGION: 1
+VERSION     KR011312.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Sverchkov,Y., Cuellar,J.A., Craven,M. and
+            Brandt,C.R.
+  TITLE     Recombination Analysis of Herpes Simplex Virus Type 1 Reveals a
+            Bias towards GC Content and the Inverted Repeat Regions
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25926637
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lee,K., Kolb,A.W., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="65M"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR052507                   1 bp    DNA     linear   VRL 25-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 78S partial genome.
+ACCESSION   KR052507 REGION: 1
+VERSION     KR052507.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Larsen,I.V., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Genomic, Phylogenetic, and Recombinational Characterization of
+            Herpes Simplex Virus Type 2 Strains
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25855744
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Lee,K., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="78S"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR052508                   1 bp    DNA     linear   VRL 25-MAY-2015
+DEFINITION  Human herpesvirus 1 strain 81L partial genome.
+ACCESSION   KR052508 REGION: 1
+VERSION     KR052508.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Larsen,I.V., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Genomic, Phylogenetic, and Recombinational Characterization of
+            Herpes Simplex Virus Type 2 Strains
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25855744
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Lee,K., Craven,M., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-MAR-2015) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="81L"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /note="recombinant virus; parental strains OD4 and CJ994"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /rpt_type=direct
+ORIGIN      
+        1 g
+//
+
+LOCUS       KT780616                   1 bp    DNA     linear   VRL 07-MAR-2016
+DEFINITION  Human alphaherpesvirus 1 strain L2, partial genome.
+ACCESSION   KT780616 REGION: 1
+VERSION     KT780616.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Skoblov,M.Y., Lavrov,A.V., Zubtsov,D.A., Bragin,A. and Skoblov,Y.S.
+  TITLE     Genome Sequence of Herpes Simplex Virus 1 Strain L2
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Skoblov,M.Y., Lavrov,A.V., Zubtsov,D.A., Bragin,A. and Skoblov,Y.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-SEP-2015) Laboratory of Epidemiologic Genetics,
+            Research Center for Medical Genetics, Moskvorechie 1, Moscow
+            115478, Russia
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.5.0.
+            Coverage              :: 60
+            Sequencing Technology :: IonTorrent
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="L2"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Russia"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KT887224                   1 bp    DNA     linear   VRL 21-NOV-2015
+DEFINITION  Human alphaherpesvirus 1 isolate KOS 1.1, complete genome.
+ACCESSION   KT887224 REGION: 1
+VERSION     KT887224.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Colgrove,R.C., Liu,X., Griffiths,A., Raja,P., Deluca,N.A.,
+            Newman,R.M., Coen,D.M. and Knipe,D.M.
+  TITLE     History and genomic sequence analysis of the herpes simplex virus 1
+            KOS and KOS1.1 sub-strains
+  JOURNAL   Virology 487, 215-221 (2015)
+   PUBMED   26547038
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Colgrove,R.C., Liu,X., Griffiths,A., Raja,P., Coen,D., Deluca,N.
+            and Knipe,D.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-OCT-2015) Department of Microbiology and
+            Immunobiology, Harvard Medical School, 77 Avenue Louis Pasteur,
+            Boston, MA 02115, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS v. R 44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="KOS 1.1"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="1964"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KT899744                   1 bp    DNA     linear   VRL 21-NOV-2015
+DEFINITION  Human alphaherpesvirus 1 isolate KOS, complete genome.
+ACCESSION   KT899744 REGION: 1
+VERSION     KT899744.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Colgrove,R.C., Liu,X., Griffiths,A., Raja,P., Deluca,N.A.,
+            Newman,R.M., Coen,D.M. and Knipe,D.M.
+  TITLE     History and genomic sequence analysis of the herpes simplex virus 1
+            KOS and KOS1.1 sub-strains
+  JOURNAL   Virology 487, 215-221 (2015)
+   PUBMED   26547038
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Colgrove,R.C., Liu,X., Griffiths,A., Raja,P., Coen,D., Deluca,N.
+            and Knipe,D.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-OCT-2015) Department of Microbiology and
+            Immunobiology, Harvard Medical School, 77 Avenue Louis Pasteur,
+            Boston, MA 02115, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="KOS"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="1964"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KU310657                   1 bp    DNA     linear   VRL 26-AUG-2016
+DEFINITION  Human alphaherpesvirus 1 isolate B^3x1.1, partial genome.
+ACCESSION   KU310657 REGION: 1
+VERSION     KU310657.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Weinrick,B., Khajoueinejad,N., Burn,C., Sellers,R.,
+            Jacobs,W.R. Jr. and Herold,B.C.
+  TITLE     HSV-2 DeltagD elicits FcgammaR-effector antibodies that protect
+            against clinical isolates
+  JOURNAL   JCI Insight 1 (12) (2016) In press
+   PUBMED   27536733
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Gonzalez,P.A., Weiss,K., Khajoueinejad,N.,
+            Cheshenko,N., Weinrick,B.C., Sengupta,M., Jacobs,W.R. Jr. and
+            Herold,B.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-DEC-2015) Microbiology and Immunology, Albert
+            Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY
+            10461, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: VirAmp pipeline v. accessed 6/4-11/19/2015
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="B^3x1.1"
+                     /host="Chlorocebus sabaeus"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Jan-2015"
+     gene            <1..>1
+                     /gene="RL1"
+     CDS             <1..>1
+                     /gene="RL1"
+                     /note="similar to Human herpesvirus 1 strain
+                     17(NC_001806)"
+                     /codon_start=2
+                     /product="neurovirulence protein ICP34.5"
+                     /protein_id="AMB65596.1"
+                     /translation="PATPATPATPARVRFSPHVRVRHLVVWASAARLARRGSWARERA
+                     DRARFRRRVAEAEAVIGPCLGPEARARALARGAGPAN"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KU310658                   1 bp    DNA     linear   VRL 26-AUG-2016
+DEFINITION  Human alphaherpesvirus 1 isolate B^3x1.2, partial genome.
+ACCESSION   KU310658 REGION: 1
+VERSION     KU310658.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Weinrick,B., Khajoueinejad,N., Burn,C., Sellers,R.,
+            Jacobs,W.R. Jr. and Herold,B.C.
+  TITLE     HSV-2 DeltagD elicits FcgammaR-effector antibodies that protect
+            against clinical isolates
+  JOURNAL   JCI Insight 1 (12) (2016) In press
+   PUBMED   27536733
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Gonzalez,P.A., Weiss,K., Khajoueinejad,N.,
+            Cheshenko,N., Weinrick,B.C., Sengupta,M., Jacobs,W.R. Jr. and
+            Herold,B.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-DEC-2015) Microbiology and Immunology, Albert
+            Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY
+            10461, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: VirAmp pipeline v. accessed 6/4-11/19/2015
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="B^3x1.2"
+                     /host="Chlorocebus sabaeus"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Jan-2015"
+     gene            <1..>1
+                     /gene="RL1"
+     CDS             <1..>1
+                     /gene="RL1"
+                     /note="similar to Human herpesvirus 1 strain
+                     17(NC_001806)"
+                     /codon_start=1
+                     /product="neurovirulence protein ICP34.5"
+                     /protein_id="AMB65670.1"
+                     /translation="PSRPFRLPPRLALRLRVTAEHLARLRLRRAGGEGAPEPPATPAT
+                     PATPATPARVRFSPHVRVRHLVVWASAARLARRGSWARERADRARFRRRVAEAEAVIG
+                     PCLGPEARARALARGAGPAN"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KU310659                   1 bp    DNA     linear   VRL 26-AUG-2016
+DEFINITION  Human alphaherpesvirus 1 isolate B^3x1.3, partial genome.
+ACCESSION   KU310659 REGION: 1
+VERSION     KU310659.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Weinrick,B., Khajoueinejad,N., Burn,C., Sellers,R.,
+            Jacobs,W.R. Jr. and Herold,B.C.
+  TITLE     HSV-2 DeltagD elicits FcgammaR-effector antibodies that protect
+            against clinical isolates
+  JOURNAL   JCI Insight 1 (12) (2016) In press
+   PUBMED   27536733
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Gonzalez,P.A., Weiss,K., Khajoueinejad,N.,
+            Cheshenko,N., Weinrick,B.C., Sengupta,M., Jacobs,W.R. Jr. and
+            Herold,B.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-DEC-2015) Microbiology and Immunology, Albert
+            Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY
+            10461, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: VirAmp pipeline v. accessed 6/4-11/19/2015
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="B^3x1.3"
+                     /host="Chlorocebus sabaeus"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Jan-2015"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KU310660                   1 bp    DNA     linear   VRL 26-AUG-2016
+DEFINITION  Human alphaherpesvirus 1 isolate B^3x1.4, partial genome.
+ACCESSION   KU310660 REGION: 1
+VERSION     KU310660.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Weinrick,B., Khajoueinejad,N., Burn,C., Sellers,R.,
+            Jacobs,W.R. Jr. and Herold,B.C.
+  TITLE     HSV-2 DeltagD elicits FcgammaR-effector antibodies that protect
+            against clinical isolates
+  JOURNAL   JCI Insight 1 (12) (2016) In press
+   PUBMED   27536733
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Gonzalez,P.A., Weiss,K., Khajoueinejad,N.,
+            Cheshenko,N., Weinrick,B.C., Sengupta,M., Jacobs,W.R. Jr. and
+            Herold,B.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-DEC-2015) Microbiology and Immunology, Albert
+            Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY
+            10461, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: VirAmp pipeline v. accessed 6/4-11/19/2015
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="B^3x1.4"
+                     /host="Chlorocebus sabaeus"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Jan-2015"
+ORIGIN      
+        1 a
+//
+

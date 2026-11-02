@@ -1,0 +1,2062 @@
+LOCUS       MN401202                   1 bp    DNA     linear   VRL 23-AUG-2023
+DEFINITION  Human alphaherpesvirus 1 strain Sample1_DOCK8, partial genome.
+ACCESSION   MN401202 REGION: 1
+VERSION     MN401202.1
+DBLINK      BioProject: PRJNA562737
+            BioSample: SAMN12649473
+            Sequence Read Archive: SRR10032867
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Stout,S.C., Selvarangan,R., Freeman,A.F., Newell,B.D.,
+            Stahl,E.D., Ahmed,A.A., Greninger,A.L. and Yin,D.E.
+  TITLE     Evaluation of Genotypic Antiviral Resistance Testing as an
+            Alternative to Phenotypic Testing in a Patient with DOCK8
+            Deficiency and Severe HSV-1 Disease
+  JOURNAL   J. Infect. Dis. (2020) In press
+   PUBMED   31970398
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Stout,S.C., Selvarangan,R., Freeman,A.F., Newell,B.D.,
+            Stahl,E.D., Greninger,A.L. and Yin,D.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2019) Department of Laboratory Medicine,
+            University of Washington, 850 Republican St., S130, Seattle, WA
+            98109, USA
+COMMENT     ##Assembly-Data-START## ##Assembly-Data-END##.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Sample1_DOCK8"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2015"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MN401203                   1 bp    DNA     linear   VRL 23-AUG-2023
+DEFINITION  Human alphaherpesvirus 1 strain Sample2_DOCK8, partial genome.
+ACCESSION   MN401203 REGION: 1
+VERSION     MN401203.1
+DBLINK      BioProject: PRJNA562737
+            BioSample: SAMN12649474
+            Sequence Read Archive: SRR10032866
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Stout,S.C., Selvarangan,R., Freeman,A.F., Newell,B.D.,
+            Stahl,E.D., Ahmed,A.A., Greninger,A.L. and Yin,D.E.
+  TITLE     Evaluation of Genotypic Antiviral Resistance Testing as an
+            Alternative to Phenotypic Testing in a Patient with DOCK8
+            Deficiency and Severe HSV-1 Disease
+  JOURNAL   J. Infect. Dis. (2020) In press
+   PUBMED   31970398
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Stout,S.C., Selvarangan,R., Freeman,A.F., Newell,B.D.,
+            Stahl,E.D., Greninger,A.L. and Yin,D.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2019) Department of Laboratory Medicine,
+            University of Washington, 850 Republican St., S130, Seattle, WA
+            98109, USA
+COMMENT     ##Assembly-Data-START## ##Assembly-Data-END##.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Sample2_DOCK8"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2015"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MN401204                   1 bp    DNA     linear   VRL 23-AUG-2023
+DEFINITION  Human alphaherpesvirus 1 strain Sample3_DOCK8, partial genome.
+ACCESSION   MN401204 REGION: 1
+VERSION     MN401204.1
+DBLINK      BioProject: PRJNA562737
+            BioSample: SAMN12649475
+            Sequence Read Archive: SRR10032865
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Stout,S.C., Selvarangan,R., Freeman,A.F., Newell,B.D.,
+            Stahl,E.D., Ahmed,A.A., Greninger,A.L. and Yin,D.E.
+  TITLE     Evaluation of Genotypic Antiviral Resistance Testing as an
+            Alternative to Phenotypic Testing in a Patient with DOCK8
+            Deficiency and Severe HSV-1 Disease
+  JOURNAL   J. Infect. Dis. (2020) In press
+   PUBMED   31970398
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Stout,S.C., Selvarangan,R., Freeman,A.F., Newell,B.D.,
+            Stahl,E.D., Greninger,A.L. and Yin,D.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2019) Department of Laboratory Medicine,
+            University of Washington, 850 Republican St., S130, Seattle, WA
+            98109, USA
+COMMENT     ##Assembly-Data-START## ##Assembly-Data-END##.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Sample3_DOCK8"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2015"
+ORIGIN      
+        1 c
+//
+
+LOCUS       MN401205                   1 bp    DNA     linear   VRL 23-AUG-2023
+DEFINITION  Human alphaherpesvirus 1 strain Sample6_DOCK8, partial genome.
+ACCESSION   MN401205 REGION: 1
+VERSION     MN401205.1
+DBLINK      BioProject: PRJNA562737
+            BioSample: SAMN12649476
+            Sequence Read Archive: SRR10032864
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Stout,S.C., Selvarangan,R., Freeman,A.F., Newell,B.D.,
+            Stahl,E.D., Ahmed,A.A., Greninger,A.L. and Yin,D.E.
+  TITLE     Evaluation of Genotypic Antiviral Resistance Testing as an
+            Alternative to Phenotypic Testing in a Patient with DOCK8
+            Deficiency and Severe HSV-1 Disease
+  JOURNAL   J. Infect. Dis. (2020) In press
+   PUBMED   31970398
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Stout,S.C., Selvarangan,R., Freeman,A.F., Newell,B.D.,
+            Stahl,E.D., Greninger,A.L. and Yin,D.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2019) Department of Laboratory Medicine,
+            University of Washington, 850 Republican St., S130, Seattle, WA
+            98109, USA
+COMMENT     ##Assembly-Data-START## ##Assembly-Data-END##.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Sample6_DOCK8"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2016"
+ORIGIN      
+        1 a
+//
+
+LOCUS       MN401206                   1 bp    DNA     linear   VRL 23-AUG-2023
+DEFINITION  Human alphaherpesvirus 1 strain Sample8_DOCK8, partial genome.
+ACCESSION   MN401206 REGION: 1
+VERSION     MN401206.1
+DBLINK      BioProject: PRJNA562737
+            BioSample: SAMN12649477
+            Sequence Read Archive: SRR10032863
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Stout,S.C., Selvarangan,R., Freeman,A.F., Newell,B.D.,
+            Stahl,E.D., Ahmed,A.A., Greninger,A.L. and Yin,D.E.
+  TITLE     Evaluation of Genotypic Antiviral Resistance Testing as an
+            Alternative to Phenotypic Testing in a Patient with DOCK8
+            Deficiency and Severe HSV-1 Disease
+  JOURNAL   J. Infect. Dis. (2020) In press
+   PUBMED   31970398
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Stout,S.C., Selvarangan,R., Freeman,A.F., Newell,B.D.,
+            Stahl,E.D., Greninger,A.L. and Yin,D.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2019) Department of Laboratory Medicine,
+            University of Washington, 850 Republican St., S130, Seattle, WA
+            98109, USA
+COMMENT     ##Assembly-Data-START## ##Assembly-Data-END##.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Sample8_DOCK8"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2017"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MN401207                   1 bp    DNA     linear   VRL 23-AUG-2023
+DEFINITION  Human alphaherpesvirus 1 strain Sample9_DOCK8, partial genome.
+ACCESSION   MN401207 REGION: 1
+VERSION     MN401207.1
+DBLINK      BioProject: PRJNA562737
+            BioSample: SAMN12649478
+            Sequence Read Archive: SRR10032862
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Stout,S.C., Selvarangan,R., Freeman,A.F., Newell,B.D.,
+            Stahl,E.D., Ahmed,A.A., Greninger,A.L. and Yin,D.E.
+  TITLE     Evaluation of Genotypic Antiviral Resistance Testing as an
+            Alternative to Phenotypic Testing in a Patient with DOCK8
+            Deficiency and Severe HSV-1 Disease
+  JOURNAL   J. Infect. Dis. (2020) In press
+   PUBMED   31970398
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Stout,S.C., Selvarangan,R., Freeman,A.F., Newell,B.D.,
+            Stahl,E.D., Greninger,A.L. and Yin,D.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2019) Department of Laboratory Medicine,
+            University of Washington, 850 Republican St., S130, Seattle, WA
+            98109, USA
+COMMENT     ##Assembly-Data-START## ##Assembly-Data-END##.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Sample9_DOCK8"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2017"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MN401208                   1 bp    DNA     linear   VRL 23-AUG-2023
+DEFINITION  Human alphaherpesvirus 1 strain Sammple11_DOCK8, partial genome.
+ACCESSION   MN401208 REGION: 1
+VERSION     MN401208.1
+DBLINK      BioProject: PRJNA562737
+            BioSample: SAMN12649479
+            Sequence Read Archive: SRR10032861
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Stout,S.C., Selvarangan,R., Freeman,A.F., Newell,B.D.,
+            Stahl,E.D., Ahmed,A.A., Greninger,A.L. and Yin,D.E.
+  TITLE     Evaluation of Genotypic Antiviral Resistance Testing as an
+            Alternative to Phenotypic Testing in a Patient with DOCK8
+            Deficiency and Severe HSV-1 Disease
+  JOURNAL   J. Infect. Dis. (2020) In press
+   PUBMED   31970398
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Stout,S.C., Selvarangan,R., Freeman,A.F., Newell,B.D.,
+            Stahl,E.D., Greninger,A.L. and Yin,D.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2019) Department of Laboratory Medicine,
+            University of Washington, 850 Republican St., S130, Seattle, WA
+            98109, USA
+COMMENT     ##Assembly-Data-START## ##Assembly-Data-END##.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Sammple11_DOCK8"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2018"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MN925871                   1 bp    DNA     linear   VRL 19-FEB-2020
+DEFINITION  UNVERIFIED: Human alphaherpesvirus 1 strain Sample4_DOCK8, complete
+            genome.
+ACCESSION   MN925871 REGION: 1
+VERSION     MN925871.1
+DBLINK      BioProject: PRJNA562737
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Stout,S.C., Selvarangan,R., Freeman,A.F., Newell,B.D.,
+            Stahl,E.D., Ahmed,A.A., Greninger,A.L. and Yin,D.E.
+  TITLE     Evaluation of Genotypic Antiviral Resistance Testing as an
+            Alternative to Phenotypic Testing in a Patient with DOCK8
+            Deficiency and Severe HSV-1 Disease
+  JOURNAL   J. Infect. Dis. (2020) In press
+   PUBMED   31970398
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Casto,A.M., Stout,S.C., Selvarangan,R., Freeman,A.F., Newell,B.D.,
+            Stahl,E.D., Ahmed,A.A., Greninger,A.L. and Yin,D.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JAN-2020) Department of Laboratory Medicine,
+            University of Washington, 850 Republican St., S130, Seattle, WA
+            98109, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. 9.1.8
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="Sample4_DOCK8"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2015"
+ORIGIN      
+        1 g
+//
+
+LOCUS       MT876428                   1 bp    DNA     linear   VRL 23-JUL-2021
+DEFINITION  Human alphaherpesvirus 1 strain 6439cm, partial genome.
+ACCESSION   MT876428 REGION: 1
+VERSION     MT876428.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Herlinger,A.L., Monteiro,F.L., D'Arc,M., Westgarth,H.,
+            Moreira,F.R.R., Galliez,R.M., Mariani,D., Costa,L.J., Almeida,L.,
+            Workgroup,C.U.F.R.J., Melo,A.S.O., Aguiar,R.S., Santos,A.F.A.,
+            Castineiras,T.M.P.P., Vasconcelos,A.T.R., Filho,E.C.J.,
+            Ferreira,O.C., Tanuri,A. and Higa,L.M.
+  TITLE     SARS-CoV-2 and Herpes Simplex Virus type 1 co-infection: a case
+            report
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Herlinger,A.L., Monteiro,F.L., D'Arc,M., Westgarth,H.,
+            Moreira,F.R.R., Galliez,R.M., Mariani,D., Costa,L.J., Almeida,L.,
+            Workgroup,C.U.F.R.J., Melo,A.S.O., Aguiar,R.S., Santos,A.F.A.,
+            Castineiras,T.M.P.P., Vasconcelos,A.T.R., Filho,E.C.J.,
+            Ferreira,O.C., Tanuri,A. and Higa,L.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-AUG-2020) Labinfo, LNCC, Rua Getulio Vargas, 333,
+            1A28, Rio de Janeiro, RJ 25651075, Brasil
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: BWA v. 0.7.12-r1039; Samtools v. 0.1.20
+            Coverage              :: 80
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="6439cm"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="Brazil"
+                     /collection_date="2020-04-30"
+ORIGIN      
+        1 g
+//
+
+LOCUS       NC_001806                  1 bp    DNA     linear   VRL 13-AUG-2018
+DEFINITION  Human herpesvirus 1 strain 17, complete genome.
+ACCESSION   NC_001806 REGION: 1
+VERSION     NC_001806.2
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually transmitted and sexually transmissible human
+            herpesviruses
+  JOURNAL   Ann. N. Y. Acad. Sci. 1230, E37-E49 (2011)
+   PUBMED   22417106
+REFERENCE   2  (bases 1 to 1)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-MAY-2015) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2011) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JN555585.
+            
+            On May 12, 2015 this sequence version replaced NC_001806.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. Initiation codons are assigned with as much confidence
+            as is possible for each protein-coding region. A standard protein
+            nomenclature has been applied so that orthologs have the same name
+            in all herpesviruses.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Maq v. 0.7.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="17"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="United Kingdom: Regional Virus Laboratory,
+                     Ruchill Hospital, Glasgow"
+                     /collected_by="C.A.C. Ross"
+                     /acronym="HHV-1"
+                     /acronym="HSV-1"
+                     /note="collected prior to 1972;
+                     collected prior to 1972; original sequence (INSD accession
+                     X14112) determined by Sanger sequencing of plasmids
+                     amended by Illumina sequencing of both viral DNA and polyA
+                     RNA harvested at 8 h after infection"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     gene            complement(<1..>1)
+                     /gene="LAT"
+                     /locus_tag="HHV1gp00s01"
+                     /db_xref="GeneID:24271498"
+     ncRNA           complement(<1..>1)
+                     /ncRNA_class="other"
+                     /gene="LAT"
+                     /locus_tag="HHV1gp00s01"
+                     /product="LAT"
+                     /db_xref="GeneID:24271498"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       OL638990                   1 bp    DNA     linear   VRL 08-FEB-2022
+DEFINITION  Human alphaherpesvirus 1 strain dsncRNA1, complete sequence.
+ACCESSION   OL638990 REGION: 1
+VERSION     OL638990.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Tormanen,K., Matundan,H.H., Wang,S., Jaggi,U., Mott,K.R. and
+            Ghiasi,H.
+  TITLE     Small non-coding RNA (sncRNA1) within latency associated transcript
+            (LAT) modulates HSV-1 virulence and host immune response during
+            acute but not latent infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Tormanen,K., Matundan,H.H., Wang,S., Jaggi,U., Mott,K.R. and
+            Ghiasi,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-NOV-2021) Surgery, Cedars Sinai Medical Center, 8723
+            Alden Drive, Los Angeles, CA 90048, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Geneious Prime v. 2022.0.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="dsncRNA1"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="2018"
+                     /collected_by="K.R.Mott"
+                     /note="McKrae derivative"
+     misc_feature    complement(>1)
+                     /note="LAT"
+ORIGIN      
+        1 a
+//
+
+LOCUS       OL638991                   1 bp    DNA     linear   VRL 08-FEB-2022
+DEFINITION  Human alphaherpesvirus 1 strain McKrae, complete sequence.
+ACCESSION   OL638991 REGION: 1
+VERSION     OL638991.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Tormanen,K., Matundan,H.H., Wang,S., Jaggi,U., Mott,K.R. and
+            Ghiasi,H.
+  TITLE     Small non-coding RNA (sncRNA1) within latency associated transcript
+            (LAT) modulates HSV-1 virulence and host immune response during
+            acute but not latent infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Tormanen,K., Matundan,H.H., Wang,S., Jaggi,U., Mott,K.R. and
+            Ghiasi,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-NOV-2021) Surgery, Cedars Sinai Medical Center, 8723
+            Alden Drive, Los Angeles, CA 90048, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Geneious Prime v. 2022.0.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="McKrae"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="1965"
+     misc_feature    complement(>1)
+                     /note="LAT"
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007132                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v40_unk_gen, complete genome.
+ACCESSION   ON007132 REGION: 1
+VERSION     ON007132.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v40_unk_gen"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007133                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v46_y16_oral, partial genome.
+ACCESSION   ON007133 REGION: 1
+VERSION     ON007133.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v46_y16_oral"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007134                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v44_d2_gen_les, partial genome.
+ACCESSION   ON007134 REGION: 1
+VERSION     ON007134.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v44_d2_gen_les"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+     ncRNA           >1
+                     /ncRNA_class="miRNA"
+                     /note="hsv1-mir-H5_TRL"
+ORIGIN      
+        1 g
+//
+
+LOCUS       ON007135                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v43_d352_gen, partial genome.
+ACCESSION   ON007135 REGION: 1
+VERSION     ON007135.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v43_d352_gen"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007136                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v48_d101_oral, complete genome.
+ACCESSION   ON007136 REGION: 1
+VERSION     ON007136.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v48_d101_oral"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007139                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v41_d100_gen, partial genome.
+ACCESSION   ON007139 REGION: 1
+VERSION     ON007139.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v41_d100_gen"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+     ncRNA           >1
+                     /ncRNA_class="miRNA"
+                     /note="hsv1-mir-H5_TRL"
+ORIGIN      
+        1 c
+//
+
+LOCUS       ON007140                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v48_d103_oral, partial genome.
+ACCESSION   ON007140 REGION: 1
+VERSION     ON007140.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v48_d103_oral"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007142                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v49_d257_gen_les, complete genome.
+ACCESSION   ON007142 REGION: 1
+VERSION     ON007142.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v49_d257_gen_les"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007143                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v46_d349_gen_les2, complete genome.
+ACCESSION   ON007143 REGION: 1
+VERSION     ON007143.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v46_d349_gen_les2"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007144                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v46_d345_gen, complete genome.
+ACCESSION   ON007144 REGION: 1
+VERSION     ON007144.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v46_d345_gen"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007145                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v45_d4_gen_les, complete genome.
+ACCESSION   ON007145 REGION: 1
+VERSION     ON007145.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v45_d4_gen_les"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007147                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v43_d349_gen_les, partial genome.
+ACCESSION   ON007147 REGION: 1
+VERSION     ON007147.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v43_d349_gen_les"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007148                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v43_d349_gen, partial genome.
+ACCESSION   ON007148 REGION: 1
+VERSION     ON007148.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v43_d349_gen"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007149                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v49_d349_gen_les, complete genome.
+ACCESSION   ON007149 REGION: 1
+VERSION     ON007149.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v49_d349_gen_les"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007151                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v46_d349_gen_les3, complete genome.
+ACCESSION   ON007151 REGION: 1
+VERSION     ON007151.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v46_d349_gen_les3"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007153                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v40_y14_oral1, partial genome.
+ACCESSION   ON007153 REGION: 1
+VERSION     ON007153.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v40_y14_oral1"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 c
+//
+
+LOCUS       ON007154                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v40_y14_oral2, complete genome.
+ACCESSION   ON007154 REGION: 1
+VERSION     ON007154.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v40_y14_oral2"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 c
+//
+
+LOCUS       ON007155                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v48_d100_oral, partial genome.
+ACCESSION   ON007155 REGION: 1
+VERSION     ON007155.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v48_d100_oral"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007156                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v43_d137_gen_les, partial genome.
+ACCESSION   ON007156 REGION: 1
+VERSION     ON007156.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v43_d137_gen_les"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007157                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v41_d354_oral, partial genome.
+ACCESSION   ON007157 REGION: 1
+VERSION     ON007157.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v41_d354_oral"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     gene            <1..>1
+                     /gene="RL1"
+     CDS             <1..>1
+                     /gene="RL1"
+                     /codon_start=2
+                     /product="RL1"
+                     /protein_id="UPH94879.1"
+                     /translation="ALARGAGPANSV"
+ORIGIN      
+        1 g
+//
+
+LOCUS       ON007158                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v46_d349_gen_les1, complete genome.
+ACCESSION   ON007158 REGION: 1
+VERSION     ON007158.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v46_d349_gen_les1"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007160                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v42_d130_gen_les, partial genome.
+ACCESSION   ON007160 REGION: 1
+VERSION     ON007160.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v42_d130_gen_les"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007161                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v48_d102_oral, partial genome.
+ACCESSION   ON007161 REGION: 1
+VERSION     ON007161.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v48_d102_oral"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007162                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v43_d352_gen_les, partial genome.
+ACCESSION   ON007162 REGION: 1
+VERSION     ON007162.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v43_d352_gen_les"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007163                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v47_d61-79_gen, partial genome.
+ACCESSION   ON007163 REGION: 1
+VERSION     ON007163.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v47_d61-79_gen"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON007164                   1 bp    DNA     linear   VRL 26-APR-2022
+DEFINITION  Human alphaherpesvirus 1 strain v42_d339_gen, partial genome.
+ACCESSION   ON007164 REGION: 1
+VERSION     ON007164.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Comparison of herpes simplex virus 1 genetic diversity between
+            adult sexual transmission partners with genital infection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rathbun,M., Shipley,M., Bowen,C.D., Selke,S., Wald,A., Johnston,C.
+            and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="v42_d339_gen"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON152715                   1 bp    DNA     linear   VRL 13-JUN-2022
+DEFINITION  Human alphaherpesvirus 1 strain astronaunt_in_orbit_rash_HSV_1,
+            complete genome.
+ACCESSION   ON152715 REGION: 1
+VERSION     ON152715.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Mehta,S.K., Szpara,M.L., Rooney,B.V., Diak,D.M., Shipley,M.M.,
+            Renner,D.W., Krieger,S.S., Nelman-Gonzalez,M.A., Zwart,S.R.,
+            Smith,S.M. and Crucian,B.E.
+  TITLE     Dermatitis during Spaceflight Associated with HSV-1 Reactivation
+  JOURNAL   Viruses 14 (4), 789 (2022)
+   PUBMED   35458519
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Mehta,S.K., Szpara,M.L., Rooney,B.V., Diak,D.M., Shipley,M.,
+            Krieger,S., Nelman,M.A., Zwart,S.R., Smith,S.M. and Crucian,B.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-APR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="astronaunt_in_orbit_rash_HSV_1"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON152716                   1 bp    DNA     linear   VRL 13-JUN-2022
+DEFINITION  Human alphaherpesvirus 1 strain astronaunt_post_orbit_saliva_HSV_1,
+            complete genome.
+ACCESSION   ON152716 REGION: 1
+VERSION     ON152716.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Mehta,S.K., Szpara,M.L., Rooney,B.V., Diak,D.M., Shipley,M.M.,
+            Renner,D.W., Krieger,S.S., Nelman-Gonzalez,M.A., Zwart,S.R.,
+            Smith,S.M. and Crucian,B.E.
+  TITLE     Dermatitis during Spaceflight Associated with HSV-1 Reactivation
+  JOURNAL   Viruses 14 (4), 789 (2022)
+   PUBMED   35458519
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Mehta,S.K., Szpara,M.L., Rooney,B.V., Diak,D.M., Shipley,M.,
+            Krieger,S., Nelman,M.A., Zwart,S.R., Smith,S.M. and Crucian,B.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-APR-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="astronaunt_post_orbit_saliva_HSV_1"
+                     /db_xref="taxon:10298"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON513441                   1 bp    DNA     linear   VRL 14-FEB-2023
+DEFINITION  Human alphaherpesvirus 1 isolate NIVD4, complete genome.
+ACCESSION   ON513441 REGION: 1
+VERSION     ON513441.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Lu,Z., Zou,X., Huang,W., Li,C., Guo,X. and Hung,T.
+  TITLE     Isolation of a Herpes simplex virus 1 from an immunocompromised
+            patient
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Lu,Z., Zou,X., Huang,W., Li,C., Guo,X. and Hung,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-MAY-2022) Department of Viral Morphology, National
+            Institute for Viral Disease Control and Prevention, 100 Ying Xin
+            Jie Xicheng Qu, Beijing, Beijing 100052, China
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: iVar v. 1.0
+            Coverage              :: 20000
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="NIVD4"
+                     /isolation_source="throat"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /lab_host="HEp-2"
+                     /geo_loc_name="China"
+                     /collection_date="19-Sep-2017"
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON783214                   1 bp    DNA     linear   VRL 24-AUG-2022
+DEFINITION  UNVERIFIED: Human alphaherpesvirus 1 strain B^3x1.1A, complete
+            genome.
+ACCESSION   ON783214 REGION: 1
+VERSION     ON783214.1
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rajagopalan,S., Asare,E., Leung,L., de Oliveira,A., Kaugars,K.E.,
+            Mulholland,C.V., Lukose,R., Berney,M. and Jacobs,W.R.
+  TITLE     Capturing structural variants of herpes simplex virus genome in
+            full length by Oxford Nanopore sequencing
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rajagopalan,S., Asare,E., Leung,L., de Oliveira,A., Kaugars,K.E.,
+            Mulholland,C.V., Lukose,R., Berney,M. and Jacobs,W.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JUN-2022) Microbiology and Immunology, Albert
+            Einstein college of Medicine, 1300 Morris park Ave, Price 569,
+            Bronx, New York 10461, United States
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Pilon v. 1.24
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="B^3x1.1A"
+                     /host="Chlorocebus sabaeus"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Jan-2015"
+ORIGIN      
+        1 g
+//
+
+LOCUS       ON783215                   1 bp    DNA     linear   VRL 24-AUG-2022
+DEFINITION  UNVERIFIED: Human alphaherpesvirus 1 strain B^3x1.1B, complete
+            genome.
+ACCESSION   ON783215 REGION: 1
+VERSION     ON783215.1
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rajagopalan,S., Asare,E., Leung,L., de Oliveira,A., Kaugars,K.E.,
+            Mulholland,C.V., Lukose,R., Berney,M. and Jacobs,W.R.
+  TITLE     Capturing structural variants of herpes simplex virus genome in
+            full length by Oxford Nanopore sequencing
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rajagopalan,S., Asare,E., Leung,L., de Oliveira,A., Kaugars,K.E.,
+            Mulholland,C.V., Lukose,R., Berney,M. and Jacobs,W.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JUN-2022) Microbiology and Immunology, Albert
+            Einstein college of Medicine, 1300 Morris park Ave, Price 569,
+            Bronx, New York 10461, United States
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Pilon v. 1.24
+            Sequencing Technology :: Illumina; Oxford Nanopore Technology
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="B^3x1.1B"
+                     /host="Chlorocebus sabaeus"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Jan-2015"
+ORIGIN      
+        1 g
+//
+
+LOCUS       ON783216                   1 bp    DNA     linear   VRL 24-AUG-2022
+DEFINITION  UNVERIFIED: Human alphaherpesvirus 1 strain B^3x1.1C, complete
+            genome.
+ACCESSION   ON783216 REGION: 1
+VERSION     ON783216.1
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rajagopalan,S., Asare,E., Leung,L., de Oliveira,A., Kaugars,K.E.,
+            Mulholland,C.V., Lukose,R., Berney,M. and Jacobs,W.R.
+  TITLE     Capturing structural variants of herpes simplex virus genome in
+            full length by Oxford Nanopore sequencing
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rajagopalan,S., Asare,E., Leung,L., de Oliveira,A., Kaugars,K.E.,
+            Mulholland,C.V., Lukose,R., Berney,M. and Jacobs,W.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JUN-2022) Microbiology and Immunology, Albert
+            Einstein college of Medicine, 1300 Morris park Ave, Price 569,
+            Bronx, New York 10461, United States
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Pilon v. 1.24
+            Sequencing Technology :: Illumina; Oxford Nanopore Technology
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="B^3x1.1C"
+                     /host="Chlorocebus sabaeus"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Jan-2015"
+ORIGIN      
+        1 c
+//
+
+LOCUS       ON783217                   1 bp    DNA     linear   VRL 24-AUG-2022
+DEFINITION  UNVERIFIED: Human alphaherpesvirus 1 strain B^3x1.1D, complete
+            genome.
+ACCESSION   ON783217 REGION: 1
+VERSION     ON783217.1
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Rajagopalan,S., Asare,E., Leung,L., de Oliveira,A., Kaugars,K.E.,
+            Mulholland,C.V., Lukose,R., Berney,M. and Jacobs,W.R.
+  TITLE     Capturing structural variants of herpes simplex virus genome in
+            full length by Oxford Nanopore sequencing
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Rajagopalan,S., Asare,E., Leung,L., de Oliveira,A., Kaugars,K.E.,
+            Mulholland,C.V., Lukose,R., Berney,M. and Jacobs,W.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JUN-2022) Microbiology and Immunology, Albert
+            Einstein college of Medicine, 1300 Morris park Ave, Price 569,
+            Bronx, New York 10461, United States
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Pilon v. 1.24
+            Sequencing Technology :: Illumina; Oxford Nanopore Technology
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="B^3x1.1D"
+                     /host="Chlorocebus sabaeus"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Jan-2015"
+ORIGIN      
+        1 g
+//
+
+LOCUS       ON960054                   1 bp    DNA     linear   VRL 02-AUG-2022
+DEFINITION  Human alphaherpesvirus 1 strain
+            HSV1-San-Francisco-USA-1982-H193-CSF, complete genome.
+ACCESSION   ON960054 REGION: 1
+VERSION     ON960054.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Dweikat,S.N., Renner,D.W., Bowen,C.D. and Szpara,M.L.
+  TITLE     Multi-phenotype analysis for enhanced classification of eleven
+            herpes simplex virus 1 strains
+  JOURNAL   J Gen Virol (2022) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Dweikat,S.N., Renner,D.W., Bowen,C.D. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="HSV1-San-Francisco-USA-1982-H193-CSF"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="1982"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON960055                   1 bp    DNA     linear   VRL 02-AUG-2022
+DEFINITION  Human alphaherpesvirus 1 strain
+            HSV1-San-Francisco-USA-1982-H193-BB, complete genome.
+ACCESSION   ON960055 REGION: 1
+VERSION     ON960055.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Dweikat,S.N., Renner,D.W., Bowen,C.D. and Szpara,M.L.
+  TITLE     Multi-phenotype analysis for enhanced classification of eleven
+            herpes simplex virus 1 strains
+  JOURNAL   J Gen Virol (2022) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Dweikat,S.N., Renner,D.W., Bowen,C.D. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="HSV1-San-Francisco-USA-1982-H193-BB"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="1982"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON960056                   1 bp    DNA     linear   VRL 02-AUG-2022
+DEFINITION  Human alphaherpesvirus 1 strain HSV1-San-Francisco-USA-1980-EKN,
+            complete genome.
+ACCESSION   ON960056 REGION: 1
+VERSION     ON960056.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Dweikat,S.N., Renner,D.W., Bowen,C.D. and Szpara,M.L.
+  TITLE     Multi-phenotype analysis for enhanced classification of eleven
+            herpes simplex virus 1 strains
+  JOURNAL   J Gen Virol (2022) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Dweikat,S.N., Renner,D.W., Bowen,C.D. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="HSV1-San-Francisco-USA-1980-EKN"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="1980"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON960057                   1 bp    DNA     linear   VRL 02-AUG-2022
+DEFINITION  Human alphaherpesvirus 1 strain HSV1-San-Francisco-USA-1979-DAB1,
+            complete genome.
+ACCESSION   ON960057 REGION: 1
+VERSION     ON960057.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Dweikat,S.N., Renner,D.W., Bowen,C.D. and Szpara,M.L.
+  TITLE     Multi-phenotype analysis for enhanced classification of eleven
+            herpes simplex virus 1 strains
+  JOURNAL   J Gen Virol (2022) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Dweikat,S.N., Renner,D.W., Bowen,C.D. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="HSV1-San-Francisco-USA-1979-DAB1"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="1979"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       ON960058                   1 bp    DNA     linear   VRL 02-AUG-2022
+DEFINITION  Human alphaherpesvirus 1 strain HSV1-San-Francisco-USA-1979-H144,
+            complete genome.
+ACCESSION   ON960058 REGION: 1
+VERSION     ON960058.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 1 (Herpes simplex virus 1)
+  ORGANISM  Human alphaherpesvirus 1
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha1.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Dweikat,S.N., Renner,D.W., Bowen,C.D. and Szpara,M.L.
+  TITLE     Multi-phenotype analysis for enhanced classification of eleven
+            herpes simplex virus 1 strains
+  JOURNAL   J Gen Virol (2022) In press
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Dweikat,S.N., Renner,D.W., Bowen,C.D. and Szpara,M.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2022) Biochemistry/Molecular Biology,
+            Pennsylvania State University, W-208 Millennium Science Complex,
+            State College, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="HSV1-San-Francisco-USA-1979-H144"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10298"
+                     /geo_loc_name="USA"
+                     /collection_date="1979"
+     repeat_region   >1
+                     /note="TRL"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=terminal
+     ncRNA           complement(>1)
+                     /ncRNA_class="miRNA"
+                     /note="hsv1-mir-H5_TRL"
+ORIGIN      
+        1 g
+//
+

@@ -1,0 +1,87 @@
+loading esm2_t33_650M_UR50D on cuda (first run downloads ~2.5 GB)
+  HSV1:UL23 window 0-376  2.1% (1s)
+  HSV1:UL23 window 0-376 44.7% (9s)
+  HSV1:UL23 window 0-376 87.2% (17s)
+  HSV1:UL23 window 0-376 done
+HSV1:UL23 scored, 376 positions in 19s
+  HSV1:UL30 window 0-1000  0.8% (2s)
+  HSV1:UL30 window 0-1000 16.8% (35s)
+  HSV1:UL30 window 0-1000 32.8% (68s)
+  HSV1:UL30 window 0-1000 48.8% (101s)
+  HSV1:UL30 window 0-1000 64.8% (134s)
+  HSV1:UL30 window 0-1000 80.8% (167s)
+  HSV1:UL30 window 0-1000 96.8% (200s)
+  HSV1:UL30 window 0-1000 done
+  HSV1:UL30 window 500-1235  1.1% (207s)
+  HSV1:UL30 window 500-1235 22.9% (228s)
+  HSV1:UL30 window 500-1235 44.6% (250s)
+  HSV1:UL30 window 500-1235 66.4% (271s)
+  HSV1:UL30 window 500-1235 88.2% (293s)
+  HSV1:UL30 window 500-1235 done
+HSV1:UL30 scored, 1235 positions in 304s
+  HSV1:UL5 window 0-882  0.9% (1s)
+  HSV1:UL5 window 0-882 19.0% (29s)
+  HSV1:UL5 window 0-882 37.2% (56s)
+  HSV1:UL5 window 0-882 55.3% (84s)
+  HSV1:UL5 window 0-882 73.5% (111s)
+  HSV1:UL5 window 0-882 91.6% (138s)
+  HSV1:UL5 window 0-882 done
+HSV1:UL5 scored, 882 positions in 155s
+  HSV1:UL52 window 0-1000  0.8% (2s)
+  HSV1:UL52 window 0-1000 16.8% (35s)
+  HSV1:UL52 window 0-1000 32.8% (68s)
+  HSV1:UL52 window 0-1000 48.8% (101s)
+  HSV1:UL52 window 0-1000 64.8% (134s)
+  HSV1:UL52 window 0-1000 80.8% (167s)
+  HSV1:UL52 window 0-1000 96.8% (200s)
+  HSV1:UL52 window 0-1000 done
+  HSV1:UL52 window 500-1058  1.4% (207s)
+  HSV1:UL52 window 500-1058 30.1% (221s)
+  HSV1:UL52 window 500-1058 58.8% (235s)
+  HSV1:UL52 window 500-1058 87.5% (249s)
+  HSV1:UL52 window 500-1058 done
+HSV1:UL52 scored, 1058 positions in 255s
+  HSV2:UL23 window 0-376  2.1% (0s)
+  HSV2:UL23 window 0-376 44.7% (8s)
+  HSV2:UL23 window 0-376 87.2% (16s)
+  HSV2:UL23 window 0-376 done
+HSV2:UL23 scored, 376 positions in 19s
+  HSV2:UL30 window 0-1000  0.8% (2s)
+  HSV2:UL30 window 0-1000 16.8% (35s)
+  HSV2:UL30 window 0-1000 32.8% (68s)
+  HSV2:UL30 window 0-1000 48.8% (101s)
+  HSV2:UL30 window 0-1000 64.8% (134s)
+  HSV2:UL30 window 0-1000 80.8% (167s)
+  HSV2:UL30 window 0-1000 96.8% (200s)
+  HSV2:UL30 window 0-1000 done
+  HSV2:UL30 window 500-1240  1.1% (207s)
+  HSV2:UL30 window 500-1240 22.7% (228s)
+  HSV2:UL30 window 500-1240 44.3% (250s)
+  HSV2:UL30 window 500-1240 65.9% (271s)
+  HSV2:UL30 window 500-1240 87.6% (292s)
+  HSV2:UL30 window 500-1240 done
+HSV2:UL30 scored, 1240 positions in 304s
+  HSV2:UL5 window 0-881  0.9% (1s)
+  HSV2:UL5 window 0-881 19.1% (29s)
+  HSV2:UL5 window 0-881 37.2% (57s)
+  HSV2:UL5 window 0-881 55.4% (84s)
+  HSV2:UL5 window 0-881 73.6% (112s)
+  HSV2:UL5 window 0-881 91.7% (140s)
+  HSV2:UL5 window 0-881 done
+HSV2:UL5 scored, 881 positions in 153s
+  HSV2:UL52 window 0-1000  0.8% (2s)
+  HSV2:UL52 window 0-1000 16.8% (35s)
+  HSV2:UL52 window 0-1000 32.8% (68s)
+  HSV2:UL52 window 0-1000 48.8% (101s)
+  HSV2:UL52 window 0-1000 64.8% (134s)
+  HSV2:UL52 window 0-1000 80.8% (167s)
+  HSV2:UL52 window 0-1000 96.8% (200s)
+  HSV2:UL52 window 0-1000 done
+  HSV2:UL52 window 500-1066  1.4% (207s)
+  HSV2:UL52 window 500-1066 29.7% (221s)
+  HSV2:UL52 window 500-1066 58.0% (235s)
+  HSV2:UL52 window 500-1066 86.2% (249s)
+  HSV2:UL52 window 500-1066 done
+HSV2:UL52 scored, 1066 positions in 256s
+
+135166 substitution scores written

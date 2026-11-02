@@ -42,6 +42,7 @@ def check(label, got, want, tol=0.0):
 
 
 def main():
+    global checks
     metrics = load(REP / "phase4" / "metrics_summary.json")
     gap = load(REP / "phase4" / "circularity_gap.json")
     cross = load(REP / "phase4" / "cross_virus.json")
@@ -316,6 +317,28 @@ def main():
             continue
         h = hashlib.sha256(p.read_bytes()).hexdigest()
         check(f"sha256 {rel}", h, meta["sha256"])
+
+    # The checksums above are computed from the working tree. A reviewer sees
+    # the committed blob, and git's line-ending conversion is per-platform, so
+    # the two can differ and a fresh clone would fail this very check. The
+    # repository sets `* -text` to prevent that; this confirms it holds.
+    import subprocess
+    try:
+        for rel, meta in release["files"].items():
+            blob = subprocess.run(["git", "show", f"HEAD:{rel}"], cwd=ROOT,
+                                  capture_output=True, timeout=60)
+            if blob.returncode != 0:
+                continue
+            got = hashlib.sha256(blob.stdout).hexdigest()
+            if got != meta["sha256"]:
+                failures.append(
+                    f"committed blob for {rel} hashes to {got[:12]}... but "
+                    f"{meta['sha256'][:12]}... is recorded; a fresh clone would "
+                    f"fail verification (check .gitattributes)")
+            else:
+                checks += 1
+    except (OSError, subprocess.SubprocessError):
+        print("  (git unavailable; skipped committed-blob checksum check)")
 
     corr = PROC / "feature_correlation_matrix.tsv"
     if not corr.exists():

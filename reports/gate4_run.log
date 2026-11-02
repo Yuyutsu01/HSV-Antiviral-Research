@@ -1,0 +1,112 @@
+
+################ primary_tier_A ################
+
+=== leave_one_gene_out ===
+  frequency baseline: baseline:frequency_only/ridge rho=-0.153
+  model                                  rho           95% CI    auc  skill  beats  GATE
+  baseline:esm_only/forest            +0.335 [+0.154,+0.499]  0.643   True   True  PASS
+  baseline:structure_only/forest      +0.309 [+0.127,+0.469]  0.761   True   True  PASS
+  staged:stage5_plus_esm/forest       +0.299 [+0.108,+0.481]  0.690   True   True  PASS
+  baseline:structure_only/ridge       +0.286 [+0.102,+0.450]  0.755   True   True  PASS
+  staged:stage5_plus_esm/ridge        +0.268 [+0.074,+0.448]  0.686   True   True  PASS
+  staged:stage4_plus_structure/ridge  +0.243 [+0.055,+0.420]  0.663   True   True  PASS
+  baseline:esm_only/ridge             +0.138 [-0.049,+0.326]  0.596  False   True     -
+  staged:stage4_plus_structure/forest  +0.050 [-0.145,+0.238]  0.648  False  False     -
+  staged:stage3_freq_cons_prop/ridge  -0.013 [-0.203,+0.174]  0.466  False  False     -
+  baseline:properties_only/ridge      -0.026 [-0.227,+0.164]  0.459  False  False     -
+  baseline:properties_only/forest     -0.052 [-0.240,+0.130]  0.466  False  False     -
+  staged:stage3_freq_cons_prop/forest  -0.060 [-0.241,+0.117]  0.484  False  False     -
+  baseline:blosum_only/forest         -0.090 [-0.270,+0.088]  0.496  False  False     -
+  baseline:conservation_only/forest   -0.110 [-0.308,+0.082]  0.545  False  False     -
+  staged:stage2_freq_cons/ridge       -0.136 [-0.311,+0.046]  0.455  False  False     -
+  staged:stage2_freq_cons/forest      -0.152 [-0.337,+0.028]  0.516  False  False     -
+  baseline:frequency_only/ridge       -0.153 [-0.341,+0.031]  0.483  False  False     -
+  staged:stage1_freq/ridge            -0.153 [-0.335,+0.037]  0.483  False  False     -
+  baseline:frequency_only/forest      -0.188 [-0.368,+0.003]  0.470  False  False     -
+  staged:stage1_freq/forest           -0.188 [-0.368,-0.004]  0.470  False  False     -
+  baseline:conservation_only/ridge    -0.210 [-0.369,-0.045]  0.355  False  False     -
+  baseline:blosum_only/ridge          -0.254 [-0.419,-0.071]  0.390  False  False     -
+  -> Gate 4 PASSED (6/22 models above chance, 6 passing)
+
+=== position_blocks ===
+  frequency baseline: baseline:frequency_only/forest rho=-0.077
+  model                                  rho           95% CI    auc  skill  beats  GATE
+  baseline:structure_only/ridge       +0.481 [+0.313,+0.635]  0.795   True   True  PASS
+  staged:stage5_plus_esm/forest       +0.439 [+0.263,+0.593]  0.749   True   True  PASS
+  baseline:structure_only/forest      +0.411 [+0.234,+0.571]  0.807   True   True  PASS
+  staged:stage5_plus_esm/ridge        +0.382 [+0.205,+0.539]  0.733   True   True  PASS
+  baseline:esm_only/forest            +0.363 [+0.184,+0.524]  0.636   True   True  PASS
+  staged:stage4_plus_structure/forest  +0.314 [+0.127,+0.490]  0.749   True   True  PASS
+  baseline:esm_only/ridge             +0.305 [+0.117,+0.483]  0.660   True   True  PASS
+  staged:stage4_plus_structure/ridge  +0.300 [+0.115,+0.475]  0.730   True   True  PASS
+  staged:stage2_freq_cons/forest      +0.142 [-0.053,+0.322]  0.589  False   True     -
+  baseline:blosum_only/forest         +0.133 [-0.041,+0.301]  0.595  False  False     -
+  baseline:conservation_only/forest   +0.096 [-0.100,+0.291]  0.601  False  False     -
+  staged:stage3_freq_cons_prop/ridge  +0.013 [-0.170,+0.199]  0.501  False  False     -
+  baseline:properties_only/ridge      -0.069 [-0.246,+0.116]  0.477  False  False     -
+  baseline:frequency_only/forest      -0.077 [-0.256,+0.107]  0.505  False  False     -
+  staged:stage1_freq/forest           -0.077 [-0.254,+0.100]  0.505  False  False     -
+  baseline:frequency_only/ridge       -0.079 [-0.258,+0.100]  0.504  False  False     -
+  staged:stage1_freq/ridge            -0.079 [-0.254,+0.095]  0.504  False  False     -
+  staged:stage3_freq_cons_prop/forest  -0.101 [-0.275,+0.080]  0.516  False  False     -
+  baseline:properties_only/forest     -0.133 [-0.313,+0.049]  0.466  False  False     -
+  baseline:blosum_only/ridge          -0.158 [-0.328,+0.026]  0.453  False  False     -
+  staged:stage2_freq_cons/ridge       -0.182 [-0.367,+0.011]  0.421  False  False     -
+  baseline:conservation_only/ridge    -0.272 [-0.452,-0.080]  0.315  False  False     -
+  -> Gate 4 PASSED (8/22 models above chance, 8 passing)
+
+################ secondary_all_tiers ################
+
+=== leave_one_gene_out ===
+  frequency baseline: baseline:frequency_only/ridge rho=-0.017
+  model                                  rho           95% CI    auc  skill  beats  GATE
+  baseline:structure_only/forest      +0.550 [+0.450,+0.634]  0.805   True   True  PASS
+  staged:stage4_plus_structure/forest  +0.412 [+0.293,+0.517]  0.787   True   True  PASS
+  staged:stage5_plus_esm/ridge        +0.387 [+0.262,+0.499]  0.762   True   True  PASS
+  staged:stage4_plus_structure/ridge  +0.383 [+0.261,+0.494]  0.762   True   True  PASS
+  staged:stage5_plus_esm/forest       +0.301 [+0.171,+0.426]  0.711   True   True  PASS
+  baseline:structure_only/ridge       +0.236 [+0.105,+0.357]  0.722   True   True  PASS
+  baseline:esm_only/ridge             +0.215 [+0.075,+0.348]  0.634   True   True  PASS
+  baseline:esm_only/forest            +0.201 [+0.070,+0.323]  0.603   True   True  PASS
+  baseline:properties_only/forest     +0.160 [+0.027,+0.292]  0.571   True   True  PASS
+  staged:stage3_freq_cons_prop/ridge  +0.086 [-0.050,+0.223]  0.545  False  False     -
+  baseline:conservation_only/forest   +0.085 [-0.053,+0.217]  0.655  False  False     -
+  baseline:properties_only/ridge      +0.080 [-0.051,+0.209]  0.513  False  False     -
+  staged:stage3_freq_cons_prop/forest  +0.076 [-0.052,+0.201]  0.588  False  False     -
+  baseline:blosum_only/ridge          +0.070 [-0.059,+0.199]  0.524  False  False     -
+  staged:stage2_freq_cons/forest      +0.062 [-0.069,+0.189]  0.649  False  False     -
+  staged:stage2_freq_cons/ridge       -0.006 [-0.144,+0.126]  0.587  False  False     -
+  baseline:blosum_only/forest         -0.013 [-0.136,+0.117]  0.517  False  False     -
+  baseline:frequency_only/ridge       -0.017 [-0.153,+0.115]  0.576  False  False     -
+  staged:stage1_freq/ridge            -0.017 [-0.156,+0.115]  0.576  False  False     -
+  baseline:conservation_only/ridge    -0.046 [-0.176,+0.088]  0.546  False  False     -
+  baseline:frequency_only/forest      -0.052 [-0.189,+0.081]  0.567  False  False     -
+  staged:stage1_freq/forest           -0.052 [-0.193,+0.080]  0.567  False  False     -
+  -> Gate 4 PASSED (9/22 models above chance, 9 passing)
+
+=== position_blocks ===
+  frequency baseline: baseline:frequency_only/ridge rho=-0.061
+  model                                  rho           95% CI    auc  skill  beats  GATE
+  staged:stage5_plus_esm/forest       +0.525 [+0.411,+0.626]  0.785   True   True  PASS
+  baseline:structure_only/forest      +0.488 [+0.383,+0.579]  0.797   True   True  PASS
+  staged:stage4_plus_structure/ridge  +0.483 [+0.372,+0.582]  0.806   True   True  PASS
+  staged:stage4_plus_structure/forest  +0.470 [+0.350,+0.575]  0.794   True   True  PASS
+  staged:stage5_plus_esm/ridge        +0.452 [+0.329,+0.564]  0.799   True   True  PASS
+  baseline:structure_only/ridge       +0.386 [+0.272,+0.488]  0.772   True   True  PASS
+  baseline:esm_only/ridge             +0.266 [+0.127,+0.397]  0.656   True   True  PASS
+  staged:stage3_freq_cons_prop/ridge  +0.250 [+0.120,+0.373]  0.613   True   True  PASS
+  baseline:esm_only/forest            +0.213 [+0.077,+0.340]  0.602   True   True  PASS
+  baseline:properties_only/ridge      +0.185 [+0.062,+0.304]  0.554   True   True  PASS
+  staged:stage3_freq_cons_prop/forest  +0.179 [+0.049,+0.305]  0.604   True   True  PASS
+  baseline:properties_only/forest     +0.176 [+0.038,+0.307]  0.594   True   True  PASS
+  baseline:blosum_only/ridge          +0.118 [-0.009,+0.237]  0.531  False   True     -
+  staged:stage2_freq_cons/forest      +0.116 [-0.012,+0.242]  0.572  False   True     -
+  baseline:conservation_only/forest   +0.036 [-0.090,+0.160]  0.523  False  False     -
+  baseline:blosum_only/forest         +0.014 [-0.114,+0.142]  0.492  False  False     -
+  staged:stage2_freq_cons/ridge       -0.034 [-0.168,+0.106]  0.561  False  False     -
+  baseline:frequency_only/ridge       -0.061 [-0.197,+0.077]  0.488  False  False     -
+  staged:stage1_freq/ridge            -0.061 [-0.198,+0.076]  0.488  False  False     -
+  baseline:frequency_only/forest      -0.067 [-0.204,+0.069]  0.486  False  False     -
+  staged:stage1_freq/forest           -0.067 [-0.201,+0.068]  0.486  False  False     -
+  baseline:conservation_only/ridge    -0.120 [-0.257,+0.018]  0.496  False  False     -
+  -> Gate 4 PASSED (12/22 models above chance, 12 passing)

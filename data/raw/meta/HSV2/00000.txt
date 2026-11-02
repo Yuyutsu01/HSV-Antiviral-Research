@@ -1,0 +1,2449 @@
+LOCUS       FV537010                   1 bp    DNA     linear   PAT 18-MAR-2010
+DEFINITION  Modified Microbial Nucleic Acid.
+ACCESSION   FV537010 REGION: 1
+VERSION     FV537010.1
+KEYWORDS    JP 2009538603-A/989.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Millar,D.S. and Meruki,J.R.
+  TITLE     Modified Microbial Nucleic Acid
+  JOURNAL   Patent: JP 2009538603-A 989 12-NOV-2009;
+            Human Genetic Signatures Pty Ltd
+COMMENT     OS   human herpesvirus 2
+            PN   JP 2009538603-A/989
+            PD   12-NOV-2009
+            PF   02-JUN-2006 JP 2009512366
+            PI   douglas spencer millar,john r meruki
+            CC
+            FH   Key             Location/Qualifiers.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:10310"
+ORIGIN      
+        1 a
+//
+
+LOCUS       FV537011                   1 bp    DNA     linear   PAT 18-MAR-2010
+DEFINITION  Modified Microbial Nucleic Acid.
+ACCESSION   FV537011 REGION: 1
+VERSION     FV537011.1
+KEYWORDS    JP 2009538603-A/990.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Millar,D.S. and Meruki,J.R.
+  TITLE     Modified Microbial Nucleic Acid
+  JOURNAL   Patent: JP 2009538603-A 990 12-NOV-2009;
+            Human Genetic Signatures Pty Ltd
+COMMENT     OS   human herpesvirus 2
+            PN   JP 2009538603-A/990
+            PD   12-NOV-2009
+            PF   02-JUN-2006 JP 2009512366
+            PI   douglas spencer millar,john r meruki
+            CC
+            FH   Key             Location/Qualifiers.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:10310"
+ORIGIN      
+        1 a
+//
+
+LOCUS       FV537012                   1 bp    DNA     linear   PAT 18-MAR-2010
+DEFINITION  Modified Microbial Nucleic Acid.
+ACCESSION   FV537012 REGION: 1
+VERSION     FV537012.1
+KEYWORDS    JP 2009538603-A/991.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Millar,D.S. and Meruki,J.R.
+  TITLE     Modified Microbial Nucleic Acid
+  JOURNAL   Patent: JP 2009538603-A 991 12-NOV-2009;
+            Human Genetic Signatures Pty Ltd
+COMMENT     OS   human herpesvirus 2
+            PN   JP 2009538603-A/991
+            PD   12-NOV-2009
+            PF   02-JUN-2006 JP 2009512366
+            PI   douglas spencer millar,john r meruki
+            CC
+            FH   Key             Location/Qualifiers.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:10310"
+ORIGIN      
+        1 t
+//
+
+LOCUS       FV537013                   1 bp    DNA     linear   PAT 18-MAR-2010
+DEFINITION  Modified Microbial Nucleic Acid.
+ACCESSION   FV537013 REGION: 1
+VERSION     FV537013.1
+KEYWORDS    JP 2009538603-A/992.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Millar,D.S. and Meruki,J.R.
+  TITLE     Modified Microbial Nucleic Acid
+  JOURNAL   Patent: JP 2009538603-A 992 12-NOV-2009;
+            Human Genetic Signatures Pty Ltd
+COMMENT     OS   human herpesvirus 2
+            PN   JP 2009538603-A/992
+            PD   12-NOV-2009
+            PF   02-JUN-2006 JP 2009512366
+            PI   douglas spencer millar,john r meruki
+            CC
+            FH   Key             Location/Qualifiers.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:10310"
+ORIGIN      
+        1 t
+//
+
+LOCUS       JN561323                   1 bp    DNA     linear   VRL 09-MAY-2016
+DEFINITION  Human herpesvirus 2 strain HG52, complete genome.
+ACCESSION   JN561323 REGION: 1
+VERSION     JN561323.2
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Evolution of sexually-transmitted and -transmissible human
+            herpesviruses
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-AUG-2011) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+REFERENCE   3  (bases 1 to 1)
+  AUTHORS   Holton,M. and Davison,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-NOV-2013) MRC - University of Glasgow Centre for
+            Virus Research, 8 Church Street, Glasgow G11 5JR, UK
+  REMARK    Sequence update by submitter
+COMMENT     On Nov 1, 2013 this sequence version replaced JN561323.1.
+            The original gene nomenclature has been retained. Genes presumably
+            inherited from the common ancestor of alpha-, beta- and
+            gammaherpesviruses (core genes) and non-core genes presumably
+            inherited from the ancestor of alphaherpesviruses (alpha genes) are
+            indicated. Initiation codons are assigned with as much confidence
+            as is possible for each protein-coding region. A standard protein
+            nomenclature has been applied so that orthologs have the same name
+            in all herpesviruses.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Maq v. 0.7.1, BWA v. 0.6.2-r126
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="HG52"
+                     /isolation_source="herpetic ulcer near a woman's anus"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="United Kingdom"
+                     /collected_by="J.F. Peutherer or C.A.C. Ross"
+                     /note="collected prior to 1971; originally called strain
+                     HSG 52; genes UL41 and US8 are frameshifted in majority
+                     and minority populations, respectively; original sequence
+                     (INSD accession Z86099) determined by Sanger sequencing of
+                     plasmids amended by Illumina sequencing of both viral DNA
+                     and polyA RNA harvested at 10 h after infection;
+                     acronym: HHV-2; acronym: HSV-2"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     gene            complement(<1..>1)
+                     /gene="LAT"
+     ncRNA           complement(<1..>1)
+                     /ncRNA_class="other"
+                     /gene="LAT"
+                     /product="LAT"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 a
+//
+
+LOCUS       JX112656                   1 bp    DNA     linear   VRL 02-JUL-2012
+DEFINITION  UNVERIFIED: Human herpesvirus 2 strain 186, partial genome.
+ACCESSION   JX112656 REGION: 1
+VERSION     JX112656.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human herpesvirus 2 strain 186
+  ORGANISM  Human herpesvirus 2 strain 186
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Henn,M.R., Newman,R.M., Colgrove,R., Young,S.K., Zeng,Q.,
+            Gargeya,S., Alvarado,L., Berlin,A., Chapman,S.B., Chen,Z.,
+            Freedman,E., Gellesch,M., Goldberg,J., Griggs,A., Gujja,S.,
+            Heilman,E.R., Heiman,D., Howarth,C., Larson,L., Mehta,T.,
+            Neiman,D., Pearson,M., Roberts,A., Saif,S., Shea,T., Shenoy,N.,
+            Sisk,P., Stolte,C., Sykes,S., White,J., Yandava,C., Haas,B.,
+            Nusbaum,C., Knipe,D. and Birren,B.
+  CONSRTM   The Broad Institute Genome Sequencing Platform, The Broad Institute
+            Genome Sequencing Center for Infectious Disease
+  TITLE     The genome sequence of Human herpesvirus 2 strain 186
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Henn,M.R., Newman,R.M., Colgrove,R., Young,S.K., Zeng,Q.,
+            Gargeya,S., Alvarado,L., Berlin,A., Chapman,S.B., Chen,Z.,
+            Freedman,E., Gellesch,M., Goldberg,J., Griggs,A., Gujja,S.,
+            Heilman,E.R., Heiman,D., Howarth,C., Larson,L., Mehta,T.,
+            Neiman,D., Pearson,M., Roberts,A., Saif,S., Shea,T., Shenoy,N.,
+            Sisk,P., Stolte,C., Sykes,S., White,J., Yandava,C., Haas,B.,
+            Nusbaum,C., Knipe,D. and Birren,B.
+  CONSRTM   The Broad Institute Genome Sequencing Platform, The Broad Institute
+            Genome Sequencing Center for Infectious Disease
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAY-2012) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human herpesvirus 2 strain 186"
+                     /mol_type="genomic DNA"
+                     /strain="186"
+                     /db_xref="taxon:10312"
+ORIGIN      
+        1 g
+//
+
+LOCUS       KF781518                   1 bp    DNA     linear   VRL 30-APR-2014
+DEFINITION  Human herpesvirus 2 strain SD90e, complete genome.
+ACCESSION   KF781518 REGION: 1
+VERSION     KF781518.1
+DBLINK      BioProject: PRJNA32415
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Colgrove,R., Diaz,F., Newman,R., Saif,S., Shea,T., Young,S.,
+            Henn,M. and Knipe,D.M.
+  TITLE     Genomic sequences of a low passage herpes simplex virus 2 clinical
+            isolate and its plaque-purified derivative strain
+  JOURNAL   Virology 450-451, 140-145 (2014)
+   PUBMED   24503076
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Knipe,D.M., Colgrove,R.C., Diaz,F.M., Newman,R.M., Saif,S.,
+            Shea,T., Young,S. and Henn,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-OCT-2013) Department of Microbiology and
+            Immunobiology, Harvard Medical School, 77 Avenue Louis Pasteur,
+            Boston, MA 02115, USA
+COMMENT     Sequencing performed at the The Broad Institute Genome Sequencing
+            Center for Infectious Disease.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina; Sanger
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="SD90e"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="South Africa"
+                     /collection_date="1995"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KP192856                   1 bp    DNA     linear   VRL 20-APR-2015
+DEFINITION  Human herpesvirus 2 strain 333, partial genome.
+ACCESSION   KP192856 REGION: 1
+VERSION     KP192856.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Larsen,I.V., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Genomic, Phylogenetic, and Recombinational Characterization of
+            Herpes Simplex Virus Type 2 Strains
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25855744
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Larsen,I.V., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-NOV-2014) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina: Miseq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="333"
+                     /isolation_source="genitals"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA: Texas"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     gene            complement(>1)
+                     /gene="LAT"
+     ncRNA           complement(>1)
+                     /ncRNA_class="other"
+                     /gene="LAT"
+                     /product="LAT"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KP334093                   1 bp    DNA     linear   VRL 21-APR-2015
+DEFINITION  Human herpesvirus 2 strain CtSF-R, partial genome.
+ACCESSION   KP334093 REGION: 1
+VERSION     KP334093.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Larsen,I.V., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Genomic, Phylogenetic, and Recombinational Characterization of
+            Herpes Simplex Virus Type 2 Strains
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25855744
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Larsen,I.V., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-DEC-2014) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="CtSF-R"
+                     /isolation_source="Genital"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     gene            complement(>1)
+                     /gene="LAT"
+     ncRNA           complement(>1)
+                     /ncRNA_class="other"
+                     /gene="LAT"
+                     /product="LAT"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       KP334094                   1 bp    DNA     linear   VRL 21-APR-2015
+DEFINITION  Human herpesvirus 2 strain GSC-56, partial genome.
+ACCESSION   KP334094 REGION: 1
+VERSION     KP334094.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Larsen,I.V., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Genomic, Phylogenetic, and Recombinational Characterization of
+            Herpes Simplex Virus Type 2 Strains
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25855744
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Larsen,I.V., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-DEC-2014) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina: Miseq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="GSC-56"
+                     /isolation_source="Genital"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     gene            complement(>1)
+                     /gene="LAT"
+     ncRNA           complement(>1)
+                     /ncRNA_class="other"
+                     /gene="LAT"
+                     /product="LAT"
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 c
+//
+
+LOCUS       KP334095                   1 bp    DNA     linear   VRL 21-APR-2015
+DEFINITION  Human herpesvirus 2 strain 1192, partial genome.
+ACCESSION   KP334095 REGION: 1
+VERSION     KP334095.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Larsen,I.V., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Genomic, Phylogenetic, and Phenotypic Characterization of Herpes
+            Simplex Virus Type 2 Strains
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Larsen,I.V., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-DEC-2014) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="1192"
+                     /isolation_source="Genital"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA: Wisconsin"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     gene            complement(>1)
+                     /gene="LAT"
+     ncRNA           complement(>1)
+                     /ncRNA_class="other"
+                     /gene="LAT"
+                     /product="LAT"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KP334096                   1 bp    DNA     linear   VRL 21-APR-2015
+DEFINITION  Human herpesvirus 2 strain COH 3818, partial genome.
+ACCESSION   KP334096 REGION: 1
+VERSION     KP334096.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Larsen,I.V., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Genomic, Phylogenetic, and Recombinational Characterization of
+            Herpes Simplex Virus Type 2 Strains
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25855744
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Larsen,I.V., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-DEC-2014) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="COH 3818"
+                     /isolation_source="Genital"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+     repeat_region   >1
+                     /note="'a' sequence"
+                     /rpt_type=direct
+                     /rpt_type=inverted
+                     /rpt_type=terminal
+ORIGIN      
+        1 g
+//
+
+LOCUS       KP334097                   1 bp    DNA     linear   VRL 21-APR-2015
+DEFINITION  Human herpesvirus 2 strain CtSF, partial genome.
+ACCESSION   KP334097 REGION: 1
+VERSION     KP334097.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Larsen,I.V., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Genomic, Phylogenetic, and Recombinational Characterization of
+            Herpes Simplex Virus Type 2 Strains
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25855744
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Kolb,A.W., Larsen,I.V., Cuellar,J.A. and Brandt,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-DEC-2014) Ophthalmology and Visual Sciences,
+            University of Wisconsin-Madison, 420 N. Charter, Madison, WI 53706,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC-Bio Genomic Workbench v. 6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="CtSF"
+                     /isolation_source="Genital"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+     repeat_region   >1
+                     /note="TRL; inverted repeat flanking UL"
+                     /rpt_type=inverted
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135298                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/US/BID-G19070/8937-1-3336/2003 genomic sequence.
+ACCESSION   KR135298 REGION: 1
+VERSION     KR135298.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/US/BID-G19070/8937-1-3336/2003"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA: WA"
+                     /collection_date="2003"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135299                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/UG/BID-G19071/M22987/2007 genomic sequence.
+ACCESSION   KR135299 REGION: 1
+VERSION     KR135299.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/UG/BID-G19071/M22987/2007"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda: Rakai"
+                     /collection_date="2007"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135300                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/UG/BID-G19072/D30613/2007 genomic sequence.
+ACCESSION   KR135300 REGION: 1
+VERSION     KR135300.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/UG/BID-G19072/D30613/2007"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda: Rakai"
+                     /collection_date="2007"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135301                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/UG/BID-G19073/F70764/2007 genomic sequence.
+ACCESSION   KR135301 REGION: 1
+VERSION     KR135301.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/UG/BID-G19073/F70764/2007"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda: Rakai"
+                     /collection_date="2007"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135302                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/UG/BID-G19074/M1119/2007 genomic sequence.
+ACCESSION   KR135302 REGION: 1
+VERSION     KR135302.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/UG/BID-G19074/M1119/2007"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda: Rakai"
+                     /collection_date="2007"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135303                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/UG/BID-G44423/L22861/2007 genomic sequence.
+ACCESSION   KR135303 REGION: 1
+VERSION     KR135303.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/UG/BID-G44423/L22861/2007"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda: Rakai"
+                     /collection_date="2007"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KR135304                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/UG/BID-G19076/H00066/2007 genomic sequence.
+ACCESSION   KR135304 REGION: 1
+VERSION     KR135304.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/UG/BID-G19076/H00066/2007"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda: Rakai"
+                     /collection_date="2007"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135305                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/UG/BID-G19077/K39924/2007 genomic sequence.
+ACCESSION   KR135305 REGION: 1
+VERSION     KR135305.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/UG/BID-G19077/K39924/2007"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda: Rakai"
+                     /collection_date="2007"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135306                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/UG/BID-G19078/A76191/2008 genomic sequence.
+ACCESSION   KR135306 REGION: 1
+VERSION     KR135306.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/UG/BID-G19078/A76191/2008"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda: Rakai"
+                     /collection_date="2008"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135307                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/UG/BID-G19079/J09622/2008 genomic sequence.
+ACCESSION   KR135307 REGION: 1
+VERSION     KR135307.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/UG/BID-G19079/J09622/2008"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda: Rakai"
+                     /collection_date="2008"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135308                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/US/BID-G19080/44-419851/2007 genomic sequence.
+ACCESSION   KR135308 REGION: 1
+VERSION     KR135308.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/US/BID-G19080/44-419851/2007"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA: MD"
+                     /collection_date="2007"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135309                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/US/BID-G19081/44-419851/2007 genomic sequence.
+ACCESSION   KR135309 REGION: 1
+VERSION     KR135309.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/US/BID-G19081/44-419851/2007"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA: MD"
+                     /collection_date="2007"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135310                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/US/BID-G19082/44-319857/2007 genomic sequence.
+ACCESSION   KR135310 REGION: 1
+VERSION     KR135310.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/US/BID-G19082/44-319857/2007"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA: MD"
+                     /collection_date="2007"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135311                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/US/BID-G19083/10883-2001-13347/2005 genomic sequence.
+ACCESSION   KR135311 REGION: 1
+VERSION     KR135311.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/US/BID-G19083/10883-2001-13347/2005"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA: WA"
+                     /collection_date="2005"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135312                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/US/BID-G19084/9335-2005-576/2009 genomic sequence.
+ACCESSION   KR135312 REGION: 1
+VERSION     KR135312.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/US/BID-G19084/9335-2005-576/2009"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA: WA"
+                     /collection_date="2009"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135313                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/US/BID-G19085/9335-2007-14/2011 genomic sequence.
+ACCESSION   KR135313 REGION: 1
+VERSION     KR135313.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/US/BID-G19085/9335-2007-14/2011"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA: WA"
+                     /collection_date="2011"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135314                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/US/BID-G19086/7444-1996-25809/1996 genomic sequence.
+ACCESSION   KR135314 REGION: 1
+VERSION     KR135314.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/US/BID-G19086/7444-1996-25809/1996"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA: WA"
+                     /collection_date="1996"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135315                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/UG/BID-G19087/J32715/2007 genomic sequence.
+ACCESSION   KR135315 REGION: 1
+VERSION     KR135315.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/UG/BID-G19087/J32715/2007"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda: Rakai"
+                     /collection_date="2007"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135316                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/UG/BID-G19088/G75809/2007 genomic sequence.
+ACCESSION   KR135316 REGION: 1
+VERSION     KR135316.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/UG/BID-G19088/G75809/2007"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda: Rakai"
+                     /collection_date="2007"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135317                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/UG/BID-G19089/A76832/2007 genomic sequence.
+ACCESSION   KR135317 REGION: 1
+VERSION     KR135317.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/UG/BID-G19089/A76832/2007"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda: Rakai"
+                     /collection_date="2007"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135318                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/UG/BID-G19090/D39650/2008 genomic sequence.
+ACCESSION   KR135318 REGION: 1
+VERSION     KR135318.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/UG/BID-G19090/D39650/2008"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda: Rakai"
+                     /collection_date="2008"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135319                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/UG/BID-G19091/D39765/2008 genomic sequence.
+ACCESSION   KR135319 REGION: 1
+VERSION     KR135319.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/UG/BID-G19091/D39765/2008"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Uganda: Rakai"
+                     /collection_date="2008"
+                     /note="passaged in Vero2 cells; passage number unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135320                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/ZA/BID-G19093/SD66/1995 genomic sequence.
+ACCESSION   KR135320 REGION: 1
+VERSION     KR135320.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/ZA/BID-G19093/SD66/1995"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="South Africa"
+                     /collection_date="1995"
+                     /note="passaged 3 times in Vero2 cells"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135321                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/US/BID-G19094/89-390/1989 genomic sequence.
+ACCESSION   KR135321 REGION: 1
+VERSION     KR135321.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/US/BID-G19094/89-390/1989"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA: MA"
+                     /collection_date="1989"
+                     /note="passaged 2 times in Vero2 cells"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135322                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate HSV-2/JP/BID-G32586/JA1
+            genomic sequence.
+ACCESSION   KR135322 REGION: 1
+VERSION     KR135322.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/JP/BID-G32586/JA1"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Japan"
+                     /note="passage history unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135323                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate HSV-2/JP/BID-G32587/JA2
+            genomic sequence.
+ACCESSION   KR135323 REGION: 1
+VERSION     KR135323.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/JP/BID-G32587/JA2"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Japan"
+                     /note="passage history unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135324                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate HSV-2/JP/BID-G32588/JA3
+            genomic sequence.
+ACCESSION   KR135324 REGION: 1
+VERSION     KR135324.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/JP/BID-G32588/JA3"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Japan"
+                     /note="passage history unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135325                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate HSV-2/JP/BID-G32589/JA5
+            genomic sequence.
+ACCESSION   KR135325 REGION: 1
+VERSION     KR135325.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/JP/BID-G32589/JA5"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Japan"
+                     /note="passage history unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135326                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate HSV-2/JP/BID-G32590/JA6
+            genomic sequence.
+ACCESSION   KR135326 REGION: 1
+VERSION     KR135326.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/JP/BID-G32590/JA6"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Japan"
+                     /note="passage history unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135327                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate HSV-2/JP/BID-G32591/JA7
+            genomic sequence.
+ACCESSION   KR135327 REGION: 1
+VERSION     KR135327.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/JP/BID-G32591/JA7"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Japan"
+                     /note="passage history unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135328                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate HSV-2/JP/BID-G32592/JA8
+            genomic sequence.
+ACCESSION   KR135328 REGION: 1
+VERSION     KR135328.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/JP/BID-G32592/JA8"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Japan"
+                     /note="passage history unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135329                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate HSV-2/JP/BID-G32593/JA9
+            genomic sequence.
+ACCESSION   KR135329 REGION: 1
+VERSION     KR135329.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/JP/BID-G32593/JA9"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="Japan"
+                     /note="passage history unknown"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135330                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/US/BID-G1929/BethesdaP5 genomic sequence.
+ACCESSION   KR135330 REGION: 1
+VERSION     KR135330.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/US/BID-G1929/BethesdaP5"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA: MD"
+                     /note="passaged 4 times in human diploid fibroblasts (MRC5
+                     cells)"
+ORIGIN      
+        1 a
+//
+
+LOCUS       KR135331                   1 bp    DNA     linear   VRL 08-JUN-2015
+DEFINITION  UNVERIFIED: Human herpesvirus 2 isolate
+            HSV-2/US/BID-G44422/333-R519 genomic sequence.
+ACCESSION   KR135331 REGION: 1
+VERSION     KR135331.1
+DBLINK      BioProject: PRJNA59587
+KEYWORDS    UNVERIFIED.
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B., Ray,S.C., Colgrove,R.C.,
+            Diaz,F., Jing,L., Wang,K., Saif,S., Young,S., Henn,M.,
+            Laeyendecker,O., Tobian,A.A., Cohen,J.I., Koelle,D.M., Quinn,T.C.
+            and Knipe,D.M.
+  TITLE     Genome Sequencing and Analysis of Geographically Diverse Clinical
+            Isolates of Herpes Simplex Virus 2
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   26018166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Newman,R.M., Lamers,S.L., Weiner,B.K., Colgrove,R.C., Diaz,F.,
+            Jing,L., Wang,K., Saif,S., Young,S., Henn,M., Laeyendecker,O.,
+            Tobian,A.A., Cohen,J.I., Knipe,D.M., Koelle,D.M. and Quinn,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2015) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: ALLPATHS-LG v. R44182
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="HSV-2/US/BID-G44422/333-R519"
+                     /isolation_source="cell supernatant"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /note="plaque purified version of strain 333; passaged in
+                     Vero cells"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KU310662                   1 bp    DNA     linear   VRL 26-AUG-2016
+DEFINITION  Human alphaherpesvirus 2 isolate B^3x2.1, partial genome.
+ACCESSION   KU310662 REGION: 1
+VERSION     KU310662.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Weinrick,B., Khajoueinejad,N., Burn,C., Sellers,R.,
+            Jacobs,W.R. Jr. and Herold,B.C.
+  TITLE     HSV-2 DeltagD elicits FcgammaR-effector antibodies that protect
+            against clinical isolates
+  JOURNAL   JCI Insight 1 (12) (2016) In press
+   PUBMED   27536733
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Gonzalez,P.A., Weiss,K., Khajoueinejad,N.,
+            Cheshenko,N., Weinrick,B.C., Sengupta,M., Jacobs,W.R. Jr. and
+            Herold,B.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-DEC-2015) Microbiology and Immunology, Albert
+            Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY
+            10461, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: VirAmp pipeline v. accessed 6/4-11/19/2015
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="B^3x2.1"
+                     /host="Chlorocebus sabaeus"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Jan-2015"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KU310663                   1 bp    DNA     linear   VRL 26-AUG-2016
+DEFINITION  Human alphaherpesvirus 2 isolate B^3x2.2, partial genome.
+ACCESSION   KU310663 REGION: 1
+VERSION     KU310663.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Weinrick,B., Khajoueinejad,N., Burn,C., Sellers,R.,
+            Jacobs,W.R. Jr. and Herold,B.C.
+  TITLE     HSV-2 DeltagD elicits FcgammaR-effector antibodies that protect
+            against clinical isolates
+  JOURNAL   JCI Insight 1 (12) (2016) In press
+   PUBMED   27536733
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Gonzalez,P.A., Weiss,K., Khajoueinejad,N.,
+            Cheshenko,N., Weinrick,B.C., Sengupta,M., Jacobs,W.R. Jr. and
+            Herold,B.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-DEC-2015) Microbiology and Immunology, Albert
+            Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY
+            10461, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: VirAmp pipeline v. accessed 6/4-11/19/2015
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="B^3x2.2"
+                     /host="Chlorocebus sabaeus"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Jan-2015"
+ORIGIN      
+        1 c
+//
+
+LOCUS       KU310664                   1 bp    DNA     linear   VRL 26-AUG-2016
+DEFINITION  Human alphaherpesvirus 2 isolate B^3x2.3, partial genome.
+ACCESSION   KU310664 REGION: 1
+VERSION     KU310664.1
+KEYWORDS    .
+SOURCE      Human alphaherpesvirus 2 (Herpes simplex virus 2)
+  ORGANISM  Human alphaherpesvirus 2
+            Viruses; Duplodnaviria; Heunggongvirae; Peploviricota;
+            Herviviricetes; Herpesvirales; Orthoherpesviridae;
+            Alphaherpesvirinae; Simplexvirus; Simplexvirus humanalpha2.
+REFERENCE   1  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Weinrick,B., Khajoueinejad,N., Burn,C., Sellers,R.,
+            Jacobs,W.R. Jr. and Herold,B.C.
+  TITLE     HSV-2 DeltagD elicits FcgammaR-effector antibodies that protect
+            against clinical isolates
+  JOURNAL   JCI Insight 1 (12) (2016) In press
+   PUBMED   27536733
+REFERENCE   2  (bases 1 to 1)
+  AUTHORS   Petro,C.D., Gonzalez,P.A., Weiss,K., Khajoueinejad,N.,
+            Cheshenko,N., Weinrick,B.C., Sengupta,M., Jacobs,W.R. Jr. and
+            Herold,B.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-DEC-2015) Microbiology and Immunology, Albert
+            Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY
+            10461, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: VirAmp pipeline v. accessed 6/4-11/19/2015
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1
+                     /organism="Human alphaherpesvirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="B^3x2.3"
+                     /host="Chlorocebus sabaeus"
+                     /db_xref="taxon:10310"
+                     /geo_loc_name="USA"
+                     /collection_date="01-Jan-2015"
+     gene            <1..>1
+                     /gene="RL1"
+     CDS             <1..>1
+                     /gene="RL1"
+                     /note="similar to Human herpesvirus 2 strain HG52(NC_00179
+                     8)"
+                     /codon_start=2
+                     /product="neurovirulence protein ICP34.5"
+                     /protein_id="AMB66107.1"
+                     /translation="CGASGAFPPPSLGGLFAHSASSLPA"
+ORIGIN      
+        1 g
+//
+
