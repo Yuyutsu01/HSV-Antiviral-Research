@@ -139,17 +139,34 @@ two parts:
    correlation matrix and the staged feature-group comparison already answer
    what importance ranking would.
 
+### Temporal hold-out: run, with one choice made after the fact
+
+The protocol calls this "the single most persuasive validation in the plan". It
+was initially blocked: publication year is recoverable from the DOI string for
+only 35 of 89 distinct studies, and the recoverable ones cluster by publisher,
+so a partial split would have confounded era with journal. Resolving the DOIs
+through Crossref returned a year for **89 of 89**, spanning 1987-2025 across 10
+publishers, so all 119 primary and 235 secondary variants carry a
+first-characterisation year and the confound is gone. Years are cached in
+`data/raw/doi_years.json` with their retrieval date.
+
+**The cut-off year was not pre-declared, and this is the one place in the
+project where an analysis parameter was chosen after seeing data.** The
+mitigation is that it was not chosen on performance: all five cut-offs from
+2005 to 2015 are reported, and the nominated primary (2012) is the one that
+splits the primary set most evenly, which is an outcome-independent criterion.
+The result does not depend on the choice — structure-only is the best feature
+group at every cut-off on the primary set and at four of five on the
+secondary — so a reader who distrusts the nomination can read the sensitivity
+table instead and reach the same conclusion.
+
+Only DOIs were sent to Crossref. No `mailto` parameter and no address in the
+User-Agent: that would place a personal identifier in third-party request logs
+for no analytical gain.
+
 ### Pre-declared and NOT done
 
-1. **Temporal hold-out — not implemented.** The protocol calls this "the single
-   most persuasive validation in the plan". HerpesDRG supplies a DOI for all
-   951 active HSV rows across 89 distinct studies, but publication year is
-   recoverable offline for only 35 of those 89, and the recoverable ones cluster
-   by publisher: ASM and Elsevier encode the year in the DOI, Oxford and Wiley
-   do not. A split on partially-available year would confound era with journal,
-   and journal correlates with study design and period. It is left undone
-   rather than approximated. It requires a DOI-to-year resolution step.
-2. **Positive-unlabelled formulation (Stage 3)** — not attempted. It was
+1. **Positive-unlabelled formulation (Stage 3)** — not attempted. It was
    declared as the extension where the clinical value lies, and it remains
    open.
 

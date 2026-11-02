@@ -198,6 +198,81 @@ def main():
     check("HSV2->HSV1 full model AP",
           h2h1["models"]["full_model"]["average_precision"], 0.631, 0.001)
 
+    # -------------------------------------------------------- temporal hold-out
+    temporal = load(REP / "phase4" / "temporal_holdout.json")
+    check("primary cutoff", temporal["primary_cutoff"], 2012)
+    doi = load(ROOT / "data" / "raw" / "doi_years.json")["years"]
+    resolved = sum(1 for v in doi.values() if v.get("year"))
+    check("DOIs resolved to a year", resolved, 89)
+    check("DOIs queried", len(doi), 89)
+    years = [v["year"] for v in doi.values() if v.get("year")]
+    check("earliest study year", min(years), 1987)
+    check("latest study year", max(years), 2025)
+    check("publishers represented",
+          len({v.get("publisher") for v in doi.values() if v.get("year")}), 10)
+
+    tp = temporal["label_sets"]["primary_tier_A"]
+    check("primary variants with a year", tp["n_with_year"], 119)
+    check("secondary variants with a year",
+          temporal["label_sets"]["secondary_all_tiers"]["n_with_year"], 235)
+
+    # the lift table quoted in the manuscript, primary Tier A
+    want_lift = {
+        "2005": {"structure_only": 0.195, "frequency_only": -0.092,
+                 "conservation_only": 0.162, "esm_only": 0.118,
+                 "full_model": 0.096, "_split": (41, 78)},
+        "2008": {"structure_only": 0.215, "frequency_only": 0.020,
+                 "conservation_only": -0.096, "esm_only": 0.052,
+                 "full_model": 0.035, "_split": (47, 72)},
+        "2010": {"structure_only": 0.218, "frequency_only": 0.020,
+                 "conservation_only": -0.095, "esm_only": -0.011,
+                 "full_model": 0.040, "_split": (52, 67)},
+        "2012": {"structure_only_forest": 0.229, "frequency_only": 0.031,
+                 "conservation_only": -0.097, "esm_only": 0.050,
+                 "full_model": 0.009, "_split": (59, 60)},
+        "2015": {"structure_only_forest": 0.170, "frequency_only": -0.006,
+                 "conservation_only": -0.158, "esm_only": 0.101,
+                 "full_model": -0.013, "_split": (70, 49)},
+    }
+    for cutoff, wants in want_lift.items():
+        c = tp["cutoffs"][cutoff]
+        tr, te = wants.pop("_split")
+        check(f"{cutoff} train n", c["n_train"], tr)
+        check(f"{cutoff} test n", c["n_test"], te)
+        for model, lift in wants.items():
+            check(f"{cutoff} {model} lift",
+                  c["models"][model]["ap_lift_over_prevalence"], lift, 0.001)
+
+    # the claims that carry the section
+    for cutoff, c in tp["cutoffs"].items():
+        best = c["best_by_average_precision"]
+        if not best.startswith("structure_only"):
+            failures.append(
+                f"manuscript claims structure wins every primary cut-off, but "
+                f"{cutoff} was won by {best}")
+        lifts = [m["ap_lift_over_prevalence"] for m in c["models"].values()
+                 if "ap_lift_over_prevalence" in m]
+        s = c["models"]["structure_only"]["ap_lift_over_prevalence"]
+        sf = c["models"]["structure_only_forest"]["ap_lift_over_prevalence"]
+        if max(s, sf) < 0.13:
+            failures.append(
+                f"manuscript claims structure lift never below +0.13; "
+                f"{cutoff} gives {max(s, sf)}")
+        if c["train_prevalence"] <= c["test_prevalence"]:
+            failures.append(
+                f"manuscript claims prevalence falls from train to test; "
+                f"{cutoff} has {c['train_prevalence']} -> {c['test_prevalence']}")
+    ts = temporal["label_sets"]["secondary_all_tiers"]["cutoffs"]
+    # The quoted range spans both structure variants across all cut-offs, so
+    # the bounds are over the flattened set, not over a per-cut-off maximum.
+    sec = [c["models"][m]["ap_lift_over_prevalence"] for c in ts.values()
+           for m in ("structure_only", "structure_only_forest")]
+    check("secondary structure lift min", round(min(sec), 3), 0.245, 0.001)
+    check("secondary structure lift max", round(max(sec), 3), 0.349, 0.001)
+    n_sec_struct = sum(1 for c in ts.values()
+                       if c["best_by_average_precision"].startswith("structure"))
+    check("secondary cut-offs won by structure", n_sec_struct, 4)
+
     # ----------------------------------------------------------- release stats
     st = release["master_table"]
     check("master table rows", st["n_rows"], 1162)

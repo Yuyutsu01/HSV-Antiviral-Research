@@ -23,7 +23,7 @@ carries the minority residue.
 | 1 | Reclassify catalogued mutations against population frequency | **Positive.** 15 common polymorphisms, 11 majority alleles, 8 recommended for reclassification |
 | 2 | Selection asymmetry between UL23 and UL30 | **Positive.** pN/pS difference +0.2005 [+0.1652, +0.2389], 100% bootstrap support |
 | 3 | Pre-therapeutic helicase–primase baseline | **Positive.** Baseline established for UL5 and UL52 before pritelivir/amenamevir use |
-| 4 | Do sequence-based models beat a frequency-only baseline? | **Qualified.** They do, but the baseline is nearly empty, and the winning model makes no usable decision at the declared threshold |
+| 4 | Do sequence-based models beat a frequency-only baseline? | **Qualified.** They do, but the baseline is nearly empty, and the winning model makes no usable decision at the declared threshold. Structural context is the only feature group that holds up prospectively |
 
 Aim 4's answer is the one to read carefully, and
 [`reports/phase4/MANUSCRIPT.md`](reports/phase4/MANUSCRIPT.md) says why.

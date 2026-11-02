@@ -1,0 +1,1043 @@
+{
+  "seed": 20261102,
+  "n_bootstrap": 2000,
+  "primary_metric": "average_precision",
+  "primary_cutoff": 2012,
+  "cutoff_chosen_by": "most even split of the primary set; not pre-declared, not chosen on performance",
+  "mutation_year_rule": "earliest year among the mutation's references",
+  "doi_years_retrieved": "2026-11-02T12:05:45Z",
+  "label_sets": {
+    "primary_tier_A": {
+      "n": 119,
+      "n_with_year": 119,
+      "cutoffs": {
+        "2005": {
+          "cutoff": 2005,
+          "n_train": 41,
+          "n_test": 78,
+          "n_without_year": 0,
+          "train_prevalence": 0.8537,
+          "test_prevalence": 0.6667,
+          "models": {
+            "frequency_only": {
+              "n_test": 78,
+              "prevalence": 0.6667,
+              "average_precision": 0.5742,
+              "ap_lift_over_prevalence": -0.0925,
+              "precision_at_95_recall": 0.6667,
+              "spearman": -0.1011,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.4873,
+                0.7459
+              ]
+            },
+            "conservation_only": {
+              "n_test": 78,
+              "prevalence": 0.6667,
+              "average_precision": 0.8291,
+              "ap_lift_over_prevalence": 0.1624,
+              "precision_at_95_recall": 0.7042,
+              "spearman": 0.227,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.6779,
+                0.9247
+              ]
+            },
+            "structure_only": {
+              "n_test": 78,
+              "prevalence": 0.6667,
+              "average_precision": 0.8612,
+              "ap_lift_over_prevalence": 0.1946,
+              "precision_at_95_recall": 0.7042,
+              "spearman": 0.3692,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.7502,
+                0.9397
+              ]
+            },
+            "structure_only_forest": {
+              "n_test": 78,
+              "prevalence": 0.6667,
+              "average_precision": 0.8435,
+              "ap_lift_over_prevalence": 0.1769,
+              "precision_at_95_recall": 0.6667,
+              "spearman": 0.2836,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.743,
+                0.9243
+              ]
+            },
+            "esm_only": {
+              "n_test": 78,
+              "prevalence": 0.6667,
+              "average_precision": 0.7846,
+              "ap_lift_over_prevalence": 0.1179,
+              "precision_at_95_recall": 0.6757,
+              "spearman": 0.2807,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.6526,
+                0.8968
+              ]
+            },
+            "full_model": {
+              "n_test": 78,
+              "prevalence": 0.6667,
+              "average_precision": 0.7621,
+              "ap_lift_over_prevalence": 0.0955,
+              "precision_at_95_recall": 0.7246,
+              "spearman": 0.2806,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.6284,
+                0.8958
+              ]
+            },
+            "full_model_forest": {
+              "n_test": 78,
+              "prevalence": 0.6667,
+              "average_precision": 0.8211,
+              "ap_lift_over_prevalence": 0.1544,
+              "precision_at_95_recall": 0.6579,
+              "spearman": 0.2722,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.7096,
+                0.9133
+              ]
+            }
+          },
+          "best_by_average_precision": "structure_only"
+        },
+        "2008": {
+          "cutoff": 2008,
+          "n_train": 47,
+          "n_test": 72,
+          "n_without_year": 0,
+          "train_prevalence": 0.8723,
+          "test_prevalence": 0.6389,
+          "models": {
+            "frequency_only": {
+              "n_test": 72,
+              "prevalence": 0.6389,
+              "average_precision": 0.6585,
+              "ap_lift_over_prevalence": 0.0196,
+              "precision_at_95_recall": 0.6875,
+              "spearman": 0.26,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.56,
+                0.841
+              ]
+            },
+            "conservation_only": {
+              "n_test": 72,
+              "prevalence": 0.6389,
+              "average_precision": 0.5432,
+              "ap_lift_over_prevalence": -0.0957,
+              "precision_at_95_recall": 0.6567,
+              "spearman": -0.1413,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.4389,
+                0.7172
+              ]
+            },
+            "structure_only": {
+              "n_test": 72,
+              "prevalence": 0.6389,
+              "average_precision": 0.8543,
+              "ap_lift_over_prevalence": 0.2154,
+              "precision_at_95_recall": 0.7097,
+              "spearman": 0.4097,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.7411,
+                0.9391
+              ]
+            },
+            "structure_only_forest": {
+              "n_test": 72,
+              "prevalence": 0.6389,
+              "average_precision": 0.8361,
+              "ap_lift_over_prevalence": 0.1972,
+              "precision_at_95_recall": 0.6377,
+              "spearman": 0.3017,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.722,
+                0.9236
+              ]
+            },
+            "esm_only": {
+              "n_test": 72,
+              "prevalence": 0.6389,
+              "average_precision": 0.691,
+              "ap_lift_over_prevalence": 0.0521,
+              "precision_at_95_recall": 0.6286,
+              "spearman": 0.1846,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.5448,
+                0.8277
+              ]
+            },
+            "full_model": {
+              "n_test": 72,
+              "prevalence": 0.6389,
+              "average_precision": 0.6744,
+              "ap_lift_over_prevalence": 0.0355,
+              "precision_at_95_recall": 0.7333,
+              "spearman": 0.1631,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.5373,
+                0.8296
+              ]
+            },
+            "full_model_forest": {
+              "n_test": 72,
+              "prevalence": 0.6389,
+              "average_precision": 0.7896,
+              "ap_lift_over_prevalence": 0.1507,
+              "precision_at_95_recall": 0.6567,
+              "spearman": 0.2781,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.6649,
+                0.8878
+              ]
+            }
+          },
+          "best_by_average_precision": "structure_only"
+        },
+        "2010": {
+          "cutoff": 2010,
+          "n_train": 52,
+          "n_test": 67,
+          "n_without_year": 0,
+          "train_prevalence": 0.8846,
+          "test_prevalence": 0.6119,
+          "models": {
+            "frequency_only": {
+              "n_test": 67,
+              "prevalence": 0.6119,
+              "average_precision": 0.6321,
+              "ap_lift_over_prevalence": 0.0201,
+              "precision_at_95_recall": 0.661,
+              "spearman": 0.2457,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.5266,
+                0.8269
+              ]
+            },
+            "conservation_only": {
+              "n_test": 67,
+              "prevalence": 0.6119,
+              "average_precision": 0.5167,
+              "ap_lift_over_prevalence": -0.0952,
+              "precision_at_95_recall": 0.6393,
+              "spearman": -0.1395,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.4026,
+                0.6845
+              ]
+            },
+            "structure_only": {
+              "n_test": 67,
+              "prevalence": 0.6119,
+              "average_precision": 0.8299,
+              "ap_lift_over_prevalence": 0.2179,
+              "precision_at_95_recall": 0.6724,
+              "spearman": 0.4075,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.7038,
+                0.9309
+              ]
+            },
+            "structure_only_forest": {
+              "n_test": 67,
+              "prevalence": 0.6119,
+              "average_precision": 0.7969,
+              "ap_lift_over_prevalence": 0.185,
+              "precision_at_95_recall": 0.629,
+              "spearman": 0.24,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.6694,
+                0.9078
+              ]
+            },
+            "esm_only": {
+              "n_test": 67,
+              "prevalence": 0.6119,
+              "average_precision": 0.6013,
+              "ap_lift_over_prevalence": -0.0107,
+              "precision_at_95_recall": 0.6,
+              "spearman": 0.0398,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.4528,
+                0.7663
+              ]
+            },
+            "full_model": {
+              "n_test": 67,
+              "prevalence": 0.6119,
+              "average_precision": 0.6522,
+              "ap_lift_over_prevalence": 0.0403,
+              "precision_at_95_recall": 0.65,
+              "spearman": 0.2051,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.504,
+                0.8135
+              ]
+            },
+            "full_model_forest": {
+              "n_test": 67,
+              "prevalence": 0.6119,
+              "average_precision": 0.6535,
+              "ap_lift_over_prevalence": 0.0416,
+              "precision_at_95_recall": 0.6094,
+              "spearman": 0.0713,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.5046,
+                0.7958
+              ]
+            }
+          },
+          "best_by_average_precision": "structure_only"
+        },
+        "2012": {
+          "cutoff": 2012,
+          "n_train": 59,
+          "n_test": 60,
+          "n_without_year": 0,
+          "train_prevalence": 0.8644,
+          "test_prevalence": 0.6,
+          "models": {
+            "frequency_only": {
+              "n_test": 60,
+              "prevalence": 0.6,
+              "average_precision": 0.631,
+              "ap_lift_over_prevalence": 0.031,
+              "precision_at_95_recall": 0.6604,
+              "spearman": 0.2615,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.5134,
+                0.8489
+              ]
+            },
+            "conservation_only": {
+              "n_test": 60,
+              "prevalence": 0.6,
+              "average_precision": 0.5028,
+              "ap_lift_over_prevalence": -0.0972,
+              "precision_at_95_recall": 0.6364,
+              "spearman": -0.1802,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.3845,
+                0.6781
+              ]
+            },
+            "structure_only": {
+              "n_test": 60,
+              "prevalence": 0.6,
+              "average_precision": 0.7839,
+              "ap_lift_over_prevalence": 0.1839,
+              "precision_at_95_recall": 0.6481,
+              "spearman": 0.3515,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.6309,
+                0.9052
+              ]
+            },
+            "structure_only_forest": {
+              "n_test": 60,
+              "prevalence": 0.6,
+              "average_precision": 0.8287,
+              "ap_lift_over_prevalence": 0.2287,
+              "precision_at_95_recall": 0.6863,
+              "spearman": 0.3392,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.6839,
+                0.9376
+              ]
+            },
+            "esm_only": {
+              "n_test": 60,
+              "prevalence": 0.6,
+              "average_precision": 0.6499,
+              "ap_lift_over_prevalence": 0.0499,
+              "precision_at_95_recall": 0.5932,
+              "spearman": 0.1786,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.4862,
+                0.8096
+              ]
+            },
+            "full_model": {
+              "n_test": 60,
+              "prevalence": 0.6,
+              "average_precision": 0.6085,
+              "ap_lift_over_prevalence": 0.0085,
+              "precision_at_95_recall": 0.6364,
+              "spearman": 0.1115,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.4624,
+                0.7921
+              ]
+            },
+            "full_model_forest": {
+              "n_test": 60,
+              "prevalence": 0.6,
+              "average_precision": 0.6621,
+              "ap_lift_over_prevalence": 0.0621,
+              "precision_at_95_recall": 0.614,
+              "spearman": 0.1207,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.5044,
+                0.8153
+              ]
+            }
+          },
+          "best_by_average_precision": "structure_only_forest"
+        },
+        "2015": {
+          "cutoff": 2015,
+          "n_train": 70,
+          "n_test": 49,
+          "n_without_year": 0,
+          "train_prevalence": 0.7857,
+          "test_prevalence": 0.6531,
+          "models": {
+            "frequency_only": {
+              "n_test": 49,
+              "prevalence": 0.6531,
+              "average_precision": 0.6472,
+              "ap_lift_over_prevalence": -0.0058,
+              "precision_at_95_recall": 0.6739,
+              "spearman": 0.2244,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.5274,
+                0.8697
+              ]
+            },
+            "conservation_only": {
+              "n_test": 49,
+              "prevalence": 0.6531,
+              "average_precision": 0.4952,
+              "ap_lift_over_prevalence": -0.1579,
+              "precision_at_95_recall": 0.6458,
+              "spearman": -0.3678,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.3702,
+                0.6872
+              ]
+            },
+            "structure_only": {
+              "n_test": 49,
+              "prevalence": 0.6531,
+              "average_precision": 0.7849,
+              "ap_lift_over_prevalence": 0.1319,
+              "precision_at_95_recall": 0.6889,
+              "spearman": 0.2748,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.6198,
+                0.9203
+              ]
+            },
+            "structure_only_forest": {
+              "n_test": 49,
+              "prevalence": 0.6531,
+              "average_precision": 0.8226,
+              "ap_lift_over_prevalence": 0.1696,
+              "precision_at_95_recall": 0.6739,
+              "spearman": 0.2743,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.6673,
+                0.9459
+              ]
+            },
+            "esm_only": {
+              "n_test": 49,
+              "prevalence": 0.6531,
+              "average_precision": 0.7542,
+              "ap_lift_over_prevalence": 0.1011,
+              "precision_at_95_recall": 0.6739,
+              "spearman": 0.3174,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.5868,
+                0.9138
+              ]
+            },
+            "full_model": {
+              "n_test": 49,
+              "prevalence": 0.6531,
+              "average_precision": 0.6405,
+              "ap_lift_over_prevalence": -0.0126,
+              "precision_at_95_recall": 0.6889,
+              "spearman": 0.072,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.4805,
+                0.8312
+              ]
+            },
+            "full_model_forest": {
+              "n_test": 49,
+              "prevalence": 0.6531,
+              "average_precision": 0.7148,
+              "ap_lift_over_prevalence": 0.0617,
+              "precision_at_95_recall": 0.7045,
+              "spearman": 0.1399,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.5557,
+                0.8639
+              ]
+            }
+          },
+          "best_by_average_precision": "structure_only_forest"
+        }
+      }
+    },
+    "secondary_all_tiers": {
+      "n": 235,
+      "n_with_year": 235,
+      "cutoffs": {
+        "2005": {
+          "cutoff": 2005,
+          "n_train": 79,
+          "n_test": 156,
+          "n_without_year": 0,
+          "train_prevalence": 0.8354,
+          "test_prevalence": 0.5833,
+          "models": {
+            "frequency_only": {
+              "n_test": 156,
+              "prevalence": 0.5833,
+              "average_precision": 0.5932,
+              "ap_lift_over_prevalence": 0.0098,
+              "precision_at_95_recall": 0.6259,
+              "spearman": 0.2004,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.535,
+                0.7442
+              ]
+            },
+            "conservation_only": {
+              "n_test": 156,
+              "prevalence": 0.5833,
+              "average_precision": 0.7401,
+              "ap_lift_over_prevalence": 0.1568,
+              "precision_at_95_recall": 0.6259,
+              "spearman": 0.168,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.6124,
+                0.8185
+              ]
+            },
+            "structure_only": {
+              "n_test": 156,
+              "prevalence": 0.5833,
+              "average_precision": 0.8284,
+              "ap_lift_over_prevalence": 0.2451,
+              "precision_at_95_recall": 0.6493,
+              "spearman": 0.3714,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.7487,
+                0.8968
+              ]
+            },
+            "structure_only_forest": {
+              "n_test": 156,
+              "prevalence": 0.5833,
+              "average_precision": 0.8376,
+              "ap_lift_over_prevalence": 0.2543,
+              "precision_at_95_recall": 0.6397,
+              "spearman": 0.3678,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.7628,
+                0.8954
+              ]
+            },
+            "esm_only": {
+              "n_test": 156,
+              "prevalence": 0.5833,
+              "average_precision": 0.782,
+              "ap_lift_over_prevalence": 0.1986,
+              "precision_at_95_recall": 0.6,
+              "spearman": 0.3242,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.691,
+                0.8607
+              ]
+            },
+            "full_model": {
+              "n_test": 156,
+              "prevalence": 0.5833,
+              "average_precision": 0.7674,
+              "ap_lift_over_prevalence": 0.184,
+              "precision_at_95_recall": 0.6797,
+              "spearman": 0.3547,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.6694,
+                0.86
+              ]
+            },
+            "full_model_forest": {
+              "n_test": 156,
+              "prevalence": 0.5833,
+              "average_precision": 0.8414,
+              "ap_lift_over_prevalence": 0.258,
+              "precision_at_95_recall": 0.6084,
+              "spearman": 0.4156,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.7669,
+                0.9044
+              ]
+            }
+          },
+          "best_by_average_precision": "full_model_forest"
+        },
+        "2008": {
+          "cutoff": 2008,
+          "n_train": 92,
+          "n_test": 143,
+          "n_without_year": 0,
+          "train_prevalence": 0.8478,
+          "test_prevalence": 0.5524,
+          "models": {
+            "frequency_only": {
+              "n_test": 143,
+              "prevalence": 0.5524,
+              "average_precision": 0.574,
+              "ap_lift_over_prevalence": 0.0215,
+              "precision_at_95_recall": 0.5984,
+              "spearman": 0.2021,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.4992,
+                0.7285
+              ]
+            },
+            "conservation_only": {
+              "n_test": 143,
+              "prevalence": 0.5524,
+              "average_precision": 0.7616,
+              "ap_lift_over_prevalence": 0.2091,
+              "precision_at_95_recall": 0.5984,
+              "spearman": 0.287,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.6273,
+                0.8382
+              ]
+            },
+            "structure_only": {
+              "n_test": 143,
+              "prevalence": 0.5524,
+              "average_precision": 0.8375,
+              "ap_lift_over_prevalence": 0.285,
+              "precision_at_95_recall": 0.6281,
+              "spearman": 0.4361,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.7603,
+                0.9017
+              ]
+            },
+            "structure_only_forest": {
+              "n_test": 143,
+              "prevalence": 0.5524,
+              "average_precision": 0.8103,
+              "ap_lift_over_prevalence": 0.2578,
+              "precision_at_95_recall": 0.5507,
+              "spearman": 0.4071,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.7271,
+                0.8829
+              ]
+            },
+            "esm_only": {
+              "n_test": 143,
+              "prevalence": 0.5524,
+              "average_precision": 0.7133,
+              "ap_lift_over_prevalence": 0.1609,
+              "precision_at_95_recall": 0.5507,
+              "spearman": 0.3571,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.6086,
+                0.8131
+              ]
+            },
+            "full_model": {
+              "n_test": 143,
+              "prevalence": 0.5524,
+              "average_precision": 0.7199,
+              "ap_lift_over_prevalence": 0.1675,
+              "precision_at_95_recall": 0.5891,
+              "spearman": 0.3326,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.6079,
+                0.8166
+              ]
+            },
+            "full_model_forest": {
+              "n_test": 143,
+              "prevalence": 0.5524,
+              "average_precision": 0.759,
+              "ap_lift_over_prevalence": 0.2066,
+              "precision_at_95_recall": 0.5758,
+              "spearman": 0.4057,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.6651,
+                0.8438
+              ]
+            }
+          },
+          "best_by_average_precision": "structure_only"
+        },
+        "2010": {
+          "cutoff": 2010,
+          "n_train": 100,
+          "n_test": 135,
+          "n_without_year": 0,
+          "train_prevalence": 0.85,
+          "test_prevalence": 0.5333,
+          "models": {
+            "frequency_only": {
+              "n_test": 135,
+              "prevalence": 0.5333,
+              "average_precision": 0.5518,
+              "ap_lift_over_prevalence": 0.0185,
+              "precision_at_95_recall": 0.575,
+              "spearman": 0.1739,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.4684,
+                0.7051
+              ]
+            },
+            "conservation_only": {
+              "n_test": 135,
+              "prevalence": 0.5333,
+              "average_precision": 0.7507,
+              "ap_lift_over_prevalence": 0.2174,
+              "precision_at_95_recall": 0.5798,
+              "spearman": 0.3169,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.6163,
+                0.8398
+              ]
+            },
+            "structure_only": {
+              "n_test": 135,
+              "prevalence": 0.5333,
+              "average_precision": 0.8179,
+              "ap_lift_over_prevalence": 0.2845,
+              "precision_at_95_recall": 0.6053,
+              "spearman": 0.4314,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.7244,
+                0.8937
+              ]
+            },
+            "structure_only_forest": {
+              "n_test": 135,
+              "prevalence": 0.5333,
+              "average_precision": 0.7846,
+              "ap_lift_over_prevalence": 0.2512,
+              "precision_at_95_recall": 0.561,
+              "spearman": 0.3993,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.6863,
+                0.8625
+              ]
+            },
+            "esm_only": {
+              "n_test": 135,
+              "prevalence": 0.5333,
+              "average_precision": 0.6682,
+              "ap_lift_over_prevalence": 0.1349,
+              "precision_at_95_recall": 0.5349,
+              "spearman": 0.3054,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.5595,
+                0.7742
+              ]
+            },
+            "full_model": {
+              "n_test": 135,
+              "prevalence": 0.5333,
+              "average_precision": 0.681,
+              "ap_lift_over_prevalence": 0.1476,
+              "precision_at_95_recall": 0.5702,
+              "spearman": 0.2842,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.5675,
+                0.7825
+              ]
+            },
+            "full_model_forest": {
+              "n_test": 135,
+              "prevalence": 0.5333,
+              "average_precision": 0.7226,
+              "ap_lift_over_prevalence": 0.1892,
+              "precision_at_95_recall": 0.5565,
+              "spearman": 0.3881,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.6061,
+                0.8198
+              ]
+            }
+          },
+          "best_by_average_precision": "structure_only"
+        },
+        "2012": {
+          "cutoff": 2012,
+          "n_train": 109,
+          "n_test": 126,
+          "n_without_year": 0,
+          "train_prevalence": 0.8349,
+          "test_prevalence": 0.5238,
+          "models": {
+            "frequency_only": {
+              "n_test": 126,
+              "prevalence": 0.5238,
+              "average_precision": 0.543,
+              "ap_lift_over_prevalence": 0.0192,
+              "precision_at_95_recall": 0.5676,
+              "spearman": 0.1887,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.4703,
+                0.7096
+              ]
+            },
+            "conservation_only": {
+              "n_test": 126,
+              "prevalence": 0.5238,
+              "average_precision": 0.7424,
+              "ap_lift_over_prevalence": 0.2185,
+              "precision_at_95_recall": 0.5833,
+              "spearman": 0.3206,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.6051,
+                0.844
+              ]
+            },
+            "structure_only": {
+              "n_test": 126,
+              "prevalence": 0.5238,
+              "average_precision": 0.7997,
+              "ap_lift_over_prevalence": 0.2759,
+              "precision_at_95_recall": 0.5888,
+              "spearman": 0.3974,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.703,
+                0.8817
+              ]
+            },
+            "structure_only_forest": {
+              "n_test": 126,
+              "prevalence": 0.5238,
+              "average_precision": 0.8577,
+              "ap_lift_over_prevalence": 0.3338,
+              "precision_at_95_recall": 0.6429,
+              "spearman": 0.5453,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.7633,
+                0.9263
+              ]
+            },
+            "esm_only": {
+              "n_test": 126,
+              "prevalence": 0.5238,
+              "average_precision": 0.6959,
+              "ap_lift_over_prevalence": 0.1721,
+              "precision_at_95_recall": 0.5339,
+              "spearman": 0.3807,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.5791,
+                0.8059
+              ]
+            },
+            "full_model": {
+              "n_test": 126,
+              "prevalence": 0.5238,
+              "average_precision": 0.6666,
+              "ap_lift_over_prevalence": 0.1428,
+              "precision_at_95_recall": 0.6,
+              "spearman": 0.2623,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.5496,
+                0.7725
+              ]
+            },
+            "full_model_forest": {
+              "n_test": 126,
+              "prevalence": 0.5238,
+              "average_precision": 0.7399,
+              "ap_lift_over_prevalence": 0.2161,
+              "precision_at_95_recall": 0.578,
+              "spearman": 0.4239,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.6267,
+                0.8378
+              ]
+            }
+          },
+          "best_by_average_precision": "structure_only_forest"
+        },
+        "2015": {
+          "cutoff": 2015,
+          "n_train": 131,
+          "n_test": 104,
+          "n_without_year": 0,
+          "train_prevalence": 0.8092,
+          "test_prevalence": 0.4904,
+          "models": {
+            "frequency_only": {
+              "n_test": 104,
+              "prevalence": 0.4904,
+              "average_precision": 0.4874,
+              "ap_lift_over_prevalence": -0.003,
+              "precision_at_95_recall": 0.5213,
+              "spearman": 0.1674,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.4098,
+                0.6876
+              ]
+            },
+            "conservation_only": {
+              "n_test": 104,
+              "prevalence": 0.4904,
+              "average_precision": 0.4001,
+              "ap_lift_over_prevalence": -0.0903,
+              "precision_at_95_recall": 0.4851,
+              "spearman": -0.2591,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.3141,
+                0.5485
+              ]
+            },
+            "structure_only": {
+              "n_test": 104,
+              "prevalence": 0.4904,
+              "average_precision": 0.7844,
+              "ap_lift_over_prevalence": 0.294,
+              "precision_at_95_recall": 0.5765,
+              "spearman": 0.3916,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.6673,
+                0.8812
+              ]
+            },
+            "structure_only_forest": {
+              "n_test": 104,
+              "prevalence": 0.4904,
+              "average_precision": 0.8391,
+              "ap_lift_over_prevalence": 0.3487,
+              "precision_at_95_recall": 0.5833,
+              "spearman": 0.5619,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.7243,
+                0.9227
+              ]
+            },
+            "esm_only": {
+              "n_test": 104,
+              "prevalence": 0.4904,
+              "average_precision": 0.6944,
+              "ap_lift_over_prevalence": 0.204,
+              "precision_at_95_recall": 0.5269,
+              "spearman": 0.3908,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.5564,
+                0.8225
+              ]
+            },
+            "full_model": {
+              "n_test": 104,
+              "prevalence": 0.4904,
+              "average_precision": 0.5945,
+              "ap_lift_over_prevalence": 0.1041,
+              "precision_at_95_recall": 0.5632,
+              "spearman": 0.1964,
+              "threshold_degenerate": false,
+              "ap_ci95": [
+                0.4662,
+                0.7295
+              ]
+            },
+            "full_model_forest": {
+              "n_test": 104,
+              "prevalence": 0.4904,
+              "average_precision": 0.7058,
+              "ap_lift_over_prevalence": 0.2154,
+              "precision_at_95_recall": 0.5833,
+              "spearman": 0.4186,
+              "threshold_degenerate": true,
+              "ap_ci95": [
+                0.5687,
+                0.8277
+              ]
+            }
+          },
+          "best_by_average_precision": "structure_only_forest"
+        }
+      }
+    }
+  }
+}

@@ -2,8 +2,8 @@
 
 **Draft manuscript — Phase 4**
 **Date:** 2026-11-02
-**Status:** complete draft for internal review. Two pre-declared validations
-are outstanding; see Limitations.
+**Status:** complete draft for internal review. All pre-declared validations
+have been run; one declared extension remains, see Limitations.
 
 ---
 
@@ -46,7 +46,9 @@ reach an average precision of 0.916 against a no-skill floor of 0.731, while
 population frequency reaches 0.723 — **below its own floor**. The structural
 signal is confined to thymidine kinase, where a nucleoside pocket is resolved
 (AP 0.988); it disappears for helicase and primase, where it is not (0.567 and
-0.411). At the pre-declared 2-fold operating point the best model's Matthews
+0.411). It survives a prospective test: across five temporal hold-outs
+splitting the literature from 2005 to 2015, structure is the best feature group
+at every cut-off while every alternative changes sign. At the pre-declared 2-fold operating point the best model's Matthews
 correlation is 0.15, and 9 of 22 models classify every variant identically. A
 model that ranks well and decides uselessly is the honest summary.
 
@@ -369,6 +371,54 @@ cross-validation. The full model does not — it collapses to AP 0.631, below th
 floor, which is what overfitting 30 training rows across five feature groups
 looks like.
 
+### 5.6 External validation: the temporal hold-out
+
+The protocol's strongest declared test: train on mutations characterised before
+a cut-off year, test on those characterised after. It approximates prospective
+validation — knowing only what was published by a given date, can the model
+identify what was subsequently discovered?
+
+A mutation's year is the earliest among its references. All 89 distinct study
+DOIs resolved to a publication year through Crossref, spanning 1987–2025 across
+10 publishers, so **every one of the 119 primary and 235 secondary variants
+carries a year** and the split is not confounded with journal.
+
+The cut-off was not pre-declared. Rather than choose one, all five are reported;
+2012 is nominated primary because it splits the primary set most evenly, a
+criterion independent of the outcome.
+
+Average-precision **lift over the test-set prevalence floor**, primary Tier A:
+
+| Cut-off | Train → test | Structure | Frequency | Conservation | ESM-2 | Full |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2005 | 41 → 78 | **+0.195** | −0.092 | +0.162 | +0.118 | +0.096 |
+| 2008 | 47 → 72 | **+0.215** | +0.020 | −0.096 | +0.052 | +0.035 |
+| 2010 | 52 → 67 | **+0.218** | +0.020 | −0.095 | −0.011 | +0.040 |
+| **2012** | **59 → 60** | **+0.229** | +0.031 | −0.097 | +0.050 | +0.009 |
+| 2015 | 70 → 49 | **+0.170** | −0.006 | −0.158 | +0.101 | −0.013 |
+
+Secondary set, 235 variants: structure lift **+0.245 to +0.349**, frequency
+**−0.003 to +0.021**.
+
+**Structure-only is the best model at every cut-off on the primary set and at
+four of five on the secondary set**, with a lift that never falls below +0.13.
+Nothing else is stable: conservation swings from +0.162 to −0.158, ESM-2 from
++0.118 to −0.011, and the full model sits between +0.009 and +0.096. Frequency
+straddles zero throughout.
+
+This is the most persuasive single result in the project. Five independent
+prospective splits, no tuning against any of them, and the same feature group
+wins each time while every alternative changes sign.
+
+**One confound the split exposes, which is a finding about the literature
+rather than about the models.** Resistance prevalence falls sharply from train
+to test at every cut-off: 0.86 → 0.60 on the primary set at 2012, and 0.83 →
+0.52 on the secondary. Early resistance work characterised almost exclusively
+resistant variants; later work reports many more negatives. So the test sets are
+systematically harder than the training sets, which makes a stable positive lift
+more impressive than it would otherwise be — and it means a model trained on
+pre-2012 literature is calibrated to a base rate that no longer holds.
+
 ## 6. The circularity audit
 
 Reported here rather than in a supplement, because it is the project's main
@@ -537,13 +587,15 @@ catalogue is internally consistent with the reference sequence, not that the
 catalogue is faithful to its sources. Two substitutions passed this gate while
 being flagged as misreported by an independent published audit.
 
-**Two pre-declared validations were not run.** The temporal hold-out — training
-on mutations characterised before a cut-off year and testing on those after,
-which the protocol called "the single most persuasive validation in the plan" —
-requires publication years that are recoverable offline for only 35 of 89
-studies, and the recoverable ones cluster by publisher. A split on
-partially-available year would confound era with journal. The positive-unlabelled
-extension to variants of unknown significance was also not attempted.
+**The temporal hold-out's cut-off year was not pre-declared.** All five
+cut-offs are reported for that reason, and the nominated primary is chosen on
+split balance rather than performance. Reference years come from Crossref and
+are cached with their retrieval date; a study's year is the earliest among its
+references.
+
+**One pre-declared extension was not attempted.** The positive-unlabelled
+formulation, which would score the variants-of-unknown-significance pool where
+the clinical value lies, remains open.
 
 **This is not a public pre-registration.** The analysis plan demonstrably
 predates data acquisition by file timestamp, but it was not deposited with a

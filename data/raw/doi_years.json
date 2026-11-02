@@ -1,0 +1,629 @@
+{
+  "retrieved": "2026-11-02T12:05:45Z",
+  "source": "api.crossref.org",
+  "years": {
+    "10.1002/(SICI)1096-9071(199810)56:2<151::AID-JMV9>3.0.CO;2-7": {
+      "container": "Journal of Medical Virology",
+      "publisher": "Wiley",
+      "title": "Polymorphisms of thymidine kinase gene in herpes simplex virus type 1: Analysis of clinical isolates from herpetic keratitis patients and laboratory strains",
+      "year": 1998,
+      "year_field": "issued"
+    },
+    "10.1002/j.1460-2075.1987.tb04735.x": {
+      "container": "The EMBO Journal",
+      "publisher": "Springer Science and Business Media LLC",
+      "title": "Related functional domains in virus DNA polymerases.",
+      "year": 1987,
+      "year_field": "issued"
+    },
+    "10.1002/jmv.10175": {
+      "container": "Journal of Medical Virology",
+      "publisher": "Wiley",
+      "title": "Bone marrow transplantation in a child with Wiskott\u2010Aldrich syndrome latently infected with acyclovir\u2010resistant (ACV<sup>r</sup>) herpes simplex virus type 1: E",
+      "year": 2002,
+      "year_field": "created"
+    },
+    "10.1002/jmv.20061": {
+      "container": "Journal of Medical Virology",
+      "publisher": "Wiley",
+      "title": "Characterisation of penciclovir resistant acyclovir sensitive herpes simplex virus type 2 isolated from an AIDS patient",
+      "year": 2004,
+      "year_field": "created"
+    },
+    "10.1002/jmv.20990": {
+      "container": "Journal of Medical Virology",
+      "publisher": "Wiley",
+      "title": "Genital herpes due to acyclovir\u2010sensitive herpes simplex virus caused secondary and recurrent herpetic whitlows due to thymidine kinase\u2010deficient/temperature\u2010se",
+      "year": 2007,
+      "year_field": "created"
+    },
+    "10.1002/jmv.2195": {
+      "container": "Journal of Medical Virology",
+      "publisher": "Wiley",
+      "title": "Herpes simplex virus isolates with reduced adefovir susceptibility selected in vivo by foscarnet therapy",
+      "year": 2002,
+      "year_field": "created"
+    },
+    "10.1002/jmv.28985": {
+      "container": "Journal of Medical Virology",
+      "publisher": "Wiley",
+      "title": "Acyclovir\u2010resistant HSV\u20101 isolates among immunocompromised patients in southern Taiwan: Low prevalence and novel mutations",
+      "year": 2023,
+      "year_field": "created"
+    },
+    "10.1006/viro.1993.1439": {
+      "container": "Virology",
+      "publisher": "Elsevier BV",
+      "title": "Resistance to Antiviral Inhibitors Caused by the Mutation S889A in the Highly-Conserved 885-GDTDS Motif of the Herpes Simplex Virus Type 1 DNA Polymerase",
+      "year": 1993,
+      "year_field": "issued"
+    },
+    "10.1007/BF01379080": {
+      "container": "Archives of Virology",
+      "publisher": "Springer Science and Business Media LLC",
+      "title": "Molecular analysis of a neurovirulent herpes simplex virus type 2 strain with reduced thymidine kinase activity",
+      "year": 1993,
+      "year_field": "issued"
+    },
+    "10.1016/0042-6822(88)90308-X": {
+      "container": "Virology",
+      "publisher": "Elsevier BV",
+      "title": "Site-directed mutagenesis of a nucleotide-binding domain in HSV-1 thymidine kinase: Effects on catalytic activity",
+      "year": 1988,
+      "year_field": "issued"
+    },
+    "10.1016/S0166-3542(02)00131-6": {
+      "container": "Antiviral Research",
+      "publisher": "Elsevier BV",
+      "title": "Genotypic and phenotypic characterization of the thymidine kinase of ACV-resistant HSV-1 derived from an acyclovir-sensitive herpes simplex virus type 1 strain",
+      "year": 2002,
+      "year_field": "created"
+    },
+    "10.1016/S0166-3542(97)00054-5": {
+      "container": "Antiviral Research",
+      "publisher": "Elsevier BV",
+      "title": "Penciclovir and pathogenesis phenotypes of drug-resistant Herpes simplex virus mutants",
+      "year": 1998,
+      "year_field": "issued"
+    },
+    "10.1016/j.antiviral.2003.08.018": {
+      "container": "Antiviral Research",
+      "publisher": "Elsevier BV",
+      "title": "Molecular analysis of clinical isolates of acyclovir resistant herpes simplex virus",
+      "year": 2003,
+      "year_field": "created"
+    },
+    "10.1016/j.antiviral.2006.01.010": {
+      "container": "Antiviral Research",
+      "publisher": "Elsevier BV",
+      "title": "Intracellular uptake of thymidine and antiherpetic drugs for thymidine kinase-deficient mutants of herpes simplex virus type 1",
+      "year": 2006,
+      "year_field": "created"
+    },
+    "10.1016/j.antiviral.2008.01.153": {
+      "container": "Antiviral Research",
+      "publisher": "Elsevier BV",
+      "title": "Genotypic detection of acyclovir-resistant HSV-1: Characterization of 67 ACV-sensitive and 14 ACV-resistant viruses",
+      "year": 2008,
+      "year_field": "created"
+    },
+    "10.1016/j.antiviral.2010.03.002": {
+      "container": "Antiviral Research",
+      "publisher": "Elsevier BV",
+      "title": "Phenotypic and genotypic characterization of acyclovir-resistant clinical isolates of herpes simplex virus",
+      "year": 2010,
+      "year_field": "created"
+    },
+    "10.1016/j.antiviral.2012.09.016": {
+      "container": "Antiviral Research",
+      "publisher": "Elsevier BV",
+      "title": "Impact of novel mutations of herpes simplex virus 1 and 2 thymidine kinases on acyclovir phosphorylation activity",
+      "year": 2012,
+      "year_field": "created"
+    },
+    "10.1016/j.antiviral.2013.09.008": {
+      "container": "Antiviral Research",
+      "publisher": "Elsevier BV",
+      "title": "Phenotypic and genotypic characterization of induced acyclovir-resistant clinical isolates of herpes simplex virus type 1",
+      "year": 2013,
+      "year_field": "created"
+    },
+    "10.1016/j.antiviral.2013.09.012": {
+      "container": "Antiviral Research",
+      "publisher": "Elsevier BV",
+      "title": "Surveillance of herpes simplex virus resistance to antivirals: A 4-year survey",
+      "year": 2013,
+      "year_field": "created"
+    },
+    "10.1016/j.antiviral.2014.03.015": {
+      "container": "Antiviral Research",
+      "publisher": "Elsevier BV",
+      "title": "Single nucleotide polymorphisms of thymidine kinase and DNA polymerase genes in clinical herpes simplex virus type 1 isolates associated with different resistan",
+      "year": 2014,
+      "year_field": "created"
+    },
+    "10.1016/j.antiviral.2014.08.013": {
+      "container": "Antiviral Research",
+      "publisher": "Elsevier BV",
+      "title": "Resistance of herpes simplex viruses to acyclovir: An update from a ten-year survey in France",
+      "year": 2014,
+      "year_field": "created"
+    },
+    "10.1016/j.antiviral.2018.02.004": {
+      "container": "Antiviral Research",
+      "publisher": "Elsevier BV",
+      "title": "Relevance of non-synonymous thymidine kinase mutations for antiviral resistance of recombinant herpes simplex virus type 2 strains",
+      "year": 2018,
+      "year_field": "created"
+    },
+    "10.1016/j.antiviral.2019.05.012": {
+      "container": "Antiviral Research",
+      "publisher": "Elsevier BV",
+      "title": "UL23, UL30, and UL5 characterization of HSV1 clinical strains isolated from hematology department patients",
+      "year": 2019,
+      "year_field": "created"
+    },
+    "10.1016/j.antiviral.2019.06.007": {
+      "container": "Antiviral Research",
+      "publisher": "Elsevier BV",
+      "title": "Input of recombinant phenotyping for the characterization of a novel acyclovir-resistance mutation identified in a patient with recurrent herpetic keratitis",
+      "year": 2019,
+      "year_field": "created"
+    },
+    "10.1016/j.antiviral.2021.105046": {
+      "container": "Antiviral Research",
+      "publisher": "Elsevier BV",
+      "title": "Differential impact of various substitutions at codon 715 in region II of HSV-1 and HCMV DNA polymerases",
+      "year": 2021,
+      "year_field": "created"
+    },
+    "10.1016/j.antiviral.2021.105166": {
+      "container": "Antiviral Research",
+      "publisher": "Elsevier BV",
+      "title": "Antiviral susceptibility of recombinant Herpes simplex virus 1 strains with specific polymerase amino acid changes",
+      "year": 2021,
+      "year_field": "created"
+    },
+    "10.1016/j.drup.2010.11.002": {
+      "container": "Drug Resistance Updates",
+      "publisher": "Elsevier BV",
+      "title": "Antiviral drug resistance and helicase\u2013primase inhibitors of herpes simplex virus",
+      "year": 2010,
+      "year_field": "created"
+    },
+    "10.1016/j.ijmm.2015.08.014": {
+      "container": "International Journal of Medical Microbiology",
+      "publisher": "Elsevier BV",
+      "title": "Resistance testing of clinical herpes simplex virus type 2 isolates collected over 4 decades",
+      "year": 2015,
+      "year_field": "created"
+    },
+    "10.1016/j.jcv.2004.04.002": {
+      "container": "Journal of Clinical Virology",
+      "publisher": "Elsevier BV",
+      "title": "Survey of acyclovir-resistant herpes simplex virus in the Netherlands: prevalence and characterization",
+      "year": 2004,
+      "year_field": "created"
+    },
+    "10.1016/j.jcv.2011.06.009": {
+      "container": "Journal of Clinical Virology",
+      "publisher": "Elsevier BV",
+      "title": "Identification and characterization of acyclovir-resistant clinical HSV-1 isolates from children",
+      "year": 2011,
+      "year_field": "created"
+    },
+    "10.1016/j.jcv.2012.09.004": {
+      "container": "Journal of Clinical Virology",
+      "publisher": "Elsevier BV",
+      "title": "Rapid susceptibility testing for herpes simplex virus type 1 using real-time PCR",
+      "year": 2012,
+      "year_field": "created"
+    },
+    "10.1016/j.jcv.2013.03.014": {
+      "container": "Journal of Clinical Virology",
+      "publisher": "Elsevier BV",
+      "title": "Acyclovir-resistant herpes simplex virus type 1 in intra-ocular fluid samples of herpetic uveitis patients",
+      "year": 2013,
+      "year_field": "created"
+    },
+    "10.1016/j.jcv.2023.105554": {
+      "container": "Journal of Clinical Virology",
+      "publisher": "Elsevier BV",
+      "title": "Genotypic testing improves detection of antiviral resistance in human herpes simplex virus",
+      "year": 2023,
+      "year_field": "created"
+    },
+    "10.1016/j.jviromet.2012.12.001": {
+      "container": "Journal of Virological Methods",
+      "publisher": "Elsevier BV",
+      "title": "Screening of herpes simplex virus type 1 isolates for acyclovir resistance using DiviTum\u00ae assay",
+      "year": 2012,
+      "year_field": "created"
+    },
+    "10.1016/j.jviromet.2017.05.013": {
+      "container": "Journal of Virological Methods",
+      "publisher": "Elsevier BV",
+      "title": "Stepwise characterization of non-synonymous mutations in the HSV-1 thymidine kinase gene by different functional assays",
+      "year": 2017,
+      "year_field": "created"
+    },
+    "10.1038/s41598-022-05188-w": {
+      "container": "Scientific Reports",
+      "publisher": "Springer Science and Business Media LLC",
+      "title": "Non-cytopathic herpes simplex virus type-1 isolated from acyclovir-treated patients with recurrent infections",
+      "year": 2022,
+      "year_field": "created"
+    },
+    "10.1038/srep29903": {
+      "container": "Scientific Reports",
+      "publisher": "Springer Science and Business Media LLC",
+      "title": "Recombinant herpes simplex virus type 1 strains with targeted mutations relevant for aciclovir susceptibility",
+      "year": 2016,
+      "year_field": "created"
+    },
+    "10.1046/j.1432-1327.1998.2550472.x": {
+      "container": "European Journal of Biochemistry",
+      "publisher": "Wiley",
+      "title": "Drug resistance of herpes simplex virus type 1",
+      "year": 1998,
+      "year_field": "issued"
+    },
+    "10.1056/NEJM199312093292405": {
+      "container": "New England Journal of Medicine",
+      "publisher": "Massachusetts Medical Society",
+      "title": "Recurrent Acyclovir-Resistant Genital Herpes in an Immunocompetent Patient",
+      "year": 1993,
+      "year_field": "issued"
+    },
+    "10.1074/jbc.271.46.29245": {
+      "container": "Journal of Biological Chemistry",
+      "publisher": "Elsevier BV",
+      "title": "Herpes Simplex Virus Type 1 DNA Polymerase",
+      "year": 1996,
+      "year_field": "issued"
+    },
+    "10.1074/jbc.273.37.24075": {
+      "container": "Journal of Biological Chemistry",
+      "publisher": "Elsevier BV",
+      "title": "Impaired Mismatch Extension by a Herpes Simplex DNA Polymerase Mutant with an Editing Nuclease Defect",
+      "year": 1998,
+      "year_field": "issued"
+    },
+    "10.1086/314900": {
+      "container": "The Journal of Infectious Diseases",
+      "publisher": "Oxford University Press (OUP)",
+      "title": "Characterization of the DNA Polymerase and Thymidine Kinase Genesof Herpes Simplex Virus Isolates from AIDS Patients in whom Acyclovirand Foscarnet Therapy Sequ",
+      "year": 1999,
+      "year_field": "issued"
+    },
+    "10.1086/315696": {
+      "container": "The Journal of Infectious Diseases",
+      "publisher": "Oxford University Press (OUP)",
+      "title": "Genetic Characterization of Thymidine Kinase from Acyclovir\u2010Resistant and \u2010Susceptible Herpes Simplex Virus Type 1 Isolated from Bone Marrow Transplant Recipien",
+      "year": 2000,
+      "year_field": "issued"
+    },
+    "10.1086/515375": {
+      "container": "The Journal of Infectious Diseases",
+      "publisher": "Oxford University Press (OUP)",
+      "title": "Recurrent Acyclovir\u2010Resistant Herpes Simplex in an Immunocompromised Patient: Can Strain Differences Compensate for Loss of Thymidine Kinase in Pathogenesis?",
+      "year": 1998,
+      "year_field": "issued"
+    },
+    "10.1086/515626": {
+      "container": "Journal of Infectious Diseases",
+      "publisher": "Oxford University Press (OUP)",
+      "title": "Phenotypic and Genotypic Characterization of Acyclovir-Resistant Herpes Simplex Viruses from Immunocompromised Patients",
+      "year": 1998,
+      "year_field": "issued"
+    },
+    "10.1086/590668": {
+      "container": "The Journal of Infectious Diseases",
+      "publisher": "Oxford University Press (OUP)",
+      "title": "Acyclovir\u2010Resistant Corneal HSV\u20101 Isolates from Patients with Herpetic Keratitis",
+      "year": 2008,
+      "year_field": "created"
+    },
+    "10.1086/606028": {
+      "container": "The Journal of Infectious Diseases",
+      "publisher": "Oxford University Press (OUP)",
+      "title": "Acyclovir Susceptibility and Genetic Characteristics of Sequential Herpes Simplex Virus Type 1 Corneal Isolates from Patients with Recurrent Herpetic Keratitis",
+      "year": 2009,
+      "year_field": "created"
+    },
+    "10.1093/infdis/jiad184": {
+      "container": "The Journal of Infectious Diseases",
+      "publisher": "Oxford University Press (OUP)",
+      "title": "A Herpes Simplex Virus 1 DNA Polymerase Multidrug Resistance Mutation Identified in a Patient With Immunodeficiency and Confirmed by Gene Editing",
+      "year": 2023,
+      "year_field": "created"
+    },
+    "10.1093/infdis/jit437": {
+      "container": "The Journal of Infectious Diseases",
+      "publisher": "Oxford University Press (OUP)",
+      "title": "Common and New Acyclovir Resistant Herpes Simplex Virus-1 Mutants Causing Bilateral Recurrent Herpetic Keratitis in an Immunocompetent Patient",
+      "year": 2013,
+      "year_field": "created"
+    },
+    "10.1093/infdis/jiw129": {
+      "container": "Journal of Infectious Diseases",
+      "publisher": "Oxford University Press (OUP)",
+      "title": "No Evidence of Pritelivir Resistance Among Herpes Simplex Virus Type 2 Isolates After 4 Weeks of Daily Therapy",
+      "year": 2016,
+      "year_field": "created"
+    },
+    "10.1093/infdis/jix042": {
+      "container": "The Journal of Infectious Diseases",
+      "publisher": "Oxford University Press (OUP)",
+      "title": "Association of the Emergence of Acyclovir-Resistant Herpes Simplex Virus Type 1 With Prognosis in Hematopoietic Stem Cell Transplantation Patients",
+      "year": 2017,
+      "year_field": "created"
+    },
+    "10.1093/infdis/jix605": {
+      "container": "The Journal of Infectious Diseases",
+      "publisher": "Oxford University Press (OUP)",
+      "title": "The Anti\u2013Human Immunodeficiency Virus Drug Tenofovir, a Reverse Transcriptase Inhibitor, Also Targets the Herpes Simplex Virus DNA Polymerase",
+      "year": 2017,
+      "year_field": "created"
+    },
+    "10.1093/jac/dkac297": {
+      "container": "Journal of Antimicrobial Chemotherapy",
+      "publisher": "Oxford University Press (OUP)",
+      "title": "Heterogeneity and viral replication fitness of HSV-1 clinical isolates with mutations in the thymidine kinase and DNA polymerase",
+      "year": 2022,
+      "year_field": "created"
+    },
+    "10.1093/jac/dkm182": {
+      "container": "Journal of Antimicrobial Chemotherapy",
+      "publisher": "Oxford University Press (OUP)",
+      "title": "Detection of HSV-1 variants highly resistant to the helicase\u2013primase inhibitor BAY 57-1293 at high frequency in 2 of 10 recent clinical isolates of HSV-1",
+      "year": 2007,
+      "year_field": "created"
+    },
+    "10.1093/jac/dkn057": {
+      "container": "Journal of Antimicrobial Chemotherapy",
+      "publisher": "Oxford University Press (OUP)",
+      "title": "A single drug-resistance mutation in HSV-1 UL52 primase points to a difference between two helicase\u2013primase inhibitors in their mode of interaction with the ant",
+      "year": 2008,
+      "year_field": "created"
+    },
+    "10.1093/ve/veae101": {
+      "container": "Virus Evolution",
+      "publisher": "Oxford University Press (OUP)",
+      "title": "Combined use of pritelivir with acyclovir or foscarnet suppresses evolution of HSV-1 drug resistance",
+      "year": 2024,
+      "year_field": "created"
+    },
+    "10.1099/0022-1317-81-3-639": {
+      "container": "Journal of General Virology",
+      "publisher": "Microbiology Society",
+      "title": "Resistance of herpes simplex virus type 1 against different phosphonylmethoxyalkyl derivatives of purines and pyrimidines due to specific mutations in the viral",
+      "year": 2000,
+      "year_field": "issued"
+    },
+    "10.1099/vir.0.18880-0": {
+      "container": "Journal of General Virology",
+      "publisher": "Microbiology Society",
+      "title": "Phenotypic and genotypic characterization of clinical isolates of herpes simplex virus resistant to aciclovir",
+      "year": 2003,
+      "year_field": "created"
+    },
+    "10.1128/AAC.00390-21": {
+      "container": "Antimicrobial Agents and Chemotherapy",
+      "publisher": "American Society for Microbiology",
+      "title": "Impact of Amino Acid Substitutions in Region II and Helix K of Herpes Simplex Virus 1 and Human Cytomegalovirus DNA Polymerases on Resistance to Foscarnet",
+      "year": 2021,
+      "year_field": "created"
+    },
+    "10.1128/AAC.00494-21": {
+      "container": "Antimicrobial Agents and Chemotherapy",
+      "publisher": "American Society for Microbiology",
+      "title": "Characteristics of Helicase-Primase Inhibitor Amenamevir-Resistant Herpes Simplex Virus",
+      "year": 2021,
+      "year_field": "created"
+    },
+    "10.1128/AAC.00669-10": {
+      "container": "Antimicrobial Agents and Chemotherapy",
+      "publisher": "American Society for Microbiology",
+      "title": "Genotypic Characterization of UL23 Thymidine Kinase and UL30 DNA Polymerase of Clinical Isolates of Herpes Simplex Virus: Natural Polymorphism and Mutations Ass",
+      "year": 2010,
+      "year_field": "created"
+    },
+    "10.1128/AAC.00889-06": {
+      "container": "Antimicrobial Agents and Chemotherapy",
+      "publisher": "American Society for Microbiology",
+      "title": "Thymidine Kinase Mutations Conferring Acyclovir Resistance in Herpes Simplex Type 1 Recombinant Viruses",
+      "year": 2006,
+      "year_field": "created"
+    },
+    "10.1128/AAC.00977-15": {
+      "container": "Antimicrobial Agents and Chemotherapy",
+      "publisher": "American Society for Microbiology",
+      "title": "Sequence Analysis of Herpes Simplex Virus 1 Thymidine Kinase and DNA Polymerase Genes from over 300 Clinical Isolates from 1973 to 2014 Finds Novel Mutations Th",
+      "year": 2015,
+      "year_field": "created"
+    },
+    "10.1128/AAC.49.2.606-611.2005": {
+      "container": "Antimicrobial Agents and Chemotherapy",
+      "publisher": "American Society for Microbiology",
+      "title": "Genotypic Characterization of the DNA Polymerase and Sensitivity to Antiviral Compounds of Foscarnet-Resistant Herpes Simplex Virus Type 1 (HSV-1) Derived from ",
+      "year": 2005,
+      "year_field": "created"
+    },
+    "10.1128/AAC.49.3.1055-1059.2005": {
+      "container": "Antimicrobial Agents and Chemotherapy",
+      "publisher": "American Society for Microbiology",
+      "title": "Herpes Simplex Virus Thymidine Kinase Mutations Associated with Resistance to Acyclovir: a Site-Directed Mutagenesis Study",
+      "year": 2005,
+      "year_field": "created"
+    },
+    "10.1128/JCM.02247-12": {
+      "container": "Journal of Clinical Microbiology",
+      "publisher": "American Society for Microbiology",
+      "title": "Neonatal Herpes Encephalitis Caused by a Virologically Confirmed Acyclovir-Resistant Herpes Simplex Virus 1 Strain",
+      "year": 2012,
+      "year_field": "created"
+    },
+    "10.1128/JVI.03360-14": {
+      "container": "Journal of Virology",
+      "publisher": "American Society for Microbiology",
+      "title": "Contrasting Effects of W781V and W780V Mutations in Helix N of Herpes Simplex Virus 1 and Human Cytomegalovirus DNA Polymerases on Antiviral Drug Susceptibility",
+      "year": 2015,
+      "year_field": "created"
+    },
+    "10.1128/JVI.64.12.5883-5890.1990": {
+      "container": "Journal of Virology",
+      "publisher": "American Society for Microbiology",
+      "title": "Engineered herpes simplex virus DNA polymerase point mutants: the most highly conserved region shared among alpha-like DNA polymerases is involved in substrate ",
+      "year": 1990,
+      "year_field": "issued"
+    },
+    "10.1128/JVI.75.4.1761-1769.2001": {
+      "container": "Journal of Virology",
+      "publisher": "American Society for Microbiology",
+      "title": "Characterization of Herpes Simplex Viruses Selected in Culture for Resistance to Penciclovir or Acyclovir",
+      "year": 2001,
+      "year_field": "issued"
+    },
+    "10.1128/JVI.75.7.3105-3110.2001": {
+      "container": "Journal of Virology",
+      "publisher": "American Society for Microbiology",
+      "title": "Highly Reliable Heterologous System for Evaluating Resistance of Clinical Herpes Simplex Virus Isolates to Nucleoside Analogues",
+      "year": 2001,
+      "year_field": "issued"
+    },
+    "10.1128/JVI.77.14.7820-7829.2003": {
+      "container": "Journal of Virology",
+      "publisher": "American Society for Microbiology",
+      "title": "Drug Resistance Patterns of Recombinant Herpes Simplex Virus DNA Polymerase Mutants Generated with a Set of Overlapping Cosmids and Plasmids",
+      "year": 2003,
+      "year_field": "created"
+    },
+    "10.1128/JVI.78.2.650-657.2004": {
+      "container": "Journal of Virology",
+      "publisher": "American Society for Microbiology",
+      "title": "A Point Mutation within Conserved Region VI of Herpes Simplex Virus Type 1 DNA Polymerase Confers Altered Drug Sensitivity and Enhances Replication Fidelity",
+      "year": 2003,
+      "year_field": "created"
+    },
+    "10.1128/JVI.79.9.5863-5869.2005": {
+      "container": "Journal of Virology",
+      "publisher": "American Society for Microbiology",
+      "title": "Characterization of Herpes Simplex Virus Type 1 Thymidine Kinase Mutants Selected under a Single Round of High-Dose Brivudin",
+      "year": 2005,
+      "year_field": "created"
+    },
+    "10.1128/aac.00110-24": {
+      "container": "Antimicrobial Agents and Chemotherapy",
+      "publisher": "American Society for Microbiology",
+      "title": "Combination of ganciclovir and trifluridine prevents drug-resistance emergence in HSV-1",
+      "year": 2024,
+      "year_field": "created"
+    },
+    "10.1128/aac.31.10.1483": {
+      "container": "Antimicrobial Agents and Chemotherapy",
+      "publisher": "American Society for Microbiology",
+      "title": "Nucleotide sequence changes in thymidine kinase gene of herpes simplex virus type 2 clones from an isolate of a patient treated with acyclovir",
+      "year": 1987,
+      "year_field": "issued"
+    },
+    "10.1128/jvi.66.3.1774-1776.1992": {
+      "container": "Journal of Virology",
+      "publisher": "American Society for Microbiology",
+      "title": "A point mutation within a distinct conserved region of the herpes simplex virus DNA polymerase gene confers drug resistance",
+      "year": 1992,
+      "year_field": "issued"
+    },
+    "10.1177/095632020701800102": {
+      "container": "Antiviral Chemistry and Chemotherapy",
+      "publisher": "SAGE Publications",
+      "title": "High Frequency of Spontaneous Helicaseprimase Inhibitor (BAY 57\u20131293) Drug-Resistant Variants in Certain Laboratory Isolates of HSV-1",
+      "year": 2007,
+      "year_field": "issued"
+    },
+    "10.1177/095632029100200504": {
+      "container": "Antiviral Chemistry and Chemotherapy",
+      "publisher": "SAGE Publications",
+      "title": "Herpes Simplex Virus Isolates from an Immunocompromised Patient who Failed to Respond to Acyclovir Treatment Express Thymidine Kinase with Altered Substrate Spe",
+      "year": 1991,
+      "year_field": "issued"
+    },
+    "10.1177/135965350400900107": {
+      "container": "Antiviral Therapy",
+      "publisher": "SAGE Publications",
+      "title": "Sequential Switching of Dna Polymerase and Thymidine Kinase-Mediated Hsv-1 Drug Resistance in An Immunocompromised Child",
+      "year": 2004,
+      "year_field": "issued"
+    },
+    "10.1177/135965350400900413": {
+      "container": "Antiviral Therapy",
+      "publisher": "SAGE Publications",
+      "title": "Genotypic and Phenotypic Characterization of Acyclovir-Resistant Herpes Simplex Viruses Isolated from Haematopoietic Stem Cell Transplant Recipients",
+      "year": 2004,
+      "year_field": "issued"
+    },
+    "10.1177/135965350701200502": {
+      "container": "Antiviral Therapy",
+      "publisher": "SAGE Publications",
+      "title": "DNA Polymerase Mutations in Drug-Resistant Herpes Simplex Virus Mutants Determine\n                    <i>In Vivo</i>\n                    Neurovirulence and Drug",
+      "year": 2007,
+      "year_field": "issued"
+    },
+    "10.1186/s12985-017-0728-2": {
+      "container": "Virology Journal",
+      "publisher": "Springer Science and Business Media LLC",
+      "title": "Association between sensitivity of viral thymidine kinase-associated acyclovir-resistant herpes simplex virus type 1 and virulence",
+      "year": 2017,
+      "year_field": "created"
+    },
+    "10.3390/v16121813": {
+      "container": "Viruses",
+      "publisher": "MDPI AG",
+      "title": "A Mutation in the Herpes Simplex Virus Type 1 (HSV-1) UL29 Gene is Associated with Anti-Herpesvirus Drugs\u2019 Susceptibility",
+      "year": 2024,
+      "year_field": "created"
+    },
+    "10.3390/v17070962": {
+      "container": "Viruses",
+      "publisher": "MDPI AG",
+      "title": "Primary HSV-2 Infection in an Immunocompromised Patient Reveals High Diversity of Drug-Resistance Mutations in the Viral DNA Polymerase",
+      "year": 2025,
+      "year_field": "created"
+    },
+    "10.3851/IMP1852": {
+      "container": "Antiviral Therapy",
+      "publisher": "SAGE Publications",
+      "title": "Gene Polymorphism of Thymidine Kinase and Dna Polymerase in Clinical Strains of Herpes Simplex Virus",
+      "year": 2011,
+      "year_field": "created"
+    },
+    "10.3851/IMP1870": {
+      "container": "Antiviral Therapy",
+      "publisher": "SAGE Publications",
+      "title": "Novel Resistance-Associated Mutations of Thymidine Kinase and Dna Polymerase Genes of Herpes Simplex Virus Type 1 and Type 2",
+      "year": 2011,
+      "year_field": "created"
+    },
+    "10.3851/IMP3279": {
+      "container": "Antiviral Therapy",
+      "publisher": "SAGE Publications",
+      "title": "HSV Susceptibility to Acyclovir \u2013 Genotypic and Phenotypic Characterization",
+      "year": 2018,
+      "year_field": "created"
+    },
+    "10.7883/yoken.66.404": {
+      "container": "Japanese Journal of Infectious Diseases",
+      "publisher": "Editorial Committee of Japanese Journal of Infectious Diseases, National Institute of Infectious Dis",
+      "title": "Characterization of DNA Polymerase-Associated Acyclovir-Resistant Herpes Simplex Virus Type 1: Mutations, Sensitivity to Antiviral Compounds, Neurovirulence, an",
+      "year": 2013,
+      "year_field": "issued"
+    },
+    "10.7883/yoken.JJID.2018.176": {
+      "container": "Japanese Journal of Infectious Diseases",
+      "publisher": "Editorial Committee of Japanese Journal of Infectious Diseases, National Institute of Infectious Dis",
+      "title": "Acyclovir Sensitivity and Neurovirulence of Herpes Simplex Virus Type 1 with Amino Acid Substitutions in the Viral Thymidine Kinase Gene, Which Were Detected in",
+      "year": 2018,
+      "year_field": "created"
+    }
+  }
+}
