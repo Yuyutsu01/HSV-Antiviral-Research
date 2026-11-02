@@ -1,0 +1,171 @@
+{
+  "figure1A_bands": {
+    "Common (5-50%)": 15,
+    "Majority (>50%)": 11,
+    "Not observed": 516,
+    "Rare (<1%)": 21,
+    "Singleton": 45,
+    "Uncommon (1-5%)": 36
+  },
+  "figure1B": {
+    "max_fold_change_at_or_above_5pc": 2.4,
+    "median_fold_change_not_observed": 5.0,
+    "median_fold_change_observed": 1.5,
+    "n_common_above_5x": 0,
+    "n_common_at_2x": 2,
+    "n_not_observed": 211,
+    "n_observed": 30,
+    "n_phenotyped": 241
+  },
+  "figure2": {
+    "HSV1:UL23": {
+      "ci": [
+        0.33766158203827457,
+        0.4067680429017519
+      ],
+      "n_isolates": 239,
+      "pN_pS": 0.3709765095802362,
+      "reliable": true
+    },
+    "HSV1:UL30": {
+      "ci": [
+        0.16051717633297433,
+        0.18541481860379216
+      ],
+      "n_isolates": 300,
+      "pN_pS": 0.17301901482081017,
+      "reliable": true
+    },
+    "HSV1:UL5": {
+      "ci": [
+        0.1590622973080653,
+        0.20546090281477808
+      ],
+      "n_isolates": 251,
+      "pN_pS": 0.18085902522006095,
+      "reliable": true
+    },
+    "HSV1:UL52": {
+      "ci": [
+        0.12805055718714264,
+        0.15437084265574155
+      ],
+      "n_isolates": 299,
+      "pN_pS": 0.13985240977252245,
+      "reliable": true
+    },
+    "HSV2:UL23": {
+      "ci": [
+        1.7444273931443546,
+        3.673843431836492
+      ],
+      "n_isolates": 160,
+      "pN_pS": 2.456103579782302,
+      "reliable": false
+    },
+    "HSV2:UL30": {
+      "ci": [
+        0.4088641736130641,
+        0.6121919005460524
+      ],
+      "n_isolates": 253,
+      "pN_pS": 0.4906631427524472,
+      "reliable": true
+    },
+    "HSV2:UL5": {
+      "ci": [
+        0.13993466906836372,
+        0.1963641869095941
+      ],
+      "n_isolates": 247,
+      "pN_pS": 0.1671296562415965,
+      "reliable": false
+    },
+    "HSV2:UL52": {
+      "ci": [
+        0.4803588099428306,
+        0.6208848638774004
+      ],
+      "n_isolates": 225,
+      "pN_pS": 0.5417117011164255,
+      "reliable": false
+    },
+    "aim2_contrast": {
+      "ci": [
+        0.1663903159421068,
+        0.23611997844380558
+      ],
+      "difference": 0.19795749475942603,
+      "fraction_resamples": 1.0
+    }
+  },
+  "figure3A": {
+    "HSV1:UL23": {
+      "frequency_ap": 0.7739,
+      "n": 31,
+      "prevalence": 0.8387,
+      "structure_ap": 0.9882
+    },
+    "HSV1:UL30": {
+      "frequency_ap": 0.6216,
+      "n": 45,
+      "prevalence": 0.6222,
+      "structure_ap": 0.8233
+    },
+    "HSV1:UL5": {
+      "frequency_ap": 0.525,
+      "n": 7,
+      "prevalence": 0.5714,
+      "structure_ap": 0.5667
+    },
+    "HSV1:UL52": {
+      "frequency_ap": 0.5333,
+      "n": 6,
+      "prevalence": 0.5,
+      "structure_ap": 0.4111
+    },
+    "HSV2:UL23": {
+      "frequency_ap": 0.6469,
+      "n": 12,
+      "prevalence": 0.6667,
+      "structure_ap": 1.0
+    }
+  },
+  "figure3B": {
+    "conservation_only": {
+      "2005": 0.0846,
+      "2008": 0.0998,
+      "2010": 0.0618,
+      "2012": 0.0424,
+      "2015": 0.1621
+    },
+    "esm_only": {
+      "2005": 0.1179,
+      "2008": 0.0521,
+      "2010": -0.0107,
+      "2012": 0.0499,
+      "2015": 0.1011
+    },
+    "frequency_only": {
+      "2005": -0.0774,
+      "2008": 0.0193,
+      "2010": 0.0199,
+      "2012": 0.0303,
+      "2015": -0.0063
+    },
+    "full_model": {
+      "2005": 0.1102,
+      "2008": 0.1264,
+      "2010": 0.1231,
+      "2012": 0.0896,
+      "2015": 0.066
+    },
+    "structure": {
+      "2005": 0.1946,
+      "2008": 0.2154,
+      "2010": 0.2179,
+      "2012": 0.2287,
+      "2015": 0.1696
+    }
+  }
+}

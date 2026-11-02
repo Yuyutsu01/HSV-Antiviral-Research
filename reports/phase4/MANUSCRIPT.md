@@ -1,9 +1,13 @@
 # Most catalogued HSV antiviral resistance mutations have never been checked against the virus that circulates
 
-**Draft manuscript — Phase 4**
-**Date:** 2026-11-02
-**Status:** complete draft for internal review. All pre-declared validations
-have been run; one declared extension remains, see Limitations.
+*Authors and affiliations to be completed.*
+
+**Correspondence:** *to be completed*
+
+**Keywords:** herpes simplex virus; antiviral resistance; allele frequency;
+thymidine kinase; DNA polymerase; helicase–primase; aciclovir; pritelivir
+
+**Running title:** Population frequencies of catalogued HSV resistance mutations
 
 ---
 
@@ -27,6 +31,9 @@ reclassification as polymorphisms. Forty-one are common in circulation but have
 never been phenotyped, and are the clearest target for future assay work.
 Three initially appeared to be circulating resistance alleles; none survives
 scrutiny, two as single-submission artefacts and one on a 2.3-fold phenotype.
+Among the 241 substitutions with a measured phenotype, none that exceeds 5%
+frequency exceeds 2.4-fold resistance: there is no common strongly resistant
+allele in circulating HSV.
 
 Thymidine kinase is under markedly weaker purifying selection than DNA
 polymerase (pN/pS 0.371 against 0.173; difference +0.1980, 95% CI +0.1664 to
@@ -178,7 +185,7 @@ hierarchy were fixed before data acquisition (`PRE_DECLARATION.md`).
 
 ## 3. Aim 1 — what the catalogue looks like with a denominator
 
-Of 644 catalogued substitutions, 128 occur in circulating virus.
+Of 644 catalogued substitutions, 128 occur in circulating virus (Figure 1A).
 
 | Band | n | |
 | --- | --- | --- |
@@ -214,7 +221,7 @@ have to interpret them, and no phenotype exists.
 | UL23 R176Q | 0.017 | 4 | 1 | 1.00 | 0.0 | 200× | Ascertainment artefact |
 | UL23 R41H | 0.051 | 12 | 5 | 0.33 | 0.0381 | 2.3× | Sound frequency, marginal phenotype |
 
-R222C was the single most consequential row in the table: 98-fold resistance at
+R222C is the entry that would have mattered most: 98-fold resistance at
 an apparent 7.6% frequency would have been a surveillance finding. It is not.
 Patient-level collapse reduced it from 19 carriers to 11 and 7.6% to 4.6%, and 8
 of the 11 remaining carriers come from one submission; dropping that submission
@@ -231,6 +238,22 @@ frequencies that ignores that column will overstate about half of them. The 11
 reference artefacts, by contrast, are all non-dominated at study shares around
 0.15 — they are real.
 
+### 3.2 Frequency and measured resistance are close to disjoint
+
+Plotting the two together bounds the surveillance question directly (Figure 1B).
+Of the 241 catalogued substitutions carrying a numeric phenotype, 30 are
+observed in circulating virus and 211 are not, and the two groups differ in
+measured resistance: median fold change 1.5× for the observed and 5.0× for the
+unobserved.
+
+The informative part of the plot is empty. Above 5% frequency the strongest
+phenotype in the catalogue is **2.4×**: two substitutions clear the declared
+2-fold threshold at that frequency, both marginally (UL23 R41H at 2.3×, UL30
+G39E at 2.4×), and **none reaches 5×**. There is no common substitution in
+circulating HSV with a strong measured resistance phenotype. That absence is the
+reassuring reading of Aim 1, and it is only visible once the denominator
+exists.
+
 ## 4. Aims 2 and 3
 
 ### 4.1 Thymidine kinase is under weaker constraint than polymerase
@@ -243,16 +266,19 @@ reference artefacts, by contrast, are all non-dominated at study shares around
 | HSV-1 UL52 | 0.140 | 0.128–0.154 | 2014 |
 
 Difference UL23 − UL30: **+0.1980 [+0.1664, +0.2361]**, with UL23 higher in
-**100%** of 1,000 bootstrap resamples.
+**100%** of 1,000 bootstrap resamples. The intervals do not approach each other
+(Figure 2).
 
 This is the expected direction — thymidine kinase is dispensable for replication
 in culture while polymerase is not — and it supplies a population-genetic
 reason why TK accumulates substitutions that then appear in resistance
-catalogues. It is also robust to the two largest corrections this project made:
-the patient-level de-duplication fix that moved R222C by 40% moved this contrast
-by 0.004, and recovering 148 further isolates — a third more sequence than the
-first analysis had — moved it by 0.0025, well inside its own interval. Gene-wide
-rates are insensitive to both in a way single-variant frequencies are not.
+catalogues. The contrast is also insensitive to the two choices of sequence set
+that move individual allele frequencies most. Collapsing serial isolates to one
+per patient, which moves R222C's frequency by 40%, moves this contrast by 0.004;
+restricting the set to the 451 isolates whose GenBank records carry an explicit
+gene qualifier, a quarter less sequence, moves it by 0.0025. Both lie well
+inside the interval. Gene-wide rates are insensitive to sampling in a way
+single-variant frequencies are not.
 
 HSV-2 is withheld: UL23 has only 32 synonymous sites and a pN/pS point estimate
 of 2.46 with an interval spanning 1.74–3.67, which is an artefact of the
@@ -277,14 +303,14 @@ UL52 positions, so the test has little to find. A permutation test of whether
 catalogued positions are more conserved than random ones is non-significant for
 HSV-1 UL5 (p = 0.54) and UL52 (p = 0.37). For HSV-2 UL5 catalogued positions
 come out 2.2× *more* variable than gene-wide — the opposite of constraint — but
-at p = 0.052 that is not significant either, and it rests on four positions. On
-the smaller isolate set this test reached p = 0.039 at a 3.4× ratio; adding 74
-HSV-2 UL5 sequences moved it the other side of 0.05, which is the expected
-behaviour of a four-position test and a reason not to have interpreted it.
+at p = 0.052 that is not significant either, and it rests on four positions. A
+test with four informative positions moves across a conventional threshold on
+the addition or removal of a few dozen sequences, so the ratio is reported and
+not interpreted.
 
 ## 5. Aim 4 — models, and what beating a frequency baseline is worth
 
-### 5.1 The protocol's premise was wrong, in a direction worth recording
+### 5.1 Average precision has to be read against its floor
 
 Average precision was pre-declared as the primary metric on the grounds that
 "positives are rare relative to the candidate pool", which would make AUROC
@@ -317,12 +343,14 @@ frequency features are near-constant on this set.
 
 Under multiplicity correction across the 21-model grid, **only 3 models beat
 frequency on average precision** (Holm-adjusted p < 0.05): the two
-structure-only variants, and the full model with ESM-2 added. Seven models clear
-p < 0.05 uncorrected, and Phase 3, reporting Spearman without correction, had
-counted more still. The protocol anticipated this in terms: "an uncorrected
+structure-only variants, and the full model with ESM-2 added. Seven clear
+p < 0.05 uncorrected, so the correction is what separates a reportable result
+from a grid of near-misses. The protocol anticipated this in terms: "an uncorrected
 pairwise win on one split is not evidence of superiority."
 
 ### 5.3 Where the structural signal actually lives
+
+Figure 3A gives the same breakdown against each gene's prevalence floor.
 
 | Gene | n | Prevalence | Structure AP | Frequency AP |
 | --- | --- | --- | --- | --- |
@@ -398,7 +426,8 @@ The cut-off was not pre-declared. Rather than choose one, all five are reported;
 2012 is nominated primary because it splits the primary set most evenly, a
 criterion independent of the outcome.
 
-Average-precision **lift over the test-set prevalence floor**, primary Tier A:
+Average-precision **lift over the test-set prevalence floor**, primary Tier A
+(Figure 3B):
 
 | Cut-off | Train → test | Structure | Frequency | Conservation | ESM-2 | Full |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -485,11 +514,13 @@ the conservation distributions were equalised.
 **The gap is zero across all eight combinations**, range −0.016 to +0.003. The
 structural signal is not a conservation proxy.
 
-An earlier version of this analysis compared a matched subset of 64 rows against
-the full 119 and concluded, hedged, that matching "bounds the conservation
-contribution loosely rather than eliminating it". That hedge was an artefact of
-comparing different sample sizes. With the size-matched control the answer is
-clean.
+The size matching is what makes that statement possible. Conservation matching
+necessarily discards rows — 64 of the 119 survive it here — so a matched arm
+compared against the full set differs in sample size as well as in conservation,
+and average precision is sensitive enough to n at this scale that such a
+comparison returns a gap of ambiguous origin. Pairing each matched draw with a
+random draw of identical size and class balance removes that confound, and only
+then does a gap of zero mean that conservation was not carrying the signal.
 
 ### 6.3 ESM-2 does not survive residualisation
 
@@ -570,15 +601,19 @@ ligand defines the active site, the feature measures nothing and the model
 should not be used. Helicase and primase are exactly that case, and they are
 also the genes where new drugs are arriving.
 
-The methodological findings may outlast the biological ones. A grouped
-cross-validation scheme can manufacture negative correlation from noise, so that
-scoring against zero inverts conclusions. A conservation-matching control
-compared against a different sample size produces a hedge that the data do not
-require. A protein language model can clear every significance test and still
-contribute nothing beyond features already in the model. And a model can reach
+Four methodological results here generalise beyond HSV, and may outlast the
+biological ones. A grouped cross-validation scheme can manufacture negative
+correlation from noise, so that a figure scored against a zero null inverts the
+conclusion for any feature set without signal (§6.1). A conservation-matched
+negative control is uninterpretable unless its random arm is matched on sample
+size as well as on class balance (§6.2). A protein language model can clear
+every significance test applied to it and still contribute nothing once
+conservation and structural context are removed (§6.3). And a model can reach
 an average precision of 0.916 while making no usable decision at the threshold
-it was declared against. Each of these was caught only because the protocol
-pre-committed to a test that was inconvenient.
+it was declared against (§5.4). Each was visible only because the metric
+hierarchy, the operating point and the controls were fixed before any result was
+seen, and each would have been invisible under the AUROC-only reporting common
+in this literature.
 
 ## 8. Limitations
 
@@ -640,7 +675,45 @@ used to interpret a patient isolate.**
 predates data acquisition by file timestamp, but it was not deposited with a
 third party, and the evidence is under the authors' control.
 
-## 9. Availability
+## 9. Figures
+
+**Figure 1. The catalogue against the population it is applied to.**
+(**A**) Frequency distribution of all 644 catalogued substitutions in UL23,
+UL30, UL5 and UL52 across 599 isolates, binned as in §3. 516 are absent from
+circulating virus; 11 are the majority allele, meaning the reference sequence
+carries the minority residue at that position. (**B**) Maximum measured fold
+change against population frequency, both on log axes, for the 241
+substitutions carrying a numeric phenotype. Substitutions never observed in
+circulating virus are placed in the jittered strip at the left, outside the
+frequency axis, because zero has no position on a log scale. The dashed
+horizontal line is the pre-declared 2-fold threshold; the dotted vertical line
+is 5% frequency. The shaded region is common (>5%) and resistant above 5×, and
+it contains no substitution. Labelled points are those discussed in §3.1 and
+§3.2.
+
+**Figure 2. Purifying selection by gene.** pN/pS by Nei–Gojobori with
+Jukes–Cantor correction, measured against the population consensus rather than
+the reference, with 95% bootstrap intervals over 1,000 resamples. Genes with
+insufficient synonymous sites are withheld rather than plotted with a wide
+interval; HSV-2 UL23 (Sd = 32) is the only exclusion. The annotated contrast is
+the pre-declared Aim 2 comparison.
+
+**Figure 3. The structural signal, and its boundaries.** (**A**) Average
+precision by virus and gene for the structure-only model and the frequency
+baseline, each against that gene's positive-class prevalence, which is the
+no-skill floor. Daggers mark the genes with no ligand-resolved active site,
+where the distance feature has nothing to measure. (**B**) Average-precision
+lift over the test-set floor for each feature group across the five temporal
+hold-outs, training on substitutions first characterised before the cut-off year
+and testing on those characterised after. Structure is the best feature group at
+every cut-off; no alternative exceeds +0.163 at any split.
+
+Figures are generated by `scripts/p4_08_figures.py` from the committed summary
+files alone, as vector PDF and 300 dpi PNG, and every plotted value is written
+to `reports/phase4/figures/figure_data.json` so that each is checked against its
+source by the verification gate.
+
+## 10. Availability
 
 | Artefact | Path |
 | --- | --- |
@@ -650,6 +723,7 @@ third party, and the evidence is under the authors' control.
 | Data dictionary | `data/release/DATA_DICTIONARY.md` |
 | Feature correlation matrix | `data/processed/feature_correlation_matrix.tsv` |
 | Pre-declaration and compliance audit | `reports/phase4/PRE_DECLARATION.md` |
+| Figures, and every value plotted in them | `reports/phase4/figures/` |
 | Pipeline | `scripts/`, driven by `scripts/run_all.py` |
 
 Checksums for the release tables are in `reports/phase4/release_summary.json`.

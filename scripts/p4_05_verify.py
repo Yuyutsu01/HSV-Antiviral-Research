@@ -424,6 +424,36 @@ def main():
     except (OSError, subprocess.SubprocessError):
         print("  (git unavailable; skipped committed-blob checksum check)")
 
+    # ------------------------------------------------------------- figures
+    # Figure 1B's claim is an absence, and an absence is only as good as the
+    # boundary drawn around it, so the boundary is checked rather than trusted.
+    figdata = REP / "phase4" / "figures" / "figure_data.json"
+    if not figdata.exists():
+        failures.append("figure data not published; run p4_08_figures.py")
+    else:
+        fd = load(figdata)
+        f1 = fd["figure1B"]
+        check("figure 1B phenotyped", f1["n_phenotyped"], 241)
+        check("figure 1B observed", f1["n_observed"], 30)
+        check("figure 1B not observed", f1["n_not_observed"], 211)
+        check("figure 1B common above 5x", f1["n_common_above_5x"], 0)
+        check("figure 1B common at 2x", f1["n_common_at_2x"], 2)
+        check("figure 1B strongest common variant",
+              f1["max_fold_change_at_or_above_5pc"], 2.4, 0.001)
+        check("figure 1B median FC, observed",
+              f1["median_fold_change_observed"], 1.5, 0.001)
+        check("figure 1B median FC, not observed",
+              f1["median_fold_change_not_observed"], 5.0, 0.001)
+        check("figure 1A bands sum", sum(fd["figure1A_bands"].values()), 644)
+        for stem in ("figure1_catalogue_vs_population", "figure2_selection",
+                     "figure3_structural_signal"):
+            for ext in ("pdf", "png"):
+                f = REP / "phase4" / "figures" / f"{stem}.{ext}"
+                if not f.exists():
+                    failures.append(f"missing figure file: {stem}.{ext}")
+                else:
+                    checks += 1
+
     corr = PROC / "feature_correlation_matrix.tsv"
     if not corr.exists():
         failures.append("feature correlation matrix not published")
