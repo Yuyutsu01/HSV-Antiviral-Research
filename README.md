@@ -1,0 +1,111 @@
+# Natural-population allele frequencies of catalogued HSV antiviral resistance mutations
+
+Which "resistance mutations" in the herpes simplex virus literature are actually
+common natural polymorphisms?
+
+Resistance catalogues are assembled from case reports and phenotyping studies.
+They record that a mutation was found in a resistant isolate, but not how often
+that same residue occurs in viruses from people who were never treated. Without
+that denominator a common polymorphism and a resistance determinant look alike.
+This project supplies the denominator, from 451 publicly deposited HSV genomes,
+and reports what it does to the catalogue.
+
+**The headline number:** of 644 catalogued HSV mutations in the four target
+genes, 644 are in the catalogue and 638 distinct variants are observed in
+circulating virus — and only **120** are in both. Eleven catalogued "mutations"
+are the *majority* allele in circulating virus, meaning the reference sequence
+carries the minority residue.
+
+## Aims and what came of them
+
+| | Aim | Result |
+| --- | --- | --- |
+| 1 | Reclassify catalogued mutations against population frequency | **Positive.** 15 common polymorphisms, 11 majority alleles, 8 recommended for reclassification |
+| 2 | Selection asymmetry between UL23 and UL30 | **Positive.** pN/pS difference +0.2005 [+0.1652, +0.2389], 100% bootstrap support |
+| 3 | Pre-therapeutic helicase–primase baseline | **Positive.** Baseline established for UL5 and UL52 before pritelivir/amenamevir use |
+| 4 | Do sequence-based models beat a frequency-only baseline? | **Qualified.** They do, but the baseline is nearly empty, and the winning model makes no usable decision at the declared threshold |
+
+Aim 4's answer is the one to read carefully, and
+[`reports/phase4/MANUSCRIPT.md`](reports/phase4/MANUSCRIPT.md) says why.
+
+## Running it
+
+```bash
+python scripts/run_all.py
+```
+
+Stages that need the network or a GPU are skipped when their outputs are already
+present, so everything downstream of them reproduces offline on CPU. Add
+`--force` to re-run them, `--list` to see the stages, `--only p4` or
+`--from p3` to run part of it.
+
+Full pipeline from scratch is roughly two hours, dominated by three
+cross-validation stages. The Phase 4 analyses re-score saved out-of-fold
+predictions and take about ten minutes.
+
+### Environment
+
+Python 3.11.8. Pinned versions this was run with: numpy 2.4.6, scipy 1.17.1,
+scikit-learn 1.9.0, biopython 1.88, torch 2.5.1+cu121, transformers 5.17.0.
+ESM-2 (`esm2_t33_650M_UR50D`) runs in fp16 and needs about 4 GB of VRAM at the
+batch size set in `p3_01_esm.py`; it falls back to CPU, slowly.
+
+No multiple-sequence-alignment tool is required. Alignment is reference-anchored
+and pairwise, through Biopython's `PairwiseAligner`, because MAFFT, MUSCLE and
+BLAST were unavailable in the environment this was developed in. That is a
+deliberate constraint and a limitation: see the Phase 1 report.
+
+## Layout
+
+| Path | What it holds |
+| --- | --- |
+| `data/raw/` | Pinned sources. `PROVENANCE.md` has commit SHAs, MD5s, retrieval dates, licences |
+| `data/interim/` | QC logs, isolate metadata, patient-collapse decisions |
+| `data/processed/` | Analysis tables and features |
+| `data/release/` | **Deposition artefacts** — frozen accession list, master variant table, reclassification table, `DATA_DICTIONARY.md` |
+| `reports/phase0..4/` | One report per phase, with machine-readable summaries beside each |
+| `scripts/` | The pipeline, one script per stage, prefixed by phase |
+
+Start at [`data/release/DATA_DICTIONARY.md`](data/release/DATA_DICTIONARY.md) if
+you want to use the tables, and at
+[`reports/phase4/MANUSCRIPT.md`](reports/phase4/MANUSCRIPT.md) if you want the
+argument.
+
+## How to read the claims in this repository
+
+Three things are easy to get wrong here, and the reports are written to prevent
+each one.
+
+**Aim 1 and Aim 4 operate on nearly disjoint sets.** 120 of 644 catalogued
+mutations are observed in circulating virus, but only **13 of 119** phenotyped
+Tier A variants are. Frequency answers "is this catalogued mutation actually a
+common polymorphism?" It does not answer "how resistant is this variant?"
+Conflating them is the single easiest mistake to make with these results.
+
+**A frequency is only as good as its ascertainment.** Three variants initially
+looked like circulating resistance alleles. Two were artefacts of one
+submission each; the third is a genuine 5% polymorphism whose resistance rests
+on a 2.3× fold change. Every frequency in the reclassification table carries
+`max_study_share`, `loso_min_freq` and `study_dominated` for this reason, and
+they should be read alongside the frequency, never after it.
+
+**Leave-one-gene-out does not have a zero null here.** Permuting labels within
+groups gives a null centred at −0.15 to −0.28, because removing a gene shifts
+the training mean away from the held-out gene's own mean. Scoring that scheme
+against zero inverts the conclusion for the weaker feature sets. Position-blocks
+cross-validation has a null near zero and carries the headline results.
+
+## Pre-declaration
+
+The analysis plan, including the primary metric and the 2× threshold, was fixed
+before data acquisition — about an hour before, by file timestamp.
+[`reports/phase4/PRE_DECLARATION.md`](reports/phase4/PRE_DECLARATION.md) records
+it, together with every deviation, the two pre-declared validations that were
+not run, and why this is *not* a public pre-registration.
+
+## Licence and citation
+
+Source data provenance, licences and citations are in
+[`data/raw/PROVENANCE.md`](data/raw/PROVENANCE.md). HerpesDRG is pinned at
+commit `22fc186`. GenBank accessions and query terms are frozen in
+`data/release/accession_list.tsv` with their query dates.

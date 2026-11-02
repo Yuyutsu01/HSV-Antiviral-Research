@@ -1,0 +1,50 @@
+{
+  "queries": {
+    "HSV1": {
+      "taxid": 10298,
+      "query_term": "txid10298[Organism:exp] AND 140000:200000[SLEN]",
+      "query_date": "2026-11-01T20:02:36+00:00",
+      "n_returned": 597
+    },
+    "HSV2": {
+      "taxid": 10310,
+      "query_term": "txid10310[Organism:exp] AND 140000:200000[SLEN]",
+      "query_date": "2026-11-01T20:07:23+00:00",
+      "n_returned": 546
+    }
+  },
+  "accession_fates": {
+    "analysed": 451,
+    "excluded_laboratory_strain": 30,
+    "excluded_no_cds_extracted": 411,
+    "excluded_downstream_filter": 183,
+    "excluded_cds_qc": 36,
+    "excluded_patient_duplicate": 18,
+    "excluded_non_human_host": 14
+  },
+  "master_table": {
+    "n_rows": 1162,
+    "n_in_catalogue": 644,
+    "n_observed": 638,
+    "n_both": 120,
+    "n_catalogue_only": 524,
+    "n_observed_only": 518,
+    "n_in_model_dataset": 235,
+    "n_with_structure": 896,
+    "n_with_esm": 1161
+  },
+  "files": {
+    "data/release/accession_list.tsv": {
+      "sha256": "cf8c60998cfed8cc5e26455d0d1dc6058c8c570139805f6b318c30924b73cd14",
+      "bytes": 181912
+    },
+    "data/release/master_variant_table.tsv": {
+      "sha256": "6e612cad3df40936534678953de4097af50082e5b186386d1540a0d453c825fe",
+      "bytes": 178173
+    },
+    "data/release/reclassification_table.tsv": {
+      "sha256": "f7966fceace617d7f2418c989c22eb399bf2781d63d6c7f25ef0ae350ff772af",
+      "bytes": 87140
+    }
+  }
+}
