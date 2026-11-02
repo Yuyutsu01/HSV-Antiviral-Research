@@ -166,9 +166,49 @@ for no analytical gain.
 
 ### Pre-declared and NOT done
 
-1. **Positive-unlabelled formulation (Stage 3)** — not attempted. It was
-   declared as the extension where the clinical value lies, and it remains
-   open.
+**Positive-unlabelled formulation (Stage 3) — not attempted, deliberately.**
+
+It was declared as the extension where the clinical value lies, and that
+judgement was right: a clinical laboratory meeting a substitution in a patient
+isolate is far more likely to be looking at an unphenotyped variant than a
+characterised one. Of the variants observed in circulating virus, **610 have no
+measured fold change**, 518 of them not catalogued at all, against 235 with a
+phenotype. Extending scoring to that pool is the obvious next step and it is
+not taken here, for three reasons that are worth recording in full because a
+reader will otherwise assume it was simply overlooked.
+
+**1. The standard PU assumption is violated by this project's own subject
+matter.** Most positive-unlabelled methods assume positives are selected
+completely at random from all positives. Here a variant is catalogued *because*
+someone found it in a resistant isolate. Ascertainment bias is precisely what
+this project set out to measure — 59 of 120 observed variants are
+study-dominated — so applying a method that assumes it away, inside a paper
+about it, would be incoherent. Methods that relax the assumption exist and need
+more positives than the 87 available.
+
+**2. The class prior cannot be pinned down at this sample size.** PU
+performance depends almost entirely on the estimated fraction of the unlabelled
+pool that is positive. With 87 positives that estimate would carry an interval
+wide enough to make the resulting ranking unstable, and an unstable ranking
+presented as a triage list is worse than no list.
+
+**3. The one feature group that works does not cover the pool.** Section 5.3 of
+the manuscript shows the structural signal is confined to genes with a
+ligand-resolved active site: AP 0.988 for UL23, 0.567 for UL5, 0.411 for UL52.
+The VUS pool is concentrated in the wrong genes — UL30 and UL52 carry 418 of
+the 610, UL23 only 81 — and just **282 of the 610 have `site_resolved = 1`**. A
+score over UL52 variants of unknown significance would be close to noise while
+looking authoritative. Combined with calibration slopes of 0.71–0.80 and
+degeneracy at the 2× threshold, a probability attached to a patient's variant
+would not mean what it says.
+
+**What is delivered instead**, with no modelling assumptions at all: the 40
+`unphenotyped_but_common` variants in the reclassification table. These are
+common in circulation and have never been phenotyped, which makes them a
+phenotyping-priority list derived from observation rather than from a model. If
+the PU extension is attempted later, the defensible scope is a ranked list
+restricted to the 282 site-resolved VUS, published as a phenotyping priority
+and not as clinical interpretation.
 
 ---
 

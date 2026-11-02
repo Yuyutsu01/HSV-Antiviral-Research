@@ -292,6 +292,21 @@ def main():
     check("patient duplicate", fates["excluded_patient_duplicate"], 18)
     check("non-human host", fates["excluded_non_human_host"], 14)
 
+    # ---- the variants-of-unknown-significance pool, quoted in the
+    # pre-declaration and the manuscript's limitations as the reason the
+    # positive-unlabelled extension is not attempted.
+    mv = rows(REL / "master_variant_table.tsv")
+    vus = [r for r in mv
+           if r["in_model_dataset"] != "1" and r["observed"] == "1"]
+    check("VUS pool", len(vus), 610)
+    check("VUS never catalogued", sum(1 for r in vus if r["in_catalogue"] == "0"), 518)
+    check("VUS site-resolved",
+          sum(1 for r in vus if r["struct_site_resolved"] == "1"), 282)
+    check("VUS in UL30 and UL52",
+          sum(1 for r in vus if r["gene"] in ("UL30", "UL52")), 418)
+    check("VUS in UL23", sum(1 for r in vus if r["gene"] == "UL23"), 81)
+    check("labelled set", sum(1 for r in mv if r["in_model_dataset"] == "1"), 235)
+
     # release files must exist and match their recorded checksums
     import hashlib
     for rel, meta in release["files"].items():

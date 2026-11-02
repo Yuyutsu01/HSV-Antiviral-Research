@@ -593,9 +593,26 @@ split balance rather than performance. Reference years come from Crossref and
 are cached with their retrieval date; a study's year is the earliest among its
 references.
 
-**One pre-declared extension was not attempted.** The positive-unlabelled
-formulation, which would score the variants-of-unknown-significance pool where
-the clinical value lies, remains open.
+**One pre-declared extension was not attempted, and the reason bounds what
+this work can be used for.** The positive-unlabelled formulation would extend
+scoring to variants of unknown significance — **610 variants observed in
+circulating virus with no measured fold change**, 518 of them not catalogued at
+all, against the 235 that carry a phenotype. That pool, not the labelled set,
+is what a clinical laboratory actually encounters.
+
+It is not attempted because three conditions are not met. The standard PU
+assumption that positives are selected at random from all positives is
+contradicted by this project's own central finding about ascertainment. The
+class prior, on which PU performance almost entirely depends, cannot be
+estimated stably from 87 positives. And the only feature group that works does
+not cover the pool: 418 of the 610 lie in UL30 and UL52, and only 282 have a
+ligand-resolved active site, so a score would be least trustworthy exactly
+where it would be most used.
+
+The 40 `unphenotyped_but_common` variants in the reclassification table are the
+assumption-free substitute — a phenotyping-priority list derived from
+observation rather than from a model. **No variant score in this work should be
+used to interpret a patient isolate.**
 
 **This is not a public pre-registration.** The analysis plan demonstrably
 predates data acquisition by file timestamp, but it was not deposited with a
