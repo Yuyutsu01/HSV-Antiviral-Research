@@ -1,7 +1,8 @@
-# Natural-population allele frequencies of catalogued HSV antiviral resistance mutations
+# Most catalogued HSV antiviral resistance mutations have never been checked against the virus that circulates
 
-Which "resistance mutations" in the herpes simplex virus literature are actually
-common natural polymorphisms?
+*Natural-population allele frequencies of catalogued HSV antiviral resistance
+mutations.* Which "resistance mutations" in the herpes simplex virus literature
+are actually common natural polymorphisms?
 
 Resistance catalogues are assembled from case reports and phenotyping studies.
 They record that a mutation was found in a resistant isolate, but not how often
@@ -10,9 +11,9 @@ that denominator a common polymorphism and a resistance determinant look alike.
 This project supplies the denominator, from 599 publicly deposited HSV genomes,
 and reports what it does to the catalogue.
 
-**The headline number:** of 644 catalogued HSV mutations in the four target
-genes, 644 are in the catalogue and 747 distinct variants are observed in
-circulating virus — and only **128** are in both. Eleven catalogued "mutations"
+**The headline number:** the catalogue lists 644 substitutions in the four
+target genes and 747 distinct variants are observed in circulating virus — and
+only **128** are in both. Eleven catalogued "mutations"
 are the *majority* allele in circulating virus, meaning the reference sequence
 carries the minority residue.
 

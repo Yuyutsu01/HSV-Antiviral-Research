@@ -83,6 +83,17 @@ def main():
           sum(1 for f in freqs if 0.10 < f <= 0.50), 15)
     ms = (ROOT / "reports" / "phase4" / "MANUSCRIPT.md").read_text(
         encoding="utf-8")
+
+    # The repository and the paper are the same piece of work, so a reader who
+    # arrives at either should see the same claim named the same way. These
+    # two headings drifted apart once already.
+    ms_title = ms.splitlines()[0].strip()
+    rd_title = (ROOT / "README.md").read_text(
+        encoding="utf-8").splitlines()[0].strip()
+    if ms_title != rd_title:
+        failures.append(f"README and MANUSCRIPT titles differ; "
+                        f"README has {rd_title!r} and "
+                        f"MANUSCRIPT has {ms_title!r}")
     for bad in ("Uncommon (1–5%)", "Common (5–50%)",
                 "a further 15 exceed 5%"):
         if bad in ms:
