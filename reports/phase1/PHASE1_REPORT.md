@@ -78,8 +78,8 @@ two curations have diverged rather than one simply inheriting the other.
 | --- | --- | --- | --- |
 | Accessions in frozen list | 597 | 546 | 1,143 |
 | Records returning any CDS | — | — | 975 |
-| Records with at least one target gene | — | — | 707 |
-| **Isolates retained after filtering** | — | — | **451** |
+| Records with at least one target gene | — | — | 943 |
+| **Isolates retained after filtering** | — | — | **599** |
 
 ### Where the records went
 
@@ -87,20 +87,34 @@ two curations have diverged rather than one simply inheriting the other.
 submissions, and several are patent filings (`FV537006`–`FV537013`, `CS176883`)
 rather than clinical or epidemiological isolates. Correctly excluded.
 
-**A further 244 records carry CDS annotation but not for the target genes.**
-Full annotation is present in roughly 710–730 records; the remainder annotate
+**A further 32 records carry CDS annotation but not for the target genes.**
+At least one target gene is annotated in 943 records; the remainder annotate
 only part of the genome.
 
-This is worth stating plainly in the paper: **the effective population
-denominator is about 710 genomes, not the 1,143 that a length-filtered NCBI
-query returns.** Anyone quoting raw genome counts as a denominator is
-overstating their sample by a third.
+**An earlier version of this report put that second figure at 244, and it was a
+defect in this pipeline rather than a property of GenBank.** The gene matcher
+required either a descriptive product name ("thymidine kinase") or a `[gene=]`
+qualifier, and a large minority of submissions give the product as the bare
+locus name — `[protein=UL23]` with no gene qualifier at all. Those records were
+discarded as carrying no target gene when they were entirely unambiguous.
+Recovering them added 243 records, of which 148 survive quality control and
+de-duplication; the isolate count went from 451 to 599, and HSV-2 benefited
+most. The repair matches the exact locus name only, because a substring test
+would let UL5 capture UL50 through UL56 — six unrelated genes that between them
+appear in nearly every record. `scripts/test_match_gene.py` covers both failure
+directions, too strict and too loose, and runs standalone.
+
+The corrected version of the point still holds, in weaker form: **the effective
+population denominator is 943 genomes, not the 1,143 that a length-filtered NCBI
+query returns**, and 599 after quality control and de-duplication. Anyone
+quoting the raw genome count as a denominator is overstating their usable sample
+by close to a factor of two.
 
 ### De-duplication and exclusion
 
 | Level | Removed |
 | --- | --- |
-| Identical target-gene sequence | 193 |
+| Identical target-gene sequence | 281 |
 | Laboratory-adapted strain | 27 |
 | **Same patient, serial sample** | **18** |
 | Non-human host | 13 |
@@ -147,8 +161,8 @@ via PubMed ID or BioProject.
 
 | | UL23 | UL30 | UL5 | UL52 |
 | --- | --- | --- | --- | --- |
-| HSV-1 | 237 | 239 | 242 | 239 |
-| HSV-2 | 159 | 183 | 173 | 156 |
+| HSV-1 | 239 | 300 | 251 | 299 |
+| HSV-2 | 160 | 253 | 247 | 225 |
 
 QC rejects sequences for ambiguous residues above 2%, length deviation beyond
 10%, frame errors, and amino-acid divergence from the reference above 5%.
@@ -163,10 +177,10 @@ and removes only genuine outliers.
 
 ## Allele frequencies
 
-638 variant rows across 7,118 reference positions, after the divergence filter
+747 variant rows across 7,114 reference positions, after the divergence filter
 and the patient-level collapse.
 
-**70% of variant rows are singletons** — observed in exactly one isolate. At
+**68% of variant rows are singletons** — observed in exactly one isolate. At
 these sample sizes a singleton is indistinguishable from a sequencing or
 assembly error, so headline claims apply a minimum count of two. The singleton
 set is retained in the table and flagged, not deleted.
@@ -182,8 +196,8 @@ HSV-2 UL30 3 · HSV-2 UL52 2.
 
 At these positions the "mutation" recorded in the catalogue is what almost all
 circulating virus carries, and the reference strain is the outlier. Eleven
-labelled variants fall here. The most extreme is **HSV-1 UL23 A265T at 98.1%**
-(254 of 259 isolates). An annotation that applies to 98% of circulating virus
+labelled variants fall here. The most extreme is **HSV-1 UL23 A265T at 97.9%**
+(234 of 239 isolates). An annotation that applies to 98% of circulating virus
 carries no clinical information.
 
 ### Labelled variants by population frequency
@@ -192,8 +206,8 @@ carries no clinical information.
 | --- | --- |
 | Above 50% — reference is the minority allele | 11 |
 | 10% to 50% — common natural polymorphism | 15 |
-| 1% to 10% | 36 |
-| Below 1% | 58 |
+| 1% to 10% | 40 |
+| Below 1% | 62 |
 
 The 10–50% band is the more interesting of the two upper bands. These are not
 reference artefacts; they are genuinely polymorphic positions where a
@@ -207,12 +221,12 @@ be read together.
 
 | Variant | Frequency | Max fold change | Reading |
 | --- | --- | --- | --- |
-| HSV-2 UL23 G39E | 0.792 | 2.4× | Majority allele, mild measured resistance. The strongest single reclassification candidate |
-| HSV-1 UL30 P920S | 0.234 | 1.05× | Common polymorphism, no resistance. Correctly a negative |
+| HSV-2 UL23 G39E | 0.794 | 2.4× | Majority allele, mild measured resistance. The strongest single reclassification candidate |
+| HSV-1 UL30 P920S | 0.233 | 1.05× | Common polymorphism, no resistance. Correctly a negative |
 | HSV-1 UL23 R41H | 0.051 | 2.3× | Borderline on both axes |
-| HSV-1 UL30 L802F | 0.008 | 7.4× | Genuine resistance, appropriately rare |
-| HSV-1 UL30 T821M | 0.004 | 6.25× | Genuine resistance, appropriately rare |
-| **HSV-1 UL30 S724N** | **0.004** | **72×** | High-level resistance, one isolate in 239 |
+| HSV-1 UL30 L802F | 0.007 | 7.4× | Genuine resistance, appropriately rare |
+| HSV-1 UL30 T821M | 0.003 | 6.25× | Genuine resistance, appropriately rare |
+| **HSV-1 UL30 S724N** | **0.003** | **72×** | High-level resistance, one isolate in 300 |
 
 **The pattern holds in the right direction.** Mutations with large measured
 fold changes are rare in circulating virus; the catalogued entries that are
@@ -276,6 +290,17 @@ produced wrong output.
 3. **"Variable positions" counted covered positions.** A summary statistic
    reported every covered position as variable. The underlying table was
    correct; only the summary was wrong.
+4. **The gene matcher was too strict, and the cost was 243 accessions.** It
+   required a descriptive product name or a `[gene=]` qualifier, so records
+   giving the product as the bare locus name — `[protein=UL23]`, no gene
+   qualifier — were discarded as carrying no target gene. This is the mirror
+   image of bug 2: the fix for over-capture was applied as a general rule and
+   over-shot. Nothing failed; the pipeline simply reported a smaller population
+   than the data supported, and the report rationalised the shortfall as
+   incomplete GenBank annotation. Isolates went 451 → 599 on repair. The lesson
+   is that a matcher's two failure directions need testing together, which is
+   what `scripts/test_match_gene.py` now does — and that a number which can be
+   explained away is the most dangerous kind.
 
 ---
 
@@ -290,7 +315,7 @@ produced wrong output.
 | `data/interim/patient_collapse.tsv` | Every inferred same-patient collapse, auditable |
 | `data/processed/genes/*.faa` | QC-passed, de-duplicated protein sequences |
 | `data/processed/gate2_coordinate_check.tsv` | Per-label coordinate verdict |
-| `data/processed/allele_frequencies.tsv` | 638 variants with Wilson intervals |
+| `data/processed/allele_frequencies.tsv` | 747 variants with Wilson intervals |
 | `reports/phase1/*.json` | Machine-readable summaries |
 
 ---

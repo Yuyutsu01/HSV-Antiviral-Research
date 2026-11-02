@@ -14,11 +14,12 @@ number is not the interesting part.**
 
 Sequence- and structure-based features do predict measured fold change better
 than population frequency does — under every cross-validation scheme and both
-label sets, with permutation *p* = 0.0099 (the floor for 100 replicates).
+label sets, with permutation *p* ≤ 0.02 and most of the usable feature sets at
+0.0099, the floor for 100 replicates.
 
 But the protocol framed Aim 4 as "do models beat a frequency baseline?", and
 that framing turned out to be built on an assumption that does not hold:
-**only 13 of 119 phenotyped Tier A variants are observed in circulating virus
+**only 14 of 119 phenotyped Tier A variants are observed in circulating virus
 at all.** Frequency is the right instrument for Aim 1 and a nearly empty one
 here. Beating it is a low bar, and saying a model "beat the frequency baseline"
 without saying that would be misleading.
@@ -33,9 +34,11 @@ The findings that survive scrutiny are narrower and more useful:
 3. Population frequency does **not** predict fold change on the phenotyped
    subset, and its signal is one bit — presence, not magnitude.
 4. On the primary set, adding frequency, conservation and property features to
-   structure makes the model **worse**, not better. That reverses on the
-   235-row secondary set, where the staged model wins — so it is a
-   sample-size effect, not a property of the features.
+   structure **does not reliably help, and which way it goes depends on the
+   estimator**: worse under ridge, better under random forest, and worse again
+   on average precision. At 119 labels that comparison is at its resolution
+   limit. The staged models do pull ahead on the 235-row secondary set, so the
+   feature groups are not useless — there were not enough labels to fit them.
 
 ---
 
@@ -121,7 +124,7 @@ pairwise alignment; those rows are flagged `inherited = 1`.
 
 Permuting the target within cross-validation groups — which preserves each
 gene's mean label and destroys only the feature-label link — gives a null
-centred at **−0.15 to −0.28**, not zero, depending on feature set.
+centred at **−0.16 to −0.29**, not zero, depending on feature set.
 
 The mechanism is not subtle once seen: the model predicts approximately the
 training-set mean for a held-out gene, and removing a gene shifts that mean
@@ -130,19 +133,23 @@ and they do, the scheme produces anti-correlation by construction.
 
 Consequences:
 
-- Scored against zero, frequency-only (−0.153), conservation-only (−0.210) and
+- Scored against zero, frequency-only (−0.150), conservation-only (−0.228) and
   BLOSUM-only (−0.254) look "worse than chance". They are not. They sit **on
   the noise floor** for this scheme.
 - Every score under this scheme must be referenced to its own permutation null.
   A bootstrap confidence interval around zero is the wrong test and was
   initially reported as though it were the right one.
-- **Position-blocks does not have this problem.** Its null is ≈ 0 for every
-  predictive feature set (+0.017, +0.016, −0.028, +0.002), so its numbers can
-  be read directly. It is the sounder of the two schemes and should carry the
-  headline results.
+- **Position-blocks does not have this problem for the feature sets that
+  matter.** Its null runs −0.014 to +0.079 across structure, ESM-2 and the
+  full model, so those numbers can be read directly, and it is the sounder of
+  the two schemes and carries the headline results. It is **not** a zero null
+  for frequency (−0.167) or conservation (−0.115): those two have a negative
+  null under both schemes, so neither scheme licenses scoring them against
+  zero. They are also the two a reader most wants to compare against, which is
+  why this warning is in the body rather than a footnote.
 
 This is a leakage check too, and it passes: leakage would push the null
-*above* zero. No feature set in either scheme has a null above +0.10.
+*above* zero. No feature set in either scheme has a null above +0.08.
 
 ---
 
@@ -152,16 +159,16 @@ This is a leakage check too, and it passes: leakage would push the null
 
 | Feature set | LOGO ρ | Position-blocks ρ | Best AUC |
 | --- | --- | --- | --- |
-| frequency only | −0.15 / −0.19 | −0.08 / −0.08 | 0.50 |
-| conservation only | −0.21 / −0.10 | −0.28 / +0.11 | 0.61 |
+| frequency only | −0.15 / −0.15 | −0.08 / −0.10 | 0.50 |
+| conservation only | −0.23 / **+0.25** | −0.07 / +0.10 | 0.69 |
 | BLOSUM only | −0.25 / −0.09 | −0.16 / +0.13 | 0.60 |
 | properties only | −0.03 / −0.05 | −0.07 / −0.13 | 0.48 |
 | **structure only** | **+0.29 / +0.31** | **+0.48 / +0.41** | **0.81** |
 | **ESM-2 only** | +0.14 / **+0.34** | **+0.31 / +0.36** | 0.66 |
-| staged: freq+cons | −0.14 / −0.13 | −0.19 / +0.14 | 0.59 |
-| staged: +properties | −0.02 / −0.06 | +0.01 / −0.10 | 0.52 |
-| staged: +structure | +0.24 / +0.05 | +0.30 / +0.31 | 0.75 |
-| staged: +ESM (full) | +0.27 / +0.30 | +0.38 / **+0.44** | 0.75 |
+| staged: freq+cons | −0.20 / **+0.34** | −0.08 / +0.13 | 0.72 |
+| staged: +properties | −0.05 / −0.03 | +0.01 / +0.01 | 0.56 |
+| staged: +structure | +0.15 / +0.04 | +0.30 / +0.33 | 0.75 |
+| staged: +ESM (full) | +0.21 / +0.34 | +0.39 / **+0.46** | 0.77 |
 
 Each cell is ridge / random forest.
 
@@ -174,10 +181,10 @@ reference it was compared against scores below zero.
 
 | Label set | Scheme | Above chance | Best model | ρ (95% CI) |
 | --- | --- | --- | --- | --- |
-| Tier A | LOGO | 6/22 | ESM-2 only, forest | +0.335 [+0.154, +0.499] |
+| Tier A | LOGO | 7/22 | full model, forest | +0.336 [+0.143, +0.518] |
 | Tier A | position blocks | 8/22 | structure only, ridge | +0.481 [+0.313, +0.635] |
-| All tiers | LOGO | 9/22 | structure only, forest | +0.550 [+0.450, +0.634] |
-| All tiers | position blocks | 12/22 | full model, forest | +0.525 [+0.411, +0.626] |
+| All tiers | LOGO | 12/22 | structure only, forest | +0.550 [+0.450, +0.634] |
+| All tiers | position blocks | 14/22 | staged +structure, ridge | +0.492 [+0.383, +0.587] |
 
 **Gate 4 passed in all four combinations.**
 
@@ -187,26 +194,26 @@ Position-blocks, where the null is near zero and the test is cleanest:
 
 | Feature set | Observed | Null | *p* | Usable |
 | --- | --- | --- | --- | --- |
-| frequency only | −0.106 | −0.159 ± 0.049 | 0.119 | no |
-| conservation only | −0.270 | −0.305 ± 0.031 | 0.168 | no |
-| structure only | **+0.431** | +0.017 ± 0.124 | **0.0099** | **yes** |
-| structure only, forest | **+0.412** | +0.042 ± 0.130 | **0.0099** | **yes** |
-| ESM-2 only | **+0.303** | +0.016 ± 0.111 | **0.0099** | **yes** |
-| ESM-2 only, forest | **+0.380** | +0.093 ± 0.110 | **0.0099** | **yes** |
-| full model | **+0.319** | −0.028 ± 0.117 | **0.0099** | **yes** |
-| full model, forest | **+0.430** | +0.002 ± 0.154 | **0.0099** | **yes** |
+| frequency only | −0.104 | −0.167 ± 0.076 | 0.188 | no |
+| conservation only | −0.069 | −0.115 ± 0.041 | 0.228 | no |
+| structure only | **+0.431** | +0.020 ± 0.124 | **0.0099** | **yes** |
+| structure only, forest | **+0.412** | +0.079 ± 0.140 | **0.0099** | **yes** |
+| ESM-2 only | **+0.303** | +0.027 ± 0.115 | **0.0099** | **yes** |
+| ESM-2 only, forest | **+0.380** | +0.075 ± 0.111 | **0.0099** | **yes** |
+| full model | **+0.333** | −0.014 ± 0.112 | **0.0198** | **yes** |
+| full model, forest | **+0.446** | +0.048 ± 0.138 | **0.0099** | **yes** |
 
 **"Significant" and "usable" are separate columns on purpose.** Under
 leave-one-gene-out, conservation-only reaches *p* = 0.0099 while its observed
-correlation is **−0.210**. It beats a null that is more negative still
-(−0.283), which means it carries a little information, and it ranks variants
+correlation is **−0.228**. It beats a null that is more negative still
+(−0.294), which means it carries a little information, and it ranks variants
 backwards, which means it is useless. Reporting that as significant without
 the distinction would be a real misrepresentation. Only the six structure /
 ESM / full entries are usable, and the same six are usable under both schemes.
 
 The *p* values for the two non-predictive feature sets are unstable across
 re-runs at 100 replicates — frequency-only has come out anywhere between
-*p* = 0.04 and *p* = 0.12 — because the statistic sits inside the null
+*p* = 0.04 and *p* = 0.19 — because the statistic sits inside the null
 distribution and the estimate is Monte-Carlo noise. That instability is itself
 the finding: there is nothing there to be stable about. The six usable sets are
 all pinned at the 1/101 floor in every run.
@@ -225,19 +232,20 @@ quartiles, removing that shortcut.
 
 | Scheme | Unmatched ρ | Matched ρ (100 draws, n = 64) | Matched AUC |
 | --- | --- | --- | --- |
-| LOGO | +0.268 | +0.229 [+0.003, +0.515] | 0.645 [0.524, 0.782] |
-| position blocks | +0.382 | **+0.404 [+0.123, +0.581]** | 0.736 [0.611, 0.846] |
+| LOGO | +0.211 | +0.242 [+0.019, +0.505] | 0.643 [0.507, 0.780] |
+| position blocks | +0.389 | **+0.405 [+0.081, +0.631]** | 0.736 [0.566, 0.859] |
 
-**The signal survives.** Under position-blocks the matched estimate is if
-anything slightly higher than the unmatched one, with a lower bound well clear
-of zero. Under leave-one-gene-out the point estimate drops 15% and the lower
-bound grazes zero at +0.003.
+**The signal survives.** Under both schemes the matched estimate is at least as
+high as the unmatched one, with a lower bound clear of zero.
 
 Honest statement of what this does and does not establish: the apparent skill
 is not merely a conservation proxy, but matching costs roughly half the rows
-(119 → 64), so the test bounds the conservation contribution loosely rather
-than eliminating it as an explanation. It should not be quoted as a clean
-exoneration.
+(119 → 64), so this version of the test bounds the conservation contribution
+loosely rather than eliminating it as an explanation. It should not be quoted
+as a clean exoneration. **Phase 4 closes that gap** by pairing each matched
+draw with a random draw of identical class counts, which separates matching
+from sample size; the gap then comes out between −0.016 and +0.003 across all
+eight model/scheme combinations — that is, at zero.
 
 An earlier version of this test was **broken and reported a null result as a
 pass** — see Bugs below.
@@ -249,17 +257,18 @@ the conservation features is reasonable *a priori*. **It is what happens.**
 
 Each ESM feature was regressed on the conservation and structure features and
 replaced by its residual. Conservation plus structure linearly explain only
-*r*² = 0.32 of the masked-marginal score and 0.31 of the reference
+*r*² = 0.34 of the masked-marginal score and 0.32 of the reference
 log-probability — so on a variance accounting, two thirds of ESM-2 is something
 else. But that two thirds carries no predictive signal:
 
 | Scheme | ESM-2 alone | ESM-2 alone, residualised |
 | --- | --- | --- |
-| LOGO | ρ +0.138, AUC 0.596 | **ρ −0.063, AUC 0.428** |
-| position blocks | ρ +0.305, AUC 0.660 | **ρ +0.022, AUC 0.412** |
+| LOGO | ρ +0.138, AUC 0.596 | **ρ −0.113, AUC 0.411** |
+| position blocks | ρ +0.305, AUC 0.660 | **ρ −0.011, AUC 0.389** |
 
-Removing the 32% of ESM-2 that conservation and structure can explain destroys
-essentially 100% of its ability to rank fold change. Whatever ESM-2 knows that
+Removing the 34% of ESM-2 that conservation and structure can explain destroys
+essentially 100% of its ability to rank fold change — the residual lands either
+side of zero, at −0.011 and −0.113. Whatever ESM-2 knows that
 the other features do not, it is not predictive of resistance here.
 
 The full model is more robust, because residualising ESM does not remove the
@@ -267,8 +276,8 @@ structure features themselves — the model simply falls back on them:
 
 | Scheme | Full model | Full model, ESM residualised | Change |
 | --- | --- | --- | --- |
-| LOGO | ρ +0.268, AUC 0.686 | ρ +0.249, AUC 0.651 | −7% ρ |
-| position blocks | ρ +0.382, AUC 0.733 | ρ +0.279, AUC 0.675 | −27% ρ |
+| LOGO | ρ +0.211, AUC 0.667 | ρ +0.200, AUC 0.650 | −5% ρ |
+| position blocks | ρ +0.389, AUC 0.753 | ρ +0.308, AUC 0.700 | −21% ρ |
 
 **An earlier draft of this report read the full-model rows as evidence that
 ESM-2 contributes independent signal.** That was the wrong comparison. The
@@ -285,7 +294,7 @@ conservation and structural context is not supported by these data.
 ### Leakage
 
 Passed. Leakage would show as a permutation null **above** zero. Maximum null
-mean observed: +0.093 (position-blocks) and −0.152 (LOGO). No evidence of
+mean observed: +0.079 (position-blocks) and −0.159 (LOGO). No evidence of
 information crossing fold boundaries.
 
 ---
@@ -299,33 +308,42 @@ sounds. Three statements are better supported:
 **Structural context predicts measured resistance; population frequency does
 not.** Distance to the bound ligand plus solvent accessibility reaches ρ = 0.48
 and AUC 0.81 out of fold. Frequency reaches ρ = −0.08 and AUC 0.50, and fails
-its own permutation test (*p* = 0.12).
+its own permutation test (*p* = 0.19).
 
 **This does not contradict Aim 1.** Frequency answers "is this catalogued
 mutation actually a common polymorphism?" — a question about the catalogue.
 It does not answer "how resistant is this variant?" The two aims operate on
-nearly disjoint subsets: 130 of 644 catalogued substitutions are observed in
-circulating virus, but only 13 of 119 phenotyped Tier A ones. Conflating these
+nearly disjoint subsets: 128 of 644 catalogued substitutions are observed in
+circulating virus, but only 14 of 119 phenotyped Tier A ones. Conflating these
 would be the single easiest mistake to make in writing this up.
 
 **The frequency signal is one bit.** Across all 241 variants with a numeric
-phenotype, continuous frequency gives ρ = −0.240 (*p* = 0.0002) and the binary
-observed/not-observed flag gives ρ = −0.236 (*p* = 0.0002). Identical. Knowing
+phenotype, continuous frequency gives ρ = −0.248 (*p* = 0.0001) and the binary
+observed/not-observed flag gives ρ = −0.243 (*p* = 0.0001). Identical. Knowing
 how common an allele is adds nothing over knowing whether it has ever been
 seen. Median fold change is 1.5× for observed variants and 5.0× for unobserved.
 
-**More features make the model worse.** Structure alone beats the full staged
-model under leave-one-gene-out (+0.29 vs +0.27 ridge; +0.31 vs +0.30 forest).
-At n = 119 with 32 negatives, the frequency, conservation and property groups
-contribute noise. This is a finding about feature redundancy at this sample
-size, not a tuning failure — hyperparameters were selected in an inner grouped
-loop throughout.
+**Whether more features help depends on the estimator and the metric, which is
+itself the finding.** Under ridge, structure alone beats the full staged model
+on the primary set under both schemes (+0.29 vs +0.21 leave-one-gene-out;
++0.48 vs +0.39 position blocks). Under random forest the full model wins
+(+0.34 vs +0.31 and +0.46 vs +0.41). And on average precision — the metric
+pre-declared as primary, scored in Phase 4 — structure-only is best either way
+(0.916 against the full model's 0.893).
 
-The secondary set settles which it is. At n = 235 the ordering reverses: the
-full staged model reaches ρ +0.525 against structure-only's +0.488 under
-position blocks, and `properties_only` goes from failing the gate to passing
-it (+0.176). The extra feature groups are not noise in themselves — there
-were not enough labels in the primary set to fit them.
+A result that changes rank with the estimator is a result at the resolution
+limit of 119 labels with 32 negatives, and should be reported as one. The
+defensible reading is that structure carries the signal and the other three
+feature groups add nothing reliable on the primary set; whether they add noise
+or a little signal is not resolvable here. Hyperparameters were selected in an
+inner grouped loop throughout, so this is not a tuning failure.
+
+The secondary set is consistent with that reading. At n = 235 under position
+blocks the staged models pull ahead (+0.492 for `+structure` ridge against
+structure-only's +0.386 ridge, though structure-only's forest at +0.488 is
+within noise of both), and `properties_only` goes from failing the gate to
+passing it (+0.186). The extra feature groups are not noise in themselves —
+there were not enough labels in the primary set to fit them.
 
 ---
 
@@ -335,7 +353,7 @@ were not enough labels in the primary set to fit them.
 six virus–gene combinations, two of which have fewer than ten. Any claim about
 cross-gene generalisation rests on six groups.
 
-**Only 13 of 119 primary variants are observed in circulating virus**, so the
+**Only 14 of 119 primary variants are observed in circulating virus**, so the
 frequency features are near-constant on the primary set and the frequency
 baseline is weak for structural reasons, not because frequency is a bad idea.
 
@@ -397,10 +415,10 @@ and 2.
    `site_resolved` flag rather than letting the column look comparable.
 8. **The ESM-2 residualisation result was read off the wrong rows.** The audit
    emits both a full-model and an ESM-alone residualisation; an earlier draft
-   quoted the full-model pair (−7% to −27%) as evidence that ESM-2 carries
+   quoted the full-model pair (−5% to −21%) as evidence that ESM-2 carries
    independent signal. The full model still has the structure features after
    ESM is residualised, so it cannot test that. The ESM-alone pair
-   (+0.31 → +0.02) shows the opposite conclusion. No code was wrong here —
+   (+0.31 → −0.01) shows the opposite conclusion. No code was wrong here —
    the output was correct and the interpretation was not, which is the harder
    failure to catch.
 
@@ -430,7 +448,7 @@ and 2.
    **Resolved — it is an ascertainment artefact.** Patient-level collapse took
    it from 19 carriers to 11 and 7.6% to 4.6%; 8 of the 11 come from one study
    (`max_study_share` 0.73), and leave-one-study-out drops the frequency 3.4×
-   to 1.4%. R176Q is worse (study share 1.00, LOSO minimum 0.0) and R41H is
+   to 1.3%. R176Q is worse (study share 1.00, LOSO minimum 0.0) and R41H is
    labelled Sensitive by the published audit. **None of the three candidate
    circulating resistance alleles survives.** The structural result was
    consistent with resistance — R222 sits 3.27 Å from the bound ligand with
@@ -448,7 +466,7 @@ and 2.
    result in its own right — their audit changed the status of N23S and K36E as
    "reported incorrectly" and flagged R89Q and R281Q for unindicated clinical
    contradictions, and this project's population analysis independently puts
-   those at 91.1%, 91.1%, 56.5% and 6.3%; (b) ~500 substitutions they label
+   those at 91.2%, 91.2%, 56.1% and 6.3%; (b) ~500 substitutions they label
    Sensitive, against the 32 negatives available here, which would give the
    binary form of Aim 4 real power for the first time. Their coordinate system
    matches this project's exactly (NC_001806 / NC_001798). Provenance and

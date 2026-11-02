@@ -1,24 +1,24 @@
 {
-  "cds_extracted": 2883,
-  "cds_qc_failed": 284,
-  "isolates_kept": 451,
-  "isolates_with_targets": 707,
+  "cds_extracted": 3842,
+  "cds_qc_failed": 693,
+  "isolates_kept": 599,
+  "isolates_with_targets": 943,
   "metadata_records": 1143,
   "removed_by": {
-    "identical": 193,
+    "identical": 281,
     "lab_strain": 27,
     "non_human_host": 13,
     "same_patient_serial": 18,
     "serial_same_strain": 5
   },
   "sequences_per_gene": {
-    "HSV1:UL23": 237,
-    "HSV1:UL30": 239,
-    "HSV1:UL5": 242,
-    "HSV1:UL52": 239,
-    "HSV2:UL23": 159,
-    "HSV2:UL30": 183,
-    "HSV2:UL5": 173,
-    "HSV2:UL52": 156
+    "HSV1:UL23": 239,
+    "HSV1:UL30": 300,
+    "HSV1:UL5": 251,
+    "HSV1:UL52": 299,
+    "HSV2:UL23": 160,
+    "HSV2:UL30": 253,
+    "HSV2:UL5": 247,
+    "HSV2:UL52": 225
   }
 }

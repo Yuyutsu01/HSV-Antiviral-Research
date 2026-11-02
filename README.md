@@ -7,12 +7,12 @@ Resistance catalogues are assembled from case reports and phenotyping studies.
 They record that a mutation was found in a resistant isolate, but not how often
 that same residue occurs in viruses from people who were never treated. Without
 that denominator a common polymorphism and a resistance determinant look alike.
-This project supplies the denominator, from 451 publicly deposited HSV genomes,
+This project supplies the denominator, from 599 publicly deposited HSV genomes,
 and reports what it does to the catalogue.
 
 **The headline number:** of 644 catalogued HSV mutations in the four target
-genes, 644 are in the catalogue and 638 distinct variants are observed in
-circulating virus — and only **120** are in both. Eleven catalogued "mutations"
+genes, 644 are in the catalogue and 747 distinct variants are observed in
+circulating virus — and only **128** are in both. Eleven catalogued "mutations"
 are the *majority* allele in circulating virus, meaning the reference sequence
 carries the minority residue.
 
@@ -20,8 +20,8 @@ carries the minority residue.
 
 | | Aim | Result |
 | --- | --- | --- |
-| 1 | Reclassify catalogued mutations against population frequency | **Positive.** 15 common polymorphisms, 11 majority alleles, 8 recommended for reclassification |
-| 2 | Selection asymmetry between UL23 and UL30 | **Positive.** pN/pS difference +0.2005 [+0.1652, +0.2389], 100% bootstrap support |
+| 1 | Reclassify catalogued mutations against population frequency | **Positive.** 15 common polymorphisms, 11 majority alleles, 7 recommended for reclassification |
+| 2 | Selection asymmetry between UL23 and UL30 | **Positive.** pN/pS difference +0.1980 [+0.1664, +0.2361], 100% bootstrap support |
 | 3 | Pre-therapeutic helicase–primase baseline | **Positive.** Baseline established for UL5 and UL52 before pritelivir/amenamevir use |
 | 4 | Do sequence-based models beat a frequency-only baseline? | **Qualified.** They do, but the baseline is nearly empty, and the winning model makes no usable decision at the declared threshold. Structural context is the only feature group that holds up prospectively |
 
@@ -111,8 +111,8 @@ argument.
 Three things are easy to get wrong here, and the reports are written to prevent
 each one.
 
-**Aim 1 and Aim 4 operate on nearly disjoint sets.** 120 of 644 catalogued
-mutations are observed in circulating virus, but only **13 of 119** phenotyped
+**Aim 1 and Aim 4 operate on nearly disjoint sets.** 128 of 644 catalogued
+mutations are observed in circulating virus, but only **14 of 119** phenotyped
 Tier A variants are. Frequency answers "is this catalogued mutation actually a
 common polymorphism?" It does not answer "how resistant is this variant?"
 Conflating them is the single easiest mistake to make with these results.
@@ -125,10 +125,13 @@ on a 2.3× fold change. Every frequency in the reclassification table carries
 they should be read alongside the frequency, never after it.
 
 **Leave-one-gene-out does not have a zero null here.** Permuting labels within
-groups gives a null centred at −0.15 to −0.28, because removing a gene shifts
+groups gives a null centred at −0.16 to −0.29, because removing a gene shifts
 the training mean away from the held-out gene's own mean. Scoring that scheme
 against zero inverts the conclusion for the weaker feature sets. Position-blocks
-cross-validation has a null near zero and carries the headline results.
+cross-validation carries the headline results, and its null is near zero for the
+feature groups that have signal (−0.014 to +0.079) — but not for frequency
+(−0.167) or conservation (−0.115), which have a negative null under both
+schemes.
 
 ## Pre-declaration
 

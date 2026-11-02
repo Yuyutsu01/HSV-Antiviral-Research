@@ -14,37 +14,37 @@
     }
   },
   "accession_fates": {
-    "analysed": 451,
+    "analysed": 599,
     "excluded_laboratory_strain": 30,
-    "excluded_no_cds_extracted": 411,
-    "excluded_downstream_filter": 183,
-    "excluded_cds_qc": 36,
+    "excluded_no_cds_extracted": 168,
+    "excluded_downstream_filter": 187,
+    "excluded_cds_qc": 127,
     "excluded_patient_duplicate": 18,
     "excluded_non_human_host": 14
   },
   "master_table": {
-    "n_rows": 1162,
+    "n_rows": 1263,
     "n_in_catalogue": 644,
-    "n_observed": 638,
-    "n_both": 120,
-    "n_catalogue_only": 524,
-    "n_observed_only": 518,
+    "n_observed": 747,
+    "n_both": 128,
+    "n_catalogue_only": 516,
+    "n_observed_only": 619,
     "n_in_model_dataset": 235,
-    "n_with_structure": 896,
-    "n_with_esm": 1161
+    "n_with_structure": 966,
+    "n_with_esm": 1262
   },
   "files": {
     "data/release/accession_list.tsv": {
-      "sha256": "cf8c60998cfed8cc5e26455d0d1dc6058c8c570139805f6b318c30924b73cd14",
-      "bytes": 181912
+      "sha256": "181a8d37e5fea31d4c4f3caaf2f05d4fa5d78ef2c67b7da7705d12d26634ea90",
+      "bytes": 182994
     },
     "data/release/master_variant_table.tsv": {
-      "sha256": "6e612cad3df40936534678953de4097af50082e5b186386d1540a0d453c825fe",
-      "bytes": 178173
+      "sha256": "ba0264c4aeea8829bc071d9754837fe97b48020bdb1ec7c341b15832f1aa83f4",
+      "bytes": 190668
     },
     "data/release/reclassification_table.tsv": {
-      "sha256": "f7966fceace617d7f2418c989c22eb399bf2781d63d6c7f25ef0ae350ff772af",
-      "bytes": 87140
+      "sha256": "b5c668cef782a635e6b38d181a385dfac58c40782ffdf90781a1cd1769fc1edb",
+      "bytes": 87350
     }
   }
 }

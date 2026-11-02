@@ -6,7 +6,7 @@ row counts are in `reports/phase4/release_summary.json`.
 | File | Rows | What it is |
 | --- | --- | --- |
 | `accession_list.tsv` | 1,143 | Every GenBank accession the frozen query returned, with its fate |
-| `master_variant_table.tsv` | 1,162 | One row per unique variant, catalogued or observed |
+| `master_variant_table.tsv` | 1,263 | One row per unique variant, catalogued or observed |
 | `reclassification_table.tsv` | 644 | The deposited resource: every catalogued HSV mutation with its population frequency |
 
 Reference coordinates are **NC_001806** (HSV-1) and **NC_001798** (HSV-2)
@@ -17,7 +17,7 @@ throughout. Positions are 1-based amino-acid positions in the reference protein.
 ## `accession_list.tsv`
 
 The frozen accession list. It records what was **excluded** as well as what was
-kept, because a list of only the 451 analysed isolates is not reproducible: a
+kept, because a list of only the 599 analysed isolates is not reproducible: a
 reader could not tell whether an absent accession was missed by the query or
 dropped by a filter.
 
@@ -40,10 +40,10 @@ dropped by a filter.
 
 | Value | n | Meaning |
 | --- | --- | --- |
-| `analysed` | 451 | Contributed variant calls to at least one gene |
-| `excluded_no_cds_extracted` | 411 | No target-gene CDS could be extracted; usually an unannotated or partial record |
-| `excluded_downstream_filter` | 183 | Had a passing CDS but did not reach the coverage table — divergence and per-gene coverage filters |
-| `excluded_cds_qc` | 36 | CDS extracted but failed QC; `fate_detail` names the flags |
+| `analysed` | 599 | Contributed variant calls to at least one gene |
+| `excluded_downstream_filter` | 187 | Had a passing CDS but did not reach the coverage table — divergence and per-gene coverage filters |
+| `excluded_no_cds_extracted` | 168 | No target-gene CDS could be extracted; usually an unannotated or partial record |
+| `excluded_cds_qc` | 127 | CDS extracted but failed QC; `fate_detail` names the flags |
 | `excluded_laboratory_strain` | 30 | Laboratory-adapted strain |
 | `excluded_patient_duplicate` | 18 | Serial isolate from a patient already represented; `fate_detail` names the retained record |
 | `excluded_non_human_host` | 14 | Non-human host annotation |
@@ -65,16 +65,16 @@ of the catalogue and the observed population, **not their intersection** — tha
 disjunction is the project's central finding, so either `in_catalogue` or
 `observed` may be 0.
 
-| 1,162 rows | |
+| 1,263 rows | |
 | --- | --- |
 | in the catalogue | 644 |
-| observed in circulating virus | 638 |
-| **both** | **120** |
-| catalogue only | 524 |
-| observed only | 518 |
+| observed in circulating virus | 747 |
+| **both** | **128** |
+| catalogue only | 516 |
+| observed only | 619 |
 | with a measured phenotype (in the model dataset) | 235 |
-| with structural features | 896 |
-| with ESM-2 scores | 1,161 |
+| with structural features | 966 |
+| with ESM-2 scores | 1,262 |
 
 ### Columns
 
@@ -139,9 +139,9 @@ population sides above, plus:
 
 | Value | n | Definition |
 | --- | --- | --- |
-| `not_observed` | 524 | Absent from all analysed isolates |
-| `singleton` | 47 | Exactly one carrier |
-| `rare` | 11 | Below 1% |
+| `not_observed` | 516 | Absent from all analysed isolates |
+| `singleton` | 45 | Exactly one carrier |
+| `rare` | 21 | Below 1% |
 | `uncommon_polymorphism` | 36 | 1% to 5% |
 | `common_polymorphism` | 15 | 5% to 50% |
 | `majority_allele` | 11 | Above 50% — the reference carries the minority residue |
@@ -153,12 +153,12 @@ determinations.**
 
 | Value | n | Meaning |
 | --- | --- | --- |
-| `not_observed` | 524 | No population evidence either way |
-| `consistent_rare` | 53 | Rare in circulation, as a resistance determinant should be |
-| `unphenotyped_but_common` | 40 | Common in circulation, no measured fold change. The group most in need of phenotyping |
+| `not_observed` | 516 | No population evidence either way |
+| `consistent_rare` | 60 | Rare in circulation, as a resistance determinant should be |
+| `unphenotyped_but_common` | 41 | Common in circulation, no measured fold change. The group most in need of phenotyping |
 | `reference_artifact` | 10 | Majority allele with no measured resistance: the reference sequence, not the virus, is the outlier |
-| `reclassify_as_polymorphism` | 8 | Catalogued as resistance-associated, common in circulation, fold change below threshold |
-| `consistent_with_resistance` | 5 | Rare and phenotypically resistant |
+| `reclassify_as_polymorphism` | 7 | Catalogued as resistance-associated, common in circulation, fold change below threshold |
+| `consistent_with_resistance` | 6 | Rare and phenotypically resistant |
 | `circulating_resistance_allele` | 3 | Common **and** phenotypically resistant. **All three fail ascertainment checks** — see below |
 | `majority_allele_with_measured_resistance` | 1 | Majority allele with a measured fold change above threshold |
 
@@ -170,9 +170,9 @@ reasons, and only two of the three fail on ascertainment**:
 
 | Variant | Freq | Carriers | Studies | `max_study_share` | `loso_min_freq` | Fold change | Why it does not stand |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| HSV-1 UL23 R222C | 0.046 | 11 | 3 | 0.73 | 0.0135 | 98× | 8 of 11 carriers from one submission; frequency falls 3.4× on dropout |
+| HSV-1 UL23 R222C | 0.046 | 11 | 3 | 0.73 | 0.0134 | 98× | 8 of 11 carriers from one submission; frequency falls 3.4× on dropout |
 | HSV-1 UL23 R176Q | 0.017 | 4 | 1 | 1.00 | 0.0 | 200× | Every carrier from a single submission; drops to zero on dropout |
-| HSV-1 UL23 R41H | 0.051 | 12 | 5 | 0.33 | 0.0385 | 2.3× | **Ascertainment is sound.** It fails on phenotype: 2.3× is marginal against the 2× threshold, and an independent published audit labels it Sensitive |
+| HSV-1 UL23 R41H | 0.051 | 12 | 5 | 0.33 | 0.0381 | 2.3× | **Ascertainment is sound.** It fails on phenotype: 2.3× is marginal against the 2× threshold, and an independent published audit labels it Sensitive |
 
 R222C and R176Q are ascertainment artefacts, and `study_dominated = 1` catches
 both. R41H is not an artefact — it is a genuine 5% polymorphism seen across five

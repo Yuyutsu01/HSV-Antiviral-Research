@@ -11,37 +11,37 @@
       {
         "a": "freq_count",
         "b": "freq_frequency",
-        "spearman": 0.9998
+        "spearman": 0.9996
       },
       {
         "a": "freq_count",
         "b": "freq_observed",
-        "spearman": 0.998
+        "spearman": 0.9977
       },
       {
         "a": "freq_frequency",
         "b": "freq_observed",
-        "spearman": 0.9978
-      },
-      {
-        "a": "cons_site_variability",
-        "b": "freq_frequency",
-        "spearman": 0.9069
-      },
-      {
-        "a": "cons_site_variability",
-        "b": "freq_count",
-        "spearman": 0.9068
-      },
-      {
-        "a": "cons_site_variability",
-        "b": "freq_observed",
-        "spearman": 0.9047
+        "spearman": 0.9974
       },
       {
         "a": "esm_masked_marginal",
         "b": "esm_ref_logprob",
         "spearman": -0.8892
+      },
+      {
+        "a": "cons_site_variability",
+        "b": "freq_frequency",
+        "spearman": 0.8877
+      },
+      {
+        "a": "cons_site_variability",
+        "b": "freq_count",
+        "spearman": 0.8876
+      },
+      {
+        "a": "cons_site_variability",
+        "b": "freq_observed",
+        "spearman": 0.8855
       }
     ]
   },
@@ -179,54 +179,54 @@
         },
         "average_precision": {
           "matched": {
-            "mean": 0.6234,
+            "mean": 0.6238,
             "ci95": [
               0.5173,
-              0.7356
+              0.7471
             ]
           },
           "random": {
-            "mean": 0.6182,
+            "mean": 0.6209,
             "ci95": [
-              0.5152,
-              0.7305
+              0.5219,
+              0.7107
             ]
           },
-          "gap_random_minus_matched": -0.0052
+          "gap_random_minus_matched": -0.0029
         },
         "precision_at_95_recall": {
           "matched": {
-            "mean": 0.5527,
+            "mean": 0.547,
             "ci95": [
-              0.5167,
-              0.62
+              0.5039,
+              0.6023
             ]
           },
           "random": {
-            "mean": 0.5465,
+            "mean": 0.5389,
             "ci95": [
-              0.4958,
-              0.6078
+              0.5,
+              0.5849
             ]
           },
-          "gap_random_minus_matched": -0.0062
+          "gap_random_minus_matched": -0.0081
         },
         "spearman": {
           "matched": {
-            "mean": 0.2337,
+            "mean": 0.2502,
             "ci95": [
-              0.0013,
-              0.448
+              -0.0119,
+              0.5055
             ]
           },
           "random": {
-            "mean": 0.1803,
+            "mean": 0.2081,
             "ci95": [
-              -0.0581,
-              0.3933
+              -0.0052,
+              0.44
             ]
           },
-          "gap_random_minus_matched": -0.0534
+          "gap_random_minus_matched": -0.0421
         },
         "prevalence_both_arms": 0.5
       },
@@ -240,54 +240,54 @@
         },
         "average_precision": {
           "matched": {
-            "mean": 0.6903,
+            "mean": 0.6927,
             "ci95": [
-              0.5769,
-              0.7816
+              0.5875,
+              0.7865
             ]
           },
           "random": {
-            "mean": 0.6902,
+            "mean": 0.6932,
             "ci95": [
-              0.5805,
-              0.7783
+              0.5816,
+              0.7811
             ]
           },
-          "gap_random_minus_matched": -0.0001
+          "gap_random_minus_matched": 0.0005
         },
         "precision_at_95_recall": {
           "matched": {
-            "mean": 0.5148,
+            "mean": 0.5106,
+            "ci95": [
+              0.4921,
+              0.5636
+            ]
+          },
+          "random": {
+            "mean": 0.5116,
             "ci95": [
               0.4921,
               0.5691
             ]
           },
-          "random": {
-            "mean": 0.513,
-            "ci95": [
-              0.4921,
-              0.5908
-            ]
-          },
-          "gap_random_minus_matched": -0.0018
+          "gap_random_minus_matched": 0.001
         },
         "spearman": {
           "matched": {
-            "mean": 0.2592,
+            "mean": 0.2639,
             "ci95": [
-              -0.0063,
-              0.4935
+              0.0299,
+              0.4911
             ]
           },
           "random": {
-            "mean": 0.2573,
+            "mean": 0.2648,
             "ci95": [
-              -0.009,
-              0.508
+              -0.007,
+              0.4971
             ]
           },
-          "gap_random_minus_matched": -0.0019
+          "gap_random_minus_matched": 0.0009
         },
         "prevalence_both_arms": 0.5
       }
@@ -425,54 +425,54 @@
         },
         "average_precision": {
           "matched": {
-            "mean": 0.6975,
+            "mean": 0.7063,
             "ci95": [
-              0.5678,
-              0.8085
+              0.5987,
+              0.8026
             ]
           },
           "random": {
-            "mean": 0.6899,
+            "mean": 0.6929,
             "ci95": [
-              0.5828,
-              0.7961
+              0.5715,
+              0.8018
             ]
           },
-          "gap_random_minus_matched": -0.0076
+          "gap_random_minus_matched": -0.0134
         },
         "precision_at_95_recall": {
           "matched": {
-            "mean": 0.5597,
+            "mean": 0.5539,
             "ci95": [
-              0.5167,
-              0.62
+              0.5082,
+              0.6142
             ]
           },
           "random": {
-            "mean": 0.5592,
+            "mean": 0.5514,
             "ci95": [
-              0.5082,
+              0.5039,
               0.6266
             ]
           },
-          "gap_random_minus_matched": -0.0005
+          "gap_random_minus_matched": -0.0025
         },
         "spearman": {
           "matched": {
-            "mean": 0.3371,
+            "mean": 0.3685,
             "ci95": [
-              0.0865,
-              0.577
+              0.135,
+              0.6036
             ]
           },
           "random": {
-            "mean": 0.3331,
+            "mean": 0.3548,
             "ci95": [
-              0.1173,
-              0.5544
+              0.169,
+              0.5796
             ]
           },
-          "gap_random_minus_matched": -0.004
+          "gap_random_minus_matched": -0.0137
         },
         "prevalence_both_arms": 0.5
       },
@@ -486,54 +486,54 @@
         },
         "average_precision": {
           "matched": {
-            "mean": 0.7559,
+            "mean": 0.7541,
             "ci95": [
-              0.6414,
-              0.8395
+              0.6391,
+              0.8364
             ]
           },
           "random": {
-            "mean": 0.7418,
+            "mean": 0.7389,
             "ci95": [
-              0.611,
-              0.8219
+              0.6118,
+              0.8168
             ]
           },
-          "gap_random_minus_matched": -0.0141
+          "gap_random_minus_matched": -0.0152
         },
         "precision_at_95_recall": {
           "matched": {
-            "mean": 0.5315,
+            "mean": 0.5323,
             "ci95": [
               0.4921,
-              0.6562
+              0.6483
             ]
           },
           "random": {
-            "mean": 0.5194,
+            "mean": 0.5212,
             "ci95": [
               0.4921,
-              0.6087
+              0.5908
             ]
           },
-          "gap_random_minus_matched": -0.0121
+          "gap_random_minus_matched": -0.0111
         },
         "spearman": {
           "matched": {
-            "mean": 0.4247,
+            "mean": 0.4276,
             "ci95": [
-              0.1616,
-              0.6388
+              0.1802,
+              0.622
             ]
           },
           "random": {
-            "mean": 0.3926,
+            "mean": 0.3932,
             "ci95": [
-              0.1408,
-              0.5966
+              0.1473,
+              0.5901
             ]
           },
-          "gap_random_minus_matched": -0.0321
+          "gap_random_minus_matched": -0.0344
         },
         "prevalence_both_arms": 0.5
       }

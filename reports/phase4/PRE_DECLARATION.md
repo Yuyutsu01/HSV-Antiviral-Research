@@ -123,7 +123,7 @@ two parts:
    compared a conservation-matched subset of 64 rows against the full 119, which
    confounds matching with sample size. Phase 4 pairs each matched draw with a
    random draw of identical class counts. The gap then comes out at between
-   −0.015 and +0.003 across all eight model/scheme combinations: **essentially
+   −0.016 and +0.003 across all eight model/scheme combinations: **essentially
    zero**. Phase 3's hedged conclusion, that matching "bounds the conservation
    contribution loosely rather than eliminating it", was an artefact of the
    unmatched sample size.
@@ -132,8 +132,10 @@ two parts:
    probabilities and a Brier score is undefined for them. Fitting a calibrator
    on the same out-of-fold predictions used for evaluation would leak. The
    regression calibration — slope and intercept of observed on predicted — is
-   reported instead; the slope is 0.71 to 0.80 throughout, meaning the models
-   systematically under-disperse, as expected at this sample size.
+   reported instead. The three models that survive multiplicity correction have
+   slopes of 0.77, 0.95 and 1.20; the failing feature sets have slopes near zero
+   (frequency 0.06, conservation 0.17), which is a near-constant prediction
+   rather than a miscalibrated one.
 6. **SHAP / permutation importance not computed.** The protocol made this
    conditional. With only two structural features carrying the result, the
    correlation matrix and the staged feature-group comparison already answer
@@ -156,9 +158,9 @@ mitigation is that it was not chosen on performance: all five cut-offs from
 2005 to 2015 are reported, and the nominated primary (2012) is the one that
 splits the primary set most evenly, which is an outcome-independent criterion.
 The result does not depend on the choice — structure-only is the best feature
-group at every cut-off on the primary set and at four of five on the
-secondary — so a reader who distrusts the nomination can read the sensitivity
-table instead and reach the same conclusion.
+group at every cut-off on both the primary and the secondary set — so a reader
+who distrusts the nomination can read the sensitivity table instead and reach
+the same conclusion.
 
 Only DOIs were sent to Crossref. No `mailto` parameter and no address in the
 User-Agent: that would place a personal identifier in third-party request logs
@@ -171,8 +173,8 @@ for no analytical gain.
 It was declared as the extension where the clinical value lies, and that
 judgement was right: a clinical laboratory meeting a substitution in a patient
 isolate is far more likely to be looking at an unphenotyped variant than a
-characterised one. Of the variants observed in circulating virus, **610 have no
-measured fold change**, 518 of them not catalogued at all, against 235 with a
+characterised one. Of the variants observed in circulating virus, **717 have no
+measured fold change**, 619 of them not catalogued at all, against 235 with a
 phenotype. Extending scoring to that pool is the obvious next step and it is
 not taken here, for three reasons that are worth recording in full because a
 reader will otherwise assume it was simply overlooked.
@@ -181,7 +183,7 @@ reader will otherwise assume it was simply overlooked.
 matter.** Most positive-unlabelled methods assume positives are selected
 completely at random from all positives. Here a variant is catalogued *because*
 someone found it in a resistant isolate. Ascertainment bias is precisely what
-this project set out to measure — 59 of 120 observed variants are
+this project set out to measure — 60 of 128 observed variants are
 study-dominated — so applying a method that assumes it away, inside a paper
 about it, would be incoherent. Methods that relax the assumption exist and need
 more positives than the 87 available.
@@ -195,19 +197,18 @@ presented as a triage list is worse than no list.
 **3. The one feature group that works does not cover the pool.** Section 5.3 of
 the manuscript shows the structural signal is confined to genes with a
 ligand-resolved active site: AP 0.988 for UL23, 0.567 for UL5, 0.411 for UL52.
-The VUS pool is concentrated in the wrong genes — UL30 and UL52 carry 418 of
-the 610, UL23 only 81 — and just **282 of the 610 have `site_resolved = 1`**. A
+The VUS pool is concentrated in the wrong genes — UL30 and UL52 carry 517 of
+the 717, UL23 only 81 — and just **317 of the 717 have `site_resolved = 1`**. A
 score over UL52 variants of unknown significance would be close to noise while
-looking authoritative. Combined with calibration slopes of 0.71–0.80 and
-degeneracy at the 2× threshold, a probability attached to a patient's variant
-would not mean what it says.
+looking authoritative. Combined with the degeneracy at the 2× threshold, a
+probability attached to a patient's variant would not mean what it says.
 
-**What is delivered instead**, with no modelling assumptions at all: the 40
+**What is delivered instead**, with no modelling assumptions at all: the 41
 `unphenotyped_but_common` variants in the reclassification table. These are
 common in circulation and have never been phenotyped, which makes them a
 phenotyping-priority list derived from observation rather than from a model. If
 the PU extension is attempted later, the defensible scope is a ranked list
-restricted to the 282 site-resolved VUS, published as a phenotyping priority
+restricted to the 317 site-resolved VUS, published as a phenotyping priority
 and not as clinical interpretation.
 
 ---
@@ -217,7 +218,7 @@ and not as clinical interpretation.
 The protocol committed in advance to reporting a negative Aim 4 result as the
 finding if the models failed to beat the frequency baseline. The models did beat
 it. But the protocol's framing assumed a frequency baseline with something to
-say, and **only 13 of 119 phenotyped Tier A variants are observed in
+say, and **only 14 of 119 phenotyped Tier A variants are observed in
 circulating virus at all**, so the baseline is near-constant on the primary set.
 
 The commitment is therefore honoured in a different place than expected: the
@@ -225,7 +226,7 @@ negative result to report is not "models fail to beat frequency" but
 **"frequency does not predict phenotype, and beating it establishes very
 little"**, together with **"at the pre-declared 2× operating point the best
 model makes no usable decision"** — Matthews correlation 0.15 on the primary
-set, with 9 of 22 models classifying every variant identically at that
+set, with 8 of 22 models classifying every variant identically at that
 threshold. Good ranking and an unusable operating point are compatible, and the
 protocol's choice to require precision at 95% recall and MCC alongside a
 ranking metric is what exposed it.

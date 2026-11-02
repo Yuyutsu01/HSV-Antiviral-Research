@@ -19,7 +19,7 @@ HSV1	UL52	F360V	360	A_engineered	Aciclovir;Amenamevir;Foscarnet	158	0	0	0	0	0
 HSV1	UL52	S364G	364	A_engineered	Aciclovir;Amenamevir;Foscarnet	1	0	0	0	0	0
 HSV1	UL52	A899T	899	B_lab_selected	Pritelivir	2.5e+03	0	0	0	0	0
 HSV1	UL52	N902T	902	A_engineered	Aciclovir;Amenamevir;Foscarnet	6	0	0	0	0	0
-HSV2	UL5	H334R	334	C_clinical_isolate	Pritelivir		1	2	173	0.011561	0.041166
+HSV2	UL5	H334R	334	C_clinical_isolate	Pritelivir		1	2	247	0.008097	0.029038
 HSV2	UL5	I340V	340	B_lab_selected	Amenamevir	2.1	0	0	0	0	0
 HSV2	UL5	G351R	351	B_lab_selected	Amenamevir	2.2e+03	0	0	0	0	0
 HSV2	UL5	K355E	355	B_lab_selected	Amenamevir	8	0	0	0	0	0

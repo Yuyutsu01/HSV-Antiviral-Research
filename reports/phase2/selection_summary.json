@@ -1,11 +1,11 @@
 {
   "aim2_contrast": {
     "HSV1": {
-      "UL23_pN_pS": 0.37198759651431285,
-      "UL30_pN_pS": 0.17153736829653674,
-      "ci_high": 0.23886384466029367,
-      "ci_low": 0.16523026043169178,
-      "difference": 0.2004502282177761,
+      "UL23_pN_pS": 0.3709765095802362,
+      "UL30_pN_pS": 0.17301901482081017,
+      "ci_high": 0.23611997844380558,
+      "ci_low": 0.1663903159421068,
+      "difference": 0.19795749475942603,
       "fraction_of_resamples_UL23_higher": 1.0
     },
     "HSV2": {
@@ -17,100 +17,100 @@
   "n_bootstrap": 1000,
   "per_gene": {
     "HSV1:UL23": {
-      "Sd": 609.0,
+      "Sd": 620.0,
       "ci": [
-        0.3387679132920852,
-        0.40635441721974763
+        0.33766158203827457,
+        0.4067680429017519
       ],
-      "n_isolates": 237,
-      "pN_pS": 0.37198759651431285,
+      "n_isolates": 239,
+      "pN_pS": 0.3709765095802362,
       "reference_minority_positions": 4,
       "reliable": true,
-      "top5_site_share_of_nonsyn": 0.495
+      "top5_site_share_of_nonsyn": 0.498
     },
     "HSV1:UL30": {
-      "Sd": 1251.5,
+      "Sd": 1535.5,
       "ci": [
-        0.15733425296262843,
-        0.18687246724634773
+        0.16051717633297433,
+        0.18541481860379216
       ],
-      "n_isolates": 239,
-      "pN_pS": 0.17153736829653674,
+      "n_isolates": 300,
+      "pN_pS": 0.17301901482081017,
       "reference_minority_positions": 3,
       "reliable": true,
-      "top5_site_share_of_nonsyn": 0.465
+      "top5_site_share_of_nonsyn": 0.466
     },
     "HSV1:UL5": {
-      "Sd": 935.0,
+      "Sd": 955.0,
       "ci": [
-        0.15521595713079378,
-        0.19806685821083073
+        0.1590622973080653,
+        0.20546090281477808
       ],
-      "n_isolates": 242,
-      "pN_pS": 0.1756702944677934,
+      "n_isolates": 251,
+      "pN_pS": 0.18085902522006095,
       "reference_minority_positions": 4,
       "reliable": true,
-      "top5_site_share_of_nonsyn": 0.573
+      "top5_site_share_of_nonsyn": 0.572
     },
     "HSV1:UL52": {
-      "Sd": 1647.0,
+      "Sd": 2014.0,
       "ci": [
-        0.12150353533757446,
-        0.14676786649105944
+        0.12805055718714264,
+        0.15437084265574155
       ],
-      "n_isolates": 239,
-      "pN_pS": 0.1336912229351779,
+      "n_isolates": 299,
+      "pN_pS": 0.13985240977252245,
       "reference_minority_positions": 2,
       "reliable": true,
-      "top5_site_share_of_nonsyn": 0.502
+      "top5_site_share_of_nonsyn": 0.514
     },
     "HSV2:UL23": {
-      "Sd": 31.0,
+      "Sd": 32.0,
       "ci": [
-        1.767852903253615,
-        3.917751992002758
+        1.7444273931443546,
+        3.673843431836492
       ],
-      "n_isolates": 159,
-      "pN_pS": 2.4879268929195297,
+      "n_isolates": 160,
+      "pN_pS": 2.456103579782302,
       "reference_minority_positions": 1,
       "reliable": false,
-      "top5_site_share_of_nonsyn": 0.795
+      "top5_site_share_of_nonsyn": 0.794
     },
     "HSV2:UL30": {
-      "Sd": 177.0,
+      "Sd": 275.3,
       "ci": [
-        0.4203904032927896,
-        0.6316590604389288
+        0.4088641736130641,
+        0.6121919005460524
       ],
-      "n_isolates": 183,
-      "pN_pS": 0.5067610256361607,
+      "n_isolates": 253,
+      "pN_pS": 0.4906631427524472,
       "reference_minority_positions": 3,
       "reliable": true,
-      "top5_site_share_of_nonsyn": 0.571
+      "top5_site_share_of_nonsyn": 0.549
     },
     "HSV2:UL5": {
-      "Sd": 270.0,
+      "Sd": 386.0,
       "ci": [
-        0.12276016251225358,
-        0.19267301210742377
+        0.13993466906836372,
+        0.1963641869095941
       ],
-      "n_isolates": 173,
-      "pN_pS": 0.15561042585159146,
+      "n_isolates": 247,
+      "pN_pS": 0.1671296562415965,
       "reference_minority_positions": 0,
       "reliable": false,
-      "top5_site_share_of_nonsyn": 0.724
+      "top5_site_share_of_nonsyn": 0.733
     },
     "HSV2:UL52": {
-      "Sd": 215.5,
+      "Sd": 326.0,
       "ci": [
-        0.4661850119706667,
-        0.646947702268485
+        0.4803588099428306,
+        0.6208848638774004
       ],
-      "n_isolates": 156,
-      "pN_pS": 0.549240798817385,
+      "n_isolates": 225,
+      "pN_pS": 0.5417117011164255,
       "reference_minority_positions": 2,
       "reliable": false,
-      "top5_site_share_of_nonsyn": 0.635
+      "top5_site_share_of_nonsyn": 0.616
     }
   },
   "seed": 20261102

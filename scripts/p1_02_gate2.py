@@ -121,6 +121,18 @@ def match_gene(q):
         for target, spec in GENES.items():
             if re.search(spec["protein_re"], protein):
                 return target
+        # Many submissions give the product as the bare locus name --
+        # [protein=UL23] with no gene qualifier at all -- which the descriptive
+        # patterns above do not match even though it is completely
+        # unambiguous. Skipping these cost 244 accessions, most of the records
+        # that appeared to carry no target CDS, and hit HSV-2 hardest.
+        #
+        # Exact match only. A substring test would let UL5 swallow UL50 to
+        # UL56, which are six unrelated genes that between them appear in
+        # nearly every record.
+        for target, spec in GENES.items():
+            if protein in spec["gene"]:
+                return target
     return None
 
 

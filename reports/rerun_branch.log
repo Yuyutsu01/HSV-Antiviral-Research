@@ -1,0 +1,626 @@
+13 stage(s)
+
+[p3] p3_01_esm.py                 SKIP  (gpu stage, output present)
+[p3] p3_02_structure.py           SKIP  (network stage, output present)
+[p3] p3_03_dataset.py             running ...
+235 rows written (119 Tier A primary)
+
+dropped:
+  no_numeric_fold_change       403
+  not_substitution             56
+  co_mutation                  5
+  no_reference_protein         1
+
+Tier A: n=119  resistant=87  negative=32
+  fold change 0.9 .. 5000.0 (median 4.6)
+  structure covered 113/119, observed in population 14/119
+  by gene: {'HSV1:UL23': 31, 'HSV1:UL30': 45, 'HSV1:UL5': 7, 'HSV1:UL52': 6, 'HSV2:UL23': 12, 'HSV2:UL30': 18}
+[p3] p3_03_dataset.py             ok  0.0 min
+[p3] p3_04_baselines.py           running ...
+
+################ primary_tier_A: n=119, resistant=87, negative=32, observed in population=14 ################
+genes: {'HSV1:UL23': 31, 'HSV1:UL30': 45, 'HSV1:UL5': 7, 'HSV1:UL52': 6, 'HSV2:UL23': 12, 'HSV2:UL30': 18} 
+
+=== leave_one_gene_out (6 groups) ===
+  baseline:frequency_only      ridge   rho=-0.150 [-0.33,+0.03] auc=0.480 rmse=0.909
+  baseline:frequency_only      forest  rho=-0.149 [-0.33,+0.03] auc=0.480 rmse=0.791
+  baseline:conservation_only   ridge   rho=-0.228 [-0.41,-0.04] auc=0.436 rmse=0.917
+  baseline:conservation_only   forest  rho=+0.249 [+0.07,+0.40] auc=0.686 rmse=0.763
+  baseline:blosum_only         ridge   rho=-0.254 [-0.42,-0.07] auc=0.390 rmse=0.806
+  baseline:blosum_only         forest  rho=-0.090 [-0.27,+0.09] auc=0.496 rmse=0.811
+  baseline:properties_only     ridge   rho=-0.026 [-0.22,+0.17] auc=0.459 rmse=0.808
+  baseline:properties_only     forest  rho=-0.052 [-0.25,+0.13] auc=0.466 rmse=0.855
+  baseline:structure_only      ridge   rho=+0.286 [+0.11,+0.45] auc=0.755 rmse=0.748
+  baseline:structure_only      forest  rho=+0.309 [+0.14,+0.47] auc=0.761 rmse=0.774
+  baseline:esm_only            ridge   rho=+0.138 [-0.05,+0.32] auc=0.596 rmse=0.775
+  baseline:esm_only            forest  rho=+0.335 [+0.16,+0.50] auc=0.643 rmse=0.708
+  staged:stage1_freq           ridge   rho=-0.150 [-0.34,+0.03] auc=0.480 rmse=0.909
+  staged:stage1_freq           forest  rho=-0.149 [-0.34,+0.04] auc=0.480 rmse=0.791
+  staged:stage2_freq_cons      ridge   rho=-0.197 [-0.37,-0.01] auc=0.447 rmse=0.832
+  staged:stage2_freq_cons      forest  rho=+0.336 [+0.17,+0.48] auc=0.723 rmse=0.763
+  staged:stage3_freq_cons_prop ridge   rho=-0.049 [-0.22,+0.14] auc=0.463 rmse=0.850
+  staged:stage3_freq_cons_prop forest  rho=-0.031 [-0.22,+0.15] auc=0.509 rmse=0.820
+  staged:stage4_plus_structure ridge   rho=+0.155 [-0.03,+0.34] auc=0.653 rmse=0.777
+  staged:stage4_plus_structure forest  rho=+0.043 [-0.16,+0.24] auc=0.647 rmse=0.817
+  staged:stage5_plus_esm       ridge   rho=+0.211 [+0.01,+0.39] auc=0.667 rmse=0.774
+  staged:stage5_plus_esm       forest  rho=+0.336 [+0.15,+0.51] auc=0.727 rmse=0.717
+
+=== position_blocks (44 groups) ===
+  baseline:frequency_only      ridge   rho=-0.077 [-0.26,+0.10] auc=0.503 rmse=1.086
+  baseline:frequency_only      forest  rho=-0.101 [-0.27,+0.07] auc=0.469 rmse=0.762
+  baseline:conservation_only   ridge   rho=-0.073 [-0.24,+0.10] auc=0.452 rmse=0.773
+  baseline:conservation_only   forest  rho=+0.105 [-0.09,+0.29] auc=0.582 rmse=0.820
+  baseline:blosum_only         ridge   rho=-0.158 [-0.33,+0.03] auc=0.453 rmse=0.785
+  baseline:blosum_only         forest  rho=+0.133 [-0.04,+0.30] auc=0.595 rmse=0.768
+  baseline:properties_only     ridge   rho=-0.069 [-0.25,+0.11] auc=0.477 rmse=0.809
+  baseline:properties_only     forest  rho=-0.133 [-0.31,+0.05] auc=0.466 rmse=0.818
+  baseline:structure_only      ridge   rho=+0.481 [+0.30,+0.62] auc=0.795 rmse=0.720
+  baseline:structure_only      forest  rho=+0.411 [+0.24,+0.57] auc=0.807 rmse=0.722
+  baseline:esm_only            ridge   rho=+0.305 [+0.13,+0.49] auc=0.660 rmse=0.742
+  baseline:esm_only            forest  rho=+0.363 [+0.19,+0.53] auc=0.636 rmse=0.693
+  staged:stage1_freq           ridge   rho=-0.077 [-0.24,+0.10] auc=0.503 rmse=1.086
+  staged:stage1_freq           forest  rho=-0.101 [-0.28,+0.08] auc=0.469 rmse=0.762
+  staged:stage2_freq_cons      ridge   rho=-0.075 [-0.26,+0.10] auc=0.525 rmse=0.914
+  staged:stage2_freq_cons      forest  rho=+0.127 [-0.06,+0.31] auc=0.600 rmse=0.817
+  staged:stage3_freq_cons_prop ridge   rho=+0.010 [-0.17,+0.18] auc=0.522 rmse=1.600
+  staged:stage3_freq_cons_prop forest  rho=+0.007 [-0.17,+0.17] auc=0.557 rmse=0.791
+  staged:stage4_plus_structure ridge   rho=+0.301 [+0.13,+0.47] auc=0.741 rmse=0.787
+  staged:stage4_plus_structure forest  rho=+0.327 [+0.15,+0.49] auc=0.750 rmse=0.738
+  staged:stage5_plus_esm       ridge   rho=+0.389 [+0.21,+0.55] auc=0.753 rmse=0.719
+  staged:stage5_plus_esm       forest  rho=+0.463 [+0.28,+0.61] auc=0.768 rmse=0.681
+
+Gate 4 [leave_one_gene_out]: frequency rho=-0.149, best=staged:stage5_plus_esm/forest rho=+0.336, diff=+0.485 CI[0.2463, 0.7082] -> BEATS frequency baseline
+Gate 4 [position_blocks]: frequency rho=-0.077, best=baseline:structure_only/ridge rho=+0.481, diff=+0.559 CI[0.3272, 0.7722] -> BEATS frequency baseline
+
+################ secondary_all_tiers: n=235, resistant=157, negative=78, observed in population=30 ################
+genes: {'HSV1:UL23': 82, 'HSV1:UL30': 89, 'HSV1:UL5': 13, 'HSV1:UL52': 6, 'HSV2:UL23': 18, 'HSV2:UL30': 23, 'HSV2:UL5': 4} 
+
+=== leave_one_gene_out (7 groups) ===
+  baseline:frequency_only      ridge   rho=-0.042 [-0.18,+0.10] auc=0.581 rmse=0.863
+  baseline:frequency_only      forest  rho=-0.035 [-0.17,+0.10] auc=0.575 rmse=0.863
+  baseline:conservation_only   ridge   rho=-0.080 [-0.21,+0.05] auc=0.496 rmse=0.893
+  baseline:conservation_only   forest  rho=+0.269 [+0.15,+0.38] auc=0.655 rmse=0.913
+  baseline:blosum_only         ridge   rho=+0.070 [-0.05,+0.20] auc=0.524 rmse=0.859
+  baseline:blosum_only         forest  rho=-0.013 [-0.14,+0.12] auc=0.517 rmse=0.858
+  baseline:properties_only     ridge   rho=+0.080 [-0.06,+0.22] auc=0.513 rmse=0.842
+  baseline:properties_only     forest  rho=+0.160 [+0.03,+0.30] auc=0.571 rmse=0.842
+  baseline:structure_only      ridge   rho=+0.236 [+0.11,+0.35] auc=0.722 rmse=0.841
+  baseline:structure_only      forest  rho=+0.550 [+0.45,+0.63] auc=0.805 rmse=0.740
+  baseline:esm_only            ridge   rho=+0.215 [+0.08,+0.35] auc=0.634 rmse=0.846
+  baseline:esm_only            forest  rho=+0.201 [+0.08,+0.32] auc=0.603 rmse=0.871
+  staged:stage1_freq           ridge   rho=-0.042 [-0.18,+0.09] auc=0.581 rmse=0.863
+  staged:stage1_freq           forest  rho=-0.035 [-0.17,+0.10] auc=0.575 rmse=0.863
+  staged:stage2_freq_cons      ridge   rho=+0.004 [-0.13,+0.13] auc=0.551 rmse=0.870
+  staged:stage2_freq_cons      forest  rho=+0.317 [+0.20,+0.43] auc=0.686 rmse=0.856
+  staged:stage3_freq_cons_prop ridge   rho=+0.058 [-0.07,+0.19] auc=0.506 rmse=1.417
+  staged:stage3_freq_cons_prop forest  rho=+0.246 [+0.11,+0.37] auc=0.574 rmse=0.817
+  staged:stage4_plus_structure ridge   rho=+0.308 [+0.17,+0.43] auc=0.701 rmse=1.020
+  staged:stage4_plus_structure forest  rho=+0.340 [+0.22,+0.45] auc=0.696 rmse=0.811
+  staged:stage5_plus_esm       ridge   rho=+0.357 [+0.23,+0.47] auc=0.730 rmse=0.823
+  staged:stage5_plus_esm       forest  rho=+0.340 [+0.22,+0.45] auc=0.670 rmse=0.808
+
+=== position_blocks (54 groups) ===
+  baseline:frequency_only      ridge   rho=-0.042 [-0.18,+0.09] auc=0.498 rmse=0.841
+  baseline:frequency_only      forest  rho=-0.050 [-0.18,+0.09] auc=0.496 rmse=0.845
+  baseline:conservation_only   ridge   rho=+0.186 [+0.06,+0.31] auc=0.557 rmse=0.837
+  baseline:conservation_only   forest  rho=+0.048 [-0.08,+0.18] auc=0.522 rmse=0.886
+  baseline:blosum_only         ridge   rho=+0.118 [-0.01,+0.24] auc=0.531 rmse=0.838
+  baseline:blosum_only         forest  rho=+0.014 [-0.11,+0.14] auc=0.492 rmse=0.843
+  baseline:properties_only     ridge   rho=+0.185 [+0.06,+0.31] auc=0.554 rmse=0.832
+  baseline:properties_only     forest  rho=+0.176 [+0.04,+0.30] auc=0.594 rmse=0.877
+  baseline:structure_only      ridge   rho=+0.386 [+0.27,+0.49] auc=0.772 rmse=0.812
+  baseline:structure_only      forest  rho=+0.488 [+0.38,+0.58] auc=0.797 rmse=0.795
+  baseline:esm_only            ridge   rho=+0.266 [+0.12,+0.40] auc=0.656 rmse=0.842
+  baseline:esm_only            forest  rho=+0.213 [+0.08,+0.35] auc=0.602 rmse=0.881
+  staged:stage1_freq           ridge   rho=-0.042 [-0.18,+0.09] auc=0.498 rmse=0.841
+  staged:stage1_freq           forest  rho=-0.050 [-0.18,+0.09] auc=0.496 rmse=0.845
+  staged:stage2_freq_cons      ridge   rho=+0.229 [+0.10,+0.36] auc=0.591 rmse=0.827
+  staged:stage2_freq_cons      forest  rho=+0.132 [-0.00,+0.26] auc=0.563 rmse=0.863
+  staged:stage3_freq_cons_prop ridge   rho=+0.292 [+0.17,+0.41] auc=0.602 rmse=0.803
+  staged:stage3_freq_cons_prop forest  rho=+0.254 [+0.12,+0.38] auc=0.634 rmse=0.838
+  staged:stage4_plus_structure ridge   rho=+0.492 [+0.39,+0.59] auc=0.779 rmse=0.766
+  staged:stage4_plus_structure forest  rho=+0.460 [+0.34,+0.57] auc=0.789 rmse=0.790
+  staged:stage5_plus_esm       ridge   rho=+0.471 [+0.35,+0.58] auc=0.790 rmse=0.775
+  staged:stage5_plus_esm       forest  rho=+0.474 [+0.35,+0.58] auc=0.759 rmse=0.772
+
+Gate 4 [leave_one_gene_out]: frequency rho=-0.035, best=baseline:structure_only/forest rho=+0.550, diff=+0.584 CI[0.4296, 0.7342] -> BEATS frequency baseline
+Gate 4 [position_blocks]: frequency rho=-0.042, best=staged:stage4_plus_structure/ridge rho=+0.492, diff=+0.534 CI[0.3819, 0.691] -> BEATS frequency baseline
+[p3] p3_04_baselines.py           ok  22.4 min
+[p3] p3_05_audit.py               running ...
+audit on 119 Tier A rows (87 resistant, 32 negative)
+
+=== leave_one_gene_out ===
+  conservation-matched classes ...
+    {'n_draws': 100, 'median_subset_size': 64, 'spearman_mean': 0.2415, 'spearman_ci': [0.0191, 0.5053], 'auc_mean': 0.6433, 'auc_ci': [0.5069, 0.7796]}
+  ESM residualised ...
+    {"spearman": 0.211, "auc": 0.6674, "rmse": 0.774} -> {"spearman": 0.1995, "auc": 0.6498, "rmse": 0.7799}
+  perm frequency_only         obs=-0.150 null=-0.276+-0.058 p95=-0.158 p=0.0396 SIGNIFICANT
+  perm conservation_only      obs=-0.228 null=-0.294+-0.021 p95=-0.258 p=0.0099 SIGNIFICANT
+  perm structure_only         obs=+0.316 null=-0.217+-0.103 p95=-0.025 p=0.0099 SIGNIFICANT
+  perm structure_only_forest  obs=+0.295 null=-0.159+-0.102 p95=+0.019 p=0.0099 SIGNIFICANT
+  perm esm_only               obs=+0.236 null=-0.242+-0.093 p95=-0.073 p=0.0099 SIGNIFICANT
+  perm esm_only_forest        obs=+0.353 null=-0.163+-0.101 p95=+0.009 p=0.0099 SIGNIFICANT
+  perm full_model             obs=+0.211 null=-0.222+-0.094 p95=-0.053 p=0.0099 SIGNIFICANT
+  perm full_model_forest      obs=+0.341 null=-0.180+-0.110 p95=+0.009 p=0.0099 SIGNIFICANT
+
+=== position_blocks ===
+  conservation-matched classes ...
+    {'n_draws': 100, 'median_subset_size': 64, 'spearman_mean': 0.4047, 'spearman_ci': [0.0808, 0.6311], 'auc_mean': 0.7361, 'auc_ci': [0.5658, 0.859]}
+  ESM residualised ...
+    {"spearman": 0.3894, "auc": 0.7529, "rmse": 0.7188} -> {"spearman": 0.3083, "auc": 0.7004, "rmse": 0.7339}
+  perm frequency_only         obs=-0.104 null=-0.167+-0.076 p95=-0.061 p=0.1881 not significant
+  perm conservation_only      obs=-0.069 null=-0.115+-0.041 p95=-0.060 p=0.2277 not significant
+  perm structure_only         obs=+0.431 null=+0.020+-0.124 p95=+0.227 p=0.0099 SIGNIFICANT
+  perm structure_only_forest  obs=+0.412 null=+0.079+-0.140 p95=+0.280 p=0.0099 SIGNIFICANT
+  perm esm_only               obs=+0.303 null=+0.027+-0.115 p95=+0.188 p=0.0099 SIGNIFICANT
+  perm esm_only_forest        obs=+0.380 null=+0.075+-0.111 p95=+0.260 p=0.0099 SIGNIFICANT
+  perm full_model             obs=+0.333 null=-0.014+-0.112 p95=+0.164 p=0.0198 SIGNIFICANT
+  perm full_model_forest      obs=+0.446 null=+0.048+-0.138 p95=+0.275 p=0.0099 SIGNIFICANT
+
+leave_one_gene_out: null means -0.2941 .. -0.1594 -> no leakage, scheme biased negative
+position_blocks: null means -0.1672 .. 0.0794 -> no leakage, scheme biased negative
+
+significant against their own permutation null:
+  leave_one_gene_out: ['conservation_only', 'esm_only', 'esm_only_forest', 'frequency_only', 'full_model', 'full_model_forest', 'structure_only', 'structure_only_forest']
+  position_blocks: ['esm_only', 'esm_only_forest', 'full_model', 'full_model_forest', 'structure_only', 'structure_only_forest']
+
+USABLE (positive correlation AND clears its null):
+  leave_one_gene_out: ['esm_only', 'esm_only_forest', 'full_model', 'full_model_forest', 'structure_only', 'structure_only_forest']
+    beat their null but predict backwards: ['conservation_only', 'frequency_only']
+  position_blocks: ['esm_only', 'esm_only_forest', 'full_model', 'full_model_forest', 'structure_only', 'structure_only_forest']
+[p3] p3_05_audit.py               ok  24.0 min
+[p3] p3_06_gate4.py               running ...
+
+################ primary_tier_A ################
+
+=== leave_one_gene_out ===
+  frequency baseline: baseline:frequency_only/forest rho=-0.149
+  model                                  rho           95% CI    auc  skill  beats  GATE
+  staged:stage5_plus_esm/forest       +0.336 [+0.143,+0.517]  0.727   True   True  PASS
+  staged:stage2_freq_cons/forest      +0.336 [+0.169,+0.485]  0.723   True   True  PASS
+  baseline:esm_only/forest            +0.335 [+0.154,+0.499]  0.643   True   True  PASS
+  baseline:structure_only/forest      +0.309 [+0.127,+0.469]  0.761   True   True  PASS
+  baseline:structure_only/ridge       +0.286 [+0.102,+0.450]  0.755   True   True  PASS
+  baseline:conservation_only/forest   +0.249 [+0.069,+0.417]  0.686   True   True  PASS
+  staged:stage5_plus_esm/ridge        +0.211 [+0.018,+0.396]  0.667   True   True  PASS
+  staged:stage4_plus_structure/ridge  +0.155 [-0.035,+0.339]  0.653  False   True     -
+  baseline:esm_only/ridge             +0.138 [-0.049,+0.326]  0.596  False   True     -
+  staged:stage4_plus_structure/forest  +0.043 [-0.154,+0.232]  0.647  False  False     -
+  baseline:properties_only/ridge      -0.026 [-0.227,+0.164]  0.459  False  False     -
+  staged:stage3_freq_cons_prop/forest  -0.031 [-0.212,+0.147]  0.509  False  False     -
+  staged:stage3_freq_cons_prop/ridge  -0.049 [-0.239,+0.134]  0.463  False  False     -
+  baseline:properties_only/forest     -0.052 [-0.240,+0.130]  0.466  False  False     -
+  baseline:blosum_only/forest         -0.090 [-0.270,+0.088]  0.496  False  False     -
+  baseline:frequency_only/forest      -0.149 [-0.334,+0.044]  0.480  False  False     -
+  staged:stage1_freq/forest           -0.149 [-0.333,+0.038]  0.480  False  False     -
+  baseline:frequency_only/ridge       -0.150 [-0.332,+0.033]  0.480  False  False     -
+  staged:stage1_freq/ridge            -0.150 [-0.330,+0.038]  0.480  False  False     -
+  staged:stage2_freq_cons/ridge       -0.197 [-0.373,-0.018]  0.447  False  False     -
+  baseline:conservation_only/ridge    -0.228 [-0.411,-0.045]  0.436  False  False     -
+  baseline:blosum_only/ridge          -0.254 [-0.419,-0.071]  0.390  False  False     -
+  -> Gate 4 PASSED (7/22 models above chance, 7 passing)
+
+=== position_blocks ===
+  frequency baseline: baseline:frequency_only/ridge rho=-0.077
+  model                                  rho           95% CI    auc  skill  beats  GATE
+  baseline:structure_only/ridge       +0.481 [+0.313,+0.635]  0.795   True   True  PASS
+  staged:stage5_plus_esm/forest       +0.463 [+0.291,+0.610]  0.768   True   True  PASS
+  baseline:structure_only/forest      +0.411 [+0.234,+0.571]  0.807   True   True  PASS
+  staged:stage5_plus_esm/ridge        +0.389 [+0.219,+0.547]  0.753   True   True  PASS
+  baseline:esm_only/forest            +0.363 [+0.184,+0.524]  0.636   True   True  PASS
+  staged:stage4_plus_structure/forest  +0.327 [+0.143,+0.498]  0.750   True   True  PASS
+  baseline:esm_only/ridge             +0.305 [+0.117,+0.483]  0.660   True   True  PASS
+  staged:stage4_plus_structure/ridge  +0.301 [+0.116,+0.470]  0.741   True   True  PASS
+  baseline:blosum_only/forest         +0.133 [-0.041,+0.301]  0.595  False  False     -
+  staged:stage2_freq_cons/forest      +0.127 [-0.072,+0.311]  0.600  False  False     -
+  baseline:conservation_only/forest   +0.105 [-0.095,+0.295]  0.582  False  False     -
+  staged:stage3_freq_cons_prop/ridge  +0.010 [-0.171,+0.185]  0.522  False  False     -
+  staged:stage3_freq_cons_prop/forest  +0.007 [-0.171,+0.187]  0.557  False  False     -
+  baseline:properties_only/ridge      -0.069 [-0.246,+0.116]  0.477  False  False     -
+  baseline:conservation_only/ridge    -0.073 [-0.232,+0.090]  0.452  False  False     -
+  staged:stage2_freq_cons/ridge       -0.075 [-0.254,+0.102]  0.525  False  False     -
+  baseline:frequency_only/ridge       -0.077 [-0.255,+0.099]  0.503  False  False     -
+  staged:stage1_freq/ridge            -0.077 [-0.251,+0.094]  0.503  False  False     -
+  baseline:frequency_only/forest      -0.101 [-0.278,+0.084]  0.469  False  False     -
+  staged:stage1_freq/forest           -0.101 [-0.277,+0.072]  0.469  False  False     -
+  baseline:properties_only/forest     -0.133 [-0.313,+0.049]  0.466  False  False     -
+  baseline:blosum_only/ridge          -0.158 [-0.328,+0.026]  0.453  False  False     -
+  -> Gate 4 PASSED (8/22 models above chance, 8 passing)
+
+################ secondary_all_tiers ################
+
+=== leave_one_gene_out ===
+  frequency baseline: baseline:frequency_only/forest rho=-0.035
+  model                                  rho           95% CI    auc  skill  beats  GATE
+  baseline:structure_only/forest      +0.550 [+0.450,+0.634]  0.805   True   True  PASS
+  staged:stage5_plus_esm/ridge        +0.357 [+0.230,+0.475]  0.730   True   True  PASS
+  staged:stage4_plus_structure/forest  +0.340 [+0.218,+0.455]  0.696   True   True  PASS
+  staged:stage5_plus_esm/forest       +0.340 [+0.217,+0.456]  0.670   True   True  PASS
+  staged:stage2_freq_cons/forest      +0.317 [+0.196,+0.428]  0.686   True   True  PASS
+  staged:stage4_plus_structure/ridge  +0.308 [+0.177,+0.428]  0.701   True   True  PASS
+  baseline:conservation_only/forest   +0.269 [+0.150,+0.381]  0.655   True   True  PASS
+  staged:stage3_freq_cons_prop/forest  +0.246 [+0.120,+0.369]  0.574   True   True  PASS
+  baseline:structure_only/ridge       +0.236 [+0.105,+0.357]  0.722   True   True  PASS
+  baseline:esm_only/ridge             +0.215 [+0.075,+0.348]  0.634   True   True  PASS
+  baseline:esm_only/forest            +0.201 [+0.070,+0.323]  0.603   True   True  PASS
+  baseline:properties_only/forest     +0.160 [+0.027,+0.292]  0.571   True   True  PASS
+  baseline:properties_only/ridge      +0.080 [-0.051,+0.209]  0.513  False  False     -
+  baseline:blosum_only/ridge          +0.070 [-0.059,+0.199]  0.524  False  False     -
+  staged:stage3_freq_cons_prop/ridge  +0.058 [-0.072,+0.193]  0.506  False  False     -
+  staged:stage2_freq_cons/ridge       +0.004 [-0.127,+0.132]  0.551  False  False     -
+  baseline:blosum_only/forest         -0.013 [-0.136,+0.117]  0.517  False  False     -
+  baseline:frequency_only/forest      -0.035 [-0.173,+0.101]  0.575  False  False     -
+  staged:stage1_freq/forest           -0.035 [-0.174,+0.098]  0.575  False  False     -
+  baseline:frequency_only/ridge       -0.042 [-0.175,+0.092]  0.581  False  False     -
+  staged:stage1_freq/ridge            -0.042 [-0.180,+0.091]  0.581  False  False     -
+  baseline:conservation_only/ridge    -0.080 [-0.202,+0.050]  0.496  False  False     -
+  -> Gate 4 PASSED (12/22 models above chance, 12 passing)
+
+=== position_blocks ===
+  frequency baseline: baseline:frequency_only/ridge rho=-0.042
+  model                                  rho           95% CI    auc  skill  beats  GATE
+  staged:stage4_plus_structure/ridge  +0.492 [+0.383,+0.587]  0.779   True   True  PASS
+  baseline:structure_only/forest      +0.488 [+0.383,+0.579]  0.797   True   True  PASS
+  staged:stage5_plus_esm/forest       +0.474 [+0.349,+0.583]  0.759   True   True  PASS
+  staged:stage5_plus_esm/ridge        +0.471 [+0.352,+0.579]  0.790   True   True  PASS
+  staged:stage4_plus_structure/forest  +0.460 [+0.341,+0.567]  0.789   True   True  PASS
+  baseline:structure_only/ridge       +0.386 [+0.272,+0.488]  0.772   True   True  PASS
+  staged:stage3_freq_cons_prop/ridge  +0.292 [+0.170,+0.408]  0.602   True   True  PASS
+  baseline:esm_only/ridge             +0.266 [+0.127,+0.397]  0.656   True   True  PASS
+  staged:stage3_freq_cons_prop/forest  +0.254 [+0.127,+0.377]  0.634   True   True  PASS
+  staged:stage2_freq_cons/ridge       +0.229 [+0.100,+0.353]  0.591   True   True  PASS
+  baseline:esm_only/forest            +0.213 [+0.077,+0.340]  0.602   True   True  PASS
+  baseline:conservation_only/ridge    +0.186 [+0.050,+0.309]  0.557   True   True  PASS
+  baseline:properties_only/ridge      +0.185 [+0.062,+0.304]  0.554   True   True  PASS
+  baseline:properties_only/forest     +0.176 [+0.038,+0.307]  0.594   True   True  PASS
+  staged:stage2_freq_cons/forest      +0.132 [-0.002,+0.264]  0.563  False   True     -
+  baseline:blosum_only/ridge          +0.118 [-0.009,+0.237]  0.531  False   True     -
+  baseline:conservation_only/forest   +0.048 [-0.084,+0.175]  0.522  False  False     -
+  baseline:blosum_only/forest         +0.014 [-0.114,+0.142]  0.492  False  False     -
+  baseline:frequency_only/ridge       -0.042 [-0.179,+0.094]  0.498  False  False     -
+  staged:stage1_freq/ridge            -0.042 [-0.179,+0.095]  0.498  False  False     -
+  baseline:frequency_only/forest      -0.050 [-0.183,+0.088]  0.496  False  False     -
+  staged:stage1_freq/forest           -0.050 [-0.182,+0.085]  0.496  False  False     -
+  -> Gate 4 PASSED (14/22 models above chance, 14 passing)
+[p3] p3_06_gate4.py               ok  24.8 min
+[p4] p4_01_metrics.py             running ...
+
+################ primary_tier_A ################
+
+=== leave_one_gene_out ===
+  prevalence (no-skill floor for AP): 0.731
+  best by AP: staged:stage2_freq_cons|forest
+    AP      0.889 [0.8196, 0.9364]
+    P@95rec 0.761 [0.6609, 0.8333]
+    AP lift over prevalence floor +0.158
+    MCC@2x  -0.0558 [-0.1122, -0.0463]
+    models degenerate at the 2x threshold: 10/22
+    AUROC   0.723  (not primary)
+    calib   slope=0.8474 intercept=-0.0488
+  models beating frequency on AP after Holm: 6/21
+
+=== position_blocks ===
+  prevalence (no-skill floor for AP): 0.731
+  best by AP: baseline:structure_only|forest
+    AP      0.916 [0.8534, 0.9623]
+    P@95rec 0.790 [0.7059, 0.8842]
+    AP lift over prevalence floor +0.185
+    MCC@2x  0.1518 [0.127, 0.2989]
+    models degenerate at the 2x threshold: 8/22
+    AUROC   0.807  (not primary)
+    calib   slope=0.7726 intercept=0.2146
+  models beating frequency on AP after Holm: 3/21
+
+################ secondary_all_tiers ################
+
+=== leave_one_gene_out ===
+  prevalence (no-skill floor for AP): 0.668
+  best by AP: baseline:structure_only|forest
+    AP      0.874 [0.8114, 0.9306]
+    P@95rec 0.698 [0.6368, 0.8192]
+    AP lift over prevalence floor +0.206
+    MCC@2x  0.4377 [0.3143, 0.5631]
+    models degenerate at the 2x threshold: 2/22
+    AUROC   0.805  (not primary)
+    calib   slope=0.8 intercept=0.1778
+  models beating frequency on AP after Holm: 3/21
+
+=== position_blocks ===
+  prevalence (no-skill floor for AP): 0.668
+  best by AP: baseline:structure_only|forest
+    AP      0.889 [0.8398, 0.9311]
+    P@95rec 0.691 [0.6313, 0.8021]
+    AP lift over prevalence floor +0.221
+    MCC@2x  0.39 [0.2691, 0.5136]
+    models degenerate at the 2x threshold: 2/22
+    AUROC   0.797  (not primary)
+    calib   slope=0.7064 intercept=0.3077
+  models beating frequency on AP after Holm: 8/21
+
+wrote C:\Users\shiva\OneDrive\Desktop\hsv\reports\phase4\metrics_summary.json
+[p4] p4_01_metrics.py             ok  1.9 min
+[p4] p4_02_circularity_gap.py     running ...
+primary set: n=119 positives=87
+
+feature pairs with |rho| >= 0.5:
+  freq_count                   freq_frequency               +1.000
+  freq_count                   freq_observed                +0.998
+  freq_frequency               freq_observed                +0.997
+  esm_masked_marginal          esm_ref_logprob              -0.889
+  cons_site_variability        freq_frequency               +0.888
+  cons_site_variability        freq_count                   +0.888
+  cons_site_variability        freq_observed                +0.885
+
+################ leave_one_gene_out ################
+  structure_only           n= 64  AP random 0.733 vs matched 0.732  GAP +0.001
+  structure_only_forest    n= 64  AP random 0.754 vs matched 0.755  GAP -0.001
+  full_model               n= 64  AP random 0.621 vs matched 0.624  GAP -0.003
+  full_model_forest        n= 64  AP random 0.693 vs matched 0.693  GAP +0.001
+
+################ position_blocks ################
+  structure_only           n= 64  AP random 0.760 vs matched 0.757  GAP +0.003
+  structure_only_forest    n= 64  AP random 0.758 vs matched 0.770  GAP -0.013
+  full_model               n= 64  AP random 0.693 vs matched 0.706  GAP -0.013
+  full_model_forest        n= 64  AP random 0.739 vs matched 0.754  GAP -0.015
+
+wrote C:\Users\shiva\OneDrive\Desktop\hsv\reports\phase4\circularity_gap.json
+[p4] p4_02_circularity_gap.py     ok  9.1 min
+[p4] p4_03_release.py             running ...
+accession list: 1143 accessions
+   analysed                           599
+   excluded_downstream_filter         187
+   excluded_no_cds_extracted          168
+   excluded_cds_qc                    127
+   excluded_laboratory_strain         30
+   excluded_patient_duplicate         18
+   excluded_non_human_host            14
+
+master variant table: 1263 rows, 34 columns
+   n_rows                   1263
+   n_in_catalogue           644
+   n_observed               747
+   n_both                   128
+   n_catalogue_only         516
+   n_observed_only          619
+   n_in_model_dataset       235
+   n_with_structure         966
+   n_with_esm               1262
+
+deposited reclassification table: 644 rows
+   data/release/accession_list.tsv  sha256=181a8d37e5fea31d...
+   data/release/master_variant_table.tsv  sha256=ba0264c4aeea8829...
+   data/release/reclassification_table.tsv  sha256=b5c668cef782a635...
+
+wrote C:\Users\shiva\OneDrive\Desktop\hsv\reports\phase4\release_summary.json
+[p4] p4_03_release.py             ok  0.0 min
+[p4] p4_04_cross_virus.py         running ...
+
+################ primary_tier_A  n=119  {'HSV1': 89, 'HSV2': 30}
+C:\Users\shiva\OneDrive\Desktop\hsv\scripts\p4_04_cross_virus.py:78: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  r = spearmanr(y_cont[b], pred[b]).statistic
+
+=== train HSV1 (n=89) -> test HSV2 (n=30)
+    prevalence in test (AP floor): 0.867
+    frequency_only           AP=0.896 [0.7853, 1.0] lift=+0.030 rho=+0.385
+    conservation_only        AP=0.833 [0.6245, 0.9592] lift=-0.033 rho=-0.379  [degenerate at 2x]
+    structure_only           AP=0.996 [0.9821, 1.0] lift=+0.129 rho=+0.478  [degenerate at 2x]
+    structure_only_forest    AP=1.000 [1.0, 1.0] lift=+0.133 rho=+0.538  [degenerate at 2x]
+    esm_only                 AP=0.945 [0.8494, 0.9938] lift=+0.078 rho=+0.493  [degenerate at 2x]
+    full_model               AP=0.916 [0.7998, 0.9877] lift=+0.049 rho=+0.144
+    full_model_forest        AP=0.982 [0.9452, 1.0] lift=+0.115 rho=+0.423  [degenerate at 2x]
+    best by AP: structure_only_forest
+
+=== train HSV2 (n=30) -> test HSV1 (n=89)
+    prevalence in test (AP floor): 0.685
+    frequency_only           AP=0.820 [0.5954, 0.8464] lift=+0.134 rho=+0.182  [degenerate at 2x]
+    conservation_only        AP=0.621 [0.5541, 0.8139] lift=-0.065 rho=-0.209  [degenerate at 2x]
+    structure_only           AP=0.904 [0.8267, 0.9592] lift=+0.218 rho=+0.544
+    structure_only_forest    AP=0.824 [0.6999, 0.9238] lift=+0.139 rho=+0.371  [degenerate at 2x]
+    esm_only                 AP=0.857 [0.752, 0.9357] lift=+0.172 rho=+0.381
+    full_model               AP=0.632 [0.5198, 0.7672] lift=-0.053 rho=-0.002
+    full_model_forest        AP=0.874 [0.7811, 0.9411] lift=+0.189 rho=+0.393  [degenerate at 2x]
+    best by AP: structure_only
+
+################ secondary_all_tiers  n=235  {'HSV1': 190, 'HSV2': 45}
+C:\Users\shiva\OneDrive\Desktop\hsv\scripts\p4_04_cross_virus.py:78: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  r = spearmanr(y_cont[b], pred[b]).statistic
+
+=== train HSV1 (n=190) -> test HSV2 (n=45)
+    prevalence in test (AP floor): 0.889
+    frequency_only           AP=0.930 [0.8463, 0.9995] lift=+0.042 rho=+0.416  [degenerate at 2x]
+    conservation_only        AP=0.883 [0.7244, 0.9756] lift=-0.006 rho=+0.115  [degenerate at 2x]
+    structure_only           AP=0.995 [0.9831, 1.0] lift=+0.106 rho=+0.262  [degenerate at 2x]
+    structure_only_forest    AP=0.991 [0.9728, 0.9995] lift=+0.102 rho=+0.635
+    esm_only                 AP=0.960 [0.9025, 0.9974] lift=+0.071 rho=+0.327  [degenerate at 2x]
+    full_model               AP=0.946 [0.876, 0.9942] lift=+0.057 rho=+0.281
+    full_model_forest        AP=0.987 [0.9608, 1.0] lift=+0.098 rho=+0.538  [degenerate at 2x]
+    best by AP: structure_only
+
+=== train HSV2 (n=45) -> test HSV1 (n=190)
+    prevalence in test (AP floor): 0.616
+    frequency_only           AP=0.715 [0.5694, 0.7589] lift=+0.100 rho=+0.203  [degenerate at 2x]
+    conservation_only        AP=0.604 [0.5691, 0.7593] lift=-0.012 rho=-0.051  [degenerate at 2x]
+    structure_only           AP=0.775 [0.6858, 0.8625] lift=+0.159 rho=+0.348
+    structure_only_forest    AP=0.719 [0.6273, 0.8064] lift=+0.103 rho=+0.271  [degenerate at 2x]
+    esm_only                 AP=0.730 [0.6503, 0.8028] lift=+0.114 rho=+0.265  [degenerate at 2x]
+    full_model               AP=0.667 [0.5776, 0.7607] lift=+0.051 rho=+0.205
+    full_model_forest        AP=0.804 [0.7277, 0.8733] lift=+0.188 rho=+0.521  [degenerate at 2x]
+    best by AP: full_model_forest
+
+wrote C:\Users\shiva\OneDrive\Desktop\hsv\reports\phase4\cross_virus.json
+[p4] p4_04_cross_virus.py         ok  0.5 min
+[p4] p4_06_doi_years.py           SKIP  (network stage, output present)
+[p4] p4_07_temporal.py            running ...
+DOI years retrieved 2026-11-02T12:05:45Z; 701 mutations carry a first-characterisation year
+
+################ primary_tier_A  n=119  with a year: 119
+
+=== cutoff 2005: train 41 (prev 0.85) -> test 78 (prev 0.67)
+    frequency_only           AP=0.589 [0.4923, 0.7643] lift=-0.077 rho=-0.122
+    conservation_only        AP=0.751 [0.5935, 0.8648] lift=+0.085 rho=+0.158  [degenerate at 2x]
+    structure_only           AP=0.861 [0.7502, 0.9397] lift=+0.195 rho=+0.369
+    structure_only_forest    AP=0.844 [0.743, 0.9243] lift=+0.177 rho=+0.284  [degenerate at 2x]
+    esm_only                 AP=0.785 [0.6526, 0.8968] lift=+0.118 rho=+0.281
+    full_model               AP=0.777 [0.6495, 0.8938] lift=+0.110 rho=+0.267
+    full_model_forest        AP=0.815 [0.7069, 0.9044] lift=+0.149 rho=+0.270  [degenerate at 2x]
+    best by AP: structure_only
+
+=== cutoff 2008: train 47 (prev 0.87) -> test 72 (prev 0.64)
+    frequency_only           AP=0.658 [0.5567, 0.8368] lift=+0.019 rho=+0.227
+    conservation_only        AP=0.739 [0.5707, 0.8539] lift=+0.100 rho=+0.168  [degenerate at 2x]
+    structure_only           AP=0.854 [0.7411, 0.9391] lift=+0.215 rho=+0.410
+    structure_only_forest    AP=0.836 [0.722, 0.9236] lift=+0.197 rho=+0.302  [degenerate at 2x]
+    esm_only                 AP=0.691 [0.5448, 0.8277] lift=+0.052 rho=+0.185  [degenerate at 2x]
+    full_model               AP=0.765 [0.6256, 0.8853] lift=+0.126 rho=+0.301
+    full_model_forest        AP=0.801 [0.6841, 0.891] lift=+0.162 rho=+0.296  [degenerate at 2x]
+    best by AP: structure_only
+
+=== cutoff 2010: train 52 (prev 0.88) -> test 67 (prev 0.61)
+    frequency_only           AP=0.632 [0.5206, 0.8201] lift=+0.020 rho=+0.208
+    conservation_only        AP=0.674 [0.5106, 0.8117] lift=+0.062 rho=+0.147  [degenerate at 2x]
+    structure_only           AP=0.830 [0.7038, 0.9309] lift=+0.218 rho=+0.407
+    structure_only_forest    AP=0.797 [0.6694, 0.9078] lift=+0.185 rho=+0.240  [degenerate at 2x]
+    esm_only                 AP=0.601 [0.4528, 0.7663] lift=-0.011 rho=+0.040  [degenerate at 2x]
+    full_model               AP=0.735 [0.5937, 0.8633] lift=+0.123 rho=+0.274  [degenerate at 2x]
+    full_model_forest        AP=0.665 [0.5198, 0.8119] lift=+0.053 rho=+0.132  [degenerate at 2x]
+    best by AP: structure_only
+
+=== cutoff 2012: train 59 (prev 0.86) -> test 60 (prev 0.60)  <-- primary
+    frequency_only           AP=0.630 [0.5094, 0.8419] lift=+0.030 rho=+0.215  [degenerate at 2x]
+    conservation_only        AP=0.642 [0.4796, 0.8058] lift=+0.042 rho=+0.173  [degenerate at 2x]
+    structure_only           AP=0.784 [0.6309, 0.9052] lift=+0.184 rho=+0.351
+    structure_only_forest    AP=0.829 [0.6839, 0.9376] lift=+0.229 rho=+0.339  [degenerate at 2x]
+    esm_only                 AP=0.650 [0.4862, 0.8096] lift=+0.050 rho=+0.179  [degenerate at 2x]
+    full_model               AP=0.690 [0.5328, 0.8522] lift=+0.090 rho=+0.232
+    full_model_forest        AP=0.683 [0.5249, 0.8309] lift=+0.083 rho=+0.160  [degenerate at 2x]
+    best by AP: structure_only_forest
+
+=== cutoff 2015: train 70 (prev 0.79) -> test 49 (prev 0.65)
+    frequency_only           AP=0.647 [0.5232, 0.8636] lift=-0.006 rho=+0.135  [degenerate at 2x]
+    conservation_only        AP=0.815 [0.6412, 0.9484] lift=+0.162 rho=+0.373  [degenerate at 2x]
+    structure_only           AP=0.785 [0.6198, 0.9203] lift=+0.132 rho=+0.275
+    structure_only_forest    AP=0.823 [0.6673, 0.9459] lift=+0.170 rho=+0.274
+    esm_only                 AP=0.754 [0.5868, 0.9138] lift=+0.101 rho=+0.317  [degenerate at 2x]
+    full_model               AP=0.719 [0.5565, 0.8832] lift=+0.066 rho=+0.182
+    full_model_forest        AP=0.728 [0.5648, 0.8776] lift=+0.075 rho=+0.198  [degenerate at 2x]
+    best by AP: structure_only_forest
+
+################ secondary_all_tiers  n=235  with a year: 235
+
+=== cutoff 2005: train 79 (prev 0.84) -> test 156 (prev 0.58)
+    frequency_only           AP=0.597 [0.5377, 0.7463] lift=+0.013 rho=+0.207  [degenerate at 2x]
+    conservation_only        AP=0.665 [0.5312, 0.7446] lift=+0.082 rho=+0.170
+    structure_only           AP=0.828 [0.7487, 0.8968] lift=+0.245 rho=+0.371
+    structure_only_forest    AP=0.838 [0.7628, 0.8954] lift=+0.254 rho=+0.368  [degenerate at 2x]
+    esm_only                 AP=0.782 [0.691, 0.8607] lift=+0.199 rho=+0.324  [degenerate at 2x]
+    full_model               AP=0.802 [0.7184, 0.8756] lift=+0.219 rho=+0.383
+    full_model_forest        AP=0.813 [0.7339, 0.8823] lift=+0.230 rho=+0.359
+    best by AP: structure_only_forest
+
+=== cutoff 2008: train 92 (prev 0.85) -> test 143 (prev 0.55)
+    frequency_only           AP=0.578 [0.4998, 0.7297] lift=+0.025 rho=+0.206  [degenerate at 2x]
+    conservation_only        AP=0.654 [0.5043, 0.7344] lift=+0.101 rho=+0.182
+    structure_only           AP=0.838 [0.7603, 0.9017] lift=+0.285 rho=+0.436
+    structure_only_forest    AP=0.810 [0.7271, 0.8829] lift=+0.258 rho=+0.407  [degenerate at 2x]
+    esm_only                 AP=0.713 [0.6086, 0.8131] lift=+0.161 rho=+0.357  [degenerate at 2x]
+    full_model               AP=0.740 [0.6326, 0.8384] lift=+0.188 rho=+0.323
+    full_model_forest        AP=0.718 [0.617, 0.809] lift=+0.166 rho=+0.324  [degenerate at 2x]
+    best by AP: structure_only
+
+=== cutoff 2010: train 100 (prev 0.85) -> test 135 (prev 0.53)
+    frequency_only           AP=0.555 [0.4687, 0.7077] lift=+0.022 rho=+0.178  [degenerate at 2x]
+    conservation_only        AP=0.602 [0.4592, 0.6878] lift=+0.068 rho=+0.137  [degenerate at 2x]
+    structure_only           AP=0.818 [0.7244, 0.8937] lift=+0.284 rho=+0.431
+    structure_only_forest    AP=0.785 [0.6863, 0.8625] lift=+0.251 rho=+0.399  [degenerate at 2x]
+    esm_only                 AP=0.668 [0.5595, 0.7742] lift=+0.135 rho=+0.305  [degenerate at 2x]
+    full_model               AP=0.678 [0.5524, 0.7849] lift=+0.145 rho=+0.272  [degenerate at 2x]
+    full_model_forest        AP=0.637 [0.5236, 0.7452] lift=+0.104 rho=+0.232  [degenerate at 2x]
+    best by AP: structure_only
+
+=== cutoff 2012: train 109 (prev 0.83) -> test 126 (prev 0.52)  <-- primary
+    frequency_only           AP=0.547 [0.469, 0.711] lift=+0.023 rho=+0.189  [degenerate at 2x]
+    conservation_only        AP=0.569 [0.4327, 0.6601] lift=+0.045 rho=+0.121  [degenerate at 2x]
+    structure_only           AP=0.800 [0.703, 0.8817] lift=+0.276 rho=+0.397
+    structure_only_forest    AP=0.858 [0.7633, 0.9263] lift=+0.334 rho=+0.545  [degenerate at 2x]
+    esm_only                 AP=0.696 [0.5791, 0.8059] lift=+0.172 rho=+0.381  [degenerate at 2x]
+    full_model               AP=0.726 [0.6128, 0.82] lift=+0.202 rho=+0.349  [degenerate at 2x]
+    full_model_forest        AP=0.717 [0.6108, 0.807] lift=+0.193 rho=+0.324  [degenerate at 2x]
+    best by AP: structure_only_forest
+
+=== cutoff 2015: train 131 (prev 0.81) -> test 104 (prev 0.49)
+    frequency_only           AP=0.491 [0.4114, 0.6888] lift=+0.001 rho=+0.157  [degenerate at 2x]
+    conservation_only        AP=0.602 [0.4271, 0.6986] lift=+0.112 rho=+0.172  [degenerate at 2x]
+    structure_only           AP=0.784 [0.6673, 0.8812] lift=+0.294 rho=+0.392
+    structure_only_forest    AP=0.839 [0.7243, 0.9227] lift=+0.349 rho=+0.562  [degenerate at 2x]
+    esm_only                 AP=0.694 [0.5564, 0.8225] lift=+0.204 rho=+0.391  [degenerate at 2x]
+    full_model               AP=0.680 [0.5458, 0.8071] lift=+0.190 rho=+0.347
+    full_model_forest        AP=0.693 [0.5677, 0.7996] lift=+0.203 rho=+0.334  [degenerate at 2x]
+    best by AP: structure_only_forest
+
+wrote C:\Users\shiva\OneDrive\Desktop\hsv\reports\phase4\temporal_holdout.json
+[p4] p4_07_temporal.py            ok  0.3 min
+[p4] p4_05_verify.py              running ...
+157 checks run
+
+60 MISMATCH(ES):
+  - observed in circulation: report says 120, data says 128
+  - not observed: report says 524, data says 516
+  - singletons: report says 47, data says 45
+  - rare: report says 11, data says 21
+  - reclassify_as_polymorphism: report says 8, data says 7
+  - unphenotyped_but_common: report says 40, data says 41
+  - consistent_rare: report says 53, data says 60
+  - study_dominated among observed: report says 59, data says 60
+  - R41H loso_min: report says 0.038462, data says 0.038095
+  - R222C loso_min: report says 0.013514, data says 0.013393
+  - Aim 2 difference: report says 0.2005, data says 0.19795749475942603
+  - Aim 2 CI low: report says 0.1652, data says 0.1663903159421068
+  - Aim 2 CI high: report says 0.2389, data says 0.23611997844380558
+  - UL23 pN/pS: report says 0.372, data says 0.3709765095802362
+  - UL30 pN/pS: report says 0.172, data says 0.17301901482081017
+  - UL23 Sd: report says 609.0, data says 620.0
+  - UL30 Sd: report says 1251.5, data says 1535.5
+  - HSV1 UL5 isolates: report says 242, data says 251
+  - HSV1 UL52 isolates: report says 239, data says 299
+  - HSV2 UL5 isolates: report says 173, data says 247
+  - HSV1 UL5 constraint p: report says 0.53, data says 0.5424
+  - HSV1 UL52 constraint p: report says 0.317, data says 0.3748
+  - HSV2 UL5 constraint p: report says 0.039, data says 0.0517
+  - HSV2 UL5 variability ratio: report says 3.394, data says 2.21
+  - conservation AP: report says 0.623, data says 0.7172
+  - models surviving Holm: report says 2, data says 3
+  - degenerate at 2x: report says 9, data says 8
+  - matched-negative gap position_blocks/full_model_forest = -0.0152, outside the reported range -0.015..+0.003
+  - conservation vs frequency correlation: report says 0.907, data says 0.8877
+  - esm alone residualised, blocks: report says 0.0217, data says -0.0109
+  - esm alone residualised, logo: report says -0.0631, data says -0.1134
+  - HSV2->HSV1 full model AP: report says 0.631, data says 0.6324
+  - 2005 frequency_only lift: report says -0.092, data says -0.0774
+  - 2005 conservation_only lift: report says 0.162, data says 0.0846
+  - 2005 full_model lift: report says 0.096, data says 0.1102
+  - 2008 conservation_only lift: report says -0.096, data says 0.0998
+  - 2008 full_model lift: report says 0.035, data says 0.1264
+  - 2010 conservation_only lift: report says -0.095, data says 0.0618
+  - 2010 full_model lift: report says 0.04, data says 0.1231
+  - 2012 conservation_only lift: report says -0.097, data says 0.0424
+  - 2012 full_model lift: report says 0.009, data says 0.0896
+  - 2015 conservation_only lift: report says -0.158, data says 0.1621
+  - 2015 full_model lift: report says -0.013, data says 0.066
+  - secondary cut-offs won by structure: report says 4, data says 5
+  - master table rows: report says 1162, data says 1263
+  - master observed: report says 638, data says 747
+  - master both: report says 120, data says 128
+  - master catalogue only: report says 524, data says 516
+  - master observed only: report says 518, data says 619
+  - accessions analysed: report says 451, data says 599
+  - no cds extracted: report says 411, data says 168
+  - downstream filter: report says 183, data says 187
+  - cds qc: report says 36, data says 127
+  - VUS pool: report says 610, data says 717
+  - VUS never catalogued: report says 518, data says 619
+  - VUS site-resolved: report says 282, data says 317
+  - VUS in UL30 and UL52: report says 418, data says 517
+  - committed blob for data/release/accession_list.tsv hashes to cf8c60998cfe... but 181a8d37e5fe... is recorded; a fresh clone would fail verification (check .gitattributes)
+  - committed blob for data/release/master_variant_table.tsv hashes to 6e612cad3df4... but ba0264c4aeea... is recorded; a fresh clone would fail verification (check .gitattributes)
+  - committed blob for data/release/reclassification_table.tsv hashes to f7966fceace6... but b5c668cef782... is recorded; a fresh clone would fail verification (check .gitattributes)
+[p4] p4_05_verify.py              FAILED after 0.0 min (exit 1) -- stopping

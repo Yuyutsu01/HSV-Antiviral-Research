@@ -22,7 +22,7 @@
       "HSV2:UL30": 18
     },
     "struct_covered": 113,
-    "freq_observed": 13
+    "freq_observed": 14
   },
   "sensitivity_tier_AB": {
     "n": 161,
@@ -41,7 +41,7 @@
       "HSV2:UL5": 4
     },
     "struct_covered": 154,
-    "freq_observed": 16
+    "freq_observed": 17
   },
   "sensitivity_all_tiers": {
     "n": 235,
@@ -60,6 +60,6 @@
       "HSV2:UL5": 4
     },
     "struct_covered": 219,
-    "freq_observed": 28
+    "freq_observed": 30
   }
 }
