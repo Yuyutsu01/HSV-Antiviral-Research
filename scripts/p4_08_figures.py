@@ -436,9 +436,18 @@ def figure3():
 
 
 def save(fig, stem):
+    """Write both formats, byte-reproducibly.
+
+    A PDF carries a CreationDate by default, so re-running this script would
+    rewrite all three PDFs with identical content and a new timestamp, dirty
+    the working tree and break any checksum taken over them. Passing the date
+    as None omits it. The PNGs need no equivalent: matplotlib writes no
+    timestamp into them, which is why a re-run leaves them untouched.
+    """
     FIG.mkdir(parents=True, exist_ok=True)
     for ext in ("pdf", "png"):
-        fig.savefig(FIG / f"{stem}.{ext}")
+        meta = {"CreationDate": None} if ext == "pdf" else {}
+        fig.savefig(FIG / f"{stem}.{ext}", metadata=meta)
     plt.close(fig)
     print(f"  {stem}.pdf, {stem}.png")
 
