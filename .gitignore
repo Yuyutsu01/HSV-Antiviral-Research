@@ -5,3 +5,14 @@
 __pycache__/
 *.pyc
 .venv/
+
+# Stage logs are a side effect of running the pipeline, not a result of it.
+# Four of them were committed from a superseded run and sat for weeks
+# contradicting the summaries, because nothing reads them and no gate checks
+# them. New ones stay out of the repository; the three kept below are the
+# complete current run, the verifier's own output, and the GPU stage, which
+# run_all.py skips once its output exists and so never re-logs.
+reports/*.log
+!reports/rerun_branch.log
+!reports/verify_run.log
+!reports/esm_run.log

@@ -438,7 +438,6 @@ and 2.
 | `reports/phase3/baselines_summary.json` | all baseline and staged results |
 | `reports/phase3/gate4_summary.json` | corrected Gate 4 verdicts |
 | `reports/phase3/audit_summary.json` | permutation nulls, matching, residualisation |
-| `reports/audit_run_200perm_partial.log` | higher-powered 200-replicate LOGO nulls |
 
 ---
 
