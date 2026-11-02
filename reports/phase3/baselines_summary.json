@@ -17,13 +17,13 @@
           "beats_frequency_baseline": true
         },
         "position_blocks": {
-          "frequency_only_spearman": -0.0772,
+          "frequency_only_spearman": -0.0766,
           "best_other": "baseline:structure_only/ridge",
           "best_other_spearman": 0.4812,
-          "difference": 0.5584,
+          "difference": 0.5578,
           "difference_ci": [
-            0.3274,
-            0.7709
+            0.3264,
+            0.7708
           ],
           "beats_frequency_baseline": true
         }
@@ -34,7 +34,7 @@
             "ridge": {
               "n": 119,
               "spearman": -0.1534,
-              "rmse": 0.8023,
+              "rmse": 0.8062,
               "auc": 0.4835,
               "ap": 0.7167,
               "spearman_ci": [
@@ -112,7 +112,7 @@
             "ridge": {
               "n": 119,
               "spearman": -0.2097,
-              "rmse": 0.834,
+              "rmse": 0.8342,
               "auc": 0.3552,
               "ap": 0.6851,
               "spearman_ci": [
@@ -146,17 +146,17 @@
             },
             "forest": {
               "n": 119,
-              "spearman": -0.1005,
-              "rmse": 0.8022,
-              "auc": 0.5524,
-              "ap": 0.7514,
+              "spearman": -0.1096,
+              "rmse": 0.8025,
+              "auc": 0.5447,
+              "ap": 0.7485,
               "spearman_ci": [
-                -0.2922,
-                0.0997
+                -0.2975,
+                0.0877
               ],
               "auc_ci": [
-                0.4293,
-                0.6715
+                0.4246,
+                0.6637
               ],
               "hyperparams": [
                 {
@@ -502,7 +502,7 @@
             "ridge": {
               "n": 119,
               "spearman": -0.1534,
-              "rmse": 0.8023,
+              "rmse": 0.8062,
               "auc": 0.4835,
               "ap": 0.7167,
               "spearman_ci": [
@@ -580,16 +580,16 @@
             "ridge": {
               "n": 119,
               "spearman": -0.1359,
-              "rmse": 0.8384,
-              "auc": 0.4551,
-              "ap": 0.7159,
+              "rmse": 0.8499,
+              "auc": 0.4547,
+              "ap": 0.7158,
               "spearman_ci": [
-                -0.3108,
-                0.043
+                -0.3109,
+                0.0436
               ],
               "auc_ci": [
-                0.3311,
-                0.5819
+                0.3302,
+                0.5813
               ],
               "hyperparams": [
                 {
@@ -602,7 +602,7 @@
                   "m__alpha": 1.0
                 },
                 {
-                  "m__alpha": 100.0
+                  "m__alpha": 1.0
                 },
                 {
                   "m__alpha": 1.0
@@ -614,17 +614,17 @@
             },
             "forest": {
               "n": 119,
-              "spearman": -0.1328,
-              "rmse": 0.8155,
-              "auc": 0.525,
-              "ap": 0.7365,
+              "spearman": -0.1524,
+              "rmse": 0.8158,
+              "auc": 0.5156,
+              "ap": 0.7343,
               "spearman_ci": [
-                -0.318,
-                0.0568
+                -0.3352,
+                0.0339
               ],
               "auc_ci": [
-                0.3977,
-                0.6529
+                0.3908,
+                0.6444
               ],
               "hyperparams": [
                 {
@@ -641,7 +641,7 @@
                 },
                 {
                   "m__min_samples_leaf": 5,
-                  "m__max_features": 1.0
+                  "m__max_features": 0.5
                 },
                 {
                   "m__min_samples_leaf": 5,
@@ -657,17 +657,17 @@
           "staged:stage3_freq_cons_prop": {
             "ridge": {
               "n": 119,
-              "spearman": -0.0156,
-              "rmse": 0.8252,
-              "auc": 0.4612,
-              "ap": 0.7308,
+              "spearman": -0.0128,
+              "rmse": 0.8242,
+              "auc": 0.4659,
+              "ap": 0.7311,
               "spearman_ci": [
-                -0.2029,
-                0.175
+                -0.2011,
+                0.1784
               ],
               "auc_ci": [
-                0.3556,
-                0.5787
+                0.3581,
+                0.5843
               ],
               "hyperparams": [
                 {
@@ -686,23 +686,23 @@
                   "m__alpha": 10.0
                 },
                 {
-                  "m__alpha": 1.0
+                  "m__alpha": 10.0
                 }
               ]
             },
             "forest": {
               "n": 119,
-              "spearman": -0.0583,
-              "rmse": 0.8412,
-              "auc": 0.4856,
-              "ap": 0.7405,
+              "spearman": -0.0597,
+              "rmse": 0.8414,
+              "auc": 0.4838,
+              "ap": 0.7397,
               "spearman_ci": [
-                -0.2432,
-                0.1204
+                -0.2452,
+                0.1186
               ],
               "auc_ci": [
-                0.373,
-                0.606
+                0.3714,
+                0.6031
               ],
               "hyperparams": [
                 {
@@ -735,24 +735,24 @@
           "staged:stage4_plus_structure": {
             "ridge": {
               "n": 119,
-              "spearman": 0.2386,
-              "rmse": 0.7596,
-              "auc": 0.68,
-              "ap": 0.8319,
+              "spearman": 0.2429,
+              "rmse": 0.7425,
+              "auc": 0.6627,
+              "ap": 0.8477,
               "spearman_ci": [
-                0.0531,
-                0.4177
+                0.0564,
+                0.4209
               ],
               "auc_ci": [
-                0.567,
-                0.7841
+                0.5544,
+                0.7643
               ],
               "hyperparams": [
                 {
                   "m__alpha": 0.1
                 },
                 {
-                  "m__alpha": 10.0
+                  "m__alpha": 100.0
                 },
                 {
                   "m__alpha": 100.0
@@ -770,17 +770,17 @@
             },
             "forest": {
               "n": 119,
-              "spearman": 0.0504,
-              "rmse": 0.8188,
-              "auc": 0.6487,
-              "ap": 0.8199,
+              "spearman": 0.0496,
+              "rmse": 0.8189,
+              "auc": 0.6483,
+              "ap": 0.8198,
               "spearman_ci": [
-                -0.1513,
-                0.2465
+                -0.1522,
+                0.2458
               ],
               "auc_ci": [
-                0.5276,
-                0.7553
+                0.5272,
+                0.7551
               ],
               "hyperparams": [
                 {
@@ -813,17 +813,17 @@
           "staged:stage5_plus_esm": {
             "ridge": {
               "n": 119,
-              "spearman": 0.2663,
-              "rmse": 0.7497,
-              "auc": 0.6857,
-              "ap": 0.8382,
+              "spearman": 0.2684,
+              "rmse": 0.7493,
+              "auc": 0.6864,
+              "ap": 0.8387,
               "spearman_ci": [
-                0.0709,
-                0.4486
+                0.0723,
+                0.4482
               ],
               "auc_ci": [
-                0.5781,
-                0.7896
+                0.581,
+                0.7903
               ],
               "hyperparams": [
                 {
@@ -894,7 +894,7 @@
             "ridge": {
               "n": 119,
               "spearman": -0.0785,
-              "rmse": 0.7762,
+              "rmse": 0.7789,
               "auc": 0.5038,
               "ap": 0.7489,
               "spearman_ci": [
@@ -925,17 +925,17 @@
             },
             "forest": {
               "n": 119,
-              "spearman": -0.0772,
-              "rmse": 0.7622,
-              "auc": 0.5041,
-              "ap": 0.7489,
+              "spearman": -0.0766,
+              "rmse": 0.762,
+              "auc": 0.505,
+              "ap": 0.7491,
               "spearman_ci": [
                 -0.2517,
-                0.1087
+                0.1095
               ],
               "auc_ci": [
-                0.3886,
-                0.6242
+                0.3892,
+                0.6252
               ],
               "hyperparams": [
                 {
@@ -964,17 +964,17 @@
           "baseline:conservation_only": {
             "ridge": {
               "n": 119,
-              "spearman": -0.2758,
-              "rmse": 0.7802,
-              "auc": 0.3093,
-              "ap": 0.6314,
+              "spearman": -0.2721,
+              "rmse": 0.7806,
+              "auc": 0.3154,
+              "ap": 0.6377,
               "spearman_ci": [
-                -0.4554,
-                -0.0777
+                -0.4498,
+                -0.0779
               ],
               "auc_ci": [
-                0.1991,
-                0.4272
+                0.2048,
+                0.4339
               ],
               "hyperparams": [
                 {
@@ -984,7 +984,7 @@
                   "m__alpha": 0.1
                 },
                 {
-                  "m__alpha": 0.1
+                  "m__alpha": 10.0
                 },
                 {
                   "m__alpha": 0.1
@@ -996,17 +996,17 @@
             },
             "forest": {
               "n": 119,
-              "spearman": 0.1054,
-              "rmse": 0.8323,
-              "auc": 0.6085,
-              "ap": 0.7687,
+              "spearman": 0.0963,
+              "rmse": 0.8319,
+              "auc": 0.6006,
+              "ap": 0.7664,
               "spearman_ci": [
-                -0.0814,
-                0.2931
+                -0.0934,
+                0.2824
               ],
               "auc_ci": [
-                0.4831,
-                0.7272
+                0.4749,
+                0.7205
               ],
               "hyperparams": [
                 {
@@ -1019,7 +1019,7 @@
                 },
                 {
                   "m__min_samples_leaf": 1,
-                  "m__max_features": 1.0
+                  "m__max_features": 0.5
                 },
                 {
                   "m__min_samples_leaf": 5,
@@ -1320,7 +1320,7 @@
             "ridge": {
               "n": 119,
               "spearman": -0.0785,
-              "rmse": 0.7762,
+              "rmse": 0.7789,
               "auc": 0.5038,
               "ap": 0.7489,
               "spearman_ci": [
@@ -1351,17 +1351,17 @@
             },
             "forest": {
               "n": 119,
-              "spearman": -0.0772,
-              "rmse": 0.7622,
-              "auc": 0.5041,
-              "ap": 0.7489,
+              "spearman": -0.0766,
+              "rmse": 0.762,
+              "auc": 0.505,
+              "ap": 0.7491,
               "spearman_ci": [
-                -0.2516,
-                0.0995
+                -0.2505,
+                0.1008
               ],
               "auc_ci": [
-                0.3855,
-                0.6211
+                0.3863,
+                0.6216
               ],
               "hyperparams": [
                 {
@@ -1390,17 +1390,17 @@
           "staged:stage2_freq_cons": {
             "ridge": {
               "n": 119,
-              "spearman": -0.1888,
-              "rmse": 0.8194,
-              "auc": 0.4158,
-              "ap": 0.6823,
+              "spearman": -0.1824,
+              "rmse": 0.8559,
+              "auc": 0.4212,
+              "ap": 0.6834,
               "spearman_ci": [
-                -0.3794,
-                0.0056
+                -0.3723,
+                0.0106
               ],
               "auc_ci": [
-                0.2875,
-                0.5507
+                0.2872,
+                0.5567
               ],
               "hyperparams": [
                 {
@@ -1422,17 +1422,17 @@
             },
             "forest": {
               "n": 119,
-              "spearman": 0.1422,
-              "rmse": 0.796,
+              "spearman": 0.1416,
+              "rmse": 0.7961,
               "auc": 0.5885,
               "ap": 0.778,
               "spearman_ci": [
-                -0.038,
-                0.32
+                -0.0393,
+                0.3202
               ],
               "auc_ci": [
-                0.4701,
-                0.7072
+                0.4705,
+                0.7069
               ],
               "hyperparams": [
                 {
@@ -1461,16 +1461,16 @@
           "staged:stage3_freq_cons_prop": {
             "ridge": {
               "n": 119,
-              "spearman": 0.0114,
-              "rmse": 0.7784,
+              "spearman": 0.0134,
+              "rmse": 0.7783,
               "auc": 0.5007,
-              "ap": 0.752,
+              "ap": 0.7524,
               "spearman_ci": [
-                -0.1701,
-                0.2016
+                -0.1693,
+                0.2022
               ],
               "auc_ci": [
-                0.3812,
+                0.3803,
                 0.621
               ],
               "hyperparams": [
@@ -1493,17 +1493,17 @@
             },
             "forest": {
               "n": 119,
-              "spearman": -0.099,
-              "rmse": 0.8022,
-              "auc": 0.5169,
-              "ap": 0.7685,
+              "spearman": -0.1006,
+              "rmse": 0.8023,
+              "auc": 0.5158,
+              "ap": 0.7679,
               "spearman_ci": [
-                -0.2733,
-                0.0772
+                -0.2753,
+                0.0756
               ],
               "auc_ci": [
-                0.405,
-                0.6239
+                0.403,
+                0.6235
               ],
               "hyperparams": [
                 {
@@ -1532,24 +1532,24 @@
           "staged:stage4_plus_structure": {
             "ridge": {
               "n": 119,
-              "spearman": 0.2972,
-              "rmse": 0.7583,
-              "auc": 0.7288,
-              "ap": 0.8541,
+              "spearman": 0.3005,
+              "rmse": 0.7557,
+              "auc": 0.7295,
+              "ap": 0.8547,
               "spearman_ci": [
-                0.1163,
-                0.4746
+                0.1158,
+                0.4787
               ],
               "auc_ci": [
-                0.6174,
-                0.8339
+                0.6177,
+                0.8369
               ],
               "hyperparams": [
                 {
                   "m__alpha": 100.0
                 },
                 {
-                  "m__alpha": 10.0
+                  "m__alpha": 100.0
                 },
                 {
                   "m__alpha": 100.0
@@ -1603,17 +1603,17 @@
           "staged:stage5_plus_esm": {
             "ridge": {
               "n": 119,
-              "spearman": 0.3794,
-              "rmse": 0.7174,
+              "spearman": 0.3817,
+              "rmse": 0.7171,
               "auc": 0.7328,
-              "ap": 0.8732,
+              "ap": 0.8733,
               "spearman_ci": [
-                0.2023,
-                0.541
+                0.2059,
+                0.5421
               ],
               "auc_ci": [
-                0.6276,
-                0.828
+                0.6279,
+                0.8278
               ],
               "hyperparams": [
                 {
@@ -1679,24 +1679,24 @@
       "n_observed_in_population": 28,
       "gate_4": {
         "leave_one_gene_out": {
-          "frequency_only_spearman": -0.0179,
+          "frequency_only_spearman": -0.0174,
           "best_other": "baseline:structure_only/forest",
           "best_other_spearman": 0.5497,
-          "difference": 0.5676,
+          "difference": 0.5671,
           "difference_ci": [
-            0.417,
-            0.7134
+            0.4169,
+            0.7128
           ],
           "beats_frequency_baseline": true
         },
         "position_blocks": {
-          "frequency_only_spearman": -0.0611,
+          "frequency_only_spearman": -0.061,
           "best_other": "staged:stage5_plus_esm/forest",
-          "best_other_spearman": 0.5237,
-          "difference": 0.5848,
+          "best_other_spearman": 0.5252,
+          "difference": 0.5862,
           "difference_ci": [
-            0.4333,
-            0.7301
+            0.4345,
+            0.7317
           ],
           "beats_frequency_baseline": true
         }
@@ -1706,17 +1706,17 @@
           "baseline:frequency_only": {
             "ridge": {
               "n": 235,
-              "spearman": -0.0179,
+              "spearman": -0.0174,
               "rmse": 0.8606,
-              "auc": 0.5752,
+              "auc": 0.5755,
               "ap": 0.6885,
               "spearman_ci": [
                 -0.1532,
-                0.1171
+                0.1182
               ],
               "auc_ci": [
-                0.4921,
-                0.6556
+                0.4922,
+                0.6559
               ],
               "hyperparams": [
                 {
@@ -1744,17 +1744,17 @@
             },
             "forest": {
               "n": 235,
-              "spearman": -0.0513,
-              "rmse": 0.8659,
-              "auc": 0.5672,
-              "ap": 0.6858,
+              "spearman": -0.0518,
+              "rmse": 0.8652,
+              "auc": 0.567,
+              "ap": 0.6857,
               "spearman_ci": [
-                -0.1894,
-                0.0785
+                -0.1895,
+                0.0783
               ],
               "auc_ci": [
-                0.4853,
-                0.6462
+                0.4844,
+                0.6461
               ],
               "hyperparams": [
                 {
@@ -1791,17 +1791,17 @@
           "baseline:conservation_only": {
             "ridge": {
               "n": 235,
-              "spearman": -0.0345,
-              "rmse": 0.8835,
-              "auc": 0.5545,
-              "ap": 0.7053,
+              "spearman": -0.0458,
+              "rmse": 0.883,
+              "auc": 0.5456,
+              "ap": 0.7006,
               "spearman_ci": [
-                -0.1676,
-                0.0949
+                -0.1786,
+                0.086
               ],
               "auc_ci": [
-                0.4771,
-                0.6298
+                0.4686,
+                0.6223
               ],
               "hyperparams": [
                 {
@@ -1829,17 +1829,17 @@
             },
             "forest": {
               "n": 235,
-              "spearman": 0.0915,
-              "rmse": 0.8777,
-              "auc": 0.6602,
-              "ap": 0.777,
+              "spearman": 0.0848,
+              "rmse": 0.8772,
+              "auc": 0.6555,
+              "ap": 0.7756,
               "spearman_ci": [
-                -0.0445,
-                0.2168
+                -0.0509,
+                0.2097
               ],
               "auc_ci": [
-                0.5877,
-                0.7273
+                0.5825,
+                0.7227
               ],
               "hyperparams": [
                 {
@@ -1852,11 +1852,11 @@
                 },
                 {
                   "m__min_samples_leaf": 5,
-                  "m__max_features": 1.0
+                  "m__max_features": 0.5
                 },
                 {
                   "m__min_samples_leaf": 5,
-                  "m__max_features": 1.0
+                  "m__max_features": 0.5
                 },
                 {
                   "m__min_samples_leaf": 5,
@@ -1868,7 +1868,7 @@
                 },
                 {
                   "m__min_samples_leaf": 5,
-                  "m__max_features": 1.0
+                  "m__max_features": 0.5
                 }
               ]
             }
@@ -2216,13 +2216,13 @@
           "staged:stage1_freq": {
             "ridge": {
               "n": 235,
-              "spearman": -0.0179,
+              "spearman": -0.0174,
               "rmse": 0.8606,
-              "auc": 0.5752,
+              "auc": 0.5755,
               "ap": 0.6885,
               "spearman_ci": [
-                -0.1513,
-                0.1176
+                -0.1509,
+                0.1189
               ],
               "auc_ci": [
                 0.4915,
@@ -2254,17 +2254,17 @@
             },
             "forest": {
               "n": 235,
-              "spearman": -0.0513,
-              "rmse": 0.8659,
-              "auc": 0.5672,
-              "ap": 0.6858,
+              "spearman": -0.0518,
+              "rmse": 0.8652,
+              "auc": 0.567,
+              "ap": 0.6857,
               "spearman_ci": [
-                -0.1914,
-                0.0792
+                -0.1915,
+                0.0793
               ],
               "auc_ci": [
-                0.481,
-                0.6446
+                0.4811,
+                0.6442
               ],
               "hyperparams": [
                 {
@@ -2301,17 +2301,17 @@
           "staged:stage2_freq_cons": {
             "ridge": {
               "n": 235,
-              "spearman": -0.0157,
-              "rmse": 0.8697,
-              "auc": 0.5737,
-              "ap": 0.6934,
+              "spearman": -0.0063,
+              "rmse": 0.8694,
+              "auc": 0.5866,
+              "ap": 0.7155,
               "spearman_ci": [
-                -0.1561,
-                0.1159
+                -0.1439,
+                0.1205
               ],
               "auc_ci": [
-                0.488,
-                0.6522
+                0.5054,
+                0.6637
               ],
               "hyperparams": [
                 {
@@ -2339,17 +2339,17 @@
             },
             "forest": {
               "n": 235,
-              "spearman": 0.0627,
-              "rmse": 0.8866,
-              "auc": 0.6497,
-              "ap": 0.7687,
+              "spearman": 0.0619,
+              "rmse": 0.8798,
+              "auc": 0.6492,
+              "ap": 0.7688,
               "spearman_ci": [
-                -0.0669,
-                0.1985
+                -0.0674,
+                0.1986
               ],
               "auc_ci": [
-                0.58,
-                0.7206
+                0.579,
+                0.7186
               ],
               "hyperparams": [
                 {
@@ -2358,7 +2358,7 @@
                 },
                 {
                   "m__min_samples_leaf": 5,
-                  "m__max_features": 0.5
+                  "m__max_features": 1.0
                 },
                 {
                   "m__min_samples_leaf": 1,
@@ -2386,17 +2386,17 @@
           "staged:stage3_freq_cons_prop": {
             "ridge": {
               "n": 235,
-              "spearman": 0.0888,
-              "rmse": 1.3246,
-              "auc": 0.5488,
-              "ap": 0.69,
+              "spearman": 0.0859,
+              "rmse": 1.1781,
+              "auc": 0.5453,
+              "ap": 0.6883,
               "spearman_ci": [
-                -0.0497,
-                0.2295
+                -0.0533,
+                0.2269
               ],
               "auc_ci": [
-                0.4683,
-                0.6312
+                0.4642,
+                0.6275
               ],
               "hyperparams": [
                 {
@@ -2424,17 +2424,17 @@
             },
             "forest": {
               "n": 235,
-              "spearman": 0.0764,
-              "rmse": 0.9075,
-              "auc": 0.5853,
-              "ap": 0.717,
+              "spearman": 0.0762,
+              "rmse": 0.9225,
+              "auc": 0.5882,
+              "ap": 0.726,
               "spearman_ci": [
-                -0.0568,
-                0.2017
+                -0.0549,
+                0.2042
               ],
               "auc_ci": [
-                0.5044,
-                0.664
+                0.5089,
+                0.6663
               ],
               "hyperparams": [
                 {
@@ -2447,14 +2447,14 @@
                 },
                 {
                   "m__min_samples_leaf": 1,
-                  "m__max_features": 0.5
+                  "m__max_features": 1.0
                 },
                 {
                   "m__min_samples_leaf": 1,
                   "m__max_features": 0.5
                 },
                 {
-                  "m__min_samples_leaf": 5,
+                  "m__min_samples_leaf": 1,
                   "m__max_features": 0.5
                 },
                 {
@@ -2471,17 +2471,17 @@
           "staged:stage4_plus_structure": {
             "ridge": {
               "n": 235,
-              "spearman": 0.3841,
-              "rmse": 0.8035,
-              "auc": 0.7668,
-              "ap": 0.8417,
+              "spearman": 0.3828,
+              "rmse": 0.8033,
+              "auc": 0.7624,
+              "ap": 0.8398,
               "spearman_ci": [
-                0.2585,
-                0.4974
+                0.2571,
+                0.4955
               ],
               "auc_ci": [
-                0.6967,
-                0.8321
+                0.6929,
+                0.8283
               ],
               "hyperparams": [
                 {
@@ -2503,23 +2503,23 @@
                   "m__alpha": 100.0
                 },
                 {
-                  "m__alpha": 100.0
+                  "m__alpha": 10.0
                 }
               ]
             },
             "forest": {
               "n": 235,
-              "spearman": 0.4121,
-              "rmse": 0.8122,
+              "spearman": 0.4119,
+              "rmse": 0.8118,
               "auc": 0.7874,
               "ap": 0.8582,
               "spearman_ci": [
-                0.2988,
-                0.5193
+                0.2989,
+                0.5194
               ],
               "auc_ci": [
-                0.7217,
-                0.8455
+                0.7218,
+                0.8457
               ],
               "hyperparams": [
                 {
@@ -2556,17 +2556,17 @@
           "staged:stage5_plus_esm": {
             "ridge": {
               "n": 235,
-              "spearman": 0.3862,
-              "rmse": 0.8047,
-              "auc": 0.7628,
-              "ap": 0.8577,
+              "spearman": 0.3868,
+              "rmse": 0.8049,
+              "auc": 0.7616,
+              "ap": 0.8571,
               "spearman_ci": [
-                0.2652,
-                0.4985
+                0.2649,
+                0.4987
               ],
               "auc_ci": [
-                0.699,
-                0.825
+                0.6974,
+                0.8241
               ],
               "hyperparams": [
                 {
@@ -2594,17 +2594,17 @@
             },
             "forest": {
               "n": 235,
-              "spearman": 0.3002,
-              "rmse": 0.858,
-              "auc": 0.7101,
-              "ap": 0.8083,
+              "spearman": 0.3013,
+              "rmse": 0.8578,
+              "auc": 0.7106,
+              "ap": 0.8087,
               "spearman_ci": [
-                0.169,
-                0.42
+                0.1712,
+                0.422
               ],
               "auc_ci": [
-                0.6345,
-                0.7769
+                0.6358,
+                0.7772
               ],
               "hyperparams": [
                 {
@@ -2643,17 +2643,17 @@
           "baseline:frequency_only": {
             "ridge": {
               "n": 235,
-              "spearman": -0.0611,
-              "rmse": 0.8437,
-              "auc": 0.4878,
-              "ap": 0.6464,
+              "spearman": -0.061,
+              "rmse": 0.8436,
+              "auc": 0.488,
+              "ap": 0.6465,
               "spearman_ci": [
                 -0.2042,
-                0.0746
+                0.0747
               ],
               "auc_ci": [
-                0.398,
-                0.573
+                0.3982,
+                0.5731
               ],
               "hyperparams": [
                 {
@@ -2675,22 +2675,22 @@
             },
             "forest": {
               "n": 235,
-              "spearman": -0.0668,
-              "rmse": 0.8474,
-              "auc": 0.4866,
+              "spearman": -0.0667,
+              "rmse": 0.8471,
+              "auc": 0.4865,
               "ap": 0.6461,
               "spearman_ci": [
-                -0.1977,
-                0.0733
+                -0.1967,
+                0.0725
               ],
               "auc_ci": [
-                0.4014,
-                0.5756
+                0.4011,
+                0.5755
               ],
               "hyperparams": [
                 {
                   "m__min_samples_leaf": 5,
-                  "m__max_features": 0.5
+                  "m__max_features": 1.0
                 },
                 {
                   "m__min_samples_leaf": 5,
@@ -2714,17 +2714,17 @@
           "baseline:conservation_only": {
             "ridge": {
               "n": 235,
-              "spearman": -0.1227,
-              "rmse": 0.8551,
-              "auc": 0.4949,
-              "ap": 0.6949,
+              "spearman": -0.1197,
+              "rmse": 0.8557,
+              "auc": 0.4959,
+              "ap": 0.6971,
               "spearman_ci": [
-                -0.264,
-                0.0188
+                -0.2618,
+                0.021
               ],
               "auc_ci": [
-                0.4128,
-                0.5788
+                0.4136,
+                0.5814
               ],
               "hyperparams": [
                 {
@@ -2734,28 +2734,28 @@
                   "m__alpha": 0.1
                 },
                 {
-                  "m__alpha": 0.1
+                  "m__alpha": 100.0
                 },
                 {
                   "m__alpha": 100.0
                 },
                 {
-                  "m__alpha": 0.1
+                  "m__alpha": 100.0
                 }
               ]
             },
             "forest": {
               "n": 235,
-              "spearman": 0.0356,
-              "rmse": 0.8981,
-              "auc": 0.523,
-              "ap": 0.6643,
+              "spearman": 0.0362,
+              "rmse": 0.8969,
+              "auc": 0.5235,
+              "ap": 0.6645,
               "spearman_ci": [
-                -0.0892,
-                0.165
+                -0.0885,
+                0.1653
               ],
               "auc_ci": [
-                0.4445,
+                0.4452,
                 0.6043
               ],
               "hyperparams": [
@@ -3069,17 +3069,17 @@
           "staged:stage1_freq": {
             "ridge": {
               "n": 235,
-              "spearman": -0.0611,
-              "rmse": 0.8437,
-              "auc": 0.4878,
-              "ap": 0.6464,
+              "spearman": -0.061,
+              "rmse": 0.8436,
+              "auc": 0.488,
+              "ap": 0.6465,
               "spearman_ci": [
                 -0.1982,
-                0.0643
+                0.0644
               ],
               "auc_ci": [
                 0.4059,
-                0.5726
+                0.5728
               ],
               "hyperparams": [
                 {
@@ -3101,22 +3101,22 @@
             },
             "forest": {
               "n": 235,
-              "spearman": -0.0668,
-              "rmse": 0.8474,
-              "auc": 0.4866,
+              "spearman": -0.0667,
+              "rmse": 0.8471,
+              "auc": 0.4865,
               "ap": 0.6461,
               "spearman_ci": [
-                -0.1999,
-                0.0792
+                -0.1996,
+                0.0775
               ],
               "auc_ci": [
-                0.403,
-                0.5736
+                0.4029,
+                0.5733
               ],
               "hyperparams": [
                 {
                   "m__min_samples_leaf": 5,
-                  "m__max_features": 0.5
+                  "m__max_features": 1.0
                 },
                 {
                   "m__min_samples_leaf": 5,
@@ -3140,17 +3140,17 @@
           "staged:stage2_freq_cons": {
             "ridge": {
               "n": 235,
-              "spearman": -0.0257,
-              "rmse": 0.8467,
-              "auc": 0.5634,
-              "ap": 0.7327,
+              "spearman": -0.034,
+              "rmse": 0.8462,
+              "auc": 0.5609,
+              "ap": 0.7314,
               "spearman_ci": [
-                -0.1628,
-                0.1059
+                -0.169,
+                0.0994
               ],
               "auc_ci": [
-                0.4795,
-                0.6426
+                0.4766,
+                0.6406
               ],
               "hyperparams": [
                 {
@@ -3166,23 +3166,23 @@
                   "m__alpha": 100.0
                 },
                 {
-                  "m__alpha": 10.0
+                  "m__alpha": 100.0
                 }
               ]
             },
             "forest": {
               "n": 235,
               "spearman": 0.1164,
-              "rmse": 0.8733,
-              "auc": 0.5727,
-              "ap": 0.6881,
+              "rmse": 0.8726,
+              "auc": 0.5716,
+              "ap": 0.6882,
               "spearman_ci": [
-                -0.0119,
-                0.2456
+                -0.011,
+                0.2417
               ],
               "auc_ci": [
-                0.4893,
-                0.6599
+                0.4874,
+                0.6574
               ],
               "hyperparams": [
                 {
@@ -3211,17 +3211,17 @@
           "staged:stage3_freq_cons_prop": {
             "ridge": {
               "n": 235,
-              "spearman": 0.2657,
-              "rmse": 0.8291,
-              "auc": 0.626,
-              "ap": 0.7615,
+              "spearman": 0.2504,
+              "rmse": 0.8262,
+              "auc": 0.6128,
+              "ap": 0.7551,
               "spearman_ci": [
-                0.1367,
-                0.3881
+                0.1234,
+                0.3742
               ],
               "auc_ci": [
-                0.5507,
-                0.7034
+                0.5374,
+                0.6919
               ],
               "hyperparams": [
                 {
@@ -3237,23 +3237,23 @@
                   "m__alpha": 100.0
                 },
                 {
-                  "m__alpha": 10.0
+                  "m__alpha": 100.0
                 }
               ]
             },
             "forest": {
               "n": 235,
-              "spearman": 0.1807,
-              "rmse": 0.8643,
-              "auc": 0.605,
-              "ap": 0.725,
+              "spearman": 0.1788,
+              "rmse": 0.8654,
+              "auc": 0.6042,
+              "ap": 0.724,
               "spearman_ci": [
-                0.0579,
-                0.2999
+                0.0549,
+                0.2975
               ],
               "auc_ci": [
-                0.5276,
-                0.6801
+                0.5265,
+                0.6804
               ],
               "hyperparams": [
                 {
@@ -3282,21 +3282,21 @@
           "staged:stage4_plus_structure": {
             "ridge": {
               "n": 235,
-              "spearman": 0.4864,
-              "rmse": 0.7811,
-              "auc": 0.812,
-              "ap": 0.8766,
+              "spearman": 0.4829,
+              "rmse": 0.7788,
+              "auc": 0.8062,
+              "ap": 0.8708,
               "spearman_ci": [
-                0.3797,
-                0.5857
+                0.3748,
+                0.5839
               ],
               "auc_ci": [
-                0.7491,
-                0.8668
+                0.7425,
+                0.8616
               ],
               "hyperparams": [
                 {
-                  "m__alpha": 10.0
+                  "m__alpha": 100.0
                 },
                 {
                   "m__alpha": 100.0
@@ -3314,17 +3314,17 @@
             },
             "forest": {
               "n": 235,
-              "spearman": 0.47,
-              "rmse": 0.7948,
-              "auc": 0.7945,
-              "ap": 0.8469,
+              "spearman": 0.4697,
+              "rmse": 0.7953,
+              "auc": 0.7944,
+              "ap": 0.8457,
               "spearman_ci": [
-                0.352,
-                0.5792
+                0.3515,
+                0.5783
               ],
               "auc_ci": [
-                0.7287,
-                0.8536
+                0.7291,
+                0.8534
               ],
               "hyperparams": [
                 {
@@ -3353,17 +3353,17 @@
           "staged:stage5_plus_esm": {
             "ridge": {
               "n": 235,
-              "spearman": 0.4513,
-              "rmse": 0.7892,
-              "auc": 0.7995,
-              "ap": 0.8845,
+              "spearman": 0.4516,
+              "rmse": 0.7889,
+              "auc": 0.7991,
+              "ap": 0.8843,
               "spearman_ci": [
-                0.3227,
+                0.3228,
                 0.5702
               ],
               "auc_ci": [
-                0.7374,
-                0.8563
+                0.7369,
+                0.8559
               ],
               "hyperparams": [
                 {
@@ -3385,17 +3385,17 @@
             },
             "forest": {
               "n": 235,
-              "spearman": 0.5237,
-              "rmse": 0.7745,
-              "auc": 0.7823,
-              "ap": 0.8457,
+              "spearman": 0.5252,
+              "rmse": 0.7736,
+              "auc": 0.7846,
+              "ap": 0.8469,
               "spearman_ci": [
-                0.413,
-                0.6226
+                0.4123,
+                0.6238
               ],
               "auc_ci": [
-                0.712,
-                0.8411
+                0.7141,
+                0.8446
               ],
               "hyperparams": [
                 {
@@ -3403,8 +3403,8 @@
                   "m__max_features": 0.5
                 },
                 {
-                  "m__min_samples_leaf": 5,
-                  "m__max_features": 1.0
+                  "m__min_samples_leaf": 1,
+                  "m__max_features": 0.5
                 },
                 {
                   "m__min_samples_leaf": 1,

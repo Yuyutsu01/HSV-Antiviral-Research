@@ -23,8 +23,9 @@ Outputs:
 import csv
 import json
 import math
+import re
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -101,8 +102,13 @@ def main():
     for c in calls:
         k = (c["virus"], c["gene"], int(c["position"]), c["alt_aa"])
         carriers[k].add(c["accession"])
-        if c["study_key"]:
-            studies_of[k].add(c["study_key"])
+        # Same fallback as below. Counting only non-empty study keys understated
+        # how concentrated a variant is: carriers with no study ID simply did
+        # not appear in the tally, so "supported by 2 studies" could describe a
+        # variant whose carriers came from one study plus unattributed records.
+        studies_of[k].add(
+            c["study_key"]
+            or "ACC:" + re.match(r"^([A-Za-z]+)", c["accession"]).group(1))
 
     # Gene-level denominators per study, used for the leave-one-study-out range.
     # This is a gene-level approximation of the exact per-position coverage used
@@ -111,7 +117,15 @@ def main():
     study_of_acc = {}
     for r in cover:
         gene_isolates[(r["virus"], r["gene"])].add(r["accession"])
-        study_of_acc[r["accession"]] = r["study_key"]
+        # A record with no PubMed ID or BioProject previously got an empty
+        # study key, and empty keys were excluded from the dropout loop - so
+        # those isolates could never be dropped. A variant carried mostly by one
+        # study plus a few study-less records then looked robust to dropout when
+        # it was not. Falling back to the accession's letter prefix keeps a
+        # submission block together and makes every isolate droppable.
+        study_of_acc[r["accession"]] = (
+            r["study_key"]
+            or "ACC:" + re.match(r"^([A-Za-z]+)", r["accession"]).group(1))
 
     out, summary = [], defaultdict(int)
     for lab in labels:
@@ -144,6 +158,12 @@ def main():
         loso_min = round(min(loso), 6) if loso else None
         loso_max = round(max(loso), 6) if loso else None
 
+        # Share of this variant's carriers contributed by its largest study.
+        carrier_studies = Counter(study_of_acc.get(a, "")
+                                  for a in carriers[k] & all_acc)
+        max_share = (round(max(carrier_studies.values()) / sum(carrier_studies.values()), 4)
+                     if carrier_studies else "")
+
         band = classify(freq, observed, count, fc)
         flag = disagreement(band, fc, lab["evidence_tier"])
 
@@ -167,6 +187,15 @@ def main():
             "n_studies_carrying": len(studies_of[k]),
             "loso_min_freq": loso_min, "loso_max_freq": loso_max,
             "robust_to_study_dropout": "" if robust is None else int(robust),
+            # robust_to_study_dropout is binary and hides how wide the dropout
+            # range is. HSV-1 UL23 R222C passes it at 1.35% after a 3.4x fall
+            # from 4.6%, with 8 of 11 carriers from one study - which is what an
+            # ascertainment artefact looks like. These two columns expose that:
+            # the largest single study's share of carriers, and whether dropping
+            # one study more than halves the estimate.
+            "max_study_share": max_share,
+            "study_dominated": "" if not observed or loso_min is None else int(
+                loso_min < 0.5 * freq),
             "frequency_band": band,
             "flag": flag,
         })

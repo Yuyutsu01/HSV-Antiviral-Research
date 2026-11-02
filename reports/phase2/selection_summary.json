@@ -1,11 +1,11 @@
 {
   "aim2_contrast": {
     "HSV1": {
-      "UL23_pN_pS": 0.3823586435598123,
-      "UL30_pN_pS": 0.1748474814526312,
-      "ci_high": 0.2487560101690908,
-      "ci_low": 0.17093940372439326,
-      "difference": 0.2075111621071811,
+      "UL23_pN_pS": 0.37198759651431285,
+      "UL30_pN_pS": 0.17153736829653674,
+      "ci_high": 0.23886384466029367,
+      "ci_low": 0.16523026043169178,
+      "difference": 0.2004502282177761,
       "fraction_of_resamples_UL23_higher": 1.0
     },
     "HSV2": {
@@ -19,50 +19,50 @@
     "HSV1:UL23": {
       "Sd": 609.0,
       "ci": [
-        0.352250192272526,
-        0.4217371656083353
+        0.3387679132920852,
+        0.40635441721974763
       ],
-      "n_isolates": 251,
-      "pN_pS": 0.3823586435598123,
+      "n_isolates": 237,
+      "pN_pS": 0.37198759651431285,
       "reference_minority_positions": 4,
       "reliable": true,
-      "top5_site_share_of_nonsyn": 0.481
+      "top5_site_share_of_nonsyn": 0.495
     },
     "HSV1:UL30": {
-      "Sd": 1305.5,
+      "Sd": 1251.5,
       "ci": [
-        0.16071713282626574,
-        0.19031511673732263
+        0.15733425296262843,
+        0.18687246724634773
       ],
-      "n_isolates": 253,
-      "pN_pS": 0.1748474814526312,
+      "n_isolates": 239,
+      "pN_pS": 0.17153736829653674,
       "reference_minority_positions": 3,
       "reliable": true,
-      "top5_site_share_of_nonsyn": 0.472
+      "top5_site_share_of_nonsyn": 0.465
     },
     "HSV1:UL5": {
-      "Sd": 983.0,
+      "Sd": 935.0,
       "ci": [
-        0.15781580041597615,
-        0.2006735989730851
+        0.15521595713079378,
+        0.19806685821083073
       ],
-      "n_isolates": 256,
-      "pN_pS": 0.1766919445062976,
+      "n_isolates": 242,
+      "pN_pS": 0.1756702944677934,
       "reference_minority_positions": 4,
       "reliable": true,
-      "top5_site_share_of_nonsyn": 0.572
+      "top5_site_share_of_nonsyn": 0.573
     },
     "HSV1:UL52": {
-      "Sd": 1764.0,
+      "Sd": 1647.0,
       "ci": [
-        0.12347355308638266,
-        0.14707292290048818
+        0.12150353533757446,
+        0.14676786649105944
       ],
-      "n_isolates": 253,
-      "pN_pS": 0.13420733206604127,
+      "n_isolates": 239,
+      "pN_pS": 0.1336912229351779,
       "reference_minority_positions": 2,
       "reliable": true,
-      "top5_site_share_of_nonsyn": 0.507
+      "top5_site_share_of_nonsyn": 0.502
     },
     "HSV2:UL23": {
       "Sd": 31.0,

@@ -1,44 +1,44 @@
 {
-  "n_rows": 645,
+  "n_rows": 638,
   "per_gene": {
     "HSV1:UL23": {
-      "mean_coverage": 251.0,
+      "mean_coverage": 237.0,
       "n_by_stratum": {
-        "naive_proxy": 251
+        "naive_proxy": 237
       },
-      "n_sequences": 251,
+      "n_sequences": 237,
       "positions_covered": 376,
-      "positions_with_variation": 60,
+      "positions_with_variation": 58,
       "reference_length": 376
     },
     "HSV1:UL30": {
-      "mean_coverage": 253.0,
+      "mean_coverage": 239.0,
       "n_by_stratum": {
-        "naive_proxy": 253
+        "naive_proxy": 239
       },
-      "n_sequences": 253,
+      "n_sequences": 239,
       "positions_covered": 1235,
-      "positions_with_variation": 146,
+      "positions_with_variation": 143,
       "reference_length": 1235
     },
     "HSV1:UL5": {
-      "mean_coverage": 256.0,
+      "mean_coverage": 242.0,
       "n_by_stratum": {
-        "naive_proxy": 256
+        "naive_proxy": 242
       },
-      "n_sequences": 256,
+      "n_sequences": 242,
       "positions_covered": 882,
-      "positions_with_variation": 78,
+      "positions_with_variation": 77,
       "reference_length": 882
     },
     "HSV1:UL52": {
-      "mean_coverage": 253.0,
+      "mean_coverage": 239.0,
       "n_by_stratum": {
-        "naive_proxy": 253
+        "naive_proxy": 239
       },
-      "n_sequences": 253,
+      "n_sequences": 239,
       "positions_covered": 1058,
-      "positions_with_variation": 127,
+      "positions_with_variation": 126,
       "reference_length": 1058
     },
     "HSV2:UL23": {

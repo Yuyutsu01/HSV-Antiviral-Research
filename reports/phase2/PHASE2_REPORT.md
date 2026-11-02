@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-02
 **Reproduce with:** `p2_01_reclassification.py` → `p2_02_selection.py` → `p2_03_hp_baseline.py`
-**Dataset:** 465 isolates, 1,484 QC-passed gene sequences, frozen accession lists from Phase 1
+**Dataset:** 451 isolates, 1,628 QC-passed gene sequences, frozen accession lists from Phase 1
 
 ---
 
@@ -26,7 +26,7 @@ Threshold: at least one labelled variant above 1% in naive isolates.
 ## Aim 1 — the reclassification table
 
 644 catalogued substitutions joined to their frequency in circulating virus.
-120 are observed at all; 524 are absent from 465 isolates.
+120 are observed at all; 524 are absent from 451 isolates.
 
 | Frequency band | n |
 | --- | --- |
@@ -41,28 +41,51 @@ Every variant carries a leave-one-study-out range, recomputed by dropping each
 contributing study in turn. This matters more than expected: it marks four of
 the eight reclassification candidates as resting on a single submission.
 
-### Ten reference artefacts
+### Eleven reference artefacts
 
 Positions where the reference strain carries the minority allele, so the
 catalogued "mutation" is what nearly all circulating virus has.
 
-| Variant | Frequency | LOSO range | Studies | Fold change |
-| --- | --- | --- | --- | --- |
-| HSV-1 UL23 A265T | 0.980 (246/251) | 0.977–0.980 | 19 | — |
-| HSV-2 UL30 L60P | 0.929 | 0.922–0.938 | 6 | — |
-| HSV-2 UL30 P15S | 0.923 | 0.922–0.932 | 6 | — |
-| HSV-1 UL23 N23S | 0.916 | 0.906–0.926 | 17 | 1.0 |
-| HSV-1 UL23 K36E | 0.916 | 0.906–0.921 | 17 | 1.0 |
-| HSV-1 UL30 S33G | 0.862 | 0.844–0.866 | 19 | — |
-| HSV-2 UL30 A9T | 0.858 | 0.857–0.870 | 6 | — |
-| HSV-1 UL30 V905M | 0.810 | 0.787–0.839 | 17 | — |
-| HSV-1 UL30 T1208A | 0.798 | 0.777–0.849 | 18 | — |
-| HSV-1 UL23 R89Q | 0.590 | 0.538–0.606 | 14 | — |
+| Variant | Frequency | LOSO range | Studies | Max study share | Fold change |
+| --- | --- | --- | --- | --- | --- |
+| HSV-1 UL23 A265T | 0.979 (232/237) | 0.975–0.996 | 32 | 0.15 | — |
+| HSV-2 UL30 L60P | 0.929 (170/183) | 0.922–0.938 | 12 | 0.58 | — |
+| HSV-2 UL30 P15S | 0.923 (169/183) | 0.922–0.932 | 12 | 0.58 | — |
+| HSV-1 UL23 N23S | 0.911 (216/237) | 0.901–0.927 | 29 | 0.14 | 1.0 |
+| HSV-1 UL23 K36E | 0.911 (216/237) | 0.905–0.927 | 29 | 0.14 | 1.0 |
+| HSV-2 UL30 A9T | 0.858 (157/183) | 0.855–0.870 | 12 | 0.57 | — |
+| HSV-1 UL30 S33G | 0.854 (204/239) | 0.844–0.869 | 35 | 0.15 | — |
+| HSV-1 UL30 T1208A | 0.816 (195/239) | 0.795–0.844 | 33 | 0.15 | — |
+| HSV-1 UL30 V905M | 0.799 (191/239) | 0.786–0.828 | 31 | 0.12 | — |
+| HSV-2 UL23 G39E | 0.792 (126/159) | 0.783–0.815 | 12 | 0.48 | 2.4 |
+| HSV-1 UL23 R89Q | 0.565 (134/237) | 0.536–0.580 | 24 | 0.13 | — |
 
-All ten are robust to study dropout, and all are drawn from 6 to 19 independent
-studies. N23S and K36E are the cleanest cases in the whole table: measured
-fold change exactly 1.0 — experimentally shown not to confer resistance — and
-present in 92% of circulating HSV-1.
+All eleven are robust to study dropout, drawn from 12 to 35 independent studies,
+and **none is study-dominated** — the largest single study contributes at most
+15% of carriers for every HSV-1 entry. That matters because it is precisely the
+property the rare-but-resistant alleles below turn out to lack. These
+reclassification claims rest on broad multi-study support; those do not.
+
+N23S and K36E are the cleanest cases in the whole table: measured fold change
+exactly 1.0 — experimentally shown not to confer resistance — and present in 91%
+of circulating HSV-1, across 29 studies.
+
+### Independent corroboration of the reference artefacts
+
+A published audit of the Sauerbrei dataset, from which HerpesDRG partly
+descends, **changed the resistance status of N23S and K36E on the grounds that
+it had been "reported incorrectly"** in the source literature — three
+publications for N23S, one for K36E. It also flags R89Q and R281Q as having
+contradictions between publications that the catalogue had not indicated.
+
+Those are the same variants this table identifies, reached by a completely
+different route: that audit read the papers, this analysis counted alleles in
+451 genomes. Two independent methods converging on the same specific
+mis-annotations is the strongest external support the project's premise has.
+
+R89Q is a particularly good illustration — 56.5% population frequency across 24
+studies here, and independently flagged for undisclosed contradictory phenotype
+reports there.
 
 ### One majority allele with measured resistance
 
@@ -80,11 +103,11 @@ present above 1% in circulating virus.
 
 | Variant | Tier | Frequency | Fold change | Study-robust |
 | --- | --- | --- | --- | --- |
-| HSV-1 UL30 P920S | A | 0.257 | 1.05 | yes |
+| HSV-1 UL30 P920S | A | 0.234 | 1.05 | yes |
 | HSV-1 UL30 D672N | C | 0.229 | 1.3 | yes |
-| HSV-1 UL23 V348I | C | 0.084 | 0.8 | yes |
-| HSV-1 UL23 E43A | B | 0.024 | 1.3 | no |
-| HSV-1 UL23 I326V | B | 0.016 | 1.3 | yes |
+| HSV-1 UL23 V348I | C | 0.089 | 0.8 | yes |
+| HSV-1 UL23 E43A | B | 0.025 | 1.3 | no |
+| HSV-1 UL23 I326V | B | 0.017 | 1.3 | yes |
 | HSV-2 UL30 T1200A | C | 0.016 | 1.0 | no |
 | HSV-2 UL23 G150D | A | 0.013 | 2.0 | no |
 | HSV-1 UL30 M1226I | A | 0.012 | 1.5 | no |
@@ -93,26 +116,73 @@ The top three are solid: ten, ten and six independent studies, robust to
 dropout. The bottom four rest on one or two studies and should be reported as
 provisional.
 
-### Three circulating resistance alleles — the clinically important finding
+### Three candidate circulating resistance alleles — and none survives
 
-These run the opposite way: catalogued, *measured* resistance above 2×, and
-present in circulating virus above 1%.
+These were reported as running the opposite way: catalogued, *measured*
+resistance above 2×, and present in circulating virus above 1%. On
+investigation **all three fail**, for three different reasons. This section
+previously presented them as a clinically important finding; that was wrong.
 
-| Variant | Tier | Frequency | LOSO range | Fold change | Robust |
-| --- | --- | --- | --- | --- | --- |
-| HSV-1 UL23 R222C | B | 0.076 (19/251) | 0.018–0.088 | **98×** | yes |
-| HSV-1 UL23 R41H | A | 0.048 (12/251) | 0.040–0.054 | 2.3× | yes |
-| HSV-1 UL23 R176Q | C | 0.016 (4/251) | 0.000–0.019 | 200× | no |
+| Variant | Tier | Frequency | LOSO min | Max study share | Fold change | Verdict |
+| --- | --- | --- | --- | --- | --- | --- |
+| HSV-1 UL23 R222C | B | 0.046 (11/237) | **0.014** | **0.73** | 98× | study-dominated |
+| HSV-1 UL23 R41H | A | 0.051 (12/237) | 0.038 | 0.33 | 2.3× | **not resistant** |
+| HSV-1 UL23 R176Q | C | 0.017 (4/237) | **0.000** | **1.00** | 200× | one study only |
 
-**R222C deserves direct follow-up.** A 98-fold aciclovir resistance
-substitution in 7.6% of sequenced HSV-1 isolates is either an important
-surveillance finding or an artefact of which cohorts get sequenced. It comes
-from only two studies and the LOSO floor drops to 1.8%, so one of those studies
-dominates. The phenotype is Tier B — lab-selected, so passenger mutations are
-possible. Resolving this means reading the two source submissions directly.
+**R222C is an ascertainment artefact.** Its apparent frequency fell from 7.6% to
+4.6% once same-patient serial isolates were collapsed — 15 of its original 19
+carriers came from a single submission, and their strain names (`10-6-1`,
+`10-6-2`, `10-7-1`, `10-11-3`) encode one patient sampled repeatedly. Of the 11
+carriers that remain, **8 come from one study**, and dropping that study takes
+the estimate to 1.35%, a 3.4-fold fall. It clears the 1% robustness threshold
+only barely, which is why the binary flag still reads "robust" and why that flag
+should never be quoted on its own.
 
-R176Q at 200-fold is flagged not robust: it rests entirely on one study and the
-LOSO floor is zero.
+Its *phenotype* is not in doubt: an independent curation records R222C as
+resistant with confirmed clinical susceptibility across three publications. The
+98-fold figure is real. What fails is the claim that it circulates at
+appreciable frequency.
+
+**R176Q is worse** — 100% of its carriers come from one study and its frequency
+falls to zero on dropout. The 200-fold phenotype has no independent population
+support whatsoever.
+
+**R41H is not a resistance allele at all.** It was the only one of the three to
+survive the ascertainment checks — 33% max study share, holding at 3.8% under
+dropout — but an independent curation labels it **Sensitive** for aciclovir,
+penciclovir and brivudine across three publications, one with an explicit
+clinical-susceptibility contradiction. Its 2.3× HerpesDRG fold change sits just
+over the 2× threshold this analysis declared, which is exactly the kind of
+borderline call that threshold was always going to produce.
+
+**The honest conclusion is that this dataset provides no evidence of
+high-level resistance alleles circulating at appreciable frequency in sequenced
+HSV-1 genomes.** That is a weaker claim than the one this report originally
+made, and a more defensible one.
+
+### Half the observed catalogue is study-dominated
+
+**59 of the 120 observed labelled variants more than halve in frequency when a
+single study is dropped.** This is reported as a first-class limitation rather
+than a footnote, because it determines which frequency estimates can carry a
+claim.
+
+Two new columns make it checkable per variant: `max_study_share` (the largest
+single study's share of carriers) and `study_dominated` (whether dropout more
+than halves the estimate). The split is informative rather than uniformly
+discouraging — the eleven reference artefacts are all non-dominated with max
+shares around 0.15, while the three failed resistance candidates sit at 0.73,
+1.00 and 0.33. High-frequency alleles are supported by many studies; rare ones
+usually are not. Frequency estimates below about 10% in this dataset should be
+treated as provisional unless the share column says otherwise.
+
+An implementation flaw inflated apparent robustness before this was added:
+records with no PubMed ID or BioProject received an empty study key, and empty
+keys were excluded from the dropout loop — so those isolates could never be
+dropped, and a variant carried mostly by one study plus a few unattributed
+records looked robust when it was not. The key now falls back to the accession
+prefix, which keeps a submission block together and makes every isolate
+droppable. R222C's "supported by 2 studies" was a product of that flaw.
 
 ---
 
@@ -123,18 +193,24 @@ bootstrapped over isolates (1,000 resamples, seed 20261102).
 
 | Gene | n | pN/pS | 95% CI | Reliable |
 | --- | --- | --- | --- | --- |
-| HSV-1 UL23 thymidine kinase | 251 | **0.382** | 0.352–0.422 | yes |
-| HSV-1 UL5 helicase | 256 | 0.177 | 0.158–0.201 | yes |
-| HSV-1 UL30 polymerase | 253 | **0.175** | 0.161–0.190 | yes |
-| HSV-1 UL52 primase | 253 | 0.134 | 0.124–0.147 | yes |
+| HSV-1 UL23 thymidine kinase | 237 | **0.372** | 0.339–0.406 | yes |
+| HSV-1 UL5 helicase | 242 | 0.176 | 0.155–0.198 | yes |
+| HSV-1 UL30 polymerase | 239 | **0.172** | 0.157–0.187 | yes |
+| HSV-1 UL52 primase | 239 | 0.134 | 0.122–0.147 | yes |
 | HSV-2 UL30 | 183 | 0.507 | 0.420–0.632 | yes |
 | HSV-2 UL52 | 156 | 0.549 | 0.466–0.647 | no |
 | HSV-2 UL5 | 173 | 0.156 | 0.123–0.193 | no |
 | HSV-2 UL23 | 159 | 2.488 | 1.768–3.918 | no |
 
-**The Aim 2 contrast, HSV-1: UL23 0.382 against UL30 0.175, difference +0.208
-with bootstrap interval +0.171 to +0.249, and UL23 higher in 100% of 1,000
+**The Aim 2 contrast, HSV-1: UL23 0.372 against UL30 0.172, difference +0.2005
+with bootstrap interval +0.1652 to +0.2389, and UL23 higher in 100% of 1,000
 resamples.** Confidence intervals do not overlap.
+
+This result is unchanged by the patient-level de-duplication that overturned the
+Aim 1 resistance-allele claims (it was +0.208 [+0.171, +0.249] on 465 isolates,
++0.2005 [+0.1652, +0.2389] on 451). Selection measured across a whole gene is
+not sensitive to a handful of serial isolates, which is a useful contrast with
+the single-variant frequency estimates.
 
 H2 predicted that the dispensable thymidine kinase would be under weaker
 purifying selection than the essential polymerase. It is, by more than a
@@ -159,8 +235,8 @@ substitution.**
 
 | | Isolates | Carrying a catalogued substitution |
 | --- | --- | --- |
-| HSV-1 UL5 | 256 | **0 (0.00%)** |
-| HSV-1 UL52 | 253 | **0 (0.00%)** |
+| HSV-1 UL5 | 242 | **0 (0.00%)** |
+| HSV-1 UL52 | 239 | **0 (0.00%)** |
 | HSV-2 UL5 | 173 | 2 (1.16%) |
 | HSV-2 UL52 | 156 | 0 (0.00%) |
 
@@ -260,7 +336,10 @@ The modelling arm has what it needs: 103 Tier A HSV-1 positives, 33
 experimentally validated negatives, a frequency-only baseline that is now
 quantified, and a conservation measure from the selection analysis.
 
-One item carries forward. **HSV-1 UL23 R222C needs its two source submissions
-read before publication** — a 98-fold resistance substitution at 7.6% frequency
-is either a notable surveillance result or an ascertainment artefact, and the
-difference is visible only in the source records.
+**The R222C question is now resolved: it is an ascertainment artefact.** It was
+carried forward from this report's first version as needing its source
+submissions read. Collapsing same-patient serial isolates and repairing the
+leave-one-study-out key answered it without the literature step — 8 of 11
+remaining carriers come from one study and the estimate falls 3.4-fold on
+dropout. See the revised Aim 1 section above, where none of the three candidate
+circulating resistance alleles survives.

@@ -2,12 +2,12 @@
   "baseline_carriage": {
     "HSV1:UL5": {
       "n_carrying_catalogued_substitution": 0,
-      "n_isolates": 256,
+      "n_isolates": 242,
       "proportion": 0.0
     },
     "HSV1:UL52": {
       "n_carrying_catalogued_substitution": 0,
-      "n_isolates": 253,
+      "n_isolates": 239,
       "proportion": 0.0
     },
     "HSV2:UL5": {
@@ -24,19 +24,19 @@
   "constraint_test": {
     "HSV1:UL5": {
       "n_catalogued_positions": 8,
-      "n_isolates": 256,
-      "p_more_conserved_than_random": 0.5363,
+      "n_isolates": 242,
+      "p_more_conserved_than_random": 0.5331,
       "ratio": 0.0,
       "variation_at_catalogued": 0.0,
-      "variation_gene_wide": 0.005752
+      "variation_gene_wide": 0.005681
     },
     "HSV1:UL52": {
       "n_catalogued_positions": 6,
-      "n_isolates": 253,
-      "p_more_conserved_than_random": 0.3175,
-      "ratio": 0.162,
-      "variation_at_catalogued": 0.000659,
-      "variation_gene_wide": 0.004056
+      "n_isolates": 239,
+      "p_more_conserved_than_random": 0.317,
+      "ratio": 0.172,
+      "variation_at_catalogued": 0.000697,
+      "variation_gene_wide": 0.004058
     },
     "HSV2:UL5": {
       "n_catalogued_positions": 4,

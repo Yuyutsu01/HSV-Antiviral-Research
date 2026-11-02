@@ -39,6 +39,37 @@ confirms the gene matcher selected the intended CDS rather than a paralog.
 The single HSV-1 UL29 label has no reference protein in the target set and is
 excluded from the denominator rather than counted as a failure.
 
+### What this 100% does and does not guarantee
+
+Gate 2 verifies one thing: that the reference residue a catalogue entry names
+matches the reference protein at the position it names. That is worth checking —
+it is what catches a gene matched to a paralog, or coordinates taken against a
+different strain — but it is a test of **internal consistency, not of fidelity
+to the source paper**, and the distinction matters more than the headline figure
+suggests.
+
+An independently published audit of the Sauerbrei dataset (the curation
+HerpesDRG partly descends from) lists on the order of 130 corrections, and the
+most common reason by far is *"does not contain reported mutation"* — the cited
+paper does not report the variant attributed to it. No coordinate check can
+detect that. Two concrete cases from that audit passed this gate:
+
+| Entry | Gate 2 verdict | Independent audit |
+| --- | --- | --- |
+| HSV-1 UL23 `L139V` | match (reference has L at 139) | position corrected to 138 |
+| HSV-1 UL30 `A164T` | match (reference has A at 164) | replaced by `F164L`, different PMID |
+
+Both are internally consistent and both are flagged as wrong. An off-by-one
+that lands on a residue of the same identity is invisible here, as is any entry
+mis-transcribed from its source but self-consistent.
+
+So the honest wording for the paper is that coordinate verification passed
+completely, and that it bounds one class of error only. Source-fidelity errors
+in these catalogues are real, documented, and not addressed by this gate.
+HerpesDRG is not uniformly affected — it already carries the corrected `P1124H`
+and `W781V` forms while retaining the uncorrected `L139V` and `A164T` — so the
+two curations have diverged rather than one simply inheriting the other.
+
 ---
 
 ## Dataset construction
@@ -48,7 +79,7 @@ excluded from the denominator rather than counted as a failure.
 | Accessions in frozen list | 597 | 546 | 1,143 |
 | Records returning any CDS | — | — | 975 |
 | Records with at least one target gene | — | — | 707 |
-| **Isolates retained after filtering** | — | — | **465** |
+| **Isolates retained after filtering** | — | — | **451** |
 
 ### Where the records went
 
@@ -69,11 +100,33 @@ overstating their sample by a third.
 
 | Level | Removed |
 | --- | --- |
-| Identical target-gene sequence | 197 |
+| Identical target-gene sequence | 193 |
 | Laboratory-adapted strain | 27 |
+| **Same patient, serial sample** | **18** |
 | Non-human host | 13 |
 | Serial sample, same strain name | 5 |
 | Within-study near-duplicate | 0 |
+
+The patient level was added after Phase 3, when checking HSV-1 UL23 R222C
+showed that 15 of its 19 carriers came from one submission and that their strain
+names (`10-6-1`, `10-6-2`, `10-7-1`, `10-11-3`) encode one patient sampled
+repeatedly. Collapsing identical sequences and identical strain names does not
+catch that, so a single heavily sampled patient could create an apparently
+polymorphic allele.
+
+The grouping is inferred from a naming convention rather than stated by
+submitters, so every collapse is written to `data/interim/patient_collapse.tsv`
+and remains auditable. Eighteen isolates across five patients were removed
+(patient 10 contributed 10, patient 914 four).
+
+**The first version of this rule was wrong and over-collapsed badly.** It read
+strain names like `2007-22031` and `2009-13458` as patient-visit identifiers
+when they are year-accession identifiers, merging 29 independent HSV-2 isolates
+into 3 — a worse distortion than the under-collapse it was fixing. The rule now
+also requires that the prefix is not a four-digit year and that the trailing
+segments are short, two independent checks on the same distinction. HSV-2 counts
+returned to exactly their pre-fix values, which is how the over-collapse was
+confirmed gone.
 
 Non-human-host exclusion was added after the Phase 2 selection analysis
 surfaced it (see below). Frequencies are claims about virus circulating in
@@ -94,7 +147,7 @@ via PubMed ID or BioProject.
 
 | | UL23 | UL30 | UL5 | UL52 |
 | --- | --- | --- | --- | --- |
-| HSV-1 | 251 | 253 | 256 | 253 |
+| HSV-1 | 237 | 239 | 242 | 239 |
 | HSV-2 | 159 | 183 | 173 | 156 |
 
 QC rejects sequences for ambiguous residues above 2%, length deviation beyond
@@ -110,8 +163,8 @@ and removes only genuine outliers.
 
 ## Allele frequencies
 
-1,048 variant rows across 7,118 reference positions. Variable positions range
-from 3.6% of residues (HSV-2 UL5) to 27.1% (HSV-2 UL23).
+638 variant rows across 7,118 reference positions, after the divergence filter
+and the patient-level collapse.
 
 **70% of variant rows are singletons** — observed in exactly one isolate. At
 these sample sizes a singleton is indistinguishable from a sequencing or
@@ -139,8 +192,8 @@ carries no clinical information.
 | --- | --- |
 | Above 50% — reference is the minority allele | 11 |
 | 10% to 50% — common natural polymorphism | 15 |
-| 1% to 10% | 35 |
-| Below 1% | 69 |
+| 1% to 10% | 36 |
+| Below 1% | 58 |
 
 The 10–50% band is the more interesting of the two upper bands. These are not
 reference artefacts; they are genuinely polymorphic positions where a
@@ -155,11 +208,11 @@ be read together.
 | Variant | Frequency | Max fold change | Reading |
 | --- | --- | --- | --- |
 | HSV-2 UL23 G39E | 0.792 | 2.4× | Majority allele, mild measured resistance. The strongest single reclassification candidate |
-| HSV-1 UL30 P920S | 0.252 | 1.05× | Common polymorphism, no resistance. Correctly a negative |
-| HSV-1 UL23 R41H | 0.046 | 2.3× | Borderline on both axes |
+| HSV-1 UL30 P920S | 0.234 | 1.05× | Common polymorphism, no resistance. Correctly a negative |
+| HSV-1 UL23 R41H | 0.051 | 2.3× | Borderline on both axes |
 | HSV-1 UL30 L802F | 0.008 | 7.4× | Genuine resistance, appropriately rare |
 | HSV-1 UL30 T821M | 0.004 | 6.25× | Genuine resistance, appropriately rare |
-| **HSV-1 UL30 S724N** | **0.004** | **72×** | High-level resistance, one isolate in 258 |
+| **HSV-1 UL30 S724N** | **0.004** | **72×** | High-level resistance, one isolate in 239 |
 
 **The pattern holds in the right direction.** Mutations with large measured
 fold changes are rare in circulating virus; the catalogued entries that are
@@ -234,9 +287,10 @@ produced wrong output.
 | `data/raw/reference/*.faa` | Reference proteins for the four target genes |
 | `data/interim/isolate_metadata.tsv` | Per-accession strain, host, location, date, study |
 | `data/interim/cds_qc.tsv` | Per-sequence QC verdict and flags |
+| `data/interim/patient_collapse.tsv` | Every inferred same-patient collapse, auditable |
 | `data/processed/genes/*.faa` | QC-passed, de-duplicated protein sequences |
 | `data/processed/gate2_coordinate_check.tsv` | Per-label coordinate verdict |
-| `data/processed/allele_frequencies.tsv` | 1,048 variants with Wilson intervals |
+| `data/processed/allele_frequencies.tsv` | 638 variants with Wilson intervals |
 | `reports/phase1/*.json` | Machine-readable summaries |
 
 ---

@@ -185,10 +185,64 @@ def extract():
     return records, qc_rows, nucleotides
 
 
+def patient_groups(records, meta):
+    """Infer which isolates come from the same patient, from strain names.
+
+    Many studies name serial isolates <patient>-<visit>-<sample>: 10-6-1, 10-6-2,
+    10-7-1 are one patient sampled repeatedly, not three independent infections.
+    Collapsing identical sequences and identical strain names does not catch
+    these, which inflates the denominator and, worse, lets one heavily sampled
+    patient create an apparently polymorphic allele.
+
+    Two deliberate restrictions, because over-collapsing would be a worse error
+    than the one being fixed:
+
+      numeric prefix only   10-6-1 groups on "10"; INV-25C and IV-7 do not
+                            group, because an alphabetic prefix is usually a
+                            site or collection code, not a patient
+      not a year            2007-22031 and 2009-13458 are year-accession
+                            identifiers, not patient-visit. Grouping on them
+                            collapsed 29 independent HSV-2 isolates into 3,
+                            which is a worse error than the under-collapse this
+                            function exists to fix
+      short tail segments   a patient-visit-sample id has small components
+                            (10-6-1, 914-h2); a 5-digit tail like 2007-22031 is
+                            an accession number. This is a second, independent
+                            check on the same distinction, deliberately so
+      scoped to a study     patient "10" in one study is unrelated to patient
+                            "10" in another, so the key includes the study (or
+                            the accession's letter prefix when no study is
+                            recorded, which keeps a submission block together)
+
+    A prefix seen only once is not a group and is left alone. Returns a map from
+    (virus, accession) to a patient key, only for isolates that share one.
+    """
+    buckets = defaultdict(list)
+    for (virus, acc) in sorted(records):
+        m = meta.get(acc, {})
+        strain = (m.get("strain_key") or "").strip()
+        hit = re.match(r"^(\d+)-", strain)
+        if not hit:
+            continue
+        prefix = hit.group(1)
+        if len(prefix) == 4 and 1900 <= int(prefix) <= 2100:
+            continue
+        if any(len(seg) > 3 for seg in strain.split("-")[1:]):
+            continue
+        scope = m.get("study_key") or "ACC:" + re.match(r"^([A-Za-z]+)", acc).group(1)
+        buckets[(virus, scope, prefix)].append((virus, acc))
+    return {member: key
+            for key, members in buckets.items() if len(members) > 1
+            for member in members}
+
+
 def deduplicate(records, meta):
-    """Three-level collapse. Returns kept accessions and a per-level tally."""
+    """Four-level collapse. Returns kept accessions and a per-level tally."""
     kept, reasons = {}, defaultdict(int)
     seen_seq, seen_strain, seen_study = {}, {}, defaultdict(set)
+    patients = patient_groups(records, meta)
+    seen_patient = {}
+    collapsed = []
 
     # Deterministic order so the kept representative never depends on dict order.
     for (virus, acc) in sorted(records):
@@ -219,6 +273,13 @@ def deduplicate(records, meta):
             reasons["serial_same_strain"] += 1
             continue
 
+        pkey = patients.get((virus, acc))
+        if pkey is not None and pkey in seen_patient:
+            reasons["same_patient_serial"] += 1
+            collapsed.append((acc, skey, "|".join(map(str, pkey)),
+                              seen_patient[pkey]))
+            continue
+
         study = m.get("study_key", "")
         if study:
             if sig in seen_study[study]:
@@ -229,7 +290,20 @@ def deduplicate(records, meta):
         seen_seq[sig] = acc
         if skey:
             seen_strain[(virus, skey)] = acc
+        if pkey is not None:
+            seen_patient[pkey] = acc
         kept[(virus, acc)] = genes
+
+    # Every patient collapse is written out, because the grouping is inferred
+    # from a naming convention rather than stated by the submitter and has to
+    # stay auditable.
+    if collapsed:
+        with open(INTERIM / "patient_collapse.tsv", "w", newline="",
+                  encoding="utf-8") as fh:
+            w = csv.writer(fh, delimiter="\t")
+            w.writerow(["dropped_accession", "strain", "patient_key",
+                        "kept_representative"])
+            w.writerows(collapsed)
     return kept, dict(reasons)
 
 
