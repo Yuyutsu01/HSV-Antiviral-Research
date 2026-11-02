@@ -1,11 +1,11 @@
 {
   "figure1A_bands": {
-    "Common (5-50%)": 15,
+    "Common (10-50%)": 15,
     "Majority (>50%)": 11,
     "Not observed": 516,
     "Rare (<1%)": 21,
     "Singleton": 45,
-    "Uncommon (1-5%)": 36
+    "Uncommon (1-10%)": 36
   },
   "figure1B": {
     "max_fold_change_at_or_above_5pc": 2.4,

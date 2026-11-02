@@ -131,8 +131,8 @@ def figure1():
 
     # ---- panel A: the 644 by frequency band
     order = [("not_observed", "Not observed"), ("singleton", "Singleton"),
-             ("rare", "Rare (<1%)"), ("uncommon_polymorphism", "Uncommon (1-5%)"),
-             ("common_polymorphism", "Common (5-50%)"),
+             ("rare", "Rare (<1%)"), ("uncommon_polymorphism", "Uncommon (1-10%)"),
+             ("common_polymorphism", "Common (10-50%)"),
              ("majority_allele", "Majority (>50%)")]
     counts = {}
     for r in rc:
@@ -202,17 +202,27 @@ def figure1():
     # Label the variants the text discusses, and only those. R222C is labelled
     # leftwards on purpose: it sits at 4.6%, just outside the shaded region, and
     # a label running rightwards would read as though it were inside.
+    # R41H and P920S both sit within a few points of the 2x line, so they are
+    # pushed clear of it in opposite directions rather than labelled in place:
+    # R41H above, where the gap to the 5x line is widest, and P920S below.
     place = {"R176Q": ((7, -1), "left"), "R222C": ((-7, -1), "right"),
-             "S724N": ((7, -2), "left"), "R41H": ((-7, 3), "right"),
-             "G39E": ((-7, 4), "right"), "P920S": ((0, 8), "center")}
+             "S724N": ((7, -2), "left"), "R41H": ((-6, 9), "right"),
+             "G39E": ((-7, 5), "right"), "P920S": ((2, -11), "center")}
     for r in obs:
         spec = place.get(r["aa_change"])
         if spec:
             (dx, dy), ha = spec
+            # A label pushed clear of a crowded line is far enough from its
+            # point to be read as belonging to a neighbour, so those two get
+            # a hairline leader. The rest sit against their point and do not.
+            arrow = (dict(arrowstyle="-", lw=0.4, color=C["floor"],
+                          shrinkA=0.5, shrinkB=2.5)
+                     if abs(dy) >= 9 else None)
             axB.annotate("%s %s" % (r["gene"], r["aa_change"]),
                          (num(r["frequency"]), num(r["max_fold_change"])),
                          textcoords="offset points", xytext=(dx, dy),
-                         fontsize=6.2, color=C["ink"], ha=ha, zorder=5)
+                         fontsize=6.2, color=C["ink"], ha=ha, zorder=5,
+                         arrowprops=arrow)
 
     axB.set_xlabel("Frequency in circulating virus (log)")
     axB.set_ylabel("Maximum measured fold change (log)")

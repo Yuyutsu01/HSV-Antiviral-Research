@@ -26,7 +26,7 @@ kinase (UL23), DNA polymerase (UL30), helicase (UL5) and primase (UL52) from
 
 Of 644 catalogued substitutions, **128 occur in circulating virus and 516 do
 not**. Eleven are the *majority* allele, meaning the reference sequence carries
-the minority residue; a further 15 exceed 5%. Seven are recommended for
+the minority residue; a further 15 exceed 10%. Seven are recommended for
 reclassification as polymorphisms. Forty-one are common in circulation but have
 never been phenotyped, and are the clearest target for future assay work.
 Three initially appeared to be circulating resistance alleles; none survives
@@ -192,8 +192,8 @@ Of 644 catalogued substitutions, 128 occur in circulating virus (Figure 1A).
 | Not observed | 516 | No population evidence either way |
 | Singleton | 45 | One carrier |
 | Rare (<1%) | 21 | |
-| Uncommon (1–5%) | 36 | |
-| **Common (5–50%)** | **15** | |
+| Uncommon (1–10%) | 36 | |
+| **Common (10–50%)** | **15** | |
 | **Majority (>50%)** | **11** | The reference carries the minority residue |
 
 Interpretive flags:
@@ -201,17 +201,17 @@ Interpretive flags:
 | Flag | n | What it means |
 | --- | --- | --- |
 | `reference_artifact` | 10 | Majority allele, no measured resistance |
-| `reclassify_as_polymorphism` | 7 | Catalogued as resistance-associated, common, fold change below 2× |
-| `unphenotyped_but_common` | 41 | Common in circulation, never phenotyped |
+| `reclassify_as_polymorphism` | 7 | Catalogued as resistance-associated, above 1%, fold change at or below 2× |
+| `unphenotyped_but_common` | 41 | Above 1% in circulation, never phenotyped |
 | `consistent_rare` | 60 | Rare, as a resistance determinant should be |
 | `consistent_with_resistance` | 6 | Rare and phenotypically resistant |
-| `circulating_resistance_allele` | 3 | Common **and** resistant — all three fail on inspection |
+| `circulating_resistance_allele` | 3 | Above 1%, fold change above 2× — all three fail on inspection |
 | `majority_allele_with_measured_resistance` | 1 | |
 
 **The seven `reclassify_as_polymorphism` entries are the paper's concrete
 deliverable**, and the 41 `unphenotyped_but_common` entries are its clearest
-call to action: these are common enough that a laboratory encountering them will
-have to interpret them, and no phenotype exists.
+call to action: each is carried by more than 1% of circulating virus, so a
+laboratory will meet them and has no phenotype to interpret them with.
 
 ### 3.1 The three apparent circulating resistance alleles
 
@@ -246,13 +246,20 @@ observed in circulating virus and 211 are not, and the two groups differ in
 measured resistance: median fold change 1.5× for the observed and 5.0× for the
 unobserved.
 
-The informative part of the plot is empty. Above 5% frequency the strongest
-phenotype in the catalogue is **2.4×**: two substitutions clear the declared
-2-fold threshold at that frequency, both marginally (UL23 R41H at 2.3×, UL30
-G39E at 2.4×), and **none reaches 5×**. There is no common substitution in
-circulating HSV with a strong measured resistance phenotype. That absence is the
-reassuring reading of Aim 1, and it is only visible once the denominator
-exists.
+The informative part of the plot is empty. Taking 5% as the cut — half the
+band boundary used in the table above, so that the claim is made over a wider
+set of substitutions rather than a narrower one — the strongest phenotype
+above it is **2.4×**. Two substitutions clear the declared 2-fold threshold at
+that frequency, both marginally (UL23 R41H at 2.3×, UL30 G39E at 2.4×), and
+**none reaches 5×**.
+
+The nearest approach to a counterexample is UL23 R222C, at 98-fold and 4.6%,
+just below the cut — and §3.1 is the reason it does not qualify on frequency
+either: 8 of its 11 carriers come from one submission, and dropping that
+submission takes it to 1.4%. Subject to that, there is no substitution in
+circulating HSV that is both reasonably common and strongly resistant by
+measurement. The absence is the reassuring reading of Aim 1, and it is only
+visible once the denominator exists.
 
 ## 4. Aims 2 and 3
 
@@ -274,11 +281,13 @@ in culture while polymerase is not — and it supplies a population-genetic
 reason why TK accumulates substitutions that then appear in resistance
 catalogues. The contrast is also insensitive to the two choices of sequence set
 that move individual allele frequencies most. Collapsing serial isolates to one
-per patient, which moves R222C's frequency by 40%, moves this contrast by 0.004;
-restricting the set to the 451 isolates whose GenBank records carry an explicit
-gene qualifier, a quarter less sequence, moves it by 0.0025. Both lie well
-inside the interval. Gene-wide rates are insensitive to sampling in a way
-single-variant frequencies are not.
+per patient, which moves R222C's frequency by 40%, moves this contrast by
+0.004. Restricting extraction to the 451 isolates whose GenBank records carry
+an explicit `gene` qualifier, discarding a quarter of the sequence and the
+HSV-2 records disproportionately, moves it by 0.0025. Both lie well inside the
+interval of ±0.03. Gene-wide rates are insensitive to sampling in a way
+single-variant frequencies are not, which is the general reason to prefer them
+for a selection contrast.
 
 HSV-2 is withheld: UL23 has only 32 synonymous sites and a pN/pS point estimate
 of 2.46 with an interval spanning 1.74–3.67, which is an artefact of the

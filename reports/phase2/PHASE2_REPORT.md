@@ -31,8 +31,8 @@ Threshold: at least one labelled variant above 1% in naive isolates.
 | Frequency band | n |
 | --- | --- |
 | Majority allele (>50%) | 11 |
-| Common polymorphism (5–50%) | 15 |
-| Uncommon polymorphism (1–5%) | 36 |
+| Common polymorphism (10–50%) | 15 |
+| Uncommon polymorphism (1–10%) | 36 |
 | Rare (<1%) | 21 |
 | Singleton (one isolate) | 45 |
 | Not observed | 516 |

@@ -67,6 +67,27 @@ def main():
     check("uncommon polymorphisms", bands.get("uncommon_polymorphism"), 36)
     check("singletons", bands.get("singleton"), 45)
     check("rare", bands.get("rare"), 21)
+
+    # The band COUNTS were right while the manuscript printed the wrong
+    # RANGES against them, which no count check could catch. The boundaries
+    # the counts were produced at are checked here, and the counts are
+    # recomputed from the frequencies against those boundaries so that the
+    # labels in the band table cannot drift away from the data again.
+    th = load(REP / "phase2" / "reclassification_summary.json")["thresholds"]
+    check("band boundary, notable", th["freq_notable"], 0.01, 1e-9)
+    check("band boundary, common", th["freq_common"], 0.10, 1e-9)
+    freqs = [float(r["frequency"]) for r in rc if r["observed"] == "1"]
+    check("recount, uncommon band (1-10%)",
+          sum(1 for f in freqs if 0.01 < f <= 0.10), 36)
+    check("recount, common band (10-50%)",
+          sum(1 for f in freqs if 0.10 < f <= 0.50), 15)
+    ms = (ROOT / "reports" / "phase4" / "MANUSCRIPT.md").read_text(
+        encoding="utf-8")
+    for bad in ("Uncommon (1–5%)", "Common (5–50%)",
+                "a further 15 exceed 5%"):
+        if bad in ms:
+            failures.append(f"manuscript prints a 5% band boundary, but the "
+                            f"bands are cut at 1% and 10%: {bad!r}")
     check("reference_artifact", flags.get("reference_artifact"), 10)
     check("reclassify_as_polymorphism", flags.get("reclassify_as_polymorphism"), 7)
     check("unphenotyped_but_common", flags.get("unphenotyped_but_common"), 41)
