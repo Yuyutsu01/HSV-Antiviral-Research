@@ -1,5 +1,0 @@
-study_doi	fold_change	assay	cell_line	drug	source_url
-doi.org/10.1038/srep29903	1.0	Dye-uptake assay	Vero	Aciclovir	https://doi.org/10.1038/srep29903
-doi.org/10.7883/yoken.JJID.2018.176	0.8	Plaque reduction assay (PRA)	Vero	Aciclovir	https://doi.org/10.7883/yoken.JJID.2018.176
-doi.org/10.1016/j.antiviral.2003.08.018	<2.0 (Polymorphism)	Plaque reduction assay (PRA)	Vero	Aciclovir	https://doi.org/10.1016/j.antiviral.2003.08.018
-doi.org/10.1016/j.antiviral.2010.03.002	<2.0 (Polymorphism)	Dye-uptake assay	Vero	Aciclovir	https://doi.org/10.1016/j.antiviral.2010.03.002

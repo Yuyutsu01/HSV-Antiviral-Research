@@ -16,3 +16,11 @@ reports/*.log
 !reports/rerun_branch.log
 !reports/verify_run.log
 !reports/esm_run.log
+
+# Output of the extension tasks, written into this working directory by a
+# separate process. Untracked deliberately: it has not been through the
+# pipeline or the verifier, and some of it contradicts the committed results
+# (it reports further R222C carriers and a sensitive R41H phenotype). The
+# files stay on disk; nothing here is a result of this repository's pipeline
+# until it has been reproduced by it.
+data/extension/

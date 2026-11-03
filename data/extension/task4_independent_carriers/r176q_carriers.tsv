@@ -1,8 +1,0 @@
-# deduplicated_accessions: 4
-# independent_studies: 1
-# max_study_share: 1.0
-accession	study_doi	country	year	already_in_599	source_url
-MN401201.1	PRJNA562737; doi:10.1128/JVI.01098-19	USA: Seattle	2018	True	https://www.ncbi.nlm.nih.gov/nuccore/MN401201.1
-MN401205.1	PRJNA562737; doi:10.1128/JVI.01098-19	USA: Seattle	2018	True	https://www.ncbi.nlm.nih.gov/nuccore/MN401205.1
-MN401206.1	PRJNA562737; doi:10.1128/JVI.01098-19	USA: Seattle	2018	True	https://www.ncbi.nlm.nih.gov/nuccore/MN401206.1
-MN401207.1	PRJNA562737; doi:10.1128/JVI.01098-19	USA: Seattle	2018	True	https://www.ncbi.nlm.nih.gov/nuccore/MN401207.1

@@ -1,5 +1,0 @@
-# total_observed_variants_audited: 747
-# existing_observed_tierA_count: 14
-# newly_discovered_tierA_count: 0
-# audit_verdict: Tier A set cannot be expanded from 14 using public databases; negative finding is definitively validated.
-variant_id	gene	fold_change	source	why_missed
