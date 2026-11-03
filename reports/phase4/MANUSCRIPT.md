@@ -97,14 +97,17 @@ accession can be distinguished from an excluded one.
 | Fate | n |
 | --- | --- |
 | Analysed | **599** |
-| Excluded by a downstream coverage or divergence filter | 187 |
+| Duplicate of an isolate already counted | 187 |
 | No target-gene CDS extracted | 168 |
 | Failed CDS quality control | 127 |
 | Laboratory-adapted strain | 30 |
 | Serial isolate from an already-represented patient | 18 |
 | Non-human host | 14 |
 
-De-duplication operates at three levels: accession, strain and patient. The
+De-duplication operates at three levels: identical sequence across all four
+genes, strain name, and patient. The three remove 281, 5 and 18 records; the
+first is much the largest and is the reason the analysed set is 599 rather
+than the 943 records from which a target gene could be read at all. The
 patient level matters more than it sounds — see §3.1.
 
 Per-gene coverage: HSV-1 239–300 sequences, HSV-2 160–253.
@@ -238,6 +241,15 @@ an apparent 7.6% frequency would have been a surveillance finding. It is not.
 Patient-level collapse reduced it from 19 carriers to 11 and 7.6% to 4.6%, and 8
 of the 11 remaining carriers come from one submission; dropping that submission
 takes the frequency to 1.4%.
+
+The obvious challenge to that verdict is that de-duplication discarded real
+carriers, so every record in the frozen query carrying R222C was re-examined:
+38 in total, of which 11 are counted. Of the other 27, ten are serial isolates
+from four patients already represented — five of them from one patient, with
+strain names of the form `10-6-1`, `10-7-1`, `10-11-3` — and seventeen are
+sequence-identical across all four target genes to a record already kept.
+**None is an independent carrier.** Counting all 38 would still leave 24 of
+them, 63%, from the single dominant submission.
 
 R41H is the interesting case, because it is **not** an artefact — 12 carriers
 across five submissions, robust to study dropout. What disqualifies it is the

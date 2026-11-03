@@ -446,7 +446,28 @@ def main():
     check("accessions analysed", fates["analysed"], 599)
     check("accessions total", sum(fates.values()), 1143)
     check("no cds extracted", fates["excluded_no_cds_extracted"], 168)
-    check("downstream filter", fates["excluded_downstream_filter"], 187)
+    check("duplicate of an already counted isolate",
+          fates["excluded_downstream_filter"], 187)
+
+    # That bucket is reachable only by passing CDS QC and then matching a
+    # kept isolate on sequence or strain, so every record in it must have no
+    # analysed gene and must not be a lab strain or a non-human host. The
+    # manuscript called it a coverage or divergence filter for a while, which
+    # described the data as bad when they were redundant.
+    dup = [r for r in rows(REL / "accession_list.tsv")
+           if r["fate"] == "excluded_downstream_filter"]
+    if any(r["n_genes_analysed"] != "0" for r in dup):
+        failures.append("a duplicate-fate record reports analysed genes")
+    if any(r["is_lab_strain"] == "1" for r in dup):
+        failures.append("a lab strain fell into the duplicate fate")
+    ex = load(REP / "phase1" / "extract_summary.json")["removed_by"]
+    check("removed as identical sequence", ex["identical"], 281)
+    check("removed as a serial isolate of one strain",
+          ex["serial_same_strain"], 5)
+    check("removed as a patient serial isolate", ex["same_patient_serial"], 18)
+    check("isolates from which a target gene could be read",
+          load(REP / "phase1" / "extract_summary.json")["isolates_with_targets"],
+          943)
     check("cds qc", fates["excluded_cds_qc"], 127)
     check("lab strain", fates["excluded_laboratory_strain"], 30)
     check("patient duplicate", fates["excluded_patient_duplicate"], 18)
