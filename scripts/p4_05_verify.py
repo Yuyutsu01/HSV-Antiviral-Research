@@ -54,6 +54,29 @@ def main():
     # ---------------------------------------------------------- Aim 1 counts
     rc = rows(REL / "reclassification_table.tsv")
     check("catalogued substitutions", len(rc), 644)
+
+    # The tier counts printed in 2.3 were Phase 0's, taken over all 700
+    # catalogue entries, in a section about the 644 substitutions. Tier A is
+    # 133 under both, which is exactly why nobody noticed the other two. Both
+    # partitions are checked, and so is the fact that they differ.
+    tiered = rows(PROC / "hsv_mutations_tiered.tsv")
+    check("catalogue entries, all variant types", len(tiered), 700)
+    subs = [r for r in tiered if r["variant_type"] == "substitution"]
+    check("catalogue entries that are substitutions", len(subs), 644)
+    for label, pool, want in (
+            ("substitutions", subs,
+             {"A_engineered": 133, "B_lab_selected": 66,
+              "C_clinical_isolate": 445}),
+            ("all variant types", tiered,
+             {"A_engineered": 133, "B_lab_selected": 89,
+              "C_clinical_isolate": 478})):
+        got = {}
+        for r in pool:
+            got[r["evidence_tier"]] = got.get(r["evidence_tier"], 0) + 1
+        for tier, n_want in want.items():
+            check(f"tier {tier[0]} over {label}", got.get(tier), n_want)
+        check(f"tiers partition the {label}", sum(got.values()), len(pool))
+
     check("observed in circulation", sum(1 for r in rc if r["observed"] == "1"), 128)
     check("not observed", sum(1 for r in rc if r["observed"] == "0"), 516)
 
@@ -83,6 +106,45 @@ def main():
           sum(1 for f in freqs if 0.10 < f <= 0.50), 15)
     ms = (ROOT / "reports" / "phase4" / "MANUSCRIPT.md").read_text(
         encoding="utf-8")
+
+    # The 5.3 breakdown omitted HSV-2 UL30, so its rows summed to 101 against
+    # a 119 used everywhere else. The row is legitimately special -- all 18
+    # are positive, so average precision is undefined on it -- but a table
+    # that silently drops a group invites the reader to find the hole first.
+    ds = load(REP / "phase3" / "dataset_summary.json")["primary_tier_A"]
+    check("primary set size", ds["n"], 119)
+    check("gene breakdown sums to the primary set",
+          sum(ds["by_gene"].values()), 119)
+    check("gene breakdown groups", len(ds["by_gene"]), 6)
+    check("HSV-2 UL30, the single-class group", ds["by_gene"]["HSV2:UL30"], 18)
+    tierA = [r for r in rc if r["evidence_tier"] == "A_engineered"]
+    check("Tier A substitutions", len(tierA), 133)
+    check("Tier A with a numeric fold change",
+          sum(1 for r in tierA if r["max_fold_change"] not in ("", "NA")), 122)
+
+    # 22 models exist and 21 are compared against the frequency baseline,
+    # which is not compared with itself; 8 are degenerate at the threshold.
+    # All three numbers appear in the prose and read as contradictions.
+    met = load(REP / "phase4" / "metrics_summary.json")
+    pbm = met["label_sets"]["primary_tier_A"]["schemes"]["position_blocks"]
+    mods = pbm["models"]
+    check("models in the grid", len(mods), 22)
+    check("models compared against the frequency baseline",
+          sum(1 for v in mods.values() if v.get("vs_frequency_ap")), 21)
+    check("models degenerate at the 2x threshold",
+          sum(1 for v in mods.values() if v.get("threshold_degenerate")), 8)
+
+    # R222C is carried by three submissions, not one. The abstract called it a
+    # single-submission artefact, which only R176Q is.
+    byname = {(r["virus"], r["aa_change"]): r for r in rc}
+    check("R222C submissions",
+          int(byname[("HSV1", "R222C")]["n_studies_carrying"]), 3)
+    check("R176Q submissions",
+          int(byname[("HSV1", "R176Q")]["n_studies_carrying"]), 1)
+    g39 = byname[("HSV2", "G39E")]
+    if g39["gene"] != "UL23" or g39["frequency_band"] != "majority_allele":
+        failures.append("G39E is HSV-2 UL23 and a majority allele; the "
+                        "manuscript once called it UL30 and common")
 
     # The repository and the paper are the same piece of work, so a reader who
     # arrives at either should see the same claim named the same way. These

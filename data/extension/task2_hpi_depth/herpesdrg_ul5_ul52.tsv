@@ -1,0 +1,44 @@
+gene	virus	position	ref_residue	alt_residue	phenotype_fold_change	drug	study_doi	notes
+UL5	HSV1	356	K	N	261.0	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL5	HSV1	352	G	C	25.0	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL5	HSV1	352	G	V	3.0	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL5	HSV1	355	M	T	6.0	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL5	HSV1	34	E	K	1.5	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL5	HSV1	341	I	S	1.5	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL5	HSV1	477	C	D	1.5	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL52	HSV1	360	F	V	158.0	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL52	HSV1	360	F	C	25.0	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL52	HSV1	902	N	T	6.0	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL52	HSV1	222	Y	C	1.5	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL52	HSV1	294	F	L	1.5	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL52	HSV1	364	S	G	1.0	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL5	HSV2	355	K	N	2800.0	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL5	HSV2	351	G	R	2196.0	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL5	HSV2	355	K	E	8.0	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL5	HSV2	340	I	V	2.1	Amenamevir	doi.org/10.1128/AAC.00494-21	
+UL52	HSV1	899	A	T	43	Pritelivir	doi.org/10.1093/jac/dkn057	
+UL52	HSV1	899	A	T	2500	Pritelivir	doi.org/10.1093/jac/dkn057	
+UL52	HSV1	899	A	T	100	Pritelivir	doi.org/10.1093/jac/dkn057	
+UL5	HSV1	356	K	Q	100	Pritelivir	doi.org/10.1093/jac/dkn057	
+UL5	HSV1	352	G	R	3333	Pritelivir	doi.org/10.1093/jac/dkn057	
+UL5	HSV1	356	K	T	100	Pritelivir	doi.org/10.1093/jac/dkn057	
+UL5	HSV1	356	K	T	124	Pritelivir	doi.org/10.1093/jac/dkn057	
+UL5	HSV1	355	M	T	15	Pritelivir	doi.org/10.1177/095632020701800102	my concern with this paper is that they do not cover other important genes eg BAY-Pr1 is 50fold resistance with no ul5 mutations discard all?
+UL5	HSV1	356	K	T	125	Pritelivir	doi.org/10.1177/095632020701800102	my concern with this paper is that they do not cover other important genes eg BAY-Pr1 is 50fold resistance with no ul5 mutations discard all?
+UL5	HSV1	352	G	R	4000	Pritelivir	doi.org/10.1177/095632020701800102	my concern with this paper is that they do not cover other important genes eg BAY-Pr1 is 50fold resistance with no ul5 mutations discard all?
+UL5	HSV1	199	A	T	50	Pritelivir	doi.org/10.1177/095632020701800102	my concern with this paper is that they do not cover other important genes eg BAY-Pr1 is 50fold resistance with no ul5 mutations discard all?
+UL5	HSV1	356	K	T	2000	Pritelivir	doi.org/10.1177/095632020701800102	my concern with this paper is that they do not cover other important genes eg BAY-Pr1 is 50fold resistance with no ul5 mutations discard all?
+UL5	HSV2	334	H	R	Polymorphism	Pritelivir	doi.org/10.1093/infdis/jiw129	
+UL5	HSV1	342	N	K	40	Pritelivir	doi.org/10.1016/j.drup.2010.11.002	
+UL5	HSV1	352	G	V	400	Pritelivir	doi.org/10.1016/j.drup.2010.11.002	
+UL5	HSV1	352	G	R	3000	Pritelivir	doi.org/10.1016/j.drup.2010.11.002	
+UL5	HSV1	355	M	T	5	Pritelivir	doi.org/10.1016/j.drup.2010.11.002	
+UL5	HSV1	356	K	N	5000	Pritelivir	doi.org/10.1016/j.drup.2010.11.002	
+UL5	HSV1	356	K	Q	150	Pritelivir	doi.org/10.1016/j.drup.2010.11.002	
+UL5	HSV1	356	K	Q	31.0	Amenamevir	doi.org/10.1093/ve/veae101	
+UL5	HSV1	356	K	Q	33	Pritelivir	doi.org/10.1093/ve/veae101	
+UL5	HSV1	356	K	N	482.0	Amenamevir	doi.org/10.1093/ve/veae101	
+UL5	HSV1	356	K	N	78	Pritelivir	doi.org/10.1093/ve/veae101	
+UL5	HSV1	355	M	I	7.0	Amenamevir	doi.org/10.1093/ve/veae101	
+UL5	HSV1	355	M	I	6.8	Pritelivir	doi.org/10.1093/ve/veae101	
+UL5	HSV1	356	K	N	5000	Pritelivir	doi.org/10.1093/jac/dkm182	

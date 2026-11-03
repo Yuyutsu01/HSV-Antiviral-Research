@@ -30,7 +30,8 @@ the minority residue; a further 15 exceed 10%. Seven are recommended for
 reclassification as polymorphisms. Forty-one are common in circulation but have
 never been phenotyped, and are the clearest target for future assay work.
 Three initially appeared to be circulating resistance alleles; none survives
-scrutiny, two as single-submission artefacts and one on a 2.3-fold phenotype.
+scrutiny: one is carried by a single submission, one is dominated by one
+submission among three, and one rests on a 2.3-fold phenotype.
 Among the 241 substitutions with a measured phenotype, none that exceeds 5%
 frequency exceeds 2.4-fold resistance: there is no common strongly resistant
 allele in circulating HSV.
@@ -104,17 +105,27 @@ accession can be distinguished from an excluded one.
 | Non-human host | 14 |
 
 De-duplication operates at three levels: accession, strain and patient. The
-patient level matters more than it sounds — see §6.1.
+patient level matters more than it sounds — see §3.1.
 
 Per-gene coverage: HSV-1 239–300 sequences, HSV-2 160–253.
 
 ### 2.3 Evidence tiers
 
+The catalogue holds 700 active entries for the four genes, of which 644 are
+single-residue substitutions; the remaining 56 are 30 nonsense, 24
+indel/frameshift and 2 other variants, which this work does not analyse. Every
+count in this paper is over the 644 unless stated otherwise.
+
 Tier is taken from `strain_generation`, keeping the strongest available per
-mutation: **A, engineered** (recombinant BAC or marker transfer; 133
-substitutions), **B, lab-selected** (89), **C, clinical isolate** (478). Tier A
-is the primary set for anything involving phenotype, because only there is the
-genotype–phenotype link experimentally isolated.
+mutation. Across the 644 substitutions: **A, engineered** (recombinant BAC or
+marker transfer) **133**, **B, lab-selected** **66**, **C, clinical isolate**
+**445**. Tier A is the primary set for anything involving phenotype, because
+only there is the genotype–phenotype link experimentally isolated.
+
+**Of the 133 Tier A substitutions, 119 reach the modelling set**: 11 carry a
+qualitative resistance call with no numeric fold change, and 3 more are
+dropped as co-mutations or for want of a reference protein. The 119 is the
+primary set throughout §§5 and 6.
 
 ### 2.4 Alignment, and a constraint worth declaring
 
@@ -151,8 +162,9 @@ rather than reported with a wide interval.
 
 ### 2.7 Features and models for Aim 4
 
-Five feature groups: frequency, conservation (per-site non-synonymous rate),
-amino-acid properties, structure, and ESM-2.
+Six feature groups: frequency, conservation (per-site non-synonymous rate),
+amino-acid properties, BLOSUM62 exchangeability, structure, and ESM-2. Each is
+run alone as a baseline and the staged models add them in that order.
 
 **Gene identity is excluded as a feature.** It predicts label prevalence
 directly — UL30 contributes 45 labels at a different base rate from UL52's 6 —
@@ -205,8 +217,8 @@ Interpretive flags:
 | `unphenotyped_but_common` | 41 | Above 1% in circulation, never phenotyped |
 | `consistent_rare` | 60 | Rare, as a resistance determinant should be |
 | `consistent_with_resistance` | 6 | Rare and phenotypically resistant |
-| `circulating_resistance_allele` | 3 | Above 1%, fold change above 2× — all three fail on inspection |
-| `majority_allele_with_measured_resistance` | 1 | |
+| `circulating_resistance_allele` | 3 | Between 1% and 50%, fold change above 2× — all three fail on inspection |
+| `majority_allele_with_measured_resistance` | 1 | Above 50% and above 2×: HSV-2 UL23 G39E, at 79% and 2.4× |
 
 **The seven `reclassify_as_polymorphism` entries are the paper's concrete
 deliverable**, and the 41 `unphenotyped_but_common` entries are its clearest
@@ -250,8 +262,8 @@ The informative part of the plot is empty. Taking 5% as the cut — half the
 band boundary used in the table above, so that the claim is made over a wider
 set of substitutions rather than a narrower one — the strongest phenotype
 above it is **2.4×**. Two substitutions clear the declared 2-fold threshold at
-that frequency, both marginally (UL23 R41H at 2.3×, UL30 G39E at 2.4×), and
-**none reaches 5×**.
+that frequency, both marginally (HSV-1 UL23 R41H at 2.3× and HSV-2 UL23 G39E
+at 2.4×, the latter a majority allele at 79%), and **none reaches 5×**.
 
 The nearest approach to a counterexample is UL23 R222C, at 98-fold and 4.6%,
 just below the cut — and §3.1 is the reason it does not qualify on frequency
@@ -341,8 +353,11 @@ No-skill floor (prevalence): **0.731**.
 | **Structure only (forest)** | **0.916** [0.853, 0.962] | **+0.185** | 0.790 | 0.15 |
 | Structure only (ridge) | 0.905 [0.834, 0.957] | +0.174 | 0.798 | 0.15 |
 | ESM-2 only | 0.848 | +0.116 | 0.728 | degenerate |
+| BLOSUM62 only (forest) | 0.802 | +0.071 | 0.722 | −0.10 |
+| Amino-acid properties only | 0.751 | +0.020 | 0.735 | 0.02 |
 | **Frequency only** | **0.723** | **−0.008** | 0.762 | −0.08 |
 | Conservation only | 0.717 | −0.014 | 0.741 | 0.07 |
+| BLOSUM62 only (ridge) | 0.715 | −0.016 | 0.735 | degenerate |
 
 **Frequency scores below its own no-skill floor, and so does conservation.**
 "The models beat the frequency baseline" is true and nearly vacuous: the
@@ -350,8 +365,9 @@ baseline has no skill to beat. The reason is structural — only **14 of 119**
 phenotyped Tier A variants are observed in circulating virus at all, so the
 frequency features are near-constant on this set.
 
-Under multiplicity correction across the 21-model grid, **only 3 models beat
-frequency on average precision** (Holm-adjusted p < 0.05): the two
+Under multiplicity correction across the 21 comparisons — every model except
+the frequency baseline itself, which is the thing being compared against —
+**only 3 models beat frequency on average precision** (Holm-adjusted p < 0.05): the two
 structure-only variants, and the full model with ESM-2 added. Seven clear
 p < 0.05 uncorrected, so the correction is what separates a reportable result
 from a grid of near-misses. The protocol anticipated this in terms: "an uncorrected
@@ -368,6 +384,13 @@ Figure 3A gives the same breakdown against each gene's prevalence floor.
 | HSV-1 UL30 | 45 | 0.62 | 0.823 | 0.622 |
 | HSV-1 UL5 | 7 | 0.57 | **0.567** | 0.525 |
 | HSV-1 UL52 | 6 | 0.50 | **0.411** | 0.533 |
+| HSV-2 UL30 | 18 | 1.00 | undefined | undefined |
+
+The six rows sum to the 119 primary variants. HSV-2 UL30 contributes 18, all
+of them resistant, so its prevalence is 1.00 and average precision is
+undefined on it — a ranking metric needs both classes present. It is shown
+rather than dropped because omitting it would leave the breakdown summing to
+101 against a 119 used everywhere else.
 
 **The model works where the active site is resolved and fails where it is not.**
 Thymidine kinase, with a well-resolved nucleoside pocket, is essentially solved.
@@ -428,8 +451,10 @@ identify what was subsequently discovered?
 
 A mutation's year is the earliest among its references. All 89 distinct study
 DOIs resolved to a publication year through Crossref, spanning 1987–2025 across
-10 publishers, so **every one of the 119 primary and 235 secondary variants
-carries a year** and the split is not confounded with journal.
+10 publishers, so **every one of the 235 labelled variants carries a year**
+and the split is not confounded with journal. The secondary set of 235 is all
+tiers together and contains the 119 Tier A primary set, rather than standing
+beside it.
 
 The cut-off was not pre-declared. Rather than choose one, all five are reported;
 2012 is nominated primary because it splits the primary set most evenly, a

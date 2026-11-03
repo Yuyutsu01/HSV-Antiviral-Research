@@ -1,0 +1,42 @@
+# deduplicated_accessions: 38
+# independent_studies: 4
+# max_study_share_new: 0.6316
+accession	study_doi	country	year	already_in_599	source_url
+OP871850.1	37319284	USA		True	https://www.ncbi.nlm.nih.gov/nuccore/OP871850.1
+OP871849.1	37319284	USA		True	https://www.ncbi.nlm.nih.gov/nuccore/OP871849.1
+OP871845.1	37319284	USA		False	https://www.ncbi.nlm.nih.gov/nuccore/OP871845.1
+KX265044.1	Unannotated_Study			False	https://www.ncbi.nlm.nih.gov/nuccore/KX265044.1
+KX265042.1	Unannotated_Study			False	https://www.ncbi.nlm.nih.gov/nuccore/KX265042.1
+KX265039.1	Unannotated_Study			False	https://www.ncbi.nlm.nih.gov/nuccore/KX265039.1
+KX265037.1	Unannotated_Study			False	https://www.ncbi.nlm.nih.gov/nuccore/KX265037.1
+KX265035.1	Unannotated_Study			False	https://www.ncbi.nlm.nih.gov/nuccore/KX265035.1
+KX265031.1	Unannotated_Study			False	https://www.ncbi.nlm.nih.gov/nuccore/KX265031.1
+KX265028.1	Unannotated_Study			False	https://www.ncbi.nlm.nih.gov/nuccore/KX265028.1
+KX265027.1	Unannotated_Study			True	https://www.ncbi.nlm.nih.gov/nuccore/KX265027.1
+KX265026.1	Unannotated_Study			False	https://www.ncbi.nlm.nih.gov/nuccore/KX265026.1
+KX265022.1	Unannotated_Study			False	https://www.ncbi.nlm.nih.gov/nuccore/KX265022.1
+KR052507.1	25855744			False	https://www.ncbi.nlm.nih.gov/nuccore/KR052507.1
+KR011312.1	25926637			False	https://www.ncbi.nlm.nih.gov/nuccore/KR011312.1
+KR011311.1	25926637			False	https://www.ncbi.nlm.nih.gov/nuccore/KR011311.1
+KR011310.1	25926637			False	https://www.ncbi.nlm.nih.gov/nuccore/KR011310.1
+KR011309.1	25926637			False	https://www.ncbi.nlm.nih.gov/nuccore/KR011309.1
+KR011308.1	25926637			False	https://www.ncbi.nlm.nih.gov/nuccore/KR011308.1
+KR011307.1	25926637			False	https://www.ncbi.nlm.nih.gov/nuccore/KR011307.1
+KR011306.1	25926637			False	https://www.ncbi.nlm.nih.gov/nuccore/KR011306.1
+KR011305.1	25926637			True	https://www.ncbi.nlm.nih.gov/nuccore/KR011305.1
+KR011303.1	25926637			False	https://www.ncbi.nlm.nih.gov/nuccore/KR011303.1
+KR011302.1	25926637			False	https://www.ncbi.nlm.nih.gov/nuccore/KR011302.1
+KR011300.1	25926637			False	https://www.ncbi.nlm.nih.gov/nuccore/KR011300.1
+KR011299.1	25926637			False	https://www.ncbi.nlm.nih.gov/nuccore/KR011299.1
+KR011297.1	25926637			True	https://www.ncbi.nlm.nih.gov/nuccore/KR011297.1
+KR011296.1	25926637			False	https://www.ncbi.nlm.nih.gov/nuccore/KR011296.1
+KR011295.1	25926637			False	https://www.ncbi.nlm.nih.gov/nuccore/KR011295.1
+KR011294.1	25926637			False	https://www.ncbi.nlm.nih.gov/nuccore/KR011294.1
+KR011290.1	25926637			False	https://www.ncbi.nlm.nih.gov/nuccore/KR011290.1
+KR011288.1	25926637			True	https://www.ncbi.nlm.nih.gov/nuccore/KR011288.1
+KR011285.1	25926637			True	https://www.ncbi.nlm.nih.gov/nuccore/KR011285.1
+KR011283.1	25926637			False	https://www.ncbi.nlm.nih.gov/nuccore/KR011283.1
+KR011282.1	25926637			True	https://www.ncbi.nlm.nih.gov/nuccore/KR011282.1
+KR011281.1	25926637			True	https://www.ncbi.nlm.nih.gov/nuccore/KR011281.1
+KR011280.1	25926637			True	https://www.ncbi.nlm.nih.gov/nuccore/KR011280.1
+KR011278.1	25926637			True	https://www.ncbi.nlm.nih.gov/nuccore/KR011278.1

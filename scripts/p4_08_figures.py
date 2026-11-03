@@ -206,7 +206,7 @@ def figure1():
     # pushed clear of it in opposite directions rather than labelled in place:
     # R41H above, where the gap to the 5x line is widest, and P920S below.
     place = {"R176Q": ((7, -1), "left"), "R222C": ((-7, -1), "right"),
-             "S724N": ((7, -2), "left"), "R41H": ((-6, 9), "right"),
+             "S724N": ((7, -2), "left"), "R41H": ((-6, 6), "right"),
              "G39E": ((-7, 5), "right"), "P920S": ((2, -11), "center")}
     for r in obs:
         spec = place.get(r["aa_change"])
@@ -217,8 +217,11 @@ def figure1():
             # a hairline leader. The rest sit against their point and do not.
             arrow = (dict(arrowstyle="-", lw=0.4, color=C["floor"],
                           shrinkA=0.5, shrinkB=2.5)
-                     if abs(dy) >= 9 else None)
-            axB.annotate("%s %s" % (r["gene"], r["aa_change"]),
+                     if abs(dy) >= 6 else None)
+            # The virus has to be named: HSV-1 UL23 R41H and HSV-2 UL23
+            # G39E are different genes, and "UL23" alone makes them one.
+            axB.annotate("%s %s %s" % (r["virus"].replace("HSV", "HSV-"),
+                                       r["gene"], r["aa_change"]),
                          (num(r["frequency"]), num(r["max_fold_change"])),
                          textcoords="offset points", xytext=(dx, dy),
                          fontsize=6.2, color=C["ink"], ha=ha, zorder=5,

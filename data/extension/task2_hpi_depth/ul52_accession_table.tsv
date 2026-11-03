@@ -1,0 +1,814 @@
+# deduplicated_accessions: 809
+# deduplicated_strains: 777
+# deduplicated_patients: 1
+accession	virus	gene	source_db	country	collection_year	host	sequence_length	CDS_start	CDS_end	has_full_CDS	lab_strain	already_in_599	retrieved_utc	url
+AB618031.1	HSV1	UL52	NCBI_Nucleotide				110563	107387	110563	True	False	True	2026-11-02T19:56:49.799888+00:00	https://www.ncbi.nlm.nih.gov/nuccore/AB618031
+BK012101.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112225	109049	112225	True	True	False	2026-11-02T19:56:49.801395+00:00	https://www.ncbi.nlm.nih.gov/nuccore/BK012101
+FJ593289.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112091	108915	112091	True	True	False	2026-11-02T19:56:49.801919+00:00	https://www.ncbi.nlm.nih.gov/nuccore/FJ593289
+GU734771.1	HSV1	UL52	NCBI_Nucleotide				112115	108945	112115	True	True	False	2026-11-02T19:56:49.801919+00:00	https://www.ncbi.nlm.nih.gov/nuccore/GU734771
+GU734772.1	HSV1	UL52	NCBI_Nucleotide				112164	108988	112164	True	False	True	2026-11-02T19:56:49.802924+00:00	https://www.ncbi.nlm.nih.gov/nuccore/GU734772
+HM585496.2	HSV1	UL52	NCBI_Nucleotide	Kenya		Homo sapiens	111705	108529	111705	True	False	True	2026-11-02T19:56:49.803428+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585496
+HM585497.2	HSV1	UL52	NCBI_Nucleotide	Kenya		Homo sapiens	111704	108528	111704	True	False	True	2026-11-02T19:56:49.803932+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585497
+HM585498.2	HSV1	UL52	NCBI_Nucleotide	Kenya		Homo sapiens	111827	108651	111827	True	False	True	2026-11-02T19:56:49.803932+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585498
+HM585499.2	HSV1	UL52	NCBI_Nucleotide	Kenya		Homo sapiens	111685	108509	111685	True	False	False	2026-11-02T19:56:49.804940+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585499
+HM585500.2	HSV1	UL52	NCBI_Nucleotide	Kenya		Homo sapiens	111685	108509	111685	True	False	False	2026-11-02T19:56:49.804940+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585500
+HM585501.2	HSV1	UL52	NCBI_Nucleotide	Kenya		Homo sapiens	111759	108583	111759	True	False	True	2026-11-02T19:56:49.805940+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585501
+HM585502.2	HSV1	UL52	NCBI_Nucleotide	Kenya		Homo sapiens	111849	108673	111849	True	False	True	2026-11-02T19:56:49.805940+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585502
+HM585503.2	HSV1	UL52	NCBI_Nucleotide	Kenya		Homo sapiens	111730	108554	111730	True	False	True	2026-11-02T19:56:49.806959+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585503
+HM585504.2	HSV1	UL52	NCBI_Nucleotide	Kenya		Homo sapiens	111699	108523	111699	True	False	True	2026-11-02T19:56:49.806959+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585504
+HM585505.2	HSV1	UL52	NCBI_Nucleotide	Kenya		Homo sapiens	111732	108556	111732	True	False	False	2026-11-02T19:56:49.807958+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585505
+HM585506.2	HSV1	UL52	NCBI_Nucleotide	Kenya		Homo sapiens	111731	108555	111731	True	False	False	2026-11-02T19:56:49.807958+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585506
+HM585507.2	HSV1	UL52	NCBI_Nucleotide	Kenya		Homo sapiens	111731	108555	111731	True	False	False	2026-11-02T19:56:49.808958+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585507
+HM585508.2	HSV1	UL52	NCBI_Nucleotide	China		Homo sapiens	111826	108650	111826	True	False	True	2026-11-02T19:56:49.808958+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585508
+HM585509.2	HSV1	UL52	NCBI_Nucleotide	Kenya		Homo sapiens	111757	108581	111757	True	False	True	2026-11-02T19:56:49.809956+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585509
+HM585510.2	HSV1	UL52	NCBI_Nucleotide	Kenya		Homo sapiens	111767	108591	111767	True	False	True	2026-11-02T19:56:49.810958+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585510
+HM585511.2	HSV1	UL52	NCBI_Nucleotide	Kenya		Homo sapiens	111904	108728	111904	True	False	False	2026-11-02T19:56:49.810958+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585511
+HM585512.2	HSV1	UL52	NCBI_Nucleotide	Japan		Homo sapiens	111996	108820	111996	True	False	True	2026-11-02T19:56:49.811957+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585512
+HM585513.2	HSV1	UL52	NCBI_Nucleotide	Japan		Homo sapiens	111823	108647	111823	True	False	False	2026-11-02T19:56:49.811957+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585513
+HM585514.2	HSV1	UL52	NCBI_Nucleotide	South Korea		Homo sapiens	111835	108659	111835	True	False	True	2026-11-02T19:56:49.812958+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585514
+HM585515.2	HSV1	UL52	NCBI_Nucleotide	South Korea		Homo sapiens	111863	108687	111863	True	False	True	2026-11-02T19:56:49.813466+00:00	https://www.ncbi.nlm.nih.gov/nuccore/HM585515
+JN400093.1	HSV1	UL52	NCBI_Nucleotide	USA: Seattle, Washington		Homo sapiens	112041	108865	112041	True	False	True	2026-11-02T19:56:49.813466+00:00	https://www.ncbi.nlm.nih.gov/nuccore/JN400093
+JN420337.1	HSV1	UL52	NCBI_Nucleotide	USA: Seattle, Washington		Homo sapiens	112019	108843	112019	True	False	True	2026-11-02T19:56:49.814469+00:00	https://www.ncbi.nlm.nih.gov/nuccore/JN420337
+JN420338.1	HSV1	UL52	NCBI_Nucleotide	USA: Seattle, Washington		Homo sapiens	112029	108853	112029	True	False	True	2026-11-02T19:56:49.814469+00:00	https://www.ncbi.nlm.nih.gov/nuccore/JN420338
+JN420339.1	HSV1	UL52	NCBI_Nucleotide	USA: Seattle, Washington		Homo sapiens	112013	108837	112013	True	False	True	2026-11-02T19:56:49.815469+00:00	https://www.ncbi.nlm.nih.gov/nuccore/JN420339
+JN420340.1	HSV1	UL52	NCBI_Nucleotide	USA: Seattle, Washington		Homo sapiens	112014	108838	112014	True	False	True	2026-11-02T19:56:49.815469+00:00	https://www.ncbi.nlm.nih.gov/nuccore/JN420340
+JN420341.1	HSV1	UL52	NCBI_Nucleotide	USA: Seattle, Washington		Homo sapiens	112079	108903	112079	True	False	True	2026-11-02T19:56:49.815469+00:00	https://www.ncbi.nlm.nih.gov/nuccore/JN420341
+JN420342.2	HSV1	UL52	NCBI_Nucleotide	USA: Seattle, Washington		Homo sapiens	111916	108740	111916	True	False	True	2026-11-02T19:56:49.816471+00:00	https://www.ncbi.nlm.nih.gov/nuccore/JN420342
+JN555585.1	HSV1	UL52	NCBI_Nucleotide	"United Kingdom: Regional Virus Laboratory,
+                     Ruchill Hospital, Glasgow"			112225	109049	112225	True	True	False	2026-11-02T19:56:49.816471+00:00	https://www.ncbi.nlm.nih.gov/nuccore/JN555585
+JQ673480.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112146	108970	112146	True	True	False	2026-11-02T19:56:49.817471+00:00	https://www.ncbi.nlm.nih.gov/nuccore/JQ673480
+JQ730035.1	HSV1	UL52	NCBI_Nucleotide	USA	01	Homo sapiens	111583	108317	111583	True	False	True	2026-11-02T19:56:49.817471+00:00	https://www.ncbi.nlm.nih.gov/nuccore/JQ730035
+JQ780693.1	HSV1	UL52	NCBI_Nucleotide				111782	108606	111782	True	True	False	2026-11-02T19:56:49.818469+00:00	https://www.ncbi.nlm.nih.gov/nuccore/JQ780693
+JX142173.1	HSV1	UL52	NCBI_Nucleotide	USA	1965	Homo sapiens	112206	109030	112206	True	False	False	2026-11-02T19:56:49.818972+00:00	https://www.ncbi.nlm.nih.gov/nuccore/JX142173
+KF498959.1	HSV1	UL52	NCBI_Nucleotide	USA	1967	Homo sapiens	111997	108821	111997	True	False	True	2026-11-02T19:56:49.819487+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KF498959
+KJ847330.1	HSV1	UL52	NCBI_Nucleotide	India	2011	Homo sapiens	111782	108606	111782	True	False	True	2026-11-02T19:56:49.819995+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KJ847330
+KM222720.1	HSV1	UL52	NCBI_Nucleotide	USA	1951	Homo sapiens	111802	108626	111802	True	False	True	2026-11-02T19:56:49.819995+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KM222720
+KM222721.1	HSV1	UL52	NCBI_Nucleotide	USA	2010	Homo sapiens	111708	108532	111708	True	True	False	2026-11-02T19:56:49.819995+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KM222721
+KM222722.1	HSV1	UL52	NCBI_Nucleotide	USA	2010	Homo sapiens	111702	108526	111702	True	True	False	2026-11-02T19:56:49.821518+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KM222722
+KM222723.1	HSV1	UL52	NCBI_Nucleotide	USA	2010	Homo sapiens	111858	108682	111858	True	True	False	2026-11-02T19:56:49.821518+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KM222723
+KM222724.1	HSV1	UL52	NCBI_Nucleotide	USA	2010	Homo sapiens	110640	107470	110640	True	True	False	2026-11-02T19:56:49.822526+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KM222724
+KM222725.1	HSV1	UL52	NCBI_Nucleotide	USA	2010	Homo sapiens	111201	108031	111201	True	True	False	2026-11-02T19:56:49.822526+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KM222725
+KM222726.1	HSV1	UL52	NCBI_Nucleotide	USA	1980	Homo sapiens	113128	109952	113128	True	False	True	2026-11-02T19:56:49.822526+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KM222726
+KM222727.1	HSV1	UL52	NCBI_Nucleotide	USA	1980	Homo sapiens	112511	109335	112511	True	False	True	2026-11-02T19:56:49.823525+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KM222727
+KR011274.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112175	108999	112175	True	False	True	2026-11-02T19:56:49.823525+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011274
+KR011275.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111930	108754	111930	True	False	False	2026-11-02T19:56:49.823525+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011275
+KR011276.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112204	109028	112204	True	False	True	2026-11-02T19:56:49.824527+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011276
+KR011277.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112136	108960	112136	True	False	False	2026-11-02T19:56:49.824527+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011277
+KR011278.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112173	108997	112173	True	False	True	2026-11-02T19:56:49.824527+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011278
+KR011279.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112174	108998	112174	True	False	True	2026-11-02T19:56:49.825524+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011279
+KR011280.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112178	109002	112178	True	False	True	2026-11-02T19:56:49.826177+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011280
+KR011281.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112235	109059	112235	True	False	True	2026-11-02T19:56:49.826177+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011281
+KR011282.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111928	108752	111928	True	False	True	2026-11-02T19:56:49.826693+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011282
+KR011283.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112182	109006	112182	True	False	False	2026-11-02T19:56:49.826693+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011283
+KR011284.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112183	109007	112183	True	False	False	2026-11-02T19:56:49.826693+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011284
+KR011285.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112186	109010	112186	True	False	True	2026-11-02T19:56:49.827703+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011285
+KR011286.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112206	109030	112206	True	False	False	2026-11-02T19:56:49.828703+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011286
+KR011288.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111998	108822	111998	True	False	True	2026-11-02T19:56:49.828703+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011288
+KR011289.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112153	108977	112153	True	False	True	2026-11-02T19:56:49.829701+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011289
+KR011290.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112017	108841	112017	True	False	False	2026-11-02T19:56:49.829701+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011290
+KR011291.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112001	108825	112001	True	False	False	2026-11-02T19:56:49.829701+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011291
+KR011292.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112118	108942	112118	True	False	False	2026-11-02T19:56:49.830701+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011292
+KR011293.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112009	108833	112009	True	False	True	2026-11-02T19:56:49.830701+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011293
+KR011294.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112069	108893	112069	True	False	False	2026-11-02T19:56:49.831703+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011294
+KR011295.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112076	108900	112076	True	False	False	2026-11-02T19:56:49.832702+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011295
+KR011296.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112195	109019	112195	True	False	False	2026-11-02T19:56:49.832702+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011296
+KR011297.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112062	108886	112062	True	False	True	2026-11-02T19:56:49.833702+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011297
+KR011298.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112191	109015	112191	True	False	True	2026-11-02T19:56:49.833702+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011298
+KR011299.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112255	109079	112255	True	False	False	2026-11-02T19:56:49.834704+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011299
+KR011300.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112180	109004	112180	True	False	False	2026-11-02T19:56:49.835210+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011300
+KR011301.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112246	109070	112246	True	False	False	2026-11-02T19:56:49.835210+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011301
+KR011302.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112139	108963	112139	True	False	False	2026-11-02T19:56:49.836219+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011302
+KR011303.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112218	109042	112218	True	False	False	2026-11-02T19:56:49.836725+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011303
+KR011304.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112158	108982	112158	True	False	True	2026-11-02T19:56:49.837230+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011304
+KR011305.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112149	108973	112149	True	False	True	2026-11-02T19:56:49.837230+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011305
+KR011306.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112241	109065	112241	True	False	False	2026-11-02T19:56:49.838238+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011306
+KR011307.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112168	108992	112168	True	False	False	2026-11-02T19:56:49.839238+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011307
+KR011308.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112208	109032	112208	True	False	False	2026-11-02T19:56:49.839238+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011308
+KR011309.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112107	108931	112107	True	False	False	2026-11-02T19:56:49.840238+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011309
+KR011310.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112196	109020	112196	True	False	False	2026-11-02T19:56:49.840238+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011310
+KR011311.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112204	109028	112204	True	False	False	2026-11-02T19:56:49.840238+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011311
+KR011312.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112177	109001	112177	True	False	False	2026-11-02T19:56:49.841241+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR011312
+KR052507.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112215	109039	112215	True	False	False	2026-11-02T19:56:49.841241+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR052507
+KR052508.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112105	108929	112105	True	False	False	2026-11-02T19:56:49.842003+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KR052508
+KT780616.1	HSV1	UL52	NCBI_Nucleotide	Russia			112143	108967	112143	True	False	True	2026-11-02T19:56:49.842003+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KT780616
+KT887224.1	HSV1	UL52	NCBI_Nucleotide	USA	1964		112041	108865	112041	True	False	True	2026-11-02T19:56:49.842003+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KT887224
+KT899744.1	HSV1	UL52	NCBI_Nucleotide	USA	1964	Homo sapiens	112058	108882	112058	True	True	False	2026-11-02T19:56:49.843535+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KT899744
+KU310657.1	HSV1	UL52	NCBI_Nucleotide	USA	01	Chlorocebus sabaeus	114717	111541	114717	True	False	False	2026-11-02T19:56:49.843535+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KU310657
+KU310658.1	HSV1	UL52	NCBI_Nucleotide	USA	01	Chlorocebus sabaeus	114206	111030	114206	True	False	False	2026-11-02T19:56:49.844573+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KU310658
+KU310660.1	HSV1	UL52	NCBI_Nucleotide	USA	01	Chlorocebus sabaeus	113908	110732	113908	True	False	False	2026-11-02T19:56:49.844573+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KU310660
+KX265022.1	HSV1	UL52	NCBI_Nucleotide				112193	109017	112193	True	False	False	2026-11-02T19:56:49.845573+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265022
+KX265023.1	HSV1	UL52	NCBI_Nucleotide				112214	109038	112214	True	False	True	2026-11-02T19:56:49.846570+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265023
+KX265024.1	HSV1	UL52	NCBI_Nucleotide				112232	109056	112232	True	False	False	2026-11-02T19:56:49.846570+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265024
+KX265025.1	HSV1	UL52	NCBI_Nucleotide				112171	108995	112171	True	False	False	2026-11-02T19:56:49.847573+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265025
+KX265026.1	HSV1	UL52	NCBI_Nucleotide				112172	108996	112172	True	False	False	2026-11-02T19:56:49.848572+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265026
+KX265027.1	HSV1	UL52	NCBI_Nucleotide				112158	108982	112158	True	False	True	2026-11-02T19:56:49.848572+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265027
+KX265028.1	HSV1	UL52	NCBI_Nucleotide				112200	109024	112200	True	False	False	2026-11-02T19:56:49.849572+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265028
+KX265029.1	HSV1	UL52	NCBI_Nucleotide				112207	109031	112207	True	False	True	2026-11-02T19:56:49.849572+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265029
+KX265030.1	HSV1	UL52	NCBI_Nucleotide				112195	109019	112195	True	False	False	2026-11-02T19:56:49.849572+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265030
+KX265031.1	HSV1	UL52	NCBI_Nucleotide				112176	109000	112176	True	False	False	2026-11-02T19:56:49.849572+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265031
+KX265032.1	HSV1	UL52	NCBI_Nucleotide				112188	109012	112188	True	False	True	2026-11-02T19:56:49.851081+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265032
+KX265033.1	HSV1	UL52	NCBI_Nucleotide				112142	108966	112142	True	False	False	2026-11-02T19:56:49.851609+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265033
+KX265034.1	HSV1	UL52	NCBI_Nucleotide				112119	108943	112119	True	False	False	2026-11-02T19:56:49.851609+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265034
+KX265035.1	HSV1	UL52	NCBI_Nucleotide				112198	109022	112198	True	False	False	2026-11-02T19:56:49.852618+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265035
+KX265036.1	HSV1	UL52	NCBI_Nucleotide				112170	108994	112170	True	False	False	2026-11-02T19:56:49.853617+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265036
+KX265037.1	HSV1	UL52	NCBI_Nucleotide				112159	108983	112159	True	False	False	2026-11-02T19:56:49.853617+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265037
+KX265038.1	HSV1	UL52	NCBI_Nucleotide				112179	109003	112179	True	False	True	2026-11-02T19:56:49.854618+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265038
+KX265039.1	HSV1	UL52	NCBI_Nucleotide				112181	109005	112181	True	False	False	2026-11-02T19:56:49.854618+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265039
+KX265040.1	HSV1	UL52	NCBI_Nucleotide				112194	109018	112194	True	False	False	2026-11-02T19:56:49.856127+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265040
+KX265041.1	HSV1	UL52	NCBI_Nucleotide				112161	108985	112161	True	False	False	2026-11-02T19:56:49.856127+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265041
+KX265042.1	HSV1	UL52	NCBI_Nucleotide				112181	109005	112181	True	False	False	2026-11-02T19:56:49.857137+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265042
+KX265043.1	HSV1	UL52	NCBI_Nucleotide				112138	108962	112138	True	False	False	2026-11-02T19:56:49.857137+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265043
+KX265044.1	HSV1	UL52	NCBI_Nucleotide				112204	109028	112204	True	False	False	2026-11-02T19:56:49.858138+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265044
+KX265045.1	HSV1	UL52	NCBI_Nucleotide				112162	108986	112162	True	False	False	2026-11-02T19:56:49.858138+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265045
+KX265046.1	HSV1	UL52	NCBI_Nucleotide				112173	108997	112173	True	False	False	2026-11-02T19:56:49.858138+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX265046
+KX424525.1	HSV1	UL52	NCBI_Nucleotide	China	2013	Homo sapiens	111976	108800	111976	True	False	True	2026-11-02T19:56:49.859139+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX424525
+KX946970.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112658	109482	112658	True	False	True	2026-11-02T19:56:49.859139+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX946970
+KY922718.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111983	108807	111983	True	False	True	2026-11-02T19:56:49.859139+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KY922718
+KY922719.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112230	109054	112230	True	False	False	2026-11-02T19:56:49.860137+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KY922719
+LT594105.1	HSV1	UL52	NCBI_Nucleotide				111907	108731	111907	True	False	True	2026-11-02T19:56:49.860137+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LT594105
+LT594106.1	HSV1	UL52	NCBI_Nucleotide				111808	108632	111808	True	False	True	2026-11-02T19:56:49.861137+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LT594106
+LT594107.1	HSV1	UL52	NCBI_Nucleotide				111993	108817	111993	True	False	True	2026-11-02T19:56:49.861137+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LT594107
+LT594108.1	HSV1	UL52	NCBI_Nucleotide				111956	108780	111956	True	False	True	2026-11-02T19:56:49.861137+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LT594108
+LT594109.1	HSV1	UL52	NCBI_Nucleotide				111746	108570	111746	True	False	True	2026-11-02T19:56:49.862137+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LT594109
+LT594110.1	HSV1	UL52	NCBI_Nucleotide				111828	108652	111828	True	False	True	2026-11-02T19:56:49.862643+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LT594110
+LT594111.1	HSV1	UL52	NCBI_Nucleotide				111845	108669	111845	True	False	True	2026-11-02T19:56:49.862643+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LT594111
+LT594112.1	HSV1	UL52	NCBI_Nucleotide				111793	108617	111793	True	False	True	2026-11-02T19:56:49.862643+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LT594112
+LT594192.1	HSV1	UL52	NCBI_Nucleotide				111783	108607	111783	True	False	True	2026-11-02T19:56:49.863650+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LT594192
+LT594457.1	HSV1	UL52	NCBI_Nucleotide				111721	108545	111721	True	False	True	2026-11-02T19:56:49.863650+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LT594457
+MF156584.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	109758	106582	109758	True	False	True	2026-11-02T19:56:49.863650+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MF156584
+MG646679.1	HSV1	UL52	NCBI_Nucleotide	India	24	Homo sapiens	111333	108160	111333	True	False	True	2026-11-02T19:56:49.864649+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG646679
+MG708284.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111788	108612	111788	True	False	True	2026-11-02T19:56:49.864649+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG708284
+MG708285.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112130	108954	112130	True	False	False	2026-11-02T19:56:49.864649+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG708285
+MG708286.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	113588	110412	113588	True	False	False	2026-11-02T19:56:49.865648+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG708286
+MG708287.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112689	109513	112689	True	False	False	2026-11-02T19:56:49.865648+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG708287
+MG708288.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112362	109186	112362	True	False	False	2026-11-02T19:56:49.865648+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG708288
+MG708289.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112530	109354	112530	True	False	False	2026-11-02T19:56:49.865648+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG708289
+MG708290.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111857	108681	111857	True	False	False	2026-11-02T19:56:49.867152+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG708290
+MG708291.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111621	108445	111621	True	False	False	2026-11-02T19:56:49.867672+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG708291
+MG708292.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111880	108704	111880	True	False	False	2026-11-02T19:56:49.867672+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG708292
+MG999838.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112377	109201	112377	True	False	True	2026-11-02T19:56:49.867672+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999838
+MG999839.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112162	108986	112162	True	False	True	2026-11-02T19:56:49.867672+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999839
+MG999841.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112169	108993	112169	True	False	True	2026-11-02T19:56:49.869190+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999841
+MG999842.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111873	108697	111873	True	False	True	2026-11-02T19:56:49.869190+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999842
+MG999843.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111820	108644	111820	True	False	True	2026-11-02T19:56:49.869190+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999843
+MG999844.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111846	108670	111846	True	False	False	2026-11-02T19:56:49.870198+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999844
+MG999845.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	110664	107488	110664	True	False	True	2026-11-02T19:56:49.871198+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999845
+MG999846.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112055	108879	112055	True	False	True	2026-11-02T19:56:49.871198+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999846
+MG999847.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112122	108946	112122	True	False	True	2026-11-02T19:56:49.872197+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999847
+MG999848.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111971	108795	111971	True	False	True	2026-11-02T19:56:49.872197+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999848
+MG999849.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111960	108784	111960	True	False	True	2026-11-02T19:56:49.873198+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999849
+MG999850.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111615	108439	111615	True	False	True	2026-11-02T19:56:49.873198+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999850
+MG999851.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112227	109051	112227	True	False	True	2026-11-02T19:56:49.874197+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999851
+MG999852.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111821	108645	111821	True	False	False	2026-11-02T19:56:49.874197+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999852
+MG999853.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112123	108947	112123	True	False	True	2026-11-02T19:56:49.875197+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999853
+MG999854.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111758	108582	111758	True	False	False	2026-11-02T19:56:49.875197+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999854
+MG999855.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112123	108947	112123	True	False	True	2026-11-02T19:56:49.875197+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999855
+MG999857.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111868	108692	111868	True	False	True	2026-11-02T19:56:49.876200+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999857
+MG999858.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111923	108747	111923	True	False	True	2026-11-02T19:56:49.876200+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999858
+MG999859.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112051	108875	112051	True	False	True	2026-11-02T19:56:49.877621+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999859
+MG999860.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111927	108751	111927	True	False	True	2026-11-02T19:56:49.877621+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999860
+MG999861.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	119689	116513	119689	True	False	True	2026-11-02T19:56:49.878621+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999861
+MG999862.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112038	108862	112038	True	False	True	2026-11-02T19:56:49.878621+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999862
+MG999863.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111832	108656	111832	True	False	False	2026-11-02T19:56:49.879622+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999863
+MG999864.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111756	108580	111756	True	False	True	2026-11-02T19:56:49.879622+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999864
+MG999865.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112212	109036	112212	True	False	True	2026-11-02T19:56:49.880622+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999865
+MG999866.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112306	109130	112306	True	False	True	2026-11-02T19:56:49.881621+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999866
+MG999867.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112233	109057	112233	True	False	False	2026-11-02T19:56:49.881621+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999867
+MG999868.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112156	108980	112156	True	False	False	2026-11-02T19:56:49.881621+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999868
+MG999869.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112189	109013	112189	True	False	True	2026-11-02T19:56:49.881621+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999869
+MG999870.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112256	109080	112256	True	False	True	2026-11-02T19:56:49.883125+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999870
+MG999871.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112228	109052	112228	True	False	False	2026-11-02T19:56:49.883125+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999871
+MG999873.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111921	108745	111921	True	False	True	2026-11-02T19:56:49.884132+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999873
+MG999874.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111807	108631	111807	True	False	True	2026-11-02T19:56:49.884132+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999874
+MG999875.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112058	108882	112058	True	False	False	2026-11-02T19:56:49.885132+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999875
+MG999876.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112223	109047	112223	True	False	False	2026-11-02T19:56:49.885132+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999876
+MG999877.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111907	108731	111907	True	False	True	2026-11-02T19:56:49.886133+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999877
+MG999878.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112181	109005	112181	True	False	False	2026-11-02T19:56:49.886133+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999878
+MG999879.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111985	108809	111985	True	False	False	2026-11-02T19:56:49.886133+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999879
+MG999880.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112110	109270	112110	True	False	True	2026-11-02T19:56:49.887638+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999880
+MG999881.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112216	109040	112216	True	False	True	2026-11-02T19:56:49.887638+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999881
+MG999882.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111880	108704	111880	True	False	True	2026-11-02T19:56:49.889149+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999882
+MG999883.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112272	109096	112272	True	False	True	2026-11-02T19:56:49.889149+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999883
+MG999884.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111820	108644	111820	True	False	True	2026-11-02T19:56:49.889149+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999884
+MG999885.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111782	108606	111782	True	False	True	2026-11-02T19:56:49.890182+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999885
+MG999886.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112164	108988	112164	True	False	True	2026-11-02T19:56:49.890182+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999886
+MG999887.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112146	108970	112146	True	False	False	2026-11-02T19:56:49.890182+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999887
+MG999888.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111819	108643	111819	True	False	False	2026-11-02T19:56:49.891183+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999888
+MG999889.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112150	108974	112150	True	False	False	2026-11-02T19:56:49.891183+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999889
+MG999890.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111902	108726	111902	True	False	False	2026-11-02T19:56:49.892184+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999890
+MG999891.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112205	109029	112205	True	False	True	2026-11-02T19:56:49.892184+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999891
+MG999892.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112239	109063	112239	True	False	False	2026-11-02T19:56:49.893184+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999892
+MG999893.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112213	109037	112213	True	False	True	2026-11-02T19:56:49.893184+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999893
+MG999894.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112133	108957	112133	True	False	True	2026-11-02T19:56:49.894181+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999894
+MG999895.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111865	108689	111865	True	False	True	2026-11-02T19:56:49.894181+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999895
+MG999896.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112124	108948	112124	True	False	False	2026-11-02T19:56:49.895183+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999896
+MG999897.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112278	109102	112278	True	False	False	2026-11-02T19:56:49.895183+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999897
+MG999898.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111731	108555	111731	True	False	True	2026-11-02T19:56:49.896184+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999898
+MG999899.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111629	108453	111629	True	False	False	2026-11-02T19:56:49.896689+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MG999899
+MH102298.1	HSV1	UL52	NCBI_Nucleotide				111803	108627	111803	True	False	False	2026-11-02T19:56:49.896689+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH102298
+MH160358.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112169	108993	112169	True	False	True	2026-11-02T19:56:49.896689+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160358
+MH160359.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112102	108926	112102	True	False	True	2026-11-02T19:56:49.897698+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160359
+MH160360.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112158	108982	112158	True	False	True	2026-11-02T19:56:49.897698+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160360
+MH160361.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111876	108700	111876	True	False	True	2026-11-02T19:56:49.897698+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160361
+MH160362.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112158	108982	112158	True	False	True	2026-11-02T19:56:49.897698+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160362
+MH160363.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111879	108703	111879	True	False	True	2026-11-02T19:56:49.899203+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160363
+MH160364.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111979	108803	111979	True	False	True	2026-11-02T19:56:49.899203+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160364
+MH160365.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112182	109006	112182	True	False	False	2026-11-02T19:56:49.900210+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160365
+MH160366.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111939	108763	111939	True	False	True	2026-11-02T19:56:49.900210+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160366
+MH160367.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111776	108600	111776	True	False	False	2026-11-02T19:56:49.901211+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160367
+MH160368.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112133	108957	112133	True	False	True	2026-11-02T19:56:49.901211+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160368
+MH160369.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112122	108946	112122	True	False	True	2026-11-02T19:56:49.902211+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160369
+MH160370.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111834	108658	111834	True	False	True	2026-11-02T19:56:49.902211+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160370
+MH160371.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112194	109018	112194	True	False	False	2026-11-02T19:56:49.902211+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160371
+MH160372.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111969	108796	111969	True	False	True	2026-11-02T19:56:49.903718+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160372
+MH160373.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111733	108557	111733	True	False	False	2026-11-02T19:56:49.904727+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160373
+MH160374.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111811	108635	111811	True	False	True	2026-11-02T19:56:49.904727+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160374
+MH160375.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111821	108645	111821	True	False	True	2026-11-02T19:56:49.904727+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160375
+MH160376.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112058	108882	112058	True	False	True	2026-11-02T19:56:49.905969+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160376
+MH160377.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111877	108701	111877	True	False	True	2026-11-02T19:56:49.905969+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160377
+MH160378.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111792	108616	111792	True	False	False	2026-11-02T19:56:49.905969+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160378
+MH160379.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112308	109132	112308	True	False	True	2026-11-02T19:56:49.906970+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160379
+MH160380.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112157	108981	112157	True	False	False	2026-11-02T19:56:49.906970+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160380
+MH160381.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112091	108915	112091	True	False	False	2026-11-02T19:56:49.907969+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160381
+MH160382.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112054	108878	112054	True	False	False	2026-11-02T19:56:49.907969+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160382
+MH160383.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111834	108658	111834	True	False	True	2026-11-02T19:56:49.908970+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160383
+MH160384.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111959	108786	111959	True	False	False	2026-11-02T19:56:49.908970+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160384
+MH160385.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112067	108891	112067	True	False	False	2026-11-02T19:56:49.909971+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160385
+MH160386.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112199	109023	112199	True	False	False	2026-11-02T19:56:49.909971+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160386
+MH160387.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112104	108928	112104	True	False	False	2026-11-02T19:56:49.910970+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160387
+MH160389.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112230	109054	112230	True	False	True	2026-11-02T19:56:49.910970+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160389
+MH160390.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112246	109070	112246	True	False	False	2026-11-02T19:56:49.910970+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160390
+MH160391.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112117	108941	112117	True	False	False	2026-11-02T19:56:49.911973+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH160391
+MH319852.1	HSV1	UL52	NCBI_Nucleotide	India	Aug	Homo sapiens	110649	107473	110649	True	False	True	2026-11-02T19:56:49.912972+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH319852
+MH813981.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111856	108680	111856	True	False	True	2026-11-02T19:56:49.913479+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH813981
+MH813982.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112017	108841	112017	True	False	False	2026-11-02T19:56:49.913479+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH813982
+MH813983.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	110700	107524	110700	True	False	False	2026-11-02T19:56:49.913479+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH813983
+MH813984.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111990	108814	111990	True	False	False	2026-11-02T19:56:49.914986+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH813984
+MH813985.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111740	108564	111740	True	False	False	2026-11-02T19:56:49.914986+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH813985
+MH813986.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112583	109407	112583	True	False	False	2026-11-02T19:56:49.915994+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH813986
+MH813987.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111799	108623	111799	True	False	False	2026-11-02T19:56:49.915994+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH813987
+MH813988.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111881	108705	111881	True	False	False	2026-11-02T19:56:49.916993+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH813988
+MH813989.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111669	108493	111669	True	False	False	2026-11-02T19:56:49.917995+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH813989
+MH813990.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111730	108554	111730	True	False	False	2026-11-02T19:56:49.917995+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH813990
+MH813991.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112147	108971	112147	True	False	False	2026-11-02T19:56:49.917995+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH813991
+MH813992.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111760	108584	111760	True	False	False	2026-11-02T19:56:49.918994+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH813992
+MH813993.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111825	108649	111825	True	False	False	2026-11-02T19:56:49.918994+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH813993
+MH813994.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111856	108680	111856	True	False	False	2026-11-02T19:56:49.919996+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH813994
+MH925774.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111768	108592	111768	True	False	False	2026-11-02T19:56:49.919996+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH925774
+MH999838.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	113644	110468	113644	True	False	True	2026-11-02T19:56:49.919996+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH999838
+MH999839.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112220	109044	112220	True	False	False	2026-11-02T19:56:49.920995+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH999839
+MH999840.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112078	108902	112078	True	False	False	2026-11-02T19:56:49.920995+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH999840
+MH999841.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	113172	109996	113172	True	False	True	2026-11-02T19:56:49.920995+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH999841
+MH999842.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	113023	109847	113023	True	False	True	2026-11-02T19:56:49.922502+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH999842
+MH999843.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	113037	109861	113037	True	False	True	2026-11-02T19:56:49.923028+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH999843
+MH999844.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112287	109111	112287	True	False	True	2026-11-02T19:56:49.923028+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH999844
+MH999845.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	114429	111253	114429	True	False	True	2026-11-02T19:56:49.923028+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH999845
+MH999846.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111784	108608	111784	True	False	True	2026-11-02T19:56:49.923028+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH999846
+MH999847.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112516	109340	112516	True	False	True	2026-11-02T19:56:49.924040+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH999847
+MH999848.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112179	109003	112179	True	False	True	2026-11-02T19:56:49.924040+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH999848
+MH999849.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	113695	110519	113695	True	False	False	2026-11-02T19:56:49.924040+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH999849
+MH999850.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	114022	110846	114022	True	False	True	2026-11-02T19:56:49.924040+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH999850
+MH999851.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111904	108728	111904	True	False	True	2026-11-02T19:56:49.925036+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH999851
+MK952183.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111669	108493	111669	True	False	True	2026-11-02T19:56:49.925036+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MK952183
+MK952184.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112315	109139	112315	True	False	False	2026-11-02T19:56:49.925036+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MK952184
+MK952185.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112497	109321	112497	True	False	False	2026-11-02T19:56:49.926038+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MK952185
+MN136523.1	HSV1	UL52	NCBI_Nucleotide	USA	1951	Homo sapiens	112367	109191	112367	True	False	False	2026-11-02T19:56:49.927037+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN136523
+MN136524.1	HSV1	UL52	NCBI_Nucleotide	USA	1965	Homo sapiens	112225	109049	112225	True	False	False	2026-11-02T19:56:49.927037+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN136524
+MN159376.1	HSV1	UL52	NCBI_Nucleotide				112233	109057	112233	True	False	True	2026-11-02T19:56:49.928035+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN159376
+MN159377.1	HSV1	UL52	NCBI_Nucleotide				112246	109070	112246	True	False	True	2026-11-02T19:56:49.928035+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN159377
+MN159378.1	HSV1	UL52	NCBI_Nucleotide				112203	109027	112203	True	False	False	2026-11-02T19:56:49.929034+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN159378
+MN159379.1	HSV1	UL52	NCBI_Nucleotide				112225	109049	112225	True	False	False	2026-11-02T19:56:49.929034+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN159379
+MN159380.1	HSV1	UL52	NCBI_Nucleotide				112186	109010	112186	True	False	True	2026-11-02T19:56:49.930034+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN159380
+MN159381.1	HSV1	UL52	NCBI_Nucleotide				112219	109043	112219	True	False	True	2026-11-02T19:56:49.930034+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN159381
+MN159382.1	HSV1	UL52	NCBI_Nucleotide				112165	108989	112165	True	False	False	2026-11-02T19:56:49.931038+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN159382
+MN159383.1	HSV1	UL52	NCBI_Nucleotide				111944	108768	111944	True	False	False	2026-11-02T19:56:49.931038+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN159383
+MN401201.1	HSV1	UL52	NCBI_Nucleotide	USA	2018	Homo sapiens	111924	108748	111924	True	False	True	2026-11-02T19:56:49.932093+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN401201
+MN401202.1	HSV1	UL52	NCBI_Nucleotide	USA	2015	Homo sapiens	112041	108865	112041	True	False	True	2026-11-02T19:56:49.932093+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN401202
+MN401203.1	HSV1	UL52	NCBI_Nucleotide	USA	2015	Homo sapiens	112326	109150	112326	True	False	False	2026-11-02T19:56:49.933093+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN401203
+MN401204.1	HSV1	UL52	NCBI_Nucleotide	USA	2015	Homo sapiens	112286	109110	112286	True	False	False	2026-11-02T19:56:49.933093+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN401204
+MN401205.1	HSV1	UL52	NCBI_Nucleotide	USA	2016	Homo sapiens	111827	108651	111827	True	False	True	2026-11-02T19:56:49.933093+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN401205
+MN401206.1	HSV1	UL52	NCBI_Nucleotide	USA	2017	Homo sapiens	112696	109520	112696	True	False	True	2026-11-02T19:56:49.934173+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN401206
+MN401207.1	HSV1	UL52	NCBI_Nucleotide	USA	2017	Homo sapiens	111940	108764	111940	True	False	True	2026-11-02T19:56:49.935179+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN401207
+MN401208.1	HSV1	UL52	NCBI_Nucleotide	USA	2018	Homo sapiens	112538	109362	112538	True	False	False	2026-11-02T19:56:49.935179+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN401208
+MN925871.1	HSV1	UL52	NCBI_Nucleotide	USA	2015	Homo sapiens	111771	108595	111771	True	False	False	2026-11-02T19:56:49.936171+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MN925871
+MT876428.1	HSV1	UL52	NCBI_Nucleotide	Brazil	2020	Homo sapiens	112225	109049	112225	True	False	True	2026-11-02T19:56:49.936171+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MT876428
+NC	HSV2	UL52	NCBI_Nucleotide				113110	109910	113110	True	False	False	2026-11-02T19:56:49.937172+00:00	https://www.ncbi.nlm.nih.gov/nuccore/NC
+ON007132.1	HSV1	UL52	NCBI_Nucleotide				111834	108658	111834	True	False	True	2026-11-02T19:56:49.937172+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007132
+ON007133.1	HSV1	UL52	NCBI_Nucleotide				111514	108338	111514	True	False	True	2026-11-02T19:56:49.938683+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007133
+ON007134.1	HSV1	UL52	NCBI_Nucleotide				111872	108696	111872	True	False	True	2026-11-02T19:56:49.938683+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007134
+ON007135.1	HSV1	UL52	NCBI_Nucleotide				111870	108694	111870	True	False	True	2026-11-02T19:56:49.939692+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007135
+ON007136.1	HSV1	UL52	NCBI_Nucleotide				111624	108448	111624	True	False	True	2026-11-02T19:56:49.940692+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007136
+ON007139.1	HSV1	UL52	NCBI_Nucleotide				111622	108446	111622	True	False	False	2026-11-02T19:56:49.940692+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007139
+ON007140.1	HSV1	UL52	NCBI_Nucleotide				111777	108601	111777	True	False	False	2026-11-02T19:56:49.941693+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007140
+ON007142.1	HSV1	UL52	NCBI_Nucleotide				111719	108543	111719	True	False	False	2026-11-02T19:56:49.941693+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007142
+ON007143.1	HSV1	UL52	NCBI_Nucleotide				111722	108546	111722	True	False	False	2026-11-02T19:56:49.942694+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007143
+ON007144.1	HSV1	UL52	NCBI_Nucleotide				111700	108524	111700	True	False	False	2026-11-02T19:56:49.943694+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007144
+ON007145.1	HSV1	UL52	NCBI_Nucleotide				111706	108530	111706	True	False	False	2026-11-02T19:56:49.943694+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007145
+ON007147.1	HSV1	UL52	NCBI_Nucleotide				111957	108781	111957	True	False	False	2026-11-02T19:56:49.944693+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007147
+ON007148.1	HSV1	UL52	NCBI_Nucleotide				111870	108694	111870	True	False	False	2026-11-02T19:56:49.945692+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007148
+ON007149.1	HSV1	UL52	NCBI_Nucleotide				111673	108497	111673	True	False	False	2026-11-02T19:56:49.945692+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007149
+ON007151.1	HSV1	UL52	NCBI_Nucleotide				111841	108665	111841	True	False	False	2026-11-02T19:56:49.946690+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007151
+ON007153.1	HSV1	UL52	NCBI_Nucleotide				111514	108338	111514	True	False	False	2026-11-02T19:56:49.946690+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007153
+ON007154.1	HSV1	UL52	NCBI_Nucleotide				111646	108470	111646	True	False	False	2026-11-02T19:56:49.947690+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007154
+ON007155.1	HSV1	UL52	NCBI_Nucleotide				111674	108498	111674	True	False	False	2026-11-02T19:56:49.948693+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007155
+ON007156.1	HSV1	UL52	NCBI_Nucleotide				111810	108634	111810	True	False	False	2026-11-02T19:56:49.948693+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007156
+ON007157.1	HSV1	UL52	NCBI_Nucleotide				110881	107705	110881	True	False	True	2026-11-02T19:56:49.948693+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007157
+ON007158.1	HSV1	UL52	NCBI_Nucleotide				111703	108527	111703	True	False	False	2026-11-02T19:56:49.948693+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007158
+ON007160.1	HSV1	UL52	NCBI_Nucleotide				111840	108664	111840	True	False	False	2026-11-02T19:56:49.950202+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007160
+ON007161.1	HSV1	UL52	NCBI_Nucleotide				111603	108427	111603	True	False	False	2026-11-02T19:56:49.950792+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007161
+ON007162.1	HSV1	UL52	NCBI_Nucleotide				111732	108556	111732	True	False	False	2026-11-02T19:56:49.950792+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007162
+ON007163.1	HSV1	UL52	NCBI_Nucleotide				111662	108486	111662	True	False	False	2026-11-02T19:56:49.951799+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007163
+ON007164.1	HSV1	UL52	NCBI_Nucleotide				111899	108723	111899	True	False	False	2026-11-02T19:56:49.952800+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON007164
+ON152715.1	HSV1	UL52	NCBI_Nucleotide				112240	109064	112240	True	False	True	2026-11-02T19:56:49.952800+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON152715
+ON152716.1	HSV1	UL52	NCBI_Nucleotide				112174	108998	112174	True	False	False	2026-11-02T19:56:49.953799+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON152716
+ON513441.1	HSV1	UL52	NCBI_Nucleotide	China	19	Homo sapiens	112187	109011	112187	True	False	True	2026-11-02T19:56:49.953799+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON513441
+ON783214.1	HSV1	UL52	NCBI_Nucleotide	USA	01	Chlorocebus sabaeus	111487	108311	111487	True	False	False	2026-11-02T19:56:49.954801+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON783214
+ON783215.1	HSV1	UL52	NCBI_Nucleotide	USA	01	Chlorocebus sabaeus	111953	108777	111953	True	False	False	2026-11-02T19:56:49.954801+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON783215
+ON783216.1	HSV1	UL52	NCBI_Nucleotide	USA	01	Chlorocebus sabaeus	17030	13860	17030	True	False	False	2026-11-02T19:56:49.954801+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON783216
+ON783217.1	HSV1	UL52	NCBI_Nucleotide	USA	01	Chlorocebus sabaeus	17227	14048	17227	True	False	False	2026-11-02T19:56:49.956001+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON783217
+ON960054.1	HSV1	UL52	NCBI_Nucleotide	USA	1982	Homo sapiens	111648	108472	111648	True	False	True	2026-11-02T19:56:49.956001+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON960054
+ON960055.1	HSV1	UL52	NCBI_Nucleotide	USA	1982	Homo sapiens	113109	109933	113109	True	False	False	2026-11-02T19:56:49.956001+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON960055
+ON960056.1	HSV1	UL52	NCBI_Nucleotide	USA	1980	Homo sapiens	113214	110038	113214	True	False	True	2026-11-02T19:56:49.957507+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON960056
+ON960057.1	HSV1	UL52	NCBI_Nucleotide	USA	1979	Homo sapiens	112037	108861	112037	True	False	False	2026-11-02T19:56:49.957507+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON960057
+ON960058.1	HSV1	UL52	NCBI_Nucleotide	USA	1979	Homo sapiens	111653	108477	111653	True	False	True	2026-11-02T19:56:49.958519+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON960058
+ON960059.1	HSV1	UL52	NCBI_Nucleotide	USA	1974	Homo sapiens	111768	108592	111768	True	False	True	2026-11-02T19:56:49.959516+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON960059
+ON960060.1	HSV1	UL52	NCBI_Nucleotide	USA	1967	Homo sapiens	111702	108526	111702	True	False	False	2026-11-02T19:56:49.959516+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON960060
+ON960061.1	HSV1	UL52	NCBI_Nucleotide	USA	1965	Homo sapiens	112459	109283	112459	True	False	True	2026-11-02T19:56:49.960516+00:00	https://www.ncbi.nlm.nih.gov/nuccore/ON960061
+OP297860.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	113769	110593	113769	True	False	True	2026-11-02T19:56:49.961515+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297860
+OP297861.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111265	108089	111265	True	False	True	2026-11-02T19:56:49.961515+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297861
+OP297862.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	113188	110012	113188	True	False	True	2026-11-02T19:56:49.962517+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297862
+OP297863.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112068	108892	112068	True	False	True	2026-11-02T19:56:49.962517+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297863
+OP297864.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112748	109572	112748	True	False	True	2026-11-02T19:56:49.963516+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297864
+OP297865.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112003	108827	112003	True	False	False	2026-11-02T19:56:49.963516+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297865
+OP297866.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112119	108943	112119	True	False	True	2026-11-02T19:56:49.964519+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297866
+OP297867.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111755	108579	111755	True	False	True	2026-11-02T19:56:49.964519+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297867
+OP297868.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111609	108433	111609	True	False	False	2026-11-02T19:56:49.965516+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297868
+OP297869.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111065	107889	111065	True	False	False	2026-11-02T19:56:49.966517+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297869
+OP297870.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112479	109303	112479	True	False	True	2026-11-02T19:56:49.966517+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297870
+OP297871.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111942	108766	111942	True	False	True	2026-11-02T19:56:49.967523+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297871
+OP297872.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111776	108600	111776	True	False	True	2026-11-02T19:56:49.967523+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297872
+OP297873.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111813	108637	111813	True	False	True	2026-11-02T19:56:49.968524+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297873
+OP297874.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111702	108526	111702	True	False	True	2026-11-02T19:56:49.968524+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297874
+OP297875.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111585	108409	111585	True	False	False	2026-11-02T19:56:49.969521+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297875
+OP297877.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111631	108455	111631	True	False	True	2026-11-02T19:56:49.969521+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297877
+OP297878.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	110964	107788	110964	True	False	False	2026-11-02T19:56:49.970522+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297878
+OP297879.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111832	108656	111832	True	False	True	2026-11-02T19:56:49.970522+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297879
+OP297880.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111090	107914	111090	True	False	True	2026-11-02T19:56:49.970522+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297880
+OP297881.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111654	108478	111654	True	False	False	2026-11-02T19:56:49.970522+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297881
+OP297882.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111719	108543	111719	True	False	True	2026-11-02T19:56:49.972032+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297882
+OP297883.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111546	108370	111546	True	False	True	2026-11-02T19:56:49.972032+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297883
+OP297884.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	114591	111415	114591	True	False	True	2026-11-02T19:56:49.972032+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297884
+OP297885.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	111419	108243	111419	True	False	True	2026-11-02T19:56:49.973561+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297885
+OP297886.1	HSV1	UL52	NCBI_Nucleotide			Homo sapiens	112528	109352	112528	True	False	True	2026-11-02T19:56:49.974093+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP297886
+OP431868.1	HSV1	UL52	NCBI_Nucleotide				111796	108620	111796	True	False	True	2026-11-02T19:56:49.975103+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431868
+OP431869.1	HSV1	UL52	NCBI_Nucleotide				112314	109138	112314	True	False	False	2026-11-02T19:56:49.975103+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431869
+OP431870.1	HSV1	UL52	NCBI_Nucleotide				111612	108436	111612	True	False	False	2026-11-02T19:56:49.976103+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431870
+OP431871.1	HSV1	UL52	NCBI_Nucleotide				111992	108816	111992	True	False	False	2026-11-02T19:56:49.976103+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431871
+OP431872.1	HSV1	UL52	NCBI_Nucleotide				111702	108526	111702	True	False	True	2026-11-02T19:56:49.977101+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431872
+OP431873.1	HSV1	UL52	NCBI_Nucleotide				111875	108699	111875	True	False	False	2026-11-02T19:56:49.977101+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431873
+OP431874.1	HSV1	UL52	NCBI_Nucleotide				113012	109836	113012	True	False	False	2026-11-02T19:56:49.978102+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431874
+OP431875.1	HSV1	UL52	NCBI_Nucleotide				111659	108483	111659	True	False	True	2026-11-02T19:56:49.978102+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431875
+OP431876.1	HSV1	UL52	NCBI_Nucleotide				111702	108526	111702	True	False	False	2026-11-02T19:56:49.978102+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431876
+OP431877.1	HSV1	UL52	NCBI_Nucleotide				111574	108398	111574	True	False	False	2026-11-02T19:56:49.979101+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431877
+OP431878.1	HSV1	UL52	NCBI_Nucleotide				111695	108519	111695	True	False	True	2026-11-02T19:56:49.979101+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431878
+OP431879.1	HSV1	UL52	NCBI_Nucleotide				111616	108440	111616	True	False	False	2026-11-02T19:56:49.980103+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431879
+OP431880.1	HSV1	UL52	NCBI_Nucleotide				111949	108773	111949	True	False	False	2026-11-02T19:56:49.980103+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431880
+OP431881.1	HSV1	UL52	NCBI_Nucleotide				111705	108529	111705	True	False	False	2026-11-02T19:56:49.980103+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431881
+OP431882.1	HSV1	UL52	NCBI_Nucleotide				111486	108310	111486	True	False	True	2026-11-02T19:56:49.981103+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431882
+OP431883.1	HSV1	UL52	NCBI_Nucleotide				111762	108586	111762	True	False	False	2026-11-02T19:56:49.981103+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431883
+OP431885.1	HSV1	UL52	NCBI_Nucleotide				111846	108670	111846	True	False	False	2026-11-02T19:56:49.982105+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431885
+OP431886.1	HSV1	UL52	NCBI_Nucleotide				111481	108305	111481	True	False	False	2026-11-02T19:56:49.982105+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431886
+OP431887.1	HSV1	UL52	NCBI_Nucleotide				111690	108514	111690	True	False	True	2026-11-02T19:56:49.982105+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431887
+OP431888.1	HSV1	UL52	NCBI_Nucleotide				111816	108640	111816	True	False	False	2026-11-02T19:56:49.983103+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431888
+OP431889.1	HSV1	UL52	NCBI_Nucleotide				112025	108849	112025	True	False	False	2026-11-02T19:56:49.983103+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431889
+OP431890.1	HSV1	UL52	NCBI_Nucleotide				111639	108463	111639	True	False	False	2026-11-02T19:56:49.983103+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431890
+OP431891.1	HSV1	UL52	NCBI_Nucleotide				111712	108536	111712	True	False	False	2026-11-02T19:56:49.984609+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431891
+OP431892.1	HSV1	UL52	NCBI_Nucleotide				111721	108545	111721	True	False	False	2026-11-02T19:56:49.984609+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431892
+OP431893.1	HSV1	UL52	NCBI_Nucleotide				111726	108550	111726	True	False	False	2026-11-02T19:56:49.985695+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431893
+OP431894.1	HSV1	UL52	NCBI_Nucleotide				111674	108498	111674	True	False	False	2026-11-02T19:56:49.985695+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431894
+OP431895.1	HSV1	UL52	NCBI_Nucleotide				111591	108415	111591	True	False	False	2026-11-02T19:56:49.986725+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431895
+OP431896.1	HSV1	UL52	NCBI_Nucleotide				111686	108510	111686	True	False	False	2026-11-02T19:56:49.986725+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431896
+OP431898.1	HSV1	UL52	NCBI_Nucleotide				111803	108627	111803	True	False	False	2026-11-02T19:56:49.986725+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431898
+OP431899.1	HSV1	UL52	NCBI_Nucleotide				111700	108524	111700	True	False	False	2026-11-02T19:56:49.986725+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431899
+OP431900.1	HSV1	UL52	NCBI_Nucleotide				111866	108690	111866	True	False	True	2026-11-02T19:56:49.988231+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431900
+OP431901.1	HSV1	UL52	NCBI_Nucleotide				111897	108721	111897	True	False	False	2026-11-02T19:56:49.988231+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431901
+OP431902.1	HSV1	UL52	NCBI_Nucleotide				111378	108202	111378	True	False	False	2026-11-02T19:56:49.988231+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431902
+OP431903.1	HSV1	UL52	NCBI_Nucleotide				111783	108607	111783	True	False	False	2026-11-02T19:56:49.988231+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431903
+OP431904.1	HSV1	UL52	NCBI_Nucleotide				112197	109021	112197	True	False	False	2026-11-02T19:56:49.989756+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431904
+OP431905.1	HSV1	UL52	NCBI_Nucleotide				111708	108532	111708	True	False	True	2026-11-02T19:56:49.989756+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431905
+OP431906.1	HSV1	UL52	NCBI_Nucleotide				111622	108446	111622	True	False	False	2026-11-02T19:56:49.990762+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431906
+OP431908.1	HSV1	UL52	NCBI_Nucleotide				111606	108430	111606	True	False	True	2026-11-02T19:56:49.990762+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431908
+OP431909.1	HSV1	UL52	NCBI_Nucleotide				111704	108528	111704	True	False	False	2026-11-02T19:56:49.991764+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431909
+OP431910.1	HSV1	UL52	NCBI_Nucleotide				111917	108741	111917	True	False	False	2026-11-02T19:56:49.991764+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431910
+OP431911.1	HSV1	UL52	NCBI_Nucleotide				111641	108465	111641	True	False	False	2026-11-02T19:56:49.992764+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431911
+OP431913.1	HSV1	UL52	NCBI_Nucleotide				111747	108571	111747	True	False	False	2026-11-02T19:56:49.992764+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP431913
+OP871840.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	112306	109130	112306	True	False	True	2026-11-02T19:56:49.992764+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871840
+OP871841.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	114129	110953	114129	True	False	False	2026-11-02T19:56:49.993763+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871841
+OP871842.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	112937	109761	112937	True	False	True	2026-11-02T19:56:49.994268+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871842
+OP871843.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	114295	111119	114295	True	False	True	2026-11-02T19:56:49.994268+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871843
+OP871844.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	112251	109075	112251	True	False	True	2026-11-02T19:56:49.995274+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871844
+OP871845.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	113163	109987	113163	True	False	False	2026-11-02T19:56:49.996274+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871845
+OP871846.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	113284	110108	113284	True	False	True	2026-11-02T19:56:49.996836+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871846
+OP871847.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	113407	110231	113407	True	False	False	2026-11-02T19:56:49.996836+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871847
+OP871848.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	112488	109312	112488	True	False	False	2026-11-02T19:56:49.996836+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871848
+OP871849.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	112453	109277	112453	True	False	True	2026-11-02T19:56:49.997856+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871849
+OP871850.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	112445	109269	112445	True	False	True	2026-11-02T19:56:49.997856+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871850
+OP871851.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	112259	109083	112259	True	False	False	2026-11-02T19:56:49.997856+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871851
+OP871852.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	113123	109947	113123	True	False	True	2026-11-02T19:56:49.998882+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871852
+OP871853.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	111986	108810	111986	True	False	True	2026-11-02T19:56:49.998882+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871853
+OP871854.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	112615	109439	112615	True	False	True	2026-11-02T19:56:49.998882+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871854
+OP871855.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	113908	110732	113908	True	False	True	2026-11-02T19:56:49.999881+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871855
+OP871856.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	112576	109400	112576	True	False	False	2026-11-02T19:56:49.999881+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871856
+OP871857.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	112468	109292	112468	True	False	False	2026-11-02T19:56:49.999881+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871857
+OP871858.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	113473	110297	113473	True	False	False	2026-11-02T19:56:50.000881+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871858
+OP871859.1	HSV1	UL52	NCBI_Nucleotide	USA		Homo sapiens	113261	110085	113261	True	False	True	2026-11-02T19:56:50.000881+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OP871859
+OQ077661.1	HSV1	UL52	NCBI_Nucleotide				128700	125524	128700	True	False	False	2026-11-02T19:56:50.001881+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ077661
+OQ102003.1	HSV1	UL52	NCBI_Nucleotide	South Africa	2008	Homo sapiens	112371	109198	112371	True	False	True	2026-11-02T19:56:50.001881+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ102003
+OQ658624.1	HSV1	UL52	NCBI_Nucleotide	USSR	1985	Homo sapiens	112121	108945	112121	True	False	True	2026-11-02T19:56:50.001881+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ658624
+OQ724831.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2001	Homo sapiens	112344	109168	112344	True	False	True	2026-11-02T19:56:50.002882+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724831
+OQ724832.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2004	Homo sapiens	112494	109318	112494	True	False	True	2026-11-02T19:56:50.002882+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724832
+OQ724833.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2004	Homo sapiens	112264	109088	112264	True	False	True	2026-11-02T19:56:50.002882+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724833
+OQ724834.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2004	Homo sapiens	112350	109174	112350	True	False	False	2026-11-02T19:56:50.003883+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724834
+OQ724835.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2005	Homo sapiens	112120	108944	112120	True	False	True	2026-11-02T19:56:50.003883+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724835
+OQ724836.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2005	Homo sapiens	112287	109111	112287	True	False	True	2026-11-02T19:56:50.004880+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724836
+OQ724863.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2005	Homo sapiens	112264	109088	112264	True	False	True	2026-11-02T19:56:50.004880+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724863
+OQ724864.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2008	Homo sapiens	111934	108758	111934	True	False	True	2026-11-02T19:56:50.005386+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724864
+OQ724865.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2010	Homo sapiens	112220	109044	112220	True	False	False	2026-11-02T19:56:50.005893+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724865
+OQ724866.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2015	Homo sapiens	112252	109076	112252	True	False	True	2026-11-02T19:56:50.005893+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724866
+OQ724867.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2015	Homo sapiens	112435	109259	112435	True	False	True	2026-11-02T19:56:50.005893+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724867
+OQ724868.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2002	Homo sapiens	112427	109251	112427	True	False	True	2026-11-02T19:56:50.006902+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724868
+OQ724888.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2009	Homo sapiens	112031	108855	112031	True	False	True	2026-11-02T19:56:50.006902+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724888
+OQ724889.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2009	Homo sapiens	112411	109235	112411	True	False	True	2026-11-02T19:56:50.007903+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724889
+OQ724890.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2009	Homo sapiens	112334	109158	112334	True	False	True	2026-11-02T19:56:50.007903+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724890
+OQ724891.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2010	Homo sapiens	112978	109802	112978	True	False	True	2026-11-02T19:56:50.007903+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724891
+OQ724892.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2010	Homo sapiens	112336	109160	112336	True	False	True	2026-11-02T19:56:50.008909+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724892
+OQ724893.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2011	Homo sapiens	112550	109374	112550	True	False	True	2026-11-02T19:56:50.008909+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724893
+OQ724894.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2011	Homo sapiens	112491	109315	112491	True	False	True	2026-11-02T19:56:50.009902+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724894
+OQ724895.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2011	Homo sapiens	112295	109119	112295	True	False	True	2026-11-02T19:56:50.009902+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724895
+OQ724910.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2011	Homo sapiens	112829	109656	112829	True	False	True	2026-11-02T19:56:50.009902+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724910
+OQ724911.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2012	Homo sapiens	112347	109171	112347	True	False	True	2026-11-02T19:56:50.010906+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724911
+OQ724912.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2014	Homo sapiens	112296	109120	112296	True	False	True	2026-11-02T19:56:50.011418+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724912
+OQ724913.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2015	Homo sapiens	111964	108788	111964	True	False	True	2026-11-02T19:56:50.011418+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724913
+OQ724914.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2015	Homo sapiens	112806	109630	112806	True	False	True	2026-11-02T19:56:50.011418+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724914
+OQ724915.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami, FL	2015	Homo sapiens	112536	109360	112536	True	False	True	2026-11-02T19:56:50.012930+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724915
+OQ724932.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami FL	2002	Homo sapiens	112284	109108	112284	True	False	True	2026-11-02T19:56:50.012930+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724932
+OQ724933.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami FL	2003	Homo sapiens	112566	109390	112566	True	False	True	2026-11-02T19:56:50.012930+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724933
+OQ724934.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami FL	2003	Homo sapiens	112265	109089	112265	True	False	True	2026-11-02T19:56:50.013941+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724934
+OQ724935.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami FL	2003	Homo sapiens	112247	109071	112247	True	False	True	2026-11-02T19:56:50.013941+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724935
+OQ724936.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami FL	2009	Homo sapiens	112897	109721	112897	True	False	True	2026-11-02T19:56:50.013941+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724936
+OQ724937.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami FL	2009	Homo sapiens	112013	108837	112013	True	False	True	2026-11-02T19:56:50.014941+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724937
+OQ724938.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami FL	2010	Homo sapiens	113148	109972	113148	True	False	True	2026-11-02T19:56:50.014941+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724938
+OQ724939.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami FL	2010	Homo sapiens	112370	109194	112370	True	False	True	2026-11-02T19:56:50.014941+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724939
+OQ724940.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami FL	2011	Homo sapiens	112303	109127	112303	True	False	True	2026-11-02T19:56:50.015938+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724940
+OQ724941.1	HSV1	UL52	NCBI_Nucleotide	USA: Miami FL	2012	Homo sapiens	112368	109192	112368	True	False	False	2026-11-02T19:56:50.015938+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724941
+OQ724954.1	HSV1	UL52	NCBI_Nucleotide	USA: Seattle, Washington	1975/1985	Homo sapiens	112133	108957	112133	True	False	True	2026-11-02T19:56:50.016940+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724954
+OQ724955.1	HSV1	UL52	NCBI_Nucleotide	USA: Seattle, Washington	1975/1985	Homo sapiens	112077	108901	112077	True	False	True	2026-11-02T19:56:50.017937+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724955
+OQ724956.1	HSV1	UL52	NCBI_Nucleotide	USA: Seattle, Washington	1975/1985	Homo sapiens	112121	108945	112121	True	False	True	2026-11-02T19:56:50.017937+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724956
+OQ724957.1	HSV1	UL52	NCBI_Nucleotide	USA: Madison, Wisconsin	2012	Homo sapiens	112147	108971	112147	True	False	True	2026-11-02T19:56:50.018937+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724957
+OQ724962.1	HSV1	UL52	NCBI_Nucleotide	USA: Seattle, Washington	1975/1985	Homo sapiens	112055	108879	112055	True	False	False	2026-11-02T19:56:50.018937+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724962
+OQ724963.1	HSV1	UL52	NCBI_Nucleotide	USA: Seattle, Washington	1975/1985	Homo sapiens	112176	109000	112176	True	False	True	2026-11-02T19:56:50.018937+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OQ724963
+OR405519.1	HSV1	UL52	NCBI_Nucleotide				119050	115880	119050	True	False	True	2026-11-02T19:56:50.019990+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR405519
+OR771668.1	HSV1	UL52	NCBI_Nucleotide	USA	Mar	Homo sapiens	112020	108844	112020	True	False	True	2026-11-02T19:56:50.019990+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771668
+OR771669.1	HSV1	UL52	NCBI_Nucleotide	USA	Mar	Homo sapiens	111946	108770	111946	True	False	False	2026-11-02T19:56:50.019990+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771669
+OR771670.1	HSV1	UL52	NCBI_Nucleotide	USA	Mar	Homo sapiens	112345	109169	112345	True	False	True	2026-11-02T19:56:50.020992+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771670
+OR771671.1	HSV1	UL52	NCBI_Nucleotide	USA	Mar	Homo sapiens	112091	108915	112091	True	False	True	2026-11-02T19:56:50.020992+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771671
+OR771672.1	HSV1	UL52	NCBI_Nucleotide	USA	Mar	Homo sapiens	111799	108623	111799	True	False	True	2026-11-02T19:56:50.021992+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771672
+OR771673.1	HSV1	UL52	NCBI_Nucleotide	USA	Oct	Homo sapiens	112190	109014	112190	True	False	True	2026-11-02T19:56:50.021992+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771673
+OR771674.1	HSV1	UL52	NCBI_Nucleotide	USA	Oct	Homo sapiens	112004	108828	112004	True	False	True	2026-11-02T19:56:50.021992+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771674
+OR771675.1	HSV1	UL52	NCBI_Nucleotide	USA	Nov	Homo sapiens	112105	108929	112105	True	False	False	2026-11-02T19:56:50.021992+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771675
+OR771676.1	HSV1	UL52	NCBI_Nucleotide	USA	Nov	Homo sapiens	112014	108838	112014	True	False	True	2026-11-02T19:56:50.023226+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771676
+OR771677.1	HSV1	UL52	NCBI_Nucleotide	USA	Nov	Homo sapiens	111938	108762	111938	True	False	True	2026-11-02T19:56:50.023226+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771677
+OR771678.1	HSV1	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	112403	109227	112403	True	False	True	2026-11-02T19:56:50.023226+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771678
+OR771679.1	HSV1	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	112402	109226	112402	True	False	True	2026-11-02T19:56:50.024225+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771679
+OR771680.1	HSV1	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	112211	109035	112211	True	False	True	2026-11-02T19:56:50.024225+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771680
+OR771681.1	HSV1	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	112262	109086	112262	True	False	True	2026-11-02T19:56:50.024225+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771681
+OR771682.1	HSV1	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	112135	108959	112135	True	False	True	2026-11-02T19:56:50.024225+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771682
+OR771683.1	HSV1	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	112125	108949	112125	True	False	True	2026-11-02T19:56:50.025731+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771683
+OR771684.1	HSV1	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	112016	108840	112016	True	False	True	2026-11-02T19:56:50.025731+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771684
+OR771685.1	HSV1	UL52	NCBI_Nucleotide	USA	Jan	Homo sapiens	112056	108880	112056	True	False	True	2026-11-02T19:56:50.025731+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771685
+OR771686.1	HSV1	UL52	NCBI_Nucleotide	USA	Jan	Homo sapiens	112143	108967	112143	True	False	True	2026-11-02T19:56:50.026738+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771686
+OR771687.1	HSV1	UL52	NCBI_Nucleotide	USA	Jan	Homo sapiens	111838	108662	111838	True	False	True	2026-11-02T19:56:50.027407+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771687
+OR771688.1	HSV1	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112045	108869	112045	True	False	True	2026-11-02T19:56:50.027407+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771688
+OR771689.1	HSV1	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112326	109150	112326	True	False	True	2026-11-02T19:56:50.027407+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771689
+OR771690.1	HSV1	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112105	108929	112105	True	False	True	2026-11-02T19:56:50.028415+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771690
+OR771691.1	HSV1	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112061	108885	112061	True	False	True	2026-11-02T19:56:50.029415+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771691
+OR771692.1	HSV1	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112278	109102	112278	True	False	True	2026-11-02T19:56:50.029415+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771692
+OR771693.1	HSV1	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112276	109100	112276	True	False	True	2026-11-02T19:56:50.030420+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771693
+OR771694.1	HSV1	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112184	109008	112184	True	False	False	2026-11-02T19:56:50.031150+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771694
+OR771695.1	HSV1	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	111891	108727	111891	True	False	True	2026-11-02T19:56:50.031150+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR771695
+OR833062.1	HSV1	UL52	NCBI_Nucleotide	USA	May	Homo sapiens	111981	108805	111981	True	False	True	2026-11-02T19:56:50.031150+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR833062
+OR833063.1	HSV1	UL52	NCBI_Nucleotide	USA	Aug	Homo sapiens	111776	108600	111776	True	False	True	2026-11-02T19:56:50.032160+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR833063
+OR833064.1	HSV1	UL52	NCBI_Nucleotide	USA	Oct	Homo sapiens	112127	108951	112127	True	False	True	2026-11-02T19:56:50.032160+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR833064
+OR833065.1	HSV1	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	111775	108599	111775	True	False	True	2026-11-02T19:56:50.032160+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR833065
+OR833066.1	HSV1	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	112180	109004	112180	True	False	True	2026-11-02T19:56:50.033160+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR833066
+OR833067.1	HSV1	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	112136	108960	112136	True	False	True	2026-11-02T19:56:50.034160+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR833067
+OR833068.1	HSV1	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	112301	109125	112301	True	False	True	2026-11-02T19:56:50.034160+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR833068
+OR833069.1	HSV1	UL52	NCBI_Nucleotide	USA	Jan	Homo sapiens	112129	108953	112129	True	False	True	2026-11-02T19:56:50.034160+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR833069
+OR833070.1	HSV1	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112185	109009	112185	True	False	True	2026-11-02T19:56:50.035669+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR833070
+OR833071.1	HSV1	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	111951	108775	111951	True	False	True	2026-11-02T19:56:50.035669+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OR833071
+PP379031.1	HSV1	UL52	NCBI_Nucleotide	Namibia	2015	Homo sapiens	112563	109387	112563	True	False	True	2026-11-02T19:56:50.036678+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP379031
+PP379032.1	HSV1	UL52	NCBI_Nucleotide	Namibia	2015	Homo sapiens	111528	108352	111528	True	False	True	2026-11-02T19:56:50.036678+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP379032
+PP379033.1	HSV1	UL52	NCBI_Nucleotide	Namibia	2015	Homo sapiens	112796	109620	112796	True	False	False	2026-11-02T19:56:50.037678+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP379033
+PP379034.1	HSV1	UL52	NCBI_Nucleotide	Namibia	2016	Homo sapiens	111129	107953	111129	True	False	True	2026-11-02T19:56:50.038678+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP379034
+PP680711.1	HSV1	UL52	NCBI_Nucleotide	USA	Jan	Homo sapiens	112235	109059	112235	True	False	True	2026-11-02T19:56:50.039184+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP680711
+PV146402.1	HSV1	UL52	NCBI_Nucleotide	China	2019	Homo sapiens	112033	108857	112033	True	False	True	2026-11-02T19:56:50.039184+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PV146402
+PV146403.1	HSV1	UL52	NCBI_Nucleotide	China	2015	Homo sapiens	112110	108934	112110	True	False	True	2026-11-02T19:56:50.039184+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PV146403
+PV754022.1	HSV1	UL52	NCBI_Nucleotide	Belgium	Jun	Homo sapiens	109623	106447	109623	True	False	True	2026-11-02T19:56:50.040191+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PV754022
+PX712187.1	HSV1	UL52	NCBI_Nucleotide	Spain	2023	Homo sapiens	112017	108841	112017	True	False	True	2026-11-02T19:56:50.040191+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PX712187
+PX837190.1	HSV1	UL52	NCBI_Nucleotide				112217	109041	112217	True	False	False	2026-11-02T19:56:50.040191+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PX837190
+PX969520.1	HSV1	UL52	NCBI_Nucleotide				112210	109034	112210	True	False	False	2026-11-02T19:56:50.040191+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PX969520
+PZ169677.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111798	108622	111798	True	False	True	2026-11-02T19:56:50.041698+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169677
+PZ169678.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111787	108611	111787	True	False	False	2026-11-02T19:56:50.042706+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169678
+PZ169679.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111787	108611	111787	True	False	False	2026-11-02T19:56:50.043326+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169679
+PZ169680.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111747	108571	111747	True	False	False	2026-11-02T19:56:50.043326+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169680
+PZ169681.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111764	108588	111764	True	False	True	2026-11-02T19:56:50.044346+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169681
+PZ169682.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	112125	108949	112125	True	False	False	2026-11-02T19:56:50.044346+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169682
+PZ169683.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111695	108519	111695	True	False	False	2026-11-02T19:56:50.045353+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169683
+PZ169684.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111773	108597	111773	True	False	True	2026-11-02T19:56:50.045353+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169684
+PZ169685.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111672	108496	111672	True	False	True	2026-11-02T19:56:50.046353+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169685
+PZ169686.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	113005	109829	113005	True	False	False	2026-11-02T19:56:50.046353+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169686
+PZ169687.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	112054	108878	112054	True	False	False	2026-11-02T19:56:50.047353+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169687
+PZ169688.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	112098	108922	112098	True	False	True	2026-11-02T19:56:50.047353+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169688
+PZ169689.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111667	108491	111667	True	False	True	2026-11-02T19:56:50.048353+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169689
+PZ169690.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	112022	108846	112022	True	False	False	2026-11-02T19:56:50.048353+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169690
+PZ169691.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111847	108671	111847	True	False	False	2026-11-02T19:56:50.048353+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169691
+PZ169692.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111997	108821	111997	True	False	True	2026-11-02T19:56:50.049355+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169692
+PZ169693.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111802	108626	111802	True	False	False	2026-11-02T19:56:50.050352+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169693
+PZ169694.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111790	108614	111790	True	False	False	2026-11-02T19:56:50.050352+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169694
+PZ169695.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111567	108391	111567	True	False	True	2026-11-02T19:56:50.050352+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169695
+PZ169696.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111616	108440	111616	True	False	False	2026-11-02T19:56:50.051859+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169696
+PZ169697.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111987	108811	111987	True	False	True	2026-11-02T19:56:50.051859+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169697
+PZ169698.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111686	108510	111686	True	False	False	2026-11-02T19:56:50.052865+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169698
+PZ169699.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111692	108516	111692	True	False	False	2026-11-02T19:56:50.052865+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169699
+PZ169700.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111674	108498	111674	True	False	True	2026-11-02T19:56:50.052865+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169700
+PZ169701.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111713	108537	111713	True	False	False	2026-11-02T19:56:50.054371+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169701
+PZ169702.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111819	108643	111819	True	False	True	2026-11-02T19:56:50.054371+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169702
+PZ169703.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	112160	108984	112160	True	False	False	2026-11-02T19:56:50.055378+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169703
+PZ169704.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	113262	110086	113262	True	False	False	2026-11-02T19:56:50.055378+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169704
+PZ169705.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	112544	109368	112544	True	False	False	2026-11-02T19:56:50.056378+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169705
+PZ169706.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111854	108678	111854	True	False	False	2026-11-02T19:56:50.056378+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169706
+PZ169707.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	113193	110017	113193	True	False	True	2026-11-02T19:56:50.057377+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169707
+PZ169708.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	112813	109637	112813	True	False	True	2026-11-02T19:56:50.057377+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169708
+PZ169709.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111673	108497	111673	True	False	True	2026-11-02T19:56:50.058378+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169709
+PZ169710.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111777	108601	111777	True	False	False	2026-11-02T19:56:50.058886+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169710
+PZ169711.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111697	108521	111697	True	False	True	2026-11-02T19:56:50.058886+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169711
+PZ169712.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111619	108443	111619	True	False	False	2026-11-02T19:56:50.058886+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169712
+PZ169713.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111876	108700	111876	True	False	True	2026-11-02T19:56:50.060391+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169713
+PZ169714.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111125	107949	111125	True	False	False	2026-11-02T19:56:50.061407+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169714
+PZ169715.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111685	108509	111685	True	False	False	2026-11-02T19:56:50.061407+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169715
+PZ169717.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111743	108567	111743	True	False	False	2026-11-02T19:56:50.062401+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169717
+PZ169718.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111855	108679	111855	True	False	False	2026-11-02T19:56:50.062401+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169718
+PZ169719.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111837	108661	111837	True	False	False	2026-11-02T19:56:50.062401+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169719
+PZ169720.1	HSV1	UL52	NCBI_Nucleotide	USA	2009/2016	Homo sapiens	111673	108497	111673	True	False	False	2026-11-02T19:56:50.063405+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ169720
+PZ347688.1	HSV1	UL52	NCBI_Nucleotide	USA: San Francisco, CA	Aug	Homo sapiens	112452	109276	112452	True	False	True	2026-11-02T19:56:50.063405+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ347688
+X14112.1	HSV1	UL52	NCBI_Nucleotide				112224	109048	112224	True	True	False	2026-11-02T19:56:50.064402+00:00	https://www.ncbi.nlm.nih.gov/nuccore/X14112
+JN561323.2	HSV2	UL52	NCBI_Nucleotide	United Kingdom		Homo sapiens	113110	109910	113110	True	True	False	2026-11-02T19:56:50.064402+00:00	https://www.ncbi.nlm.nih.gov/nuccore/JN561323
+JX112656.1	HSV2	UL52	NCBI_Nucleotide				112292	109092	112292	True	True	False	2026-11-02T19:56:50.065403+00:00	https://www.ncbi.nlm.nih.gov/nuccore/JX112656
+KF781518.1	HSV2	UL52	NCBI_Nucleotide	South Africa	1995	Homo sapiens	113030	109830	113030	True	True	False	2026-11-02T19:56:50.065403+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KF781518
+KP334093.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112970	109767	112970	True	False	True	2026-11-02T19:56:50.066407+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KP334093
+KP334094.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112935	109732	112935	True	False	False	2026-11-02T19:56:50.066407+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KP334094
+KP334095.1	HSV2	UL52	NCBI_Nucleotide	USA: Wisconsin		Homo sapiens	112041	108841	112041	True	False	True	2026-11-02T19:56:50.067615+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KP334095
+KP334096.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	113085	109882	113085	True	False	False	2026-11-02T19:56:50.067615+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KP334096
+KP334097.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112863	109660	112863	True	False	False	2026-11-02T19:56:50.067615+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KP334097
+KU310664.1	HSV2	UL52	NCBI_Nucleotide	USA	01	Chlorocebus sabaeus	123615	120415	123615	True	False	False	2026-11-02T19:56:50.068868+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KU310664
+KU310665.1	HSV2	UL52	NCBI_Nucleotide	USA	01	Chlorocebus sabaeus	112677	109477	112677	True	False	False	2026-11-02T19:56:50.068868+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KU310665
+KU310666.1	HSV2	UL52	NCBI_Nucleotide	USA	01	Chlorocebus sabaeus	115682	113004	115682	True	False	False	2026-11-02T19:56:50.069863+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KU310666
+KU310667.1	HSV2	UL52	NCBI_Nucleotide	USA	01	Homo sapiens	117980	114780	117980	True	False	True	2026-11-02T19:56:50.069863+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KU310667
+KX574860.2	HSV2	UL52	NCBI_Nucleotide	Peru	2004	Homo sapiens	112876	109676	112876	True	False	True	2026-11-02T19:56:50.070865+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574860
+KX574861.2	HSV2	UL52	NCBI_Nucleotide	Peru	2003	Homo sapiens	112853	109653	112853	True	False	True	2026-11-02T19:56:50.070865+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574861
+KX574862.2	HSV2	UL52	NCBI_Nucleotide	Zambia	2005	Homo sapiens	113030	109830	113030	True	False	True	2026-11-02T19:56:50.071372+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574862
+KX574863.2	HSV2	UL52	NCBI_Nucleotide	Zimbabwe	2005	Homo sapiens	112885	109685	112885	True	False	True	2026-11-02T19:56:50.071372+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574863
+KX574864.2	HSV2	UL52	NCBI_Nucleotide	Zambia	2005	Homo sapiens	112846	109646	112846	True	False	True	2026-11-02T19:56:50.072379+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574864
+KX574865.2	HSV2	UL52	NCBI_Nucleotide	Peru	2005	Homo sapiens	112837	109637	112837	True	False	True	2026-11-02T19:56:50.072379+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574865
+KX574866.2	HSV2	UL52	NCBI_Nucleotide	Peru	2005	Homo sapiens	112874	109674	112874	True	False	True	2026-11-02T19:56:50.072379+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574866
+KX574867.2	HSV2	UL52	NCBI_Nucleotide	Peru	2005	Homo sapiens	112573	109373	112573	True	False	True	2026-11-02T19:56:50.073379+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574867
+KX574868.2	HSV2	UL52	NCBI_Nucleotide	USA	1994	Homo sapiens	112860	109660	112860	True	False	True	2026-11-02T19:56:50.073379+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574868
+KX574869.2	HSV2	UL52	NCBI_Nucleotide	USA	1995	Homo sapiens	112853	109653	112853	True	False	False	2026-11-02T19:56:50.074379+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574869
+KX574870.2	HSV2	UL52	NCBI_Nucleotide	USA	2007	Homo sapiens	112841	109641	112841	True	False	True	2026-11-02T19:56:50.074886+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574870
+KX574871.2	HSV2	UL52	NCBI_Nucleotide	Zimbabwe	2004	Homo sapiens	113030	109830	113030	True	False	True	2026-11-02T19:56:50.074886+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574871
+KX574872.2	HSV2	UL52	NCBI_Nucleotide	Peru	2004	Homo sapiens	112857	109657	112857	True	False	True	2026-11-02T19:56:50.074886+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574872
+KX574873.2	HSV2	UL52	NCBI_Nucleotide	Peru	2004	Homo sapiens	112859	109659	112859	True	False	True	2026-11-02T19:56:50.074886+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574873
+KX574874.2	HSV2	UL52	NCBI_Nucleotide	Peru	2004	Homo sapiens	112860	109660	112860	True	False	True	2026-11-02T19:56:50.075900+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574874
+KX574875.2	HSV2	UL52	NCBI_Nucleotide	Peru	2005	Homo sapiens	112906	109706	112906	True	False	True	2026-11-02T19:56:50.075900+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574875
+KX574876.2	HSV2	UL52	NCBI_Nucleotide	Peru	2006	Homo sapiens	111992	108792	111992	True	False	True	2026-11-02T19:56:50.076405+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574876
+KX574877.2	HSV2	UL52	NCBI_Nucleotide	Peru	2006	Homo sapiens	112849	109649	112849	True	False	True	2026-11-02T19:56:50.076405+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574877
+KX574878.2	HSV2	UL52	NCBI_Nucleotide	Peru	2007	Homo sapiens	112882	109682	112882	True	False	True	2026-11-02T19:56:50.077411+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574878
+KX574879.2	HSV2	UL52	NCBI_Nucleotide	South Africa	2005	Homo sapiens	112853	109653	112853	True	False	True	2026-11-02T19:56:50.077411+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574879
+KX574880.2	HSV2	UL52	NCBI_Nucleotide	South Africa	2006	Homo sapiens	112859	109659	112859	True	False	True	2026-11-02T19:56:50.078411+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574880
+KX574881.2	HSV2	UL52	NCBI_Nucleotide	South Africa	2007	Homo sapiens	112890	109690	112890	True	False	True	2026-11-02T19:56:50.078411+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574881
+KX574882.2	HSV2	UL52	NCBI_Nucleotide	USA	2007	Homo sapiens	112864	109664	112864	True	False	False	2026-11-02T19:56:50.079412+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574882
+KX574883.2	HSV2	UL52	NCBI_Nucleotide	Zambia	2006	Homo sapiens	112858	109658	112858	True	False	True	2026-11-02T19:56:50.079412+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574883
+KX574884.2	HSV2	UL52	NCBI_Nucleotide	USA	2008	Homo sapiens	112930	109730	112930	True	False	False	2026-11-02T19:56:50.080530+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574884
+KX574885.2	HSV2	UL52	NCBI_Nucleotide	USA	2008	Homo sapiens	112858	109658	112858	True	False	True	2026-11-02T19:56:50.080530+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574885
+KX574886.2	HSV2	UL52	NCBI_Nucleotide	USA	2008	Homo sapiens	112890	109690	112890	True	False	True	2026-11-02T19:56:50.080530+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574886
+KX574887.2	HSV2	UL52	NCBI_Nucleotide	USA	2008	Homo sapiens	112856	109656	112856	True	False	True	2026-11-02T19:56:50.081561+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574887
+KX574888.2	HSV2	UL52	NCBI_Nucleotide	USA	1994	Homo sapiens	112840	109640	112840	True	False	True	2026-11-02T19:56:50.081561+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574888
+KX574889.2	HSV2	UL52	NCBI_Nucleotide	USA	1994	Homo sapiens	112860	109660	112860	True	False	True	2026-11-02T19:56:50.082563+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574889
+KX574890.2	HSV2	UL52	NCBI_Nucleotide	USA	1993	Homo sapiens	112884	109684	112884	True	False	False	2026-11-02T19:56:50.082563+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574890
+KX574891.2	HSV2	UL52	NCBI_Nucleotide	USA	2009	Homo sapiens	112863	109663	112863	True	False	True	2026-11-02T19:56:50.083601+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574891
+KX574892.2	HSV2	UL52	NCBI_Nucleotide	South Africa	2007	Homo sapiens	112851	109651	112851	True	False	True	2026-11-02T19:56:50.083601+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574892
+KX574893.2	HSV2	UL52	NCBI_Nucleotide	Kenya	2008	Homo sapiens	112857	109657	112857	True	False	True	2026-11-02T19:56:50.084601+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574893
+KX574894.2	HSV2	UL52	NCBI_Nucleotide	Kenya	2008	Homo sapiens	112862	109662	112862	True	False	True	2026-11-02T19:56:50.084601+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574894
+KX574895.2	HSV2	UL52	NCBI_Nucleotide	USA	2009	Homo sapiens	112847	109647	112847	True	False	True	2026-11-02T19:56:50.085601+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574895
+KX574896.2	HSV2	UL52	NCBI_Nucleotide	USA	2010	Homo sapiens	112860	109660	112860	True	False	False	2026-11-02T19:56:50.085601+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574896
+KX574897.2	HSV2	UL52	NCBI_Nucleotide	USA	1998	Homo sapiens	112571	109371	112571	True	False	True	2026-11-02T19:56:50.086601+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574897
+KX574898.2	HSV2	UL52	NCBI_Nucleotide	USA	2011	Homo sapiens	112861	109661	112861	True	False	False	2026-11-02T19:56:50.086601+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574898
+KX574899.2	HSV2	UL52	NCBI_Nucleotide	Uganda	2011	Homo sapiens	112856	109656	112856	True	False	True	2026-11-02T19:56:50.087602+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574899
+KX574901.2	HSV2	UL52	NCBI_Nucleotide	USA	2012	Homo sapiens	112861	109661	112861	True	False	False	2026-11-02T19:56:50.087602+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574901
+KX574902.2	HSV2	UL52	NCBI_Nucleotide	Tanzania	2006	Homo sapiens	112881	109681	112881	True	False	True	2026-11-02T19:56:50.088601+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574902
+KX574903.2	HSV2	UL52	NCBI_Nucleotide	USA	2003	Homo sapiens	111484	108284	111484	True	False	True	2026-11-02T19:56:50.088601+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574903
+KX574904.2	HSV2	UL52	NCBI_Nucleotide	USA	2004	Homo sapiens	112859	109659	112859	True	False	True	2026-11-02T19:56:50.089611+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574904
+KX574905.2	HSV2	UL52	NCBI_Nucleotide	Zambia	2006	Homo sapiens	112830	109630	112830	True	False	True	2026-11-02T19:56:50.090608+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574905
+KX574906.2	HSV2	UL52	NCBI_Nucleotide	Uganda	2011	Homo sapiens	112780	109580	112780	True	False	True	2026-11-02T19:56:50.091117+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KX574906
+KY922720.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	113030	109830	113030	True	False	True	2026-11-02T19:56:50.091117+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KY922720
+KY922721.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	112629	109429	112629	True	False	False	2026-11-02T19:56:50.092125+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KY922721
+KY922722.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	112613	109413	112613	True	False	True	2026-11-02T19:56:50.092633+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KY922722
+KY922723.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	111385	108182	111385	True	False	True	2026-11-02T19:56:50.092633+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KY922723
+KY922724.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	113031	109831	113031	True	False	True	2026-11-02T19:56:50.093642+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KY922724
+KY922725.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	112763	109560	112763	True	False	True	2026-11-02T19:56:50.093642+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KY922725
+KY922726.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	113165	109962	113165	True	False	True	2026-11-02T19:56:50.093642+00:00	https://www.ncbi.nlm.nih.gov/nuccore/KY922726
+LS480640.1	HSV2	UL52	NCBI_Nucleotide				112627	109424	112627	True	True	False	2026-11-02T19:56:50.094650+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LS480640
+MF510267.1	HSV2	UL52	NCBI_Nucleotide	USA	1994	Homo sapiens	112888	109688	112888	True	False	True	2026-11-02T19:56:50.094650+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MF510267
+MF564034.1	HSV2	UL52	NCBI_Nucleotide	USA	2004	Homo sapiens	112332	109132	112332	True	False	True	2026-11-02T19:56:50.094650+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MF564034
+MF564035.1	HSV2	UL52	NCBI_Nucleotide	USA	2004	Homo sapiens	112332	109132	112332	True	False	True	2026-11-02T19:56:50.095651+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MF564035
+MF564036.1	HSV2	UL52	NCBI_Nucleotide	USA	2007	Homo sapiens	112300	109100	112300	True	False	True	2026-11-02T19:56:50.095651+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MF564036
+MF564037.1	HSV2	UL52	NCBI_Nucleotide	USA	2008	Homo sapiens	112300	109100	112300	True	False	True	2026-11-02T19:56:50.096650+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MF564037
+MF621254.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	112982	109782	112982	True	False	True	2026-11-02T19:56:50.096650+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MF621254
+MF621255.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	112773	109573	112773	True	False	True	2026-11-02T19:56:50.097649+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MF621255
+MF621256.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	112510	109310	112510	True	False	True	2026-11-02T19:56:50.097649+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MF621256
+MF621257.1	HSV2	UL52	NCBI_Nucleotide	USA	2008	Homo sapiens	112811	109611	112811	True	False	True	2026-11-02T19:56:50.098650+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MF621257
+MF621258.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	112780	109598	112780	True	False	True	2026-11-02T19:56:50.098650+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MF621258
+MH790550.1	HSV2	UL52	NCBI_Nucleotide	USA	2011	Homo sapiens	112956	109756	112956	True	False	True	2026-11-02T19:56:50.099650+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790550
+MH790551.1	HSV2	UL52	NCBI_Nucleotide	Senegal	2006	Homo sapiens	113287	110087	113287	True	False	True	2026-11-02T19:56:50.099650+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790551
+MH790554.1	HSV2	UL52	NCBI_Nucleotide	USA	2001	Homo sapiens	112950	109750	112950	True	False	True	2026-11-02T19:56:50.100649+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790554
+MH790557.1	HSV2	UL52	NCBI_Nucleotide	USA	2011	Homo sapiens	112730	109530	112730	True	False	True	2026-11-02T19:56:50.100649+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790557
+MH790558.1	HSV2	UL52	NCBI_Nucleotide	USA	2005	Homo sapiens	112758	109558	112758	True	False	True	2026-11-02T19:56:50.101649+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790558
+MH790560.1	HSV2	UL52	NCBI_Nucleotide	USA	2008	Homo sapiens	112693	108971	112693	True	False	True	2026-11-02T19:56:50.101649+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790560
+MH790561.1	HSV2	UL52	NCBI_Nucleotide	USA	2003	Homo sapiens	112795	109595	112795	True	False	True	2026-11-02T19:56:50.101649+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790561
+MH790562.1	HSV2	UL52	NCBI_Nucleotide	USA	1996	Homo sapiens	113103	109903	113103	True	False	True	2026-11-02T19:56:50.102649+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790562
+MH790563.1	HSV2	UL52	NCBI_Nucleotide	USA	2007	Homo sapiens	113033	109833	113033	True	False	True	2026-11-02T19:56:50.102649+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790563
+MH790564.1	HSV2	UL52	NCBI_Nucleotide	USA	2008	Homo sapiens	113037	109834	113037	True	False	True	2026-11-02T19:56:50.103650+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790564
+MH790567.1	HSV2	UL52	NCBI_Nucleotide	USA	2006	Homo sapiens	112836	109636	112836	True	False	False	2026-11-02T19:56:50.103650+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790567
+MH790568.1	HSV2	UL52	NCBI_Nucleotide	USA	2012	Homo sapiens	112938	109216	112938	True	False	True	2026-11-02T19:56:50.104651+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790568
+MH790570.1	HSV2	UL52	NCBI_Nucleotide	USA	2004	Homo sapiens	112933	109733	112933	True	False	True	2026-11-02T19:56:50.104651+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790570
+MH790571.1	HSV2	UL52	NCBI_Nucleotide	USA	2004	Homo sapiens	112953	109750	112953	True	False	True	2026-11-02T19:56:50.105650+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790571
+MH790572.1	HSV2	UL52	NCBI_Nucleotide	USA	1998	Homo sapiens	112693	109493	112693	True	False	True	2026-11-02T19:56:50.105650+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790572
+MH790573.1	HSV2	UL52	NCBI_Nucleotide	USA	2011	Homo sapiens	112809	109609	112809	True	False	True	2026-11-02T19:56:50.106652+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790573
+MH790575.1	HSV2	UL52	NCBI_Nucleotide	USA	2007	Homo sapiens	112832	109632	112832	True	False	False	2026-11-02T19:56:50.106652+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790575
+MH790577.1	HSV2	UL52	NCBI_Nucleotide	USA	2007	Homo sapiens	113237	110037	113237	True	False	True	2026-11-02T19:56:50.107656+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790577
+MH790578.1	HSV2	UL52	NCBI_Nucleotide	Senegal	2006	Homo sapiens	113219	110019	113219	True	False	True	2026-11-02T19:56:50.107656+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790578
+MH790579.1	HSV2	UL52	NCBI_Nucleotide	Senegal	2006	Homo sapiens	113389	110189	113389	True	False	False	2026-11-02T19:56:50.107656+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790579
+MH790580.1	HSV2	UL52	NCBI_Nucleotide	USA	1997	Homo sapiens	113561	110361	113561	True	False	True	2026-11-02T19:56:50.107656+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790580
+MH790581.1	HSV2	UL52	NCBI_Nucleotide	USA	2011	Homo sapiens	112883	109683	112883	True	False	True	2026-11-02T19:56:50.109165+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790581
+MH790582.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	115295	112095	115295	True	False	True	2026-11-02T19:56:50.109699+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790582
+MH790585.1	HSV2	UL52	NCBI_Nucleotide	USA	2002	Homo sapiens	113419	110219	113419	True	False	True	2026-11-02T19:56:50.110229+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790585
+MH790586.1	HSV2	UL52	NCBI_Nucleotide	USA	2016	Homo sapiens	113176	109976	113176	True	False	True	2026-11-02T19:56:50.110229+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790586
+MH790587.1	HSV2	UL52	NCBI_Nucleotide	USA	2013	Homo sapiens	113165	109965	113165	True	False	True	2026-11-02T19:56:50.110229+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790587
+MH790588.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	113973	110773	113973	True	False	False	2026-11-02T19:56:50.111237+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790588
+MH790589.1	HSV2	UL52	NCBI_Nucleotide	USA	2004	Homo sapiens	113057	109857	113057	True	False	True	2026-11-02T19:56:50.111237+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790589
+MH790591.1	HSV2	UL52	NCBI_Nucleotide	USA	2006	Homo sapiens	112818	109618	112818	True	False	False	2026-11-02T19:56:50.111237+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790591
+MH790596.1	HSV2	UL52	NCBI_Nucleotide	Senegal	2006	Homo sapiens	112908	109708	112908	True	False	False	2026-11-02T19:56:50.112236+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790596
+MH790597.1	HSV2	UL52	NCBI_Nucleotide	Senegal	2006	Homo sapiens	113372	110172	113372	True	False	True	2026-11-02T19:56:50.112236+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790597
+MH790599.1	HSV2	UL52	NCBI_Nucleotide	USA	2015	Homo sapiens	112863	109663	112863	True	False	False	2026-11-02T19:56:50.113236+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790599
+MH790600.1	HSV2	UL52	NCBI_Nucleotide	USA	2004	Homo sapiens	112782	109582	112782	True	False	True	2026-11-02T19:56:50.113236+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790600
+MH790605.1	HSV2	UL52	NCBI_Nucleotide	USA	2011	Homo sapiens	112829	109629	112829	True	False	True	2026-11-02T19:56:50.113741+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790605
+MH790606.1	HSV2	UL52	NCBI_Nucleotide	USA	2015	Homo sapiens	113016	109816	113016	True	False	True	2026-11-02T19:56:50.113741+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790606
+MH790607.1	HSV2	UL52	NCBI_Nucleotide	USA	2005	Homo sapiens	112884	109684	112884	True	False	True	2026-11-02T19:56:50.114747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790607
+MH790609.1	HSV2	UL52	NCBI_Nucleotide	Senegal	2006	Homo sapiens	113049	109846	113049	True	False	False	2026-11-02T19:56:50.114747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790609
+MH790610.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	112953	109753	112953	True	False	False	2026-11-02T19:56:50.114747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790610
+MH790611.1	HSV2	UL52	NCBI_Nucleotide	USA	1995	Homo sapiens	112802	109602	112802	True	False	True	2026-11-02T19:56:50.115747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790611
+MH790612.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	113203	110003	113203	True	False	True	2026-11-02T19:56:50.115747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790612
+MH790613.1	HSV2	UL52	NCBI_Nucleotide	USA	2011	Homo sapiens	112988	109788	112988	True	False	False	2026-11-02T19:56:50.115747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790613
+MH790614.1	HSV2	UL52	NCBI_Nucleotide	USA	1998	Homo sapiens	113215	110015	113215	True	False	False	2026-11-02T19:56:50.116747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790614
+MH790616.1	HSV2	UL52	NCBI_Nucleotide	USA	2005	Homo sapiens	113014	109814	113014	True	False	True	2026-11-02T19:56:50.116747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790616
+MH790617.1	HSV2	UL52	NCBI_Nucleotide	USA	2006	Homo sapiens	112868	109668	112868	True	False	True	2026-11-02T19:56:50.116747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790617
+MH790618.1	HSV2	UL52	NCBI_Nucleotide	USA	2011	Homo sapiens	112622	108900	112622	True	False	True	2026-11-02T19:56:50.117747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790618
+MH790619.1	HSV2	UL52	NCBI_Nucleotide	USA	2004	Homo sapiens	113918	110718	113918	True	False	False	2026-11-02T19:56:50.117747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790619
+MH790620.1	HSV2	UL52	NCBI_Nucleotide	USA	2013	Homo sapiens	113021	109821	113021	True	False	True	2026-11-02T19:56:50.118748+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790620
+MH790621.1	HSV2	UL52	NCBI_Nucleotide	USA	1998	Homo sapiens	113167	109967	113167	True	False	False	2026-11-02T19:56:50.118748+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790621
+MH790622.1	HSV2	UL52	NCBI_Nucleotide	USA	1999	Homo sapiens	113239	110039	113239	True	False	True	2026-11-02T19:56:50.119747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790622
+MH790623.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	113024	109824	113024	True	False	True	2026-11-02T19:56:50.119747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790623
+MH790624.1	HSV2	UL52	NCBI_Nucleotide	Senegal	2006	Homo sapiens	113530	110330	113530	True	False	False	2026-11-02T19:56:50.120747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790624
+MH790626.1	HSV2	UL52	NCBI_Nucleotide	USA	2005	Homo sapiens	113100	109900	113100	True	False	True	2026-11-02T19:56:50.120747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790626
+MH790628.1	HSV2	UL52	NCBI_Nucleotide	Senegal	2006	Homo sapiens	113349	110149	113349	True	False	True	2026-11-02T19:56:50.120747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790628
+MH790629.1	HSV2	UL52	NCBI_Nucleotide	USA	1999	Homo sapiens	113163	109963	113163	True	False	True	2026-11-02T19:56:50.122184+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790629
+MH790630.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	113019	109819	113019	True	False	True	2026-11-02T19:56:50.122748+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790630
+MH790631.1	HSV2	UL52	NCBI_Nucleotide	USA	2010	Homo sapiens	112966	109763	112966	True	False	True	2026-11-02T19:56:50.123748+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790631
+MH790632.1	HSV2	UL52	NCBI_Nucleotide	USA	2009	Homo sapiens	112898	109176	112898	True	False	True	2026-11-02T19:56:50.123748+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790632
+MH790633.1	HSV2	UL52	NCBI_Nucleotide	USA	2006	Homo sapiens	112685	109485	112685	True	False	True	2026-11-02T19:56:50.124749+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790633
+MH790636.1	HSV2	UL52	NCBI_Nucleotide	USA	2004	Homo sapiens	113038	109838	113038	True	False	False	2026-11-02T19:56:50.124749+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790636
+MH790637.1	HSV2	UL52	NCBI_Nucleotide	USA	2012	Homo sapiens	113037	109837	113037	True	False	False	2026-11-02T19:56:50.124749+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790637
+MH790638.1	HSV2	UL52	NCBI_Nucleotide	USA	1996	Homo sapiens	115198	111998	115198	True	False	False	2026-11-02T19:56:50.125747+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790638
+MH790641.1	HSV2	UL52	NCBI_Nucleotide	USA	2013	Homo sapiens	113298	110098	113298	True	False	True	2026-11-02T19:56:50.126251+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790641
+MH790642.1	HSV2	UL52	NCBI_Nucleotide	USA	2007	Homo sapiens	112777	109583	112777	True	False	True	2026-11-02T19:56:50.126251+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790642
+MH790645.1	HSV2	UL52	NCBI_Nucleotide	Senegal	2006	Homo sapiens	113412	110212	113412	True	False	False	2026-11-02T19:56:50.127257+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790645
+MH790646.1	HSV2	UL52	NCBI_Nucleotide	USA	2007	Homo sapiens	112770	109567	112770	True	False	False	2026-11-02T19:56:50.128258+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790646
+MH790647.1	HSV2	UL52	NCBI_Nucleotide	USA	2005	Homo sapiens	113222	110022	113222	True	False	False	2026-11-02T19:56:50.128258+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790647
+MH790648.1	HSV2	UL52	NCBI_Nucleotide	USA	2005	Homo sapiens	112831	109631	112831	True	False	False	2026-11-02T19:56:50.129260+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790648
+MH790649.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	113590	110387	113590	True	False	False	2026-11-02T19:56:50.129260+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790649
+MH790650.1	HSV2	UL52	NCBI_Nucleotide	USA	2011	Homo sapiens	113030	109830	113030	True	False	True	2026-11-02T19:56:50.130258+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790650
+MH790651.1	HSV2	UL52	NCBI_Nucleotide	USA	2002	Homo sapiens	112861	109661	112861	True	False	False	2026-11-02T19:56:50.131258+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790651
+MH790654.1	HSV2	UL52	NCBI_Nucleotide	USA	2002	Homo sapiens	113386	110186	113386	True	False	False	2026-11-02T19:56:50.131258+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790654
+MH790655.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	114058	110858	114058	True	False	True	2026-11-02T19:56:50.132259+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790655
+MH790656.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	112756	109556	112756	True	False	True	2026-11-02T19:56:50.132259+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790656
+MH790657.1	HSV2	UL52	NCBI_Nucleotide	USA	2012	Homo sapiens	113469	110269	113469	True	False	True	2026-11-02T19:56:50.133450+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790657
+MH790658.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	112622	109422	112622	True	False	True	2026-11-02T19:56:50.133450+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790658
+MH790662.1	HSV2	UL52	NCBI_Nucleotide	USA	1998	Homo sapiens	113227	110027	113227	True	False	True	2026-11-02T19:56:50.134452+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790662
+MH790663.1	HSV2	UL52	NCBI_Nucleotide	USA	2010	Homo sapiens	113230	110030	113230	True	False	False	2026-11-02T19:56:50.134452+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790663
+MH790665.1	HSV2	UL52	NCBI_Nucleotide	USA	1996	Homo sapiens	113099	109899	113099	True	False	True	2026-11-02T19:56:50.135451+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790665
+MH790667.1	HSV2	UL52	NCBI_Nucleotide	Senegal	2006	Homo sapiens	113051	109851	113051	True	False	False	2026-11-02T19:56:50.136451+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790667
+MH790670.1	HSV2	UL52	NCBI_Nucleotide	USA	1996	Homo sapiens	112794	109594	112794	True	False	False	2026-11-02T19:56:50.136451+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790670
+MH790671.1	HSV2	UL52	NCBI_Nucleotide	USA	2014	Homo sapiens	115020	111820	115020	True	False	True	2026-11-02T19:56:50.136451+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH790671
+MH899846.1	HSV2	UL52	NCBI_Nucleotide	Cameroon	2006	Homo sapiens	113047	109847	113047	True	False	True	2026-11-02T19:56:50.137454+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MH899846
+MK106001.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	104837	101637	104837	True	False	True	2026-11-02T19:56:50.137454+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MK106001
+MK855052.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	113576	110376	113576	True	True	False	2026-11-02T19:56:50.137454+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MK855052
+MT364888.1	HSV2	UL52	NCBI_Nucleotide			Homo sapiens	113125	109925	113125	True	False	True	2026-11-02T19:56:50.138452+00:00	https://www.ncbi.nlm.nih.gov/nuccore/MT364888
+OM370995.1	HSV2	UL52	NCBI_Nucleotide				113153	109953	113153	True	True	False	2026-11-02T19:56:50.138452+00:00	https://www.ncbi.nlm.nih.gov/nuccore/OM370995
+PP099973.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	113016	109816	113016	True	False	False	2026-11-02T19:56:50.139453+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP099973
+PP099979.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112539	109339	112539	True	False	True	2026-11-02T19:56:50.140455+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP099979
+PP099984.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	113313	110113	113313	True	False	True	2026-11-02T19:56:50.140455+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP099984
+PP099985.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112636	109436	112636	True	False	False	2026-11-02T19:56:50.141455+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP099985
+PP099986.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112761	109561	112761	True	False	True	2026-11-02T19:56:50.141455+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP099986
+PP099991.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112243	109043	112243	True	False	True	2026-11-02T19:56:50.141963+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP099991
+PP099997.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112622	109422	112622	True	False	True	2026-11-02T19:56:50.141963+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP099997
+PP099999.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112996	109796	112996	True	False	True	2026-11-02T19:56:50.143478+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP099999
+PP100000.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	113085	109885	113085	True	False	True	2026-11-02T19:56:50.143478+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100000
+PP100002.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112943	109743	112943	True	False	False	2026-11-02T19:56:50.144484+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100002
+PP100004.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112760	109560	112760	True	False	True	2026-11-02T19:56:50.144484+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100004
+PP100021.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	113032	109832	113032	True	False	True	2026-11-02T19:56:50.145484+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100021
+PP100025.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112833	109633	112833	True	False	True	2026-11-02T19:56:50.145484+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100025
+PP100028.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112796	109596	112796	True	False	False	2026-11-02T19:56:50.146485+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100028
+PP100029.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112932	109732	112932	True	False	True	2026-11-02T19:56:50.146485+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100029
+PP100031.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	113530	110327	113530	True	False	True	2026-11-02T19:56:50.146485+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100031
+PP100037.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112770	109567	112770	True	False	True	2026-11-02T19:56:50.147486+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100037
+PP100047.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	113018	109818	113018	True	False	True	2026-11-02T19:56:50.147486+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100047
+PP100058.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	113108	109908	113108	True	False	True	2026-11-02T19:56:50.147486+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100058
+PP100059.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112974	109774	112974	True	False	True	2026-11-02T19:56:50.148993+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100059
+PP100060.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	113223	110023	113223	True	False	True	2026-11-02T19:56:50.150004+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100060
+PP100063.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112954	109751	112954	True	False	True	2026-11-02T19:56:50.150004+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100063
+PP100065.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112935	109732	112935	True	False	True	2026-11-02T19:56:50.151002+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100065
+PP100066.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112686	109486	112686	True	False	True	2026-11-02T19:56:50.151002+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100066
+PP100069.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112853	109653	112853	True	False	True	2026-11-02T19:56:50.152003+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100069
+PP100070.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	113099	109899	113099	True	False	True	2026-11-02T19:56:50.153005+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100070
+PP100071.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112889	109689	112889	True	False	True	2026-11-02T19:56:50.153005+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100071
+PP100072.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	113010	109807	113010	True	False	True	2026-11-02T19:56:50.154003+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100072
+PP100073.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	113239	110039	113239	True	False	False	2026-11-02T19:56:50.154003+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100073
+PP100077.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	113456	110256	113456	True	False	True	2026-11-02T19:56:50.154003+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100077
+PP100078.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112555	109355	112555	True	False	True	2026-11-02T19:56:50.154003+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100078
+PP100081.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	113255	110055	113255	True	False	True	2026-11-02T19:56:50.155003+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100081
+PP100082.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112950	109750	112950	True	False	True	2026-11-02T19:56:50.155003+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100082
+PP100084.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112977	109777	112977	True	False	True	2026-11-02T19:56:50.155003+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100084
+PP100085.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	112574	109374	112574	True	False	True	2026-11-02T19:56:50.155003+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100085
+PP100095.1	HSV2	UL52	NCBI_Nucleotide	USA		Homo sapiens	113081	109878	113081	True	False	True	2026-11-02T19:56:50.156002+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PP100095
+PQ065492.1	HSV2	UL52	NCBI_Nucleotide	USA	Oct	Homo sapiens	112826	109626	112826	True	False	True	2026-11-02T19:56:50.156002+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065492
+PQ065493.1	HSV2	UL52	NCBI_Nucleotide	USA	Nov	Homo sapiens	112489	109289	112489	True	False	True	2026-11-02T19:56:50.157001+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065493
+PQ065494.1	HSV2	UL52	NCBI_Nucleotide	USA	Nov	Homo sapiens	112458	109258	112458	True	False	False	2026-11-02T19:56:50.157001+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065494
+PQ065495.1	HSV2	UL52	NCBI_Nucleotide	USA	Nov	Homo sapiens	112840	109637	112840	True	False	True	2026-11-02T19:56:50.157001+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065495
+PQ065496.1	HSV2	UL52	NCBI_Nucleotide	USA	Nov	Homo sapiens	112517	109314	112517	True	False	True	2026-11-02T19:56:50.158001+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065496
+PQ065497.1	HSV2	UL52	NCBI_Nucleotide	USA	Nov	Homo sapiens	112625	109425	112625	True	False	True	2026-11-02T19:56:50.158001+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065497
+PQ065498.1	HSV2	UL52	NCBI_Nucleotide	USA	Nov	Homo sapiens	112799	109599	112799	True	False	False	2026-11-02T19:56:50.158001+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065498
+PQ065499.1	HSV2	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	112874	109671	112874	True	False	False	2026-11-02T19:56:50.158001+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065499
+PQ065500.1	HSV2	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	113185	109985	113185	True	False	True	2026-11-02T19:56:50.159507+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065500
+PQ065501.1	HSV2	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	112859	109659	112859	True	False	False	2026-11-02T19:56:50.159507+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065501
+PQ065502.1	HSV2	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	112783	109583	112783	True	False	True	2026-11-02T19:56:50.160514+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065502
+PQ065503.1	HSV2	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	112383	109183	112383	True	False	True	2026-11-02T19:56:50.160514+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065503
+PQ065504.1	HSV2	UL52	NCBI_Nucleotide	USA	Dec	Homo sapiens	112890	109687	112890	True	False	True	2026-11-02T19:56:50.160514+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065504
+PQ065505.1	HSV2	UL52	NCBI_Nucleotide	USA	Jan	Homo sapiens	112895	109695	112895	True	False	True	2026-11-02T19:56:50.161515+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065505
+PQ065506.1	HSV2	UL52	NCBI_Nucleotide	USA	Jan	Homo sapiens	112913	109713	112913	True	False	False	2026-11-02T19:56:50.162021+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065506
+PQ065507.1	HSV2	UL52	NCBI_Nucleotide	USA	Jan	Homo sapiens	112739	109539	112739	True	False	True	2026-11-02T19:56:50.162021+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065507
+PQ065508.1	HSV2	UL52	NCBI_Nucleotide	USA	Jan	Homo sapiens	112832	109629	112832	True	False	True	2026-11-02T19:56:50.163029+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065508
+PQ065509.1	HSV2	UL52	NCBI_Nucleotide	USA	Jan	Homo sapiens	112652	109452	112652	True	False	True	2026-11-02T19:56:50.164028+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065509
+PQ065510.1	HSV2	UL52	NCBI_Nucleotide	USA	Jan	Homo sapiens	113048	109848	113048	True	False	True	2026-11-02T19:56:50.164028+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065510
+PQ065511.1	HSV2	UL52	NCBI_Nucleotide	USA	Jan	Homo sapiens	112691	109491	112691	True	False	False	2026-11-02T19:56:50.165028+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065511
+PQ065512.1	HSV2	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112805	109605	112805	True	False	True	2026-11-02T19:56:50.165028+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065512
+PQ065513.1	HSV2	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112540	109340	112540	True	False	True	2026-11-02T19:56:50.166029+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065513
+PQ065514.1	HSV2	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112898	109698	112898	True	False	True	2026-11-02T19:56:50.166029+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065514
+PQ065515.1	HSV2	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112788	109588	112788	True	False	True	2026-11-02T19:56:50.167030+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065515
+PQ065516.1	HSV2	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112938	109738	112938	True	False	True	2026-11-02T19:56:50.167030+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065516
+PQ065517.1	HSV2	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112840	109640	112840	True	False	True	2026-11-02T19:56:50.167030+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065517
+PQ065518.1	HSV2	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	113033	109830	113033	True	False	True	2026-11-02T19:56:50.167030+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065518
+PQ065519.1	HSV2	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112790	109590	112790	True	False	True	2026-11-02T19:56:50.168536+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065519
+PQ065520.1	HSV2	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	113036	109836	113036	True	False	True	2026-11-02T19:56:50.168536+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065520
+PQ065521.1	HSV2	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112742	109539	112742	True	False	True	2026-11-02T19:56:50.169545+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065521
+PQ065522.1	HSV2	UL52	NCBI_Nucleotide	USA	Feb	Homo sapiens	112779	109579	112779	True	False	True	2026-11-02T19:56:50.169545+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PQ065522
+PV798441.1	HSV2	UL52	NCBI_Nucleotide	India: Kerala State	Dec	Homo sapiens; male	113112	109912	113112	True	False	True	2026-11-02T19:56:50.170546+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PV798441
+PV972685.1	HSV2	UL52	NCBI_Nucleotide	China	Dec	Homo sapiens	112877	109677	112877	True	False	True	2026-11-02T19:56:50.170546+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PV972685
+PX242236.1	HSV2	UL52	NCBI_Nucleotide	India: Kerala State	Dec	Homo sapiens; sex: male	113112	109912	113112	True	False	False	2026-11-02T19:56:50.171544+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PX242236
+PX259988.1	HSV2	UL52	NCBI_Nucleotide	India: Kerala State	Dec	Homo sapiens; sex: male	113096	109896	113096	True	False	True	2026-11-02T19:56:50.171544+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PX259988
+PZ135823.1	HSV2	UL52	NCBI_Nucleotide	USA	2021	Homo sapiens	112809	109609	112809	True	False	True	2026-11-02T19:56:50.172545+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ135823
+PZ135824.1	HSV2	UL52	NCBI_Nucleotide	USA	2021	Homo sapiens	113476	110276	113476	True	False	False	2026-11-02T19:56:50.172545+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ135824
+PZ135825.1	HSV2	UL52	NCBI_Nucleotide	USA	2021	Homo sapiens	112969	109769	112969	True	False	False	2026-11-02T19:56:50.173546+00:00	https://www.ncbi.nlm.nih.gov/nuccore/PZ135825
+Z86099.2	HSV2	UL52	NCBI_Nucleotide				113075	109875	113075	True	True	False	2026-11-02T19:56:50.173546+00:00	https://www.ncbi.nlm.nih.gov/nuccore/Z86099
+NC_001806.2	HSV1	UL52	NCBI_Nucleotide	United Kingdom: Regional Virus Laboratory, Ruchill Hospital, Glasgow			152222	109049	112225	True	True	False	2026-11-02T19:56:50.174545+00:00	https://www.ncbi.nlm.nih.gov/nuccore/NC_001806.2
+NC_001798.2	HSV2	UL52	NCBI_Nucleotide	United Kingdom		Homo sapiens	154675	109910	113110	True	True	False	2026-11-02T19:56:50.177546+00:00	https://www.ncbi.nlm.nih.gov/nuccore/NC_001798.2
+LC636217.1	HSV2	UL52	DDBJ_Amenamevir				3201	1	3201	True	True	False	2026-11-02T19:56:50.177546+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LC636217.1
+LC636216.1	HSV2	UL52	DDBJ_Amenamevir				3201	1	3201	True	True	False	2026-11-02T19:56:50.178547+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LC636216.1
+LC636215.1	HSV2	UL52	DDBJ_Amenamevir				3201	1	3201	True	True	False	2026-11-02T19:56:50.179056+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LC636215.1
+LC636214.1	HSV2	UL52	DDBJ_Amenamevir				3201	1	3201	True	True	False	2026-11-02T19:56:50.179056+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LC636214.1
+LC636213.1	HSV2	UL52	DDBJ_Amenamevir				3201	1	3201	True	True	False	2026-11-02T19:56:50.180060+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LC636213.1
+LC635557.1	HSV1	UL52	DDBJ_Amenamevir				3177	1	3177	True	True	False	2026-11-02T19:56:50.180060+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LC635557.1
+LC635556.1	HSV1	UL52	DDBJ_Amenamevir				3177	1	3177	True	True	False	2026-11-02T19:56:50.181567+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LC635556.1
+LC635555.1	HSV1	UL52	DDBJ_Amenamevir				3177	1	3177	True	True	False	2026-11-02T19:56:50.181567+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LC635555.1
+LC635554.1	HSV1	UL52	DDBJ_Amenamevir				3177	1	3177	True	True	False	2026-11-02T19:56:50.181567+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LC635554.1
+LC635553.1	HSV1	UL52	DDBJ_Amenamevir				3177	1	3177	True	True	False	2026-11-02T19:56:50.182574+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LC635553.1
+LC635552.1	HSV1	UL52	DDBJ_Amenamevir				3177	1	3177	True	True	False	2026-11-02T19:56:50.182574+00:00	https://www.ncbi.nlm.nih.gov/nuccore/LC635552.1
