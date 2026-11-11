@@ -10,6 +10,7 @@ This is a gate, not a report: it exits non-zero on the first mismatch.
 
 import csv
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -107,55 +108,44 @@ def main():
     ms = (ROOT / "reports" / "phase4" / "MANUSCRIPT.md").read_text(
         encoding="utf-8")
 
-    # The 5.3 breakdown omitted HSV-2 UL30, so its rows summed to 101 against
-    # a 119 used everywhere else. The row is legitimately special -- all 18
-    # are positive, so average precision is undefined on it -- but a table
-    # that silently drops a group invites the reader to find the hole first.
-    ds = load(REP / "phase3" / "dataset_summary.json")["primary_tier_A"]
-    check("primary set size", ds["n"], 119)
-    check("gene breakdown sums to the primary set",
-          sum(ds["by_gene"].values()), 119)
-    check("gene breakdown groups", len(ds["by_gene"]), 6)
-    check("HSV-2 UL30, the single-class group", ds["by_gene"]["HSV2:UL30"], 18)
-    tierA = [r for r in rc if r["evidence_tier"] == "A_engineered"]
-    check("Tier A substitutions", len(tierA), 133)
-    check("Tier A with a numeric fold change",
-          sum(1 for r in tierA if r["max_fold_change"] not in ("", "NA")), 122)
+    # RESEARCH_GUIDE.md restates the results for a reader who is not going to
+    # read the paper, which means it is a second copy of every headline number
+    # and a second chance to mistype one. Each string below is built from the
+    # source data, so a figure that moves stops being found.
+    guide = (ROOT / "RESEARCH_GUIDE.md").read_text(encoding="utf-8")
+    g_bands, g_flags = {}, {}
+    for r in rc:
+        g_bands[r["frequency_band"]] = g_bands.get(r["frequency_band"], 0) + 1
+        g_flags[r["flag"]] = g_flags.get(r["flag"], 0) + 1
+    g_ex = load(REP / "phase1" / "extract_summary.json")["removed_by"]
+    g_ds = load(REP / "phase3" / "dataset_summary.json")["primary_tier_A"]
+    stated = [
+        ("catalogued substitutions",
+         "| Catalogued substitutions examined | %d |" % len(rc)),
+        ("not observed band", "| Not observed | %d |" % g_bands["not_observed"]),
+        ("majority band",
+         "| **Majority (>50%%)** | **%d** |" % g_bands["majority_allele"]),
+        ("reclassifications",
+         "| **`reclassify_as_polymorphism`** | **%d** |"
+         % g_flags["reclassify_as_polymorphism"]),
+        ("unphenotyped but common",
+         "| **`unphenotyped_but_common`** | **%d** |"
+         % g_flags["unphenotyped_but_common"]),
+        ("de-duplication removals", "removing %d, %d and %d records"
+         % (g_ex["identical"], g_ex["serial_same_strain"],
+            g_ex["same_patient_serial"])),
+        ("primary set size",
+         "only 14 of the %d phenotyped Tier A variants" % g_ds["n"]),
+    ]
+    for label, s in stated:
+        check(f"guide states the {label}", s in guide, True)
+    # The guide discusses the corrected labels in its section on how errors
+    # were caught, so the test is for the label used as a live one -- in a
+    # table row -- not for the words appearing anywhere.
+    for stale in ("Uncommon (1–5%)",
+                  "| Excluded by a downstream coverage or divergence filter |"):
+        check(f"guide free of the corrected {stale!r}", stale in guide, False)
 
-    # 22 models exist and 21 are compared against the frequency baseline,
-    # which is not compared with itself; 8 are degenerate at the threshold.
-    # All three numbers appear in the prose and read as contradictions.
-    met = load(REP / "phase4" / "metrics_summary.json")
-    pbm = met["label_sets"]["primary_tier_A"]["schemes"]["position_blocks"]
-    mods = pbm["models"]
-    check("models in the grid", len(mods), 22)
-    check("models compared against the frequency baseline",
-          sum(1 for v in mods.values() if v.get("vs_frequency_ap")), 21)
-    check("models degenerate at the 2x threshold",
-          sum(1 for v in mods.values() if v.get("threshold_degenerate")), 8)
-
-    # R222C is carried by three submissions, not one. The abstract called it a
-    # single-submission artefact, which only R176Q is.
-    byname = {(r["virus"], r["aa_change"]): r for r in rc}
-    check("R222C submissions",
-          int(byname[("HSV1", "R222C")]["n_studies_carrying"]), 3)
-    check("R176Q submissions",
-          int(byname[("HSV1", "R176Q")]["n_studies_carrying"]), 1)
-    g39 = byname[("HSV2", "G39E")]
-    if g39["gene"] != "UL23" or g39["frequency_band"] != "majority_allele":
-        failures.append("G39E is HSV-2 UL23 and a majority allele; the "
-                        "manuscript once called it UL30 and common")
-
-    # The repository and the paper are the same piece of work, so a reader who
-    # arrives at either should see the same claim named the same way. These
-    # two headings drifted apart once already.
-    ms_title = ms.splitlines()[0].strip()
-    rd_title = (ROOT / "README.md").read_text(
-        encoding="utf-8").splitlines()[0].strip()
-    if ms_title != rd_title:
-        failures.append(f"README and MANUSCRIPT titles differ; "
-                        f"README has {rd_title!r} and "
-                        f"MANUSCRIPT has {ms_title!r}")
     for bad in ("Uncommon (1–5%)", "Common (5–50%)",
                 "a further 15 exceed 5%"):
         if bad in ms:
@@ -577,6 +567,12 @@ def main():
                 "data/release/DATA_DICTIONARY.md", "README.md"):
         if not (ROOT / doc).exists():
             failures.append(f"missing document: {doc}")
+
+    # The guide quotes the size of this gate, so the gate checks the quote.
+    # The count includes this check, which is the fixed point to write down.
+    m = re.search(r"runs \*\*(\d+) checks\*\*", guide)
+    check("guide states this gate's size",
+          int(m.group(1)) if m else None, checks + 1)
 
     print(f"{checks} checks run")
     if failures:

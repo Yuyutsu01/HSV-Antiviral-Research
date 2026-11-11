@@ -29,6 +29,12 @@ carries the minority residue.
 Aim 4's answer is the one to read carefully, and
 [`reports/phase4/MANUSCRIPT.md`](reports/phase4/MANUSCRIPT.md) says why.
 
+**New to this project?** [`RESEARCH_GUIDE.md`](RESEARCH_GUIDE.md) is the full
+explainer: what was measured, how the pipeline works, every result with its
+benchmarks, and the reasoning behind each design choice — including the
+alternatives that were rejected and why. The manuscript is the formal paper;
+the guide is the one that shows its working.
+
 ## Running it
 
 ```bash
