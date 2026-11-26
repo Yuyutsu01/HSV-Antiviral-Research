@@ -243,15 +243,64 @@ would not work.
 ### 5.7 Grouped cross-validation, two schemes
 
 Random train/test splits would be meaningless here: adjacent residues in the
-same gene are not independent. Two grouped schemes are used:
+same gene are not independent — they share a structural context, a conservation
+column, and often a source study. Two grouped schemes are used, and the unit
+being split is always one amino-acid substitution.
 
-- **Leave-one-gene-out** — train on five gene/virus combinations, test on the sixth
-- **Leave-one-block-out** — over 50-residue position blocks
+**Leave-one-gene-out.** The group key is `virus:gene`, so the 119 Tier A
+variants fall into six groups: HSV-1 UL30 (45), HSV-1 UL23 (31), HSV-2 UL30
+(18), HSV-2 UL23 (12), HSV-1 UL5 (7) and HSV-1 UL52 (6). Six folds; each trains
+on five genes and tests on the sixth. Nothing from the held-out gene is in
+training.
 
-Running both is not belt-and-braces. It is what revealed that one of them is
-broken (§10.1).
+**Leave-one-block-out.** The group key is `virus:gene` plus the position
+divided by 50, giving 44 blocks of 1 to 13 variants. Five folds, blocks
+assigned whole, so roughly 95 variants train and 24 test. The same gene appears
+on both sides, but never the same 50-residue neighbourhood.
 
-### 5.8 Average precision, always beside its floor
+**Hyperparameters never see the test fold.** Inside each training fold, an
+inner grouped split over that fold's own groups picks between ridge penalties
+and forest settings, scored by Spearman correlation. The winner is refit on the
+whole training fold and predicts the test fold once. Every fold's predictions
+go into one out-of-fold vector of 119, and that vector is what gets scored —
+not any within-fold number.
+
+Running both schemes is not belt-and-braces. It is what revealed that one of
+them is broken (§10.1).
+
+### 5.8 Where the mathematics is written out
+
+This guide explains the reasoning; the manuscript carries the formulae. Every
+estimator and test is defined in full there, so nothing depends on a convention
+the reader has to guess:
+
+| What | Manuscript section |
+| --- | --- |
+| How the fold change is formed, and the drug it may come from | §2.3 |
+| Wilson score interval, and why not Wald | §2.5 |
+| Nei–Gojobori site counting, pathway averaging, Jukes–Cantor | §2.6 |
+| Relative solvent accessibility, ESM-2 masked marginal | §2.7 |
+| The two cross-validation schemes, stated completely | §2.7 |
+| Average precision, P@95, MCC, calibration, Spearman | §2.8 |
+| Bootstrap intervals, paired Δ-AP, two-sided *p* | §2.8 |
+| Holm adjustment, permutation null, matching, residualisation | §2.8 |
+
+Two of those deserve a note here, because they are the ones most often left
+implicit. The pathway-averaging rule in §2.6 is what makes Nei–Gojobori a
+counting method rather than a model fit, and it is not neutral for codons
+differing at more than one position. And the average precision used throughout
+is the step-wise sum over positives, not the area under an interpolated
+precision–recall curve; at this sample size the two disagree in the third
+decimal.
+
+The manuscript's §11 is a reference list. Its HSV phenotype citations are
+labelled *via HerpesDRG*, because each was taken from the frozen catalogue's
+own `ref_doi` field for the variant under discussion rather than from an
+independent literature search. Citing them asserts what the catalogue
+attributes to each work — which is the claim the paper makes — and not that the
+primary measurements were re-examined.
+
+### 5.9 Average precision, always beside its floor
 
 **The primary metric was declared before any data was acquired**, along with
 the 2-fold resistance threshold and the whole metric hierarchy
@@ -314,8 +363,10 @@ point rather than drift toward whatever result the data happens to allow.
 > **Gate 2's 100% is narrower than it looks**, and the project says so. It
 > verifies that the catalogue is internally consistent with the reference
 > sequence — not that the catalogue is faithful to its original sources. Two
-> substitutions passed this gate while being flagged as misreported by an
-> independent published audit.
+> substitutions passed this gate while being queried by an external review of
+> this work as possibly misreported relative to their primary sources. Both are
+> settled in the manuscript's §3.1, against the catalogue's own per-drug
+> records.
 
 ---
 
@@ -357,7 +408,7 @@ there is no phenotype to interpret them with.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | UL23 R222C | 0.046 | 11 | 3 | 0.73 | 0.013 | 98× | Ascertainment artefact |
 | UL23 R176Q | 0.017 | 4 | 1 | 1.00 | 0.0 | 200× | Ascertainment artefact |
-| UL23 R41H | 0.051 | 12 | 5 | 0.33 | 0.038 | 2.3× | Sound frequency, marginal phenotype |
+| UL23 R41H | 0.051 | 12 | 5 | 0.33 | 0.038 | 2.3× | Sound frequency, phenotype does not hold up |
 
 **R222C** is the one that would have mattered: 98-fold resistance at an
 apparent 7.6% frequency. Patient-level collapse took it to 11 carriers and
@@ -374,9 +425,15 @@ target genes** to a record already kept. None is independent. Even counting all
 
 **R41H** is the interesting case because it is *not* an artefact — 12 carriers
 across five submissions, robust to study dropout. What disqualifies it is the
-phenotype: 2.3-fold is marginal against the declared 2-fold threshold, and an
-independent published audit calls it Sensitive. **Frequency and phenotype each
-need their own scrutiny**; the ascertainment flag alone would have retained it.
+phenotype, and the catalogue's own records say so once they are read drug by
+drug. The 2.3-fold that put it in the table is a **foscarnet** value, and
+foscarnet inhibits the DNA polymerase directly without needing thymidine kinase
+to activate it — so a UL23 substitution has no mechanism by which to shift it.
+For aciclovir, the drug UL23 does activate, three independent studies give 0.8
+to 1.0-fold. This is the cost of taking the fold change as the maximum over all
+drugs tested, which the manuscript declares in §2.3 and works through in §3.1.
+**Frequency and phenotype each need their own scrutiny**; the ascertainment flag
+alone would have retained it.
 
 #### The empty region
 
@@ -753,7 +810,7 @@ Stated as the paper states them, without softening.
 
 Every figure quoted in the manuscript, README, pre-declaration and data
 dictionary is re-read from its source summary and compared, by
-`scripts/p4_05_verify.py`. It currently runs **226 checks** and the pipeline
+`scripts/p4_05_verify.py`. It currently runs **249 checks** and the pipeline
 fails if any disagrees.
 
 This is not decoration. The gate has caught real errors that survived multiple

@@ -73,7 +73,7 @@ deliberate constraint and a limitation: see the Phase 1 report.
 | `data/processed/` | Analysis tables and features |
 | `data/release/` | **Deposition artefacts** — frozen accession list, master variant table, reclassification table, `DATA_DICTIONARY.md` |
 | `reports/phase0..4/` | One report per phase, with machine-readable summaries beside each |
-| `reports/*.log` | Stage run logs, including the 200-replicate permutation run cited in the Phase 3 report |
+| `reports/*.log` | Stage run logs for the ESM scoring, the verifier and the branch re-run |
 | `scripts/` | The pipeline, one script per stage, prefixed by phase |
 
 ## What is committed and why
@@ -126,8 +126,8 @@ Conflating them is the single easiest mistake to make with these results.
 
 **A frequency is only as good as its ascertainment.** Three variants initially
 looked like circulating resistance alleles. Two were artefacts of one
-submission each; the third is a genuine 5% polymorphism whose resistance rests
-on a 2.3× fold change. Every frequency in the reclassification table carries
+submission each; the third is a genuine 5% polymorphism whose 2.3× fold change
+turns out to be a foscarnet reading on a thymidine-kinase substitution. Every frequency in the reclassification table carries
 `max_study_share`, `loso_min_freq` and `study_dominated` for this reason, and
 they should be read alongside the frequency, never after it.
 

@@ -85,7 +85,7 @@ is that task.
 
 ### 2.1 Sources, frozen
 
-HerpesDRG, pinned at commit `22fc186` (retrieved 2026-11-01T19:30:05Z, MD5
+HerpesDRG (Charles et al. 2024), pinned at commit `22fc186` (retrieved 2026-11-01T19:30:05Z, MD5
 `d78ad69a…`), active entries only (`status == "A"`). GenBank nucleotide records
 for taxa 10298 (HSV-1) and 10310 (HSV-2) restricted to 140–200 kb, queried
 2026-11-01T20:02:36Z and 20:07:23Z. All 1,143 returned accessions are listed in
@@ -130,19 +130,51 @@ qualitative resistance call with no numeric fold change, and 3 more are
 dropped as co-mutations or for want of a reference protein. The 119 is the
 primary set throughout §§5 and 6.
 
+**How the fold change is formed, and the limitation it carries.** A catalogue
+entry may hold several phenotype records, from different studies, assays and
+drugs. The value used here is the maximum over all of them:
+
+$$\mathrm{FC}(v) = \max_{r \,\in\, \mathcal{R}(v)} \; \max_{d \,\in\, \mathcal{D}(r)} \mathrm{fc}(r, d),$$
+
+for records $\mathcal{R}(v)$ of variant $v$ and drugs $\mathcal{D}(r)$ tested in
+record $r$. Taking the maximum is the conservative choice for Aim 1, whose
+question is whether a *common* allele could be resistant *under any reading of
+the catalogue* — understating a phenotype would manufacture the reassuring
+answer. It has a cost, declared here because it matters in §3.1: the maximum
+may come from a drug whose activation does not involve the mutated gene, in
+which case it is a measurement of assay noise rather than of resistance.
+
 ### 2.4 Alignment, and a constraint worth declaring
 
-No multiple-sequence-alignment tool was available. Alignment is therefore
-reference-anchored and pairwise (Biopython `PairwiseAligner`, BLOSUM62, free
-terminal gaps). For coding sequences of 70–80% identity to a known reference
+No multiple-sequence-alignment tool was available: neither MAFFT (Katoh and
+Standley 2013) nor BLAST (Altschul et al. 1990) could be installed in the
+environment this was developed in. Alignment is therefore reference-anchored
+and pairwise (Biopython `PairwiseAligner`, Cock et al. 2009), scored with
+BLOSUM62 (Henikoff and Henikoff 1992) and free terminal gaps. For coding sequences of 70–80% identity to a known reference
 this is adequate, and it makes every position directly comparable to reference
 coordinates without a column-mapping step. It is nonetheless a limitation, and
 indels are handled less well than a codon-aware MSA would handle them.
 
 ### 2.5 Frequencies and ascertainment
 
-Frequencies are counts over per-position coverage, with 95% Wilson score
-intervals. Every frequency additionally carries:
+A variant's frequency is its carrier count over the number of isolates with
+usable coverage at that position, $\hat{p} = k/n$, reported with a 95% Wilson
+score interval (Wilson 1927). For $z = 1.96$ the interval is
+
+$$
+\frac{\hat{p} + \dfrac{z^{2}}{2n}}{1 + \dfrac{z^{2}}{n}}
+\;\pm\;
+\frac{z}{1 + \dfrac{z^{2}}{n}}
+\sqrt{\frac{\hat{p}(1-\hat{p})}{n} + \frac{z^{2}}{4n^{2}}},
+$$
+
+truncated to $[0, 1]$. The Wilson interval rather than the Wald interval
+$\hat{p} \pm z\sqrt{\hat{p}(1-\hat{p})/n}$ because nearly every frequency here
+is small and many are zero, where Wald coverage falls far below nominal and the
+interval collapses to zero width at $\hat{p} = 0$ (Agresti and Coull 1998).
+Implementation: `scripts/p1_04_frequencies.py`.
+
+Every frequency additionally carries:
 
 - `n_studies_carrying` — distinct submissions contributing a carrier;
 - `loso_min_freq` — the lowest frequency under leave-one-study-out;
@@ -155,11 +187,56 @@ state one without the other.
 
 ### 2.6 Selection
 
-pN/pS by Nei–Gojobori with Jukes–Cantor correction, measured **against the
+pN/pS by the Nei–Gojobori counting method (Nei and Gojobori 1986) with a
+Jukes–Cantor correction (Jukes and Cantor 1969), measured **against the
 population consensus rather than the reference**. Using the reference would
 count every position where the reference is the minority residue as
 polymorphism, inflating the estimate by a term that has nothing to do with
-selection. A gene is reported as reliable only when synonymous sites are
+selection.
+
+For a codon $c$, the synonymous and non-synonymous site counts are
+
+$$
+S(c) = \sum_{i=1}^{3} \frac{1}{3} \sum_{b \neq c_i}
+  \mathbf{1}\!\left[\, \tau(c^{i \to b}) = \tau(c) \,\right],
+\qquad N(c) = 3 - S(c),
+$$
+
+where $c^{i \to b}$ is $c$ with position $i$ replaced by base $b$ and $\tau$ is
+the standard genetic code. Each of the three alternative bases at a position
+contributes $1/3$ of a site, so the three positions sum to 3.
+
+For a pair of aligned codons differing at $m$ positions, the synonymous and
+non-synonymous **differences** are averaged over all $m!$ shortest mutational
+pathways between them, each pathway weighted equally:
+
+$$
+S_d = \frac{1}{m!} \sum_{\pi \in \Pi_m} s(\pi),
+\qquad
+N_d = \frac{1}{m!} \sum_{\pi \in \Pi_m} \bigl(m - s(\pi)\bigr),
+$$
+
+with $s(\pi)$ the number of synonymous steps along pathway $\pi$. This is what
+makes the method a *counting* method rather than a model fit, and it is the
+step most often omitted when "Nei–Gojobori" is cited; it is written out here
+because the choice is not neutral for codons differing at two or three
+positions. Implementation: `scripts/p2_02_selection.py`.
+
+Summing $S$, $N$, $S_d$ and $N_d$ over all compared codons gives the raw
+proportions $p_S = S_d / S$ and $p_N = N_d / N$, to which the Jukes–Cantor
+correction for multiple hits at the same site is applied:
+
+$$
+d = -\frac{3}{4}\ln\!\left(1 - \frac{4p}{3}\right),
+\qquad \text{undefined for } p \geq \tfrac{3}{4},
+$$
+
+and the reported statistic is the ratio $d_N / d_S$. At the divergences seen
+here ($p \ll 0.1$) the correction is small, and it is applied rather than
+skipped so that genes of different divergence remain comparable. Confidence
+intervals are percentile bootstrap over isolates, 1,000 replicates.
+
+A gene is reported as reliable only when synonymous sites are
 sufficient; HSV-2 UL23 (Sd = 32) is not, and the HSV-2 contrast is withheld
 rather than reported with a wide interval.
 
@@ -183,20 +260,185 @@ being named: the HSV-1 thymidine pocket residues came out buried and in contact
 range (E83 2.79 Å, Y101 2.67 Å, Q125 2.85 Å, R163 2.45 Å, R222 3.27 Å, all with
 relative accessibility ≈ 0).
 
+Structures are taken from the Protein Data Bank (Berman et al. 2000). Solvent
+accessibility is computed by the Shrake–Rupley algorithm (Shrake and Rupley
+1973) as implemented in Biopython, and reported as a **relative** accessibility
+
+$$\mathrm{RSA}(i) = \frac{\mathrm{SASA}(i)}{\mathrm{ASA}_{\max}(a_i)},$$
+
+where $\mathrm{ASA}_{\max}$ is the theoretical maximum accessible area for the
+residue's amino-acid type, taken from Tien et al. (2013). Normalising matters
+because raw SASA is not comparable across residue types: a fully exposed
+glycine and a buried tryptophan can return similar absolute areas.
+
 **UL52 has no resolved site of its own** — zero residues within 5 Å of any
 ligand, median distance 42 Å, its nearest ligand belonging to a neighbouring
 subunit. Those rows carry `site_resolved = 0`. This turns out to matter a great
 deal (§5.3).
 
-ESM-2 `esm2_t33_650M_UR50D` masked marginals, zero-shot. Deep networks and
-fine-tuned language models were excluded in advance: at a few hundred labelled
-positives they cannot be fitted or validated.
+ESM-2 `esm2_t33_650M_UR50D` (Lin et al. 2023), scored zero-shot by the masked
+marginal of Meier et al. (2021). The position of interest is replaced by the
+mask token, the model is run once over the masked sequence, and the variant is
+scored by the log-ratio of the two residues' probabilities at that position:
 
-Two cross-validation schemes, both grouped: leave-one-gene-out, and
-leave-one-block-out over 50-residue position blocks. Hyperparameters are tuned
-in an inner grouped loop. The primary metric is average precision, reported
-beside the positive-class prevalence; the 2-fold threshold and the metric
-hierarchy were fixed before data acquisition (`PRE_DECLARATION.md`).
+$$
+s(i, a \!\rightarrow\! b) =
+  \log P\!\left(x_i = b \mid x_{\setminus i}\right)
+  - \log P\!\left(x_i = a \mid x_{\setminus i}\right),
+$$
+
+both terms taken from the same softmax over the amino-acid vocabulary, computed
+in float32 regardless of the model's inference precision. A negative score
+means the model prefers the reference residue. Nothing is fitted: no label is
+seen, so this feature cannot leak the target.
+
+Deep networks and fine-tuned language models were excluded in advance: at a few
+hundred labelled positives they cannot be fitted or validated.
+
+**Cross-validation, stated completely.** The unit is one amino-acid
+substitution; the primary set is the 119 Tier A variants. Nothing is split at
+random, because positions within a gene are not independent — they share a
+structural context, a conservation column and often a source study, and a
+random fold would place neighbouring residues on both sides of the split
+(Roberts et al. 2017). Two grouped schemes are run:
+
+| Scheme | Group key | Groups | Outer splitter | Test rows per fold |
+| --- | --- | --- | --- | --- |
+| Leave-one-gene-out | `virus:gene` | 6 | `LeaveOneGroupOut` | 6 to 45 |
+| Position blocks | `virus:gene:floor(pos/50)` | 44 | `GroupKFold(5)` | about 24 |
+
+The six gene groups hold 45 (HSV-1 UL30), 31 (HSV-1 UL23), 18 (HSV-2 UL30), 12
+(HSV-2 UL23), 7 (HSV-1 UL5) and 6 (HSV-1 UL52) variants. The 44 position
+blocks hold 1 to 13 variants each and are assigned whole to folds, so no
+residue within 50 positions of a test residue in the same gene is ever in
+training.
+
+Hyperparameters are selected **inside each training fold only**, by an inner
+`GroupKFold` with $\min(3, |G_{\text{train}}|)$ splits over that fold's own
+groups, scored by Spearman $\rho$. The selected configuration is refit on the
+whole training fold and predicts the test fold once; this nesting is what keeps
+the reported figure from being a model-selection score rather than a
+generalisation score (Varma and Simon 2006). Estimators are ridge regression
+(Hoerl and Kennard 1970) over $\alpha \in \{0.1, 1, 10, 100\}$ and a random
+forest (Breiman 2001) of 300 trees over `min_samples_leaf` $\in \{1, 5\}$ and
+`max_features` $\in \{0.5, 1.0\}$. Every fold's predictions are written back
+into a single out-of-fold vector of length 119, and that vector — not any
+within-fold score — is what §5 evaluates.
+
+The primary metric is average precision, reported beside the positive-class
+prevalence; the 2-fold threshold and the metric hierarchy were fixed before
+data acquisition (`PRE_DECLARATION.md`).
+
+### 2.8 Statistical definitions
+
+Every estimator and test used in §§5 and 6 is defined here, so that no reported
+number depends on a convention the reader has to guess. Implementation:
+`scripts/p4_01_metrics.py` and `scripts/p3_05_audit.py`.
+
+**Average precision.** Variants are ranked by score, descending, with stable
+tie-breaking. With $y_k \in \{0,1\}$ the label of the $k$-th ranked variant and
+$P = \sum_k y_k$ the number of positives,
+
+$$
+\mathrm{AP} = \frac{1}{P} \sum_{k=1}^{n} y_k \cdot
+  \frac{\sum_{j \le k} y_j}{k}.
+$$
+
+This is the step-wise sum — precision at each positive, averaged over the
+positives — not the trapezoidal area under an interpolated precision–recall
+curve. The two differ at small $n$, and the choice is stated because it moves
+the third decimal of every figure in §5.2. A scoring independent of the labels
+has $\mathbb{E}[\mathrm{AP}] = P/n$, the prevalence, which is why AP is never
+reported here without it (Davis and Goadrich 2006; Saito and Rehmsmeier 2015).
+
+**Precision at 95% recall.** Precision at the smallest rank $k$ at which
+cumulative recall reaches 0.95.
+
+**Matthews correlation** (Matthews 1975), at the pre-declared operating point
+$s \ge \log_{10} 2$:
+
+$$
+\mathrm{MCC} = \frac{TP \cdot TN - FP \cdot FN}
+  {\sqrt{(TP{+}FP)(TP{+}FN)(TN{+}FP)(TN{+}FN)}}.
+$$
+
+When the prediction is constant at that threshold the denominator is zero and
+MCC is undefined. That is reported as `threshold_degenerate`, not as a missing
+value: it is the finding that the model makes no usable decision.
+
+**Rank agreement** is Spearman's $\rho$ (Spearman 1904) between predicted score
+and observed $\log_{10}$ fold change — the statistic in which every figure in
+§6.1, §6.2 and §6.3 is quoted.
+
+**Calibration** is the ordinary least-squares slope and intercept of observed
+$\log_{10}$ fold change on predicted score. Slope 1 with intercept 0 is
+perfect; slope below 1 is under-dispersion, that is, shrinkage toward the mean.
+
+**Bootstrap intervals** are percentile intervals resampled **over mutations**
+(Efron 1979): 2,000 replicates for every Phase 4 metric, 1,000 for the Phase 2
+selection ratios, seeded once per run. Resampling mutations rather than
+predictions is deliberate — the latter treats each prediction as an independent
+draw and understates the interval, when the sampling unit is the variant.
+
+**Model-versus-baseline comparison** is a paired bootstrap of the AP advantage.
+On each of 2,000 resamples $b$ the same resampled mutations score both models,
+giving $\Delta_b = \mathrm{AP}_b(\text{model}) - \mathrm{AP}_b(\text{frequency})$;
+resamples containing only one class are discarded. Pairing on the same resample
+removes between-resample variance from the comparison. The interval is the
+2.5th and 97.5th percentiles of $\{\Delta_b\}$, and the two-sided $p$ is the
+sign-flip proportion, doubled and capped:
+
+$$
+p = \min\!\left(1,\; 2 \min\left(
+  \widehat{\Pr}[\Delta \le 0],\;
+  \widehat{\Pr}[\Delta \ge 0] \right)\right).
+$$
+
+**Multiplicity.** Holm–Bonferroni (Holm 1979) across the 21
+model-versus-baseline comparisons. With $p_{(1)} \le \dots \le p_{(m)}$ ordered,
+the adjusted value is
+
+$$
+\tilde{p}_{(i)} = \max_{j \le i} \; \min\!\left(1,\; (m - j + 1)\, p_{(j)}\right),
+$$
+
+the running maximum enforcing monotonicity. Holm rather than
+Benjamini–Hochberg because the question is whether *any* model beats the
+baseline, which calls for control of the family-wise error rate rather than of
+the false discovery rate.
+
+**Permutation nulls.** The target is permuted **within** cross-validation
+groups, preserving each group's mean label and destroying only the
+feature–label link, and the whole nested cross-validation is re-run. With
+$R = 100$ replicates and $\rho_{\text{obs}}$ the observed value, the one-sided
+$p$ uses the add-one estimator
+
+$$
+p = \frac{1 + \#\{\, \rho^{*}_{r} \ge \rho_{\text{obs}} \,\}}{1 + R},
+$$
+
+which cannot return zero: the smallest attainable value is
+$1/101 \approx 0.0099$, and no $p$ below that is claimed anywhere in this
+paper. A result is called usable only when $p < 0.05$ **and**
+$\rho_{\text{obs}} > 0$, because §6.1 shows the null is not centred at zero.
+
+**Conservation-matched negatives.** Conservation is binned at the quartiles of
+the pooled distribution, so that neither class defines the grid. Within each
+bin both classes are subsampled to the smaller of the two counts, equalising
+the conservation distribution by construction; 100 independent draws are taken
+and the reported figure is the mean with a percentile interval. Both classes
+are subsampled rather than only the negatives because the negatives are the
+minority here (32 against 87), so a draw sized to the positives would silently
+return the whole pool and test nothing.
+
+**Residualisation.** For each ESM feature $E_j$, an OLS fit on the conservation
+and structure features $C$ gives $\hat{E}_j = C\hat{\beta}_j$, and the feature
+is replaced by its residual $E_j - \hat{E}_j$. What survives is the part of
+ESM-2's signal that conservation and structure cannot account for.
+
+**Seeds.** One seed per stage, recorded in that stage's JSON summary beside the
+replicate counts, so every interval and $p$-value in this paper is reproducible
+exactly.
 
 ## 3. Aim 1 — what the catalogue looks like with a denominator
 
@@ -234,10 +476,16 @@ laboratory will meet them and has no phenotype to interpret them with.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | UL23 R222C | 0.046 | 11 | 3 | 0.73 | 0.0134 | 98× | Ascertainment artefact |
 | UL23 R176Q | 0.017 | 4 | 1 | 1.00 | 0.0 | 200× | Ascertainment artefact |
-| UL23 R41H | 0.051 | 12 | 5 | 0.33 | 0.0381 | 2.3× | Sound frequency, marginal phenotype |
+| UL23 R41H | 0.051 | 12 | 5 | 0.33 | 0.0381 | 2.3× | Sound frequency, phenotype does not hold up |
 
 R222C is the entry that would have mattered most: 98-fold resistance at
 an apparent 7.6% frequency would have been a surveillance finding. It is not.
+The 98-fold itself is the aciclovir value from a laboratory-selected strain
+(Schalkwijk et al. 2024); the catalogue's clinical-isolate records for the same
+substitution give 7.1-fold and 9.8-fold (Gaudreau et al. 1998) and 25-fold
+(Bestman-Smith et al. 2001), with a further record reporting a qualitative
+resistant call (Schubert et al. 2014). The substitution is genuinely
+resistance-associated. What fails is the frequency.
 Patient-level collapse reduced it from 19 carriers to 11 and 7.6% to 4.6%, and 8
 of the 11 remaining carriers come from one submission; dropping that submission
 takes the frequency to 1.4%.
@@ -253,9 +501,29 @@ them, 63%, from the single dominant submission.
 
 R41H is the interesting case, because it is **not** an artefact — 12 carriers
 across five submissions, robust to study dropout. What disqualifies it is the
-phenotype: 2.3-fold is marginal against the declared 2-fold threshold, and an
-independent published audit labels it Sensitive. Frequency and phenotype each
-need their own scrutiny, and `study_dominated = 0` alone would have retained it.
+phenotype, and the catalogue's own records say so once they are read drug by
+drug. Three independent studies contribute. Chibo et al. (2004) record it as a
+polymorphism for both aciclovir and foscarnet. Brunnemann et al. (2016), in a
+recombinant BAC background, give aciclovir 1.0-fold, penciclovir 1.1-fold and
+brivudine 1.0-fold. Inagaki et al. (2018), also in a recombinant background,
+give aciclovir 0.8-fold.
+
+**The 2.3-fold that put R41H in this table is the foscarnet value from
+Brunnemann et al. (2016).** Foscarnet is a pyrophosphate analogue that inhibits
+the viral DNA polymerase directly and requires no activation by thymidine
+kinase, so a UL23 substitution has no mechanism by which to shift it; a
+2.3-fold reading on an assay whose other three drugs sit at 1.0-fold is better
+read as the assay's own dispersion. For aciclovir — the drug UL23 does
+activate — the three studies agree on 0.8 to 1.0-fold.
+
+This is the cost of the maximum-over-drugs rule declared in §2.3, and R41H is
+the case where it bites. The rule is kept because Aim 1's question is whether
+any common allele could be resistant on any reading of the catalogue, and
+loosening it would manufacture the reassuring answer. The verdict stands, with
+a firmer basis than "marginal": R41H is a common natural polymorphism of HSV-1
+UL23 with no demonstrated resistance phenotype against the drug its gene acts
+on. Frequency and phenotype each need their own scrutiny, and
+`study_dominated = 0` alone would have retained it.
 
 **60 of the 128 observed variants are study-dominated.** Any use of these
 frequencies that ignores that column will overstate about half of them. The 11
@@ -275,7 +543,14 @@ band boundary used in the table above, so that the claim is made over a wider
 set of substitutions rather than a narrower one — the strongest phenotype
 above it is **2.4×**. Two substitutions clear the declared 2-fold threshold at
 that frequency, both marginally (HSV-1 UL23 R41H at 2.3× and HSV-2 UL23 G39E
-at 2.4×, the latter a majority allele at 79%), and **none reaches 5×**.
+at 2.4×, the latter a majority allele at 79%), and **none reaches 5×**. Both
+dissolve on inspection in the same way: §3.1 shows R41H's 2.3× to be a
+foscarnet reading on a thymidine-kinase substitution, and G39E's 2.4× is a
+penciclovir dye-uptake value from Brunnemann et al. (2018), whose own
+plaque-reduction assay on the same recombinant gives 0.5× for penciclovir and
+0.7× for aciclovir, while Burrel et al. (2012) report 1.2× by functional
+kinetics. Neither of the two substitutions that clear the threshold does so on
+the drug its gene activates.
 
 The nearest approach to a counterexample is UL23 R222C, at 98-fold and 4.6%,
 just below the cut — and §3.1 is the reason it does not qualify on frequency
@@ -514,8 +789,10 @@ methodological contribution.
 ### 6.1 Leave-one-gene-out has a negative null
 
 Permuting the target **within** cross-validation groups — preserving each gene's
-mean label, destroying only the feature–label link — gives a null centred at
-**−0.16 to −0.29**, not zero.
+mean label, destroying only the feature–label link (§2.8) — gives a null
+centred at a Spearman $\rho$ of **−0.16 to −0.29**, not zero. Every figure in
+this section is a Spearman rank correlation between predicted score and
+observed $\log_{10}$ fold change.
 
 The mechanism: the model predicts approximately the training mean for a
 held-out gene, and removing a gene shifts that mean *away* from the gene's own
@@ -688,7 +965,9 @@ tool. Indels are handled less well than they should be.
 **Gate 2's 100% pass rate is narrower than it looks.** It verifies that the
 catalogue is internally consistent with the reference sequence, not that the
 catalogue is faithful to its sources. Two substitutions passed this gate while
-being flagged as misreported by an independent published audit.
+being queried by an external review of this work as possibly misreported
+relative to their primary sources; §3.1 resolves both against the catalogue's
+own per-drug records, and the review was not itself a published audit.
 
 **The temporal hold-out's cut-off year was not pre-declared.** All five
 cut-offs are reported for that reason, and the nominated primary is chosen on
@@ -773,3 +1052,170 @@ source by the verification gate.
 | Pipeline | `scripts/`, driven by `scripts/run_all.py` |
 
 Checksums for the release tables are in `reports/phase4/release_summary.json`.
+
+**Software.** Python 3.11.8 with NumPy (Harris et al. 2020), SciPy (Virtanen et
+al. 2020), scikit-learn (Pedregosa et al. 2011), Biopython (Cock et al. 2009),
+matplotlib (Hunter 2007), PyTorch and Hugging Face `transformers`. Pinned
+versions are in the README.
+
+## 11. References
+
+**How these citations were obtained, and what they do and do not assert.**
+Methodological and software references are to the works whose procedures this
+pipeline implements. The HSV phenotype references are a different matter and are
+labelled as such: each was taken from the `ref_doi` field of the frozen
+HerpesDRG snapshot for the specific variant being discussed, not from an
+independent literature search, and its bibliographic details were then resolved
+against Crossref. Citing them here asserts that the catalogue attributes the
+quoted value to that work — which is the claim §3.1 and §3.2 actually make, and
+all they need. It does not assert that the present authors have examined the
+primary measurements. Readers wishing to go behind the catalogue should treat
+the DOI as the starting point, not as a warrant.
+
+Agresti A, Coull BA (1998) Approximate is better than "exact" for interval
+estimation of binomial proportions. *The American Statistician* 52:119–126.
+doi:10.1080/00031305.1998.10480550
+
+Altschul SF, Gish W, Miller W, Myers EW, Lipman DJ (1990) Basic local alignment
+search tool. *Journal of Molecular Biology* 215:403–410.
+doi:10.1016/S0022-2836(05)80360-2
+
+Berman HM, et al. (2000) The Protein Data Bank. *Nucleic Acids Research*
+28:235–242. doi:10.1093/nar/28.1.235
+
+Bestman-Smith J, et al. (2001) Highly reliable heterologous system for
+evaluating resistance of clinical herpes simplex virus isolates to nucleoside
+analogues. *Journal of Virology* 75:3105–3110.
+doi:10.1128/JVI.75.7.3105-3110.2001 — *phenotype reference, via HerpesDRG*
+
+Breiman L (2001) Random forests. *Machine Learning* 45:5–32.
+doi:10.1023/A:1010933404324
+
+Brunnemann AK, et al. (2016) Recombinant herpes simplex virus type 1 strains
+with targeted mutations relevant for aciclovir susceptibility. *Scientific
+Reports* 6:29903. doi:10.1038/srep29903 — *phenotype reference, via HerpesDRG*
+
+Brunnemann AK, et al. (2018) Relevance of non-synonymous thymidine kinase
+mutations for antiviral resistance of recombinant herpes simplex virus type 2
+strains. *Antiviral Research* 152:53–57. doi:10.1016/j.antiviral.2018.02.004 —
+*phenotype reference, via HerpesDRG*
+
+Burrel S, et al. (2012) Impact of novel mutations of herpes simplex virus 1 and
+2 thymidine kinases on acyclovir phosphorylation activity. *Antiviral Research*
+96:386–390. doi:10.1016/j.antiviral.2012.09.016 — *phenotype reference, via
+HerpesDRG*
+
+Charles OJ, et al. (2024) HerpesDRG: a comprehensive resource for human
+herpesvirus antiviral drug resistance genotyping. *BMC Bioinformatics* 25.
+doi:10.1186/s12859-024-05885-5
+
+Chibo D, et al. (2004) Molecular analysis of clinical isolates of acyclovir
+resistant herpes simplex virus. *Antiviral Research* 61:83–91.
+doi:10.1016/j.antiviral.2003.08.018 — *phenotype reference, via HerpesDRG*
+
+Cock PJA, et al. (2009) Biopython: freely available Python tools for
+computational molecular biology and bioinformatics. *Bioinformatics*
+25:1422–1423. doi:10.1093/bioinformatics/btp163
+
+Davis J, Goadrich M (2006) The relationship between precision–recall and ROC
+curves. *Proceedings of the 23rd International Conference on Machine Learning*
+233–240. doi:10.1145/1143844.1143874
+
+Efron B (1979) Bootstrap methods: another look at the jackknife. *The Annals of
+Statistics* 7:1–26. doi:10.1214/aos/1176344552
+
+Gaudreau A, et al. (1998) Phenotypic and genotypic characterization of
+acyclovir-resistant herpes simplex viruses from immunocompromised patients.
+*Journal of Infectious Diseases* 178:297–303. doi:10.1086/515626 — *phenotype
+reference, via HerpesDRG*
+
+Harris CR, et al. (2020) Array programming with NumPy. *Nature* 585:357–362.
+doi:10.1038/s41586-020-2649-2
+
+Henikoff S, Henikoff JG (1992) Amino acid substitution matrices from protein
+blocks. *Proceedings of the National Academy of Sciences* 89:10915–10919.
+doi:10.1073/pnas.89.22.10915
+
+Hoerl AE, Kennard RW (1970) Ridge regression: biased estimation for
+nonorthogonal problems. *Technometrics* 12:55–67.
+doi:10.1080/00401706.1970.10488634
+
+Holm S (1979) A simple sequentially rejective multiple test procedure.
+*Scandinavian Journal of Statistics* 6:65–70.
+
+Hunter JD (2007) Matplotlib: a 2D graphics environment. *Computing in Science &
+Engineering* 9:90–95. doi:10.1109/MCSE.2007.55
+
+Inagaki T, et al. (2018) Acyclovir sensitivity and neurovirulence of herpes
+simplex virus type 1 with amino acid substitutions in the viral thymidine kinase
+gene, which were detected in the patients with intractable herpes simplex
+encephalitis previously reported. *Japanese Journal of Infectious Diseases*
+71:343–349. doi:10.7883/yoken.JJID.2018.176 — *phenotype reference, via
+HerpesDRG*
+
+Jukes TH, Cantor CR (1969) Evolution of protein molecules. In: *Mammalian
+Protein Metabolism*, 21–132. doi:10.1016/B978-1-4832-3211-9.50009-7
+
+Katoh K, Standley DM (2013) MAFFT multiple sequence alignment software version
+7: improvements in performance and usability. *Molecular Biology and Evolution*
+30:772–780. doi:10.1093/molbev/mst010
+
+Lin Z, et al. (2023) Evolutionary-scale prediction of atomic-level protein
+structure with a language model. *Science* 379:1123–1130.
+doi:10.1126/science.ade2574
+
+Matthews BW (1975) Comparison of the predicted and observed secondary structure
+of T4 phage lysozyme. *Biochimica et Biophysica Acta* 405:442–451.
+doi:10.1016/0005-2795(75)90109-9
+
+Meier J, Rao R, Verkuil R, Liu J, Sercu T, Rives A (2021) Language models enable
+zero-shot prediction of the effects of mutations on protein function. *Advances
+in Neural Information Processing Systems* 34. Preprint:
+doi:10.1101/2021.07.09.450648
+
+Nei M, Gojobori T (1986) Simple methods for estimating the numbers of synonymous
+and nonsynonymous nucleotide substitutions. *Molecular Biology and Evolution*
+3:418–426. doi:10.1093/oxfordjournals.molbev.a040410
+
+Pedregosa F, et al. (2011) Scikit-learn: machine learning in Python. *Journal of
+Machine Learning Research* 12:2825–2830.
+
+Roberts DR, et al. (2017) Cross-validation strategies for data with temporal,
+spatial, hierarchical, or phylogenetic structure. *Ecography* 40:913–929.
+doi:10.1111/ecog.02881
+
+Saito T, Rehmsmeier M (2015) The precision–recall plot is more informative than
+the ROC plot when evaluating binary classifiers on imbalanced datasets. *PLOS
+ONE* 10:e0118432. doi:10.1371/journal.pone.0118432
+
+Schalkwijk HH, et al. (2024) Combination of ganciclovir and trifluridine
+prevents drug-resistance emergence in HSV-1. *Antimicrobial Agents and
+Chemotherapy* 68. doi:10.1128/aac.00110-24 — *phenotype reference, via
+HerpesDRG*
+
+Schubert A, et al. (2014) Single nucleotide polymorphisms of thymidine kinase
+and DNA polymerase genes in clinical herpes simplex virus type 1 isolates
+associated with different resistance phenotypes. *Antiviral Research* 107:16–22.
+doi:10.1016/j.antiviral.2014.03.015 — *phenotype reference, via HerpesDRG*
+
+Shrake A, Rupley JA (1973) Environment and exposure to solvent of protein atoms.
+Lysozyme and insulin. *Journal of Molecular Biology* 79:351–371.
+doi:10.1016/0022-2836(73)90011-9
+
+Spearman C (1904) The proof and measurement of association between two things.
+*The American Journal of Psychology* 15:72–101. doi:10.2307/1412159
+
+Tien MZ, Meyer AG, Sydykova DK, Spielman SJ, Wilke CO (2013) Maximum allowed
+solvent accessibilities of residues in proteins. *PLoS ONE* 8:e80635.
+doi:10.1371/journal.pone.0080635
+
+Varma S, Simon R (2006) Bias in error estimation when using cross-validation for
+model selection. *BMC Bioinformatics* 7:91. doi:10.1186/1471-2105-7-91
+
+Virtanen P, et al. (2020) SciPy 1.0: fundamental algorithms for scientific
+computing in Python. *Nature Methods* 17:261–272.
+doi:10.1038/s41592-019-0686-2
+
+Wilson EB (1927) Probable inference, the law of succession, and statistical
+inference. *Journal of the American Statistical Association* 22:209–212.
+doi:10.1080/01621459.1927.10502953

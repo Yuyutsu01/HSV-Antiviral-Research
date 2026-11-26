@@ -568,6 +568,75 @@ def main():
         if not (ROOT / doc).exists():
             failures.append(f"missing document: {doc}")
 
+    # --- Citations. Every author-year in the body must have an entry in the
+    # reference list and every entry must be cited. A reference list is the one
+    # part of a paper where an error is invisible to every other check here.
+    body, _, refs = ms.partition("## 11. References")
+    if not refs:
+        failures.append("MANUSCRIPT has no references section")
+    else:
+        flat_body = re.sub(r"\s+", " ", body)
+        flat_refs = re.sub(r"\s+", " ", refs)
+        # Entries are separated by blank lines; each opens with the first
+        # author's surname and initials and carries the year in parentheses.
+        entries = set()
+        for block in re.split(r"\n[ \t]*\n", refs):
+            flat = re.sub(r"\s+", " ", block).strip()
+            m = re.match(r"([A-Z][A-Za-z'\-]+) [A-Z]{1,3}\b.*?\((\d{4})\)", flat)
+            if m:
+                entries.add((m.group(1), m.group(2)))
+        cited = set()
+        for m in re.finditer(
+                r"([A-Z][A-Za-z'\-]+)(?: et al\.| and [A-Z][A-Za-z'\-]+)?"
+                r" \(?(\d{4})\)?(?=[);,.:] |\) )", flat_body):
+            if 1900 <= int(m.group(2)) <= 2026:
+                cited.add((m.group(1), m.group(2)))
+        # "Katoh and Standley 2013" also matches on the second surname, which
+        # is not a reference key. "Henikoff and Henikoff" is not such a case.
+        second = {(m.group(2), m.group(3)) for m in re.finditer(
+            r"([A-Z][A-Za-z'\-]+) and ([A-Z][A-Za-z'\-]+) (\d{4})", flat_body)
+            if m.group(1) != m.group(2)}
+        cited -= second
+        check("every in-text citation has a reference entry",
+              sorted(c for c in cited if c not in entries), [])
+        check("every reference entry is cited",
+              sorted(e for e in entries if e not in cited), [])
+        dois = re.findall(r"doi:(\S+?)(?:\s|$)", flat_refs)
+        check("reference entries carry a DOI", len(dois) >= 33, True)
+        check("every DOI is well formed",
+              [d for d in dois if not re.match(r"^10\.\d{4,9}/\S+$", d)], [])
+        check("DOIs are distinct", len(set(dois)), len(dois))
+        # Phenotype references are catalogue-sourced and must say so, because
+        # citing them does not assert that the primary record was read.
+        check("phenotype references are labelled as catalogue-sourced",
+              flat_refs.count("via HerpesDRG"), 9)
+        check("the citation provenance note is present",
+              "not from an independent literature search" in flat_refs, True)
+
+    # --- The mathematics promised in the methods is actually written out.
+    for label, needle in (
+            ("Wilson interval", r"\sqrt{\frac{\hat{p}(1-\hat{p})}{n}"),
+            ("Nei-Gojobori site counting", r"S(c) = \sum_{i=1}^{3}"),
+            ("pathway averaging", r"\Pi_m"),
+            ("Jukes-Cantor", r"-\frac{3}{4}\ln"),
+            ("relative solvent accessibility", r"\mathrm{ASA}_{\max}(a_i)"),
+            ("masked marginal", r"x_{\setminus i}"),
+            ("average precision", r"\mathrm{AP} = \frac{1}{P}"),
+            ("Matthews correlation", r"{\sqrt{(TP{+}FP)(TP{+}FN)"),
+            ("two-sided bootstrap p", r"\widehat{\Pr}[\Delta \le 0]"),
+            ("Holm adjustment", r"\tilde{p}_{(i)} = \max_{j \le i}"),
+            ("permutation p", r"\rho^{*}_{r} \ge \rho_{\text{obs}}"),
+            ("fold-change maximum", r"\mathrm{FC}(v) = \max"),
+    ):
+        check(f"methods write out the {label}", needle in ms, True)
+
+    check("the statistics section exists", "### 2.8 Statistical definitions" in ms, True)
+    check("the null's metric is named in 6.1",
+          "Spearman $\\rho$ of **−0.16 to −0.29**" in ms, True)
+    # Both replicate counts are stated, and they differ between phases.
+    check("Phase 4 bootstrap size is stated", "2,000 replicates for every Phase 4" in ms, True)
+    check("permutation replicate count is stated", "$R = 100$ replicates" in ms, True)
+
     # The guide quotes the size of this gate, so the gate checks the quote.
     # The count includes this check, which is the fixed point to write down.
     m = re.search(r"runs \*\*(\d+) checks\*\*", guide)
