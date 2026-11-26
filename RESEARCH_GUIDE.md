@@ -810,7 +810,7 @@ Stated as the paper states them, without softening.
 
 Every figure quoted in the manuscript, README, pre-declaration and data
 dictionary is re-read from its source summary and compared, by
-`scripts/p4_05_verify.py`. It currently runs **249 checks** and the pipeline
+`scripts/p4_05_verify.py`. It currently runs **251 checks** and the pipeline
 fails if any disagrees.
 
 This is not decoration. The gate has caught real errors that survived multiple

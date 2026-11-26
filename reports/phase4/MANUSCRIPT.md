@@ -134,7 +134,7 @@ primary set throughout §§5 and 6.
 entry may hold several phenotype records, from different studies, assays and
 drugs. The value used here is the maximum over all of them:
 
-$$\mathrm{FC}(v) = \max_{r \,\in\, \mathcal{R}(v)} \; \max_{d \,\in\, \mathcal{D}(r)} \mathrm{fc}(r, d),$$
+$$\mathrm{FC}(v) = \max_{r \in \mathcal{R}(v)} \quad \max_{d \in \mathcal{D}(r)} \mathrm{fc}(r, d),$$
 
 for records $\mathcal{R}(v)$ of variant $v$ and drugs $\mathcal{D}(r)$ tested in
 record $r$. Taking the maximum is the conservative choice for Aim 1, whose
@@ -163,7 +163,7 @@ score interval (Wilson 1927). For $z = 1.96$ the interval is
 
 $$
 \frac{\hat{p} + \dfrac{z^{2}}{2n}}{1 + \dfrac{z^{2}}{n}}
-\;\pm\;
+\pm
 \frac{z}{1 + \dfrac{z^{2}}{n}}
 \sqrt{\frac{\hat{p}(1-\hat{p})}{n} + \frac{z^{2}}{4n^{2}}},
 $$
@@ -198,7 +198,7 @@ For a codon $c$, the synonymous and non-synonymous site counts are
 
 $$
 S(c) = \sum_{i=1}^{3} \frac{1}{3} \sum_{b \neq c_i}
-  \mathbf{1}\!\left[\, \tau(c^{i \to b}) = \tau(c) \,\right],
+  \mathbf{1}\left[ \tau(c^{i \to b}) = \tau(c) \right],
 \qquad N(c) = 3 - S(c),
 $$
 
@@ -227,7 +227,7 @@ proportions $p_S = S_d / S$ and $p_N = N_d / N$, to which the Jukes–Cantor
 correction for multiple hits at the same site is applied:
 
 $$
-d = -\frac{3}{4}\ln\!\left(1 - \frac{4p}{3}\right),
+d = -\frac{3}{4}\ln\left(1 - \frac{4p}{3}\right),
 \qquad \text{undefined for } p \geq \tfrac{3}{4},
 $$
 
@@ -282,9 +282,7 @@ mask token, the model is run once over the masked sequence, and the variant is
 scored by the log-ratio of the two residues' probabilities at that position:
 
 $$
-s(i, a \!\rightarrow\! b) =
-  \log P\!\left(x_i = b \mid x_{\setminus i}\right)
-  - \log P\!\left(x_i = a \mid x_{\setminus i}\right),
+s(i, a \rightarrow b) = \log P\left(x_i = b \mid x_{\setminus i}\right) - \log P\left(x_i = a \mid x_{\setminus i}\right),
 $$
 
 both terms taken from the same softmax over the amino-acid vocabulary, computed
@@ -319,9 +317,9 @@ groups, scored by Spearman $\rho$. The selected configuration is refit on the
 whole training fold and predicts the test fold once; this nesting is what keeps
 the reported figure from being a model-selection score rather than a
 generalisation score (Varma and Simon 2006). Estimators are ridge regression
-(Hoerl and Kennard 1970) over $\alpha \in \{0.1, 1, 10, 100\}$ and a random
-forest (Breiman 2001) of 300 trees over `min_samples_leaf` $\in \{1, 5\}$ and
-`max_features` $\in \{0.5, 1.0\}$. Every fold's predictions are written back
+(Hoerl and Kennard 1970) over $\alpha \in \lbrace 0.1, 1, 10, 100 \rbrace$ and a random
+forest (Breiman 2001) of 300 trees over `min_samples_leaf` $\in \lbrace 1, 5 \rbrace$ and
+`max_features` $\in \lbrace 0.5, 1.0 \rbrace$. Every fold's predictions are written back
 into a single out-of-fold vector of length 119, and that vector — not any
 within-fold score — is what §5 evaluates.
 
@@ -336,7 +334,7 @@ number depends on a convention the reader has to guess. Implementation:
 `scripts/p4_01_metrics.py` and `scripts/p3_05_audit.py`.
 
 **Average precision.** Variants are ranked by score, descending, with stable
-tie-breaking. With $y_k \in \{0,1\}$ the label of the $k$-th ranked variant and
+tie-breaking. With $y_k \in \lbrace 0,1 \rbrace$ the label of the $k$-th ranked variant and
 $P = \sum_k y_k$ the number of positives,
 
 $$
@@ -385,12 +383,12 @@ On each of 2,000 resamples $b$ the same resampled mutations score both models,
 giving $\Delta_b = \mathrm{AP}_b(\text{model}) - \mathrm{AP}_b(\text{frequency})$;
 resamples containing only one class are discarded. Pairing on the same resample
 removes between-resample variance from the comparison. The interval is the
-2.5th and 97.5th percentiles of $\{\Delta_b\}$, and the two-sided $p$ is the
+2.5th and 97.5th percentiles of $\lbrace \Delta_b \rbrace$, and the two-sided $p$ is the
 sign-flip proportion, doubled and capped:
 
 $$
-p = \min\!\left(1,\; 2 \min\left(
-  \widehat{\Pr}[\Delta \le 0],\;
+p = \min\left(1, \quad 2 \min\left(
+  \widehat{\Pr}[\Delta \le 0], \quad
   \widehat{\Pr}[\Delta \ge 0] \right)\right).
 $$
 
@@ -399,7 +397,7 @@ model-versus-baseline comparisons. With $p_{(1)} \le \dots \le p_{(m)}$ ordered,
 the adjusted value is
 
 $$
-\tilde{p}_{(i)} = \max_{j \le i} \; \min\!\left(1,\; (m - j + 1)\, p_{(j)}\right),
+\tilde{p}_{(i)} = \max_{j \le i} \min\left(1, (m - j + 1) p_{(j)}\right),
 $$
 
 the running maximum enforcing monotonicity. Holm rather than
@@ -414,7 +412,7 @@ $R = 100$ replicates and $\rho_{\text{obs}}$ the observed value, the one-sided
 $p$ uses the add-one estimator
 
 $$
-p = \frac{1 + \#\{\, \rho^{*}_{r} \ge \rho_{\text{obs}} \,\}}{1 + R},
+p = \frac{1 + \lvert \lbrace r : \rho^{*}_{r} \ge \rho_{\text{obs}} \rbrace \rvert}{1 + R},
 $$
 
 which cannot return zero: the smallest attainable value is

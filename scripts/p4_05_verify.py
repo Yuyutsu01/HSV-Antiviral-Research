@@ -630,6 +630,19 @@ def main():
     ):
         check(f"methods write out the {label}", needle in ms, True)
 
+    # GitHub applies Markdown backslash-escaping before it renders math, so a
+    # backslash followed by punctuation loses its backslash and the character
+    # shows up inside the formula. Only backslash + letters survives. This was
+    # found by rendering the pushed file, not by reading it.
+    fragile = {esc: ms.count(esc) for esc in
+               ("\\!", "\\,", "\\;", "\\#", "\\{", "\\}", "\\|", "\\:")
+               if esc in ms}
+    check("no Markdown-fragile escapes in the mathematics", fragile, {})
+    # A display block whose continuation line starts with "-" becomes a list.
+    bad_dash = [b.strip()[:40] for b in re.findall(r"\$\$(.+?)\$\$", ms, re.S)
+                if re.search(r"\n\s*-", b)]
+    check("no display block continues with a dash", bad_dash, [])
+
     check("the statistics section exists", "### 2.8 Statistical definitions" in ms, True)
     check("the null's metric is named in 6.1",
           "Spearman $\\rho$ of **−0.16 to −0.29**" in ms, True)
