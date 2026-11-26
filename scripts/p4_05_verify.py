@@ -660,6 +660,33 @@ def main():
     check("every embedded figure has alt text",
           [a for a in re.findall(r"!\[([^\]]*)\]\(figures/", ms) if len(a) < 20], [])
 
+    # The reliability rule, which Figure 2 contradicted in the text for weeks:
+    # the manuscript described one criterion of two, named one failing gene of
+    # three, and said failing genes were withheld when the figure plots them.
+    sel = rows(PROC / "selection_by_gene.tsv")
+    unreliable = sorted(f"{r['virus']}:{r['gene']}" for r in sel
+                        if r["reliable"] == "0")
+    check("virus-gene combinations with an unreliable estimate",
+          unreliable, ["HSV2:UL23", "HSV2:UL5", "HSV2:UL52"])
+    by_gene = {f"{r['virus']}:{r['gene']}": r for r in sel}
+    check("HSV-2 UL23 synonymous differences",
+          float(by_gene["HSV2:UL23"]["Sd"]), 32.0, 0.01)
+    check("HSV-2 UL23 synonymous sites, which are not the same thing",
+          float(by_gene["HSV2:UL23"]["syn_sites"]), 303.0, 0.01)
+    # Two of the three fail on concentration alone, not on Sd.
+    for gene, share in (("HSV2:UL5", 0.733), ("HSV2:UL52", 0.616)):
+        check(f"{gene} clears the Sd minimum",
+              float(by_gene[gene]["Sd"]) >= 50, True)
+        check(f"{gene} top-five non-synonymous share",
+              float(by_gene[gene]["top5_site_share_of_nonsyn"]), share, 0.001)
+    check("the manuscript states both reliability criteria",
+          "five most variable sites" in ms and "$S_d \\ge 50$" in ms, True)
+    check("the manuscript says failing genes are plotted, not withheld",
+          "plotted greyed and labelled rather than dropped"
+          in re.sub(r"\s+", " ", ms), True)
+    check("the manuscript no longer calls Sd a count of sites",
+          "32 synonymous sites" in ms, False)
+
     check("the statistics section exists", "### 2.8 Statistical definitions" in ms, True)
     check("the null's metric is named in 6.1",
           "Spearman $\\rho$ of **−0.16 to −0.29**" in ms, True)

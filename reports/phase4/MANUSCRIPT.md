@@ -236,9 +236,21 @@ here ($p \ll 0.1$) the correction is small, and it is applied rather than
 skipped so that genes of different divergence remain comparable. Confidence
 intervals are percentile bootstrap over isolates, 1,000 replicates.
 
-A gene is reported as reliable only when synonymous sites are
-sufficient; HSV-2 UL23 (Sd = 32) is not, and the HSV-2 contrast is withheld
-rather than reported with a wide interval.
+A gene's estimate is called reliable only when two conditions both hold: at
+least 50 synonymous differences ($S_d \ge 50$), and fewer than 60% of its
+non-synonymous differences concentrated in its five most variable sites. The
+second guards against a ratio driven by a handful of positions, which the first
+cannot detect. Three of the eight virus-gene combinations fail:
+
+| Combination | $S_d$ | Top-five share | Fails on |
+| --- | --- | --- | --- |
+| HSV-2 UL23 | 32 | 0.79 | both |
+| HSV-2 UL5 | 386 | 0.73 | concentration |
+| HSV-2 UL52 | 326 | 0.62 | concentration |
+
+A failing gene is still plotted, greyed and labelled (Figure 2), because a row
+that is absent is easier to misread than a row that is flagged. What is withheld
+is the HSV-2 Aim 2 contrast, which needs both of its genes and has one.
 
 ### 2.7 Features and models for Aim 4
 
@@ -586,9 +598,12 @@ interval of ±0.03. Gene-wide rates are insensitive to sampling in a way
 single-variant frequencies are not, which is the general reason to prefer them
 for a selection contrast.
 
-HSV-2 is withheld: UL23 has only 32 synonymous sites and a pN/pS point estimate
-of 2.46 with an interval spanning 1.74–3.67, which is an artefact of the
-denominator rather than evidence of diversifying selection.
+The HSV-2 contrast is withheld: UL23 has only 32 synonymous **differences**
+across 303 synonymous sites, and a pN/pS point estimate of 2.46 with an interval
+spanning 1.74–3.67. That is an artefact of a near-empty denominator rather than
+evidence of diversifying selection. HSV-2 UL5 and UL52 clear the $S_d$ minimum
+but fail the concentration criterion of §2.6, so all three HSV-2 rows in
+Figure 2 are flagged and none of them carries a claim.
 
 ### 4.2 The helicase–primase baseline is effectively zero
 
@@ -1028,10 +1043,12 @@ it contains no substitution. Labelled points are those discussed in §3.1 and
 
 **Figure 2. Purifying selection by gene.** pN/pS by Nei–Gojobori with
 Jukes–Cantor correction, measured against the population consensus rather than
-the reference, with 95% bootstrap intervals over 1,000 resamples. Genes with
-insufficient synonymous sites are withheld rather than plotted with a wide
-interval; HSV-2 UL23 (Sd = 32) is the only exclusion. The annotated contrast is
-the pre-declared Aim 2 comparison.
+the reference, with 95% bootstrap intervals over 1,000 resamples. Genes whose
+estimate fails the two-part reliability rule of §2.6 are plotted greyed and
+labelled rather than dropped — HSV-2 UL23, UL5 and UL52 —
+because a flagged row is harder to misread than a missing one. The annotated
+contrast is the pre-declared Aim 2 comparison; its HSV-2 equivalent is withheld,
+because that contrast needs both genes and UL23 fails.
 
 ![Average precision by gene against each gene's no-skill floor, and average-precision lift per feature group across five temporal hold-outs](figures/figure3_structural_signal.png)
 

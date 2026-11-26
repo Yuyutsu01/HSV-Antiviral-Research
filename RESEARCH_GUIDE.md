@@ -463,11 +463,26 @@ This is the expected direction — TK is dispensable for replication in culture,
 polymerase is not — and it supplies a population-genetic reason why TK
 accumulates the substitutions that then populate resistance catalogues.
 
-**HSV-2 UL23 is withheld rather than reported.** It has only 32 synonymous
-sites, giving a point estimate of 2.46 with an interval spanning 1.74–3.67.
-That is an artefact of a tiny denominator, not evidence of diversifying
-selection, and publishing it with a wide interval would invite exactly the
-wrong reading.
+**The HSV-2 contrast is withheld, and three HSV-2 rows are flagged.** A gene's
+estimate counts as reliable only if it clears both of two bars: at least 50
+synonymous **differences**, and under 60% of its non-synonymous differences
+sitting in its five most variable positions. Three of the eight virus-gene
+combinations fail.
+
+| Combination | Synonymous differences | Top-five share | Fails on |
+| --- | --- | --- | --- |
+| HSV-2 UL23 | 32 | 0.79 | both bars |
+| HSV-2 UL5 | 386 | 0.73 | concentration |
+| HSV-2 UL52 | 326 | 0.62 | concentration |
+
+HSV-2 UL23's 32 synonymous differences — across 303 synonymous *sites*, which
+are a different quantity — give a point estimate of 2.46 spanning 1.74 to 3.67.
+That is an artefact of a near-empty denominator, not diversifying selection.
+
+Those rows are still **plotted**, greyed and labelled, rather than dropped: a
+row that is simply missing is easier to misread than one that is flagged. What
+is withheld is the HSV-2 Aim 2 contrast, which needs both of its genes and has
+one.
 
 ### 8.3 Aim 3 — the pre-therapeutic baseline
 
@@ -810,7 +825,7 @@ Stated as the paper states them, without softening.
 
 Every figure quoted in the manuscript, README, pre-declaration and data
 dictionary is re-read from its source summary and compared, by
-`scripts/p4_05_verify.py`. It currently runs **259 checks** and the pipeline
+`scripts/p4_05_verify.py`. It currently runs **269 checks** and the pipeline
 fails if any disagrees.
 
 This is not decoration. The gate has caught real errors that survived multiple
