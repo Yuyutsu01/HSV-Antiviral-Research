@@ -643,6 +643,23 @@ def main():
                 if re.search(r"\n\s*-", b)]
     check("no display block continues with a dash", bad_dash, [])
 
+    # Captions without images: the figures were committed and described for
+    # weeks while section 9 displayed none of them. Paths are relative to the
+    # manuscript's own directory, so they must resolve from there.
+    ms_dir = REP / "phase4"
+    for stem, label in (("figure1_catalogue_vs_population", "1"),
+                        ("figure2_selection", "2"),
+                        ("figure3_structural_signal", "3")):
+        check(f"figure {label} is embedded",
+              f"](figures/{stem}.png)" in ms, True)
+        check(f"figure {label} links its vector PDF",
+              f"](figures/{stem}.pdf)" in ms, True)
+    refs = re.findall(r"\]\((figures/[^)]+)\)", ms)
+    check("every figure path in the manuscript resolves",
+          [p for p in refs if not (ms_dir / p).exists()], [])
+    check("every embedded figure has alt text",
+          [a for a in re.findall(r"!\[([^\]]*)\]\(figures/", ms) if len(a) < 20], [])
+
     check("the statistics section exists", "### 2.8 Statistical definitions" in ms, True)
     check("the null's metric is named in 6.1",
           "Spearman $\\rho$ of **−0.16 to −0.29**" in ms, True)
